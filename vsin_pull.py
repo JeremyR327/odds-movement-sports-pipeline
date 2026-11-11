@@ -89,8 +89,8 @@ def parse_tracker(html):
     def text(frag):
         return unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", frag))).strip()
 
-    def val(frag):  # "-" placeholders -> ""
-        t = text(frag)
+    def val(frag):  # "-" placeholders -> ""; drop line-move arrows (sp-arrow-up/dn ▲▼)
+        t = re.sub(r"\s+", " ", re.sub(r"[▲▼]", "", text(frag))).strip()
         return "" if t in ("-", "- -") else t
 
     fg = re.search(r'<tbody[^>]*class="[^"]*sp-tbody-fg[^"]*"[^>]*>(.*?)</tbody>', html, flags=re.S)
