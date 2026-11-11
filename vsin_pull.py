@@ -72,12 +72,25 @@ def parse_splits(html):
 
 def parse_tracker(html):
     """OPEN row (Circa open) + away/home rows (Circa current is the first book column)."""
-    rows, games = table_rows(html), []
+    rows, games, seen, in_second = table_rows(html), [], set(), False
     for i, c in enumerate(rows):
+        # Each date block lists Circa's group of books first, then a second header
+        # (Westgate | Stations | South Point | Wynn) that repeats the same games.
+        if any(x.lower().startswith("westgate") for x in c[:3]):
+            in_second = True
+            continue
+        if any(x.upper() == "CIRCA" for x in c[:3]):
+            in_second = False
+            continue
+        if in_second:
+            continue
         if "OPEN" in c[0] and i + 2 < len(rows):
             a, h = rows[i + 1], rows[i + 2]
             if len(c) < 4 or len(a) < 4:
                 continue
+            if (a[0], h[0]) in seen:
+                continue
+            seen.add((a[0], h[0]))
             tip = re.search(r"\d+:\d+ [AP]M", c[0])
             games.append({"tip": tip.group(0) if tip else "", "away": a[0], "home": h[0],
                           "circa_open_away_spread": c[1], "circa_open_away_ml": c[2], "circa_open_total": c[3],
