@@ -11,6 +11,9 @@ workflows call this after each pull. The gist holds:
   README.md                              update time and file list
 Raw files: https://gist.githubusercontent.com/<owner>/<GIST_ID>/raw/<file>
 
+`python publish_gist.py --write-dir data/latest` writes the same files into the
+repo instead (fixed names, so they can be read from a public repo's raw URLs).
+
 Needs env GIST_TOKEN (token with gist scope only) and GIST_ID. Exits 0 without
 doing anything if either is missing, so the pull workflows never fail on it.
 Anyone who has the gist URL can read it: keep GIST_ID out of public places.
@@ -63,7 +66,30 @@ def build_files(day):
     return {k: v for k, v in files.items() if v.strip()}
 
 
+def write_dir(out):
+    """Write the same files to a folder (e.g. data/latest) so they can be read at
+    fixed URLs from the repo itself, without the gist."""
+    day = latest_day_dir()
+    if not day:
+        print("no data folder yet; skipping")
+        return 0
+    files = build_files(day)
+    os.makedirs(out, exist_ok=True)
+    for old in glob.glob(os.path.join(out, "*")):
+        if os.path.basename(old) not in files and os.path.isfile(old):
+            os.remove(old)
+    now = datetime.now(ZoneInfo("America/New_York")).isoformat(timespec="minutes")
+    files["README.md"] = f"Latest pipeline data, written {now} ET from `{day}`. Same layout as the gist; see publish_gist.py.\n"
+    for name, content in files.items():
+        with open(os.path.join(out, name), "w", encoding="utf-8") as f:
+            f.write(content)
+    print(f"wrote {len(files)} files to {out} from {day}")
+    return 0
+
+
 def main():
+    if len(sys.argv) == 3 and sys.argv[1] == "--write-dir":
+        return write_dir(sys.argv[2])
     token, gist_id = os.environ.get("GIST_TOKEN", "").strip(), os.environ.get("GIST_ID", "").strip()
     if not token or not gist_id:
         print("GIST_TOKEN or GIST_ID not set; skipping gist publish")
