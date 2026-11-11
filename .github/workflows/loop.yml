@@ -1,0 +1,42 @@
+name: Pipeline loop
+
+# Keeps the pulls running without GitHub's cron (which never fired for this repo):
+# each run pulls on a clock for ~5.5 hours (loop_pull.py), then starts the next run.
+# Start it once with "Run workflow". To stop it, cancel the running job (a cancelled
+# run does not start another).
+on:
+  workflow_dispatch: {}
+  schedule:
+    # Backup restart in case the chain ever breaks, if GitHub's scheduler starts working.
+    - cron: "41 13 * * *"
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: pipeline-loop
+  cancel-in-progress: false
+
+jobs:
+  loop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pull VSiN every 30 min and TeamRankings 3x a day
+        env:
+          VSIN_COOKIE: ${{ secrets.VSIN_COOKIE }}
+          TEAMRANKINGS_COOKIE: ${{ secrets.TEAMRANKINGS_COOKIE }}
+        run: |
+          git config user.name "pipeline-loop-bot"
+          git config user.email "actions@users.noreply.github.com"
+          python loop_pull.py
+      - name: Start the next loop run
+        if: success() || failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run loop.yml --ref main
