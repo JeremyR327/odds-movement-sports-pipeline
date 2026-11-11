@@ -63,7 +63,92 @@ def build_files(day):
             paths = sorted(glob.glob(os.path.join(day, f"[0-9][0-9][0-9][0-9]_{kind}_{sport}.csv")))
             if paths:
                 files[f"{kind}_{sport}.csv"] = open(paths[-1], encoding="utf-8").read()
+    for sport in SPORTS:
+        b = brief(files, sport)
+        if b:
+            files[f"brief_{sport}.md"] = b
     return {k: v for k, v in files.items() if v.strip()}
+
+
+def _num(s):
+    """First number in a cell ('+2.5 -110' -> 2.5, 'PK' -> 0.0, '' -> None)."""
+    s = (s or "").strip()
+    if s.upper().startswith("PK"):
+        return 0.0
+    m = re.match(r"[+-]?\d+(?:\.\d+)?", s.replace(",", ""))
+    return float(m.group(0)) if m else None
+
+
+def _rows(text):
+    import csv, io
+    return list(csv.DictReader(io.StringIO(text))) if text else []
+
+
+def _by_game(rows):
+    """{(away, home): row} for the newest pull, and the same for the first pull of the day."""
+    if not rows:
+        return {}, {}
+    pulls = sorted({r["pulled_et"] for r in rows})
+    first = {(r["away"], r["home"]): r for r in rows if r["pulled_et"] == pulls[0]}
+    last = {(r["away"], r["home"]): r for r in rows if r["pulled_et"] == pulls[-1]}
+    return last, first
+
+
+def _pct(r, side, kind):
+    """'bets/handle' for one side, e.g. '23/12'."""
+    if not r:
+        return "-"
+    b, h = _num(r.get(f"{side}_{kind}_bets")), _num(r.get(f"{side}_{kind}_handle"))
+    return "-" if b is None or h is None else f"{b:.0f}/{h:.0f}"
+
+
+def brief(files, sport):
+    """One markdown line per game: Circa open->now, DK/Circa splits (away side, bets/handle %),
+    DK first pull of the day, and rubric flags. Small enough to read reliably by WebFetch."""
+    dk, dk_first = _by_game(_rows(files.get(f"splits_DK_{sport}.csv")))
+    ci, _ = _by_game(_rows(files.get(f"splits_CIRCA_{sport}.csv")))
+    ln, _ = _by_game(_rows(files.get(f"circa_{sport}.csv")))
+    if not dk and not ln:
+        return ""
+    stamp = next(iter(dk.values()))["pulled_et"][11:16] if dk else "?"
+    first_stamp = next(iter(dk_first.values()))["pulled_et"][11:16] if dk_first else "?"
+    out = [f"# {sport} brief — DK/Circa pull {stamp} ET (DK first pull {first_stamp} ET)", "",
+           "Splits are AWAY side as bets%/handle% (home = 100 minus). Spreads are the away team's. "
+           "Flags: PUB = 65%+ of DK bets on one side; SHARP DK = handle minus bets >= +15, SHARP CI = >= +10 (Circa); "
+           "RLM = Circa spread moved toward the side with under 50% of DK bets. 0/0 and 100/100 cells and thin Circa samples (0/50/100) are not flagged.", "",
+           "| Game | Tip | Circa spread open→now | Circa total open→now | DK spr | DK spr first | Circa spr | DK over | Circa over | DK ML | Flags |",
+           "|---|---|---|---|---|---|---|---|---|---|---|"]
+    order = list(ln) + [k for k in dk if k not in ln]  # line-tracker order is the page's date/tip order
+    for key in order:
+        d, f, c, l = dk.get(key), dk_first.get(key), ci.get(key), ln.get(key)
+        o_sp, n_sp = (_num(l.get("circa_open_away_spread")), _num(l.get("circa_away_spread"))) if l else (None, None)
+        o_to, n_to = (_num(l.get("circa_open_total")), _num(l.get("circa_total"))) if l else (None, None)
+        flags = []
+        if d:
+            ab, ah = _num(d.get("away_sp_bets")), _num(d.get("away_sp_handle"))
+            if ab is not None and ah is not None and not (ab in (0, 100) and ah in (0, 100)):  # 0/0, 100/100 = feed artifacts
+                if ab >= 65 or ab <= 35:
+                    flags.append(f"PUB {'away' if ab >= 65 else 'home'} {max(ab, 100 - ab):.0f}%")
+                if ah - ab >= 15 or ab - ah >= 15:
+                    flags.append(f"SHARP DK {'away' if ah > ab else 'home'} +{abs(ah - ab):.0f}")
+                if o_sp is not None and n_sp is not None and o_sp != n_sp:
+                    toward_away = n_sp < o_sp  # away spread got smaller = market moved toward away
+                    if (toward_away and ab < 50) or (not toward_away and ab > 50):
+                        flags.append(f"RLM {'away' if toward_away else 'home'}")
+            tb, th = _num(d.get("away_ov_bets")), _num(d.get("away_ov_handle"))
+            if tb is not None and th is not None and not (tb in (0, 100) and th in (0, 100)) and abs(th - tb) >= 15:
+                flags.append(f"SHARP DK {'over' if th > tb else 'under'} +{abs(th - tb):.0f}")
+        if c:
+            cb, chh = _num(c.get("away_sp_bets")), _num(c.get("away_sp_handle"))
+            if cb is not None and chh is not None and cb not in (0, 50, 100) and abs(chh - cb) >= 10:
+                flags.append(f"SHARP CI {'away' if chh > cb else 'home'} +{abs(chh - cb):.0f}")
+        fmt = lambda a, b: "-" if a is None and b is None else f"{'' if a is None else f'{a:+g}'}→{'' if b is None else f'{b:+g}'}"
+        fmt_t = lambda a, b: "-" if a is None and b is None else f"{'' if a is None else f'{a:g}'}→{'' if b is None else f'{b:g}'}"
+        when = f"{l.get('date', '')} {l.get('tip', '')}".strip() if l else (d.get("day", "") if d else "")
+        out.append(f"| {key[0]} @ {key[1]} | {when} | {fmt(o_sp, n_sp)} | {fmt_t(o_to, n_to)} | "
+                   f"{_pct(d, 'away', 'sp')} | {_pct(f, 'away', 'sp')} | {_pct(c, 'away', 'sp')} | "
+                   f"{_pct(d, 'away', 'ov')} | {_pct(c, 'away', 'ov')} | {_pct(d, 'away', 'ml')} | {'; '.join(flags) or '-'} |")
+    return "\n".join(out) + "\n"
 
 
 def write_dir(out):
