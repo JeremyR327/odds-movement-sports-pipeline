@@ -52,10 +52,15 @@ def pct(s):
 
 def parse_splits(html):
     """Pairs of team rows: team, spread, handle%, bets%, total, handle%, bets%, ML, handle%, bets%."""
+    from html import unescape  # local import: the `html` argument shadows the module name
+
     games, day, pend = [], "", None
     for c in table_rows(html):
+        # Cells arrive HTML-escaped: the split-history button is "&#8634;" (↺), "&amp;" in names.
+        c = [unescape(x) for x in c]
         if re.match(r"^(CFB|NFL|NBA|CBB|NCAAB|CBK) - ", c[0]):
-            day, pend = c[0], None
+            # Header reads "NFL - Thursday, Nov 12 Nov 12" (date printed twice); keep one copy.
+            day, pend = re.sub(r"(\b\w{3} \d{1,2})\s+\1$", r"\1", c[0]), None
             continue
         q = c[1:] if (c[0] == "↺" or re.fullmatch(r"\d+", c[0])) else c
         if len(q) < 10:
