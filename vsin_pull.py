@@ -71,31 +71,76 @@ def parse_splits(html):
 
 
 def parse_tracker(html):
-    """OPEN row (Circa open) + away/home rows (Circa current is the first book column)."""
-    rows, games, seen, in_second = table_rows(html), [], set(), False
-    for i, c in enumerate(rows):
-        # Each date block lists Circa's group of books first, then a second header
-        # (Westgate | Stations | South Point | Wynn) that repeats the same games.
-        if any(x.lower().startswith("westgate") for x in c[:3]):
-            in_second = True
+    """Circa OPEN + CURRENT full-game lines from the public VSiN line tracker.
+
+    Page layout (one <table class="sp-table">):
+      <thead>  book headers; the first <th> holds the first date ("Thu, Nov 12").
+               Set A = Circa | Boomers | BetMGM | Caesars, set B = Westgate | Stations |
+               South Point | Wynn. Set B is an alternate column set on the SAME rows
+               (hidden by CSS / a toggle), not a second list of games.
+      <tbody class="sp-tbody-fg">  Full Game lines  <- parsed
+      <tbody class="sp-tbody-1h">  1st Half lines (same games, hidden by default) <- ignored
+    In a tbody each game is 3 rows: OPEN row (tip time + opening line, quoted from the
+    away side), away row, home row. Header rows with class sp-date-book-head start a
+    new date. Every book is 3 cells (SPR, ML, TOT); "-" means no line.
+    """
+    from html import unescape  # local import: the `html` argument shadows the module name
+
+    def text(frag):
+        return unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", frag))).strip()
+
+    def val(frag):  # "-" placeholders -> ""
+        t = text(frag)
+        return "" if t in ("-", "- -") else t
+
+    fg = re.search(r'<tbody[^>]*class="[^"]*sp-tbody-fg[^"]*"[^>]*>(.*?)</tbody>', html, flags=re.S)
+    if not fg:
+        return []
+    thead = re.search(r"<thead[^>]*>(.*?)</thead>", html, flags=re.S)
+    thead = thead.group(1) if thead else ""
+
+    # Locate Circa's 3 columns from the header (cell 0 is the game/team cell).
+    books = []
+    for cls in ("sp-book-set-a-head", "sp-book-set-b-head"):
+        m = re.search(r'<tr[^>]*class="[^"]*sp-header-books[^"]*' + cls + r'[^"]*"[^>]*>(.*?)</tr>', thead, flags=re.S)
+        if m:
+            books += [text(b) for b in re.findall(r'<th[^>]*sp-book-group[^>]*>(.*?)</th>', m.group(1), flags=re.S)]
+    if "Circa" not in books:
+        raise ValueError(f"Circa not found in tracker header: {books}")
+    base = 1 + 3 * books.index("Circa")
+
+    d = re.search(r'<th[^>]*sp-game-th[^>]*>(.*?)</th>', thead, flags=re.S)
+    date = text(d.group(1)) if d else ""
+
+    rows = []  # (class attr, [cell html, ...])
+    for attrs, body in re.findall(r"<tr([^>]*)>(.*?)</tr>", fg.group(1), flags=re.S):
+        cls = re.search(r'class="([^"]*)"', attrs)
+        rows.append((cls.group(1) if cls else "", re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", body, flags=re.S)))
+
+    games, i = [], 0
+    while i < len(rows):
+        cls, cells = rows[i]
+        if "sp-date-book-head" in cls and "sp-header-books" in cls:
+            if cells and text(cells[0]):
+                date = text(cells[0])
+            i += 1
             continue
-        if any(x.upper() == "CIRCA" for x in c[:3]):
-            in_second = False
+        if "sp-row-open" not in cls or i + 2 >= len(rows):
+            i += 1
             continue
-        if in_second:
+        o, a, h = cells, rows[i + 1][1], rows[i + 2][1]
+        i += 3
+        if min(len(o), len(a), len(h)) < base + 3:
             continue
-        if "OPEN" in c[0] and i + 2 < len(rows):
-            a, h = rows[i + 1], rows[i + 2]
-            if len(c) < 4 or len(a) < 4:
-                continue
-            if (a[0], h[0]) in seen:
-                continue
-            seen.add((a[0], h[0]))
-            tip = re.search(r"\d+:\d+ [AP]M", c[0])
-            games.append({"tip": tip.group(0) if tip else "", "away": a[0], "home": h[0],
-                          "circa_open_away_spread": c[1], "circa_open_away_ml": c[2], "circa_open_total": c[3],
-                          "circa_away_spread": a[1], "circa_away_ml": a[2], "circa_total": a[3],
-                          "circa_home_spread": h[1], "circa_home_ml": h[2]})
+        tip = re.search(r"\d+:\d+ [AP]M", text(o[0]))
+        games.append({"date": date, "tip": tip.group(0) if tip else "",
+                      "away": text(a[0]), "home": text(h[0]),
+                      "circa_open_away_spread": val(o[base]), "circa_open_away_ml": val(o[base + 1]),
+                      "circa_open_total": val(o[base + 2]),
+                      "circa_away_spread": val(a[base]), "circa_away_ml": val(a[base + 1]),
+                      "circa_total": val(a[base + 2]),
+                      "circa_home_spread": val(h[base]), "circa_home_ml": val(h[base + 1]),
+                      "circa_home_total": val(h[base + 2])})
     return games
 
 
