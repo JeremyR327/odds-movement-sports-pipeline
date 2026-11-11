@@ -37,6 +37,13 @@ jobs:
           git add data
           git diff --cached --quiet || git commit -m "VSiN pull $(TZ=America/New_York date '+%Y-%m-%d %H:%M ET')"
           git push
+      - name: Publish latest data to the gist (read by the nightly Claude analysis)
+        if: always()
+        env:
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+          GIST_ID: ${{ secrets.GIST_ID }}
+        run: python publish_gist.py
+        continue-on-error: true
       - name: Fail loudly if the cookie expired
         if: steps.pull.outcome == 'failure'
         run: |

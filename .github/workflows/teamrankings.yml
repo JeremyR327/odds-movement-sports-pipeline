@@ -38,6 +38,13 @@ jobs:
           git diff --cached --quiet || git commit -m "TeamRankings pull $(TZ=America/New_York date '+%Y-%m-%d %H:%M ET')"
           git pull --rebase origin main
           git push
+      - name: Publish latest data to the gist (read by the nightly Claude analysis)
+        if: always()
+        env:
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+          GIST_ID: ${{ secrets.GIST_ID }}
+        run: python publish_gist.py
+        continue-on-error: true
       - name: Fail loudly if a page failed or the cookie expired
         if: steps.pull.outcome == 'failure'
         run: |
