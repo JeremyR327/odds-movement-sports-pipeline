@@ -1,0 +1,45 @@
+name: TeamRankings pull
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    # UTC times = 10:23 AM, 3:23 PM and 6:23 PM ET (winter). Ratings/trends update daily;
+    # the extra runs catch picks changes before the afternoon and evening scans.
+    - cron: "23 15,20,23 * * *"
+
+permissions:
+  contents: write
+
+# Same group as the VSiN pull so the two never push to main at the same time.
+concurrency:
+  group: vsin-pull
+  cancel-in-progress: false
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pull TeamRankings picks, ratings, trends and stats
+        id: pull
+        env:
+          TEAMRANKINGS_COOKIE: ${{ secrets.TEAMRANKINGS_COOKIE }}
+        run: python teamrankings_pull.py
+        continue-on-error: true
+      - name: Save data to the repo
+        run: |
+          git config user.name "teamrankings-pull-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "TeamRankings pull $(TZ=America/New_York date '+%Y-%m-%d %H:%M ET')"
+          git pull --rebase origin main
+          git push
+      - name: Fail loudly if a page failed or the cookie expired
+        if: steps.pull.outcome == 'failure'
+        run: |
+          cat data/tr_status.json
+          exit 1
