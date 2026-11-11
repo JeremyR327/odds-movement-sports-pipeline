@@ -3,9 +3,10 @@ name: VSiN pull
 on:
   workflow_dispatch: {}
   schedule:
-    # UTC times. Every 30 min, 9 AM to midnight ET (winter).
-    - cron: "7,37 14-23 * * *"
-    - cron: "7,37 0-4 * * *"
+    # UTC times. Every 30 min, 9 AM to midnight ET (winter). The evening analysis
+    # task reads the 5:39 PM ET pull, so keep a run just before 5:52 PM ET.
+    - cron: "9,39 14-23 * * *"
+    - cron: "9,39 0-4 * * *"
 
 permissions:
   contents: write

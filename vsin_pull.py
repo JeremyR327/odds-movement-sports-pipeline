@@ -8,7 +8,7 @@ split movement (and which book moved first).
 Exit codes: 0 = everything pulled; 1 = some sources failed (see status.json);
 2 = VSiN cookie missing/expired (paywall) -> refresh the secret.
 """
-import csv, json, os, re, sys, urllib.request
+import csv, json, os, re, sys, time, urllib.request
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -30,8 +30,14 @@ def get(url, cookie=None):
     h = {"User-Agent": UA}
     if cookie:
         h["Cookie"] = cookie
-    with urllib.request.urlopen(urllib.request.Request(url, headers=h), timeout=40) as r:
-        return r.read().decode("utf-8", "replace")
+    for attempt in range(3):  # retry dropped/truncated transfers (e.g. IncompleteRead)
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=h), timeout=40) as r:
+                return r.read().decode("utf-8", "replace")
+        except Exception:
+            if attempt == 2:
+                raise
+            time.sleep(5 * (attempt + 1))
 
 
 def table_rows(html):
