@@ -1,0 +1,1461 @@
+pulled_et,stat,season_label,rank,team,season,last3,last1,home,away,prev_season
+2026-11-11T16:18-05:00,possessions-per-game,2026,1,Tennessee St,86.7,86.7,86.7,--,86.7,73.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,2,Alabama St,85.4,85.4,85.4,--,85.4,72.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,3,Boise St,85.3,85.3,85.3,85.3,--,69.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,4,Texas A&M,85.2,85.2,86.6,85.2,--,75.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,5,Sacramento St,84.6,84.6,84.6,--,84.6,74.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,6,Grand Canyon,84.2,84.2,82.7,84.2,--,70.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,7,UL Monroe,84.1,84.1,91.4,74.2,89.0,72.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,8,Penn,83.9,83.9,79.8,79.8,88.0,71.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,9,CS Fullerton,83.4,83.4,84.1,--,83.4,77.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,10,LSU New Orleans,83.3,83.3,83.3,--,83.3,72.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,11,Tenn Tech,82.9,82.9,86.5,86.5,79.4,69.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,12,Sam Houston,82.8,82.8,82.8,--,82.8,72.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,13,TCU,82.6,82.6,91.4,82.6,--,72.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,14,Cal Poly,82.5,82.5,82.5,--,82.5,78.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,15,AR-Pine Bluff,82.0,82.0,84.0,--,82.0,73.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,16,Alabama,81.7,81.7,74.3,81.7,--,76.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,17,CS Northridge,81.4,81.4,84.1,--,81.4,77.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,18,Texas So,81.3,81.3,76.9,--,81.3,73.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,19,Lafayette,81.2,81.2,82.5,--,81.2,68.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,20,Winthrop,80.9,80.9,83.3,77.2,82.8,74.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,21,Utah Tech,80.9,80.9,82.8,--,80.9,71.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,22,Xavier,80.9,80.9,87.6,80.9,--,73.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,23,N Kentucky,80.7,82.7,83.5,--,80.7,73.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,24,Tarleton St,80.5,80.5,80.5,--,80.5,73.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,25,Saint Joseph's,80.4,80.4,82.5,80.4,--,70.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,26,Siena,80.3,80.3,80.7,77.2,81.9,65.8
+2026-11-11T16:18-05:00,possessions-per-game,2026,27,N Florida,80.2,80.2,82.2,--,80.2,73.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,28,SMU,80.2,80.2,79.1,80.2,--,73.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,29,Jacksonville St,80.1,80.1,80.1,--,80.1,68.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,30,Illinois,80.0,80.0,76.2,82.0,76.2,67.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,31,Utah Valley,79.8,79.8,79.8,--,79.8,72.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,32,Queens,79.7,78.9,78.9,--,79.7,72.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,33,Kennesaw St,79.7,79.7,83.3,79.7,--,74.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,34,Arkansas St,79.6,79.6,74.4,75.4,88.0,74.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,35,South Dakota,79.6,79.6,73.5,79.6,--,74.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,36,NC Wilmington,79.5,79.5,79.5,--,79.5,67.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,36,Air Force,79.5,79.5,80.9,80.9,78.1,68.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,38,Georgia Tech,79.4,79.4,79.0,79.4,--,73.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,39,Santa Clara,79.4,79.4,84.6,79.4,--,71.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,40,Murray St,79.3,79.3,77.8,75.7,86.7,73.8
+2026-11-11T16:18-05:00,possessions-per-game,2026,41,Georgia So,79.3,79.3,88.1,79.5,78.8,74.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,42,UCLA,79.2,79.2,80.8,80.8,77.6,68.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,43,Wichita St,79.1,79.1,79.5,78.7,79.5,71.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,44,Lindenwood,79.0,79.0,79.0,--,79.0,75.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,45,E Kentucky,79.0,79.0,79.0,--,79.0,71.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,46,Detroit Mercy,79.0,79.0,87.6,--,79.0,71.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,47,USC,78.9,78.9,79.5,78.3,79.5,74.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,48,San Diego St,78.8,78.8,74.8,82.8,74.8,72.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,49,Oklahoma St,78.8,78.8,81.8,78.8,--,76.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,50,Milwaukee,78.7,78.7,79.2,--,78.7,70.8
+2026-11-11T16:18-05:00,possessions-per-game,2026,51,W Kentucky,78.7,78.7,86.5,70.9,86.5,73.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,52,LSU,78.5,78.5,75.4,78.5,--,72.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,53,Butler,78.4,78.4,85.3,75.0,85.3,73.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,54,Tulane,78.2,78.2,68.6,78.2,--,70.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,55,Baylor,78.2,78.2,70.5,78.2,--,71.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,56,VMI,78.2,78.2,71.0,--,78.2,69.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,57,UT Martin,78.1,78.1,74.4,--,78.1,67.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,58,Saint Louis,78.1,78.1,83.5,78.2,78.0,73.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,59,UT Arlington,77.9,77.9,75.0,--,77.9,69.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,60,Florida A&M,77.8,77.8,75.0,--,77.8,72.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,61,Oral Roberts,77.7,77.7,77.7,--,77.7,71.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,62,Utah St,77.7,77.7,82.8,77.7,--,70.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,63,Marshall,77.7,77.7,77.4,77.8,77.4,72.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,64,Alcorn St,77.6,77.6,77.8,75.5,78.7,71.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,65,Sacred Heart,77.6,77.6,81.5,73.8,81.5,70.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,66,Florida Intl,77.6,77.6,77.6,77.6,--,74.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,66,W Florida,77.6,77.6,77.6,--,77.6,--
+2026-11-11T16:18-05:00,possessions-per-game,2026,68,Saint Mary's,77.5,77.5,84.6,74.0,84.6,67.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,69,UMBC,77.2,77.2,80.0,--,77.2,68.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,70,Mercer,77.1,77.1,88.1,--,77.1,71.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,71,Samford,77.1,77.1,77.1,--,77.1,70.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,72,Longwood,76.9,76.9,75.5,75.5,78.4,72.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,73,Wofford,76.9,76.9,80.1,--,76.9,70.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,74,Lamar,76.9,76.9,76.9,--,76.9,67.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,75,Mississippi,76.9,76.9,75.8,76.9,--,71.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,76,UC Davis,76.8,76.8,76.8,76.8,--,73.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,77,Nevada,76.7,76.7,84.6,68.9,84.6,69.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,78,Dayton,76.7,76.7,80.7,76.7,--,69.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,79,Idaho St,76.6,76.6,80.9,--,76.6,68.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,80,Morgan St,76.5,76.5,76.5,--,76.5,73.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,81,San Diego,76.5,76.5,72.5,80.5,72.5,70.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,82,Kansas St,76.5,76.5,77.1,76.5,--,75.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,83,C Arkansas,76.5,76.5,75.3,77.7,75.3,71.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,83,Charleston So,76.5,76.5,72.8,--,76.5,77.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,85,Duke,76.5,76.5,74.9,77.3,74.9,68.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,86,Weber St,76.5,76.5,69.2,79.8,74.8,72.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,87,San Jose St,76.4,76.4,75.5,77.3,75.5,67.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,88,S Illinois,76.4,76.4,76.4,--,76.4,72.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,89,Mt St Mary's,76.3,76.3,70.2,70.2,82.5,69.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,90,Pepperdine,76.0,76.0,76.0,--,76.0,71.8
+2026-11-11T16:18-05:00,possessions-per-game,2026,91,Austin Peay,76.0,76.0,76.0,--,76.0,71.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,92,Arkansas,76.0,76.0,72.0,80.0,72.0,75.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,93,Southern,76.0,75.9,78.8,--,76.0,73.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,94,Buffalo,75.9,75.9,73.9,--,75.9,69.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,95,Northeastern,75.9,75.9,75.8,75.8,75.9,71.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,96,Miami,75.8,75.8,82.2,77.8,71.9,70.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,97,Harvard,75.8,75.8,75.8,--,75.8,66.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,98,Florida St,75.8,75.8,74.5,73.4,80.6,73.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,99,Arizona,75.8,75.8,67.2,74.9,77.6,73.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,100,Michigan,75.7,75.7,77.0,74.4,77.0,73.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,101,E Carolina,75.7,75.7,79.5,75.7,--,72.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,102,UC Irvine,75.5,75.5,75.5,75.5,--,73.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,103,Kansas,75.5,75.5,77.0,74.8,77.0,70.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,104,S Carolina St,75.4,75.4,73.5,--,75.4,71.8
+2026-11-11T16:18-05:00,possessions-per-game,2026,105,Drexel,75.4,75.4,74.1,74.1,76.7,67.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,106,Penn St,75.3,75.3,73.8,76.1,73.8,68.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,106,Richmond,75.3,75.3,72.1,78.5,72.1,70.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,108,Creighton,75.2,75.2,77.1,74.2,77.1,70.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,109,Fresno St,75.1,75.1,81.6,81.6,68.6,70.8
+2026-11-11T16:18-05:00,possessions-per-game,2026,110,Houston,75.1,75.1,71.9,78.3,71.9,67.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,111,Jackson St,75.1,75.1,73.7,--,75.1,73.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,112,Toledo,75.0,74.6,70.2,70.2,76.6,71.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,113,SE Missouri St,75.0,75.0,72.7,77.3,72.7,71.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,114,NC Central,75.0,75.0,75.5,--,75.0,68.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,115,Michigan St,74.9,74.9,74.9,74.9,74.9,68.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,116,Georgia St,74.9,74.9,81.6,74.0,75.3,70.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,117,Rice,74.8,74.8,77.2,72.5,77.2,70.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,118,S Indiana,74.8,74.8,76.1,--,74.8,71.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,119,Chattanooga,74.8,74.8,77.6,--,74.8,68.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,120,Valparaiso,74.8,74.8,78.4,71.2,78.4,69.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,121,Chicago St,74.8,74.8,73.5,73.5,75.4,68.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,122,St John's,74.8,74.8,73.3,74.8,--,73.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,123,Colgate,74.7,74.7,74.1,--,74.7,70.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,124,Oregon St,74.6,74.6,77.0,74.6,--,68.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,125,Howard,74.6,74.6,79.8,--,74.6,71.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,126,Pittsburgh,74.5,74.5,73.8,74.9,73.8,66.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,127,Iowa St,74.5,74.5,78.8,75.8,71.9,70.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,128,Le Moyne,74.5,74.5,75.3,--,74.5,70.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,129,Cornell,74.5,74.5,73.0,76.0,73.0,73.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,130,Bryant,74.4,71.6,74.9,78.0,70.9,67.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,131,Portland,74.4,74.4,68.0,--,74.4,72.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,132,S Florida,74.4,74.4,68.6,80.3,68.6,77.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,133,Virginia,74.4,73.6,71.1,75.2,72.0,69.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,134,NC Asheville,74.4,74.4,70.2,70.2,78.5,69.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,135,La Salle,74.3,74.3,69.8,74.9,74.0,68.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,136,Virginia Tech,74.3,74.3,73.5,74.7,73.5,71.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,137,Norfolk St,74.3,74.3,74.3,--,74.3,70.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,137,William & Mary,74.3,74.3,74.3,74.3,--,75.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,139,Monmouth,74.3,74.3,72.3,--,74.3,69.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,140,Loyola Mymt,74.3,74.3,72.5,76.0,72.5,70.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,141,Hampton,74.3,74.3,68.0,--,74.3,68.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,142,BYU,74.2,74.2,78.9,76.1,70.4,72.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,143,UTSA,74.2,74.2,71.0,71.0,77.3,71.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,144,VCU,74.2,74.2,73.4,74.9,73.4,71.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,145,FGCU,74.2,74.2,67.9,--,74.2,72.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,146,Ohio St,74.1,74.1,77.4,76.0,70.4,68.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,147,Tennessee,74.1,74.1,74.5,74.1,--,70.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,148,Niagara,74.1,74.1,76.5,76.5,71.7,65.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,149,Omaha,74.1,74.1,74.8,--,74.1,70.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,150,Evansville,74.1,74.1,72.0,--,74.1,69.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,151,North Carolina,74.0,74.0,68.3,74.0,--,71.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,151,Incarnate Word,74.0,74.0,68.6,77.8,72.1,67.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,153,Florida Atlantic,74.0,74.0,71.1,76.9,71.1,72.8
+2026-11-11T16:18-05:00,possessions-per-game,2026,154,J Madison,74.0,74.0,73.1,74.8,73.1,69.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,155,California,73.9,73.9,71.9,75.9,71.9,72.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,156,Memphis,73.9,73.9,76.3,73.4,74.1,74.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,157,Texas,73.8,73.8,75.5,73.8,--,70.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,158,SE Louisiana,73.7,73.7,75.8,--,73.7,67.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,159,UAB,73.7,73.7,75.0,74.7,71.7,73.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,160,Bethune,73.7,73.7,82.7,--,73.7,73.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,161,Hou Christian,73.7,73.7,73.5,--,73.7,66.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,162,Radford,73.5,73.5,74.5,--,73.5,75.8
+2026-11-11T16:18-05:00,possessions-per-game,2026,162,Holy Cross,73.5,73.5,73.2,--,73.5,67.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,164,UNLV,73.5,73.5,77.1,73.5,--,72.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,165,C Michigan,73.4,73.4,72.7,72.7,74.2,69.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,166,Youngstown St,73.4,73.4,72.7,--,73.4,70.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,167,Belmont,73.4,73.4,73.2,73.5,73.2,72.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,168,Abl Christian,73.3,73.3,76.9,76.9,69.8,71.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,169,American,73.3,73.3,72.1,--,73.3,68.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,170,Providence,73.2,73.2,74.9,74.0,71.5,76.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,171,Miami OH,73.2,73.2,71.6,71.6,74.8,73.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,172,Coastal Car,73.2,73.2,68.1,68.1,83.3,71.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,173,Wright St,73.1,73.1,70.2,74.6,70.2,70.8
+2026-11-11T16:18-05:00,possessions-per-game,2026,174,Texas Tech,73.1,73.1,76.2,73.1,--,69.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,175,Gardner-Webb,73.1,73.1,72.8,--,73.1,72.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,176,F Dickinson,73.0,73.0,70.1,--,73.0,66.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,177,NW State,73.0,73.0,73.5,--,73.0,67.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,178,Prairie View,72.9,72.9,79.1,--,72.9,74.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,179,Fordham,72.9,72.9,71.2,71.0,76.7,66.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,180,Kentucky,72.9,72.9,77.0,70.8,77.0,71.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,181,UConn,72.8,72.8,68.2,70.8,77.0,67.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,182,Mississippi St,72.8,72.8,73.7,72.8,--,73.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,183,Southern Miss,72.8,72.8,72.8,--,72.8,71.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,184,Lipscomb,72.7,71.2,73.2,73.0,72.5,72.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,185,E Washington,72.7,72.7,77.0,--,72.7,71.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,185,IU Indy,72.7,72.7,72.7,72.7,--,76.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,187,Nebraska,72.6,72.6,71.5,73.7,71.5,68.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,188,Louisiana Tech,72.6,72.6,75.4,69.9,75.4,67.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,189,Hawai'i,72.6,72.6,68.0,72.6,--,74.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,190,New Mexico,72.6,72.6,71.7,72.6,--,71.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,191,Grambling,72.6,72.6,75.5,--,72.6,70.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,192,W Georgia,72.6,72.6,69.8,--,72.6,73.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,193,Seattle,72.5,72.5,70.3,70.3,74.8,70.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,194,W Illinois,72.5,72.5,73.8,--,72.5,68.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,195,N Alabama,72.5,72.5,68.2,--,72.5,68.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,196,Middle Tenn,72.4,72.4,72.0,72.0,72.9,69.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,197,SC Upstate,72.4,72.4,68.1,77.3,70.0,72.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,198,New Hampshire,72.4,72.4,81.5,81.5,67.9,70.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,199,NC A&T,72.4,72.4,72.4,--,72.4,71.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,200,Colorado,72.4,72.4,72.5,71.2,74.8,72.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,201,Maine,72.3,72.1,70.8,71.6,72.6,66.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,202,Little Rock,72.3,72.3,71.7,70.4,73.3,69.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,203,Rhode Island,72.3,72.3,70.8,72.3,72.3,68.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,204,Kansas City,72.3,72.3,67.4,76.4,70.3,73.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,205,Marist,72.2,72.2,66.8,74.9,66.8,68.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,206,LIU,72.2,70.7,67.7,--,72.2,70.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,207,Oregon,72.2,72.2,75.5,72.2,--,68.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,208,Purdue FW,72.1,72.1,72.1,--,72.1,70.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,209,UCF,72.0,72.0,64.2,72.0,--,72.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,209,Florida,72.0,72.0,74.5,69.5,73.2,73.8
+2026-11-11T16:18-05:00,possessions-per-game,2026,209,W Carolina,72.0,72.0,70.2,--,72.0,71.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,212,Cal Baptist,72.0,72.0,66.4,77.5,66.4,70.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,213,Colorado St,71.9,71.9,70.6,71.9,--,65.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,213,Furman,71.9,71.9,76.0,76.0,67.9,68.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,215,N Illinois,71.9,71.9,77.6,--,71.9,70.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,216,Wisconsin,71.9,71.9,73.6,71.9,--,71.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,216,Villanova,71.9,71.9,69.8,71.5,72.7,69.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,218,N Iowa,71.9,71.9,67.9,67.9,76.0,65.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,219,Ohio,71.9,71.9,72.4,72.4,71.4,72.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,219,S Alabama,71.9,71.9,64.2,75.8,64.2,68.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,221,Troy,71.9,71.9,72.5,71.7,72.3,71.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,222,North Dakota,71.9,71.9,66.3,--,71.9,71.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,223,Denver,71.7,71.7,71.1,--,71.7,70.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,224,Rutgers,71.7,71.7,76.7,71.7,--,69.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,225,Maryland,71.7,71.7,69.1,74.2,69.1,68.8
+2026-11-11T16:18-05:00,possessions-per-game,2026,226,New Mexico St,71.6,71.6,71.6,--,71.6,69.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,227,Vanderbilt,71.6,71.6,76.3,71.6,--,72.8
+2026-11-11T16:18-05:00,possessions-per-game,2026,228,Drake,71.6,71.6,71.6,71.6,--,69.8
+2026-11-11T16:18-05:00,possessions-per-game,2026,229,UTEP,71.5,71.5,68.6,68.6,74.5,67.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,230,Missouri,71.5,71.5,66.7,68.3,78.0,70.8
+2026-11-11T16:18-05:00,possessions-per-game,2026,231,Navy,71.5,71.5,70.6,70.6,72.4,67.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,232,Nicholls,71.5,71.5,68.6,--,71.5,69.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,233,Fairfield,71.4,71.4,73.6,67.6,73.3,69.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,234,Canisius,71.3,71.3,68.2,68.2,74.5,66.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,235,Ball St,71.3,71.3,71.6,71.6,71.0,67.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,236,DePaul,71.3,71.3,69.9,71.3,--,69.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,237,Louisville,71.2,71.2,70.5,71.2,--,72.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,238,UC Riverside,71.1,71.1,71.1,71.1,--,72.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,239,Stanford,71.1,71.1,77.2,71.1,--,69.8
+2026-11-11T16:18-05:00,possessions-per-game,2026,240,Gonzaga,71.1,71.1,71.6,71.6,70.6,72.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,241,Lehigh,71.0,71.0,67.3,70.1,72.8,69.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,242,Wake Forest,71.0,71.0,72.8,72.5,67.9,71.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,243,Washington,70.9,70.9,66.6,70.9,--,70.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,244,Wyoming,70.9,70.9,68.3,73.6,68.3,69.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,245,Oakland,70.8,69.6,74.3,--,70.8,73.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,246,Coppin St,70.8,70.8,66.8,--,70.8,71.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,247,Temple,70.8,70.8,72.1,69.5,72.1,67.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,248,Morehead St,70.7,70.7,70.5,--,70.7,69.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,249,N Dakota St,70.7,70.7,70.4,--,70.7,70.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,250,Idaho,70.6,70.6,70.6,--,70.6,71.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,250,Indiana,70.6,70.6,72.9,69.5,72.9,69.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,252,George Mason,70.6,70.6,66.8,70.6,--,66.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,253,St Bonaventure,70.6,70.6,68.2,73.0,68.2,69.8
+2026-11-11T16:18-05:00,possessions-per-game,2026,253,E Texas A&M,70.6,70.6,72.5,--,70.6,70.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,255,E Michigan,70.5,70.5,72.7,--,70.5,70.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,256,San Francisco,70.4,70.4,69.4,70.4,--,69.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,257,CS Bakersfield,70.4,70.4,70.4,70.4,--,74.8
+2026-11-11T16:18-05:00,possessions-per-game,2026,258,Dartmouth,70.4,70.4,70.8,70.8,69.9,71.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,259,Princeton,70.3,70.3,77.2,63.4,77.2,66.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,259,Portland St,70.3,70.3,70.3,--,70.3,71.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,261,Indiana St,70.3,70.3,71.6,68.9,71.6,71.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,262,Yale,70.1,70.1,70.5,68.5,70.9,67.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,263,Bellarmine,70.1,70.1,71.6,--,70.1,67.8
+2026-11-11T16:18-05:00,possessions-per-game,2026,264,Cincinnati,70.1,70.1,67.5,70.1,--,71.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,265,Montana St,70.1,70.1,66.9,66.9,73.3,69.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,266,Notre Dame,70.1,70.1,73.4,68.8,72.7,69.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,267,Bucknell,70.1,70.1,71.1,64.8,72.7,69.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,268,Boston U,70.0,70.0,66.3,74.1,68.0,66.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,269,Robert Morris,70.0,70.0,71.1,--,70.0,68.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,270,Purdue,70.0,70.0,60.9,69.6,70.6,66.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,271,Alabama A&M,69.9,69.9,69.9,--,69.9,69.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,272,Delaware,69.9,69.9,69.9,--,69.9,66.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,273,Loyola MD,69.9,69.9,70.2,--,69.9,71.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,274,Manhattan,69.9,69.9,71.6,69.4,70.1,70.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,275,Towson,69.9,69.9,67.7,67.7,70.9,65.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,276,Kent St,69.9,69.9,69.9,--,69.9,75.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,277,E Illinois,69.8,69.8,73.4,--,69.8,68.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,278,SIU Edward,69.8,69.8,66.7,--,69.8,68.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,279,G Washington,69.7,69.7,68.9,69.7,--,71.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,280,Rider,69.7,69.7,63.0,70.3,69.5,67.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,281,Georgia,69.7,69.7,67.9,69.7,--,76.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,282,West Virginia,69.7,69.7,67.7,69.7,--,66.8
+2026-11-11T16:18-05:00,possessions-per-game,2026,283,Delaware St,69.7,69.7,68.7,--,69.7,67.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,284,Illinois St,69.5,69.5,60.9,--,69.5,69.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,285,Wagner,69.5,69.5,68.2,--,69.5,68.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,286,C Connecticut,69.4,69.4,70.8,--,69.4,66.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,287,Illinois Chicago,69.4,69.4,67.7,69.4,--,69.8
+2026-11-11T16:18-05:00,possessions-per-game,2026,288,N Colorado,69.3,69.3,69.3,--,69.3,72.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,289,McNeese,69.2,69.2,66.7,--,69.2,69.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,290,Akron,69.2,69.2,69.2,--,69.2,72.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,291,Presbyterian,69.1,69.1,70.7,69.9,68.7,68.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,291,Georgetown,69.1,69.1,68.7,69.1,--,69.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,293,Montana,69.1,69.1,69.4,--,69.1,72.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,294,Auburn,69.1,69.1,63.3,69.1,--,71.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,294,Marquette,69.1,69.1,70.4,69.1,--,72.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,296,Bowling Green,69.1,69.1,64.1,64.1,74.0,72.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,297,Oklahoma,69.0,69.0,68.2,69.0,--,71.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,298,Green Bay,68.9,68.9,67.9,--,68.9,66.8
+2026-11-11T16:18-05:00,possessions-per-game,2026,299,Clemson,68.9,68.9,66.3,68.9,--,66.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,300,Liberty,68.9,68.9,68.9,--,68.9,66.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,301,St Thomas,68.9,68.9,70.7,70.7,68.0,71.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,302,Iowa,68.8,68.8,73.5,66.5,73.5,64.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,303,NC State,68.7,68.7,70.7,68.7,--,71.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,304,Stonehill,68.7,68.7,66.6,--,68.7,69.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,305,NJIT,68.7,67.6,76.7,59.8,71.6,69.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,306,Iona,68.6,70.2,71.2,65.0,72.2,71.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,307,Tulsa,68.6,68.6,68.6,68.6,--,72.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,308,UCSD,68.6,68.6,68.6,68.6,--,71.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,309,Maryland ES,68.5,68.5,63.9,--,68.5,67.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,309,Minnesota,68.5,68.5,67.5,69.1,67.5,65.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,311,Syracuse,68.5,68.5,72.9,66.3,72.9,71.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,312,Jacksonville,68.4,68.4,67.4,67.4,69.5,67.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,313,Miss Valley St,68.4,68.4,66.6,--,68.4,71.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,314,S Dakota St,68.4,68.4,68.4,--,68.4,69.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,315,Davidson,68.4,68.4,68.9,68.8,67.5,66.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,316,UMass Lowell,68.3,68.3,66.8,66.8,69.7,70.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,317,Elon,68.2,68.2,68.9,67.6,68.5,70.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,318,Charlotte,68.2,68.2,66.7,69.0,67.8,67.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,319,Utah,68.1,68.1,69.2,68.1,--,70.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,320,N Arizona,68.0,68.0,67.2,--,68.0,66.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,321,Campbell,68.0,68.0,64.8,--,68.0,71.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,322,Louisiana,68.0,68.0,66.8,68.0,--,66.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,323,Albany,67.9,67.9,66.3,66.3,69.4,67.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,324,Duquesne,67.8,67.8,63.5,67.8,--,71.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,325,NC Greensboro,67.7,67.7,67.7,--,67.7,70.8
+2026-11-11T16:18-05:00,possessions-per-game,2026,326,High Point,67.7,67.7,64.7,67.0,68.9,73.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,327,Quinnipiac,67.6,67.6,62.0,66.9,67.9,71.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,328,Army,67.5,67.5,63.7,--,67.5,70.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,329,Brown,67.4,67.4,67.3,67.5,67.3,69.8
+2026-11-11T16:18-05:00,possessions-per-game,2026,330,Long Beach St,67.3,67.3,66.9,--,67.3,73.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,331,Columbia,67.3,67.3,66.6,67.3,--,69.8
+2026-11-11T16:18-05:00,possessions-per-game,2026,332,UMass,67.2,67.2,63.5,--,67.2,74.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,333,Cleveland St,66.9,66.9,64.1,--,66.9,73.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,334,Loyola Chi,66.9,66.9,69.8,66.9,--,67.8
+2026-11-11T16:18-05:00,possessions-per-game,2026,335,N Texas,66.7,66.7,66.7,66.7,--,69.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,336,Arizona St,66.7,66.7,67.6,66.7,--,72.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,337,Bradley,66.4,66.4,68.9,63.8,68.9,71.1
+2026-11-11T16:18-05:00,possessions-per-game,2026,338,Seton Hall,66.3,66.3,66.7,66.1,66.7,68.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,339,South Carolina,66.1,66.1,72.7,66.1,--,70.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,340,Mercyhurst,66.0,66.0,64.2,--,66.0,67.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,341,Hofstra,65.5,65.5,67.6,--,65.5,67.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,341,Texas A&M-CC,65.5,65.5,66.8,--,65.5,68.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,343,Stetson,65.2,65.2,67.7,--,65.2,69.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,344,Washington St,65.2,65.2,63.5,67.5,64.1,70.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,345,New Haven,65.0,65.0,63.7,63.7,65.6,64.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,346,Boston College,64.8,64.8,63.9,65.4,63.5,69.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,347,Northwestern,64.6,64.6,66.3,64.6,--,67.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,348,Merrimack,64.6,64.6,66.3,69.7,62.0,66.0
+2026-11-11T16:18-05:00,possessions-per-game,2026,349,Vermont,64.4,64.4,62.0,62.0,65.7,66.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,350,UCSB,64.1,64.1,64.1,64.1,--,69.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,351,UT Rio Grande,64.0,64.0,61.2,64.0,--,69.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,352,The Citadel,63.9,63.9,63.9,--,63.9,67.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,353,Pacific,63.8,63.8,63.8,--,63.8,67.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,354,Old Dominion,63.8,63.8,64.8,62.7,64.8,72.6
+2026-11-11T16:18-05:00,possessions-per-game,2026,355,W Michigan,63.8,63.8,64.8,64.8,62.7,71.3
+2026-11-11T16:18-05:00,possessions-per-game,2026,356,Binghamton,63.7,63.7,63.0,63.0,64.0,68.2
+2026-11-11T16:18-05:00,possessions-per-game,2026,357,E Tennessee St,63.6,63.6,64.2,--,63.6,68.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,358,Stony Brook,63.0,63.0,63.0,--,63.0,69.5
+2026-11-11T16:18-05:00,possessions-per-game,2026,359,Texas St,62.7,62.7,61.2,64.3,61.2,69.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,360,Saint Peter's,62.0,62.0,59.8,63.6,61.3,67.7
+2026-11-11T16:18-05:00,possessions-per-game,2026,361,App State,60.4,60.4,63.3,--,60.4,66.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,362,Charleston,--,--,--,--,--,70.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,362,S Utah,--,--,--,--,--,72.9
+2026-11-11T16:18-05:00,possessions-per-game,2026,362,SF Austin,--,--,--,--,--,68.4
+2026-11-11T16:18-05:00,possessions-per-game,2026,362,Missouri St,--,--,--,--,--,69.5
+2026-11-11T16:18-05:00,offensive-efficiency,2026,1,UCSB,1.405,1.405,1.405,1.405,--,1.101
+2026-11-11T16:18-05:00,offensive-efficiency,2026,2,William & Mary,1.400,1.400,1.400,1.400,--,1.088
+2026-11-11T16:18-05:00,offensive-efficiency,2026,3,Tulsa,1.371,1.371,1.371,1.371,--,1.166
+2026-11-11T16:18-05:00,offensive-efficiency,2026,4,Missouri,1.356,1.356,1.438,1.516,1.077,1.120
+2026-11-11T16:18-05:00,offensive-efficiency,2026,5,Texas,1.355,1.355,1.231,1.355,--,1.162
+2026-11-11T16:18-05:00,offensive-efficiency,2026,6,BYU,1.347,1.347,1.243,1.353,1.335,1.150
+2026-11-11T16:18-05:00,offensive-efficiency,2026,7,Louisville,1.341,1.341,1.518,1.341,--,1.165
+2026-11-11T16:18-05:00,offensive-efficiency,2026,8,Oklahoma St,1.327,1.327,1.443,1.327,--,1.094
+2026-11-11T16:18-05:00,offensive-efficiency,2026,9,New Mexico,1.322,1.322,1.312,1.322,--,1.123
+2026-11-11T16:18-05:00,offensive-efficiency,2026,10,Gonzaga,1.316,1.316,1.523,1.523,1.105,1.171
+2026-11-11T16:18-05:00,offensive-efficiency,2026,11,Saint Louis,1.310,1.310,1.497,1.388,1.154,1.174
+2026-11-11T16:18-05:00,offensive-efficiency,2026,12,Mississippi St,1.310,1.310,1.329,1.310,--,1.050
+2026-11-11T16:18-05:00,offensive-efficiency,2026,13,West Virginia,1.306,1.306,1.344,1.306,--,1.057
+2026-11-11T16:18-05:00,offensive-efficiency,2026,14,Oregon St,1.304,1.304,1.221,1.304,--,1.037
+2026-11-11T16:18-05:00,offensive-efficiency,2026,15,Utah St,1.296,1.296,1.425,1.296,--,1.158
+2026-11-11T16:18-05:00,offensive-efficiency,2026,16,CS Bakersfield,1.293,1.293,1.293,1.293,--,0.962
+2026-11-11T16:18-05:00,offensive-efficiency,2026,17,Illinois,1.291,1.291,1.024,1.415,1.024,1.226
+2026-11-11T16:18-05:00,offensive-efficiency,2026,18,Oregon,1.282,1.282,1.298,1.282,--,1.037
+2026-11-11T16:18-05:00,offensive-efficiency,2026,19,Rutgers,1.270,1.270,1.317,1.270,--,1.020
+2026-11-11T16:18-05:00,offensive-efficiency,2026,20,Vanderbilt,1.267,1.267,1.377,1.267,--,1.178
+2026-11-11T16:18-05:00,offensive-efficiency,2026,21,Utah Valley,1.266,1.266,1.266,--,1.266,1.078
+2026-11-11T16:18-05:00,offensive-efficiency,2026,22,Indiana,1.255,1.255,1.138,1.317,1.138,1.134
+2026-11-11T16:18-05:00,offensive-efficiency,2026,23,Wright St,1.253,1.253,1.082,1.334,1.082,1.126
+2026-11-11T16:18-05:00,offensive-efficiency,2026,24,Clemson,1.253,1.253,1.388,1.253,--,1.103
+2026-11-11T16:18-05:00,offensive-efficiency,2026,25,Virginia,1.250,1.281,1.336,1.246,1.263,1.157
+2026-11-11T16:18-05:00,offensive-efficiency,2026,26,Arizona St,1.250,1.250,1.257,1.250,--,1.051
+2026-11-11T16:18-05:00,offensive-efficiency,2026,27,UCLA,1.250,1.250,1.410,1.410,1.083,1.132
+2026-11-11T16:18-05:00,offensive-efficiency,2026,28,Alabama,1.248,1.248,1.466,1.248,--,1.187
+2026-11-11T16:18-05:00,offensive-efficiency,2026,29,Saint Mary's,1.247,1.247,1.123,1.317,1.123,1.134
+2026-11-11T16:18-05:00,offensive-efficiency,2026,30,Syracuse,1.246,1.246,1.097,1.328,1.097,1.055
+2026-11-11T16:18-05:00,offensive-efficiency,2026,31,Virginia Tech,1.242,1.242,1.265,1.231,1.265,1.104
+2026-11-11T16:18-05:00,offensive-efficiency,2026,32,Bowling Green,1.238,1.238,1.483,1.483,1.027,1.064
+2026-11-11T16:18-05:00,offensive-efficiency,2026,33,Marquette,1.237,1.237,1.322,1.237,--,1.032
+2026-11-11T16:18-05:00,offensive-efficiency,2026,34,Iowa,1.235,1.235,1.197,1.256,1.197,1.159
+2026-11-11T16:18-05:00,offensive-efficiency,2026,35,NC State,1.232,1.232,1.330,1.232,--,1.162
+2026-11-11T16:18-05:00,offensive-efficiency,2026,36,Furman,1.230,1.230,1.290,1.290,1.163,1.090
+2026-11-11T16:18-05:00,offensive-efficiency,2026,37,TCU,1.227,1.227,1.094,1.227,--,1.074
+2026-11-11T16:18-05:00,offensive-efficiency,2026,38,Mississippi,1.223,1.223,1.201,1.223,--,1.061
+2026-11-11T16:18-05:00,offensive-efficiency,2026,39,Baylor,1.219,1.219,1.276,1.219,--,1.131
+2026-11-11T16:18-05:00,offensive-efficiency,2026,40,S Illinois,1.218,1.218,1.218,--,1.218,1.004
+2026-11-11T16:18-05:00,offensive-efficiency,2026,41,Northwestern,1.218,1.218,1.085,1.218,--,1.086
+2026-11-11T16:18-05:00,offensive-efficiency,2026,42,St John's,1.217,1.217,1.419,1.217,--,1.109
+2026-11-11T16:18-05:00,offensive-efficiency,2026,43,Florida St,1.214,1.214,0.966,1.111,1.401,1.096
+2026-11-11T16:18-05:00,offensive-efficiency,2026,44,Texas A&M,1.209,1.209,1.247,1.209,--,1.144
+2026-11-11T16:18-05:00,offensive-efficiency,2026,45,Auburn,1.209,1.209,1.186,1.209,--,1.158
+2026-11-11T16:18-05:00,offensive-efficiency,2026,46,Kansas,1.205,1.205,1.156,1.230,1.156,1.066
+2026-11-11T16:18-05:00,offensive-efficiency,2026,47,UC Irvine,1.205,1.205,1.205,1.205,--,1.011
+2026-11-11T16:18-05:00,offensive-efficiency,2026,48,UNLV,1.205,1.205,1.141,1.205,--,1.078
+2026-11-11T16:18-05:00,offensive-efficiency,2026,49,South Carolina,1.202,1.202,1.073,1.202,--,1.067
+2026-11-11T16:18-05:00,offensive-efficiency,2026,50,Georgetown,1.201,1.201,1.208,1.201,--,1.062
+2026-11-11T16:18-05:00,offensive-efficiency,2026,51,Grand Canyon,1.200,1.200,1.198,1.200,--,1.078
+2026-11-11T16:18-05:00,offensive-efficiency,2026,52,UCF,1.199,1.199,1.184,1.199,--,1.107
+2026-11-11T16:18-05:00,offensive-efficiency,2026,53,McNeese,1.199,1.199,1.004,--,1.199,1.108
+2026-11-11T16:18-05:00,offensive-efficiency,2026,54,Houston,1.199,1.199,1.195,1.201,1.195,1.145
+2026-11-11T16:18-05:00,offensive-efficiency,2026,55,LSU,1.197,1.197,1.194,1.197,--,1.131
+2026-11-11T16:18-05:00,offensive-efficiency,2026,56,S Florida,1.196,1.196,1.167,1.221,1.167,1.126
+2026-11-11T16:18-05:00,offensive-efficiency,2026,57,N Iowa,1.196,1.196,1.311,1.311,1.093,1.052
+2026-11-11T16:18-05:00,offensive-efficiency,2026,58,Penn St,1.195,1.195,1.030,1.275,1.030,1.073
+2026-11-11T16:18-05:00,offensive-efficiency,2026,59,Notre Dame,1.194,1.194,1.282,1.287,1.018,1.071
+2026-11-11T16:18-05:00,offensive-efficiency,2026,60,North Carolina,1.193,1.193,1.114,1.193,--,1.122
+2026-11-11T16:18-05:00,offensive-efficiency,2026,61,USC,1.191,1.191,1.169,1.214,1.169,1.050
+2026-11-11T16:18-05:00,offensive-efficiency,2026,62,Nebraska,1.191,1.191,0.937,1.438,0.937,1.123
+2026-11-11T16:18-05:00,offensive-efficiency,2026,63,Georgia,1.191,1.191,1.179,1.191,--,1.166
+2026-11-11T16:18-05:00,offensive-efficiency,2026,64,Rhode Island,1.189,1.189,1.002,1.203,1.162,1.024
+2026-11-11T16:18-05:00,offensive-efficiency,2026,65,Richmond,1.189,1.189,1.096,1.273,1.096,1.092
+2026-11-11T16:18-05:00,offensive-efficiency,2026,66,Maryland,1.186,1.186,1.070,1.294,1.070,1.013
+2026-11-11T16:18-05:00,offensive-efficiency,2026,67,Nevada,1.186,1.186,1.135,1.248,1.135,1.099
+2026-11-11T16:18-05:00,offensive-efficiency,2026,68,C Michigan,1.185,1.185,1.252,1.252,1.119,1.028
+2026-11-11T16:18-05:00,offensive-efficiency,2026,69,Michigan St,1.184,1.184,1.054,1.248,1.054,1.144
+2026-11-11T16:18-05:00,offensive-efficiency,2026,70,Arizona,1.183,1.183,1.339,1.295,0.967,1.178
+2026-11-11T16:18-05:00,offensive-efficiency,2026,71,UCSD,1.181,1.181,1.181,1.181,--,1.044
+2026-11-11T16:18-05:00,offensive-efficiency,2026,72,Murray St,1.181,1.181,1.208,1.236,1.084,1.125
+2026-11-11T16:18-05:00,offensive-efficiency,2026,73,Boston College,1.178,1.178,1.283,1.207,1.118,0.975
+2026-11-11T16:18-05:00,offensive-efficiency,2026,74,Washington,1.177,1.177,1.156,1.177,--,1.097
+2026-11-11T16:18-05:00,offensive-efficiency,2026,75,Duke,1.176,1.176,0.974,1.274,0.974,1.193
+2026-11-11T16:18-05:00,offensive-efficiency,2026,76,Butler,1.173,1.173,0.949,1.300,0.949,1.084
+2026-11-11T16:18-05:00,offensive-efficiency,2026,77,Boise St,1.172,1.172,1.172,1.172,--,1.114
+2026-11-11T16:18-05:00,offensive-efficiency,2026,78,Arkansas,1.171,1.171,1.000,1.325,1.000,1.196
+2026-11-11T16:18-05:00,offensive-efficiency,2026,79,UConn,1.162,1.162,1.218,1.194,1.104,1.128
+2026-11-11T16:18-05:00,offensive-efficiency,2026,80,Illinois Chicago,1.160,1.160,1.211,1.160,--,1.059
+2026-11-11T16:18-05:00,offensive-efficiency,2026,81,SMU,1.156,1.156,1.238,1.156,--,1.148
+2026-11-11T16:18-05:00,offensive-efficiency,2026,82,Ohio,1.154,1.154,1.105,1.105,1.204,1.055
+2026-11-11T16:18-05:00,offensive-efficiency,2026,83,N Texas,1.154,1.154,1.154,1.154,--,0.994
+2026-11-11T16:18-05:00,offensive-efficiency,2026,84,Stanford,1.154,1.154,1.179,1.154,--,1.089
+2026-11-11T16:18-05:00,offensive-efficiency,2026,85,Ohio St,1.151,1.151,1.086,1.138,1.179,1.154
+2026-11-11T16:18-05:00,offensive-efficiency,2026,86,Pittsburgh,1.149,1.149,1.111,1.168,1.111,1.059
+2026-11-11T16:18-05:00,offensive-efficiency,2026,87,VCU,1.146,1.146,1.198,1.095,1.198,1.134
+2026-11-11T16:18-05:00,offensive-efficiency,2026,88,Villanova,1.145,1.145,1.146,1.223,0.990,1.116
+2026-11-11T16:18-05:00,offensive-efficiency,2026,89,Loyola Chi,1.144,1.144,1.088,1.144,--,0.986
+2026-11-11T16:18-05:00,offensive-efficiency,2026,90,Florida,1.139,1.139,1.087,1.267,1.079,1.181
+2026-11-11T16:18-05:00,offensive-efficiency,2026,91,San Jose St,1.138,1.138,1.046,1.229,1.046,1.050
+2026-11-11T16:18-05:00,offensive-efficiency,2026,92,San Diego St,1.136,1.136,1.029,1.232,1.029,1.067
+2026-11-11T16:18-05:00,offensive-efficiency,2026,93,Miami OH,1.134,1.134,1.118,1.118,1.149,1.171
+2026-11-11T16:18-05:00,offensive-efficiency,2026,94,Memphis,1.128,1.128,1.062,1.212,1.086,1.015
+2026-11-11T16:18-05:00,offensive-efficiency,2026,95,DePaul,1.127,1.127,1.201,1.127,--,1.013
+2026-11-11T16:18-05:00,offensive-efficiency,2026,96,St Bonaventure,1.127,1.127,1.291,0.973,1.291,1.092
+2026-11-11T16:18-05:00,offensive-efficiency,2026,97,FGCU,1.126,1.126,1.061,--,1.126,1.064
+2026-11-11T16:18-05:00,offensive-efficiency,2026,98,N Illinois,1.126,1.126,1.044,--,1.126,0.939
+2026-11-11T16:18-05:00,offensive-efficiency,2026,99,Colorado St,1.126,1.126,1.104,1.126,--,1.141
+2026-11-11T16:18-05:00,offensive-efficiency,2026,100,W Kentucky,1.125,1.125,1.087,1.170,1.087,1.057
+2026-11-11T16:18-05:00,offensive-efficiency,2026,100,Xavier,1.125,1.125,1.142,1.125,--,1.067
+2026-11-11T16:18-05:00,offensive-efficiency,2026,102,G Washington,1.123,1.123,1.001,1.123,--,1.131
+2026-11-11T16:18-05:00,offensive-efficiency,2026,103,Old Dominion,1.121,1.121,1.265,0.972,1.265,1.042
+2026-11-11T16:18-05:00,offensive-efficiency,2026,104,Santa Clara,1.121,1.121,0.981,1.121,--,1.162
+2026-11-11T16:18-05:00,offensive-efficiency,2026,105,Montana St,1.120,1.120,1.241,1.241,1.010,1.094
+2026-11-11T16:18-05:00,offensive-efficiency,2026,106,Colorado,1.119,1.119,1.144,1.244,0.882,1.102
+2026-11-11T16:18-05:00,offensive-efficiency,2026,107,Pepperdine,1.118,1.118,1.118,--,1.118,0.980
+2026-11-11T16:18-05:00,offensive-efficiency,2026,108,Tarleton St,1.118,1.118,1.118,--,1.118,0.993
+2026-11-11T16:18-05:00,offensive-efficiency,2026,109,San Diego,1.117,1.117,1.034,1.192,1.034,1.026
+2026-11-11T16:18-05:00,offensive-efficiency,2026,110,Tulane,1.116,1.116,1.123,1.116,--,1.021
+2026-11-11T16:18-05:00,offensive-efficiency,2026,111,Tenn Tech,1.116,1.116,1.122,1.122,1.109,1.008
+2026-11-11T16:18-05:00,offensive-efficiency,2026,112,Kentucky,1.111,1.111,0.896,1.228,0.896,1.126
+2026-11-11T16:18-05:00,offensive-efficiency,2026,113,Texas St,1.108,1.108,1.177,1.042,1.177,1.028
+2026-11-11T16:18-05:00,offensive-efficiency,2026,114,Duquesne,1.106,1.106,1.134,1.106,--,1.069
+2026-11-11T16:18-05:00,offensive-efficiency,2026,115,Oklahoma,1.106,1.106,1.187,1.106,--,1.162
+2026-11-11T16:18-05:00,offensive-efficiency,2026,116,Loyola Mymt,1.104,1.104,0.952,1.249,0.952,1.024
+2026-11-11T16:18-05:00,offensive-efficiency,2026,117,Dayton,1.103,1.103,1.103,1.103,--,1.064
+2026-11-11T16:18-05:00,offensive-efficiency,2026,118,Davidson,1.102,1.102,0.900,1.090,1.127,1.053
+2026-11-11T16:18-05:00,offensive-efficiency,2026,119,Wyoming,1.100,1.100,0.923,1.264,0.923,1.102
+2026-11-11T16:18-05:00,offensive-efficiency,2026,120,Winthrop,1.100,1.100,0.948,1.166,1.069,1.099
+2026-11-11T16:18-05:00,offensive-efficiency,2026,121,Wisconsin,1.098,1.098,1.209,1.098,--,1.161
+2026-11-11T16:18-05:00,offensive-efficiency,2026,122,Florida Intl,1.096,1.096,1.096,1.096,--,1.042
+2026-11-11T16:18-05:00,offensive-efficiency,2026,123,Queens,1.094,1.039,1.040,--,1.094,1.157
+2026-11-11T16:18-05:00,offensive-efficiency,2026,124,Hou Christian,1.093,1.093,1.184,--,1.093,0.997
+2026-11-11T16:18-05:00,offensive-efficiency,2026,125,Valparaiso,1.090,1.090,1.059,1.124,1.059,1.025
+2026-11-11T16:18-05:00,offensive-efficiency,2026,126,Minnesota,1.090,1.090,0.934,1.166,0.934,1.061
+2026-11-11T16:18-05:00,offensive-efficiency,2026,127,Chattanooga,1.090,1.090,1.198,--,1.090,1.076
+2026-11-11T16:18-05:00,offensive-efficiency,2026,128,Kansas St,1.089,1.089,1.155,1.089,--,1.055
+2026-11-11T16:18-05:00,offensive-efficiency,2026,129,Iowa St,1.087,1.087,1.065,1.101,1.056,1.171
+2026-11-11T16:18-05:00,offensive-efficiency,2026,130,Purdue,1.086,1.086,1.248,1.120,1.020,1.225
+2026-11-11T16:18-05:00,offensive-efficiency,2026,131,Vermont,1.086,1.086,1.226,1.226,1.020,1.085
+2026-11-11T16:18-05:00,offensive-efficiency,2026,132,UAB,1.086,1.086,1.227,1.084,1.088,1.069
+2026-11-11T16:18-05:00,offensive-efficiency,2026,133,Columbia,1.084,1.084,1.127,1.084,--,1.074
+2026-11-11T16:18-05:00,offensive-efficiency,2026,134,Akron,1.084,1.084,1.084,--,1.084,1.188
+2026-11-11T16:18-05:00,offensive-efficiency,2026,135,UT Martin,1.084,1.084,1.102,--,1.084,1.000
+2026-11-11T16:18-05:00,offensive-efficiency,2026,136,UTEP,1.083,1.083,1.152,1.152,1.020,0.978
+2026-11-11T16:18-05:00,offensive-efficiency,2026,137,Tennessee,1.079,1.079,0.940,1.079,--,1.126
+2026-11-11T16:18-05:00,offensive-efficiency,2026,138,W Carolina,1.077,1.077,1.182,--,1.077,1.074
+2026-11-11T16:18-05:00,offensive-efficiency,2026,139,Texas Tech,1.076,1.076,1.103,1.076,--,1.152
+2026-11-11T16:18-05:00,offensive-efficiency,2026,140,High Point,1.074,1.074,1.283,1.089,1.045,1.176
+2026-11-11T16:18-05:00,offensive-efficiency,2026,141,Kent St,1.074,1.074,1.074,--,1.074,1.091
+2026-11-11T16:18-05:00,offensive-efficiency,2026,142,Georgia Tech,1.070,1.070,1.076,1.070,--,0.998
+2026-11-11T16:18-05:00,offensive-efficiency,2026,143,Creighton,1.069,1.069,1.064,1.071,1.064,1.071
+2026-11-11T16:18-05:00,offensive-efficiency,2026,144,South Dakota,1.068,1.068,1.034,1.068,--,1.052
+2026-11-11T16:18-05:00,offensive-efficiency,2026,145,W Michigan,1.066,1.066,1.342,1.342,0.781,1.037
+2026-11-11T16:18-05:00,offensive-efficiency,2026,146,Utah,1.066,1.066,1.229,1.066,--,1.058
+2026-11-11T16:18-05:00,offensive-efficiency,2026,147,Fresno St,1.065,1.065,1.164,1.164,0.948,1.022
+2026-11-11T16:18-05:00,offensive-efficiency,2026,148,Michigan,1.064,1.064,1.000,1.129,1.000,1.189
+2026-11-11T16:18-05:00,offensive-efficiency,2026,149,George Mason,1.063,1.063,1.019,1.063,--,1.100
+2026-11-11T16:18-05:00,offensive-efficiency,2026,150,Siena,1.063,1.063,1.227,1.062,1.063,1.070
+2026-11-11T16:18-05:00,offensive-efficiency,2026,151,S Alabama,1.062,1.062,1.075,1.056,1.075,1.066
+2026-11-11T16:18-05:00,offensive-efficiency,2026,152,J Madison,1.061,1.061,1.095,1.029,1.095,1.077
+2026-11-11T16:18-05:00,offensive-efficiency,2026,153,Portland,1.061,1.061,1.073,--,1.061,1.001
+2026-11-11T16:18-05:00,offensive-efficiency,2026,154,Charlotte,1.061,1.061,0.930,1.117,1.033,1.086
+2026-11-11T16:18-05:00,offensive-efficiency,2026,155,S Carolina St,1.061,1.061,1.116,--,1.061,0.939
+2026-11-11T16:18-05:00,offensive-efficiency,2026,156,Lamar,1.053,1.053,1.053,--,1.053,1.007
+2026-11-11T16:18-05:00,offensive-efficiency,2026,157,Cincinnati,1.051,1.051,0.904,1.051,--,1.030
+2026-11-11T16:18-05:00,offensive-efficiency,2026,158,Miami,1.050,1.050,1.082,1.105,0.931,1.150
+2026-11-11T16:18-05:00,offensive-efficiency,2026,159,Drake,1.048,1.048,1.048,1.048,--,1.059
+2026-11-11T16:18-05:00,offensive-efficiency,2026,160,Seattle,1.048,1.048,1.123,1.123,0.976,0.992
+2026-11-11T16:18-05:00,offensive-efficiency,2026,161,Boston U,1.047,1.047,0.829,1.255,0.934,1.118
+2026-11-11T16:18-05:00,offensive-efficiency,2026,162,St Thomas,1.046,1.046,0.948,0.948,1.096,1.138
+2026-11-11T16:18-05:00,offensive-efficiency,2026,163,Green Bay,1.044,1.044,1.120,--,1.044,1.106
+2026-11-11T16:18-05:00,offensive-efficiency,2026,164,E Carolina,1.044,1.044,0.943,1.044,--,0.991
+2026-11-11T16:18-05:00,offensive-efficiency,2026,165,Wichita St,1.043,1.043,1.081,1.004,1.081,1.087
+2026-11-11T16:18-05:00,offensive-efficiency,2026,166,N Alabama,1.041,1.041,1.056,--,1.041,0.997
+2026-11-11T16:18-05:00,offensive-efficiency,2026,167,Grambling,1.040,1.040,0.821,--,1.040,0.973
+2026-11-11T16:18-05:00,offensive-efficiency,2026,168,UT Rio Grande,1.040,1.040,1.063,1.040,--,1.065
+2026-11-11T16:18-05:00,offensive-efficiency,2026,169,Marshall,1.038,1.038,0.956,1.079,0.956,1.107
+2026-11-11T16:18-05:00,offensive-efficiency,2026,170,Washington St,1.038,1.038,1.119,0.904,1.108,1.072
+2026-11-11T16:18-05:00,offensive-efficiency,2026,171,Mercer,1.037,1.037,1.101,--,1.037,1.125
+2026-11-11T16:18-05:00,offensive-efficiency,2026,172,Presbyterian,1.037,1.037,0.849,1.115,0.997,1.018
+2026-11-11T16:18-05:00,offensive-efficiency,2026,173,Illinois St,1.036,1.036,0.969,--,1.036,1.075
+2026-11-11T16:18-05:00,offensive-efficiency,2026,174,Fordham,1.033,1.033,1.096,1.134,0.847,1.020
+2026-11-11T16:18-05:00,offensive-efficiency,2026,175,Georgia St,1.033,1.033,1.127,0.986,1.056,0.965
+2026-11-11T16:18-05:00,offensive-efficiency,2026,176,Stony Brook,1.033,1.033,1.033,--,1.033,1.018
+2026-11-11T16:18-05:00,offensive-efficiency,2026,177,San Francisco,1.032,1.032,0.908,1.032,--,1.068
+2026-11-11T16:18-05:00,offensive-efficiency,2026,178,IU Indy,1.032,1.032,1.032,1.032,--,1.055
+2026-11-11T16:18-05:00,offensive-efficiency,2026,179,California,1.028,1.028,0.945,1.107,0.945,1.079
+2026-11-11T16:18-05:00,offensive-efficiency,2026,180,Lipscomb,1.028,1.030,1.202,1.137,0.918,1.078
+2026-11-11T16:18-05:00,offensive-efficiency,2026,181,SE Missouri St,1.026,1.026,0.935,1.112,0.935,1.029
+2026-11-11T16:18-05:00,offensive-efficiency,2026,182,Samford,1.024,1.024,1.024,--,1.024,1.098
+2026-11-11T16:18-05:00,offensive-efficiency,2026,183,Kansas City,1.024,1.024,0.905,1.310,0.868,0.914
+2026-11-11T16:18-05:00,offensive-efficiency,2026,184,NC Asheville,1.022,1.022,1.068,1.068,0.981,1.035
+2026-11-11T16:18-05:00,offensive-efficiency,2026,185,North Dakota,1.021,1.021,1.162,--,1.021,1.044
+2026-11-11T16:18-05:00,offensive-efficiency,2026,186,Cal Poly,1.018,1.018,1.018,--,1.018,1.039
+2026-11-11T16:18-05:00,offensive-efficiency,2026,187,Elon,1.017,1.017,0.726,1.095,0.978,1.087
+2026-11-11T16:18-05:00,offensive-efficiency,2026,188,Northeastern,1.015,1.015,0.976,0.976,1.034,1.049
+2026-11-11T16:18-05:00,offensive-efficiency,2026,189,Wake Forest,1.014,1.014,1.127,1.138,0.751,1.099
+2026-11-11T16:18-05:00,offensive-efficiency,2026,190,Little Rock,1.014,1.014,0.963,1.122,0.962,0.996
+2026-11-11T16:18-05:00,offensive-efficiency,2026,191,Georgia So,1.013,1.013,1.033,0.993,1.054,1.080
+2026-11-11T16:18-05:00,offensive-efficiency,2026,192,NC Greensboro,1.012,1.012,1.063,--,1.012,1.082
+2026-11-11T16:18-05:00,offensive-efficiency,2026,193,Seton Hall,1.011,1.011,1.020,1.006,1.020,1.029
+2026-11-11T16:18-05:00,offensive-efficiency,2026,194,Binghamton,1.010,1.010,1.191,1.191,0.921,0.979
+2026-11-11T16:18-05:00,offensive-efficiency,2026,195,N Dakota St,1.009,1.009,1.137,--,1.009,1.113
+2026-11-11T16:18-05:00,offensive-efficiency,2026,196,E Washington,1.009,1.009,1.091,--,1.009,1.093
+2026-11-11T16:18-05:00,offensive-efficiency,2026,197,Youngstown St,1.008,1.008,1.073,--,1.008,1.068
+2026-11-11T16:18-05:00,offensive-efficiency,2026,198,Cornell,1.007,1.007,0.877,1.131,0.877,1.166
+2026-11-11T16:18-05:00,offensive-efficiency,2026,199,Quinnipiac,1.006,1.006,1.275,0.987,1.016,1.037
+2026-11-11T16:18-05:00,offensive-efficiency,2026,200,Air Force,1.006,1.006,1.100,1.100,0.909,0.896
+2026-11-11T16:18-05:00,offensive-efficiency,2026,201,E Tennessee St,1.006,1.006,0.981,--,1.006,1.124
+2026-11-11T16:18-05:00,offensive-efficiency,2026,202,Colgate,1.005,1.005,0.999,--,1.005,1.078
+2026-11-11T16:18-05:00,offensive-efficiency,2026,203,Belmont,1.002,1.002,1.024,0.979,1.024,1.158
+2026-11-11T16:18-05:00,offensive-efficiency,2026,204,Jacksonville St,0.999,0.999,0.999,--,0.999,1.025
+2026-11-11T16:18-05:00,offensive-efficiency,2026,205,Kennesaw St,0.998,0.998,1.056,0.998,--,1.071
+2026-11-11T16:18-05:00,offensive-efficiency,2026,206,Providence,0.997,0.997,1.041,1.087,0.811,1.119
+2026-11-11T16:18-05:00,offensive-efficiency,2026,207,Dartmouth,0.995,0.995,1.002,1.002,0.987,1.028
+2026-11-11T16:18-05:00,offensive-efficiency,2026,208,S Dakota St,0.995,0.995,0.995,--,0.995,1.068
+2026-11-11T16:18-05:00,offensive-efficiency,2026,209,Longwood,0.994,0.994,1.059,1.059,0.932,1.040
+2026-11-11T16:18-05:00,offensive-efficiency,2026,210,Jacksonville,0.994,0.994,1.172,1.172,0.820,1.037
+2026-11-11T16:18-05:00,offensive-efficiency,2026,211,Campbell,0.993,0.993,1.095,--,0.993,1.064
+2026-11-11T16:18-05:00,offensive-efficiency,2026,212,E Texas A&M,0.992,0.992,0.994,--,0.992,0.959
+2026-11-11T16:18-05:00,offensive-efficiency,2026,213,Delaware St,0.990,0.990,1.135,--,0.990,0.878
+2026-11-11T16:18-05:00,offensive-efficiency,2026,214,Indiana St,0.989,0.989,0.963,1.017,0.963,1.000
+2026-11-11T16:18-05:00,offensive-efficiency,2026,215,Yale,0.989,0.989,0.865,1.051,0.959,1.180
+2026-11-11T16:18-05:00,offensive-efficiency,2026,216,CS Fullerton,0.989,0.989,1.034,--,0.989,1.038
+2026-11-11T16:18-05:00,offensive-efficiency,2026,217,Howard,0.987,0.987,0.815,--,0.987,1.053
+2026-11-11T16:18-05:00,offensive-efficiency,2026,218,Long Beach St,0.987,0.987,1.046,--,0.987,0.997
+2026-11-11T16:18-05:00,offensive-efficiency,2026,219,Pacific,0.987,0.987,0.987,--,0.987,1.051
+2026-11-11T16:18-05:00,offensive-efficiency,2026,220,Evansville,0.986,0.986,0.944,--,0.986,0.950
+2026-11-11T16:18-05:00,offensive-efficiency,2026,221,Sacred Heart,0.985,0.985,0.994,0.976,0.994,1.060
+2026-11-11T16:18-05:00,offensive-efficiency,2026,222,Purdue FW,0.985,0.985,0.985,--,0.985,1.050
+2026-11-11T16:18-05:00,offensive-efficiency,2026,223,N Arizona,0.985,0.985,0.878,--,0.985,1.021
+2026-11-11T16:18-05:00,offensive-efficiency,2026,224,Norfolk St,0.983,0.983,0.983,--,0.983,1.010
+2026-11-11T16:18-05:00,offensive-efficiency,2026,225,UMass Lowell,0.981,0.981,0.943,0.943,1.018,1.016
+2026-11-11T16:18-05:00,offensive-efficiency,2026,226,NC Wilmington,0.981,0.981,0.981,--,0.981,1.099
+2026-11-11T16:18-05:00,offensive-efficiency,2026,227,Florida Atlantic,0.980,0.980,0.999,0.963,0.999,1.060
+2026-11-11T16:18-05:00,offensive-efficiency,2026,228,N Kentucky,0.980,0.935,0.754,--,0.980,1.107
+2026-11-11T16:18-05:00,offensive-efficiency,2026,229,UC Davis,0.977,0.977,0.977,0.977,--,1.036
+2026-11-11T16:18-05:00,offensive-efficiency,2026,230,Marist,0.974,0.974,0.913,1.001,0.913,1.011
+2026-11-11T16:18-05:00,offensive-efficiency,2026,231,Albany,0.972,0.972,0.904,0.904,1.037,1.016
+2026-11-11T16:18-05:00,offensive-efficiency,2026,232,UTSA,0.971,0.971,0.986,0.986,0.957,0.940
+2026-11-11T16:18-05:00,offensive-efficiency,2026,233,UT Arlington,0.969,0.969,0.826,--,0.969,0.979
+2026-11-11T16:18-05:00,offensive-efficiency,2026,234,Hawai'i,0.969,0.969,0.970,0.969,--,1.055
+2026-11-11T16:18-05:00,offensive-efficiency,2026,235,Abl Christian,0.968,0.968,1.079,1.079,0.845,0.955
+2026-11-11T16:18-05:00,offensive-efficiency,2026,236,SIU Edward,0.968,0.968,0.869,--,0.968,0.994
+2026-11-11T16:18-05:00,offensive-efficiency,2026,237,NC A&T,0.967,0.967,0.967,--,0.967,1.036
+2026-11-11T16:18-05:00,offensive-efficiency,2026,238,W Florida,0.967,0.967,0.967,--,0.967,--
+2026-11-11T16:18-05:00,offensive-efficiency,2026,239,Iona,0.966,0.992,1.012,0.985,0.948,1.031
+2026-11-11T16:18-05:00,offensive-efficiency,2026,240,Cleveland St,0.963,0.963,1.233,--,0.963,1.073
+2026-11-11T16:18-05:00,offensive-efficiency,2026,241,Rice,0.962,0.962,0.945,0.980,0.945,1.022
+2026-11-11T16:18-05:00,offensive-efficiency,2026,242,App State,0.960,0.960,0.838,--,0.960,1.045
+2026-11-11T16:18-05:00,offensive-efficiency,2026,243,Morgan St,0.954,0.954,0.954,--,0.954,0.976
+2026-11-11T16:18-05:00,offensive-efficiency,2026,244,Weber St,0.950,0.950,0.926,1.165,0.836,1.091
+2026-11-11T16:18-05:00,offensive-efficiency,2026,245,New Mexico St,0.950,0.950,0.950,--,0.950,1.056
+2026-11-11T16:18-05:00,offensive-efficiency,2026,246,Idaho,0.949,0.949,0.949,--,0.949,1.062
+2026-11-11T16:18-05:00,offensive-efficiency,2026,247,C Arkansas,0.948,0.948,0.797,1.094,0.797,1.102
+2026-11-11T16:18-05:00,offensive-efficiency,2026,248,Bethune,0.946,0.946,0.980,--,0.946,1.014
+2026-11-11T16:18-05:00,offensive-efficiency,2026,249,Merrimack,0.945,0.945,1.100,0.875,0.984,1.039
+2026-11-11T16:18-05:00,offensive-efficiency,2026,250,UL Monroe,0.940,0.940,1.006,1.052,0.893,0.983
+2026-11-11T16:18-05:00,offensive-efficiency,2026,251,Oakland,0.939,0.948,0.915,--,0.939,1.115
+2026-11-11T16:18-05:00,offensive-efficiency,2026,252,UMass,0.938,0.938,0.866,--,0.938,1.073
+2026-11-11T16:18-05:00,offensive-efficiency,2026,253,Troy,0.937,0.937,1.021,0.935,0.941,1.083
+2026-11-11T16:18-05:00,offensive-efficiency,2026,254,Toledo,0.933,0.938,0.968,0.968,0.922,1.124
+2026-11-11T16:18-05:00,offensive-efficiency,2026,255,Texas A&M-CC,0.931,0.931,1.004,--,0.931,0.997
+2026-11-11T16:18-05:00,offensive-efficiency,2026,256,Arkansas St,0.930,0.930,0.873,0.902,0.977,1.091
+2026-11-11T16:18-05:00,offensive-efficiency,2026,257,Louisiana Tech,0.929,0.929,0.663,1.217,0.663,1.005
+2026-11-11T16:18-05:00,offensive-efficiency,2026,258,Saint Joseph's,0.926,0.926,0.812,0.926,--,1.026
+2026-11-11T16:18-05:00,offensive-efficiency,2026,259,New Hampshire,0.925,0.925,0.933,0.933,0.921,0.945
+2026-11-11T16:18-05:00,offensive-efficiency,2026,260,Brown,0.924,0.924,0.966,0.903,0.966,0.963
+2026-11-11T16:18-05:00,offensive-efficiency,2026,261,Hofstra,0.923,0.923,0.932,--,0.923,1.095
+2026-11-11T16:18-05:00,offensive-efficiency,2026,262,Harvard,0.923,0.923,0.923,--,0.923,1.054
+2026-11-11T16:18-05:00,offensive-efficiency,2026,263,Towson,0.921,0.921,0.975,0.975,0.895,1.018
+2026-11-11T16:18-05:00,offensive-efficiency,2026,264,Manhattan,0.921,0.921,0.949,0.980,0.892,1.030
+2026-11-11T16:18-05:00,offensive-efficiency,2026,265,Stetson,0.920,0.920,0.783,--,0.920,1.036
+2026-11-11T16:18-05:00,offensive-efficiency,2026,266,Montana,0.919,0.919,0.836,--,0.919,1.044
+2026-11-11T16:18-05:00,offensive-efficiency,2026,267,Delaware,0.916,0.916,0.916,--,0.916,1.020
+2026-11-11T16:18-05:00,offensive-efficiency,2026,268,NC Central,0.913,0.913,0.993,--,0.913,0.988
+2026-11-11T16:18-05:00,offensive-efficiency,2026,269,Cal Baptist,0.910,0.910,1.024,0.813,1.024,1.038
+2026-11-11T16:18-05:00,offensive-efficiency,2026,270,Princeton,0.910,0.910,0.881,0.946,0.881,1.013
+2026-11-11T16:18-05:00,offensive-efficiency,2026,271,Sacramento St,0.910,0.910,0.910,--,0.910,1.026
+2026-11-11T16:18-05:00,offensive-efficiency,2026,272,N Colorado,0.909,0.909,0.909,--,0.909,1.109
+2026-11-11T16:18-05:00,offensive-efficiency,2026,273,Drexel,0.909,0.909,1.039,1.039,0.783,1.005
+2026-11-11T16:18-05:00,offensive-efficiency,2026,274,Austin Peay,0.908,0.908,0.908,--,0.908,1.105
+2026-11-11T16:18-05:00,offensive-efficiency,2026,275,Lehigh,0.906,0.906,0.817,0.898,0.920,1.027
+2026-11-11T16:18-05:00,offensive-efficiency,2026,276,La Salle,0.906,0.906,0.845,1.175,0.770,0.976
+2026-11-11T16:18-05:00,offensive-efficiency,2026,277,Bucknell,0.904,0.904,0.858,0.956,0.881,0.975
+2026-11-11T16:18-05:00,offensive-efficiency,2026,278,SC Upstate,0.902,0.902,0.823,0.905,0.901,0.982
+2026-11-11T16:18-05:00,offensive-efficiency,2026,279,Utah Tech,0.902,0.902,1.038,--,0.902,1.049
+2026-11-11T16:18-05:00,offensive-efficiency,2026,280,UC Riverside,0.900,0.900,0.900,0.900,--,0.987
+2026-11-11T16:18-05:00,offensive-efficiency,2026,281,E Kentucky,0.899,0.899,0.899,--,0.899,1.085
+2026-11-11T16:18-05:00,offensive-efficiency,2026,282,Bellarmine,0.899,0.899,1.020,--,0.899,1.164
+2026-11-11T16:18-05:00,offensive-efficiency,2026,283,New Haven,0.898,0.898,0.989,0.989,0.853,0.950
+2026-11-11T16:18-05:00,offensive-efficiency,2026,284,Sam Houston,0.894,0.894,0.894,--,0.894,1.101
+2026-11-11T16:18-05:00,offensive-efficiency,2026,285,Denver,0.893,0.893,0.844,--,0.893,1.132
+2026-11-11T16:18-05:00,offensive-efficiency,2026,286,CS Northridge,0.891,0.891,0.927,--,0.891,1.036
+2026-11-11T16:18-05:00,offensive-efficiency,2026,287,Louisiana,0.890,0.890,0.899,0.890,--,0.963
+2026-11-11T16:18-05:00,offensive-efficiency,2026,288,Maine,0.888,0.930,0.918,0.865,0.896,0.917
+2026-11-11T16:18-05:00,offensive-efficiency,2026,289,Miss Valley St,0.884,0.884,0.961,--,0.884,0.881
+2026-11-11T16:18-05:00,offensive-efficiency,2026,290,VMI,0.883,0.883,0.957,--,0.883,0.987
+2026-11-11T16:18-05:00,offensive-efficiency,2026,291,Charleston So,0.882,0.882,0.880,--,0.882,1.047
+2026-11-11T16:18-05:00,offensive-efficiency,2026,292,Penn,0.882,0.882,0.978,0.978,0.795,1.049
+2026-11-11T16:18-05:00,offensive-efficiency,2026,293,Nicholls,0.881,0.881,0.919,--,0.881,1.015
+2026-11-11T16:18-05:00,offensive-efficiency,2026,294,E Michigan,0.880,0.880,0.729,--,0.880,0.995
+2026-11-11T16:18-05:00,offensive-efficiency,2026,295,Idaho St,0.879,0.879,1.013,--,0.879,1.078
+2026-11-11T16:18-05:00,offensive-efficiency,2026,296,C Connecticut,0.879,0.879,1.101,--,0.879,1.055
+2026-11-11T16:18-05:00,offensive-efficiency,2026,297,SE Louisiana,0.873,0.873,0.673,--,0.873,0.963
+2026-11-11T16:18-05:00,offensive-efficiency,2026,298,S Indiana,0.869,0.869,0.999,--,0.869,0.940
+2026-11-11T16:18-05:00,offensive-efficiency,2026,299,Monmouth,0.868,0.868,0.913,--,0.868,1.036
+2026-11-11T16:18-05:00,offensive-efficiency,2026,300,UMBC,0.868,0.868,1.000,--,0.868,1.107
+2026-11-11T16:18-05:00,offensive-efficiency,2026,301,Prairie View,0.864,0.864,0.796,--,0.864,1.006
+2026-11-11T16:18-05:00,offensive-efficiency,2026,302,W Illinois,0.862,0.862,0.907,--,0.862,0.920
+2026-11-11T16:18-05:00,offensive-efficiency,2026,303,American,0.860,0.860,1.013,--,0.860,1.058
+2026-11-11T16:18-05:00,offensive-efficiency,2026,304,Stonehill,0.859,0.859,0.826,--,0.859,0.927
+2026-11-11T16:18-05:00,offensive-efficiency,2026,305,Milwaukee,0.857,0.857,0.909,--,0.857,1.054
+2026-11-11T16:18-05:00,offensive-efficiency,2026,306,Chicago St,0.856,0.856,0.912,0.912,0.829,0.955
+2026-11-11T16:18-05:00,offensive-efficiency,2026,307,Temple,0.855,0.855,0.735,0.979,0.735,1.076
+2026-11-11T16:18-05:00,offensive-efficiency,2026,308,Florida A&M,0.855,0.855,0.854,--,0.855,0.968
+2026-11-11T16:18-05:00,offensive-efficiency,2026,309,Portland St,0.853,0.853,0.853,--,0.853,1.033
+2026-11-11T16:18-05:00,offensive-efficiency,2026,310,Coastal Car,0.852,0.852,0.955,0.991,0.624,1.008
+2026-11-11T16:18-05:00,offensive-efficiency,2026,311,LIU,0.851,0.877,0.680,--,0.851,1.050
+2026-11-11T16:18-05:00,offensive-efficiency,2026,312,Holy Cross,0.850,0.850,0.901,--,0.850,1.013
+2026-11-11T16:18-05:00,offensive-efficiency,2026,313,Alcorn St,0.850,0.850,0.732,1.099,0.731,0.940
+2026-11-11T16:18-05:00,offensive-efficiency,2026,314,Ball St,0.848,0.848,0.921,0.921,0.775,0.976
+2026-11-11T16:18-05:00,offensive-efficiency,2026,315,Bryant,0.840,0.792,0.734,0.891,0.783,0.938
+2026-11-11T16:18-05:00,offensive-efficiency,2026,316,Wofford,0.838,0.838,0.874,--,0.838,1.116
+2026-11-11T16:18-05:00,offensive-efficiency,2026,317,Rider,0.837,0.837,1.001,0.783,0.864,0.932
+2026-11-11T16:18-05:00,offensive-efficiency,2026,318,E Illinois,0.831,0.831,0.954,--,0.831,0.940
+2026-11-11T16:18-05:00,offensive-efficiency,2026,319,Omaha,0.830,0.830,0.749,--,0.830,1.046
+2026-11-11T16:18-05:00,offensive-efficiency,2026,320,Buffalo,0.830,0.830,0.826,--,0.830,1.114
+2026-11-11T16:18-05:00,offensive-efficiency,2026,321,Liberty,0.827,0.827,0.827,--,0.827,1.140
+2026-11-11T16:18-05:00,offensive-efficiency,2026,322,Fairfield,0.826,0.826,0.570,0.991,0.750,1.058
+2026-11-11T16:18-05:00,offensive-efficiency,2026,323,Jackson St,0.826,0.826,0.773,--,0.826,0.957
+2026-11-11T16:18-05:00,offensive-efficiency,2026,324,Loyola MD,0.823,0.823,0.812,--,0.823,1.036
+2026-11-11T16:18-05:00,offensive-efficiency,2026,325,NW State,0.822,0.822,0.966,--,0.822,0.985
+2026-11-11T16:18-05:00,offensive-efficiency,2026,326,NJIT,0.819,0.824,0.835,0.903,0.796,0.950
+2026-11-11T16:18-05:00,offensive-efficiency,2026,327,Middle Tenn,0.815,0.815,1.014,1.014,0.618,1.051
+2026-11-11T16:18-05:00,offensive-efficiency,2026,328,The Citadel,0.814,0.814,0.814,--,0.814,1.009
+2026-11-11T16:18-05:00,offensive-efficiency,2026,329,Morehead St,0.813,0.813,0.809,--,0.813,1.041
+2026-11-11T16:18-05:00,offensive-efficiency,2026,330,Radford,0.812,0.812,0.631,--,0.812,1.053
+2026-11-11T16:18-05:00,offensive-efficiency,2026,331,Maryland ES,0.803,0.803,0.845,--,0.803,0.928
+2026-11-11T16:18-05:00,offensive-efficiency,2026,332,Saint Peter's,0.800,0.800,0.870,0.865,0.767,1.023
+2026-11-11T16:18-05:00,offensive-efficiency,2026,333,Texas So,0.799,0.799,0.663,--,0.799,1.007
+2026-11-11T16:18-05:00,offensive-efficiency,2026,334,Le Moyne,0.799,0.799,0.731,--,0.799,1.027
+2026-11-11T16:18-05:00,offensive-efficiency,2026,335,Southern,0.793,0.742,0.596,--,0.793,1.033
+2026-11-11T16:18-05:00,offensive-efficiency,2026,336,Mt St Mary's,0.786,0.786,0.968,0.968,0.631,0.979
+2026-11-11T16:18-05:00,offensive-efficiency,2026,337,Incarnate Word,0.784,0.784,0.875,0.694,0.832,1.048
+2026-11-11T16:18-05:00,offensive-efficiency,2026,338,Southern Miss,0.783,0.783,0.783,--,0.783,1.032
+2026-11-11T16:18-05:00,offensive-efficiency,2026,339,Hampton,0.781,0.781,0.898,--,0.781,0.987
+2026-11-11T16:18-05:00,offensive-efficiency,2026,340,Army,0.778,0.778,0.864,--,0.778,1.007
+2026-11-11T16:18-05:00,offensive-efficiency,2026,341,Alabama St,0.773,0.773,0.773,--,0.773,0.981
+2026-11-11T16:18-05:00,offensive-efficiency,2026,342,N Florida,0.769,0.769,0.620,--,0.769,1.044
+2026-11-11T16:18-05:00,offensive-efficiency,2026,343,W Georgia,0.765,0.765,0.759,--,0.765,1.033
+2026-11-11T16:18-05:00,offensive-efficiency,2026,344,Niagara,0.762,0.762,0.875,0.875,0.642,0.971
+2026-11-11T16:18-05:00,offensive-efficiency,2026,345,F Dickinson,0.753,0.753,0.927,--,0.753,0.982
+2026-11-11T16:18-05:00,offensive-efficiency,2026,346,Mercyhurst,0.750,0.750,0.873,--,0.750,1.015
+2026-11-11T16:18-05:00,offensive-efficiency,2026,347,Robert Morris,0.750,0.750,0.788,--,0.750,1.117
+2026-11-11T16:18-05:00,offensive-efficiency,2026,348,Lindenwood,0.747,0.747,0.747,--,0.747,0.988
+2026-11-11T16:18-05:00,offensive-efficiency,2026,349,Canisius,0.743,0.743,0.719,0.719,0.765,0.939
+2026-11-11T16:18-05:00,offensive-efficiency,2026,350,Coppin St,0.741,0.741,0.764,--,0.741,0.905
+2026-11-11T16:18-05:00,offensive-efficiency,2026,351,Tennessee St,0.738,0.738,0.738,--,0.738,1.066
+2026-11-11T16:18-05:00,offensive-efficiency,2026,352,Navy,0.734,0.734,0.934,0.934,0.539,1.101
+2026-11-11T16:18-05:00,offensive-efficiency,2026,353,Bradley,0.731,0.731,0.653,0.815,0.653,1.082
+2026-11-11T16:18-05:00,offensive-efficiency,2026,354,Lafayette,0.721,0.721,0.691,--,0.721,1.010
+2026-11-11T16:18-05:00,offensive-efficiency,2026,355,Wagner,0.710,0.710,0.602,--,0.710,1.021
+2026-11-11T16:18-05:00,offensive-efficiency,2026,356,Oral Roberts,0.708,0.708,0.708,--,0.708,1.006
+2026-11-11T16:18-05:00,offensive-efficiency,2026,357,AR-Pine Bluff,0.695,0.695,0.631,--,0.695,1.014
+2026-11-11T16:18-05:00,offensive-efficiency,2026,358,LSU New Orleans,0.684,0.684,0.684,--,0.684,1.030
+2026-11-11T16:18-05:00,offensive-efficiency,2026,359,Alabama A&M,0.672,0.672,0.672,--,0.672,1.032
+2026-11-11T16:18-05:00,offensive-efficiency,2026,360,Gardner-Webb,0.657,0.657,0.687,--,0.657,0.916
+2026-11-11T16:18-05:00,offensive-efficiency,2026,361,Detroit Mercy,0.551,0.551,0.628,--,0.551,1.069
+2026-11-11T16:18-05:00,offensive-efficiency,2026,362,Charleston,--,--,--,--,--,1.062
+2026-11-11T16:18-05:00,offensive-efficiency,2026,362,S Utah,--,--,--,--,--,0.992
+2026-11-11T16:18-05:00,offensive-efficiency,2026,362,SF Austin,--,--,--,--,--,1.096
+2026-11-11T16:18-05:00,offensive-efficiency,2026,362,Missouri St,--,--,--,--,--,1.051
+2026-11-11T16:18-05:00,defensive-efficiency,2026,1,Marquette,0.543,0.543,0.455,0.543,--,1.040
+2026-11-11T16:18-05:00,defensive-efficiency,2026,2,Xavier,0.659,0.659,0.628,0.659,--,1.098
+2026-11-11T16:18-05:00,defensive-efficiency,2026,3,LSU,0.671,0.671,0.663,0.671,--,1.090
+2026-11-11T16:18-05:00,defensive-efficiency,2026,4,West Virginia,0.710,0.710,0.783,0.710,--,0.983
+2026-11-11T16:18-05:00,defensive-efficiency,2026,5,Tennessee,0.715,0.715,0.631,0.715,--,0.994
+2026-11-11T16:18-05:00,defensive-efficiency,2026,6,G Washington,0.717,0.717,0.726,0.717,--,1.051
+2026-11-11T16:18-05:00,defensive-efficiency,2026,7,Mississippi,0.733,0.733,0.673,0.733,--,1.065
+2026-11-11T16:18-05:00,defensive-efficiency,2026,8,George Mason,0.744,0.744,0.764,0.744,--,1.026
+2026-11-11T16:18-05:00,defensive-efficiency,2026,9,UConn,0.750,0.750,0.602,0.615,1.000,0.960
+2026-11-11T16:18-05:00,defensive-efficiency,2026,10,Baylor,0.763,0.763,0.865,0.763,--,1.081
+2026-11-11T16:18-05:00,defensive-efficiency,2026,11,Texas,0.772,0.772,0.821,0.772,--,1.082
+2026-11-11T16:18-05:00,defensive-efficiency,2026,12,Texas A&M,0.783,0.783,0.774,0.783,--,1.049
+2026-11-11T16:18-05:00,defensive-efficiency,2026,13,Loyola Chi,0.785,0.785,0.759,0.785,--,1.118
+2026-11-11T16:18-05:00,defensive-efficiency,2026,14,Duke,0.789,0.789,1.054,0.660,1.054,0.930
+2026-11-11T16:18-05:00,defensive-efficiency,2026,15,Kansas,0.790,0.790,0.896,0.735,0.896,0.980
+2026-11-11T16:18-05:00,defensive-efficiency,2026,16,Wisconsin,0.806,0.806,0.570,0.806,--,1.065
+2026-11-11T16:18-05:00,defensive-efficiency,2026,17,Murray St,0.807,0.807,0.732,0.846,0.738,1.086
+2026-11-11T16:18-05:00,defensive-efficiency,2026,18,Saint Joseph's,0.808,0.808,0.691,0.808,--,1.008
+2026-11-11T16:18-05:00,defensive-efficiency,2026,19,Auburn,0.810,0.810,0.838,0.810,--,1.099
+2026-11-11T16:18-05:00,defensive-efficiency,2026,20,Providence,0.811,0.811,0.734,0.750,0.937,1.102
+2026-11-11T16:18-05:00,defensive-efficiency,2026,21,Texas Tech,0.812,0.812,1.024,0.812,--,1.049
+2026-11-11T16:18-05:00,defensive-efficiency,2026,22,Oklahoma St,0.813,0.813,0.831,0.813,--,1.086
+2026-11-11T16:18-05:00,defensive-efficiency,2026,23,Miami,0.813,0.813,0.620,0.694,1.070,1.005
+2026-11-11T16:18-05:00,defensive-efficiency,2026,24,Pacific,0.815,0.815,0.815,--,0.815,1.029
+2026-11-11T16:18-05:00,defensive-efficiency,2026,25,Boston College,0.818,0.818,0.845,0.795,0.866,1.022
+2026-11-11T16:18-05:00,defensive-efficiency,2026,26,Houston,0.819,0.819,0.945,0.703,0.945,0.929
+2026-11-11T16:18-05:00,defensive-efficiency,2026,27,Iowa St,0.823,0.823,0.596,0.686,1.112,0.937
+2026-11-11T16:18-05:00,defensive-efficiency,2026,28,Rutgers,0.823,0.823,0.835,0.823,--,1.089
+2026-11-11T16:18-05:00,defensive-efficiency,2026,29,Seton Hall,0.825,0.825,0.930,0.771,0.930,0.956
+2026-11-11T16:18-05:00,defensive-efficiency,2026,30,TCU,0.827,0.827,1.006,0.827,--,1.001
+2026-11-11T16:18-05:00,defensive-efficiency,2026,31,Illinois,0.829,0.829,1.103,0.701,1.103,1.013
+2026-11-11T16:18-05:00,defensive-efficiency,2026,32,Vanderbilt,0.834,0.834,1.062,0.834,--,1.030
+2026-11-11T16:18-05:00,defensive-efficiency,2026,33,Nebraska,0.840,0.840,0.811,0.868,0.811,0.965
+2026-11-11T16:18-05:00,defensive-efficiency,2026,34,Minnesota,0.842,0.842,0.904,0.811,0.904,1.047
+2026-11-11T16:18-05:00,defensive-efficiency,2026,35,UC Riverside,0.844,0.844,0.844,0.844,--,1.090
+2026-11-11T16:18-05:00,defensive-efficiency,2026,36,SMU,0.852,0.852,0.796,0.852,--,1.065
+2026-11-11T16:18-05:00,defensive-efficiency,2026,37,St John's,0.856,0.856,0.887,0.856,--,0.954
+2026-11-11T16:18-05:00,defensive-efficiency,2026,38,Cincinnati,0.856,0.856,0.934,0.856,--,0.952
+2026-11-11T16:18-05:00,defensive-efficiency,2026,39,Utah St,0.858,0.858,1.038,0.858,--,1.013
+2026-11-11T16:18-05:00,defensive-efficiency,2026,40,Michigan St,0.859,0.859,0.974,0.801,0.974,0.993
+2026-11-11T16:18-05:00,defensive-efficiency,2026,41,Richmond,0.863,0.863,0.735,0.981,0.735,1.064
+2026-11-11T16:18-05:00,defensive-efficiency,2026,42,DePaul,0.865,0.865,0.672,0.865,--,1.003
+2026-11-11T16:18-05:00,defensive-efficiency,2026,43,Mississippi St,0.865,0.865,0.773,0.865,--,1.107
+2026-11-11T16:18-05:00,defensive-efficiency,2026,44,Pittsburgh,0.868,0.868,1.030,0.788,1.030,1.078
+2026-11-11T16:18-05:00,defensive-efficiency,2026,45,Old Dominion,0.870,0.870,0.956,0.781,0.956,1.084
+2026-11-11T16:18-05:00,defensive-efficiency,2026,46,UCLA,0.871,0.871,0.779,0.779,0.967,1.044
+2026-11-11T16:18-05:00,defensive-efficiency,2026,47,High Point,0.872,0.872,1.097,0.895,0.827,0.991
+2026-11-11T16:18-05:00,defensive-efficiency,2026,48,Morgan St,0.875,0.875,0.875,--,0.875,1.089
+2026-11-11T16:18-05:00,defensive-efficiency,2026,49,Rhode Island,0.876,0.876,0.918,0.858,0.913,0.999
+2026-11-11T16:18-05:00,defensive-efficiency,2026,50,Georgia Tech,0.877,0.877,0.899,0.877,--,1.047
+2026-11-11T16:18-05:00,defensive-efficiency,2026,51,New Hampshire,0.879,0.879,0.994,0.994,0.811,1.083
+2026-11-11T16:18-05:00,defensive-efficiency,2026,52,Akron,0.882,0.882,0.882,--,0.882,1.031
+2026-11-11T16:18-05:00,defensive-efficiency,2026,53,Davidson,0.888,0.888,0.653,0.879,0.904,1.033
+2026-11-11T16:18-05:00,defensive-efficiency,2026,54,Virginia,0.891,0.928,0.858,0.856,1.000,0.990
+2026-11-11T16:18-05:00,defensive-efficiency,2026,55,New Mexico,0.891,0.891,0.963,0.891,--,0.996
+2026-11-11T16:18-05:00,defensive-efficiency,2026,56,Louisville,0.891,0.891,0.809,0.891,--,1.002
+2026-11-11T16:18-05:00,defensive-efficiency,2026,57,UMass Lowell,0.893,0.893,0.913,0.913,0.875,1.097
+2026-11-11T16:18-05:00,defensive-efficiency,2026,58,San Francisco,0.899,0.899,0.836,0.899,--,1.066
+2026-11-11T16:18-05:00,defensive-efficiency,2026,59,Utah,0.900,0.900,0.926,0.900,--,1.126
+2026-11-11T16:18-05:00,defensive-efficiency,2026,60,St Bonaventure,0.907,0.907,0.719,1.083,0.719,1.081
+2026-11-11T16:18-05:00,defensive-efficiency,2026,61,NC State,0.907,0.907,0.849,0.907,--,1.065
+2026-11-11T16:18-05:00,defensive-efficiency,2026,62,Florida,0.908,0.908,0.966,0.820,0.949,0.970
+2026-11-11T16:18-05:00,defensive-efficiency,2026,63,S Carolina St,0.908,0.908,0.912,--,0.908,1.123
+2026-11-11T16:18-05:00,defensive-efficiency,2026,64,Creighton,0.909,0.909,1.155,0.782,1.155,1.071
+2026-11-11T16:18-05:00,defensive-efficiency,2026,65,Saint Louis,0.913,0.913,0.754,0.832,1.077,0.972
+2026-11-11T16:18-05:00,defensive-efficiency,2026,66,San Diego St,0.914,0.914,0.882,0.942,0.882,0.991
+2026-11-11T16:18-05:00,defensive-efficiency,2026,67,Brown,0.919,0.919,0.817,0.970,0.817,1.038
+2026-11-11T16:18-05:00,defensive-efficiency,2026,68,Santa Clara,0.919,0.919,0.910,0.919,--,1.031
+2026-11-11T16:18-05:00,defensive-efficiency,2026,69,Illinois Chicago,0.922,0.922,1.063,0.922,--,1.020
+2026-11-11T16:18-05:00,defensive-efficiency,2026,70,Villanova,0.922,0.922,0.845,0.874,1.018,1.031
+2026-11-11T16:18-05:00,defensive-efficiency,2026,71,Valparaiso,0.923,0.923,1.020,0.815,1.020,1.035
+2026-11-11T16:18-05:00,defensive-efficiency,2026,72,Missouri,0.923,0.923,0.869,0.791,1.154,1.067
+2026-11-11T16:18-05:00,defensive-efficiency,2026,73,North Carolina,0.923,0.923,0.923,0.923,--,1.008
+2026-11-11T16:18-05:00,defensive-efficiency,2026,74,Seattle,0.924,0.924,0.853,0.853,0.990,0.965
+2026-11-11T16:18-05:00,defensive-efficiency,2026,75,Syracuse,0.925,0.925,1.138,0.807,1.138,1.045
+2026-11-11T16:18-05:00,defensive-efficiency,2026,76,Kennesaw St,0.929,0.929,0.948,0.929,--,1.047
+2026-11-11T16:18-05:00,defensive-efficiency,2026,77,Northwestern,0.929,0.929,0.829,0.929,--,1.069
+2026-11-11T16:18-05:00,defensive-efficiency,2026,78,South Carolina,0.930,0.930,0.935,0.930,--,1.089
+2026-11-11T16:18-05:00,defensive-efficiency,2026,79,Alabama,0.930,0.930,0.915,0.930,--,1.076
+2026-11-11T16:18-05:00,defensive-efficiency,2026,80,Austin Peay,0.934,0.934,0.934,--,0.934,1.043
+2026-11-11T16:18-05:00,defensive-efficiency,2026,81,Virginia Tech,0.937,0.937,1.197,0.810,1.197,1.049
+2026-11-11T16:18-05:00,defensive-efficiency,2026,82,Nevada,0.938,0.938,1.123,0.711,1.123,1.034
+2026-11-11T16:18-05:00,defensive-efficiency,2026,83,Wake Forest,0.939,0.939,0.880,0.869,1.089,1.073
+2026-11-11T16:18-05:00,defensive-efficiency,2026,84,Iowa,0.940,0.940,1.265,0.760,1.265,1.031
+2026-11-11T16:18-05:00,defensive-efficiency,2026,85,Bradley,0.942,0.942,0.900,0.987,0.900,1.043
+2026-11-11T16:18-05:00,defensive-efficiency,2026,86,Notre Dame,0.942,0.942,0.954,0.916,0.990,1.083
+2026-11-11T16:18-05:00,defensive-efficiency,2026,87,Stanford,0.943,0.943,0.945,0.943,--,1.046
+2026-11-11T16:18-05:00,defensive-efficiency,2026,88,NC Wilmington,0.943,0.943,0.943,--,0.943,1.004
+2026-11-11T16:18-05:00,defensive-efficiency,2026,89,USC,0.944,0.944,1.081,0.805,1.081,1.058
+2026-11-11T16:18-05:00,defensive-efficiency,2026,90,UCSD,0.948,0.948,0.948,0.948,--,0.988
+2026-11-11T16:18-05:00,defensive-efficiency,2026,91,Boise St,0.949,0.949,0.949,0.949,--,1.054
+2026-11-11T16:18-05:00,defensive-efficiency,2026,92,Grand Canyon,0.950,0.950,0.980,0.950,--,0.979
+2026-11-11T16:18-05:00,defensive-efficiency,2026,93,Drake,0.950,0.950,0.950,0.950,--,1.094
+2026-11-11T16:18-05:00,defensive-efficiency,2026,94,Oklahoma,0.951,0.951,1.056,0.951,--,1.086
+2026-11-11T16:18-05:00,defensive-efficiency,2026,95,Oregon St,0.951,0.951,1.091,0.951,--,1.081
+2026-11-11T16:18-05:00,defensive-efficiency,2026,96,Ball St,0.954,0.954,0.963,0.963,0.944,1.054
+2026-11-11T16:18-05:00,defensive-efficiency,2026,97,Temple,0.954,0.954,1.096,0.806,1.096,1.049
+2026-11-11T16:18-05:00,defensive-efficiency,2026,98,Hawai'i,0.955,0.955,1.073,0.955,--,0.954
+2026-11-11T16:18-05:00,defensive-efficiency,2026,99,Arizona St,0.955,0.955,0.932,0.955,--,1.079
+2026-11-11T16:18-05:00,defensive-efficiency,2026,100,Butler,0.956,0.956,1.172,0.833,1.172,1.059
+2026-11-11T16:18-05:00,defensive-efficiency,2026,101,Texas St,0.956,0.956,1.063,0.855,1.063,1.037
+2026-11-11T16:18-05:00,defensive-efficiency,2026,102,Saint Peter's,0.956,0.956,0.903,0.912,0.979,1.021
+2026-11-11T16:18-05:00,defensive-efficiency,2026,103,E Texas A&M,0.957,0.957,0.980,--,0.957,1.087
+2026-11-11T16:18-05:00,defensive-efficiency,2026,104,Wright St,0.957,0.957,0.968,0.952,0.968,1.067
+2026-11-11T16:18-05:00,defensive-efficiency,2026,105,Florida St,0.959,0.959,1.087,1.015,0.856,1.063
+2026-11-11T16:18-05:00,defensive-efficiency,2026,106,C Arkansas,0.961,0.961,1.222,0.708,1.222,1.056
+2026-11-11T16:18-05:00,defensive-efficiency,2026,107,Bryant,0.964,0.987,1.041,0.917,1.016,1.091
+2026-11-11T16:18-05:00,defensive-efficiency,2026,108,Towson,0.964,0.964,0.680,0.680,1.100,1.008
+2026-11-11T16:18-05:00,defensive-efficiency,2026,109,S Dakota St,0.965,0.965,0.965,--,0.965,1.070
+2026-11-11T16:18-05:00,defensive-efficiency,2026,110,Sacred Heart,0.966,0.966,0.933,1.003,0.933,1.106
+2026-11-11T16:18-05:00,defensive-efficiency,2026,111,Florida Intl,0.967,0.967,0.967,0.967,--,1.060
+2026-11-11T16:18-05:00,defensive-efficiency,2026,112,Belmont,0.968,0.968,1.202,0.734,1.202,1.029
+2026-11-11T16:18-05:00,defensive-efficiency,2026,113,Texas A&M-CC,0.969,0.969,0.899,--,0.969,1.010
+2026-11-11T16:18-05:00,defensive-efficiency,2026,114,Denver,0.970,0.970,0.900,--,0.970,1.185
+2026-11-11T16:18-05:00,defensive-efficiency,2026,115,Oregon,0.970,0.970,0.940,0.970,--,1.082
+2026-11-11T16:18-05:00,defensive-efficiency,2026,116,Hou Christian,0.971,0.971,1.034,--,0.971,1.089
+2026-11-11T16:18-05:00,defensive-efficiency,2026,117,Colorado,0.972,0.972,1.034,0.942,1.029,1.096
+2026-11-11T16:18-05:00,defensive-efficiency,2026,118,Indiana,0.972,0.972,1.097,0.907,1.097,1.046
+2026-11-11T16:18-05:00,defensive-efficiency,2026,119,Wyoming,0.973,0.973,1.114,0.843,1.114,1.055
+2026-11-11T16:18-05:00,defensive-efficiency,2026,120,UMass,0.975,0.975,1.118,--,0.975,1.059
+2026-11-11T16:18-05:00,defensive-efficiency,2026,121,Harvard,0.976,0.976,0.976,--,0.976,1.017
+2026-11-11T16:18-05:00,defensive-efficiency,2026,122,E Carolina,0.978,0.978,0.981,0.978,--,1.077
+2026-11-11T16:18-05:00,defensive-efficiency,2026,123,Marist,0.978,0.978,0.943,0.994,0.943,0.938
+2026-11-11T16:18-05:00,defensive-efficiency,2026,124,Colorado St,0.980,0.980,0.949,0.980,--,1.091
+2026-11-11T16:18-05:00,defensive-efficiency,2026,125,Sacramento St,0.981,0.981,0.981,--,0.981,1.130
+2026-11-11T16:18-05:00,defensive-efficiency,2026,126,William & Mary,0.983,0.983,0.983,0.983,--,1.052
+2026-11-11T16:18-05:00,defensive-efficiency,2026,127,Siena,0.984,0.984,1.103,0.881,1.032,1.000
+2026-11-11T16:18-05:00,defensive-efficiency,2026,128,Gonzaga,0.985,0.985,0.950,0.950,1.020,0.920
+2026-11-11T16:18-05:00,defensive-efficiency,2026,129,W Kentucky,0.985,0.985,1.122,0.818,1.122,1.044
+2026-11-11T16:18-05:00,defensive-efficiency,2026,130,Washington,0.987,0.987,0.961,0.987,--,1.047
+2026-11-11T16:18-05:00,defensive-efficiency,2026,131,Marshall,0.987,0.987,1.086,0.938,1.086,1.085
+2026-11-11T16:18-05:00,defensive-efficiency,2026,132,Kansas St,0.993,0.993,1.064,0.993,--,1.085
+2026-11-11T16:18-05:00,defensive-efficiency,2026,133,Dartmouth,0.995,0.995,1.101,1.101,0.887,1.103
+2026-11-11T16:18-05:00,defensive-efficiency,2026,134,Princeton,0.995,0.995,1.062,0.914,1.062,1.087
+2026-11-11T16:18-05:00,defensive-efficiency,2026,135,Arizona,0.999,0.999,0.878,0.955,1.083,0.948
+2026-11-11T16:18-05:00,defensive-efficiency,2026,136,Arkansas,1.000,1.000,1.263,0.763,1.263,1.075
+2026-11-11T16:18-05:00,defensive-efficiency,2026,137,UT Arlington,1.001,1.001,0.946,--,1.001,0.979
+2026-11-11T16:18-05:00,defensive-efficiency,2026,138,Merrimack,1.002,1.002,0.904,1.018,0.992,1.008
+2026-11-11T16:18-05:00,defensive-efficiency,2026,139,Elon,1.002,1.002,1.001,0.962,1.022,1.121
+2026-11-11T16:18-05:00,defensive-efficiency,2026,140,S Indiana,1.002,1.002,1.025,--,1.002,1.042
+2026-11-11T16:18-05:00,defensive-efficiency,2026,141,Charlotte,1.002,1.002,1.020,0.972,1.018,1.105
+2026-11-11T16:18-05:00,defensive-efficiency,2026,142,Lafayette,1.004,1.004,0.812,--,1.004,1.102
+2026-11-11T16:18-05:00,defensive-efficiency,2026,143,N Texas,1.004,1.004,1.004,1.004,--,0.980
+2026-11-11T16:18-05:00,defensive-efficiency,2026,144,Evansville,1.006,1.006,1.014,--,1.006,1.130
+2026-11-11T16:18-05:00,defensive-efficiency,2026,145,UTEP,1.006,1.006,0.875,0.875,1.127,1.070
+2026-11-11T16:18-05:00,defensive-efficiency,2026,146,Mt St Mary's,1.009,1.009,0.812,0.812,1.176,1.024
+2026-11-11T16:18-05:00,defensive-efficiency,2026,147,Georgia,1.009,1.009,1.061,1.009,--,1.041
+2026-11-11T16:18-05:00,defensive-efficiency,2026,148,Hampton,1.010,1.010,1.104,--,1.010,1.047
+2026-11-11T16:18-05:00,defensive-efficiency,2026,149,Michigan,1.011,1.011,1.104,0.914,1.104,0.946
+2026-11-11T16:18-05:00,defensive-efficiency,2026,150,Wichita St,1.011,1.011,1.169,0.851,1.169,0.991
+2026-11-11T16:18-05:00,defensive-efficiency,2026,151,Georgetown,1.013,1.013,1.135,1.013,--,1.052
+2026-11-11T16:18-05:00,defensive-efficiency,2026,152,Maine,1.016,0.976,1.002,0.949,1.038,1.027
+2026-11-11T16:18-05:00,defensive-efficiency,2026,153,IU Indy,1.018,1.018,1.018,1.018,--,1.163
+2026-11-11T16:18-05:00,defensive-efficiency,2026,154,Longwood,1.020,1.020,0.993,0.993,1.047,1.045
+2026-11-11T16:18-05:00,defensive-efficiency,2026,155,LIU,1.021,1.042,0.975,--,1.021,1.023
+2026-11-11T16:18-05:00,defensive-efficiency,2026,156,UAB,1.022,1.022,0.854,0.850,1.381,1.016
+2026-11-11T16:18-05:00,defensive-efficiency,2026,157,Ohio,1.022,1.022,0.967,0.967,1.078,1.100
+2026-11-11T16:18-05:00,defensive-efficiency,2026,158,UT Martin,1.024,1.024,0.873,--,1.024,0.954
+2026-11-11T16:18-05:00,defensive-efficiency,2026,159,Miami OH,1.025,1.025,1.020,1.020,1.029,1.039
+2026-11-11T16:18-05:00,defensive-efficiency,2026,160,Indiana St,1.025,1.025,0.921,1.133,0.921,1.048
+2026-11-11T16:18-05:00,defensive-efficiency,2026,161,App State,1.026,1.026,1.186,--,1.026,1.016
+2026-11-11T16:18-05:00,defensive-efficiency,2026,162,Penn St,1.027,1.027,1.111,0.986,1.111,1.156
+2026-11-11T16:18-05:00,defensive-efficiency,2026,163,Nicholls,1.028,1.028,1.123,--,1.028,1.083
+2026-11-11T16:18-05:00,defensive-efficiency,2026,164,S Florida,1.028,1.028,1.196,0.885,1.196,0.993
+2026-11-11T16:18-05:00,defensive-efficiency,2026,165,UC Davis,1.029,1.029,1.029,1.029,--,1.035
+2026-11-11T16:18-05:00,defensive-efficiency,2026,166,Columbia,1.032,1.032,0.826,1.032,--,1.054
+2026-11-11T16:18-05:00,defensive-efficiency,2026,167,Kentucky,1.034,1.034,1.156,0.967,1.156,1.040
+2026-11-11T16:18-05:00,defensive-efficiency,2026,168,Dayton,1.034,1.034,1.227,1.034,--,0.994
+2026-11-11T16:18-05:00,defensive-efficiency,2026,169,W Michigan,1.035,1.035,1.095,1.095,0.972,1.123
+2026-11-11T16:18-05:00,defensive-efficiency,2026,170,E Michigan,1.036,1.036,1.045,--,1.036,1.055
+2026-11-11T16:18-05:00,defensive-efficiency,2026,171,Jacksonville St,1.037,1.037,1.037,--,1.037,1.034
+2026-11-11T16:18-05:00,defensive-efficiency,2026,172,Lehigh,1.037,1.037,0.966,0.920,1.263,1.064
+2026-11-11T16:18-05:00,defensive-efficiency,2026,173,Georgia So,1.039,1.039,1.101,0.956,1.206,1.086
+2026-11-11T16:18-05:00,defensive-efficiency,2026,174,Albany,1.039,1.039,1.100,1.100,0.980,1.102
+2026-11-11T16:18-05:00,defensive-efficiency,2026,175,SC Upstate,1.040,1.040,0.955,1.009,1.058,1.047
+2026-11-11T16:18-05:00,defensive-efficiency,2026,176,W Georgia,1.040,1.040,1.088,--,1.040,1.103
+2026-11-11T16:18-05:00,defensive-efficiency,2026,177,Howard,1.041,1.041,0.978,--,1.041,0.967
+2026-11-11T16:18-05:00,defensive-efficiency,2026,178,Portland,1.041,1.041,0.970,--,1.041,1.085
+2026-11-11T16:18-05:00,defensive-efficiency,2026,179,BYU,1.042,1.042,1.040,0.979,1.179,1.039
+2026-11-11T16:18-05:00,defensive-efficiency,2026,180,Iona,1.042,1.096,1.096,0.800,1.260,1.021
+2026-11-11T16:18-05:00,defensive-efficiency,2026,181,Radford,1.043,1.043,0.940,--,1.043,1.066
+2026-11-11T16:18-05:00,defensive-efficiency,2026,182,Delaware,1.045,1.045,1.045,--,1.045,1.114
+2026-11-11T16:18-05:00,defensive-efficiency,2026,183,Louisiana,1.045,1.045,1.004,1.045,--,1.069
+2026-11-11T16:18-05:00,defensive-efficiency,2026,184,Manhattan,1.045,1.045,0.865,1.037,1.048,1.132
+2026-11-11T16:18-05:00,defensive-efficiency,2026,185,Liberty,1.045,1.045,1.045,--,1.045,1.085
+2026-11-11T16:18-05:00,defensive-efficiency,2026,186,Vermont,1.045,1.045,1.275,1.275,0.937,1.034
+2026-11-11T16:18-05:00,defensive-efficiency,2026,187,UCSB,1.046,1.046,1.046,1.046,--,1.058
+2026-11-11T16:18-05:00,defensive-efficiency,2026,188,UC Irvine,1.046,1.046,1.046,1.046,--,0.945
+2026-11-11T16:18-05:00,defensive-efficiency,2026,189,Toledo,1.046,1.086,1.082,1.082,1.035,1.091
+2026-11-11T16:18-05:00,defensive-efficiency,2026,190,SE Missouri St,1.046,1.046,1.073,1.022,1.073,1.015
+2026-11-11T16:18-05:00,defensive-efficiency,2026,191,Cornell,1.047,1.047,0.973,1.118,0.973,1.150
+2026-11-11T16:18-05:00,defensive-efficiency,2026,192,Duquesne,1.047,1.047,1.119,1.047,--,1.055
+2026-11-11T16:18-05:00,defensive-efficiency,2026,193,Ohio St,1.048,1.048,0.956,0.915,1.335,1.056
+2026-11-11T16:18-05:00,defensive-efficiency,2026,194,Purdue,1.048,1.048,0.969,1.019,1.105,1.058
+2026-11-11T16:18-05:00,defensive-efficiency,2026,195,Fordham,1.052,1.052,1.012,0.951,1.238,1.002
+2026-11-11T16:18-05:00,defensive-efficiency,2026,196,NC Central,1.053,1.053,1.059,--,1.053,1.129
+2026-11-11T16:18-05:00,defensive-efficiency,2026,197,Saint Mary's,1.053,1.053,1.135,1.007,1.135,0.964
+2026-11-11T16:18-05:00,defensive-efficiency,2026,198,Penn,1.055,1.055,0.815,0.815,1.272,1.049
+2026-11-11T16:18-05:00,defensive-efficiency,2026,199,California,1.055,1.055,1.195,0.922,1.195,1.019
+2026-11-11T16:18-05:00,defensive-efficiency,2026,200,VMI,1.055,1.055,0.986,--,1.055,1.199
+2026-11-11T16:18-05:00,defensive-efficiency,2026,201,UT Rio Grande,1.056,1.056,1.177,1.056,--,1.020
+2026-11-11T16:18-05:00,defensive-efficiency,2026,202,Navy,1.056,1.056,0.849,0.849,1.257,0.976
+2026-11-11T16:18-05:00,defensive-efficiency,2026,203,Tulane,1.057,1.057,0.919,1.057,--,1.073
+2026-11-11T16:18-05:00,defensive-efficiency,2026,204,Loyola MD,1.059,1.059,0.968,--,1.059,1.104
+2026-11-11T16:18-05:00,defensive-efficiency,2026,205,Arkansas St,1.059,1.059,1.102,1.008,1.148,1.042
+2026-11-11T16:18-05:00,defensive-efficiency,2026,206,Fairfield,1.060,1.060,1.209,1.168,1.010,1.043
+2026-11-11T16:18-05:00,defensive-efficiency,2026,207,Florida Atlantic,1.061,1.061,1.365,0.780,1.365,1.035
+2026-11-11T16:18-05:00,defensive-efficiency,2026,208,UNLV,1.062,1.062,1.024,1.062,--,1.087
+2026-11-11T16:18-05:00,defensive-efficiency,2026,209,W Illinois,1.062,1.062,1.002,--,1.062,1.142
+2026-11-11T16:18-05:00,defensive-efficiency,2026,210,C Michigan,1.062,1.062,1.073,1.073,1.052,1.114
+2026-11-11T16:18-05:00,defensive-efficiency,2026,211,Incarnate Word,1.063,1.063,1.152,0.848,1.178,1.116
+2026-11-11T16:18-05:00,defensive-efficiency,2026,212,Furman,1.063,1.063,1.093,1.093,1.031,1.054
+2026-11-11T16:18-05:00,defensive-efficiency,2026,213,Boston U,1.066,1.066,1.085,1.147,1.022,1.116
+2026-11-11T16:18-05:00,defensive-efficiency,2026,214,Maryland,1.068,1.068,1.244,0.903,1.244,1.113
+2026-11-11T16:18-05:00,defensive-efficiency,2026,215,Binghamton,1.068,1.068,1.001,1.001,1.101,1.124
+2026-11-11T16:18-05:00,defensive-efficiency,2026,216,CS Northridge,1.069,1.069,1.129,--,1.069,1.044
+2026-11-11T16:18-05:00,defensive-efficiency,2026,217,Delaware St,1.069,1.069,1.208,--,1.069,1.051
+2026-11-11T16:18-05:00,defensive-efficiency,2026,218,Troy,1.071,1.071,0.952,0.976,1.260,1.044
+2026-11-11T16:18-05:00,defensive-efficiency,2026,219,Clemson,1.074,1.074,1.162,1.074,--,0.998
+2026-11-11T16:18-05:00,defensive-efficiency,2026,220,N Alabama,1.076,1.076,1.187,--,1.076,1.146
+2026-11-11T16:18-05:00,defensive-efficiency,2026,221,E Kentucky,1.076,1.076,1.076,--,1.076,1.164
+2026-11-11T16:18-05:00,defensive-efficiency,2026,222,W Carolina,1.077,1.077,1.068,--,1.077,1.112
+2026-11-11T16:18-05:00,defensive-efficiency,2026,223,New Haven,1.077,1.077,0.864,0.864,1.181,1.042
+2026-11-11T16:18-05:00,defensive-efficiency,2026,224,Lipscomb,1.079,1.067,1.024,1.041,1.118,1.070
+2026-11-11T16:18-05:00,defensive-efficiency,2026,225,Lamar,1.079,1.079,1.079,--,1.079,1.037
+2026-11-11T16:18-05:00,defensive-efficiency,2026,226,San Jose St,1.080,1.080,1.205,0.957,1.205,1.175
+2026-11-11T16:18-05:00,defensive-efficiency,2026,227,Drexel,1.081,1.081,0.999,0.999,1.161,1.009
+2026-11-11T16:18-05:00,defensive-efficiency,2026,228,Purdue FW,1.082,1.082,1.082,--,1.082,1.115
+2026-11-11T16:18-05:00,defensive-efficiency,2026,229,Middle Tenn,1.084,1.084,0.944,0.944,1.221,1.068
+2026-11-11T16:18-05:00,defensive-efficiency,2026,230,Tennessee St,1.084,1.084,1.084,--,1.084,1.027
+2026-11-11T16:18-05:00,defensive-efficiency,2026,231,Montana,1.085,1.085,0.908,--,1.085,1.069
+2026-11-11T16:18-05:00,defensive-efficiency,2026,232,VCU,1.085,1.085,1.212,0.961,1.212,1.007
+2026-11-11T16:18-05:00,defensive-efficiency,2026,233,Jacksonville,1.089,1.089,0.905,0.905,1.267,1.121
+2026-11-11T16:18-05:00,defensive-efficiency,2026,234,Army,1.089,1.089,0.989,--,1.089,1.123
+2026-11-11T16:18-05:00,defensive-efficiency,2026,235,Rice,1.089,1.089,1.179,0.994,1.179,1.090
+2026-11-11T16:18-05:00,defensive-efficiency,2026,236,Monmouth,1.090,1.090,1.162,--,1.090,1.021
+2026-11-11T16:18-05:00,defensive-efficiency,2026,237,Chicago St,1.092,1.092,1.116,1.116,1.081,1.122
+2026-11-11T16:18-05:00,defensive-efficiency,2026,238,Coastal Car,1.093,1.093,0.823,0.932,1.357,1.033
+2026-11-11T16:18-05:00,defensive-efficiency,2026,239,Tulsa,1.093,1.093,1.093,1.093,--,1.035
+2026-11-11T16:18-05:00,defensive-efficiency,2026,240,Oral Roberts,1.094,1.094,1.094,--,1.094,1.117
+2026-11-11T16:18-05:00,defensive-efficiency,2026,241,W Florida,1.096,1.096,1.096,--,1.096,--
+2026-11-11T16:18-05:00,defensive-efficiency,2026,242,American,1.098,1.098,1.138,--,1.098,1.069
+2026-11-11T16:18-05:00,defensive-efficiency,2026,243,Montana St,1.099,1.099,1.046,1.046,1.147,1.063
+2026-11-11T16:18-05:00,defensive-efficiency,2026,244,UTSA,1.099,1.099,0.957,0.957,1.229,1.158
+2026-11-11T16:18-05:00,defensive-efficiency,2026,245,Bowling Green,1.101,1.101,1.233,1.233,0.986,1.008
+2026-11-11T16:18-05:00,defensive-efficiency,2026,246,UMBC,1.101,1.101,1.100,--,1.101,1.003
+2026-11-11T16:18-05:00,defensive-efficiency,2026,247,Coppin St,1.101,1.101,1.019,--,1.101,1.141
+2026-11-11T16:18-05:00,defensive-efficiency,2026,248,Georgia St,1.104,1.104,1.164,1.027,1.142,1.064
+2026-11-11T16:18-05:00,defensive-efficiency,2026,249,Idaho,1.104,1.104,1.104,--,1.104,1.039
+2026-11-11T16:18-05:00,defensive-efficiency,2026,250,NC A&T,1.105,1.105,1.105,--,1.105,1.101
+2026-11-11T16:18-05:00,defensive-efficiency,2026,251,N Florida,1.106,1.106,1.082,--,1.106,1.212
+2026-11-11T16:18-05:00,defensive-efficiency,2026,252,Long Beach St,1.106,1.106,1.241,--,1.106,1.075
+2026-11-11T16:18-05:00,defensive-efficiency,2026,253,Hofstra,1.106,1.106,1.257,--,1.106,1.005
+2026-11-11T16:18-05:00,defensive-efficiency,2026,254,Niagara,1.107,1.107,0.954,0.954,1.270,1.100
+2026-11-11T16:18-05:00,defensive-efficiency,2026,255,UCF,1.107,1.107,1.075,1.107,--,1.076
+2026-11-11T16:18-05:00,defensive-efficiency,2026,256,Maryland ES,1.109,1.109,1.283,--,1.109,1.063
+2026-11-11T16:18-05:00,defensive-efficiency,2026,257,St Thomas,1.113,1.113,1.076,1.076,1.133,1.028
+2026-11-11T16:18-05:00,defensive-efficiency,2026,258,Colgate,1.118,1.118,1.039,--,1.118,1.087
+2026-11-11T16:18-05:00,defensive-efficiency,2026,259,McNeese,1.120,1.120,1.154,--,1.120,0.975
+2026-11-11T16:18-05:00,defensive-efficiency,2026,260,CS Fullerton,1.121,1.121,1.011,--,1.121,1.063
+2026-11-11T16:18-05:00,defensive-efficiency,2026,261,S Alabama,1.122,1.122,1.184,1.096,1.184,1.038
+2026-11-11T16:18-05:00,defensive-efficiency,2026,262,Portland St,1.123,1.123,1.123,--,1.123,0.995
+2026-11-11T16:18-05:00,defensive-efficiency,2026,263,Quinnipiac,1.125,1.125,1.226,0.838,1.266,1.016
+2026-11-11T16:18-05:00,defensive-efficiency,2026,264,Rider,1.128,1.128,1.191,0.939,1.224,1.143
+2026-11-11T16:18-05:00,defensive-efficiency,2026,265,San Diego,1.130,1.130,1.144,1.118,1.144,1.111
+2026-11-11T16:18-05:00,defensive-efficiency,2026,266,Pepperdine,1.131,1.131,1.131,--,1.131,1.109
+2026-11-11T16:18-05:00,defensive-efficiency,2026,267,Buffalo,1.133,1.133,1.083,--,1.133,1.106
+2026-11-11T16:18-05:00,defensive-efficiency,2026,268,Alabama St,1.136,1.136,1.136,--,1.136,1.064
+2026-11-11T16:18-05:00,defensive-efficiency,2026,269,Louisiana Tech,1.136,1.136,1.194,1.074,1.194,1.004
+2026-11-11T16:18-05:00,defensive-efficiency,2026,270,Yale,1.136,1.136,1.276,0.905,1.248,1.057
+2026-11-11T16:18-05:00,defensive-efficiency,2026,271,CS Bakersfield,1.137,1.137,1.137,1.137,--,1.115
+2026-11-11T16:18-05:00,defensive-efficiency,2026,272,Prairie View,1.138,1.138,1.238,--,1.138,1.061
+2026-11-11T16:18-05:00,defensive-efficiency,2026,273,La Salle,1.139,1.139,1.146,1.068,1.175,1.094
+2026-11-11T16:18-05:00,defensive-efficiency,2026,274,Youngstown St,1.139,1.139,1.252,--,1.139,1.065
+2026-11-11T16:18-05:00,defensive-efficiency,2026,275,Southern Miss,1.141,1.141,1.141,--,1.141,1.044
+2026-11-11T16:18-05:00,defensive-efficiency,2026,276,Samford,1.141,1.141,1.141,--,1.141,1.086
+2026-11-11T16:18-05:00,defensive-efficiency,2026,277,Northeastern,1.142,1.142,0.923,0.923,1.252,1.134
+2026-11-11T16:18-05:00,defensive-efficiency,2026,278,NJIT,1.143,1.110,1.317,0.870,1.219,1.058
+2026-11-11T16:18-05:00,defensive-efficiency,2026,279,Kansas City,1.144,1.144,1.172,1.218,1.103,1.156
+2026-11-11T16:18-05:00,defensive-efficiency,2026,280,Loyola Mymt,1.144,1.144,1.021,1.263,1.021,1.030
+2026-11-11T16:18-05:00,defensive-efficiency,2026,281,Green Bay,1.146,1.146,1.311,--,1.146,1.135
+2026-11-11T16:18-05:00,defensive-efficiency,2026,282,Bethune,1.149,1.149,1.198,--,1.149,1.053
+2026-11-11T16:18-05:00,defensive-efficiency,2026,283,Jackson St,1.150,1.150,1.329,--,1.150,1.141
+2026-11-11T16:18-05:00,defensive-efficiency,2026,284,Stonehill,1.150,1.150,1.127,--,1.150,1.003
+2026-11-11T16:18-05:00,defensive-efficiency,2026,285,Fresno St,1.152,1.152,1.127,1.127,1.181,1.038
+2026-11-11T16:18-05:00,defensive-efficiency,2026,286,Southern,1.152,1.164,1.065,--,1.152,1.088
+2026-11-11T16:18-05:00,defensive-efficiency,2026,287,NC Greensboro,1.153,1.153,1.211,--,1.153,1.156
+2026-11-11T16:18-05:00,defensive-efficiency,2026,288,UL Monroe,1.154,1.154,1.094,1.119,1.168,1.170
+2026-11-11T16:18-05:00,defensive-efficiency,2026,289,South Dakota,1.156,1.156,1.184,1.156,--,1.103
+2026-11-11T16:18-05:00,defensive-efficiency,2026,290,C Connecticut,1.157,1.157,1.002,--,1.157,1.076
+2026-11-11T16:18-05:00,defensive-efficiency,2026,291,Air Force,1.157,1.157,1.013,1.013,1.306,1.163
+2026-11-11T16:18-05:00,defensive-efficiency,2026,292,Sam Houston,1.159,1.159,1.159,--,1.159,1.058
+2026-11-11T16:18-05:00,defensive-efficiency,2026,293,Cal Baptist,1.160,1.160,1.445,0.916,1.445,0.966
+2026-11-11T16:18-05:00,defensive-efficiency,2026,294,Wagner,1.161,1.161,1.218,--,1.161,1.067
+2026-11-11T16:18-05:00,defensive-efficiency,2026,295,Utah Valley,1.165,1.165,1.165,--,1.165,0.983
+2026-11-11T16:18-05:00,defensive-efficiency,2026,296,Winthrop,1.170,1.170,1.056,1.205,1.153,1.048
+2026-11-11T16:18-05:00,defensive-efficiency,2026,297,Charleston So,1.176,1.176,1.127,--,1.176,1.047
+2026-11-11T16:18-05:00,defensive-efficiency,2026,298,Miss Valley St,1.176,1.176,1.156,--,1.176,1.167
+2026-11-11T16:18-05:00,defensive-efficiency,2026,299,Robert Morris,1.179,1.179,1.112,--,1.179,1.068
+2026-11-11T16:18-05:00,defensive-efficiency,2026,300,Washington St,1.181,1.181,1.134,1.127,1.209,1.095
+2026-11-11T16:18-05:00,defensive-efficiency,2026,301,J Madison,1.183,1.183,1.218,1.149,1.218,1.073
+2026-11-11T16:18-05:00,defensive-efficiency,2026,302,SE Louisiana,1.185,1.185,1.201,--,1.185,1.059
+2026-11-11T16:18-05:00,defensive-efficiency,2026,303,FGCU,1.187,1.187,1.179,--,1.187,1.083
+2026-11-11T16:18-05:00,defensive-efficiency,2026,304,Mercer,1.189,1.189,1.033,--,1.189,1.092
+2026-11-11T16:18-05:00,defensive-efficiency,2026,305,Tarleton St,1.192,1.192,1.192,--,1.192,1.038
+2026-11-11T16:18-05:00,defensive-efficiency,2026,306,Abl Christian,1.193,1.193,1.053,1.053,1.347,1.038
+2026-11-11T16:18-05:00,defensive-efficiency,2026,307,Little Rock,1.194,1.194,1.312,1.179,1.201,1.072
+2026-11-11T16:18-05:00,defensive-efficiency,2026,308,Illinois St,1.194,1.194,1.248,--,1.194,1.002
+2026-11-11T16:18-05:00,defensive-efficiency,2026,309,E Tennessee St,1.195,1.195,1.199,--,1.195,1.026
+2026-11-11T16:18-05:00,defensive-efficiency,2026,310,NW State,1.197,1.197,1.265,--,1.197,1.087
+2026-11-11T16:18-05:00,defensive-efficiency,2026,311,Texas So,1.199,1.199,1.196,--,1.199,1.090
+2026-11-11T16:18-05:00,defensive-efficiency,2026,312,N Illinois,1.200,1.200,0.979,--,1.200,1.116
+2026-11-11T16:18-05:00,defensive-efficiency,2026,313,Idaho St,1.200,1.200,1.100,--,1.200,1.135
+2026-11-11T16:18-05:00,defensive-efficiency,2026,314,LSU New Orleans,1.201,1.201,1.201,--,1.201,1.073
+2026-11-11T16:18-05:00,defensive-efficiency,2026,315,Alabama A&M,1.201,1.201,1.201,--,1.201,1.068
+2026-11-11T16:18-05:00,defensive-efficiency,2026,316,The Citadel,1.205,1.205,1.205,--,1.205,1.165
+2026-11-11T16:18-05:00,defensive-efficiency,2026,317,Tenn Tech,1.206,1.206,1.087,1.087,1.336,1.085
+2026-11-11T16:18-05:00,defensive-efficiency,2026,318,Milwaukee,1.207,1.207,1.199,--,1.207,1.129
+2026-11-11T16:18-05:00,defensive-efficiency,2026,319,N Iowa,1.210,1.210,1.120,1.120,1.290,0.959
+2026-11-11T16:18-05:00,defensive-efficiency,2026,320,Chattanooga,1.210,1.210,1.250,--,1.210,1.133
+2026-11-11T16:18-05:00,defensive-efficiency,2026,321,Memphis,1.214,1.214,1.377,1.198,1.221,1.035
+2026-11-11T16:18-05:00,defensive-efficiency,2026,322,Kent St,1.217,1.217,1.217,--,1.217,1.070
+2026-11-11T16:18-05:00,defensive-efficiency,2026,323,Mercyhurst,1.220,1.220,1.294,--,1.220,1.021
+2026-11-11T16:18-05:00,defensive-efficiency,2026,324,E Washington,1.220,1.220,1.221,--,1.220,1.114
+2026-11-11T16:18-05:00,defensive-efficiency,2026,325,Detroit Mercy,1.222,1.222,1.142,--,1.222,1.103
+2026-11-11T16:18-05:00,defensive-efficiency,2026,326,NC Asheville,1.230,1.230,1.182,1.182,1.273,1.068
+2026-11-11T16:18-05:00,defensive-efficiency,2026,327,Alcorn St,1.232,1.232,1.208,1.245,1.226,1.126
+2026-11-11T16:18-05:00,defensive-efficiency,2026,328,N Kentucky,1.237,1.302,1.497,--,1.237,1.077
+2026-11-11T16:18-05:00,defensive-efficiency,2026,329,North Dakota,1.239,1.239,1.388,--,1.239,1.120
+2026-11-11T16:18-05:00,defensive-efficiency,2026,330,Stony Brook,1.239,1.239,1.239,--,1.239,1.044
+2026-11-11T16:18-05:00,defensive-efficiency,2026,331,Grambling,1.240,1.240,1.231,--,1.240,1.004
+2026-11-11T16:18-05:00,defensive-efficiency,2026,332,Lindenwood,1.240,1.240,1.240,--,1.240,0.997
+2026-11-11T16:18-05:00,defensive-efficiency,2026,333,SIU Edward,1.247,1.247,1.438,--,1.247,0.968
+2026-11-11T16:18-05:00,defensive-efficiency,2026,334,Campbell,1.250,1.250,1.342,--,1.250,1.102
+2026-11-11T16:18-05:00,defensive-efficiency,2026,335,Weber St,1.256,1.256,1.229,1.266,1.250,1.094
+2026-11-11T16:18-05:00,defensive-efficiency,2026,336,Gardner-Webb,1.259,1.259,1.346,--,1.259,1.200
+2026-11-11T16:18-05:00,defensive-efficiency,2026,337,Cal Poly,1.260,1.260,1.260,--,1.260,1.090
+2026-11-11T16:18-05:00,defensive-efficiency,2026,338,Bellarmine,1.260,1.260,1.118,--,1.260,1.228
+2026-11-11T16:18-05:00,defensive-efficiency,2026,339,Le Moyne,1.268,1.268,1.102,--,1.268,1.049
+2026-11-11T16:18-05:00,defensive-efficiency,2026,340,Queens,1.282,1.314,1.243,--,1.282,1.149
+2026-11-11T16:18-05:00,defensive-efficiency,2026,341,Oakland,1.285,1.340,1.466,--,1.285,1.132
+2026-11-11T16:18-05:00,defensive-efficiency,2026,342,Wofford,1.293,1.293,1.361,--,1.293,1.119
+2026-11-11T16:18-05:00,defensive-efficiency,2026,343,Canisius,1.297,1.297,1.291,1.291,1.302,1.076
+2026-11-11T16:18-05:00,defensive-efficiency,2026,344,N Dakota St,1.297,1.297,1.293,--,1.297,1.010
+2026-11-11T16:18-05:00,defensive-efficiency,2026,345,N Colorado,1.298,1.298,1.298,--,1.298,1.071
+2026-11-11T16:18-05:00,defensive-efficiency,2026,346,Bucknell,1.299,1.299,1.336,1.265,1.314,1.105
+2026-11-11T16:18-05:00,defensive-efficiency,2026,347,S Illinois,1.310,1.310,1.310,--,1.310,0.973
+2026-11-11T16:18-05:00,defensive-efficiency,2026,348,AR-Pine Bluff,1.311,1.311,1.298,--,1.311,1.122
+2026-11-11T16:18-05:00,defensive-efficiency,2026,349,Presbyterian,1.312,1.312,1.330,1.244,1.346,1.063
+2026-11-11T16:18-05:00,defensive-efficiency,2026,350,Stetson,1.313,1.313,1.344,--,1.313,1.151
+2026-11-11T16:18-05:00,defensive-efficiency,2026,351,Florida A&M,1.318,1.318,1.227,--,1.318,1.038
+2026-11-11T16:18-05:00,defensive-efficiency,2026,352,E Illinois,1.318,1.318,1.282,--,1.318,1.051
+2026-11-11T16:18-05:00,defensive-efficiency,2026,353,Omaha,1.336,1.336,1.203,--,1.336,1.099
+2026-11-11T16:18-05:00,defensive-efficiency,2026,354,N Arizona,1.337,1.337,1.339,--,1.337,1.164
+2026-11-11T16:18-05:00,defensive-efficiency,2026,355,Morehead St,1.344,1.344,1.518,--,1.344,1.093
+2026-11-11T16:18-05:00,defensive-efficiency,2026,356,Holy Cross,1.347,1.347,1.297,--,1.347,1.115
+2026-11-11T16:18-05:00,defensive-efficiency,2026,357,Utah Tech,1.347,1.347,1.425,--,1.347,1.081
+2026-11-11T16:18-05:00,defensive-efficiency,2026,358,Norfolk St,1.400,1.400,1.400,--,1.400,1.053
+2026-11-11T16:18-05:00,defensive-efficiency,2026,359,F Dickinson,1.500,1.500,1.412,--,1.500,1.096
+2026-11-11T16:18-05:00,defensive-efficiency,2026,360,New Mexico St,1.523,1.523,1.523,--,1.523,1.055
+2026-11-11T16:18-05:00,defensive-efficiency,2026,361,Cleveland St,1.539,1.539,1.483,--,1.539,1.211
+2026-11-11T16:18-05:00,defensive-efficiency,2026,362,Charleston,--,--,--,--,--,1.042
+2026-11-11T16:18-05:00,defensive-efficiency,2026,362,S Utah,--,--,--,--,--,1.115
+2026-11-11T16:18-05:00,defensive-efficiency,2026,362,SF Austin,--,--,--,--,--,0.975
+2026-11-11T16:18-05:00,defensive-efficiency,2026,362,Missouri St,--,--,--,--,--,1.069
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,1,Utah Valley,71.9%,71.9%,71.9%,--,71.9%,54.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,2,William & Mary,67.5%,67.5%,67.5%,67.5%,--,54.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,3,Saint Louis,67.4%,67.4%,70.7%,69.2%,63.5%,59.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,4,UCSB,67.2%,67.2%,67.2%,67.2%,--,54.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,5,CS Bakersfield,66.7%,66.7%,66.7%,66.7%,--,45.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,6,BYU,66.1%,66.1%,66.9%,67.0%,64.0%,54.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,7,Oregon,65.9%,65.9%,66.9%,65.9%,--,49.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,8,Texas,65.1%,65.1%,55.9%,65.1%,--,54.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,9,Bowling Green,64.5%,64.5%,72.7%,72.7%,56.4%,51.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,10,Richmond,64.2%,64.2%,58.5%,69.7%,58.5%,52.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,11,Illinois,64.1%,64.1%,58.3%,66.3%,58.3%,54.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,12,Oklahoma St,63.6%,63.6%,73.2%,63.6%,--,52.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,13,Wright St,62.3%,62.3%,55.7%,65.2%,55.7%,54.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,14,Kansas,62.2%,62.2%,53.6%,67.2%,53.6%,51.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,15,West Virginia,61.8%,61.8%,60.5%,61.8%,--,51.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,16,Clemson,61.8%,61.8%,75.5%,61.8%,--,52.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,17,Portland,61.7%,61.7%,60.5%,--,61.7%,51.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,18,Missouri,61.7%,61.7%,69.8%,70.5%,46.5%,55.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,19,Saint Mary's,61.6%,61.6%,52.0%,67.5%,52.0%,52.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,20,Tarleton St,61.5%,61.5%,61.5%,--,61.5%,48.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,21,Tulsa,61.4%,61.4%,61.4%,61.4%,--,55.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,22,Gonzaga,61.3%,61.3%,71.8%,71.8%,49.1%,55.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,23,San Jose St,61.3%,61.3%,55.5%,67.9%,55.5%,49.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,24,Iowa,61.0%,61.0%,54.8%,64.0%,54.8%,56.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,25,Utah St,60.8%,60.8%,57.0%,60.8%,--,56.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,26,Kansas St,60.7%,60.7%,69.8%,60.7%,--,53.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,27,N Iowa,60.6%,60.6%,77.6%,77.6%,48.6%,53.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,28,Hou Christian,60.4%,60.4%,64.0%,--,60.4%,49.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,29,New Mexico,60.1%,60.1%,60.3%,60.1%,--,53.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,30,Mississippi St,59.9%,59.9%,64.9%,59.9%,--,51.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,31,Ohio,59.8%,59.8%,56.4%,56.4%,63.2%,50.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,32,LSU,59.8%,59.8%,63.6%,59.8%,--,52.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,33,C Michigan,59.7%,59.7%,63.7%,63.7%,56.5%,51.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,34,SMU,59.7%,59.7%,55.6%,59.7%,--,55.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,35,Oregon St,59.5%,59.5%,56.9%,59.5%,--,50.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,36,Vanderbilt,59.5%,59.5%,69.0%,59.5%,--,55.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,37,Mississippi,59.4%,59.4%,57.6%,59.4%,--,50.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,38,Alabama,59.4%,59.4%,82.3%,59.4%,--,55.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,39,Colorado,59.0%,59.0%,63.7%,66.5%,44.7%,52.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,40,Michigan St,58.9%,58.9%,50.9%,62.6%,50.9%,53.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,41,Texas A&M,58.8%,58.8%,58.2%,58.8%,--,53.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,42,Notre Dame,58.7%,58.7%,68.8%,68.5%,42.3%,52.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,43,Syracuse,58.6%,58.6%,58.2%,58.8%,58.2%,52.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,44,Nebraska,58.3%,58.3%,50.0%,64.6%,50.0%,55.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,45,NC State,58.3%,58.3%,56.2%,58.3%,--,55.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,46,Murray St,58.2%,58.2%,56.1%,59.1%,56.5%,53.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,47,Virginia Tech,58.2%,58.2%,59.8%,57.4%,59.8%,52.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,48,Virginia,58.1%,59.0%,58.9%,59.1%,55.1%,54.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,49,Tenn Tech,58.1%,58.1%,61.2%,61.2%,55.3%,48.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,50,Furman,58.0%,58.0%,62.0%,62.0%,53.8%,54.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,51,Rutgers,57.9%,57.9%,58.3%,57.9%,--,47.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,52,Winthrop,57.9%,57.9%,47.2%,60.2%,56.7%,49.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,52,Colorado St,57.9%,57.9%,55.8%,57.9%,--,57.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,54,Villanova,57.8%,57.8%,58.5%,58.3%,56.7%,53.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,55,Northwestern,57.8%,57.8%,48.4%,57.8%,--,51.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,56,California,57.8%,57.8%,51.8%,63.6%,51.8%,52.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,57,Grand Canyon,57.8%,57.8%,56.3%,57.8%,--,51.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,58,Old Dominion,57.7%,57.7%,67.6%,48.2%,67.6%,50.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,59,UCSD,57.7%,57.7%,57.7%,57.7%,--,52.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,60,Houston,57.7%,57.7%,56.7%,58.8%,56.7%,51.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,61,Georgetown,57.6%,57.6%,56.4%,57.6%,--,49.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,62,Chattanooga,57.3%,57.3%,59.8%,--,57.3%,54.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,63,N Alabama,57.3%,57.3%,55.6%,--,57.3%,48.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,64,Xavier,57.2%,57.2%,57.9%,57.2%,--,51.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,65,Butler,57.2%,57.2%,44.6%,64.2%,44.6%,50.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,66,UC Irvine,57.1%,57.1%,57.1%,57.1%,--,49.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,66,Utah,57.1%,57.1%,60.2%,57.1%,--,52.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,66,St Bonaventure,57.1%,57.1%,62.7%,51.7%,62.7%,52.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,66,Kentucky,57.1%,57.1%,49.2%,61.0%,49.2%,53.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,70,Charlotte,57.1%,57.1%,55.4%,54.4%,58.7%,53.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,71,Nevada,57.1%,57.1%,61.9%,52.9%,61.9%,50.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,72,Louisville,56.9%,56.9%,63.0%,56.9%,--,56.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,73,Stanford,56.9%,56.9%,57.3%,56.9%,--,51.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,74,Arizona St,56.8%,56.8%,59.5%,56.8%,--,51.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,75,High Point,56.8%,56.8%,67.4%,58.2%,54.4%,54.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,76,Texas St,56.6%,56.6%,60.2%,53.1%,60.2%,50.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,77,UCF,56.6%,56.6%,60.9%,56.6%,--,52.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,78,Duquesne,56.4%,56.4%,55.3%,56.4%,--,52.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,79,Boise St,56.3%,56.3%,56.3%,56.3%,--,52.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,80,USC,56.3%,56.3%,45.9%,67.2%,45.9%,50.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,81,UT Martin,56.3%,56.3%,52.3%,--,56.3%,48.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,82,St John's,56.2%,56.2%,64.9%,56.2%,--,51.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,83,Arizona,56.2%,56.2%,68.3%,62.7%,42.5%,54.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,84,Seattle,56.1%,56.1%,55.8%,55.8%,56.5%,49.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,85,Illinois St,56.1%,56.1%,52.0%,--,56.1%,53.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,86,Cal Poly,56.1%,56.1%,56.1%,--,56.1%,51.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,86,S Illinois,56.1%,56.1%,56.1%,--,56.1%,49.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,88,Lamar,56.0%,56.0%,56.0%,--,56.0%,47.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,89,Akron,56.0%,56.0%,56.0%,--,56.0%,58.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,90,S Florida,56.0%,56.0%,56.0%,55.9%,56.0%,50.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,91,North Carolina,55.9%,55.9%,57.8%,55.9%,--,54.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,92,FGCU,55.7%,55.7%,56.8%,--,55.7%,52.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,92,Arkansas,55.7%,55.7%,51.7%,59.4%,51.7%,56.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,94,San Diego St,55.7%,55.7%,57.4%,54.4%,57.4%,52.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,95,McNeese,55.6%,55.6%,45.5%,--,55.6%,50.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,96,Dayton,55.6%,55.6%,62.9%,55.6%,--,51.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,97,Davidson,55.5%,55.5%,44.1%,51.2%,66.0%,52.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,97,Indiana,55.5%,55.5%,49.2%,58.8%,49.2%,56.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,99,Montana St,55.4%,55.4%,61.2%,61.2%,50.0%,53.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,100,Rhode Island,55.3%,55.3%,43.8%,54.9%,56.2%,50.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,101,Baylor,55.3%,55.3%,59.7%,55.3%,--,53.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,102,Delaware St,55.1%,55.1%,62.0%,--,55.1%,42.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,103,W Michigan,55.1%,55.1%,64.0%,64.0%,45.1%,49.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,104,Washington,55.0%,55.0%,54.5%,55.0%,--,51.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,105,E Tennessee St,54.9%,54.9%,58.3%,--,54.9%,55.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,106,Kansas City,54.8%,54.8%,36.2%,70.2%,46.0%,45.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,107,G Washington,54.7%,54.7%,44.0%,54.7%,--,54.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,108,Jacksonville St,54.7%,54.7%,54.7%,--,54.7%,49.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,109,Boston U,54.7%,54.7%,48.9%,59.3%,51.6%,57.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,110,South Carolina,54.6%,54.6%,51.1%,54.6%,--,50.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,111,UCLA,54.6%,54.6%,64.3%,64.3%,45.1%,53.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,112,South Dakota,54.5%,54.5%,51.8%,54.5%,--,49.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,113,Tennessee,54.3%,54.3%,50.0%,54.3%,--,51.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,114,UNLV,54.2%,54.2%,54.3%,54.2%,--,53.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,115,Queens,54.2%,51.0%,50.7%,--,54.2%,56.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,116,Duke,54.1%,54.1%,39.2%,61.6%,39.2%,56.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,117,Marshall,54.1%,54.1%,51.6%,55.3%,51.6%,54.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,118,N Illinois,54.1%,54.1%,50.9%,--,54.1%,47.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,119,Loyola Chi,54.1%,54.1%,57.3%,54.1%,--,49.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,120,Auburn,54.0%,54.0%,47.5%,54.0%,--,53.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,121,Marquette,54.0%,54.0%,55.8%,54.0%,--,50.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,122,Florida,54.0%,54.0%,50.0%,57.5%,51.9%,54.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,123,Drake,53.8%,53.8%,53.8%,53.8%,--,51.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,124,N Arizona,53.8%,53.8%,50.0%,--,53.8%,51.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,125,Minnesota,53.7%,53.7%,50.0%,55.3%,50.0%,53.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,126,Belmont,53.4%,53.4%,50.0%,57.7%,50.0%,61.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,127,Vermont,53.4%,53.4%,55.7%,55.7%,52.3%,53.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,128,UConn,53.4%,53.4%,50.8%,54.8%,50.0%,54.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,129,VCU,53.3%,53.3%,60.2%,46.2%,60.2%,53.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,130,Santa Clara,53.2%,53.2%,47.2%,53.2%,--,54.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,131,DePaul,53.2%,53.2%,55.3%,53.2%,--,49.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,132,Grambling,53.1%,53.1%,40.6%,--,53.1%,48.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,133,Tulane,53.0%,53.0%,53.4%,53.0%,--,49.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,134,Wisconsin,53.0%,53.0%,61.6%,53.0%,--,54.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,135,Illinois Chicago,52.9%,52.9%,50.0%,52.9%,--,49.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,136,SE Missouri St,52.8%,52.8%,49.1%,55.6%,49.1%,49.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,137,N Texas,52.7%,52.7%,52.7%,52.7%,--,46.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,137,Penn St,52.7%,52.7%,47.0%,55.1%,47.0%,53.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,139,S Dakota St,52.6%,52.6%,52.6%,--,52.6%,52.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,140,Florida St,52.6%,52.6%,46.8%,47.9%,60.6%,52.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,141,Green Bay,52.6%,52.6%,52.3%,--,52.6%,54.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,142,Georgia St,52.6%,52.6%,54.6%,52.3%,52.7%,44.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,143,Ohio St,52.6%,52.6%,50.0%,50.4%,57.0%,56.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,144,Oklahoma,52.5%,52.5%,54.3%,52.5%,--,54.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,145,NC Asheville,52.5%,52.5%,52.6%,52.6%,52.3%,51.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,146,S Alabama,52.4%,52.4%,52.5%,52.4%,52.5%,52.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,147,TCU,52.4%,52.4%,44.7%,52.4%,--,50.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,148,Samford,52.4%,52.4%,52.4%,--,52.4%,53.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,149,Georgia,52.4%,52.4%,52.5%,52.4%,--,54.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,150,Northeastern,52.3%,52.3%,47.7%,47.7%,55.0%,52.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,151,Fordham,52.2%,52.2%,57.7%,59.0%,41.3%,48.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,152,Pittsburgh,52.2%,52.2%,53.2%,51.7%,53.2%,51.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,153,Miami OH,52.0%,52.0%,52.7%,52.7%,51.5%,58.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,154,C Arkansas,51.8%,51.8%,47.0%,55.6%,47.0%,54.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,155,Valparaiso,51.7%,51.7%,51.4%,52.0%,51.4%,47.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,156,UT Arlington,51.6%,51.6%,44.3%,--,51.6%,47.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,157,Iona,51.6%,54.1%,50.0%,53.2%,50.0%,51.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,158,UTEP,51.6%,51.6%,60.5%,60.5%,44.3%,48.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,158,Cornell,51.6%,51.6%,40.5%,62.5%,40.5%,58.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,160,Purdue,51.5%,51.5%,65.2%,51.4%,51.8%,57.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,161,Memphis,51.5%,51.5%,46.0%,59.3%,47.9%,48.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,162,Iowa St,51.4%,51.4%,51.5%,53.8%,46.6%,56.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,163,San Francisco,51.3%,51.3%,45.1%,51.3%,--,51.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,164,St Thomas,51.0%,51.0%,45.7%,45.7%,53.2%,58.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,165,Lipscomb,50.9%,52.1%,61.7%,57.2%,43.9%,54.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,166,NC Wilmington,50.9%,50.9%,50.9%,--,50.9%,50.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,166,Abl Christian,50.9%,50.9%,59.3%,59.3%,42.1%,47.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,168,E Carolina,50.8%,50.8%,44.4%,50.8%,--,46.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,169,Cincinnati,50.8%,50.8%,47.3%,50.8%,--,50.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,170,Siena,50.8%,50.8%,53.0%,57.8%,47.7%,50.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,171,CS Fullerton,50.7%,50.7%,55.8%,--,50.7%,51.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,172,Youngstown St,50.6%,50.6%,61.0%,--,50.6%,53.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,173,W Kentucky,50.4%,50.4%,50.0%,50.7%,50.0%,47.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,174,Loyola Mymt,50.4%,50.4%,41.9%,60.5%,41.9%,51.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,175,Georgia Tech,50.3%,50.3%,48.5%,50.3%,--,50.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,176,Long Beach St,50.0%,50.0%,51.1%,--,50.0%,50.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,176,Purdue FW,50.0%,50.0%,50.0%,--,50.0%,52.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,176,Marist,50.0%,50.0%,52.0%,49.1%,52.0%,49.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,176,N Colorado,50.0%,50.0%,50.0%,--,50.0%,55.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,176,Sam Houston,50.0%,50.0%,50.0%,--,50.0%,52.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,176,Pepperdine,50.0%,50.0%,50.0%,--,50.0%,47.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,176,Cleveland St,50.0%,50.0%,67.6%,--,50.0%,54.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,176,S Carolina St,50.0%,50.0%,65.6%,--,50.0%,46.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,176,Longwood,50.0%,50.0%,55.6%,55.6%,45.0%,49.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,185,Creighton,49.7%,49.7%,51.5%,48.8%,51.5%,53.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,186,Wake Forest,49.7%,49.7%,49.3%,53.6%,40.7%,52.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,187,J Madison,49.6%,49.6%,50.7%,48.6%,50.7%,53.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,188,Fresno St,49.6%,49.6%,54.5%,54.5%,44.9%,50.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,189,UTSA,49.6%,49.6%,47.0%,47.0%,52.4%,44.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,190,Maine,49.5%,50.9%,53.4%,49.1%,49.7%,49.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,191,Texas Tech,49.4%,49.4%,46.9%,49.4%,--,56.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,192,Washington St,49.4%,49.4%,55.5%,39.0%,56.0%,54.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,193,Boston College,49.4%,49.4%,53.6%,54.7%,39.8%,47.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,194,Bethune,49.4%,49.4%,52.7%,--,49.4%,51.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,195,E Kentucky,49.2%,49.2%,49.2%,--,49.2%,52.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,195,Columbia,49.2%,49.2%,49.3%,49.2%,--,53.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,197,N Kentucky,49.2%,47.9%,36.3%,--,49.2%,53.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,198,NC Greensboro,49.1%,49.1%,49.2%,--,49.1%,52.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,199,Little Rock,49.1%,49.1%,50.0%,50.9%,48.2%,49.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,200,Charleston So,49.1%,49.1%,57.8%,--,49.1%,54.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,201,UL Monroe,49.0%,49.0%,59.8%,46.2%,50.4%,47.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,202,Colgate,48.9%,48.9%,47.2%,--,48.9%,53.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,203,Utah Tech,48.8%,48.8%,55.1%,--,48.8%,53.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,204,Kennesaw St,48.8%,48.8%,50.0%,48.8%,--,50.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,205,Presbyterian,48.8%,48.8%,41.1%,50.8%,47.6%,51.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,206,Stetson,48.7%,48.7%,42.6%,--,48.7%,53.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,207,Wyoming,48.6%,48.6%,41.9%,56.3%,41.9%,51.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,208,Brown,48.5%,48.5%,50.0%,47.7%,50.0%,48.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,209,Wichita St,48.4%,48.4%,56.5%,42.7%,56.5%,49.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,210,Florida Intl,48.4%,48.4%,48.4%,48.4%,--,50.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,211,Howard,48.4%,48.4%,44.3%,--,48.4%,50.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,212,SIU Edward,48.4%,48.4%,43.8%,--,48.4%,49.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,213,Seton Hall,48.3%,48.3%,45.4%,50.0%,45.4%,47.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,214,Florida A&M,48.3%,48.3%,50.0%,--,48.3%,49.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,215,Quinnipiac,48.3%,48.3%,51.6%,51.8%,46.6%,48.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,216,Indiana St,48.3%,48.3%,47.3%,49.2%,47.3%,52.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,217,Miami,48.3%,48.3%,48.8%,52.5%,38.3%,55.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,218,Monmouth,48.2%,48.2%,46.6%,--,48.2%,49.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,219,Providence,48.2%,48.2%,54.8%,53.8%,36.3%,55.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,220,Bellarmine,48.2%,48.2%,47.7%,--,48.2%,59.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,221,Maryland,48.1%,48.1%,43.7%,52.1%,43.7%,48.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,222,Pacific,48.1%,48.1%,48.1%,--,48.1%,52.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,223,UAB,48.1%,48.1%,49.3%,46.9%,51.0%,48.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,224,Yale,48.0%,48.0%,50.0%,41.4%,51.8%,55.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,225,E Texas A&M,48.0%,48.0%,43.3%,--,48.0%,49.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,226,Mercer,48.0%,48.0%,46.3%,--,48.0%,53.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,227,Elon,48.0%,48.0%,31.1%,50.0%,46.9%,52.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,228,New Mexico St,47.9%,47.9%,47.9%,--,47.9%,48.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,229,George Mason,47.9%,47.9%,48.0%,47.9%,--,52.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,230,Dartmouth,47.9%,47.9%,43.8%,43.8%,52.8%,51.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,231,Texas A&M-CC,47.9%,47.9%,52.3%,--,47.9%,49.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,232,E Washington,47.9%,47.9%,48.0%,--,47.9%,53.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,233,Hofstra,47.8%,47.8%,44.4%,--,47.8%,51.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,234,Michigan,47.8%,47.8%,46.8%,48.6%,46.8%,58.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,235,San Diego,47.7%,47.7%,47.8%,47.7%,47.8%,51.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,235,New Haven,47.7%,47.7%,47.0%,47.0%,48.1%,48.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,237,UT Rio Grande,47.6%,47.6%,52.8%,47.6%,--,54.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,238,Merrimack,47.5%,47.5%,58.0%,45.7%,48.6%,49.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,239,Drexel,47.5%,47.5%,48.3%,48.3%,46.6%,50.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,240,UC Davis,47.4%,47.4%,47.4%,47.4%,--,51.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,241,Albany,47.2%,47.2%,49.1%,49.1%,45.5%,51.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,242,Evansville,47.2%,47.2%,43.5%,--,47.2%,49.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,243,Bucknell,47.2%,47.2%,44.7%,42.2%,49.5%,48.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,244,E Illinois,47.2%,47.2%,58.5%,--,47.2%,45.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,245,New Hampshire,47.2%,47.2%,48.5%,48.5%,46.2%,46.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,246,Binghamton,47.1%,47.1%,56.9%,56.9%,41.2%,50.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,247,Weber St,47.0%,47.0%,54.5%,56.7%,42.2%,51.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,248,Niagara,46.9%,46.9%,43.4%,43.4%,51.1%,50.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,248,N Dakota St,46.9%,46.9%,54.6%,--,46.9%,53.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,250,W Carolina,46.8%,46.8%,51.9%,--,46.8%,50.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,251,Sacramento St,46.7%,46.7%,46.7%,--,46.7%,47.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,251,Idaho,46.7%,46.7%,46.7%,--,46.7%,51.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,253,W Illinois,46.6%,46.6%,50.0%,--,46.6%,44.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,254,Troy,46.6%,46.6%,50.9%,45.0%,50.0%,51.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,255,Campbell,46.5%,46.5%,51.8%,--,46.5%,50.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,256,Denver,46.4%,46.4%,44.8%,--,46.4%,53.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,256,American,46.4%,46.4%,58.0%,--,46.4%,51.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,258,UMass,46.2%,46.2%,43.5%,--,46.2%,53.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,259,Georgia So,46.2%,46.2%,50.0%,46.8%,45.2%,51.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,260,Towson,46.2%,46.2%,52.9%,52.9%,43.3%,46.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,261,Stony Brook,46.1%,46.1%,46.1%,--,46.1%,50.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,262,Harvard,46.0%,46.0%,46.0%,--,46.0%,53.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,263,Manhattan,46.0%,46.0%,45.9%,50.0%,43.7%,47.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,264,Louisiana Tech,45.9%,45.9%,33.3%,59.3%,33.3%,47.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,265,Delaware,45.8%,45.8%,45.8%,--,45.8%,53.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,266,Hawai'i,45.7%,45.7%,42.1%,45.7%,--,52.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,267,C Connecticut,45.6%,45.6%,57.8%,--,45.6%,51.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,268,Bryant,45.6%,44.8%,47.9%,47.5%,43.5%,46.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,269,Cal Baptist,45.6%,45.6%,53.8%,38.3%,53.8%,48.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,270,SE Louisiana,45.6%,45.6%,38.2%,--,45.6%,46.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,271,Alcorn St,45.5%,45.5%,36.7%,53.1%,41.1%,47.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,272,Montana,45.4%,45.4%,41.0%,--,45.4%,55.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,273,Southern,45.2%,43.0%,39.2%,--,45.2%,49.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,274,NC Central,45.2%,45.2%,46.9%,--,45.2%,47.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,275,IU Indy,45.2%,45.2%,45.2%,45.2%,--,52.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,276,North Dakota,45.1%,45.1%,55.6%,--,45.1%,49.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,277,Jackson St,45.0%,45.0%,43.3%,--,45.0%,45.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,278,Jacksonville,44.7%,44.7%,50.9%,50.9%,38.6%,50.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,278,Temple,44.7%,44.7%,36.1%,52.5%,36.1%,50.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,280,Stonehill,44.6%,44.6%,43.8%,--,44.6%,46.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,281,Florida Atlantic,44.4%,44.4%,48.1%,41.1%,48.1%,52.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,282,NW State,44.3%,44.3%,56.7%,--,44.3%,48.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,283,Arkansas St,44.2%,44.2%,36.6%,40.1%,52.0%,51.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,284,Southern Miss,44.2%,44.2%,44.2%,--,44.2%,49.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,285,SC Upstate,44.2%,44.2%,35.0%,42.5%,45.0%,48.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,286,Lindenwood,44.2%,44.2%,44.2%,--,44.2%,48.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,287,Rice,44.1%,44.1%,45.9%,42.5%,45.9%,48.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,288,App State,43.9%,43.9%,38.4%,--,43.9%,49.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,289,Saint Joseph's,43.8%,43.8%,37.1%,43.8%,--,49.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,290,The Citadel,43.6%,43.6%,43.6%,--,43.6%,49.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,291,Oakland,43.6%,46.3%,37.1%,--,43.6%,52.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,292,Coastal Car,43.2%,43.2%,48.3%,48.3%,33.3%,47.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,293,Toledo,42.9%,42.6%,43.2%,43.2%,42.9%,54.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,294,UMass Lowell,42.9%,42.9%,39.3%,39.3%,46.6%,49.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,295,Chicago St,42.7%,42.7%,38.5%,38.5%,44.4%,45.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,296,Penn,42.7%,42.7%,54.4%,54.4%,34.9%,50.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,297,Norfolk St,42.6%,42.6%,42.6%,--,42.6%,49.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,298,NC A&T,42.5%,42.5%,42.5%,--,42.5%,50.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,299,Buffalo,42.5%,42.5%,44.1%,--,42.5%,55.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,300,Milwaukee,42.5%,42.5%,43.0%,--,42.5%,49.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,301,Le Moyne,42.4%,42.4%,36.6%,--,42.4%,52.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,302,AR-Pine Bluff,42.4%,42.4%,40.2%,--,42.4%,50.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,303,Radford,42.3%,42.3%,30.3%,--,42.3%,51.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,304,UMBC,42.3%,42.3%,54.9%,--,42.3%,54.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,305,N Florida,42.2%,42.2%,35.8%,--,42.2%,52.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,306,Holy Cross,42.1%,42.1%,39.8%,--,42.1%,49.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,306,CS Northridge,42.1%,42.1%,44.0%,--,42.1%,51.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,308,Liberty,42.0%,42.0%,42.0%,--,42.0%,59.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,309,LIU,41.9%,41.3%,30.6%,--,41.9%,52.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,310,Lehigh,41.8%,41.8%,41.5%,42.5%,40.5%,52.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,311,S Indiana,41.7%,41.7%,47.0%,--,41.7%,43.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,312,Incarnate Word,41.7%,41.7%,46.2%,29.2%,48.1%,50.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,313,Omaha,41.7%,41.7%,34.6%,--,41.7%,52.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,314,Nicholls,41.6%,41.6%,47.2%,--,41.6%,50.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,315,La Salle,41.5%,41.5%,37.9%,54.8%,34.9%,45.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,316,Loyola MD,41.5%,41.5%,36.9%,--,41.5%,50.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,317,Middle Tenn,41.3%,41.3%,55.7%,55.7%,30.1%,51.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,318,Sacred Heart,41.2%,41.2%,43.5%,39.0%,43.5%,52.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,319,Kent St,41.2%,41.2%,41.2%,--,41.2%,51.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,320,Lafayette,41.1%,41.1%,42.0%,--,41.1%,49.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,321,Maryland ES,41.0%,41.0%,46.4%,--,41.0%,47.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,322,Miss Valley St,40.9%,40.9%,43.3%,--,40.9%,45.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,323,Austin Peay,40.7%,40.7%,40.7%,--,40.7%,53.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,324,Coppin St,40.4%,40.4%,42.6%,--,40.4%,45.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,325,Prairie View,40.2%,40.2%,39.4%,--,40.2%,47.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,326,Morehead St,40.1%,40.1%,38.1%,--,40.1%,49.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,327,UC Riverside,40.0%,40.0%,40.0%,40.0%,--,48.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,328,Princeton,39.8%,39.8%,39.0%,40.7%,39.0%,49.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,329,Morgan St,39.7%,39.7%,39.7%,--,39.7%,45.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,330,Idaho St,39.6%,39.6%,43.8%,--,39.6%,51.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,331,F Dickinson,39.5%,39.5%,47.4%,--,39.5%,47.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,332,Portland St,39.5%,39.5%,39.5%,--,39.5%,50.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,333,Canisius,39.4%,39.4%,35.6%,35.6%,42.6%,46.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,334,Air Force,39.3%,39.3%,41.0%,41.0%,37.5%,48.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,335,Mt St Mary's,39.1%,39.1%,47.5%,47.5%,31.5%,50.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,336,Ball St,38.9%,38.9%,47.2%,47.2%,31.4%,47.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,337,Alabama St,38.8%,38.8%,38.8%,--,38.8%,47.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,338,E Michigan,38.7%,38.7%,32.8%,--,38.7%,49.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,339,Robert Morris,38.7%,38.7%,47.9%,--,38.7%,54.9%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,340,Army,38.3%,38.3%,35.4%,--,38.3%,49.3%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,341,VMI,38.2%,38.2%,44.6%,--,38.2%,47.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,342,Saint Peter's,38.1%,38.1%,39.7%,41.7%,36.6%,46.4%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,343,Mercyhurst,38.1%,38.1%,44.1%,--,38.1%,49.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,344,Texas So,37.7%,37.7%,29.7%,--,37.7%,49.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,345,NJIT,37.6%,37.8%,34.8%,52.9%,34.8%,46.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,346,Wofford,37.0%,37.0%,38.4%,--,37.0%,52.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,347,Louisiana,36.9%,36.9%,38.5%,36.9%,--,47.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,348,Hampton,36.6%,36.6%,42.7%,--,36.6%,45.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,349,Rider,36.6%,36.6%,44.3%,27.9%,41.1%,42.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,350,Wagner,36.5%,36.5%,37.3%,--,36.5%,49.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,351,W Georgia,36.0%,36.0%,31.7%,--,36.0%,49.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,352,Navy,35.6%,35.6%,47.0%,47.0%,25.9%,53.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,353,W Florida,35.6%,35.6%,35.6%,--,35.6%,--
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,354,Tennessee St,35.5%,35.5%,35.5%,--,35.5%,50.0%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,355,Bradley,35.4%,35.4%,36.1%,34.7%,36.1%,51.1%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,356,Gardner-Webb,35.3%,35.3%,38.9%,--,35.3%,47.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,357,Oral Roberts,35.0%,35.0%,35.0%,--,35.0%,49.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,358,Fairfield,34.7%,34.7%,20.1%,42.6%,31.0%,48.8%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,359,Alabama A&M,31.1%,31.1%,31.1%,--,31.1%,49.2%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,360,Detroit Mercy,30.2%,30.2%,33.6%,--,30.2%,49.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,361,LSU New Orleans,27.9%,27.9%,27.9%,--,27.9%,49.6%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,362,Charleston,--,--,--,--,--,50.5%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,362,S Utah,--,--,--,--,--,50.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,362,SF Austin,--,--,--,--,--,51.7%
+2026-11-11T16:18-05:00,effective-field-goal-pct,2026,362,Missouri St,--,--,--,--,--,51.1%
