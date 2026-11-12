@@ -4,8 +4,12 @@
 GitHub's own cron schedule never fired for this repo, so .github/workflows/loop.yml
 runs this script for ~5.5 hours and then starts the next loop run itself.
 
-  VSiN pull (vsin_pull.py):           :09 and :39 past each hour, 9 AM to midnight ET
-  TeamRankings pull (teamrankings_pull.py): 10:23 AM, 3:23 PM and 6:23 PM ET
+Pulls are timed to feed the scheduled Claude tasks (all ET):
+  9:09 AM daily          VSiN: morning baseline for the day's split/line path
+  9:59 AM Sat/Sun        VSiN: for the 10:13 AM weekend final check
+  3:29 PM daily          VSiN + TeamRankings: for the 3:45 PM NFL & CFB scan
+  5:39 PM daily          VSiN: for the 5:52 PM evening analysis
+Edit SLOTS below to change them.
 
 After each pull it refreshes data/latest/ (publish_gist.py --write-dir), commits
 and pushes. A failed pull or push is logged and the loop carries on.
@@ -16,23 +20,23 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 ET = ZoneInfo("America/New_York")
-VSIN_MINUTES = (9, 39)
-VSIN_HOURS = set(range(9, 24)) | {0}          # 9 AM through the 12:xx AM pulls
-TR_TIMES = {(10, 23), (15, 23), (18, 23)}
+# (hour, minute, weekdays or None for every day, kinds); weekday 5 = Sat, 6 = Sun
+SLOTS = [
+    (9, 9, None, ["vsin"]),
+    (9, 59, {5, 6}, ["vsin"]),
+    (15, 29, None, ["vsin", "tr"]),
+    (17, 39, None, ["vsin"]),
+]
 RUN_FOR = timedelta(minutes=int(os.environ.get("LOOP_MINUTES", "330")))
 
 
 def slots_after(now):
-    """Next scheduled (time, kind) after `now`, scanning minute by minute (cheap: <= 1 day)."""
+    """Next scheduled (time, kinds) after `now`, scanning minute by minute (cheap: <= 2 days)."""
     t = now.replace(second=0, microsecond=0) + timedelta(minutes=1)
-    for _ in range(24 * 60 + 1):
-        kinds = []
-        if t.minute in VSIN_MINUTES and t.hour in VSIN_HOURS:
-            kinds.append("vsin")
-        if (t.hour, t.minute) in TR_TIMES:
-            kinds.append("tr")
-        if kinds:
-            return t, kinds
+    for _ in range(2 * 24 * 60 + 1):
+        for hour, minute, days, kinds in SLOTS:
+            if (t.hour, t.minute) == (hour, minute) and (days is None or t.weekday() in days):
+                return t, kinds
         t += timedelta(minutes=1)
     raise RuntimeError("no slot found")
 
