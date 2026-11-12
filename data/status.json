@@ -1,15 +1,15 @@
 {
-  "pulled_et": "2026-11-11T18:11-05:00",
+  "pulled_et": "2026-11-12T02:40-05:00",
   "splits_DK_NFL": "ok 27 games",
   "splits_CIRCA_NFL": "ok 14 games",
   "circa_NFL": "ok 27 games",
-  "splits_DK_CFB": "ok 68 games",
+  "splits_DK_CFB": "ok 70 games",
   "splits_CIRCA_CFB": "ok 64 games",
   "circa_CFB": "ok 64 games",
-  "splits_DK_NBA": "ok 16 games",
-  "splits_CIRCA_NBA": "ok 10 games",
-  "circa_NBA": "ok 10 games",
-  "splits_DK_CBB": "ok 48 games",
-  "splits_CIRCA_CBB": "ok 48 games",
-  "circa_CBB": "ok 28 games"
+  "splits_DK_NBA": "ok 20 games",
+  "splits_CIRCA_NBA": "ok 14 games",
+  "circa_NBA": "ok 13 games",
+  "splits_DK_CBB": "ok 72 games",
+  "splits_CIRCA_CBB": "ok 62 games",
+  "circa_CBB": "ok 42 games"
 }
