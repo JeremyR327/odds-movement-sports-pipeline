@@ -1,14 +1,8 @@
 name: CBB model pull
 
 on:
+  # Manual runs only. Scheduled CBB pulls run inside the Pipeline loop (loop.yml).
   workflow_dispatch: {}
-  schedule:
-    # UTC = 10:41 AM, 5:41 PM and 10:41 PM ET (winter). Morning = main slate + yesterday's
-    # results; 5:41 PM = pre-tip lines; 10:41 PM = tomorrow's openers are not on ESPN yet,
-    # so this run mainly refreshes tonight's late games and logs closes.
-    # GitHub's scheduler has not been firing for this repo: trigger these from cron-job.org too.
-    - cron: "41 15,22 * * *"
-    - cron: "41 3 * * *"
 
 permissions:
   contents: write

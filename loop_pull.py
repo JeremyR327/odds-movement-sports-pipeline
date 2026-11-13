@@ -9,6 +9,7 @@ Pulls are timed to feed the scheduled Claude tasks (all ET):
   9:59 AM Sat/Sun        VSiN: for the 10:13 AM weekend final check
   3:29 PM daily          VSiN + TeamRankings: for the 3:45 PM NFL & CFB scan
   5:39 PM daily          VSiN: for the 5:52 PM evening analysis
+  10:41 AM, 5:44 PM      CBB model slate (cbb_pull.py), the later one feeding the 5:52 PM analysis
 Edit SLOTS below to change them.
 
 After each pull it refreshes data/latest/ (publish_gist.py --write-dir), commits
@@ -26,6 +27,8 @@ SLOTS = [
     (9, 59, {5, 6}, ["vsin"]),
     (15, 29, None, ["vsin", "tr"]),
     (17, 39, None, ["vsin"]),
+    (10, 41, None, ["cbb"]),
+    (17, 44, None, ["cbb"]),        # after the 5:39 VSiN pull, before the 5:52 PM evening analysis
 ]
 RUN_FOR = timedelta(minutes=int(os.environ.get("LOOP_MINUTES", "330")))
 
@@ -79,7 +82,10 @@ def main():
             sh(sys.executable, "vsin_pull.py")       # exit 1/2 = some sources failed / cookie expired; keep going
         if "tr" in kinds:
             sh(sys.executable, "teamrankings_pull.py")
-        save("Pipeline pull" if len(kinds) > 1 else ("VSiN pull" if kinds == ["vsin"] else "TeamRankings pull"))
+        if "cbb" in kinds:
+            sh(sys.executable, "cbb_pull.py")        # exit 2 = no slate possible; logged, loop continues
+        names = {"vsin": "VSiN pull", "tr": "TeamRankings pull", "cbb": "CBB pull"}
+        save("Pipeline pull" if len(kinds) > 1 else names[kinds[0]])
 
 
 if __name__ == "__main__":

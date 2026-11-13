@@ -2,7 +2,7 @@ name: Pipeline loop
 
 # Keeps the pulls running without GitHub's cron (which never fired for this repo):
 # each run waits ~5.5 hours, pulling at the times in loop_pull.py (9:09 AM, 3:29 PM,
-# 5:39 PM daily; 9:59 AM Sat/Sun), then starts the next run.
+# 5:39 PM daily; 9:59 AM Sat/Sun; CBB 10:41 AM and 5:44 PM), then starts the next run.
 # Start it once with "Run workflow". To stop it, cancel the running job (a cancelled
 # run does not start another).
 on:
@@ -28,10 +28,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Install pyarrow (cbb_pull.py reads cbbdata's Parquet ratings)
+        run: pip install --quiet pyarrow
       - name: Pull at the scheduled times (see loop_pull.py)
         env:
           VSIN_COOKIE: ${{ secrets.VSIN_COOKIE }}
           TEAMRANKINGS_COOKIE: ${{ secrets.TEAMRANKINGS_COOKIE }}
+          CBD_API_KEY: ${{ secrets.CBD_API_KEY }}
+          CBBD_API_KEY: ${{ secrets.CBBD_API_KEY }}
+          CBD_USERNAME: ${{ secrets.CBD_USERNAME }}
+          CBD_PASSWORD: ${{ secrets.CBD_PASSWORD }}
+          CBD_EMAIL: ${{ secrets.CBD_EMAIL }}
         run: |
           git config user.name "pipeline-loop-bot"
           git config user.email "actions@users.noreply.github.com"
