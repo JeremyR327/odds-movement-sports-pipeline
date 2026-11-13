@@ -27,8 +27,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Install pyarrow (reads cbbdata's Parquet ratings)
+        run: pip install --quiet pyarrow
       - name: Build the CBB slate (Torvik + TR + BPI vs Circa/ESPN lines) and grade yesterday
         id: pull
+        env:
+          CBD_API_KEY: ${{ secrets.CBD_API_KEY }}
         run: python cbb_pull.py
         continue-on-error: true
       - name: Save data to the repo
