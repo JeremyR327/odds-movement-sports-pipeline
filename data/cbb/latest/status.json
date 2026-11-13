@@ -1,8 +1,8 @@
 {
   "date": "2026-11-13",
-  "pulled_et": "2026-11-13T13:17-05:00",
+  "pulled_et": "2026-11-13T13:31-05:00",
   "espn": "ok 61 games",
-  "torvik": "error: HTTP Error 403: Forbidden",
+  "torvik": "error: cbbdata: HTTP Error 403: FORBIDDEN; barttorvik: HTTP Error 403: Forbidden",
   "tr": "ok 365 teams (2026-11-12 2227)",
   "bpi": "ok 365 teams",
   "circa": "none today (VSiN pull failing or board not up): ESPN book line used where posted",
@@ -23,7 +23,7 @@
     "UC San Diego Tritons @ Utah State Aggies",
     "UIC Flames @ Saint Mary's Gaels"
   ],
-  "sources": "espn ok 61 games \u00b7 torvik error: HTTP Error 403: Forbidden \u00b7 tr ok 365 teams (2026-11-12 2227) \u00b7 bpi ok 365 teams \u00b7 circa none today (VSiN pull failing or board not up): ESPN book line used where posted",
+  "sources": "espn ok 61 games \u00b7 torvik error: cbbdata: HTTP Error 403: FORBIDDEN; barttorvik: HTTP Error 403: Forbidden \u00b7 tr ok 365 teams (2026-11-12 2227) \u00b7 bpi ok 365 teams \u00b7 circa none today (VSiN pull failing or board not up): ESPN book line used where posted",
   "results": "no earlier slate files yet",
   "season_graded": 0
 }
