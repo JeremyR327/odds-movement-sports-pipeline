@@ -4,7 +4,9 @@
 GitHub's own cron schedule never fired for this repo, so .github/workflows/loop.yml
 runs this script for ~5.5 hours and then starts the next loop run itself.
 
-Pulls are timed to feed the scheduled Claude tasks (all ET):
+Pulls are timed to feed the scheduled Claude tasks (all ET). VSiN pulls are *requested* here
+and run on Jeremy's Mac via the "VSiN pull" workflow (self-hosted runner), because VSiN blocks
+GitHub's servers; they start as soon as the Mac is online.
   9:09 AM daily          VSiN: morning baseline for the day's split/line path
   9:59 AM Sat/Sun        VSiN: for the 10:13 AM weekend final check
   3:29 PM daily          VSiN + TeamRankings: for the 3:45 PM NFL & CFB scan
@@ -81,7 +83,9 @@ def main():
         print(f"sleeping {wait / 60:.0f} min until {when:%H:%M} ET for {'+'.join(kinds)}", flush=True)
         time.sleep(max(0, wait))
         if "vsin" in kinds:
-            sh(sys.executable, "vsin_pull.py")       # exit 1/2 = some sources failed / cookie expired; keep going
+            # VSiN blocks GitHub's servers, so the pull runs on Jeremy's Mac (self-hosted runner):
+            # request it here; it waits in the queue until the Mac is online.
+            sh("gh", "workflow", "run", "main.yml", "--ref", "main")
         if "tr" in kinds:
             sh(sys.executable, "teamrankings_pull.py")
         if "cbb" in kinds:

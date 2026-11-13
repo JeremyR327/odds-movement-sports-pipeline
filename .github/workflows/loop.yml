@@ -39,6 +39,7 @@ jobs:
           CBD_USERNAME: ${{ secrets.CBD_USERNAME }}
           CBD_PASSWORD: ${{ secrets.CBD_PASSWORD }}
           CBD_EMAIL: ${{ secrets.CBD_EMAIL }}
+          GH_TOKEN: ${{ github.token }}        # lets the loop request "VSiN pull" runs on the Mac
         run: |
           git config user.name "pipeline-loop-bot"
           git config user.email "actions@users.noreply.github.com"

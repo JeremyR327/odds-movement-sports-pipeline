@@ -1,47 +1,41 @@
 name: VSiN pull
 
+# Runs on Jeremy's Mac (self-hosted runner): VSiN blocks GitHub's own servers (Cloudflare 403
+# since Nov 12, 2026), but not a home connection. The Pipeline loop requests this run at
+# 9:09 AM, 9:59 AM Sat/Sun, 3:29 PM and 5:39 PM ET; you can also start it with "Run workflow"
+# (GitHub app works). If the Mac is asleep or off, the run waits in the queue (up to 24 h) and
+# starts as soon as the runner is back online; only the newest waiting run is kept.
 on:
-  # Manual runs only. The scheduled pulls come from the Pipeline loop workflow (loop.yml).
   workflow_dispatch: {}
 
 permissions:
   contents: write
 
 concurrency:
-  group: vsin-pull
+  group: vsin-mac        # own queue, so a run waiting for the Mac never blocks the cloud jobs
   cancel-in-progress: false
 
 jobs:
   pull:
-    runs-on: ubuntu-latest
-    timeout-minutes: 8
+    runs-on: [self-hosted, macOS]
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - name: Pull VSiN splits and Circa lines
+      - name: Pull VSiN splits and Circa lines (Mac's own python3)
         id: pull
         env:
           VSIN_COOKIE: ${{ secrets.VSIN_COOKIE }}
-        run: python vsin_pull.py
+        run: python3 vsin_pull.py
         continue-on-error: true
       - name: Save data to the repo
         run: |
           git config user.name "vsin-pull-bot"
           git config user.email "actions@users.noreply.github.com"
-          python publish_gist.py --write-dir data/latest
+          python3 publish_gist.py --write-dir data/latest
           git add data
-          git diff --cached --quiet || git commit -m "VSiN pull $(TZ=America/New_York date '+%Y-%m-%d %H:%M ET')"
-          git push
-      - name: Publish latest data to the gist (read by the nightly Claude analysis)
-        if: always()
-        env:
-          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
-          GIST_ID: ${{ secrets.GIST_ID }}
-        run: python publish_gist.py
-        continue-on-error: true
-      - name: Fail loudly if the cookie expired
+          git diff --cached --quiet || git commit -m "VSiN pull $(TZ=America/New_York date '+%Y-%m-%d %H:%M ET') (Mac)"
+          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep $((i * 10)); done
+      - name: Fail loudly if the cookie expired or VSiN blocked the pull
         if: steps.pull.outcome == 'failure'
         run: |
           cat data/status.json
