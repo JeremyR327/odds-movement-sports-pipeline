@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-13",
+  "pulled_et": "2026-11-13T13:06-05:00",
+  "espn": "ok 61 games",
+  "torvik": "error: HTTP Error 403: Forbidden",
+  "tr": "ok 365 teams (2026-11-12 2227)",
+  "bpi": "ok 365 teams",
+  "circa": "none today (VSiN pull failing or board not up): ESPN book line used where posted",
+  "alert": "required source failed (ESPN or Torvik); no slate written"
+}
