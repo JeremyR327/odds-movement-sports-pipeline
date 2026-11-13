@@ -13,7 +13,8 @@ Sources
   - TeamRankings predictive ratings (newest data/*/HHMM_tr_ratings_CBB.csv)        optional
   - ESPN BPI via the power-index API (skipped if its layout isn't recognized)     optional
   - Circa open/current: newest data/*/HHMM_circa_CBB.csv from vsin_pull.py        optional
-    (no Circa -> ESPN's book line is used as the current line, labeled as such)
+    (no Circa -> CollegeBasketballData /lines open + current by book, one request per run;
+     then ESPN's book line; the source is labeled in line_source)
 
 Outputs
   data/cbb/YYYY-MM-DD/HHMM_slate.csv      one row per game for this run
@@ -25,7 +26,7 @@ Usage: python cbb_pull.py [--date YYYY-MM-DD] [--season 2027] [--no-results]
 Exit codes: 0 ok (source problems are listed in status.json), 2 no slate possible
 (ESPN failed, or neither Torvik nor TR ratings are available).
 """
-import argparse, csv, difflib, glob, io, json, os, re, sys, urllib.error, urllib.request
+import argparse, csv, difflib, glob, io, json, os, re, sys, urllib.error, urllib.parse, urllib.request
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
@@ -400,6 +401,48 @@ def circa_rows():
     return rows
 
 
+# Book preference when CBBD lists several (first present wins); otherwise the first listed.
+CBBD_BOOKS = ["consensus", "draftkings", "espn bet", "fanduel", "bovada", "betmgm", "caesars"]
+
+
+def cbbd_lines(day, key):
+    """Opening + current lines by sportsbook from CollegeBasketballData, one request per run:
+    GET /lines?startDateRange=<day 6 AM ET>&endDateRange=<next day 6 AM ET> (Bearer key).
+    The raw response is saved to data/cbb/lines/YYYY-MM-DD/HHMM.json so movement can be traced.
+    Returns {"away @ home" (norm()ed): {"provider", "spread", "spread_open", "total", "total_open",
+    "home_ml", "away_ml"}} using one book per game (CBBD_BOOKS order). CFBD-style spreads are
+    the home team's (-5.5 = home favored by 5.5)."""
+    start = datetime(day.year, day.month, day.day, 6, tzinfo=ET)
+    end = start + timedelta(days=1)
+    q = urllib.parse.urlencode({"startDateRange": start.astimezone(ZoneInfo("UTC")).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                                "endDateRange": end.astimezone(ZoneInfo("UTC")).strftime("%Y-%m-%dT%H:%M:%SZ")})
+    req = urllib.request.Request(f"https://api.collegebasketballdata.com/lines?{q}",
+                                 headers={**UA, "Accept": "application/json", "Authorization": f"Bearer {key}"})
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            raw = r.read().decode("utf-8", "replace")
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f"HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:150]}")
+    games = json.loads(raw)
+    os.makedirs(f"{OUT}/lines/{day.isoformat()}", exist_ok=True)
+    with open(f"{OUT}/lines/{day.isoformat()}/{NOW:%H%M}.json", "w", encoding="utf-8") as f:
+        f.write(raw)
+    out = {}
+    for g in games if isinstance(games, list) else []:
+        books = [b for b in (g.get("lines") or []) if b.get("spread") is not None or b.get("overUnder") is not None]
+        if not books:
+            continue
+        rank = lambda b: next((i for i, n in enumerate(CBBD_BOOKS) if n in str(b.get("provider", "")).lower()),
+                              len(CBBD_BOOKS))
+        b = min(books, key=rank)
+        out[norm(g.get("awayTeam")) + " @ " + norm(g.get("homeTeam"))] = {
+            "provider": b.get("provider"), "spread": b.get("spread"), "spread_open": b.get("spreadOpen"),
+            "total": b.get("overUnder"), "total_open": b.get("overUnderOpen"),
+            "home_ml": b.get("homeMoneyline"), "away_ml": b.get("awayMoneyline"),
+            "books": sorted({str(x.get("provider")) for x in books})}
+    return out
+
+
 # ---------------------------------------------------------------- build
 def tier_of(ra, rh):
     """Proxy until a conference/TV flag is added: both top-100 = T1, avg rank <= 200 = T2, else T3."""
@@ -410,7 +453,7 @@ def tier_of(ra, rh):
     return 3
 
 
-def build_slate(day, games, R, TR, B, circa):
+def build_slate(day, games, R, TR, B, circa, lines=None):
     mt = Matcher(R) if R else None
     mtr = Matcher(TR, expand=True) if TR else None
     # Without Torvik, tiers come from TR rank (1 = best rating).
@@ -421,6 +464,19 @@ def build_slate(day, games, R, TR, B, circa):
         circ.setdefault(norm(r.get("away")) + " @ " + norm(r.get("home")), []).append(r)
     ckeys = list(circ)
     used = set()
+
+    lines = lines or {}
+    lkeys = list(lines)
+
+    def lines_for(g):
+        cands = lambda t: [norm(x) for x in (t["school"], t["short"], t["full"], t["abbr"]) if x]
+        for ka in cands(g["away"]):
+            for kh in cands(g["home"]):
+                if ka + " @ " + kh in lines:
+                    return lines[ka + " @ " + kh]
+        best = difflib.get_close_matches(norm(g["away"]["school"]) + " @ " + norm(g["home"]["school"]),
+                                         lkeys, n=1, cutoff=0.85)
+        return lines[best[0]] if best else None
 
     def circa_for(g):
         # VSiN CBB names are usually the school only ("George Mason"), sometimes shortened ("UMKC").
@@ -481,6 +537,14 @@ def build_slate(day, games, R, TR, B, circa):
             open_h, cur_h = o, c
             open_t, cur_t = first_num(first.get("circa_open_total")), first_num(last.get("circa_total"))
             src = "Circa " + last.get("pulled_et", "")[5:16].replace("T", " ")
+        cb = lines_for(g) if cur_h is None else None
+        if cb and cb["spread"] is not None:
+            # CBBD spread is the home team's: -5.5 = home favored by 5.5 = home margin +5.5.
+            cur_h = -float(cb["spread"])
+            open_h = -float(cb["spread_open"]) if cb["spread_open"] is not None else None
+            cur_t = cb["total"]
+            open_t = cb["total_open"]
+            src = f'CBBD/{cb["provider"]} (no Circa)'
         if cur_h is None and g["espn_line_home"] is not None:
             cur_h, cur_t = g["espn_line_home"], g["espn_total"]
             src = f'ESPN/{g["espn_book"] or "book"} (no Circa)'
@@ -662,7 +726,7 @@ def main():
     circa = circa_rows()
     today = [r for r in circa if r.get("pulled_et", "").startswith(day.isoformat())]
     status["circa"] = (f"ok {len(today)} CBB rows pulled today" if today else
-                       "none today (VSiN pull failing or board not up): ESPN book line used where posted")
+                       "none today (VSiN pull failing or board not up): CBBD book lines, then ESPN's, used where posted")
 
     os.makedirs(f"{OUT}/latest", exist_ok=True)
     if R is None and TR:
@@ -673,7 +737,28 @@ def main():
         json.dump(status, open(f"{OUT}/latest/status.json", "w"), indent=2)
         print(json.dumps(status, indent=2)); sys.exit(2)
 
-    slate, unmatched, orphans = build_slate(day, games, R, TR, B, circa)
+    lines = {}
+    lkey = (os.environ.get("CBBD_API_KEY") or os.environ.get("CBD_API_KEY") or "").strip()
+    if today:
+        status["cbbd_lines"] = "skipped: Circa rows available today"
+    elif not lkey:
+        status["cbbd_lines"] = "skipped: no CBBD_API_KEY/CBD_API_KEY secret"
+    else:
+        try:
+            lines = cbbd_lines(day, lkey)
+            books = sorted({b for v in lines.values() for b in v["books"]})
+            status["cbbd_lines"] = f"ok {len(lines)} games; books: {', '.join(books) or 'none'}"
+            # Sign check vs ESPN's line (same home-margin convention): should mostly agree.
+            pairs = []
+            for g in games:
+                k = norm(g["away"]["school"]) + " @ " + norm(g["home"]["school"])
+                if k in lines and lines[k]["spread"] is not None and g["espn_line_home"] not in (None, 0):
+                    pairs.append((-float(lines[k]["spread"]) > 0) == (g["espn_line_home"] > 0))
+            status["cbbd_sign_check"] = f"{sum(pairs)}/{len(pairs)} games agree with ESPN on the favorite"
+        except Exception as e:
+            status["cbbd_lines"] = f"error: {e}".replace(lkey, "***")
+
+    slate, unmatched, orphans = build_slate(day, games, R, TR, B, circa, lines)
     status.update({"circa_unmatched": orphans[:40], "games_written": len(slate),
                    "with_line": sum(1 for r in slate if r["cur_home_margin"] is not None),
                    "with_circa": sum(1 for r in slate if r["line_source"].startswith("Circa")),
