@@ -6,7 +6,9 @@ not) so model weights and bet thresholds can be fit later.
 
 Sources
   - ESPN scoreboard API (schedule, tip, neutral site, ESPN's book line, finals)   required
-  - Torvik team CSV  barttorvik.com/<season>_team_results.csv                     required
+  - Torvik team CSV  barttorvik.com/<season>_team_results.csv                     preferred
+    (if Torvik is unreachable, e.g. it blocks GitHub's servers, the slate is built from
+    TR + BPI: TR ranks set the tier and Torvik's totals/ranks are left blank)
   - TeamRankings predictive ratings (newest data/*/HHMM_tr_ratings_CBB.csv)        optional
   - ESPN BPI via the power-index API (skipped if its layout isn't recognized)     optional
   - Circa open/current: newest data/*/HHMM_circa_CBB.csv from vsin_pull.py        optional
@@ -19,7 +21,8 @@ Outputs
   (kept out of data/latest/, which publish_gist.py rewrites on every VSiN run)
 
 Usage: python cbb_pull.py [--date YYYY-MM-DD] [--season 2027] [--no-results]
-Exit codes: 0 ok (optional-source problems are listed in status.json), 2 a required source failed (ESPN or Torvik).
+Exit codes: 0 ok (source problems are listed in status.json), 2 no slate possible
+(ESPN failed, or neither Torvik nor TR ratings are available).
 """
 import argparse, csv, difflib, glob, io, json, os, re, sys, urllib.request
 from datetime import datetime, timedelta
@@ -55,10 +58,41 @@ def norm(name):
     return re.sub(r"\s+", " ", s).strip()
 
 
+# TeamRankings abbreviates school names ("W Kentucky", "Loyola Chi", "SF Austin"). With
+# expand=True the matcher also indexes each name with these spelled out, so ESPN's
+# "Western Kentucky" / "Loyola Chicago" find it. (Torvik's full names made this
+# unnecessary while Torvik was the primary pool.)
+TR_ABBR = {
+    "n": ["north", "northern"], "s": ["south", "southern"], "e": ["east", "eastern"],
+    "w": ["west", "western"], "c": ["central"], "se": ["southeast", "southeastern"],
+    "nc": ["north carolina"], "sc": ["south carolina"], "ut": ["texas", "tennessee"],
+    "uc": ["california", "uc"], "cs": ["cal st", "csu"], "ul": ["louisiana"],
+    "sf": ["stephen f"], "chi": ["chicago"], "mymt": ["marymount"], "md": ["maryland"],
+    "intl": ["international"], "car": ["carolina"], "tenn": ["tennessee"], "miss": ["mississippi"],
+    "g": ["george"], "fl": ["florida"], "so": ["southern"],
+}
+# Whole-name nicknames TR doesn't use (key: TR name, values: other spellings).
+TR_EXTRA = {"Mississippi": ["Ole Miss"], "E Texas A&M": ["Texas A&M-Commerce", "East Texas A&M"],
+            "Texas A&M-CC": ["Texas A&M-Corpus Christi"]}
+
+
+def _expansions(key):
+    """norm()ed name -> set of norm()ed spellings with TR abbreviations expanded (capped)."""
+    out = [""]
+    for tok in key.split():
+        opts = [tok] + TR_ABBR.get(tok, [])
+        out = [f"{o} {x}".strip() for o in out for x in opts][:64]
+    return {norm(v) for v in out}
+
+
 class Matcher:
     """Map a school name (or school + mascot) onto a pool of school names."""
-    def __init__(self, pool):
+    def __init__(self, pool, expand=False):
         self.by_key = {norm(p): p for p in pool}
+        if expand:
+            for p in pool:
+                for k in _expansions(norm(p)) | {norm(x) for x in TR_EXTRA.get(p, [])}:
+                    self.by_key.setdefault(k, p)
         self.keys = list(self.by_key)
 
     def __call__(self, *names):
@@ -226,8 +260,10 @@ def tier_of(ra, rh):
 
 
 def build_slate(day, games, R, TR, B, circa):
-    mt = Matcher(R)
-    mtr = Matcher(TR) if TR else None
+    mt = Matcher(R) if R else None
+    mtr = Matcher(TR, expand=True) if TR else None
+    # Without Torvik, tiers come from TR rank (1 = best rating).
+    tr_rank = {t: i for i, t in enumerate(sorted(TR, key=TR.get, reverse=True), 1)} if TR else {}
     mb = Matcher(B) if B else None
     circ = {}
     for r in circa:
@@ -259,22 +295,31 @@ def build_slate(day, games, R, TR, B, circa):
     for g in games:
         if g["tip_dt"] <= NOW or g["completed"]:
             continue                      # already tipped: the last pre-tip snapshot is the close
-        ta = mt(g["away"]["school"], g["away"]["full"])
-        th = mt(g["home"]["school"], g["home"]["full"])
-        if not ta or not th:
-            unmatched.append(f'{g["away"]["full"]} @ {g["home"]["full"]}')
-            continue
-        tv_m, tv_t = torvik_predict(ta, th, R, g["neutral"])
         hca = 0 if g["neutral"] else HCA
-        parts, tr_m, bpi_m = [("torvik", tv_m)], None, None
+        tv_m = tv_t = tv_ra = tv_rh = None
+        parts, tr_m, bpi_m, ra, rh = [], None, None, None, None
+        if mt:
+            ta = mt(g["away"]["school"], g["away"]["full"])
+            th = mt(g["home"]["school"], g["home"]["full"])
+            if not ta or not th:
+                unmatched.append(f'{g["away"]["full"]} @ {g["home"]["full"]}')
+                continue
+            tv_m, tv_t = torvik_predict(ta, th, R, g["neutral"])
+            parts.append(("torvik", tv_m))
+            tv_ra, tv_rh = ra, rh = R[ta]["rank"], R[th]["rank"]
         if mtr:
             a2, h2 = mtr(g["away"]["school"], g["away"]["full"]), mtr(g["home"]["school"], g["home"]["full"])
             if a2 and h2:
                 tr_m = TR[h2] - TR[a2] + hca; parts.append(("tr", tr_m))
+                if ra is None:
+                    ra, rh = tr_rank[a2], tr_rank[h2]
         if mb:
             a3, h3 = mb(g["away"]["school"], g["away"]["full"]), mb(g["home"]["school"], g["home"]["full"])
             if a3 and h3:
                 bpi_m = B[h3] - B[a3] + hca; parts.append(("bpi", bpi_m))
+        if not parts or ra is None:       # no Torvik and no TR match: can't rate or tier this game
+            unmatched.append(f'{g["away"]["full"]} @ {g["home"]["full"]}')
+            continue
         cons = sum(W[k] * v for k, v in parts) / sum(W[k] for k, _ in parts)
 
         first, last = circa_for(g)
@@ -289,7 +334,7 @@ def build_slate(day, games, R, TR, B, circa):
             cur_h, cur_t = g["espn_line_home"], g["espn_total"]
             src = f'ESPN/{g["espn_book"] or "book"} (no Circa)'
 
-        tier = tier_of(R[ta]["rank"], R[th]["rank"])
+        tier = tier_of(ra, rh)
         mw = min(0.9, MARKET_W[tier] + (NOV_BUMP if nov else 0))
         anchor = open_h if open_h is not None else cur_h
         fair = mw * anchor + (1 - mw) * cons if anchor is not None else None
@@ -305,7 +350,7 @@ def build_slate(day, games, R, TR, B, circa):
         out.append({
             "date": day.isoformat(), "tip_et": g["tip"], "espn_id": g["espn_id"],
             "away": g["away"]["school"], "home": g["home"]["school"], "site": "N" if g["neutral"] else "H",
-            "tier": tier, "torvik_rank_away": R[ta]["rank"], "torvik_rank_home": R[th]["rank"],
+            "tier": tier, "torvik_rank_away": tv_ra, "torvik_rank_home": tv_rh,
             "torvik_home_margin": rnd(tv_m), "torvik_total": rnd(tv_t), "tr_home_margin": rnd(tr_m),
             "bpi_home_margin": rnd(bpi_m), "consensus_home_margin": rnd(cons),
             "line_source": src, "open_home_margin": open_h, "cur_home_margin": cur_h,
@@ -469,8 +514,11 @@ def main():
                        "none today (VSiN pull failing or board not up): ESPN book line used where posted")
 
     os.makedirs(f"{OUT}/latest", exist_ok=True)
-    if games is None or R is None:
-        status["alert"] = "required source failed (ESPN or Torvik); no slate written"
+    if R is None and TR:
+        status["alert"] = ("Torvik unavailable: slate built from TR + BPI only "
+                           "(tiers from TR rank; no Torvik totals)")
+    if games is None or (R is None and not TR):
+        status["alert"] = "no slate written: ESPN failed, or neither Torvik nor TR ratings are available"
         json.dump(status, open(f"{OUT}/latest/status.json", "w"), indent=2)
         print(json.dumps(status, indent=2)); sys.exit(2)
 
