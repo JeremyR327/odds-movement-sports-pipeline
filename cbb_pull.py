@@ -6,8 +6,8 @@ not) so model weights and bet thresholds can be fit later.
 
 Sources
   - ESPN scoreboard API (schedule, tip, neutral site, ESPN's book line, finals)   required
-  - Torvik ratings: today's saved copy, else the cbbdata API (CBD_API_KEY, 1 request/day),
-    else barttorvik.com/<season>_team_results.csv                                 preferred
+  - Efficiency ratings: today's saved copy, else barttorvik.com/<season>_team_results.csv,
+    else CollegeBasketballData /ratings/adjusted (CBBD_API_KEY or CBD_API_KEY, 1 request/day) preferred
     (if Torvik is unreachable, e.g. it blocks GitHub's servers, the slate is built from
     TR + BPI: TR ranks set the tier and Torvik's totals/ranks are left blank)
   - TeamRankings predictive ratings (newest data/*/HHMM_tr_ratings_CBB.csv)        optional
@@ -25,7 +25,7 @@ Usage: python cbb_pull.py [--date YYYY-MM-DD] [--season 2027] [--no-results]
 Exit codes: 0 ok (source problems are listed in status.json), 2 no slate possible
 (ESPN failed, or neither Torvik nor TR ratings are available).
 """
-import argparse, csv, difflib, glob, io, json, os, re, sys, urllib.request
+import argparse, csv, difflib, glob, io, json, os, re, sys, urllib.error, urllib.request
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
@@ -191,25 +191,62 @@ def _parse_torvik_csv(text):
     return out
 
 
+CBD = "https://www.cbbdata.com/api"
 # cbbdata column names vary by version; first match wins.
 CBD_COLS = {"team": ["team"], "adjoe": ["adj_o", "adjoe", "adj_oe"], "adjde": ["adj_d", "adjde", "adj_de"],
             "adjt": ["adj_t", "adjt", "adj_tempo", "tempo"], "rank": ["barthag_rank", "rank", "trank"]}
 
 
+def _post_json(url, body):
+    req = urllib.request.Request(url, data=json.dumps(body).encode(), method="POST",
+                                 headers={**UA, "Content-Type": "application/json", "Accept": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            return r.status, r.read().decode("utf-8", "replace")
+    except urllib.error.HTTPError as e:
+        return e.code, e.read().decode("utf-8", "replace")
+
+
+def cbbdata_key(user, pw, email=""):
+    """Log in to cbbdata (www.cbbdata.com, Torvik data) and return an API key, the way the R
+    package's cbd_login() does. If the login fails and an email is given, register the account
+    once (cbd_create_account()) and log in again."""
+    def login():
+        code, text = _post_json(f"{CBD}/auth/login", {"username": user, "password": pw})
+        if code == 200:
+            data = json.loads(text)
+            key = next(iter(data.values())) if isinstance(data, dict) else (data[0] if isinstance(data, list) else data)
+            if isinstance(key, str) and key:
+                return key, ""
+        return None, f"login HTTP {code}: {text[:150]}"
+    key, err = login()
+    if key or not email:
+        return key, err
+    code, text = _post_json(f"{CBD}/auth/register", {"username": user, "email": email,
+                                                    "password": pw, "confirm_password": pw})
+    if code not in (200, 201):
+        return None, f"{err}; register HTTP {code}: {text[:150]}"
+    key, err2 = login()
+    return key, err2 and f"registered, but {err2}"
+
+
 def cbbdata_ratings(season, key):
-    """Torvik T-Rank ratings from the cbbdata API (www.cbbdata.com, free key, ~1,000 requests/month).
-    Exactly one request: /api/torvik/ratings?year=<season> returns a Parquet file."""
-    import pyarrow.parquet as pq                      # installed by the workflow (pip install pyarrow)
-    url = f"https://www.cbbdata.com/api/torvik/ratings?year={season}&key={key}"
-    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r:
-        data = r.read()
+    """Torvik T-Rank ratings from cbbdata: one GET /api/torvik/ratings?year=<season>&key=<key>,
+    returning a Parquet file (read with pyarrow, installed by the workflow)."""
+    import pyarrow.parquet as pq
+    try:
+        with urllib.request.urlopen(urllib.request.Request(
+                f"{CBD}/torvik/ratings?year={season}&key={key}", headers=UA), timeout=60) as r:
+            data = r.read()
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f"HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:150]}")
     if not data.startswith(b"PAR1"):
-        raise RuntimeError("cbbdata did not return Parquet: " + data[:200].decode("utf-8", "replace"))
+        raise RuntimeError("did not return Parquet: " + data[:200].decode("utf-8", "replace"))
     rows = pq.read_table(io.BytesIO(data)).to_pylist()
     cols = list(rows[0]) if rows else []
     pick = {k: next((c for c in names if c in cols), None) for k, names in CBD_COLS.items()}
     if not all(pick[k] for k in ("team", "adjoe", "adjde", "adjt")):
-        raise RuntimeError(f"cbbdata columns not recognized: {cols}")
+        raise RuntimeError(f"columns not recognized: {cols}")
     if "year" in cols:
         rows = [r for r in rows if str(r["year"]) == str(season)] or rows
     out = {}
@@ -221,13 +258,45 @@ def cbbdata_ratings(season, key):
         except (TypeError, ValueError):
             continue
     if len(out) < 300:
-        raise RuntimeError(f"cbbdata returned only {len(out)} teams (columns: {cols})")
+        raise RuntimeError(f"only {len(out)} teams for {season} (columns: {cols})")
+    return out
+
+
+CBBD_POSS = 68.0   # CBBD's adjusted ratings have no tempo: assume a typical D-I pace for every team
+
+
+def cbbd_ratings(season, key):
+    """Adjusted efficiency from CollegeBasketballData (api.collegebasketballdata.com; key shared
+    with CollegeFootballData, ~1,000 requests/month across both). Exactly one request:
+    GET /ratings/adjusted?season=<season>, Bearer auth. No tempo, so adjt = CBBD_POSS for all."""
+    req = urllib.request.Request(f"https://api.collegebasketballdata.com/ratings/adjusted?season={season}",
+                                 headers={**UA, "Accept": "application/json", "Authorization": f"Bearer {key}"})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        rows = json.loads(r.read().decode("utf-8", "replace"))
+    g = lambda d, *ks: next((d[k] for k in ks if isinstance(d, dict) and d.get(k) is not None), None)
+    out = {}
+    for r in rows if isinstance(rows, list) else []:
+        team, o, d = g(r, "team"), g(r, "offensiveRating", "offensive_rating"), g(r, "defensiveRating", "defensive_rating")
+        if team is None or o is None or d is None:
+            continue
+        rank = g(g(r, "rankings") or {}, "net")
+        out[str(team).strip()] = {"adjoe": float(o), "adjde": float(d), "adjt": CBBD_POSS,
+                                  "rank": int(rank) if rank is not None else None}
+    if len(out) < 300:
+        keys = list(rows[0]) if isinstance(rows, list) and rows and isinstance(rows[0], dict) else str(rows)[:200]
+        raise RuntimeError(f"CBBD returned {len(out)} usable teams for season {season} (fields: {keys})")
+    missing = [t for t, v in out.items() if v["rank"] is None]
+    if missing:                                    # rank by net rating if CBBD left any blank
+        for n, t in enumerate(sorted(out, key=lambda t: out[t]["adjde"] - out[t]["adjoe"]), 1):
+            out[t]["rank"] = n
     return out
 
 
 def torvik_ratings(season):
-    """Torvik ratings, cheapest source first: today's saved copy (no request) -> cbbdata API
-    (one request; needs CBD_API_KEY) -> barttorvik.com CSV (blocks GitHub's servers since Nov 2026).
+    """Efficiency ratings, cheapest source first: today's saved copy (no request) ->
+    barttorvik.com CSV (blocks GitHub's servers since Nov 2026) -> cbbdata Torvik ratings
+    (login with CBD_USERNAME/CBD_PASSWORD, registering once if CBD_EMAIL is set; 1 data request)
+    -> CollegeBasketballData adjusted efficiency (one request; CBBD_API_KEY or CBD_API_KEY; no tempo).
     A fresh pull is saved to data/cbb/torvik/YYYY-MM-DD.csv so later runs that day reuse it.
     Returns (ratings, source label)."""
     cache = f"{OUT}/torvik/{NOW:%Y-%m-%d}.csv"
@@ -235,17 +304,32 @@ def torvik_ratings(season):
         with open(cache, encoding="utf-8") as f:
             return _parse_torvik_csv(f.read()), "saved copy from today"
     errors, R, src = [], None, ""
-    key = os.environ.get("CBD_API_KEY", "").strip()
-    if key:
+    try:                                           # free, no quota: try it first in case it unblocks
+        R, src = _parse_torvik_csv(get(f"https://barttorvik.com/{season}_team_results.csv")), "barttorvik"
+    except Exception as e:
+        errors.append(f"barttorvik: {e}")
+    user, pw = os.environ.get("CBD_USERNAME", "").strip(), os.environ.get("CBD_PASSWORD", "")
+    secrets = [x for x in (pw, os.environ.get("CBD_EMAIL", "").strip()) if x]
+    if R is None and user and pw:                  # cbbdata = Torvik's own numbers (with tempo)
         try:
-            R, src = cbbdata_ratings(season, key), "cbbdata"
+            ckey, err = cbbdata_key(user, pw, os.environ.get("CBD_EMAIL", "").strip())
+            if not ckey:
+                raise RuntimeError(err)
+            secrets.append(ckey)
+            R, src = cbbdata_ratings(season, ckey), "cbbdata (Torvik)"
         except Exception as e:
-            errors.append(f"cbbdata: {e}".replace(key, "***"))
-    if R is None:
+            msg = f"cbbdata: {e}"
+            for x in secrets:
+                msg = msg.replace(x, "***")
+            errors.append(msg)
+    key = (os.environ.get("CBBD_API_KEY") or os.environ.get("CBD_API_KEY") or "").strip()
+    if R is None and key:
         try:
-            R, src = _parse_torvik_csv(get(f"https://barttorvik.com/{season}_team_results.csv")), "barttorvik"
+            R, src = cbbd_ratings(season, key), f"CollegeBasketballData adjusted efficiency, {CBBD_POSS:g} poss"
         except Exception as e:
-            errors.append(f"barttorvik: {e}")
+            errors.append(f"CBBD: {e}".replace(key, "***"))
+    elif R is None:
+        errors.append("CBBD: no CBBD_API_KEY/CBD_API_KEY secret")
     if R is None:
         raise RuntimeError("; ".join(errors))
     os.makedirs(os.path.dirname(cache), exist_ok=True)
