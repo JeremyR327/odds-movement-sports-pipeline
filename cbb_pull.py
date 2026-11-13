@@ -6,7 +6,8 @@ not) so model weights and bet thresholds can be fit later.
 
 Sources
   - ESPN scoreboard API (schedule, tip, neutral site, ESPN's book line, finals)   required
-  - Torvik team CSV  barttorvik.com/<season>_team_results.csv                     preferred
+  - Torvik ratings: today's saved copy, else the cbbdata API (CBD_API_KEY, 1 request/day),
+    else barttorvik.com/<season>_team_results.csv                                 preferred
     (if Torvik is unreachable, e.g. it blocks GitHub's servers, the slate is built from
     TR + BPI: TR ranks set the tier and Torvik's totals/ranks are left blank)
   - TeamRankings predictive ratings (newest data/*/HHMM_tr_ratings_CBB.csv)        optional
@@ -170,8 +171,8 @@ def espn_games(day):
     return games
 
 
-def torvik_ratings(season):
-    text = get(f"https://barttorvik.com/{season}_team_results.csv")
+def _parse_torvik_csv(text):
+    """Torvik-style CSV (team, adjoe, adjde, adjt[, rank]) -> {team: ratings}."""
     rows = list(csv.reader(io.StringIO(text)))
     head = [h.strip().lower() for h in rows[0]] if rows else []
     if "team" not in head or "adjoe" not in head:
@@ -188,6 +189,72 @@ def torvik_ratings(season):
     if len(out) < 300:
         raise RuntimeError(f"Torvik CSV only parsed {len(out)} teams")
     return out
+
+
+# cbbdata column names vary by version; first match wins.
+CBD_COLS = {"team": ["team"], "adjoe": ["adj_o", "adjoe", "adj_oe"], "adjde": ["adj_d", "adjde", "adj_de"],
+            "adjt": ["adj_t", "adjt", "adj_tempo", "tempo"], "rank": ["barthag_rank", "rank", "trank"]}
+
+
+def cbbdata_ratings(season, key):
+    """Torvik T-Rank ratings from the cbbdata API (www.cbbdata.com, free key, ~1,000 requests/month).
+    Exactly one request: /api/torvik/ratings?year=<season> returns a Parquet file."""
+    import pyarrow.parquet as pq                      # installed by the workflow (pip install pyarrow)
+    url = f"https://www.cbbdata.com/api/torvik/ratings?year={season}&key={key}"
+    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r:
+        data = r.read()
+    if not data.startswith(b"PAR1"):
+        raise RuntimeError("cbbdata did not return Parquet: " + data[:200].decode("utf-8", "replace"))
+    rows = pq.read_table(io.BytesIO(data)).to_pylist()
+    cols = list(rows[0]) if rows else []
+    pick = {k: next((c for c in names if c in cols), None) for k, names in CBD_COLS.items()}
+    if not all(pick[k] for k in ("team", "adjoe", "adjde", "adjt")):
+        raise RuntimeError(f"cbbdata columns not recognized: {cols}")
+    if "year" in cols:
+        rows = [r for r in rows if str(r["year"]) == str(season)] or rows
+    out = {}
+    for n, r in enumerate(sorted(rows, key=lambda r: -(r.get("barthag") or 0)), 1):
+        try:
+            out[str(r[pick["team"]]).strip()] = {
+                "adjoe": float(r[pick["adjoe"]]), "adjde": float(r[pick["adjde"]]), "adjt": float(r[pick["adjt"]]),
+                "rank": int(float(r[pick["rank"]])) if pick["rank"] and r[pick["rank"]] is not None else n}
+        except (TypeError, ValueError):
+            continue
+    if len(out) < 300:
+        raise RuntimeError(f"cbbdata returned only {len(out)} teams (columns: {cols})")
+    return out
+
+
+def torvik_ratings(season):
+    """Torvik ratings, cheapest source first: today's saved copy (no request) -> cbbdata API
+    (one request; needs CBD_API_KEY) -> barttorvik.com CSV (blocks GitHub's servers since Nov 2026).
+    A fresh pull is saved to data/cbb/torvik/YYYY-MM-DD.csv so later runs that day reuse it.
+    Returns (ratings, source label)."""
+    cache = f"{OUT}/torvik/{NOW:%Y-%m-%d}.csv"
+    if os.path.exists(cache):
+        with open(cache, encoding="utf-8") as f:
+            return _parse_torvik_csv(f.read()), "saved copy from today"
+    errors, R, src = [], None, ""
+    key = os.environ.get("CBD_API_KEY", "").strip()
+    if key:
+        try:
+            R, src = cbbdata_ratings(season, key), "cbbdata"
+        except Exception as e:
+            errors.append(f"cbbdata: {e}".replace(key, "***"))
+    if R is None:
+        try:
+            R, src = _parse_torvik_csv(get(f"https://barttorvik.com/{season}_team_results.csv")), "barttorvik"
+        except Exception as e:
+            errors.append(f"barttorvik: {e}")
+    if R is None:
+        raise RuntimeError("; ".join(errors))
+    os.makedirs(os.path.dirname(cache), exist_ok=True)
+    with open(cache, "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["team", "adjoe", "adjde", "adjt", "rank"])
+        for t, v in sorted(R.items(), key=lambda kv: kv[1]["rank"]):
+            w.writerow([t, v["adjoe"], v["adjde"], v["adjt"], v["rank"]])
+    return R, src
 
 
 def torvik_predict(a, h, R, neutral):
@@ -497,7 +564,7 @@ def main():
     except Exception as e:
         games = None; status["espn"] = f"error: {e}"
     try:
-        R = torvik_ratings(args.season); status["torvik"] = f"ok {len(R)} teams"
+        R, tsrc = torvik_ratings(args.season); status["torvik"] = f"ok {len(R)} teams ({tsrc})"
     except Exception as e:
         R = None; status["torvik"] = f"error: {e}"
     try:
