@@ -2,7 +2,7 @@ name: Pipeline loop
 
 # Keeps the pulls running without GitHub's cron (which never fired for this repo):
 # each run waits ~5.5 hours, pulling at the times in loop_pull.py (9:09 AM, 3:29 PM,
-# 5:39 PM daily; 9:59 AM Sat/Sun; CBB 10:41 AM and 5:44 PM), then starts the next run.
+# 5:39 PM daily; 9:59 AM Sat/Sun; CBB 10:41 AM, 5:44 PM, 10:41 PM), then starts the next run.
 # Start it once with "Run workflow". To stop it, cancel the running job (a cancelled
 # run does not start another).
 on:
