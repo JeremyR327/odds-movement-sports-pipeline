@@ -1,0 +1,52 @@
+date,tip_et,espn_id,away,home,site,tier,torvik_rank_away,torvik_rank_home,torvik_home_margin,torvik_total,tr_home_margin,bpi_home_margin,consensus_home_margin,line_source,open_home_margin,cur_home_margin,open_total,cur_total,fair_home_margin,edge_pts,gap_cons_vs_open,gap_cons_vs_cur,moved_toward_model,flag,flag_side,pulled_et
+2026-11-13,3:00 PM,401921167,West Florida,Cleveland State,N,3,,,,,-0.6,-2.3,-1.3,ESPN/DraftKings (no Circa),,2.5,,150.5,0.6,-1.9,,-3.8,,,,2026-11-13T13:17-05:00
+2026-11-13,5:00 PM,401921721,North Alabama,Miami,H,2,,,,,29.4,27.3,28.5,ESPN/DraftKings (no Circa),,32.5,,152.5,30.9,-1.6,,-4.0,,,,2026-11-13T13:17-05:00
+2026-11-13,5:00 PM,401909696,Texas A&M-Corpus Christi,Florida State,H,2,,,,,18.2,12.6,15.9,ESPN/DraftKings (no Circa),,24.5,,149.5,21.1,-3.4,,-8.6,,EDGE Texas A&M-Corpus Christi 3.4,away,2026-11-13T13:17-05:00
+2026-11-13,6:00 PM,401923270,Bryant,Rutgers,H,2,,,,,22.9,19.0,21.3,ESPN/DraftKings (no Circa),,21.5,,147.5,21.4,-0.1,,-0.2,,,,2026-11-13T13:17-05:00
+2026-11-13,6:00 PM,401909515,Georgetown,Clemson,H,1,,,,,4.6,8.6,6.2,ESPN/DraftKings (no Circa),,4.5,,147.5,4.8,0.3,,1.7,,,,2026-11-13T13:17-05:00
+2026-11-13,6:30 PM,401902278,Pittsburgh,Butler,H,1,,,,,1.1,0.7,0.9,ESPN/DraftKings (no Circa),,3.5,,159.5,3.0,-0.5,,-2.6,,,,2026-11-13T13:17-05:00
+2026-11-13,7:00 PM,401906772,Merrimack,Florida,H,2,,,,,32.2,30.0,31.3,ESPN/DraftKings (no Circa),,36.5,,141.5,34.4,-2.1,,-5.2,,,,2026-11-13T13:17-05:00
+2026-11-13,7:00 PM,401913528,Sam Houston,Illinois,H,2,,,,,29.3,24.8,27.5,ESPN/DraftKings (no Circa),,36.5,,171.5,32.9,-3.6,,-9.0,,EDGE Sam Houston 3.6,away,2026-11-13T13:17-05:00
+2026-11-13,7:00 PM,401925755,Northern Iowa,Michigan State,H,2,,,,,24.2,22.4,23.5,ESPN/DraftKings (no Circa),,27.5,,154.5,25.9,-1.6,,-4.0,,,,2026-11-13T13:17-05:00
+2026-11-13,7:00 PM,401906850,Tennessee State,Tennessee,H,2,,,,,23.6,25.5,24.4,ESPN/DraftKings (no Circa),,27.5,,158.5,26.2,-1.3,,-3.1,,,,2026-11-13T13:17-05:00
+2026-11-13,7:00 PM,401921825,Prairie View A&M,Vanderbilt,H,2,,,,,34.2,31.4,33.1,ESPN/DraftKings (no Circa),,40.5,,154.5,37.5,-3.0,,-7.4,,EDGE Prairie View A&M 3.0,away,2026-11-13T13:17-05:00
+2026-11-13,7:00 PM,401921803,Northern Arizona,Kentucky,H,2,,,,,27.5,23.7,26.0,ESPN/DraftKings (no Circa),,30.5,,153.5,28.7,-1.8,,-4.5,,,,2026-11-13T13:17-05:00
+2026-11-13,7:00 PM,401929386,Kentucky State,Eastern Kentucky,H,2,,,,,-19.1,,-19.1,,,,,,,,,,,,,2026-11-13T13:17-05:00
+2026-11-13,7:00 PM,401926133,Ohio,Purdue,H,2,,,,,17.7,14.8,16.5,ESPN/DraftKings (no Circa),,18.5,,150.5,17.7,-0.8,,-2.0,,,,2026-11-13T13:17-05:00
+2026-11-13,7:00 PM,401925820,App State,Charlotte,H,2,,,,,9.1,3.9,7.0,ESPN/DraftKings (no Circa),,7.5,,130.5,7.3,-0.2,,-0.5,,,,2026-11-13T13:17-05:00
+2026-11-13,7:00 PM,401924796,Marist,Lehigh,H,3,,,,,3.0,1.9,2.6,ESPN/DraftKings (no Circa),,1.5,,133.5,2.0,0.5,,1.1,,,,2026-11-13T13:17-05:00
+2026-11-13,7:00 PM,401924704,Columbia,Bucknell,H,3,,,,,-7.0,-6.4,-6.8,ESPN/DraftKings (no Circa),,-5.5,,146.5,-6.1,-0.6,,-1.3,,,,2026-11-13T13:17-05:00
+2026-11-13,7:00 PM,401922211,Florida International,Florida Gulf Coast,H,2,,,,,30.2,1.1,18.6,ESPN/DraftKings (no Circa),,1.5,,160.5,8.3,6.8,,17.1,,EDGE Florida Gulf Coast 6.8,home,2026-11-13T13:17-05:00
+2026-11-13,7:00 PM,401921191,Iona,Hofstra,H,2,,,,,6.0,6.1,6.1,ESPN/DraftKings (no Circa),,7.5,,134.5,6.9,-0.6,,-1.4,,,,2026-11-13T13:17-05:00
+2026-11-13,7:00 PM,401920973,Chattanooga,Elon,H,3,,,,,4.1,3.1,3.7,ESPN/DraftKings (no Circa),,2.5,,150.5,3.1,0.6,,1.2,,,,2026-11-13T13:17-05:00
+2026-11-13,7:00 PM,401920747,Yale,Northeastern,H,2,,,,,-2.2,-4.0,-2.9,ESPN/DraftKings (no Circa),,-1.5,,154.5,-2.1,-0.6,,-1.4,,,,2026-11-13T13:17-05:00
+2026-11-13,7:00 PM,401920379,Mount St. Mary's,Virginia Tech,H,2,,,,,27.1,22.0,25.0,ESPN/DraftKings (no Circa),,27.5,,148.5,26.5,-1.0,,-2.5,,,,2026-11-13T13:17-05:00
+2026-11-13,7:00 PM,401918958,Troy,NC State,H,2,,,,,17.9,18.5,18.1,ESPN/DraftKings (no Circa),,22.5,,148.5,20.8,-1.7,,-4.4,,,,2026-11-13T13:17-05:00
+2026-11-13,7:00 PM,401911210,Harvard,George Washington,H,2,,,,,10.8,9.9,10.4,ESPN/DraftKings (no Circa),,10.5,,133.5,10.5,-0.0,,-0.1,,,,2026-11-13T13:17-05:00
+2026-11-13,7:00 PM,401906782,Georgia,North Carolina,H,1,,,,,5.4,6.6,5.9,ESPN/DraftKings (no Circa),,4.5,,164.5,4.8,0.3,,1.4,,,,2026-11-13T13:17-05:00
+2026-11-13,7:30 PM,401916316,Ohio State,UConn,H,1,,,,,11.8,10.4,11.2,ESPN/DraftKings (no Circa),,12.5,,147.5,12.2,-0.3,,-1.3,,,,2026-11-13T13:17-05:00
+2026-11-13,7:30 PM,401927363,South Dakota,Drake,H,3,,,,,13.4,14.1,13.7,ESPN/DraftKings (no Circa),,13.5,,158.5,13.6,0.1,,0.2,,,,2026-11-13T13:17-05:00
+2026-11-13,7:30 PM,401926794,North Carolina Central,Liberty,H,3,,,,,17.2,14.2,16.0,ESPN/DraftKings (no Circa),,16.5,,137.5,16.3,-0.2,,-0.5,,,,2026-11-13T13:17-05:00
+2026-11-13,7:30 PM,401926152,Southeast Missouri State,Middle Tennessee,H,3,,,,,5.4,5.2,5.3,ESPN/DraftKings (no Circa),,5.5,,148.5,5.4,-0.1,,-0.2,,,,2026-11-13T13:17-05:00
+2026-11-13,8:00 PM,401916297,Virginia,Maryland,H,1,,,,,-4.6,-2.5,-3.8,ESPN/DraftKings (no Circa),,-6.5,,152.5,-6.0,0.5,,2.7,,,,2026-11-13T13:17-05:00
+2026-11-13,8:00 PM,401917916,Central Arkansas,Arkansas,H,2,,,,,18.2,16.7,17.6,ESPN/DraftKings (no Circa),,23.5,,162.5,21.1,-2.4,,-5.9,,,,2026-11-13T13:17-05:00
+2026-11-13,8:00 PM,401929199,Southern Miss,Texas State,H,2,,,,,12.1,10.4,11.4,ESPN/DraftKings (no Circa),,9.5,,140.5,10.3,0.8,,1.9,,,,2026-11-13T13:17-05:00
+2026-11-13,8:00 PM,401927380,Texas Southern,Murray State,H,3,,,,,23.7,18.5,21.6,ESPN/DraftKings (no Circa),,29.5,,163.5,25.6,-3.9,,-7.9,,EDGE Texas Southern 3.9,away,2026-11-13T13:17-05:00
+2026-11-13,8:00 PM,401927374,Illinois State,North Dakota State,H,2,,,,,-5.4,-5.5,-5.4,ESPN/DraftKings (no Circa),,-3.5,,144.5,-4.3,-0.8,,-1.9,,,,2026-11-13T13:17-05:00
+2026-11-13,8:00 PM,401926117,Wright State,Samford,H,2,,,,,-4.7,-2.4,-3.8,ESPN/DraftKings (no Circa),,-1.5,,157.5,-2.4,-0.9,,-2.3,,,,2026-11-13T13:17-05:00
+2026-11-13,8:00 PM,401925686,Alcorn State,Tarleton State,H,3,,,,,14.5,10.5,12.9,ESPN/DraftKings (no Circa),,15.5,,151.5,14.2,-1.3,,-2.6,,,,2026-11-13T13:17-05:00
+2026-11-13,8:00 PM,401921026,Georgia Southern,UCF,H,2,,,,,20.5,13.3,17.6,ESPN/DraftKings (no Circa),,22.5,,165.5,20.6,-1.9,,-4.9,,,,2026-11-13T13:17-05:00
+2026-11-13,8:00 PM,401920123,Cal Poly,Idaho,H,2,,,,,1.3,2.2,1.7,ESPN/DraftKings (no Circa),,1.5,,168.5,1.6,0.1,,0.2,,,,2026-11-13T13:17-05:00
+2026-11-13,8:00 PM,401919049,Milwaukee,TCU,H,2,,,,,21.8,18.8,20.6,ESPN/DraftKings (no Circa),,22.5,,156.5,21.7,-0.8,,-1.9,,,,2026-11-13T13:17-05:00
+2026-11-13,8:45 PM,401929040,Lindenwood,Omaha,H,3,,,,,0.0,-2.7,-1.1,ESPN/DraftKings (no Circa),,4.5,,152.5,1.7,-2.8,,-5.6,,EDGE Lindenwood 2.8,away,2026-11-13T13:17-05:00
+2026-11-13,9:00 PM,401909741,Arizona,Auburn,H,1,,,,,0.1,1.3,0.6,ESPN/DraftKings (no Circa),,-2.5,,159.5,-1.9,0.6,,3.1,,,,2026-11-13T13:17-05:00
+2026-11-13,9:00 PM,401906760,Seton Hall,Alabama,H,1,,,,,13.8,11.9,13.0,ESPN/DraftKings (no Circa),,17.5,,156.5,16.6,-0.9,,-4.5,,,,2026-11-13T13:17-05:00
+2026-11-13,9:00 PM,401921728,Stanford,UNLV,H,1,,,,,1.6,1.7,1.6,ESPN/DraftKings (no Circa),,-1.5,,154.5,-0.9,0.6,,3.1,,,,2026-11-13T13:17-05:00
+2026-11-13,9:00 PM,401917980,UL Monroe,Arizona State,H,2,,,,,23.6,22.1,23.0,ESPN/DraftKings (no Circa),,29.5,,147.5,26.9,-2.6,,-6.5,,EDGE UL Monroe 2.6,away,2026-11-13T13:17-05:00
+2026-11-13,9:00 PM,401911014,Ball State,SMU,H,2,,,,,20.7,15.7,18.7,ESPN/DraftKings (no Circa),,22.5,,152.5,21.0,-1.5,,-3.8,,,,2026-11-13T13:17-05:00
+2026-11-13,9:00 PM,401909503,DePaul,Northwestern,H,1,,,,,-0.6,4.0,1.3,ESPN/DraftKings (no Circa),,1.5,,137.5,1.5,-0.0,,-0.2,,,,2026-11-13T13:17-05:00
+2026-11-13,9:00 PM,401906794,Xavier,Mississippi State,N,1,,,,,-4.7,-1.5,-3.4,ESPN/DraftKings (no Circa),,-3.5,,162.5,-3.5,0.0,,0.1,,,,2026-11-13T13:17-05:00
+2026-11-13,9:30 PM,401925739,Mississippi Valley State,Oregon State,H,3,,,,,27.8,23.1,25.9,ESPN/DraftKings (no Circa),,34.5,,157.5,30.2,-4.3,,-8.6,,EDGE Mississippi Valley State 4.3,away,2026-11-13T13:17-05:00
+2026-11-13,9:30 PM,401917526,Chicago State,San Diego,H,3,,,,,14.0,7.9,11.6,ESPN/DraftKings (no Circa),,16.5,,142.5,14.0,-2.5,,-4.9,,,,2026-11-13T13:17-05:00
+2026-11-13,10:00 PM,401917527,East Texas A&M,Portland,H,3,,,,,11.8,6.5,9.7,ESPN/DraftKings (no Circa),,7.5,,151.5,8.6,1.1,,2.2,,,,2026-11-13T13:17-05:00
+2026-11-13,10:30 PM,401920345,Arkansas-Pine Bluff,California Baptist,H,2,,,,,-7.7,10.0,-0.6,ESPN/DraftKings (no Circa),,15.5,,145.5,9.0,-6.5,,-16.1,,EDGE Arkansas-Pine Bluff 6.5,away,2026-11-13T13:17-05:00

@@ -1,10 +1,29 @@
 {
   "date": "2026-11-13",
-  "pulled_et": "2026-11-13T13:06-05:00",
+  "pulled_et": "2026-11-13T13:17-05:00",
   "espn": "ok 61 games",
   "torvik": "error: HTTP Error 403: Forbidden",
   "tr": "ok 365 teams (2026-11-12 2227)",
   "bpi": "ok 365 teams",
   "circa": "none today (VSiN pull failing or board not up): ESPN book line used where posted",
-  "alert": "required source failed (ESPN or Torvik); no slate written"
+  "alert": "Torvik unavailable: slate built from TR + BPI only (tiers from TR rank; no Torvik totals)",
+  "circa_unmatched": [],
+  "games_written": 51,
+  "with_line": 50,
+  "with_circa": 0,
+  "flags": 9,
+  "unmatched": [
+    "Champion Christian Tigers @ UT Martin Skyhawks",
+    "Mary Baldwin Fighting Squirrels @ VMI Keydets",
+    "Long Island University Sharks @ Fordham Rams",
+    "SIU Edwardsville Cougars @ Duke Blue Devils",
+    "College of Biblical Studies Ambassadors @ Houston Christian Huskies",
+    "Fairleigh Dickinson Knights @ Oklahoma Sooners",
+    "Corban Warriors @ Eastern Washington Eagles",
+    "UC San Diego Tritons @ Utah State Aggies",
+    "UIC Flames @ Saint Mary's Gaels"
+  ],
+  "sources": "espn ok 61 games \u00b7 torvik error: HTTP Error 403: Forbidden \u00b7 tr ok 365 teams (2026-11-12 2227) \u00b7 bpi ok 365 teams \u00b7 circa none today (VSiN pull failing or board not up): ESPN book line used where posted",
+  "results": "no earlier slate files yet",
+  "season_graded": 0
 }
