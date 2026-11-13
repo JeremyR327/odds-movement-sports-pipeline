@@ -1,18 +1,10 @@
 pulled_et,date,tip,away,home,circa_open_away_spread,circa_open_away_ml,circa_open_total,circa_away_spread,circa_away_ml,circa_total,circa_home_spread,circa_home_ml,circa_home_total
-2026-11-12T02:40-05:00,"Wed, Nov 11",7:10 PM,Washington Wizards,Indiana Pacers,+3.5 -110,+140,227,+3 -110,+125,227.5 o -110,-3 -110,-145,227.5 u -110
-2026-11-12T02:40-05:00,"Wed, Nov 11",7:10 PM,Cleveland Cavaliers,New York Knicks,+3.5 -110,+140,221.5,+5 -110,+170,222.5 o -110,-5 -110,-195,222.5 u -110
-2026-11-12T02:40-05:00,"Wed, Nov 11",7:10 PM,Boston Celtics,Toronto Raptors,-7 -110,-280,216,-4.5 -115,-190,216 o -110,+4.5 -105,+165,216 u -110
-2026-11-12T02:40-05:00,"Wed, Nov 11",8:10 PM,Brooklyn Nets,New Orleans Pelicans,+4.5 -110,+155,229.5,+2.5 -105,+125,227.5 o -110,-2.5 -115,-145,227.5 u -110
-2026-11-12T02:40-05:00,"Wed, Nov 11",8:10 PM,San Antonio Spurs,Chicago Bulls,-14.5 -110,-1100,239.5,-14.5 -110,-1050,237.5 o -110,+14.5 -110,+700,237.5 u -110
-2026-11-12T02:40-05:00,"Wed, Nov 11",8:10 PM,Denver Nuggets,Memphis Grizzlies,-4 -110,-170,227.5,-4 -105,-160,231 o -110,+4 -115,+140,231 u -110
-2026-11-12T02:40-05:00,"Wed, Nov 11",8:10 PM,Los Angeles Lakers,Milwaukee Bucks,-11.5 -110,-550,232.5,-14.5 -115,-1000,230.5 o -110,+14.5 -105,+675,230.5 u -110
-2026-11-12T02:40-05:00,"Wed, Nov 11",9:10 PM,Orlando Magic,Utah Jazz,-4.5 -110,-185,217.5,-3 -110,-150,215 o -110,+3 -110,+130,215 u -110
-2026-11-12T02:40-05:00,"Wed, Nov 11",9:42 PM,Golden State Warriors,Houston Rockets,+5 -110,+180,222,+6.5 -110,+210,219 o -110,-6.5 -110,-245,219 u -110
-2026-11-12T02:40-05:00,"Wed, Nov 11",10:10 PM,Oklahoma City Thunder,Portland Trailblazers,-1.5 -110,-120,226.5,+3 -110,+130,224 o -110,-3 -110,-150,224 u -110
-2026-11-12T02:40-05:00,"Thu, Nov 12",7:10 PM,Toronto Raptors,Philadelphia 76ers,+10 -110,+350,221.5,+10 -110,+350,221.5 o -110,-10 -110,-435,221.5 u -110
-2026-11-12T02:40-05:00,"Thu, Nov 12",7:10 PM,Detroit Pistons,Washington Wizards,-9.5 -110,-435,220.5,-9.5 -110,-425,220.5 o -110,+9.5 -110,+345,220.5 u -110
-2026-11-12T02:40-05:00,"Thu, Nov 12",8:10 PM,Dallas Mavericks,Minnesota Timberwolves,+5 -110,+175,224.5,+6 -110,+190,227.5 o -110,-6 -110,-220,227.5 u -110
-2026-11-12T09:09-05:00,"Thu, Nov 12",7:10 PM,Toronto Raptors,Philadelphia 76ers,+10 -110,+350,221.5,+9 -110,+295,221.5 o -110,-9 -110,-360,221.5 u -110
-2026-11-12T09:09-05:00,"Thu, Nov 12",7:10 PM,Detroit Pistons,Washington Wizards,-9.5 -110,-435,220.5,-10.5 -110,-440,220.5 o -110,+10.5 -110,+355,220.5 u -110
-2026-11-12T09:09-05:00,"Thu, Nov 12",8:10 PM,Dallas Mavericks,Minnesota Timberwolves,+5 -110,+175,224.5,+5.5 -110,+185,227.5 o -110,-5.5 -110,-215,227.5 u -110
-2026-11-12T09:09-05:00,"Thu, Nov 12",9:10 PM,Charlotte Hornets,Phoenix Suns,+6.5 -110,+210,214,+6.5 -110,+190,214 o -110,-6.5 -110,-220,214 u -110
+2026-11-13T14:26-05:00,"Fri, Nov 13",7:10 PM,New York Knicks,Indiana Pacers,-7 -110,-250,219.5,-8.5 -110,-345,219 o -110,+8.5 -110,+285,219 u -110
+2026-11-13T14:26-05:00,"Fri, Nov 13",7:10 PM,Milwaukee Bucks,Orlando Magic,+9 -110,+300,222.5,+10 -110,+310,223.5 o -110,-10 -110,-380,223.5 u -110
+2026-11-13T14:26-05:00,"Fri, Nov 13",8:10 PM,Memphis Grizzlies,New Orleans Pelicans,-3.5 -110,-155,235,-3 -115,-160,235.5 o -110,+3 -105,+140,235.5 u -110
+2026-11-13T14:26-05:00,"Fri, Nov 13",8:10 PM,Atlanta Hawks,Chicago Bulls,-6.5 -110,-240,245,-7 -110,-290,246 o -110,+7 -110,+245,246 u -110
+2026-11-13T14:26-05:00,"Fri, Nov 13",8:10 PM,Cleveland Cavaliers,Miami Heat,+2.5 -110,+120,235.5,+2 -105,+115,236 o -110,-2 -115,-135,236 u -110
+2026-11-13T14:26-05:00,"Fri, Nov 13",8:40 PM,Utah Jazz,Houston Rockets,+17 -110,+875,218.5,+15 -110,+775,220.5 o -110,-15 -110,-1200,220.5 u -110
+2026-11-13T14:26-05:00,"Fri, Nov 13",9:40 PM,Golden State Warriors,San Antonio Spurs,+13 -110,+555,219.5,+12 -105,+490,217.5 o -110,-12 -115,-650,217.5 u -110
+2026-11-13T14:26-05:00,"Fri, Nov 13",10:10 PM,Portland Trailblazers,Sacramento Kings,-11.5 -110,-535,230,-10 -110,-475,230 o -110,+10 -110,+380,230 u -110
+2026-11-13T14:26-05:00,"Fri, Nov 13",10:40 PM,Oklahoma City Thunder,Los Angeles Clippers,-7.5 -110,-300,222,-7 -110,-270,222.5 o -110,+7 -110,+230,222.5 u -110
