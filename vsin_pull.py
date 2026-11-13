@@ -8,7 +8,7 @@ split movement (and which book moved first).
 Exit codes: 0 = everything pulled; 1 = some sources failed (see status.json);
 2 = VSiN cookie missing/expired (paywall) -> refresh the secret.
 """
-import csv, json, os, re, sys, time, urllib.request
+import csv, json, os, re, sys, time, urllib.error, urllib.request
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -26,14 +26,33 @@ OUTDIR = os.path.join("data", NOW.strftime("%Y-%m-%d"))
 STAMP = NOW.strftime("%H%M")
 
 
+DIAG = {}  # first 403 seen: who answered and how (written to status.json)
+
+
 def get(url, cookie=None):
-    h = {"User-Agent": UA}
+    # Browser-like headers: some bot filters 403 a request that only sends a User-Agent.
+    h = {"User-Agent": UA,
+         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+         "Accept-Language": "en-US,en;q=0.9",
+         "Referer": "https://data.vsin.com/",
+         "Upgrade-Insecure-Requests": "1"}
     if cookie:
         h["Cookie"] = cookie
-    for attempt in range(3):  # retry dropped/truncated transfers (e.g. IncompleteRead)
+    for attempt in range(3):  # retry dropped/truncated transfers and the odd 403/429
         try:
             with urllib.request.urlopen(urllib.request.Request(url, headers=h), timeout=40) as r:
                 return r.read().decode("utf-8", "replace")
+        except urllib.error.HTTPError as e:
+            if e.code in (403, 429) and not DIAG:
+                body = e.read(600).decode("utf-8", "replace")
+                DIAG.update({"url": url, "code": e.code, "server": e.headers.get("server", ""),
+                             "cf_ray": e.headers.get("cf-ray", ""), "cf_mitigated": e.headers.get("cf-mitigated", ""),
+                             "body_start": re.sub(r"\s+", " ", body)[:300]})
+            # A block answers every retry the same way: one retry for 403, then move on
+            # (12 blocked URLs x 3 slow retries would blow the 8-minute job limit).
+            if attempt == 2 or e.code not in (403, 429, 500, 502, 503, 504) or (e.code == 403 and attempt == 1):
+                raise
+            time.sleep(5 * (attempt + 1))
         except Exception:
             if attempt == 2:
                 raise
@@ -188,7 +207,12 @@ def main():
     # Paywall check: if no sport returned DK splits, the cookie is missing or expired.
     if not any(v.startswith("ok") for k, v in status.items() if k.startswith("splits_DK")):
         paywalled = True
-        status["alert"] = "VSiN cookie missing or expired: refresh the VSIN_COOKIE secret"
+        tracker_blocked = all("403" in str(v) for k, v in status.items() if k.startswith("circa_"))
+        status["alert"] = ("VSiN is blocking GitHub's servers (403 on the public line tracker too, which uses no cookie); "
+                           "refreshing VSIN_COOKIE will not fix this" if tracker_blocked else
+                           "VSiN cookie missing or expired: refresh the VSIN_COOKIE secret")
+    if DIAG:
+        status["diag_403"] = DIAG
     os.makedirs("data", exist_ok=True)
     with open(os.path.join("data", "status.json"), "w") as f:
         json.dump(status, f, indent=2)
