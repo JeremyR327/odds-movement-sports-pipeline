@@ -1,0 +1,46 @@
+name: CBB model pull
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    # UTC = 10:41 AM, 5:41 PM and 10:41 PM ET (winter). Morning = main slate + yesterday's
+    # results; 5:41 PM = pre-tip lines; 10:41 PM = tomorrow's openers are not on ESPN yet,
+    # so this run mainly refreshes tonight's late games and logs closes.
+    # GitHub's scheduler has not been firing for this repo: trigger these from cron-job.org too.
+    - cron: "41 15,22 * * *"
+    - cron: "41 3 * * *"
+
+permissions:
+  contents: write
+
+# Same group as the VSiN and TeamRankings pulls so only one job pushes to main at a time.
+concurrency:
+  group: vsin-pull
+  cancel-in-progress: false
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build the CBB slate (Torvik + TR + BPI vs Circa/ESPN lines) and grade yesterday
+        id: pull
+        run: python cbb_pull.py
+        continue-on-error: true
+      - name: Save data to the repo
+        run: |
+          git config user.name "cbb-pull-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/cbb
+          git diff --cached --quiet || git commit -m "CBB pull $(TZ=America/New_York date '+%Y-%m-%d %H:%M ET')"
+          git pull --rebase origin main
+          git push
+      - name: Fail loudly if ESPN or Torvik failed
+        if: steps.pull.outcome == 'failure'
+        run: |
+          cat data/cbb/latest/status.json
+          exit 1
