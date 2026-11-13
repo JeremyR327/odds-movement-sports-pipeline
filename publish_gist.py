@@ -60,7 +60,10 @@ def build_files(day):
             if paths:
                 files[f"{kind}_{sport}.csv"] = combine(paths)
         for kind in TR_KINDS:
-            paths = sorted(glob.glob(os.path.join(day, f"[0-9][0-9][0-9][0-9]_{kind}_{sport}.csv")))
+            # TeamRankings runs less often than VSiN, so take its newest file from any
+            # day (folder name + HHMM sort in time order); otherwise the 12:00 AM-10:23 AM
+            # window after the first VSiN pull of the day has no TR files at all.
+            paths = sorted(glob.glob(os.path.join("data", "????-??-??", f"[0-9][0-9][0-9][0-9]_{kind}_{sport}.csv")))
             if paths:
                 files[f"{kind}_{sport}.csv"] = open(paths[-1], encoding="utf-8").read()
     for sport in SPORTS:
