@@ -58,8 +58,10 @@ def text(frag):
 
 
 def logged_in(html):
-    """TeamRankings' header shows 'Log Out' / 'My Account' only when signed in."""
-    return bool(re.search(r">\s*(Log ?Out|My Account)\s*<", html, flags=re.I))
+    """Logged-out pages link to /login/ ("Log In") in the header; signed-in pages don't.
+    (Checked Nov 12, 2026: with the cookie set, picks were current but the old
+    'Log Out'/'My Account' test said logged out.)"""
+    return not re.search(r'href="[^"]*teamrankings\.com/login/?"', html)
 
 
 def main_table(html, cls="datatable"):
