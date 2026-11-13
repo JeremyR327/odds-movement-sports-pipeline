@@ -1,4 +1,4 @@
-# CBB calibration, season to date — 0 games graded (updated 2026-11-13 13:31 ET)
+# CBB calibration, season to date — 0 games graded (updated 2026-11-13 17:42 ET)
 
 Mean absolute error vs the final margin; lower is better. The closing line is the benchmark to beat.
 
