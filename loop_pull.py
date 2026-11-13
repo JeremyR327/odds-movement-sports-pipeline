@@ -4,11 +4,15 @@
 GitHub's own cron schedule never fired for this repo, so .github/workflows/loop.yml
 runs this script for ~5.5 hours and then starts the next loop run itself.
 
-Pulls are timed to feed the scheduled Claude tasks (all ET):
+Pulls are timed to feed the scheduled Claude tasks (all ET). VSiN pulls are *requested* here
+and run on Jeremy's Mac via the "VSiN pull" workflow (self-hosted runner), because VSiN blocks
+GitHub's servers; they start as soon as the Mac is online.
   9:09 AM daily          VSiN: morning baseline for the day's split/line path
   9:59 AM Sat/Sun        VSiN: for the 10:13 AM weekend final check
   3:29 PM daily          VSiN + TeamRankings: for the 3:45 PM NFL & CFB scan
   5:39 PM daily          VSiN: for the 5:52 PM evening analysis
+  10:41 AM, 5:44 PM, 10:41 PM  CBB model slate (cbb_pull.py) for the CBB morning scan (10:57 AM)
+                         and pre-tip (5:57 PM) tasks; the late run logs closing lines
 Edit SLOTS below to change them.
 
 After each pull it refreshes data/latest/ (publish_gist.py --write-dir), commits
@@ -26,6 +30,9 @@ SLOTS = [
     (9, 59, {5, 6}, ["vsin"]),
     (15, 29, None, ["vsin", "tr"]),
     (17, 39, None, ["vsin"]),
+    (10, 41, None, ["cbb"]),
+    (17, 44, None, ["cbb"]),        # after the 5:39 VSiN pull; read by the 5:57 PM CBB pre-tip task
+    (22, 41, None, ["cbb"]),        # late games and closing lines for the next morning's grading
 ]
 RUN_FOR = timedelta(minutes=int(os.environ.get("LOOP_MINUTES", "330")))
 
@@ -76,10 +83,15 @@ def main():
         print(f"sleeping {wait / 60:.0f} min until {when:%H:%M} ET for {'+'.join(kinds)}", flush=True)
         time.sleep(max(0, wait))
         if "vsin" in kinds:
-            sh(sys.executable, "vsin_pull.py")       # exit 1/2 = some sources failed / cookie expired; keep going
+            # VSiN blocks GitHub's servers, so the pull runs on Jeremy's Mac (self-hosted runner):
+            # request it here; it waits in the queue until the Mac is online.
+            sh("gh", "workflow", "run", "main.yml", "--ref", "main")
         if "tr" in kinds:
             sh(sys.executable, "teamrankings_pull.py")
-        save("Pipeline pull" if len(kinds) > 1 else ("VSiN pull" if kinds == ["vsin"] else "TeamRankings pull"))
+        if "cbb" in kinds:
+            sh(sys.executable, "cbb_pull.py")        # exit 2 = no slate possible; logged, loop continues
+        names = {"vsin": "VSiN pull", "tr": "TeamRankings pull", "cbb": "CBB pull"}
+        save("Pipeline pull" if len(kinds) > 1 else names[kinds[0]])
 
 
 if __name__ == "__main__":

@@ -75,7 +75,11 @@ TR_ABBR = {
 }
 # Whole-name nicknames TR doesn't use (key: TR name, values: other spellings).
 TR_EXTRA = {"Mississippi": ["Ole Miss"], "E Texas A&M": ["Texas A&M-Commerce", "East Texas A&M"],
-            "Texas A&M-CC": ["Texas A&M-Corpus Christi"]}
+            "Texas A&M-CC": ["Texas A&M-Corpus Christi"], "FGCU": ["Florida Gulf Coast"],
+            "Cal Baptist": ["California Baptist"], "AR-Pine Bluff": ["Arkansas-Pine Bluff", "Arkansas Pine Bluff"],
+            "Prairie View": ["Prairie View A&M"], "UMKC": ["Kansas City"], "SIUE": ["SIU Edwardsville"],
+            "UTSA": ["UT San Antonio"], "LIU": ["Long Island University", "Long Island"]}
+NAME_CHECK_PTS = 12.0   # TR vs BPI home margins this far apart almost always means a name mismatch
 
 
 def _expansions(key):
@@ -98,12 +102,17 @@ class Matcher:
         self.keys = list(self.by_key)
 
     def __call__(self, *names):
-        for name in names:
+        """names = (school, full name with mascot, ...). Exact matches first; trailing words are
+        dropped only from the later (full) names, never from the school name, which otherwise
+        turned "Florida Gulf Coast" into Florida and "California Baptist" into California."""
+        for i, name in enumerate(names):
             k = norm(name)
             if not k:
                 continue
             if k in self.by_key:
                 return self.by_key[k]
+            if i == 0 and len(names) > 1:
+                continue
             words = k.split()
             for n in range(len(words) - 1, 0, -1):          # drop mascot words from the right
                 if " ".join(words[:n]) in self.by_key:
@@ -497,7 +506,7 @@ def build_slate(day, games, R, TR, B, circa, lines=None):
         pre = [r for r in hits if r.get("pulled_et", "") <= tip_iso] or hits
         return hits[0], pre[-1]
 
-    out, unmatched = [], []
+    out, unmatched, name_checks = [], [], []
     nov = day.month == 11
     for g in games:
         if g["tip_dt"] <= NOW or g["completed"]:
@@ -558,7 +567,10 @@ def build_slate(day, games, R, TR, B, circa, lines=None):
         if open_h is not None and cur_h is not None and cur_h != open_h:
             moved = (cur_h - open_h) * (cons - open_h) > 0
         flag = ""
-        if edge is not None and abs(edge) >= THRESH[tier]:
+        suspect = tr_m is not None and bpi_m is not None and abs(tr_m - bpi_m) > NAME_CHECK_PTS
+        if suspect:
+            name_checks.append(f'{g["away"]["school"]} @ {g["home"]["school"]}: TR {tr_m:+.1f} vs BPI {bpi_m:+.1f}')
+        if edge is not None and abs(edge) >= THRESH[tier] and not suspect:
             side = g["home"]["school"] if edge > 0 else g["away"]["school"]
             flag = f"EDGE {side} {abs(edge):.1f}"
             flag += " · moved toward model" if moved is True else (" · line moved away" if moved is False else "")
@@ -580,7 +592,7 @@ def build_slate(day, games, R, TR, B, circa, lines=None):
     # Circa games for this date that matched no ESPN game: name mismatches to add to norm()/aliases.
     tag = day.strftime("%b %-d")
     orphans = sorted({k for k, rs in circ.items() if k not in used and any(tag in (r.get("date") or "") for r in rs)})
-    return out, unmatched, orphans
+    return out, unmatched, orphans, name_checks
 
 
 def build_results(day, games, slate_rows):
@@ -758,7 +770,9 @@ def main():
         except Exception as e:
             status["cbbd_lines"] = f"error: {e}".replace(lkey, "***")
 
-    slate, unmatched, orphans = build_slate(day, games, R, TR, B, circa, lines)
+    slate, unmatched, orphans, name_checks = build_slate(day, games, R, TR, B, circa, lines)
+    if name_checks:
+        status["check_names"] = name_checks[:40]   # flags suppressed on these games
     status.update({"circa_unmatched": orphans[:40], "games_written": len(slate),
                    "with_line": sum(1 for r in slate if r["cur_home_margin"] is not None),
                    "with_circa": sum(1 for r in slate if r["line_source"].startswith("Circa")),
