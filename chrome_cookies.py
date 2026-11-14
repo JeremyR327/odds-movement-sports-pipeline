@@ -24,13 +24,27 @@ CHROME_DIR = os.path.expanduser("~/Library/Application Support/Google/Chrome")
 CHROME_EPOCH_OFFSET = 11644473600  # seconds between 1601-01-01 and 1970-01-01
 
 
+LOGIN_KEYCHAIN = os.path.expanduser("~/Library/Keychains/login.keychain-db")
+# Optional fallback for runners that can't open the keychain: a file only readable by this
+# Mac user, holding the "Chrome Safe Storage" password (never in the repo or GitHub).
+KEY_FILE = os.path.expanduser("~/.config/odds-pipeline/chrome_safe_storage")
+
+
 def _safe_storage_key():
-    pw = subprocess.run(["security", "find-generic-password", "-w", "-s", "Chrome Safe Storage"],
-                        capture_output=True, text=True, timeout=120)
-    if pw.returncode != 0 or not pw.stdout.strip():
-        raise RuntimeError("couldn't read 'Chrome Safe Storage' from the Keychain "
-                           "(on the Mac, allow access when macOS asks: 'Always Allow')")
-    return hashlib.pbkdf2_hmac("sha1", pw.stdout.strip().encode(), b"saltysalt", 1003, 16)
+    errors = []
+    for extra in ([], [LOGIN_KEYCHAIN]):        # default search list, then the login keychain by path
+        pw = subprocess.run(["security", "find-generic-password", "-w", "-s", "Chrome Safe Storage"] + extra,
+                            capture_output=True, text=True, timeout=120)
+        if pw.returncode == 0 and pw.stdout.strip():
+            return hashlib.pbkdf2_hmac("sha1", pw.stdout.strip().encode(), b"saltysalt", 1003, 16)
+        errors.append((pw.stderr or "").strip().splitlines()[-1:] or [f"exit {pw.returncode}"])
+    if os.path.isfile(KEY_FILE):
+        with open(KEY_FILE) as f:
+            secret = f.read().strip()
+        if secret:
+            return hashlib.pbkdf2_hmac("sha1", secret.encode(), b"saltysalt", 1003, 16)
+    detail = " | ".join(e[0] for e in errors)
+    raise RuntimeError("couldn't read 'Chrome Safe Storage' from the Keychain: " + detail[:200])
 
 
 def _decrypt(enc, key, strip_hash):
