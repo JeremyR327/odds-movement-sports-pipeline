@@ -1,5 +1,6 @@
 {
-  "pulled_et": "2026-11-13T22:19-05:00",
+  "pulled_et": "2026-11-13T22:33-05:00",
+  "cookie_source": "Chrome failed (couldn't read 'Chrome Safe Storage' from the Keychain (on the Mac, allow access when macOS asks: 'Always Allow')); using the VSIN_COOKIE secret",
   "splits_DK_NFL": "ok 1 games",
   "splits_CIRCA_NFL": "ok 1 games",
   "circa_NFL": "ok 26 games",
@@ -11,5 +12,6 @@
   "circa_NBA": "ok 9 games",
   "splits_DK_CBB": "ok 1 games",
   "splits_CIRCA_CBB": "ok 1 games",
-  "circa_CBB": "ok 73 games"
+  "circa_CBB": "ok 73 games",
+  "alert": "VSiN splits show the logged-out free view (<=2 games per page) while the line tracker lists many: the VSiN login isn't working. On the Mac, open data.vsin.com in Chrome and sign in (or refresh the VSIN_COOKIE secret)"
 }
