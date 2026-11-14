@@ -1,4 +1,4 @@
-# CFB brief — DK/Circa pull 22:19 ET (DK first pull 14:26 ET)
+# CFB brief — DK/Circa pull 22:33 ET (DK first pull 14:26 ET)
 
 Splits are AWAY side as bets%/handle% (home = 100 minus). Spreads are the away team's. Flags: PUB = 65%+ of DK bets on one side; SHARP DK = handle minus bets >= +15, SHARP CI = >= +10 (Circa); RLM = Circa spread moved toward the side with under 50% of DK bets. 0/0 and 100/100 cells and thin Circa samples (0/50/100) are not flagged.
 
@@ -11,7 +11,6 @@ Splits are AWAY side as bets%/handle% (home = 100 minus). Spreads are the away t
 | Cincinnati Bearcats @ Iowa ST Cyclones | Sat, Nov 14 12:00 PM | +2.5→+3 | 60.5→58 | - | 52/78 | - | - | - | - | - |
 | Wisconsin Badgers @ Maryland Terrapins | Sat, Nov 14 12:00 PM | -8.5→-9.5 | 43→42 | - | 60/68 | - | - | - | - | - |
 | Duke Blue Devils @ Miami FL Hurricanes | Sat, Nov 14 12:00 PM | +13.5→+13.5 | 54.5→54.5 | - | 40/46 | - | - | - | - | - |
-| Auburn Tigers @ Mississippi ST Bulldogs | Sat, Nov 14 12:00 PM | -3→-2.5 | 50.5→51 | - | 82/55 | - | - | - | - | - |
 | Syracuse Orange @ NC State Wolfpack | Sat, Nov 14 12:00 PM | -3→-3 | 55→54 | - | 61/31 | - | - | - | - | - |
 | Northwestern Wildcats @ Ohio ST Buckeyes | Sat, Nov 14 12:00 PM | +10.5→+14 | 47.5→44 | - | 61/25 | - | - | - | - | - |
 | Wake Forest Demon Deacons @ SMU Mustangs | Sat, Nov 14 12:00 PM | -1→+1.5 | 63→59.5 | - | 65/65 | - | - | - | - | - |
@@ -41,6 +40,7 @@ Splits are AWAY side as bets%/handle% (home = 100 minus). Spreads are the away t
 | Georgia Southern Eagles @ Georgia ST Panthers | Sat, Nov 14 3:30 PM | -5.5→-6 | 56.5→56.5 | - | 67/41 | - | - | - | - | - |
 | Fresno ST Bulldogs @ Texas ST Bobcats | Sat, Nov 14 4:00 PM | +9→+9.5 | 59.5→59.5 | - | 33/26 | - | - | - | - | - |
 | Washington Huskies @ Michigan ST Spartans | Sat, Nov 14 4:15 PM | -3.5→-2 | 42.5→44 | - | 70/66 | - | - | - | - | - |
+| Auburn Tigers @ Mississippi ST Bulldogs | Sat, Nov 14 4:15 PM | -3→-2.5 | 50.5→51 | - | 82/55 | - | - | - | - | - |
 | Ole Miss Rebels @ Oklahoma Sooners | Sat, Nov 14 4:15 PM | -1→+2.5 | 49.5→49.5 | - | 80/58 | - | - | - | - | - |
 | Southern Miss Golden Eagles @ Louisiana Tech Bulldogs | Sat, Nov 14 5:00 PM | +17→+17.5 | 55.5→56 | - | 37/24 | - | - | - | - | - |
 | Kansas Jayhawks @ West Virginia Mountaineers | Sat, Nov 14 5:30 PM | +3→+2.5 | 64.5→68 | - | 22/15 | - | - | - | - | - |

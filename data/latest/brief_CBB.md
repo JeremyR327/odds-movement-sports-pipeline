@@ -1,4 +1,4 @@
-# CBB brief — DK/Circa pull 22:19 ET (DK first pull 14:26 ET)
+# CBB brief — DK/Circa pull 22:33 ET (DK first pull 14:26 ET)
 
 Splits are AWAY side as bets%/handle% (home = 100 minus). Spreads are the away team's. Flags: PUB = 65%+ of DK bets on one side; SHARP DK = handle minus bets >= +15, SHARP CI = >= +10 (Circa); RLM = Circa spread moved toward the side with under 50% of DK bets. 0/0 and 100/100 cells and thin Circa samples (0/50/100) are not flagged.
 
@@ -45,7 +45,7 @@ Splits are AWAY side as bets%/handle% (home = 100 minus). Spreads are the away t
 | UC-San Diego @ Utah ST | Fri, Nov 13 10:00 PM | +13.5→+13 | 156.5→159 | - | 11/13 | - | - | - | - | - |
 | UNC-Greensboro @ Cornell | Sat, Nov 14 11:00 AM | +7→+7 | 159.5→159.5 | - | - | - | - | - | - | - |
 | Tulane @ Akron | Sat, Nov 14 12:00 PM | +12.5→+12.5 | 155.5→155.5 | - | - | - | - | - | - | - |
-| Bradley @ George Mason | Sat, Nov 14 1:00 PM | +11.5→+11.5 | 130.5→130.5 | - | - | - | - | - | - | - |
+| Bradley @ George Mason | Sat, Nov 14 1:00 PM | +11.5→+13.5 | 130.5→130.5 | - | - | - | - | - | - | - |
 | Montana @ N Dakota | Sat, Nov 14 1:00 PM | +1→+1 | 150.5→150.5 | - | - | - | - | - | - | - |
 | Loyola-Chicago @ Colorado ST | Sat, Nov 14 1:30 PM | +9.5→+9.5 | 152.5→151.5 | - | - | - | - | - | - | - |
 | Miami OH @ Evansville | Sat, Nov 14 2:00 PM | -8→-8 | 151.5→151.5 | - | - | - | - | - | - | - |

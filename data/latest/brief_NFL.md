@@ -1,10 +1,10 @@
-# NFL brief — DK/Circa pull 22:19 ET (DK first pull 14:26 ET)
+# NFL brief — DK/Circa pull 22:33 ET (DK first pull 14:26 ET)
 
 Splits are AWAY side as bets%/handle% (home = 100 minus). Spreads are the away team's. Flags: PUB = 65%+ of DK bets on one side; SHARP DK = handle minus bets >= +15, SHARP CI = >= +10 (Circa); RLM = Circa spread moved toward the side with under 50% of DK bets. 0/0 and 100/100 cells and thin Circa samples (0/50/100) are not flagged.
 
 | Game | Tip | Circa spread open→now | Circa total open→now | DK spr | DK spr first | Circa spr | DK over | Circa over | DK ML | Flags |
 |---|---|---|---|---|---|---|---|---|---|---|
-| New England Patriots @ Detroit Lions | Sun, Nov 15 9:30 AM | +0→+2.5 | 49.5→49.5 | 20/33 | 20/35 | 19/18 | 69/78 | 80/4 | 21/32 | PUB home 80% |
+| New England Patriots @ Detroit Lions | Sun, Nov 15 9:30 AM | +0→+2.5 | 49.5→49.5 | 20/33 | 20/35 | 19/18 | 69/78 | 80/4 | 21/31 | PUB home 80% |
 | Buffalo Bills @ New York Jets | Sun, Nov 15 1:00 PM | -7.5→-7.5 | 51.5→51 | - | 76/61 | - | - | - | - | - |
 | Houston Texans @ Cleveland Browns | Sun, Nov 15 1:00 PM | -3→-4.5 | 39→40.5 | - | 65/72 | - | - | - | - | - |
 | Miami Dolphins @ Indianapolis Colts | Sun, Nov 15 1:00 PM | +1→+4 | 42.5→37.5 | - | 52/46 | - | - | - | - | - |
