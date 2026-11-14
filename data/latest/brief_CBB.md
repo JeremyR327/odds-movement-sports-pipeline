@@ -1,4 +1,4 @@
-# CBB brief — DK/Circa pull 22:40 ET (DK first pull 14:26 ET)
+# CBB brief — DK/Circa pull 22:42 ET (DK first pull 14:26 ET)
 
 Splits are AWAY side as bets%/handle% (home = 100 minus). Spreads are the away team's. Flags: PUB = 65%+ of DK bets on one side; SHARP DK = handle minus bets >= +15, SHARP CI = >= +10 (Circa); RLM = Circa spread moved toward the side with under 50% of DK bets. 0/0 and 100/100 cells and thin Circa samples (0/50/100) are not flagged.
 
@@ -59,7 +59,7 @@ Splits are AWAY side as bets%/handle% (home = 100 minus). Spreads are the away t
 | Utah Tech @ California | Sat, Nov 14 5:00 PM | +16.5→+16.5 | 158.5→158.5 | - | - | - | - | - | - | - |
 | N Iowa @ Oakland | Sat, Nov 14 5:00 PM | +1.5→+1.5 | 158.5→158.5 | - | - | - | - | - | - | - |
 | UC-Riverside @ Fresno ST | Sat, Nov 14 6:00 PM | +5→+5 | 150.5→150.5 | - | - | - | - | - | - | - |
-| S Alabama @ North Texas | Sat, Nov 14 6:00 PM | +8.5→+8.5 | 137.5→137.5 | - | - | - | - | - | - | - |
+| S Alabama @ North Texas | Sat, Nov 14 6:00 PM | +8.5→+8.5 | 137.5→135.5 | - | - | - | - | - | - | - |
 | Colorado @ Providence | Sat, Nov 14 6:00 PM | +11.5→+11.5 | 156.5→155.5 | - | - | - | - | - | - | - |
 | Marshall @ Youngstown ST | Sat, Nov 14 6:00 PM | +0→+0 | 161.5→160.5 | - | - | - | - | - | - | - |
 | Pennsylvania @ ST Josephs | Sat, Nov 14 6:30 PM | +4.5→+4.5 | 152.5→152.5 | - | - | - | - | - | - | - |

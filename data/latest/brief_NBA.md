@@ -1,4 +1,4 @@
-# NBA brief — DK/Circa pull 22:40 ET (DK first pull 14:26 ET)
+# NBA brief — DK/Circa pull 22:42 ET (DK first pull 14:26 ET)
 
 Splits are AWAY side as bets%/handle% (home = 100 minus). Spreads are the away team's. Flags: PUB = 65%+ of DK bets on one side; SHARP DK = handle minus bets >= +15, SHARP CI = >= +10 (Circa); RLM = Circa spread moved toward the side with under 50% of DK bets. 0/0 and 100/100 cells and thin Circa samples (0/50/100) are not flagged.
 
@@ -12,4 +12,4 @@ Splits are AWAY side as bets%/handle% (home = 100 minus). Spreads are the away t
 | Utah Jazz @ Houston Rockets | Fri, Nov 13 8:40 PM | +17→+15.5 | 218.5→221.5 | - | 43/69 | - | - | - | - | - |
 | Golden State Warriors @ San Antonio Spurs | Fri, Nov 13 9:40 PM | +13→+12 | 219.5→216 | - | 39/49 | - | - | - | - | - |
 | Portland Trailblazers @ Sacramento Kings | Fri, Nov 13 10:10 PM | -11.5→-10 | 230→230 | - | 67/88 | - | - | - | - | - |
-| Oklahoma City Thunder @ Los Angeles Clippers | Fri, Nov 13 10:40 PM | -7.5→-6 | 222→221 | - | 78/96 | - | - | - | - | - |
+| Oklahoma City Thunder @ Los Angeles Clippers | Fri, Nov 13 10:40 PM | -7.5→-6.5 | 222→221 | - | 78/96 | - | - | - | - | - |
