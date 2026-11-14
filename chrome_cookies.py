@@ -21,6 +21,7 @@ CLI check:  python3 chrome_cookies.py vsin.com   -> prints profile + cookie name
 import glob, hashlib, os, shutil, sqlite3, subprocess, sys, tempfile, time
 
 CHROME_DIR = os.path.expanduser("~/Library/Application Support/Google/Chrome")
+LAST_DIAG = {}  # per-profile summary of the last cookie_header() call: names only, never values
 CHROME_EPOCH_OFFSET = 11644473600  # seconds between 1601-01-01 and 1970-01-01
 
 
@@ -54,8 +55,16 @@ def _decrypt(enc, key, strip_hash):
                        input=enc[3:], capture_output=True, timeout=30)
     if r.returncode != 0:
         raise RuntimeError("openssl could not decrypt a cookie: " + r.stderr.decode()[:120])
-    out = r.stdout[32:] if strip_hash else r.stdout
+    out = r.stdout
+    # Newer Chrome prefixes a 32-byte binary host hash. Drop it when the DB says so, or when
+    # the first 32 bytes clearly aren't text (meta version can lag the actual format).
+    if len(out) >= 32 and (strip_hash or not _printable(out[:32])):
+        out = out[32:]
     return out.decode("utf-8", "replace")
+
+
+def _printable(b):
+    return all(32 <= c < 127 for c in b)
 
 
 def _cookie_dbs():
@@ -96,12 +105,15 @@ def cookie_header(domain):
         raise RuntimeError("Google Chrome data folder not found on this Mac")
     now_chrome = (time.time() + CHROME_EPOCH_OFFSET) * 1_000_000
     best = None
+    LAST_DIAG.clear()
     for prof, path in _cookie_dbs():
         try:
             ver, rows = _read_rows(path, domain)
-        except Exception:
+        except Exception as e:
+            LAST_DIAG[prof] = f"unreadable: {e}"[:120]
             continue
         rows = [r for r in rows if not r[4] or r[4] > now_chrome]          # drop expired
+        LAST_DIAG[prof] = f"{len(rows)} live cookies (db v{ver})"
         if rows:
             last = max(r[5] or 0 for r in rows)
             if best is None or last > best[0]:
@@ -113,6 +125,11 @@ def cookie_header(domain):
     pairs = {}
     for host, name, value, enc, _exp, _last in sorted(rows, key=lambda r: len(r[0])):  # specific host wins
         pairs[name] = value or _decrypt(enc, key, strip_hash=ver >= 24)
+    bad = [k for k, v in pairs.items() if not _printable(v.encode("utf-8", "replace"))]
+    LAST_DIAG["chosen"] = prof
+    LAST_DIAG["cookies"] = ", ".join(f"{h}:{n}" for h, n, *_ in rows)[:600]   # names only, never values
+    if bad:
+        LAST_DIAG["garbled"] = ", ".join(bad)[:200]
     return "; ".join(f"{k}={v}" for k, v in pairs.items()), prof
 
 
