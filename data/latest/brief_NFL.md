@@ -1,4 +1,4 @@
-# NFL lines — DraftKings via ESPN, pull 09:09 ET (first pull today 09:09 ET)
+# NFL lines — DraftKings via ESPN, pull 09:59 ET (first pull today 09:09 ET)
 
 Spread = AWAY team's number. Each cell is open → first pull today → now (DraftKings open is its opener for the game). Flags: STEAM = spread moved 1.5+ since open (direction = side the market moved toward); TOTAL = total moved 1.5+; KEY = crossed a key number (3/7/10); FLIP = favorite changed; TODAY = moved 1+ since the first pull today. No splits here: read DK splits from DK Network.
 
