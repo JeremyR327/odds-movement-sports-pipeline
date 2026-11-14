@@ -1,61 +1,67 @@
-# CBB model brief — 2026-11-13 (pulled 17:42 ET)
+# CBB model brief — 2026-11-14 (pulled 10:41 ET)
 
 All numbers are the HOME team's margin (+ = home favored). Edge = fair minus current line; EDGE flags meet the tier threshold (T1 1.5, T2-3 2.5 pts). Fair = market weight x Circa opener + the rest x model consensus.
-Sources: espn ok 61 games · torvik ok 364 teams (CollegeBasketballData adjusted efficiency, 68 poss) · tr ok 365 teams (2026-11-12 2227) · bpi ok 365 teams · circa ok 39 CBB rows pulled today
+Sources: espn ok 71 games · torvik ok 364 teams (CollegeBasketballData adjusted efficiency, 68 poss) · tr ok 365 teams (2026-11-12 2227) · bpi ok 365 teams · circa none (VSiN dropped): ESPN DraftKings open+now, then CBBD book lines
 
 | Game (ET) | Site | Tier | Line src | Open→now | Total open→now | Torvik | TR | BPI | Cons | Fair | Edge | To model | Flag |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Fairleigh Dickinson @ Oklahoma 8:00 PM | H | 3 | ESPN/DraftKings (no Circa) | —→+31.5 | —→146.5 | +9.0 | — | +24.6 | +13.4 | +22.5 | -9.0 | — | EDGE Fairleigh Dickinson 9.0 |
-| SIU Edwardsville @ Duke 8:00 PM | H | 2 | Circa 11-13 14:26 | +45.0→+43.0 | 149.5→148.5 | +13.1 | — | +31.9 | +18.5 | +34.4 | -8.6 | yes | EDGE SIU Edwardsville 8.6 · moved toward model |
-| Mississippi Valley State @ Oregon State 9:30 PM | H | 3 | ESPN/DraftKings (no Circa) | —→+34.5 | —→157.5 | +11.9 | +27.8 | +23.1 | +18.9 | +26.7 | -7.8 | — | EDGE Mississippi Valley State 7.8 |
-| Prairie View A&M @ Vanderbilt 7:00 PM | H | 2 | ESPN/DraftKings (no Circa) | —→+41.5 | —→154.5 | +14.4 | +34.2 | +31.4 | +23.7 | +34.4 | -7.1 | — | EDGE Prairie View A&M 7.1 |
-| Georgia Southern @ UCF 8:00 PM | H | 3 | ESPN/DraftKings (no Circa) | —→+22.5 | —→164.5 | +2.1 | +20.5 | +13.3 | +9.9 | +16.2 | -6.3 | — | EDGE Georgia Southern 6.3 |
-| Sam Houston @ Illinois 7:00 PM | H | 2 | Circa 11-13 14:26 | +36.0→+36.5 | 171.5→172.0 | +17.2 | +29.3 | +24.8 | +22.4 | +30.5 | -6.0 | no | EDGE Sam Houston 6.0 · line moved away |
-| Northern Arizona @ Kentucky 7:00 PM | H | 3 | Circa 11-13 14:26 | +34.0→+30.5 | 156.5→152.0 | +8.4 | +27.5 | +23.7 | +17.2 | +25.6 | -4.9 | yes | EDGE Northern Arizona 4.9 · moved toward model |
-| Texas Southern @ Murray State 8:00 PM | H | 2 | ESPN/DraftKings (no Circa) | —→+29.5 | —→162.5 | +13.1 | +23.7 | +18.5 | +17.3 | +24.6 | -4.9 | — | EDGE Texas Southern 4.9 |
-| Central Arkansas @ Arkansas 8:00 PM | H | 2 | Circa 11-13 14:26 | +25.5→+24.0 | 160.5→162.0 | +3.0 | +18.2 | +16.7 | +10.3 | +19.4 | -4.6 | yes | EDGE Central Arkansas 4.6 · moved toward model |
-| Merrimack @ Florida 7:00 PM | H | 2 | Circa 11-13 14:26 | +37.5→+36.0 | 143.0→141.5 | +14.9 | +32.2 | +30.0 | +23.1 | +31.7 | -4.3 | yes | EDGE Merrimack 4.3 · moved toward model |
-| Chicago State @ San Diego 9:30 PM | H | 3 | ESPN/DraftKings (no Circa) | —→+16.5 | —→141.5 | +4.1 | +14.0 | +7.9 | +7.8 | +12.2 | -4.3 | — | EDGE Chicago State 4.3 |
-| North Carolina Central @ Liberty 7:30 PM | H | 3 | ESPN/DraftKings (no Circa) | —→+16.5 | —→136.5 | +0.2 | +17.2 | +14.2 | +8.1 | +12.3 | -4.2 | — | EDGE North Carolina Central 4.2 |
-| Seton Hall @ Alabama 9:00 PM | H | 2 | Circa 11-13 14:26 | +16.5→+17.5 | 156.5→156.5 | +4.4 | +13.8 | +11.9 | +8.7 | +13.4 | -4.1 | no | EDGE Seton Hall 4.1 · line moved away |
-| UL Monroe @ Arizona State 9:00 PM | H | 2 | Circa 11-13 14:26 | +31.5→+29.5 | 151.5→147.0 | +9.8 | +23.6 | +22.1 | +16.4 | +25.5 | -4.0 | yes | EDGE UL Monroe 4.0 · moved toward model |
-| Ohio @ Purdue 7:00 PM | H | 2 | Circa 11-13 14:26 | +20.0→+18.5 | 153.5→150.5 | -0.9 | +17.7 | +14.8 | +7.8 | +15.1 | -3.4 | yes | EDGE Ohio 3.4 · moved toward model |
-| Ball State @ SMU 9:00 PM | H | 2 | Circa 11-13 14:26 | +22.5→+22.5 | 153.5→152.0 | +10.6 | +20.7 | +15.7 | +14.6 | +19.4 | -3.1 | — | EDGE Ball State 3.1 |
-| Northern Iowa @ Michigan State 7:00 PM | H | 2 | Circa 11-13 14:26 | +29.5→+27.5 | 156.5→155.0 | +10.7 | +24.2 | +22.4 | +17.1 | +24.5 | -3.0 | yes | EDGE Northern Iowa 3.0 · moved toward model |
-| Long Island University @ Fordham 7:00 PM | H | 3 | ESPN/DraftKings (no Circa) | —→+12.5 | —→145.5 | +1.6 | +12.5 | +11.6 | +6.9 | +9.7 | -2.8 | — | EDGE Long Island University 2.8 |
-| Tennessee State @ Tennessee 7:00 PM | H | 2 | Circa 11-13 14:26 | +30.5→+28.0 | 155.5→157.0 | +11.4 | +23.6 | +25.5 | +17.9 | +25.5 | -2.5 | yes | EDGE Tennessee State 2.5 · moved toward model |
-| Arizona @ Auburn 9:00 PM | H | 1 | Circa 11-13 14:26 | -2.0→-3.0 | 160.0→159.5 | +6.1 | +0.1 | +1.3 | +3.3 | -0.9 | +2.1 | no | EDGE Auburn 2.1 · line moved away |
-| Mount St. Mary's @ Virginia Tech 7:00 PM | H | 2 | Circa 11-13 14:26 | +28.5→+27.5 | 150.5→147.5 | +15.1 | +27.1 | +22.0 | +20.1 | +25.1 | -2.4 | yes |  |
-| Arkansas-Pine Bluff @ California Baptist 10:30 PM | H | 3 | ESPN/DraftKings (no Circa) | —→+14.5 | —→144.5 | +7.2 | +14.3 | +10.0 | +9.9 | +12.2 | -2.3 | — |  |
-| Southeast Missouri State @ Middle Tennessee 7:30 PM | H | 3 | ESPN/DraftKings (no Circa) | —→+5.5 | —→148.5 | -3.3 | +5.4 | +5.2 | +1.0 | +3.3 | -2.2 | — |  |
-| Lindenwood @ Omaha 8:45 PM | H | 3 | ESPN/DraftKings (no Circa) | —→+4.5 | —→153.5 | +1.6 | +0.0 | -2.7 | +0.3 | +2.4 | -2.1 | — |  |
-| Troy @ NC State 7:00 PM | H | 2 | Circa 11-13 14:26 | +23.0→+22.0 | 148.5→148.5 | +13.7 | +17.9 | +18.5 | +15.9 | +20.2 | -1.8 | yes |  |
-| Bryant @ Rutgers 6:00 PM | H | 2 | ESPN/DraftKings (no Circa) | —→+21.5 | —→148.5 | +13.0 | +22.9 | +19.0 | +17.2 | +19.8 | -1.7 | — |  |
-| Cal Poly @ Idaho 9:00 PM | H | 3 | Circa 11-13 14:26 | +2.0→+1.0 | 166.5→168.0 | +4.9 | +1.3 | +2.2 | +3.3 | +2.6 | +1.6 | no |  |
-| Alcorn State @ Tarleton State 8:00 PM | H | 3 | ESPN/DraftKings (no Circa) | —→+16.5 | —→151.5 | +13.9 | +14.5 | +10.5 | +13.4 | +15.0 | -1.5 | — |  |
-| App State @ Charlotte 7:00 PM | H | 2 | ESPN/DraftKings (no Circa) | —→+8.5 | —→131.5 | +3.1 | +9.1 | +3.9 | +5.0 | +7.1 | -1.4 | — |  |
-| Southern Miss @ Texas State 8:00 PM | H | 2 | Circa 11-13 14:26 | +11.5→+10.0 | 143.0→140.0 | +11.2 | +12.1 | +10.4 | +11.3 | +11.4 | +1.4 | yes |  |
-| Stanford @ UNLV 9:00 PM | H | 3 | Circa 11-13 14:26 | -1.0→-1.0 | 151.5→153.0 | +1.8 | +1.6 | +1.7 | +1.7 | +0.4 | +1.4 | — |  |
-| Georgia @ North Carolina 7:00 PM | H | 2 | Circa 11-13 14:26 | +4.5→+4.0 | 163.5→164.5 | +6.8 | +5.4 | +6.6 | +6.3 | +5.2 | +1.2 | no |  |
-| Chattanooga @ Elon 7:00 PM | H | 1 | Circa 11-13 14:26 | +3.0→+2.0 | 151.5→151.0 | +3.1 | +4.1 | +3.1 | +3.4 | +3.1 | +1.1 | no |  |
-| Virginia @ Maryland 8:00 PM | H | 2 | Circa 11-13 14:26 | -6.0→-6.0 | 154.5→152.5 | -3.0 | -4.6 | -2.5 | -3.4 | -4.9 | +1.1 | — |  |
-| Milwaukee @ TCU 8:00 PM | H | 2 | Circa 11-13 14:26 | +25.0→+22.0 | 158.0→156.0 | +8.8 | +21.8 | +18.8 | +14.7 | +20.9 | -1.1 | yes |  |
-| Marist @ Lehigh 7:00 PM | H | 3 | ESPN/DraftKings (no Circa) | —→+2.5 | —→133.5 | -1.4 | +3.0 | +1.9 | +0.6 | +1.5 | -1.0 | — |  |
-| South Dakota @ Drake 7:30 PM | H | 3 | Circa 11-13 14:26 | +13.5→+13.5 | 160.5→158.5 | +9.6 | +13.4 | +14.1 | +11.6 | +12.6 | -0.9 | — |  |
-| Yale @ Northeastern 7:00 PM | H | 3 | Circa 11-13 14:26 | -1.5→-1.0 | 154.5→154.5 | +4.8 | -2.2 | -4.0 | +0.9 | -0.3 | +0.7 | yes |  |
-| Wright State @ Samford 8:00 PM | H | 2 | Circa 11-13 14:26 | -1.0→-1.5 | 156.0→156.5 | -4.2 | -4.7 | -2.4 | -4.0 | -2.2 | -0.7 | yes |  |
-| DePaul @ Northwestern 9:00 PM | H | 2 | Circa 11-13 14:26 | -1.0→+0.0 | 139.5→137.5 | +5.3 | -0.6 | +4.0 | +3.3 | +0.7 | +0.7 | yes |  |
-| UC San Diego @ Utah State 10:00 PM | H | 2 | Circa 11-13 14:26 | +13.5→+12.5 | 156.5→159.0 | +8.8 | — | +10.1 | +9.2 | +11.8 | -0.7 | yes |  |
-| Iona @ Hofstra 7:00 PM | H | 3 | Circa 11-13 14:26 | +7.5→+7.5 | 136.5→134.0 | +6.7 | +6.0 | +6.1 | +6.4 | +6.9 | -0.6 | — |  |
-| Harvard @ George Washington 7:00 PM | H | 2 | Circa 11-13 14:26 | +13.0→+11.0 | 134.5→133.5 | +8.8 | +10.8 | +9.9 | +9.6 | +11.6 | +0.6 | yes |  |
-| Georgetown @ Clemson 6:00 PM | H | 2 | Circa 11-13 14:26 | +4.0→+4.5 | 148.5→148.0 | +1.6 | +4.6 | +8.6 | +3.9 | +4.0 | -0.5 | no |  |
-| Columbia @ Bucknell 7:00 PM | H | 3 | ESPN/DraftKings (no Circa) | —→-5.5 | —→146.5 | -2.4 | -7.0 | -6.4 | -4.6 | -5.0 | +0.5 | — |  |
-| Ohio State @ UConn 7:30 PM | H | 2 | ESPN/DraftKings (no Circa) | —→+12.5 | —→147.5 | +11.6 | +11.8 | +10.4 | +11.4 | +12.1 | -0.4 | — |  |
-| Xavier @ Mississippi State 9:00 PM | N | 1 | ESPN/DraftKings (no Circa) | —→-3.5 | —→161.5 | +0.9 | -4.7 | -1.5 | -1.3 | -3.1 | +0.4 | — |  |
-| Florida International @ Florida Gulf Coast 7:00 PM | H | 2 | ESPN/DraftKings (no Circa) | —→+2.5 | —→160.5 | +6.0 | +0.3 | +1.1 | +3.3 | +2.8 | +0.3 | — |  |
-| Illinois State @ North Dakota State 8:00 PM | H | 3 | Circa 11-13 14:26 | -3.0→-3.0 | 147.5→144.5 | -1.6 | -5.4 | -5.5 | -3.5 | -3.3 | -0.3 | — |  |
-| Pittsburgh @ Butler 6:30 PM | H | 1 | Circa 11-13 14:26 | +3.5→+3.5 | 159.5→159.0 | +3.9 | +1.1 | +0.7 | +2.4 | +3.3 | -0.2 | — |  |
-| UIC @ Saint Mary's 10:00 PM | H | 2 | ESPN/DraftKings (no Circa) | —→+5.5 | —→150.5 | +5.7 | — | +6.9 | +6.1 | +5.7 | +0.2 | — |  |
-| East Texas A&M @ Portland 10:00 PM | H | 2 | ESPN/DraftKings (no Circa) | —→+7.5 | —→151.5 | +4.7 | +11.8 | +6.5 | +7.2 | +7.4 | -0.1 | — |  |
+| Rider @ Villanova 7:00 PM | H | 3 | Circa 11-13 22:42 | +36.5→+36.5 | 146.5→146.5 | +13.2 | +34.0 | +27.7 | +22.3 | +29.4 | -7.1 | — | EDGE Rider 7.1 |
+| Stonehill @ Texas Tech 2:00 PM | H | 2 | ESPN/DraftKings open+now | +40.5→+40.5 | 142.5→143.5 | +12.9 | +36.5 | +32.1 | +23.8 | +33.8 | -6.7 | — | EDGE Stonehill 6.7 |
+| Binghamton @ Duquesne 7:30 PM | H | 3 | ESPN/DraftKings open+now | +16.5→+17.5 | 145.5→140.5 | +0.3 | +14.7 | +9.9 | +6.6 | +11.5 | -6.0 | no | EDGE Binghamton 6.0 · line moved away |
+| UL Monroe @ Grand Canyon 8:00 PM | H | 2 | Circa 11-13 22:42 | +31.5→+31.5 | 165.5→165.5 | +8.7 | +26.7 | +25.2 | +17.4 | +25.8 | -5.7 | — | EDGE UL Monroe 5.7 |
+| Southern Utah @ Wake Forest 4:00 PM | H | 3 | Circa 11-13 22:42 | +19.0→+19.0 | 155.5→155.5 | +6.4 | +11.0 | +9.6 | +8.4 | +13.7 | -5.3 | — | EDGE Southern Utah 5.3 |
+| Delaware State @ East Carolina 4:00 PM | H | 3 | ESPN/DraftKings open+now | +16.5→+15.5 | 147.5→147.5 | -1.2 | +12.9 | +10.2 | +5.3 | +10.9 | -4.6 | yes | EDGE Delaware State 4.6 · moved toward model |
+| Gardner-Webb @ South Carolina 2:00 PM | H | 2 | ESPN/DraftKings open+now | +25.5→+27.5 | 145.5→143.5 | +16.1 | +25.2 | +22.1 | +20.0 | +23.3 | -4.2 | no | EDGE Gardner-Webb 4.2 · line moved away |
+| UNC Asheville @ Georgia Tech 4:00 PM | H | 2 | ESPN/DraftKings open+now | +16.5→+17.5 | 153.5→156.5 | +4.8 | +14.9 | +11.4 | +9.1 | +13.5 | -4.0 | no | EDGE UNC Asheville 4.0 · line moved away |
+| Utah Tech @ California 5:00 PM | H | 3 | Circa 11-13 22:42 | +16.5→+16.5 | 158.5→158.5 | +4.2 | +15.1 | +9.5 | +8.6 | +12.5 | -4.0 | — | EDGE Utah Tech 4.0 |
+| Coppin State @ South Florida 2:00 PM | H | 2 | ESPN/DraftKings open+now | +27.5→+26.5 | 150.5→150.5 | +9.3 | +24.5 | +20.7 | +16.2 | +23.0 | -3.5 | yes | EDGE Coppin State 3.5 · moved toward model |
+| Bradley @ George Mason 1:00 PM | N | 2 | Circa 11-13 22:42 | +11.5→+13.5 | 130.5→130.5 | +7.1 | +9.7 | +8.1 | +8.1 | +10.1 | -3.4 | no | EDGE Bradley 3.4 · line moved away |
+| Jackson State @ Winthrop 2:30 PM | H | 3 | ESPN/DraftKings open+now | +7.5→+9.5 | 165.5→164.5 | +2.6 | +6.4 | +8.9 | +5.0 | +6.3 | -3.2 | no | EDGE Jackson State 3.2 · line moved away |
+| Northern Iowa @ Oakland 5:00 PM | H | 3 | ESPN/DraftKings open+now | +1.5→+1.5 | 157.5→157.5 | -5.8 | -4.4 | -1.4 | -4.5 | -1.5 | -3.0 | — | EDGE Northern Iowa 3.0 |
+| Portland State @ San Francisco 7:00 PM | H | 3 | Circa 11-13 22:42 | +11.5→+11.5 | 143.5→143.5 | +3.8 | +6.6 | +8.1 | +5.5 | +8.5 | -3.0 | — | EDGE Portland State 3.0 |
+| UC Riverside @ Fresno State 6:00 PM | H | 2 | Circa 11-13 22:42 | +5.0→+5.0 | 150.5→150.5 | -3.1 | +0.6 | -1.3 | -1.6 | +2.4 | -2.6 | — | EDGE UC Riverside 2.6 |
+| Northwestern State @ Little Rock 8:00 PM | H | 3 | ESPN/DraftKings open+now | +9.5→+9.5 | 143.5→143.5 | +3.8 | -8.3 | +7.8 | +1.0 | +5.2 | -4.3 | — |  |
+| Drexel @ Maine 1:00 PM | H | 3 | ESPN/DraftKings open+now | -4.5→-3.5 | 129.5→130.5 | +6.0 | -1.3 | -0.9 | +2.4 | -1.0 | +2.5 | yes |  |
+| Lafayette @ St. Bonaventure 4:00 PM | H | 2 | ESPN/DraftKings open+now | +15.5→+16.5 | 139.5→143.5 | +10.3 | +15.4 | +12.4 | +12.2 | +14.2 | -2.3 | no |  |
+| Wofford @ Queens University 2:00 PM | H | 3 | ESPN/DraftKings open+now | +7.5→+5.5 | 172.5→174.5 | +8.2 | +8.6 | +6.6 | +8.0 | +7.7 | +2.2 | no |  |
+| UAB @ Jacksonville State 7:00 PM | H | 3 | Circa 11-13 22:42 | -4.0→-4.0 | 149.5→149.5 | +2.3 | -2.0 | -1.0 | +0.4 | -1.8 | +2.2 | — |  |
+| South Carolina Upstate @ Campbell 4:30 PM | H | 3 | ESPN/DraftKings open+now | +8.5→+9.5 | 147.5→143.5 | +6.2 | +7.6 | +4.7 | +6.3 | +7.4 | -2.1 | no |  |
+| Austin Peay @ Wichita State 7:00 PM | H | 2 | Circa 11-13 22:42 | +12.5→+12.5 | 153.5→153.5 | +1.2 | +13.9 | +12.3 | +7.2 | +10.4 | -2.1 | — |  |
+| Loyola Chicago @ Colorado State 1:30 PM | H | 2 | Circa 11-13 22:42 | +9.5→+9.5 | 152.5→151.5 | -0.0 | +9.6 | +9.8 | +4.8 | +7.6 | -1.9 | — |  |
+| The Citadel @ North Florida 2:00 PM | H | 3 | ESPN/DraftKings open+now | +3.5→+4.5 | 154.5→155.5 | +1.4 | +1.6 | +2.9 | +1.8 | +2.6 | -1.9 | no |  |
+| Colorado @ Providence 6:00 PM | H | 2 | Circa 11-13 22:42 | +11.5→+11.5 | 156.5→155.5 | +4.7 | +10.5 | +6.6 | +6.8 | +9.6 | -1.9 | — |  |
+| UNC Greensboro @ Cornell 11:00 AM | H | 2 | Circa 11-13 22:42 | +7.0→+7.0 | 159.5→159.5 | -1.1 | +6.4 | +4.7 | +2.3 | +5.1 | -1.9 | — |  |
+| Central Michigan @ Northern Kentucky 3:30 PM | H | 2 | Circa 11-13 22:42 | +3.5→+3.5 | 162.5→162.5 | -5.2 | +3.2 | +3.2 | -1.0 | +1.7 | -1.8 | — |  |
+| Toledo @ Detroit Mercy 4:00 PM | H | 3 | ESPN/DraftKings open+now | -9.5→-10.5 | 154.5→153.5 | -8.5 | -7.0 | -7.5 | -7.8 | -8.7 | +1.8 | no |  |
+| Northern Illinois @ Bellarmine 2:00 PM | H | 3 | ESPN/DraftKings open+now | +1.5→-1.5 | 151.5→148.5 | -1.4 | -2.0 | +0.9 | -1.1 | +0.2 | +1.7 | yes |  |
+| Lipscomb @ Western Carolina 7:00 PM | H | 2 | ESPN/DraftKings open+now | +3.5→+3.5 | 155.5→158.5 | +9.4 | +6.7 | +3.9 | +7.5 | +5.1 | +1.6 | — |  |
+| Louisiana Tech @ Nicholls 8:00 PM | H | 3 | ESPN/DraftKings open+now | +2.5→+1.5 | 139.5→135.5 | +5.8 | +2.2 | +0.4 | +3.6 | +3.1 | +1.6 | no |  |
+| West Georgia @ Charleston Southern 7:00 PM | H | 3 | ESPN/DraftKings open+now | +3.5→+5.5 | 148.5→148.5 | +4.9 | +3.3 | +5.3 | +4.5 | +4.0 | -1.5 | yes |  |
+| Marshall @ Youngstown State 1:00 PM | H | 2 | Circa 11-13 22:42 | +0.0→+0.0 | 161.5→160.5 | +6.9 | +0.2 | +0.6 | +3.6 | +1.4 | +1.4 | — |  |
+| Wyoming @ Denver 3:00 PM | H | 1 | Circa 11-13 22:42 | -7.5→-7.5 | 148.5→148.5 | +3.5 | -5.7 | -3.0 | -0.6 | -6.1 | +1.4 | — |  |
+| Miami (OH) @ Evansville 2:00 PM | H | 2 | Circa 11-13 22:42 | -8.0→-8.0 | 151.5→151.5 | -0.5 | -9.1 | -8.7 | -4.7 | -6.7 | +1.3 | — |  |
+| UT Rio Grande Valley @ UT Arlington 7:00 PM | H | 3 | ESPN/DraftKings open+now | +4.5→+4.5 | 141.5→139.5 | +8.6 | +6.1 | +4.5 | +7.0 | +5.8 | +1.3 | — |  |
+| UC Davis @ Sacramento State 8:00 PM | H | 2 | Circa 11-13 22:42 | +4.0→+4.0 | 158.5→158.5 | +9.5 | +5.0 | +4.7 | +7.2 | +5.3 | +1.3 | — |  |
+| Rice @ Stephen F. Austin 2:00 PM | H | 3 | ESPN/DraftKings open+now | +11.5→+9.5 | 148.5→148.5 | +9.4 | +11.2 | +9.1 | +9.9 | +10.7 | +1.2 | yes |  |
+| Furman @ Belmont 8:30 PM | H | 2 | Circa 11-13 22:42 | +3.0→+3.0 | 154.5→154.5 | -0.8 | +1.2 | -0.4 | -0.1 | +1.8 | -1.2 | — |  |
+| Hampton @ Navy 4:00 PM | H | 3 | ESPN/DraftKings open+now | +1.5→+1.5 | 138.5→137.5 | -3.6 | +0.0 | +5.9 | -0.6 | +0.4 | -1.1 | — |  |
+| Morgan State @ Loyola Maryland 5:00 PM | N | 3 | ESPN/DraftKings open+now | -1.5→-1.5 | 150.5→153.5 | -6.4 | -0.7 | -0.3 | -3.5 | -2.5 | -1.0 | — |  |
+| Montana @ North Dakota 9:00 PM | H | 2 | Circa 11-13 22:42 | +1.0→+1.0 | 150.5→150.5 | +0.9 | -4.3 | -3.3 | -1.5 | +0.0 | -1.0 | — |  |
+| Air Force @ Pacific 4:00 PM | H | 2 | Circa 11-13 22:42 | +13.5→+13.5 | 165.5→164.5 | +11.7 | +10.8 | +10.1 | +11.1 | +12.5 | -1.0 | — |  |
+| IU Indianapolis @ Morehead State 7:30 PM | H | 3 | ESPN/DraftKings open+now | -2.5→-2.5 | 162.5→159.5 | -3.0 | — | +4.1 | -1.0 | -1.7 | +0.8 | — |  |
+| UMBC @ Towson 7:30 PM | H | 2 | ESPN/DraftKings open+now | +10.5→+10.5 | 146.5→146.5 | +6.5 | +11.1 | +9.8 | +8.5 | +9.7 | -0.8 | — |  |
+| Cincinnati @ Dayton 7:30 PM | H | 3 | Circa 11-13 22:42 | -7.0→-7.0 | 148.5→148.5 | -4.1 | -6.4 | -6.7 | -5.3 | -6.2 | +0.8 | — |  |
+| Tulane @ Akron 12:00 PM | H | 2 | Circa 11-13 22:42 | +12.5→+12.5 | 155.5→155.5 | +11.1 | +10.5 | +10.1 | +10.7 | +11.8 | -0.7 | — |  |
+| Howard @ Davidson 7:00 PM | H | 2 | ESPN/DraftKings open+now | +9.5→+9.5 | 141.5→141.5 | +6.5 | +8.7 | +8.9 | +7.6 | +8.8 | -0.7 | — |  |
+| NJIT @ Fairfield 7:00 PM | H | 3 | ESPN/DraftKings open+now | +11.5→+11.5 | 139.5→141.5 | +9.2 | +10.8 | +11.5 | +10.1 | +10.8 | -0.7 | — |  |
+| LSU @ Gonzaga 3:30 PM | H | 1 | Circa 11-13 22:42 | +6.0→+6.0 | 163.5→163.5 | -2.1 | +6.8 | +10.5 | +3.1 | +5.4 | -0.6 | — |  |
+| Manhattan @ Le Moyne 6:00 PM | H | 3 | ESPN/DraftKings open+now | +3.5→+2.5 | 149.5→147.5 | +0.6 | +4.2 | +5.6 | +2.7 | +3.1 | +0.6 | yes |  |
+| Pennsylvania @ Saint Joseph's 6:30 PM | H | 3 | Circa 11-13 22:42 | +4.5→+4.5 | 152.5→152.5 | +3.5 | — | +2.9 | +3.3 | +3.9 | -0.6 | — |  |
+| South Dakota State @ Northern Colorado 4:00 PM | N | 2 | ESPN/DraftKings open+now | -4.5→-3.5 | 152.5→150.5 | -6.5 | +0.0 | -0.1 | -3.3 | -4.0 | -0.5 | yes |  |
+| Longwood @ Old Dominion 4:00 PM | H | 2 | ESPN/DraftKings open+now | +7.5→+7.5 | 144.5→136.5 | +12.6 | +4.6 | +4.9 | +8.7 | +8.0 | +0.5 | — |  |
+| Utah Valley @ Nevada 10:00 PM | H | 1 | Circa 11-13 22:42 | +10.0→+10.0 | 153.5→153.5 | +3.8 | +11.0 | +11.7 | +7.5 | +9.5 | -0.5 | — |  |
+| Brown @ Siena 7:00 PM | H | 3 | Circa 11-13 22:42 | +9.5→+9.5 | 161.5→160.5 | +12.1 | +5.2 | +5.2 | +8.7 | +9.1 | -0.4 | — |  |
+| New Mexico @ Santa Clara 10:00 PM | H | 1 | Circa 11-13 22:42 | -1.5→-1.5 | 165.5→165.5 | +0.1 | -2.0 | -0.7 | -0.7 | -1.3 | +0.2 | — |  |
+| South Alabama @ North Texas 6:00 PM | H | 3 | Circa 11-13 22:42 | +8.5→+8.5 | 137.5→135.5 | +4.4 | +12.6 | +12.0 | +8.4 | +8.4 | -0.1 | — |  |
 
-1 games had no line yet; they are in slate.csv only.
+3 games had no line yet; they are in slate.csv only.

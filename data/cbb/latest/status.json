@@ -1,33 +1,51 @@
 {
-  "date": "2026-11-13",
-  "pulled_et": "2026-11-13T17:42-05:00",
-  "espn": "ok 61 games",
+  "date": "2026-11-14",
+  "pulled_et": "2026-11-14T10:41-05:00",
+  "espn": "ok 71 games",
   "torvik": "ok 364 teams (CollegeBasketballData adjusted efficiency, 68 poss)",
   "tr": "ok 365 teams (2026-11-12 2227)",
   "bpi": "ok 365 teams",
-  "circa": "ok 39 CBB rows pulled today",
-  "cbbd_lines": "skipped: Circa rows available today",
+  "circa": "none (VSiN dropped): ESPN DraftKings open+now, then CBBD book lines",
+  "espn_lines": "57/57 priced games have ESPN's DraftKings opener",
+  "cbbd_lines": "skipped: ESPN has DraftKings open + current (saves the CBBD monthly quota)",
+  "check_names": [
+    "Northwestern State @ Little Rock: TR -8.3 vs BPI +7.8"
+  ],
   "circa_unmatched": [
-    "appalachian st @ charlotte",
-    "georgia southern @ c florida",
-    "illinois chicago @ st marys",
-    "lindenwood @ nebraska omaha",
-    "mississippi st @ xavier",
-    "n alabama @ miami fl",
-    "ohio st @ connecticut",
-    "se missouri st @ middle tenn st"
+    "idaho st @ seattle u",
+    "iupui @ morehead st",
+    "n colorado @ s dakota st",
+    "n iowa @ oakland",
+    "toledo @ detroit",
+    "washington @ utah"
   ],
-  "games_written": 53,
-  "with_line": 52,
-  "with_circa": 31,
-  "flags": 20,
+  "games_written": 61,
+  "with_line": 58,
+  "with_circa": 28,
+  "flags": 15,
   "unmatched": [
-    "Champion Christian Tigers @ UT Martin Skyhawks",
-    "Mary Baldwin Fighting Squirrels @ VMI Keydets",
-    "College of Biblical Studies Ambassadors @ Houston Christian Huskies",
-    "Corban Warriors @ Eastern Washington Eagles"
+    "Northwest University Eagles @ Washington State Cougars",
+    "Plattsburgh Cardinals @ Vermont Catamounts",
+    "St. Thomas Tommies @ Army Black Knights",
+    "Coastal Georgia Mariner @ Florida Atlantic Owls",
+    "Cheyney (PA) Wolves @ North Carolina A&T Aggies",
+    "Shenandoah Hornets @ Radford Highlanders",
+    "Montreat Cavaliers @ UNC Wilmington Seahawks",
+    "Lincoln (CA) Oaklanders @ Weber State Wildcats",
+    "Earlham Quakers @ Indiana State Sycamores",
+    "Dillard Blue Devils @ Arkansas State Red Wolves"
   ],
-  "sources": "espn ok 61 games \u00b7 torvik ok 364 teams (CollegeBasketballData adjusted efficiency, 68 poss) \u00b7 tr ok 365 teams (2026-11-12 2227) \u00b7 bpi ok 365 teams \u00b7 circa ok 39 CBB rows pulled today",
-  "results": "no earlier slate files yet",
-  "season_graded": 0
+  "sources": "espn ok 71 games \u00b7 torvik ok 364 teams (CollegeBasketballData adjusted efficiency, 68 poss) \u00b7 tr ok 365 teams (2026-11-12 2227) \u00b7 bpi ok 365 teams \u00b7 circa none (VSiN dropped): ESPN DraftKings open+now, then CBBD book lines",
+  "calibration": {
+    "games": 55,
+    "with_open": 31,
+    "avg_gap_cons_vs_open": 6.99,
+    "avg_gap_cons_vs_close": 6.24,
+    "avg_move_open_to_close": 1.08,
+    "pct_moved_toward_consensus": 70.8,
+    "flagged_games_graded": 20,
+    "flagged_covered": 14
+  },
+  "results": "2026-11-13: 56 finals",
+  "season_graded": 56
 }

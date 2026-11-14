@@ -1,0 +1,57 @@
+date,espn_id,away,home,tier,site,final_home_margin,final_total,open_home_margin,close_home_margin,close_source,close_total,consensus_home_margin,torvik_home_margin,tr_home_margin,bpi_home_margin,fair_home_margin,torvik_total,flag_at_close,flag_side,model_err,close_err,home_covered
+2026-11-13,401906772,Merrimack,Florida,2,H,29.0,137.0,37.5,36.0,Circa 11-13 14:26,141.5,23.1,14.9,32.2,30.0,31.7,142.5,EDGE Merrimack 4.3 · moved toward model,away,5.9,-7.0,False
+2026-11-13,401909565,SIU Edwardsville,Duke,2,H,43.0,137.0,45.0,43.0,Circa 11-13 14:26,148.5,18.5,13.1,,31.9,34.4,146.0,EDGE SIU Edwardsville 8.6 · moved toward model,away,24.5,0.0,
+2026-11-13,401913528,Sam Houston,Illinois,2,H,22.0,194.0,36.0,36.5,Circa 11-13 14:26,172.0,22.4,17.2,29.3,24.8,30.5,147.6,EDGE Sam Houston 6.0 · line moved away,away,-0.4,-14.5,False
+2026-11-13,401916316,Ohio State,UConn,2,H,16.0,152.0,,12.5,ESPN/DraftKings (no Circa),147.5,11.4,11.6,11.8,10.4,12.1,144.5,,,4.6,3.5,True
+2026-11-13,401925755,Northern Iowa,Michigan State,2,H,34.0,178.0,29.5,27.5,Circa 11-13 14:26,155.0,17.1,10.7,24.2,22.4,24.5,152.7,EDGE Northern Iowa 3.0 · moved toward model,away,16.9,6.5,True
+2026-11-13,401916297,Virginia,Maryland,2,H,-4.0,170.0,-6.0,-6.0,Circa 11-13 14:26,152.5,-3.4,-3.0,-4.6,-2.5,-4.9,149.4,,,-0.6,2.0,True
+2026-11-13,401906850,Tennessee State,Tennessee,2,H,5.0,161.0,30.5,28.0,Circa 11-13 14:26,157.0,17.9,11.4,23.6,25.5,25.5,135.3,EDGE Tennessee State 2.5 · moved toward model,away,-12.9,-23.0,False
+2026-11-13,401909741,Arizona,Auburn,1,H,-11.0,149.0,-2.0,-3.0,Circa 11-13 14:26,159.5,3.3,6.1,0.1,1.3,-0.9,148.1,EDGE Auburn 2.1 · line moved away,home,-14.3,-8.0,False
+2026-11-13,401921721,North Alabama,Miami,2,H,42.0,146.0,,32.5,ESPN/DraftKings (no Circa),152.5,28.5,,29.4,27.3,30.9,,,,13.5,9.5,True
+2026-11-13,401906760,Seton Hall,Alabama,2,H,6.0,158.0,16.5,17.5,Circa 11-13 14:26,156.5,8.7,4.4,13.8,11.9,13.4,141.8,EDGE Seton Hall 4.1 · line moved away,away,-2.7,-11.5,False
+2026-11-13,401917916,Central Arkansas,Arkansas,2,H,13.0,145.0,25.5,24.0,Circa 11-13 14:26,162.0,10.3,3.0,18.2,16.7,19.4,145.6,EDGE Central Arkansas 4.6 · moved toward model,away,2.7,-11.0,False
+2026-11-13,401921825,Prairie View A&M,Vanderbilt,2,H,27.0,151.0,,41.5,ESPN/DraftKings (no Circa),154.5,23.7,14.4,34.2,31.4,34.4,137.5,EDGE Prairie View A&M 7.1,away,3.3,-14.5,False
+2026-11-13,401921803,Northern Arizona,Kentucky,3,H,1.0,155.0,34.0,30.5,Circa 11-13 14:26,152.0,17.2,8.4,27.5,23.7,25.6,157.8,EDGE Northern Arizona 4.9 · moved toward model,away,-16.2,-29.5,False
+2026-11-13,401921167,West Florida,Cleveland State,3,N,2.0,136.0,,1.5,ESPN/DraftKings (no Circa),150.5,-1.3,,-0.6,-2.3,0.1,,,,3.3,0.5,True
+2026-11-13,401909696,Texas A&M-Corpus Christi,Florida State,2,H,24.0,144.0,,24.5,ESPN/DraftKings (no Circa),149.5,15.9,,18.2,12.6,21.1,,EDGE Texas A&M-Corpus Christi 3.4,away,8.1,-0.5,False
+2026-11-13,401923270,Bryant,Rutgers,2,H,21.0,123.0,,21.5,ESPN/DraftKings (no Circa),148.5,17.2,13.0,22.9,19.0,19.8,136.5,,,3.8,-0.5,False
+2026-11-13,401909515,Georgetown,Clemson,2,H,-7.0,163.0,4.0,4.5,Circa 11-13 14:26,148.0,3.9,1.6,4.6,8.6,4.0,159.0,,,-10.9,-11.5,False
+2026-11-13,401902278,Pittsburgh,Butler,1,H,-12.0,140.0,3.5,3.5,Circa 11-13 14:26,159.0,2.4,3.9,1.1,0.7,3.3,146.9,,,-14.4,-15.5,False
+2026-11-13,401929386,Kentucky State,Eastern Kentucky,2,H,47.0,165.0,,,,,-5.8,2.1,-19.1,,,149.1,,,52.8,,
+2026-11-13,401926133,Ohio,Purdue,2,H,18.0,142.0,20.0,18.5,Circa 11-13 14:26,150.5,7.8,-0.9,17.7,14.8,15.1,147.6,EDGE Ohio 3.4 · moved toward model,away,10.2,-0.5,False
+2026-11-13,401925820,App State,Charlotte,2,H,-6.0,126.0,,8.5,ESPN/DraftKings (no Circa),131.5,5.0,3.1,9.1,3.9,7.1,144.7,,,-11.0,-14.5,False
+2026-11-13,401924796,Marist,Lehigh,3,H,5.0,125.0,,2.5,ESPN/DraftKings (no Circa),133.5,0.6,-1.4,3.0,1.9,1.5,136.6,,,4.4,2.5,True
+2026-11-13,401924704,Columbia,Bucknell,3,H,-18.0,136.0,,-5.5,ESPN/DraftKings (no Circa),146.5,-4.6,-2.4,-7.0,-6.4,-5.0,150.2,,,-13.4,-12.5,False
+2026-11-13,401922211,Florida International,Florida Gulf Coast,2,H,-9.0,169.0,,2.5,ESPN/DraftKings (no Circa),160.5,3.3,6.0,0.3,1.1,2.8,148.9,,,-12.3,-11.5,False
+2026-11-13,401921191,Iona,Hofstra,3,H,3.0,121.0,7.5,7.5,Circa 11-13 14:26,134.0,6.4,6.7,6.0,6.1,6.9,141.0,,,-3.4,-4.5,False
+2026-11-13,401920973,Chattanooga,Elon,1,H,-7.0,147.0,3.0,2.0,Circa 11-13 14:26,151.0,3.4,3.1,4.1,3.1,3.1,147.3,,,-10.4,-9.0,False
+2026-11-13,401920747,Yale,Northeastern,3,H,11.0,157.0,-1.5,-1.0,Circa 11-13 14:26,154.5,0.9,4.8,-2.2,-4.0,-0.3,149.7,,,10.1,12.0,True
+2026-11-13,401920379,Mount St. Mary's,Virginia Tech,2,H,20.0,144.0,28.5,27.5,Circa 11-13 14:26,147.5,20.1,15.1,27.1,22.0,25.1,139.3,,,-0.1,-7.5,False
+2026-11-13,401918958,Troy,NC State,2,H,19.0,143.0,23.0,22.0,Circa 11-13 14:26,148.5,15.9,13.7,17.9,18.5,20.2,142.6,,,3.1,-3.0,False
+2026-11-13,401911210,Harvard,George Washington,2,H,28.0,142.0,13.0,11.0,Circa 11-13 14:26,133.5,9.6,8.8,10.8,9.9,11.6,135.2,,,18.4,17.0,True
+2026-11-13,401911197,Long Island University,Fordham,3,H,22.0,138.0,,12.5,ESPN/DraftKings (no Circa),145.5,6.9,1.6,12.5,11.6,9.7,138.1,EDGE Long Island University 2.8,away,15.1,9.5,True
+2026-11-13,401906782,Georgia,North Carolina,2,H,-8.0,148.0,4.5,4.0,Circa 11-13 14:26,164.5,6.3,6.8,5.4,6.6,5.2,149.1,,,-14.3,-12.0,False
+2026-11-13,401927363,South Dakota,Drake,3,H,9.0,153.0,13.5,13.5,Circa 11-13 14:26,158.5,11.6,9.6,13.4,14.1,12.6,148.4,,,-2.6,-4.5,False
+2026-11-13,401926794,North Carolina Central,Liberty,3,H,8.0,140.0,,16.5,ESPN/DraftKings (no Circa),136.5,8.1,0.2,17.2,14.2,12.3,135.3,EDGE North Carolina Central 4.2,away,-0.1,-8.5,False
+2026-11-13,401926152,Southeast Missouri State,Middle Tennessee,3,H,13.0,163.0,,5.5,ESPN/DraftKings (no Circa),148.5,1.0,-3.3,5.4,5.2,3.3,141.4,,,12.0,7.5,True
+2026-11-13,401929199,Southern Miss,Texas State,2,H,20.0,150.0,11.5,10.0,Circa 11-13 14:26,140.0,11.3,11.2,12.1,10.4,11.4,144.7,,,8.7,10.0,True
+2026-11-13,401927380,Texas Southern,Murray State,2,H,21.0,177.0,,29.5,ESPN/DraftKings (no Circa),162.5,17.3,13.1,23.7,18.5,24.6,142.6,EDGE Texas Southern 4.9,away,3.7,-8.5,False
+2026-11-13,401927374,Illinois State,North Dakota State,3,H,1.0,163.0,-3.0,-3.0,Circa 11-13 14:26,144.5,-3.5,-1.6,-5.4,-5.5,-3.3,156.3,,,4.5,4.0,True
+2026-11-13,401926117,Wright State,Samford,2,H,-24.0,156.0,-1.0,-1.5,Circa 11-13 14:26,156.5,-4.0,-4.2,-4.7,-2.4,-2.2,149.9,,,-20.0,-22.5,False
+2026-11-13,401925686,Alcorn State,Tarleton State,3,H,4.0,142.0,,16.5,ESPN/DraftKings (no Circa),151.5,13.4,13.9,14.5,10.5,15.0,153.4,,,-9.4,-12.5,False
+2026-11-13,401921026,Georgia Southern,UCF,3,H,14.0,154.0,,22.5,ESPN/DraftKings (no Circa),164.5,9.9,2.1,20.5,13.3,16.2,152.8,EDGE Georgia Southern 6.3,away,4.1,-8.5,False
+2026-11-13,401919049,Milwaukee,TCU,2,H,12.0,140.0,25.0,22.0,Circa 11-13 14:26,156.0,14.7,8.8,21.8,18.8,20.9,146.4,,,-2.7,-10.0,False
+2026-11-13,401906804,Fairleigh Dickinson,Oklahoma,3,H,16.0,132.0,,31.5,ESPN/DraftKings (no Circa),146.5,13.4,9.0,,24.6,22.5,148.2,EDGE Fairleigh Dickinson 9.0,away,2.6,-15.5,False
+2026-11-13,401929040,Lindenwood,Omaha,3,H,11.0,123.0,,4.5,ESPN/DraftKings (no Circa),153.5,0.3,1.6,0.0,-2.7,2.4,143.3,,,10.7,6.5,True
+2026-11-13,401921728,Stanford,UNLV,3,H,8.0,144.0,-1.0,-1.0,Circa 11-13 14:26,153.0,1.7,1.8,1.6,1.7,0.4,148.3,,,6.3,9.0,True
+2026-11-13,401920123,Cal Poly,Idaho,3,H,-9.0,157.0,2.0,1.0,Circa 11-13 14:26,168.0,3.3,4.9,1.3,2.2,2.6,146.4,,,-12.3,-10.0,False
+2026-11-13,401917980,UL Monroe,Arizona State,2,H,30.0,154.0,31.5,29.5,Circa 11-13 14:26,147.0,16.4,9.8,23.6,22.1,25.5,151.3,EDGE UL Monroe 4.0 · moved toward model,away,13.6,0.5,True
+2026-11-13,401911014,Ball State,SMU,2,H,25.0,155.0,22.5,22.5,Circa 11-13 14:26,152.0,14.6,10.6,20.7,15.7,19.4,138.0,EDGE Ball State 3.1,away,10.4,2.5,True
+2026-11-13,401909503,DePaul,Northwestern,2,H,-20.0,114.0,-1.0,0.0,Circa 11-13 14:26,137.5,3.3,5.3,-0.6,4.0,0.7,145.7,,,-23.3,-20.0,False
+2026-11-13,401906794,Xavier,Mississippi State,1,N,-18.0,144.0,,-3.5,ESPN/DraftKings (no Circa),161.5,-1.3,0.9,-4.7,-1.5,-3.1,141.0,,,-16.7,-14.5,False
+2026-11-13,401925739,Mississippi Valley State,Oregon State,3,H,16.0,146.0,,34.5,ESPN/DraftKings (no Circa),157.5,18.9,11.9,27.8,23.1,26.7,150.4,EDGE Mississippi Valley State 7.8,away,-2.9,-18.5,False
+2026-11-13,401917526,Chicago State,San Diego,3,H,20.0,154.0,,16.5,ESPN/DraftKings (no Circa),141.5,7.8,4.1,14.0,7.9,12.2,151.3,EDGE Chicago State 4.3,away,12.2,3.5,True
+2026-11-13,401920372,UC San Diego,Utah State,2,H,38.0,202.0,13.5,12.5,Circa 11-13 14:26,159.0,9.2,8.8,,10.1,11.8,147.4,,,28.8,25.5,True
+2026-11-13,401917527,East Texas A&M,Portland,2,H,-6.0,182.0,,7.5,ESPN/DraftKings (no Circa),151.5,7.2,4.7,11.8,6.5,7.4,144.9,,,-13.2,-13.5,False
+2026-11-13,401917525,UIC,Saint Mary's,2,H,23.0,145.0,,5.5,ESPN/DraftKings (no Circa),150.5,6.1,5.7,,6.9,5.7,155.5,,,16.9,17.5,True
+2026-11-13,401920345,Arkansas-Pine Bluff,California Baptist,3,H,14.0,134.0,,14.5,ESPN/DraftKings (no Circa),144.5,9.9,7.2,14.3,10.0,12.2,143.6,,,4.1,-0.5,False
