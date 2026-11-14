@@ -1,80 +1,119 @@
-# CBB brief — DK/Circa pull 22:42 ET (DK first pull 14:26 ET)
+# CBB lines — DraftKings via ESPN, pull 09:09 ET (first pull today 09:09 ET)
 
-Splits are AWAY side as bets%/handle% (home = 100 minus). Spreads are the away team's. Flags: PUB = 65%+ of DK bets on one side; SHARP DK = handle minus bets >= +15, SHARP CI = >= +10 (Circa); RLM = Circa spread moved toward the side with under 50% of DK bets. 0/0 and 100/100 cells and thin Circa samples (0/50/100) are not flagged.
+Spread = AWAY team's number. Each cell is open → first pull today → now (DraftKings open is its opener for the game). Flags: STEAM = spread moved 1.5+ since open (direction = side the market moved toward); TOTAL = total moved 2+; KEY = crossed a key number; FLIP = favorite changed; TODAY = moved 1+ since the first pull today. No splits here: read DK splits from DK Network.
 
-| Game | Tip | Circa spread open→now | Circa total open→now | DK spr | DK spr first | Circa spr | DK over | Circa over | DK ML | Flags |
-|---|---|---|---|---|---|---|---|---|---|---|
-| N Alabama @ Miami FL | Fri, Nov 13 5:00 PM | +33.5→+32.5 | 150.5→152.5 | - | 28/46 | 50/50 | - | 50/50 | - | - |
-| Georgetown @ Clemson | Fri, Nov 13 6:00 PM | +4→+4.5 | 148.5→146.5 | - | 58/79 | - | - | - | - | - |
-| Pittsburgh @ Butler | Fri, Nov 13 6:30 PM | +3.5→+3 | 159.5→157 | - | 62/90 | - | - | - | - | - |
-| Appalachian ST @ Charlotte | Fri, Nov 13 7:00 PM | +7.5→+8 | 131.5→132 | - | 59/96 | - | - | - | - | - |
-| Chattanooga @ Elon | Fri, Nov 13 7:00 PM | +3→+2 | 151.5→152 | - | 68/97 | - | - | - | - | - |
-| Merrimack @ Florida | Fri, Nov 13 7:00 PM | +37.5→+35.5 | 143→139.5 | - | 19/45 | - | - | - | - | - |
-| Harvard @ George Washington | Fri, Nov 13 7:00 PM | +13→+11 | 134.5→133.5 | - | 32/38 | - | - | - | - | - |
-| Iona @ Hofstra | Fri, Nov 13 7:00 PM | +7.5→+7 | 136.5→134.5 | - | 71/99 | - | - | - | - | - |
-| Sam Houston ST @ Illinois | Fri, Nov 13 7:00 PM | +36→+35.5 | 171.5→170 | - | 26/27 | - | - | - | - | - |
-| N Arizona @ Kentucky | Fri, Nov 13 7:00 PM | +34→+30.5 | 156.5→152.5 | - | 37/81 | - | - | - | - | - |
-| N Iowa @ Michigan ST | Fri, Nov 13 7:00 PM | +29.5→+27.5 | 156.5→155 | - | 21/55 | - | - | - | - | - |
-| Georgia @ North Carolina | Fri, Nov 13 7:00 PM | +4.5→+4 | 163.5→165 | - | 46/72 | - | - | - | - | - |
-| Yale @ Northeastern | Fri, Nov 13 7:00 PM | -1.5→-1 | 154.5→154 | - | 77/92 | - | - | - | - | - |
-| Ohio @ Purdue | Fri, Nov 13 7:00 PM | +20→+18.5 | 153.5→150 | - | 45/71 | - | - | - | - | - |
-| Tennessee ST @ Tennessee | Fri, Nov 13 7:00 PM | +30.5→+27 | 155.5→156.5 | - | 19/10 | - | - | - | - | - |
-| MT ST Marys @ Virginia Tech | Fri, Nov 13 7:00 PM | +28.5→+27.5 | 150.5→147.5 | - | 43/8 | - | - | - | - | - |
-| Troy @ NC State | Fri, Nov 13 7:02 PM | +23→+22 | 148.5→148.5 | - | 41/90 | - | - | - | - | - |
-| Ohio ST @ Connecticut | Fri, Nov 13 7:30 PM | +11.5→+13 | 148.5→147 | - | 27/20 | - | - | - | - | - |
-| S Dakota @ Drake | Fri, Nov 13 7:30 PM | +13.5→+13 | 160.5→158.5 | - | 45/97 | - | - | - | - | - |
-| SE Missouri ST @ Middle Tenn ST | Fri, Nov 13 7:30 PM | +5.5→+6 | 146.5→148.5 | - | 52/99 | - | - | - | - | - |
-| C Arkansas @ Arkansas | Fri, Nov 13 8:00 PM | +25.5→+23 | 160.5→162 | - | 15/60 | - | - | - | - | - |
-| Georgia Southern @ C Florida | Fri, Nov 13 8:00 PM | +23.5→+23 | 164→165 | - | 68/98 | - | - | - | - | - |
-| SIU-Edwardsville @ Duke | Fri, Nov 13 8:00 PM | +45→+43 | 149.5→148.5 | - | 23/29 | - | - | - | - | - |
-| Virginia @ Maryland | Fri, Nov 13 8:00 PM | -6→-6 | 154.5→154 | - | 81/75 | - | - | - | - | - |
-| Illinois ST @ N Dakota ST | Fri, Nov 13 8:00 PM | -3→-3 | 147.5→145 | - | 52/42 | - | - | - | - | - |
-| Wright ST @ Samford | Fri, Nov 13 8:00 PM | -1→-1.5 | 156→157.5 | - | 77/88 | - | - | - | - | - |
-| UW-Milwaukee @ TCU | Fri, Nov 13 8:00 PM | +25→+22.5 | 158→156 | - | 49/78 | - | - | - | - | - |
-| Southern Miss @ Texas ST | Fri, Nov 13 8:00 PM | +11.5→+10.5 | 143→138.5 | - | 42/99 | - | - | - | - | - |
-| Lindenwood @ Nebraska-Omaha | Fri, Nov 13 8:45 PM | +4.5→+4.5 | 155→153.5 | - | 48/38 | - | - | - | - | - |
-| Seton Hall @ Alabama | Fri, Nov 13 9:00 PM | +16.5→+18 | 156.5→156.5 | - | 46/95 | - | - | - | - | - |
-| LA Monroe @ Arizona ST | Fri, Nov 13 9:00 PM | +31.5→+29.5 | 151.5→148 | - | 61/90 | - | - | - | - | - |
-| Arizona @ Auburn | Fri, Nov 13 9:00 PM | -2→-2.5 | 160→158.5 | - | 74/55 | - | - | - | - | - |
-| Cal Poly SLO @ Idaho | Fri, Nov 13 9:00 PM | +2→+1 | 166.5→168 | - | 41/90 | - | - | - | - | - |
-| Depaul @ Northwestern | Fri, Nov 13 9:00 PM | -1→+1 | 139.5→136.5 | - | 16/3 | - | - | - | - | - |
-| Ball ST @ SMU | Fri, Nov 13 9:00 PM | +22.5→+22.5 | 153.5→151 | - | 48/94 | - | - | - | - | - |
-| Stanford @ UNLV | Fri, Nov 13 9:00 PM | -1→-1 | 151.5→152 | - | 43/7 | - | - | - | - | - |
-| Mississippi ST @ Xavier | Fri, Nov 13 9:00 PM | +4→+4 | 165→161.5 | - | 45/36 | - | - | - | - | - |
-| Illinois-Chicago @ ST Marys | Fri, Nov 13 10:00 PM | +6→+6.5 | 153→151 | - | 12/34 | - | - | - | - | - |
-| UC-San Diego @ Utah ST | Fri, Nov 13 10:00 PM | +13.5→+13 | 156.5→159 | - | 11/13 | - | - | - | - | - |
-| UNC-Greensboro @ Cornell | Sat, Nov 14 11:00 AM | +7→+7 | 159.5→159.5 | - | - | - | - | - | - | - |
-| Tulane @ Akron | Sat, Nov 14 12:00 PM | +12.5→+12.5 | 155.5→155.5 | - | - | - | - | - | - | - |
-| Bradley @ George Mason | Sat, Nov 14 1:00 PM | +11.5→+13.5 | 130.5→130.5 | - | - | - | - | - | - | - |
-| Montana @ N Dakota | Sat, Nov 14 1:00 PM | +1→+1 | 150.5→150.5 | - | - | - | - | - | - | - |
-| Loyola-Chicago @ Colorado ST | Sat, Nov 14 1:30 PM | +9.5→+9.5 | 152.5→151.5 | - | - | - | - | - | - | - |
-| Miami OH @ Evansville | Sat, Nov 14 2:00 PM | -8→-8 | 151.5→151.5 | - | - | - | - | - | - | - |
-| Wyoming @ Denver | Sat, Nov 14 3:00 PM | -7.5→-7.5 | 148.5→148.5 | - | - | - | - | - | - | - |
-| LSU @ Gonzaga | Sat, Nov 14 3:30 PM | +6→+6 | 163.5→163.5 | - | - | - | - | - | - | - |
-| C Michigan @ N Kentucky | Sat, Nov 14 3:30 PM | +3.5→+3.5 | 162.5→162.5 | - | - | - | - | - | - | - |
-| Toledo @ Detroit | Sat, Nov 14 4:00 PM | -10→-10 | 153.5→153.5 | - | - | - | - | - | - | - |
-| Air Force @ Pacific | Sat, Nov 14 4:00 PM | +13.5→+13.5 | 165.5→164.5 | - | - | - | - | - | - | - |
-| N Colorado @ S Dakota ST | Sat, Nov 14 4:00 PM | +4.5→+4.5 | 151.5→151.5 | - | - | - | - | - | - | - |
-| S Utah @ Wake Forest | Sat, Nov 14 4:00 PM | +19→+19 | 155.5→155.5 | - | - | - | - | - | - | - |
-| Utah Tech @ California | Sat, Nov 14 5:00 PM | +16.5→+16.5 | 158.5→158.5 | - | - | - | - | - | - | - |
-| N Iowa @ Oakland | Sat, Nov 14 5:00 PM | +1.5→+1.5 | 158.5→158.5 | - | - | - | - | - | - | - |
-| UC-Riverside @ Fresno ST | Sat, Nov 14 6:00 PM | +5→+5 | 150.5→150.5 | - | - | - | - | - | - | - |
-| S Alabama @ North Texas | Sat, Nov 14 6:00 PM | +8.5→+8.5 | 137.5→135.5 | - | - | - | - | - | - | - |
-| Colorado @ Providence | Sat, Nov 14 6:00 PM | +11.5→+11.5 | 156.5→155.5 | - | - | - | - | - | - | - |
-| Marshall @ Youngstown ST | Sat, Nov 14 6:00 PM | +0→+0 | 161.5→160.5 | - | - | - | - | - | - | - |
-| Pennsylvania @ ST Josephs | Sat, Nov 14 6:30 PM | +4.5→+4.5 | 152.5→152.5 | - | - | - | - | - | - | - |
-| UAB @ Jacksonville ST | Sat, Nov 14 7:00 PM | -4→-4 | 149.5→149.5 | - | - | - | - | - | - | - |
-| Portland ST @ San Francisco | Sat, Nov 14 7:00 PM | +11.5→+11.5 | 143.5→143.5 | - | - | - | - | - | - | - |
-| Brown @ Siena | Sat, Nov 14 7:00 PM | +9.5→+9.5 | 161.5→160.5 | - | - | - | - | - | - | - |
-| Washington @ Utah | Sat, Nov 14 7:00 PM | +3.5→+3.5 | 143.5→143.5 | - | - | - | - | - | - | - |
-| Rider @ Villanova | Sat, Nov 14 7:00 PM | +36.5→+36.5 | 146.5→146.5 | - | - | - | - | - | - | - |
-| Austin Peay @ Wichita ST | Sat, Nov 14 7:00 PM | +12.5→+12.5 | 153.5→153.5 | - | - | - | - | - | - | - |
-| Cincinnati @ Dayton | Sat, Nov 14 7:30 PM | -7→-7 | 148.5→148.5 | - | - | - | - | - | - | - |
-| IUPUI @ Morehead ST | Sat, Nov 14 7:30 PM | -2.5→-2.5 | 163.5→163.5 | - | - | - | - | - | - | - |
-| LA Monroe @ Grand Canyon | Sat, Nov 14 8:00 PM | +31.5→+31.5 | 165.5→165.5 | - | - | - | - | - | - | - |
-| UC-Davis @ Sacramento ST | Sat, Nov 14 8:00 PM | +4→+4 | 158.5→158.5 | - | - | - | - | - | - | - |
-| Furman @ Belmont | Sat, Nov 14 8:30 PM | +3→+3 | 154.5→154.5 | - | - | - | - | - | - | - |
-| Utah Valley @ Nevada | Sat, Nov 14 10:00 PM | +10→+10 | 153.5→153.5 | - | - | - | - | - | - | - |
-| New Mexico @ Santa Clara | Sat, Nov 14 10:00 PM | -1.5→-1.5 | 165.5→165.5 | - | - | - | - | - | - | - |
-| Idaho ST @ Seattle U | Sat, Nov 14 10:00 PM | +16.5→+16.5 | 144.5→144.5 | - | - | - | - | - | - | - |
-| Texas A&M CC @ Florida ST | CBB - Friday, Nov 13 | - | - | 26/22 | 26/37 | - | 67/84 | - | 6/15 | PUB home 74%; SHARP DK over +17 |
+| Game | Start (ET) | Spread open→today→now | Total open→today→now | ML away open→now | ML home open→now | Flags |
+|---|---|---|---|---|---|---|
+| Tulane Green Wave @ Akron Zips | Sat 11-14 12:00 PM | +13.5 → +12.5 → +12.5 | 155.5 → 155.5 → 155.5 | +525 → +600 | -750 → -900 | - |
+| Northwest University Eagles @ Washington State Cougars | Sat 11-14 01:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Drexel Dragons @ Maine Black Bears | Sat 11-14 01:00 PM | -4.5 → -3.5 → -3.5 | 129.5 → 129.5 → 129.5 | -185 → -170 | +154 → +142 | - |
+| Montana Grizzlies @ North Dakota Fighting Hawks | Sat 11-14 01:00 PM | +1.5 → +1.5 → +1.5 | 151.5 → 150.5 → 150.5 | -102 → -102 | -118 → -118 | - |
+| Marshall Thundering Herd @ Youngstown State Penguins | Sat 11-14 01:00 PM | -1.5 → -1.5 → -1.5 | 159.5 → 159.5 → 159.5 | -110 → -108 | -110 → -112 | - |
+| Plattsburgh Cardinals @ Vermont Catamounts | Sat 11-14 01:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Bradley Braves @ George Mason Patriots (neutral) | Sat 11-14 01:00 PM | +11.5 → +12.5 → +12.5 | 130.5 → 128.5 → 128.5 | +625 → +650 | -950 → -1000 | TOTAL down 2 |
+| St. Thomas Tommies @ Army Black Knights | Sat 11-14 01:00 PM | -9.5 → -8.5 → -8.5 | 149.5 → 147.5 → 147.5 | -375 → -355 | +295 → +280 | TOTAL down 2 |
+| Loyola Chicago Ramblers @ Colorado State Rams | Sat 11-14 01:30 PM | +8.5 → +9.5 → +9.5 | 152.5 → 151.5 → 151.5 | +350 → +350 | -455 → -455 | - |
+| Stonehill Skyhawks @ Texas Tech Red Raiders | Sat 11-14 02:00 PM | +40.5 → +40.5 → +40.5 | 142.5 → 143.5 → 143.5 | - → - | - → - | - |
+| Coastal Georgia Mariner @ Florida Atlantic Owls | Sat 11-14 02:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Wofford Terriers @ Queens University Royals | Sat 11-14 02:00 PM | +7.5 → +6.5 → +6.5 | 172.5 → 173.5 → 173.5 | +260 → +240 | -325 → -298 | - |
+| The Citadel Bulldogs @ North Florida Ospreys | Sat 11-14 02:00 PM | +3.5 → +3.5 → +3.5 | 154.5 → 155.5 → 155.5 | +145 → +150 | -175 → -180 | - |
+| Cheyney (PA) Wolves @ North Carolina A&T Aggies | Sat 11-14 02:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Rice Owls @ Stephen F. Austin Lumberjacks | Sat 11-14 02:00 PM | +11.5 → +12.5 → +12.5 | 148.5 → 148.5 → 148.5 | +525 → +550 | -750 → -800 | - |
+| Northern Illinois Huskies @ Bellarmine Knights | Sat 11-14 02:00 PM | +1.5 → -1.5 → -1.5 | 151.5 → 148.5 → 148.5 | - → - | - → - | STEAM away 3; FLIP; TOTAL down 3 |
+| Coppin State Eagles @ South Florida Bulls | Sat 11-14 02:00 PM | +27.5 → +28.5 → +28.5 | 150.5 → 150.5 → 150.5 | +3500 → +4000 | -20000 → -50000 | - |
+| Gardner-Webb Runnin' Bulldogs @ South Carolina Gamecocks | Sat 11-14 02:00 PM | +25.5 → +27.5 → +27.5 | 145.5 → 145.5 → 145.5 | +3000 → +3500 | -10000 → -20000 | STEAM home 2 |
+| Miami (OH) RedHawks @ Evansville Purple Aces | Sat 11-14 02:00 PM | -8.5 → -9.5 → -9.5 | 153.5 → 154.5 → 154.5 | -375 → -425 | +295 → +330 | - |
+| Shenandoah Hornets @ Radford Highlanders | Sat 11-14 02:30 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Jackson State Tigers @ Winthrop Eagles | Sat 11-14 02:30 PM | +7.5 → +7.5 → +7.5 | 165.5 → 163.5 → 163.5 | - → - | - → - | TOTAL down 2 |
+| Wyoming Cowboys @ Denver Pioneers | Sat 11-14 03:00 PM | -5.5 → -7.5 → -7.5 | 148.5 → 148.5 → 148.5 | -310 → -310 | +250 → +250 | STEAM away 2 |
+| LSU Tigers @ Gonzaga Bulldogs | Sat 11-14 03:30 PM | +6.5 → +5.5 → +5.5 | 161.5 → 161.5 → 161.5 | +195 → +195 | -238 → -238 | - |
+| Central Michigan Chippewas @ Northern Kentucky Norse | Sat 11-14 03:30 PM | +2.5 → +3.5 → +3.5 | 162.5 → 162.5 → 162.5 | +130 → +145 | -155 → -175 | - |
+| Montreat Cavaliers @ UNC Wilmington Seahawks | Sat 11-14 04:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Toledo Rockets @ Detroit Mercy Titans | Sat 11-14 04:00 PM | -9.5 → -11.5 → -11.5 | 154.5 → 152.5 → 152.5 | -425 → -675 | +330 → +490 | STEAM away 2; TOTAL down 2 |
+| South Dakota State Jackrabbits @ Northern Colorado Bears (neutral) | Sat 11-14 04:00 PM | -4.5 → -3.5 → -3.5 | 152.5 → 151.5 → 151.5 | -175 → -175 | +145 → +145 | - |
+| Longwood Lancers @ Old Dominion Monarchs | Sat 11-14 04:00 PM | +7.5 → +8.5 → +8.5 | 144.5 → 139.5 → 139.5 | +240 → +280 | -298 → -355 | TOTAL down 5 |
+| Hampton Pirates @ Navy Midshipmen | Sat 11-14 04:00 PM | +1.5 → +1.5 → +1.5 | 138.5 → 138.5 → 138.5 | +110 → - | -130 → - | - |
+| UNC Asheville Bulldogs @ Georgia Tech Yellow Jackets | Sat 11-14 04:00 PM | +16.5 → +17.5 → +17.5 | 153.5 → 157.5 → 157.5 | - → - | - → - | TOTAL up 4 |
+| Delaware State Hornets @ East Carolina Pirates | Sat 11-14 04:00 PM | +16.5 → +16.5 → +16.5 | 147.5 → 148.5 → 148.5 | +900 → +1100 | -1600 → -2100 | - |
+| Lafayette Leopards @ St. Bonaventure Bonnies | Sat 11-14 04:00 PM | +15.5 → +16.5 → +16.5 | 139.5 → 141.5 → 141.5 | +750 → +1100 | -1200 → -2100 | TOTAL up 2 |
+| Southern Utah Thunderbirds @ Wake Forest Demon Deacons | Sat 11-14 04:00 PM | +18.5 → +18.5 → +18.5 | 155.5 → 156.5 → 156.5 | +1200 → +1500 | -2400 → -3600 | - |
+| South Carolina Upstate Spartans @ Campbell Fighting Camels | Sat 11-14 04:30 PM | +8.5 → +8.5 → +8.5 | 147.5 → 142.5 → 142.5 | +280 → +330 | -355 → -425 | TOTAL down 5 |
+| Northern Iowa Panthers @ Oakland Golden Grizzlies | Sat 11-14 05:00 PM | +1.5 → +1.5 → +1.5 | 157.5 → 157.5 → 157.5 | -105 → +102 | -115 → -122 | - |
+| Morgan State Bears @ Loyola Maryland Greyhounds (neutral) | Sat 11-14 05:00 PM | -1.5 → -1.5 → -1.5 | 150.5 → 152.5 → 152.5 | -110 → -115 | -110 → -105 | TOTAL up 2 |
+| Utah Tech Trailblazers @ California Golden Bears | Sat 11-14 05:00 PM | +16.5 → +15.5 → +15.5 | 157.5 → 159.5 → 159.5 | +900 → +1000 | -1600 → -1800 | TOTAL up 2 |
+| UC Riverside Highlanders @ Fresno State Bulldogs | Sat 11-14 06:00 PM | +5.5 → +4.5 → +4.5 | 149.5 → 149.5 → 149.5 | +185 → +170 | -225 → -205 | - |
+| Lincoln (CA) Oaklanders @ Weber State Wildcats | Sat 11-14 06:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| South Alabama Jaguars @ North Texas Mean Green | Sat 11-14 06:00 PM | +8.5 → +8.5 → +8.5 | 136.5 → 133.5 → 133.5 | +320 → +330 | -410 → -425 | TOTAL down 3 |
+| Southern New Orleans Knights @ LSU New Orleans Privateers | Sat 11-14 06:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Manhattan Jaspers @ Le Moyne Dolphins | Sat 11-14 06:00 PM | +3.5 → +1.5 → +1.5 | 149.5 → 148.5 → 148.5 | +150 → - | -180 → - | STEAM away 2 |
+| Colorado Buffaloes @ Providence Friars | Sat 11-14 06:00 PM | +9.5 → +12.5 → +12.5 | 152.5 → 156.5 → 156.5 | +455 → +550 | -625 → -800 | STEAM home 3; TOTAL up 4 |
+| Pennsylvania Quakers @ Saint Joseph's Hawks | Sat 11-14 06:30 PM | +4.5 → +3.5 → +3.5 | 152.5 → 153.5 → 153.5 | +164 → +145 | -198 → -175 | - |
+| Earlham Quakers @ Indiana State Sycamores | Sat 11-14 07:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Howard Bison @ Davidson Wildcats | Sat 11-14 07:00 PM | +9.5 → +9.5 → +9.5 | 141.5 → 141.5 → 141.5 | +295 → - | -375 → - | - |
+| UT Rio Grande Valley Vaqueros @ UT Arlington Mavericks | Sat 11-14 07:00 PM | +4.5 → +4.5 → +4.5 | 141.5 → 140.5 → 140.5 | +160 → +170 | -192 → -205 | - |
+| Rider Broncs @ Villanova Wildcats | Sat 11-14 07:00 PM | +36.5 → +36.5 → +36.5 | 145.5 → 145.5 → 145.5 | - → - | - → - | - |
+| Portland State Vikings @ San Francisco Dons | Sat 11-14 07:00 PM | +10.5 → +10.5 → +10.5 | 143.5 → 143.5 → 143.5 | +440 → +440 | -600 → -600 | - |
+| NJIT Highlanders @ Fairfield Stags | Sat 11-14 07:00 PM | +11.5 → +11.5 → +11.5 | 139.5 → 140.5 → 140.5 | +425 → +550 | -575 → -800 | - |
+| Lipscomb Bisons @ Western Carolina Catamounts | Sat 11-14 07:00 PM | +3.5 → +3.5 → +3.5 | 155.5 → 157.5 → 157.5 | +150 → - | -180 → - | TOTAL up 2 |
+| UAB Blazers @ Jacksonville State Gamecocks | Sat 11-14 07:00 PM | -3.5 → -3.5 → -3.5 | 149.5 → 149.5 → 149.5 | -170 → -162 | +142 → +136 | - |
+| Austin Peay Governors @ Wichita State Shockers | Sat 11-14 07:00 PM | +12.5 → +12.5 → +12.5 | 153.5 → 153.5 → 153.5 | +490 → +600 | -675 → -900 | - |
+| West Georgia Wolves @ Charleston Southern Buccaneers | Sat 11-14 07:00 PM | +3.5 → +4.5 → +4.5 | 148.5 → 150.5 → 150.5 | +145 → +154 | -175 → -185 | TOTAL up 2 |
+| Brown Bears @ Siena Saints | Sat 11-14 07:00 PM | +8.5 → +11.5 → +11.5 | 155.5 → 159.5 → 159.5 | +300 → +490 | -380 → -675 | STEAM home 3; TOTAL up 4 |
+| IU Indianapolis Jaguars @ Morehead State Eagles | Sat 11-14 07:30 PM | -2.5 → -2.5 → -2.5 | 162.5 → 159.5 → 159.5 | -135 → -135 | +114 → +114 | TOTAL down 3 |
+| UMBC Retrievers @ Towson Tigers | Sat 11-14 07:30 PM | +10.5 → +10.5 → +10.5 | 146.5 → 146.5 → 146.5 | +340 → - | -440 → - | - |
+| Binghamton Bearcats @ Duquesne Dukes | Sat 11-14 07:30 PM | +16.5 → +16.5 → +16.5 | 145.5 → 145.5 → 145.5 | +850 → +850 | -1450 → -1450 | - |
+| Cincinnati Bearcats @ Dayton Flyers | Sat 11-14 07:30 PM | -6.5 → -6.5 → -6.5 | 147.5 → 147.5 → 147.5 | -298 → -290 | +240 → +235 | - |
+| Dillard Blue Devils @ Arkansas State Red Wolves | Sat 11-14 08:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Oklahoma City Okies @ Oral Roberts Golden Eagles | Sat 11-14 08:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Northwestern State Demons @ Little Rock Trojans | Sat 11-14 08:00 PM | +9.5 → +9.5 → +9.5 | 143.5 → 143.5 → 143.5 | +320 → +320 | -410 → -410 | - |
+| Louisiana Tech Bulldogs @ Nicholls Colonels | Sat 11-14 08:00 PM | +2.5 → -1.5 → -1.5 | 139.5 → 138.5 → 138.5 | +130 → - | -155 → - | STEAM away 4; FLIP |
+| UC Davis Aggies @ Sacramento State Hornets | Sat 11-14 08:00 PM | +3.5 → +2.5 → +2.5 | 158.5 → 160.5 → 160.5 | +140 → +130 | -166 → -155 | TOTAL up 2 |
+| UL Monroe Warhawks @ Grand Canyon Lopes | Sat 11-14 08:00 PM | +31.5 → +32.5 → +32.5 | 164.5 → 164.5 → 164.5 | +5000 → - | -100000 → - | - |
+| Furman Paladins @ Belmont Bruins | Sat 11-14 08:30 PM | +2.5 → +2.5 → +2.5 | 154.5 → 154.5 → 154.5 | +136 → +124 | -162 → -148 | - |
+| New Mexico Lobos @ Santa Clara Broncos | Sat 11-14 10:00 PM | +2.5 → -1.5 → -1.5 | 165.5 → 166.5 → 166.5 | +130 → -120 | -155 → +100 | STEAM away 4; FLIP |
+| Utah Valley Wolverines @ Nevada Wolf Pack | Sat 11-14 10:00 PM | +10.5 → +9.5 → +9.5 | 152.5 → 152.5 → 152.5 | +370 → +390 | -485 → -520 | - |
+| Abraham Baldwin Agricultural Stallions @ Florida Gulf Coast Eagles | Sun 11-15 12:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Louisville Cardinals @ Memphis Tigers | Sun 11-15 01:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Boise State Broncos @ Nebraska Cornhuskers (neutral) | Sun 11-15 01:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Norfolk State Spartans @ Georgia State Panthers | Sun 11-15 01:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Quinnipiac Bobcats @ Central Connecticut Blue Devils | Sun 11-15 01:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Colgate Raiders @ Delaware Blue Hens | Sun 11-15 01:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Dartmouth Big Green @ Boston University Terriers | Sun 11-15 01:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Harvard Crimson @ American University Eagles | Sun 11-15 01:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Niagara Purple Eagles @ Iowa State Cyclones | Sun 11-15 01:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| New Hampshire Wildcats @ Boston College Eagles | Sun 11-15 01:30 PM | - → - → - | - → - → - | - → - | - → - | - |
+| William & Mary Tribe @ Michigan Wolverines | Sun 11-15 02:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Capital Crusaders @ Robert Morris Colonials | Sun 11-15 02:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| South Carolina State Bulldogs @ Charleston Cougars | Sun 11-15 02:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Temple Owls @ La Salle Explorers | Sun 11-15 02:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Emmanuel (MA) Lions @ Yale Bulldogs | Sun 11-15 02:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Washington Huskies @ Utah Utes | Sun 11-15 02:00 PM | +2.5 → +3.5 → +3.5 | 144.5 → 143.5 → 143.5 | +136 → +136 | -162 → -162 | - |
+| UAlbany Great Danes @ Holy Cross Crusaders | Sun 11-15 02:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Cal State Bakersfield Roadrunners @ North Dakota State Bison | Sun 11-15 02:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Princeton Tigers @ Rhode Island Rams | Sun 11-15 02:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Missouri Tigers @ Marquette Golden Eagles (neutral) | Sun 11-15 02:30 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Baylor Bears @ Texas Longhorns (neutral) | Sun 11-15 03:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Wright State-Lake Lakers @ Tennessee Tech Golden Eagles | Sun 11-15 03:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Purdue Fort Wayne Mastodons @ Eastern Illinois Panthers | Sun 11-15 03:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Cleveland State Vikings @ Alabama A&M Bulldogs | Sun 11-15 03:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| High Point Panthers @ Saint Louis Billikens | Sun 11-15 03:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Creighton Bluejays @ Iowa Hawkeyes (neutral) | Sun 11-15 03:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| New Mexico State Aggies @ San Diego State Aztecs (neutral) | Sun 11-15 04:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| UC Merced Bobcats @ UC Santa Barbara Gauchos | Sun 11-15 04:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Mercyhurst Lakers @ James Madison Dukes | Sun 11-15 04:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Chicago State Cougars @ Loyola Marymount Lions | Sun 11-15 04:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Idaho State Bengals @ Seattle U Redhawks | Sun 11-15 04:00 PM | +15.5 → +16.5 → +16.5 | 145.5 → 144.5 → 144.5 | +750 → +1000 | -1200 → -1800 | - |
+| Doane Tigers @ South Dakota Coyotes | Sun 11-15 04:30 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Western Michigan Broncos @ Southern Indiana Screaming Eagles | Sun 11-15 04:30 PM | - → - → - | - → - → - | - → - | - → - | - |
+| New Haven Chargers @ Penn State Nittany Lions | Sun 11-15 04:30 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Pepperdine Waves @ Oregon Ducks | Sun 11-15 05:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Canisius Golden Griffins @ Buffalo Bulls | Sun 11-15 05:30 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Ecclesia Royals @ UT Martin Skyhawks | Sun 11-15 06:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Cal Poly Mustangs @ Montana State Bobcats | Sun 11-15 06:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Syracuse Orange @ St. John's Red Storm | Sun 11-15 07:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Arkansas-Pine Bluff Golden Lions @ USC Trojans | Sun 11-15 07:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Florida A&M Rattlers @ UTEP Miners | Sun 11-15 08:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Texas State Bobcats @ UTSA Roadrunners | Sun 11-15 08:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Paine Lions @ Bethune-Cookman Wildcats | Sun 11-15 08:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Coastal Carolina Chanticleers @ Wisconsin Badgers | Sun 11-15 08:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Alabama State Hornets @ San José State Spartans | Sun 11-15 09:00 PM | - → - → - | - → - → - | - → - | - → - | - |
