@@ -12,7 +12,7 @@ Sources
     TR + BPI: TR ranks set the tier and Torvik's totals/ranks are left blank)
   - TeamRankings predictive ratings (newest data/*/HHMM_tr_ratings_CBB.csv)        optional
   - ESPN BPI via the power-index API (skipped if its layout isn't recognized)     optional
-  - Circa open/current: newest data/*/HHMM_circa_CBB.csv from vsin_pull.py        optional
+  - DraftKings open/current from ESPN's scoreboard (VSiN Circa files are history only)
     (no Circa -> CollegeBasketballData /lines open + current by book, one request per run;
      then ESPN's book line; the source is labeled in line_source)
 
@@ -171,11 +171,20 @@ def espn_games(day):
                 line_home = -pts
         elif det.upper() in ("EVEN", "PK", "PICK"):
             line_home = 0.0
+        # Newer payloads: DraftKings open and current ("close" until tip) per side.
+        # Home spread "-7.5" = home favored by 7.5 = home margin +7.5.
+        def side(market, who, when, field):
+            v = (((odds.get(market) or {}).get(who) or {}).get(when) or {}).get(field)
+            return first_num(str(v).lstrip("ouOU")) if v is not None else None   # totals read "o155.5"
+        sp_open, sp_now = side("pointSpread", "home", "open", "line"), side("pointSpread", "home", "close", "line")
+        to_open, to_now = side("total", "over", "open", "line"), side("total", "over", "close", "line")
         games.append({
             "espn_id": str(ev.get("id")), "tip_dt": tip, "tip": tip.strftime("%I:%M %p").lstrip("0"),
             "away": a, "home": h, "neutral": bool(comp.get("neutralSite")),
             "espn_book": (odds.get("provider") or {}).get("name", ""),
-            "espn_line_home": line_home, "espn_total": odds.get("overUnder"),
+            "espn_line_home": -sp_now if sp_now is not None else line_home,
+            "espn_total": to_now if to_now is not None else odds.get("overUnder"),
+            "espn_open_home": -sp_open if sp_open is not None else None, "espn_open_total": to_open,
             "completed": bool(stype.get("completed")),
         })
     return games
@@ -546,6 +555,11 @@ def build_slate(day, games, R, TR, B, circa, lines=None):
             open_h, cur_h = o, c
             open_t, cur_t = first_num(first.get("circa_open_total")), first_num(last.get("circa_total"))
             src = "Circa " + last.get("pulled_et", "")[5:16].replace("T", " ")
+        if cur_h is None and g.get("espn_open_home") is not None and g["espn_line_home"] is not None:
+            # ESPN's DraftKings opener + current: the main line source since VSiN was dropped.
+            open_h, cur_h = g["espn_open_home"], g["espn_line_home"]
+            open_t, cur_t = g.get("espn_open_total"), g["espn_total"]
+            src = f'ESPN/{g["espn_book"] or "book"} open+now'
         cb = lines_for(g) if cur_h is None else None
         if cb and cb["spread"] is not None:
             # CBBD spread is the home team's: -5.5 = home favored by 5.5 = home margin +5.5.
@@ -738,7 +752,7 @@ def main():
     circa = circa_rows()
     today = [r for r in circa if r.get("pulled_et", "").startswith(day.isoformat())]
     status["circa"] = (f"ok {len(today)} CBB rows pulled today" if today else
-                       "none today (VSiN pull failing or board not up): CBBD book lines, then ESPN's, used where posted")
+                       "none (VSiN dropped): ESPN DraftKings open+now, then CBBD book lines")
 
     os.makedirs(f"{OUT}/latest", exist_ok=True)
     if R is None and TR:
@@ -751,8 +765,13 @@ def main():
 
     lines = {}
     lkey = (os.environ.get("CBBD_API_KEY") or os.environ.get("CBD_API_KEY") or "").strip()
+    priced = [g for g in games if g["espn_line_home"] is not None]
+    espn_open = sum(1 for g in priced if g.get("espn_open_home") is not None)
+    status["espn_lines"] = f"{espn_open}/{len(priced)} priced games have ESPN's DraftKings opener"
     if today:
         status["cbbd_lines"] = "skipped: Circa rows available today"
+    elif priced and espn_open >= 0.8 * len(priced):
+        status["cbbd_lines"] = "skipped: ESPN has DraftKings open + current (saves the CBBD monthly quota)"
     elif not lkey:
         status["cbbd_lines"] = "skipped: no CBBD_API_KEY/CBD_API_KEY secret"
     else:
