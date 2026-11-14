@@ -1,6 +1,11 @@
 {
-  "pulled_et": "2026-11-13T22:40-05:00",
+  "pulled_et": "2026-11-13T22:42-05:00",
   "cookie_source": "Chrome on the Mac (profile 'Default')",
+  "chrome_diag": {
+    "Default": "42 live cookies (db v24)",
+    "chosen": "Default",
+    "cookies": ".vsin.com:LANG, vsin.com:LANG, vsin.com:LANG_CHANGED, .vsin.com:__pil, vsin.com:LANG, vsin.com:LANG_CHANGED, .vsin.com:_cc_id, .vsin.com:_pubcid, vsin.com:LANG, vsin.com:LANG_CHANGED, .vx.vsin.com:__stripe_mid, .vsin.com:connectId, .vsin.com:cto_bundle, .vsin.com:__tac, .vsin.com:__tae, .vsin.com:_clck, data.vsin.com:PHPSESSID, .vsin.com:cf_clearance, vsin.com:__pnahc, .vsin.com:_lc2_fpi, .vsin.com:_lc2_fpi_js, .vsin.com:_li_dcdm_c, .vsin.com:_li_ss, .vsin.com:_vwo_uuid_v2, .vsin.com:__idr, .vsin.com:__pat, .vsin.com:__pid, .vsin.com:__pvi, .vsin.com:__tbc, .vsin.com:__utp, .vsin.com:_clsk, .v"
+  },
   "splits_DK_NFL": "ok 1 games",
   "splits_CIRCA_NFL": "ok 1 games",
   "circa_NFL": "ok 26 games",
