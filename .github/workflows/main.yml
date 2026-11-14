@@ -24,17 +24,15 @@ jobs:
       - name: Pull VSiN splits and Circa lines (Mac's own python3)
         id: pull
         env:
-          VSIN_COOKIE: ${{ secrets.VSIN_COOKIE }}
+          VSIN_COOKIE_SOURCE: chrome          # read the vsin.com login from Chrome on the Mac
+          VSIN_COOKIE: ${{ secrets.VSIN_COOKIE }}   # fallback only
         run: python3 vsin_pull.py
         continue-on-error: true
       - name: Save data to the repo
         run: |
           git config user.name "vsin-pull-bot"
           git config user.email "actions@users.noreply.github.com"
-          python3 publish_gist.py --write-dir data/latest
-          git add data
-          git diff --cached --quiet || git commit -m "VSiN pull $(TZ=America/New_York date '+%Y-%m-%d %H:%M ET') (Mac)"
-          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep $((i * 10)); done
+          python3 save_pull.py "VSiN pull (Mac)"   # commit own files, rebuild data/latest/ on newest main, push (no conflicts)
       - name: Fail loudly if the cookie expired or VSiN blocked the pull
         if: steps.pull.outcome == 'failure'
         run: |

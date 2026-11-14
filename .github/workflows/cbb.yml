@@ -37,10 +37,7 @@ jobs:
         run: |
           git config user.name "cbb-pull-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/cbb
-          git diff --cached --quiet || git commit -m "CBB pull $(TZ=America/New_York date '+%Y-%m-%d %H:%M ET')"
-          git pull --rebase origin main
-          git push
+          python save_pull.py "CBB pull"   # commit own files, rebuild data/latest/ on newest main, push (no conflicts)
       - name: Fail loudly if ESPN or Torvik failed
         if: steps.pull.outcome == 'failure'
         run: |
