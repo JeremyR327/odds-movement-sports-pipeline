@@ -31,10 +31,7 @@ jobs:
         run: |
           git config user.name "vsin-pull-bot"
           git config user.email "actions@users.noreply.github.com"
-          python3 publish_gist.py --write-dir data/latest
-          git add data
-          git diff --cached --quiet || git commit -m "VSiN pull $(TZ=America/New_York date '+%Y-%m-%d %H:%M ET') (Mac)"
-          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep $((i * 10)); done
+          python3 save_pull.py "VSiN pull (Mac)"   # commit own files, rebuild data/latest/ on newest main, push (no conflicts)
       - name: Fail loudly if the cookie expired or VSiN blocked the pull
         if: steps.pull.outcome == 'failure'
         run: |

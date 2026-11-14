@@ -54,17 +54,9 @@ def sh(*cmd):
 
 
 def save(label):
-    sh(sys.executable, "publish_gist.py", "--write-dir", "data/latest")
-    sh("git", "add", "data")
-    if subprocess.run(["git", "diff", "--cached", "--quiet"]).returncode == 0:
-        print("nothing to commit", flush=True)
-        return
-    sh("git", "commit", "-q", "-m", f"{label} {datetime.now(ET):%Y-%m-%d %H:%M} ET")
-    for attempt in range(3):
-        if sh("git", "pull", "-q", "--rebase", "origin", "main") == 0 and sh("git", "push", "-q") == 0:
-            return
-        time.sleep(10 * (attempt + 1))
-    print("push failed 3 times; will retry with the next pull", flush=True)
+    """Commit + push via save_pull.py: own files first, then rebuild data/latest/ on top of
+    the newest main, so overlapping jobs can't conflict (see save_pull.py)."""
+    sh(sys.executable, "save_pull.py", label)
 
 
 def main():

@@ -31,11 +31,7 @@ jobs:
         run: |
           git config user.name "teamrankings-pull-bot"
           git config user.email "actions@users.noreply.github.com"
-          python publish_gist.py --write-dir data/latest
-          git add data
-          git diff --cached --quiet || git commit -m "TeamRankings pull $(TZ=America/New_York date '+%Y-%m-%d %H:%M ET')"
-          git pull --rebase origin main
-          git push
+          python save_pull.py "TeamRankings pull"   # commit own files, rebuild data/latest/ on newest main, push (no conflicts)
       - name: Publish latest data to the gist (read by the nightly Claude analysis)
         if: always()
         env:
