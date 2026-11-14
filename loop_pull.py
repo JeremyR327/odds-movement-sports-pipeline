@@ -6,7 +6,9 @@ runs this script for ~5.5 hours and then starts the next loop run itself.
 
 Pulls are timed to feed the scheduled Claude tasks (all ET). VSiN was dropped on Nov 14, 2026
 (it doesn't allow scripted access); lines now come from ESPN's public scoreboard feed
-(DraftKings open + current, espn_lines.py), which runs here on GitHub's servers.
+(DraftKings open + current, espn_lines.py), which runs here on GitHub's servers. Every lines
+pull is followed by dk_splits.py (DK Network handle/bets for every NFL and CFB game, joined to
+those lines, with the rubric flags; written to data/splits/latest/).
   9:09 AM daily          lines: morning baseline for the day's line path
   9:59 AM Sat/Sun        lines: for the 10:13 AM weekend final check
   12:39 PM daily         lines: midday point on the path
@@ -78,6 +80,7 @@ def main():
         time.sleep(max(0, wait))
         if "lines" in kinds:
             sh(sys.executable, "espn_lines.py")
+            sh(sys.executable, "dk_splits.py")       # DK Network splits for every NFL/CFB game, joined to these lines
         if "tr" in kinds:
             sh(sys.executable, "teamrankings_pull.py")
         if "cbb" in kinds:
