@@ -186,6 +186,40 @@ def write(name, rows):
         w = csv.DictWriter(f, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
 
 
+def page_markers(html):
+    """What the page itself says about the login (no personal data, just yes/no markers)."""
+    low = html.lower()
+    title = re.search(r"<title[^>]*>(.*?)</title>", html, re.S | re.I)
+    return {"bytes": len(html), "title": re.sub(r"\s+", " ", title.group(1)).strip()[:80] if title else "",
+            **{w: (w in low) for w in ("logout", "log out", "sign out", "my account", "log in", "login",
+                                       "sign in", "subscribe", "vsin pro", "upgrade")}}
+
+
+def login_probe(chrome_cookie):
+    """Logged-out free view: fetch one splits page with each cookie variant and count games,
+    to tell 'Chrome isn't signed in' from 'VSiN wants something we don't send'."""
+    url = SPLITS.format(src="DK", sport="CFB")
+    pairs = [kv for kv in chrome_cookie.split("; ") if "=" in kv]
+    keep = re.compile(r"^(PHPSESSID|wordpress|wp_|__ut|__tac|__tae|__pat|__pid|__pvi|cf_clearance|xbc|__tbc|"
+                      r"_pc_|piano|tp_|sess|auth|token|user|member|login)", re.I)
+    variants = {"chrome_all": chrome_cookie,
+                "chrome_login_only": "; ".join(kv for kv in pairs if keep.match(kv)),
+                "secret": os.environ.get("VSIN_COOKIE", "").strip(),
+                "no_cookie": ""}
+    out = {"chrome_names_all": ", ".join(kv.split("=", 1)[0] for kv in pairs)[:1500],
+           "chrome_header_bytes": len(chrome_cookie)}
+    for name, c in variants.items():
+        if name != "no_cookie" and not c:
+            out[name] = "empty"
+            continue
+        try:
+            html = get(url, c or None)
+            out[name] = {"games": len(parse_splits(html)), **page_markers(html)}
+        except Exception as e:
+            out[name] = f"error: {e}"[:150]
+    return out
+
+
 def main():
     status, paywalled = {"pulled_et": NOW.isoformat(timespec="minutes")}, False
     cookie = ""
@@ -238,6 +272,8 @@ def main():
         status["alert"] = ("VSiN splits show the logged-out free view (<=2 games per page) while the line "
                            "tracker lists many: the VSiN login isn't working. On the Mac, open data.vsin.com "
                            "in Chrome and sign in (or refresh the VSIN_COOKIE secret)")
+    if paywalled and dk_max <= 2:
+        status["login_probe"] = login_probe(cookie)
     if DIAG:
         status["diag_403"] = DIAG
     os.makedirs("data", exist_ok=True)
