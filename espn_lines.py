@@ -20,12 +20,13 @@ from zoneinfo import ZoneInfo
 ET = ZoneInfo("America/New_York")
 NOW = datetime.now(ET)
 BASE = "https://site.api.espn.com/apis/site/v2/sports/"
-# (path, extra query). NFL/CFB default to the current week; NBA/CBB take a date range.
+# (path, extra query). NFL/CFB default to the current week; NBA/CBB are fetched for today
+# and tomorrow ({d}; ESPN rejects a date range for the NBA).
 LEAGUES = {
     "NFL": ("football/nfl", ""),
     "CFB": ("football/college-football", "&groups=80&limit=300"),   # FBS
-    "NBA": ("basketball/nba", "&dates={d0}-{d1}"),
-    "CBB": ("basketball/mens-college-basketball", "&groups=50&limit=500&dates={d0}-{d1}"),
+    "NBA": ("basketball/nba", "&dates={d}"),
+    "CBB": ("basketball/mens-college-basketball", "&groups=50&limit=500&dates={d}"),
 }
 FIELDS = ["pulled_et", "espn_id", "start_et", "away", "home", "away_abbr", "home_abbr", "book",
           "spread_open", "spread_now", "spread_odds_now", "total_open", "total_now",
@@ -100,12 +101,21 @@ def parse_odds(odds, away_abbr, home_abbr):
     return o
 
 
-def pull(sport):
+def events(sport):
     path, extra = LEAGUES[sport]
-    d0, d1 = NOW.strftime("%Y%m%d"), (NOW + timedelta(days=1)).strftime("%Y%m%d")
-    data = get(BASE + path + "/scoreboard?" + extra.format(d0=d0, d1=d1).lstrip("&"))
+    days = [NOW, NOW + timedelta(days=1)] if "{d}" in extra else [None]
+    seen, out = set(), []
+    for day in days:
+        q = extra.format(d=day.strftime("%Y%m%d")) if day else extra
+        for ev in get(BASE + path + "/scoreboard?" + q.lstrip("&")).get("events", []):
+            if ev.get("id") not in seen:
+                seen.add(ev.get("id")); out.append(ev)
+    return out
+
+
+def pull(sport):
     rows = []
-    for ev in data.get("events", []):
+    for ev in events(sport):
         comp = (ev.get("competitions") or [{}])[0]
         state = dig(comp, "status", "type", "state") or dig(ev, "status", "type", "state") or ""
         if state != "pre":           # started or final: no longer a betting line
@@ -148,11 +158,10 @@ def main():
 
 
 if __name__ == "__main__":
-    if len(sys.argv) > 1 and sys.argv[1] == "--dump":     # debug: print one raw odds object per league
-        for sp, (p, ex) in LEAGUES.items():
-            d0, d1 = NOW.strftime("%Y%m%d"), (NOW + timedelta(days=1)).strftime("%Y%m%d")
-            evs = get(BASE + p + "/scoreboard?" + ex.format(d0=d0, d1=d1).lstrip("&")).get("events", [])
-            odds = next((c["competitions"][0].get("odds") for c in evs if c["competitions"][0].get("odds")), None)
-            print(sp, len(evs), "events;", json.dumps(odds[0] if odds else None)[:2500])
+    if len(sys.argv) > 1 and sys.argv[1] == "--dump":     # debug: one raw odds object per league
+        for sp in LEAGUES:
+            evs = events(sp)
+            odds = next((e["competitions"][0].get("odds") for e in evs if e["competitions"][0].get("odds")), None)
+            print(sp, len(evs), "events;", json.dumps(odds[0] if odds else None)[:600])
         sys.exit(0)
     sys.exit(main())

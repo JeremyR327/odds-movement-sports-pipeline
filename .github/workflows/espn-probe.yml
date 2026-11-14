@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: python3 espn_lines.py --dump
+      - run: python3 espn_lines.py --dump || true
       - run: python3 espn_lines.py && head -4 data/*/*_lines_*.csv
