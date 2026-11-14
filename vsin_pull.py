@@ -194,6 +194,8 @@ def main():
             from chrome_cookies import cookie_header
             cookie, profile = cookie_header("vsin.com")
             status["cookie_source"] = f"Chrome on the Mac (profile '{profile}')"
+            import chrome_cookies
+            status["chrome_diag"] = dict(chrome_cookies.LAST_DIAG)
         except Exception as e:
             status["cookie_source"] = f"Chrome failed ({e}); using the VSIN_COOKIE secret"
     if not cookie:
