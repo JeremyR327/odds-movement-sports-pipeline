@@ -1,0 +1,262 @@
+#!/usr/bin/env python3
+"""DraftKings betting splits (DK Network, public) joined to the pipeline's DraftKings lines.
+
+Why: the cloud scans read DK Network live, 10 games per page, so CFB coverage stopped at
+~20 games. This pulls every page on GitHub, joins each game to its DraftKings open/now line
+from espn_lines.py, computes Jeremy's rubric flags for EVERY game, and writes one short
+brief the scans can read in a single fetch.
+
+Writes (kept out of data/latest/, which publish_gist.py rewrites):
+  data/splits/<date>/HHMM_dk_<SPORT>.csv      every game, every pull (the day's split path)
+  data/splits/latest/brief_<SPORT>.md         one row per game, signal games first
+  data/splits/latest/dk_<SPORT>.csv           newest pull
+  data/splits/latest/status.json
+
+Rubric (from the sharp-betting-scan skill): PUB = 65%+ of DK bets on one side;
+SHARP = handle minus bets >= +15 on a side; RLM = the DK spread moved (open -> now) toward
+the side with under 50% of bets; STEAM = 1.5+ spread move; KEY = crossed a key number.
+Usage: python dk_splits.py [CFB NFL]   (default: CFB NFL)
+"""
+import csv, difflib, glob, html, json, os, re, sys, time, urllib.request
+from datetime import datetime
+from zoneinfo import ZoneInfo
+
+ET = ZoneInfo("America/New_York")
+NOW = datetime.now(ET)
+URL = ("https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/"
+       "?tb_eg={eg}&tb_edate=n7days&tb_emt=0&tb_page={page}")
+EG = {"CFB": 87637, "NFL": 88808}
+KEYS = {"CFB": (3, 7, 14, 17), "NFL": (3, 7, 10)}
+UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+                    "(KHTML, like Gecko) Chrome/130 Safari/537.36",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "Accept-Language": "en-US,en;q=0.9", "Cache-Control": "no-cache", "Pragma": "no-cache"}
+OUT = "data/splits"
+
+
+def get(url):
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=40) as r:
+                return r.read().decode("utf-8", "replace")
+        except Exception:
+            if attempt == 2:
+                raise
+            time.sleep(5 * (attempt + 1))
+
+
+def page_text(raw):
+    """HTML -> one line of plain text per block element (headings, rows, cells)."""
+    raw = re.sub(r"(?is)<(script|style|noscript)[^>]*>.*?</\1>", " ", raw)
+    raw = re.sub(r"(?i)<\s*(br|/p|/div|/li|/tr|/td|/th|/h\d|/span|/a)\b[^>]*>", "\n", raw)
+    txt = html.unescape(re.sub(r"<[^>]+>", " ", raw)).replace("−", "-").replace(" ", " ")
+    return "\n".join(l for l in (re.sub(r"[ \t]+", " ", x).strip() for x in txt.splitlines()) if l)
+
+
+TITLE = re.compile(r"^(?P<away>[^@\n]{2,60}?) @ (?P<home>[^@\n]{2,60})$")
+WHEN = re.compile(r"(?P<dow>Mon|Tue|Wed|Thu|Fri|Sat|Sun)\w* (?P<md>\d{1,2}/\d{1,2})\s*[·\-|]?\s*(?P<tm>\d{1,2}:\d{2} [AP]M)")
+UPDATED = re.compile(r"Updated (\d{1,2}:\d{2} [AP]M)")
+# one side row inside a market: name (+ line), odds, handle %, bets %
+ROW = re.compile(r"(?P<sel>[A-Za-z&.'()][A-Za-z0-9&.'()+\- ]*?)\s+(?P<odds>[+-]\d{3,5}|EVEN)\s+(?P<h>\d{1,3})%\s+(?P<b>\d{1,3})%")
+
+
+def parse_page(raw):
+    """-> (games, updated). Each game: away, home, when, ml/spread/total sides with handle/bets."""
+    text = page_text(raw)
+    upd = UPDATED.search(text)
+    lines = text.split("\n")
+    starts = [i for i, l in enumerate(lines) if TITLE.match(l) and i + 1 < len(lines) and WHEN.search(" ".join(lines[i + 1:i + 3]))]
+    games = []
+    for n, i in enumerate(starts):
+        block = " ".join(lines[i + 1:(starts[n + 1] if n + 1 < len(starts) else len(lines))])
+        t, w = TITLE.match(lines[i]), WHEN.search(block)
+        g = {"away": t["away"].strip(), "home": t["home"].strip(), "when": f'{w["dow"]} {w["md"]} {w["tm"]}'}
+        # split the block on the market labels, in the page's order: Moneyline, Spread, Total
+        parts = re.split(r"\b(Moneyline|Spread|Total)\b(?!\s*\d)", block)
+        for k in range(1, len(parts) - 1, 2):
+            mkt, body = parts[k].lower(), parts[k + 1]
+            body = re.sub(r"\b(Selection|Odds|Handle|Bets|Advertisement)\b", " ", body)
+            rows = [m.groupdict() for m in ROW.finditer(body)][:2]
+            if len(rows) == 2 and mkt not in g:
+                g[mkt] = [{"sel": r["sel"].strip(), "odds": r["odds"], "handle": int(r["h"]), "bets": int(r["b"])} for r in rows]
+        if any(m in g for m in ("moneyline", "spread", "total")):
+            games.append(g)
+    return games, (upd.group(1) if upd else "")
+
+
+def pull_splits(sport):
+    games, seen, updated = [], set(), []
+    for page in range(1, 16):
+        gs, upd = parse_page(get(URL.format(eg=EG[sport], page=page) + f"&_={int(time.time())}"))
+        new = [g for g in gs if (g["away"], g["home"], g["when"]) not in seen]
+        if not new:
+            break
+        for g in new:
+            seen.add((g["away"], g["home"], g["when"]))
+        games += new; updated.append(upd)
+        time.sleep(1)
+    return games, updated
+
+
+# ---------------------------------------------------------------- join to the DraftKings lines
+def norm(s):
+    s = (s or "").lower().replace("&", " and ").replace("state", "st").replace("saint", "st")
+    return re.sub(r"[^a-z0-9 ]", "", s).strip()
+
+
+def name_score(dk, espn):
+    """DK uses school names ('Miami FL', 'Ohio State'); ESPN displayName adds the mascot."""
+    d, e = norm(dk), norm(espn)
+    if e.startswith(d):
+        return 1.0
+    d2 = re.sub(r"\b(fl|oh|pa|ca|tx)\b", "", d).strip()                 # 'miami fl' -> 'miami'
+    if d2 and e.startswith(d2 + " "):
+        return 0.95
+    return difflib.SequenceMatcher(None, d, " ".join(e.split()[:len(d.split()) + 1])).ratio()
+
+
+def latest_lines(sport):
+    paths = sorted(glob.glob(f"data/{NOW:%Y-%m-%d}/[0-9][0-9][0-9][0-9]_lines_{sport}.csv"))
+    if not paths:
+        paths = sorted(glob.glob(f"data/????-??-??/[0-9][0-9][0-9][0-9]_lines_{sport}.csv"))[-1:]
+    return list(csv.DictReader(open(paths[-1], encoding="utf-8"))) if paths else [], (paths[-1] if paths else "")
+
+
+def f(x):
+    try:
+        return float(x)
+    except (TypeError, ValueError):
+        return None
+
+
+def flags(g, line, sport):
+    """Rubric flags for one game. Spread numbers are the AWAY team's (line file convention)."""
+    out, sides = [], {}
+    sp = g.get("spread")
+    if sp:
+        a, h = sp                                   # DK lists away first, home second
+        for side, r in (("away", a), ("home", h)):
+            sides[side] = r
+        pub = max(sp, key=lambda r: r["bets"])
+        if pub["bets"] >= 65:
+            out.append(f'PUB {pub["sel"]} {pub["bets"]}%')
+        for r in sp:
+            if r["handle"] - r["bets"] >= 15:
+                out.append(f'SHARP {r["sel"]} +{r["handle"] - r["bets"]}')
+    o, n = (f(line.get("spread_open")), f(line.get("spread_now"))) if line else (None, None)
+    if o is not None and n is not None and n != o and sp:
+        # Away spread +3 -> +5: away gets more points = market moved to HOME. -3 -> -5 = moved to AWAY.
+        toward = "home" if n > o else "away"
+        minority = "away" if sides["away"]["bets"] < 50 else ("home" if sides["home"]["bets"] < 50 else None)
+        if minority and minority == toward:
+            out.append(f'RLM {sides[toward]["sel"]} ({o:+g}→{n:+g})')
+        if abs(n - o) >= 1.5:
+            out.append(f'STEAM {toward} {abs(n - o):g}')
+        lo, hi = sorted((abs(o), abs(n)))
+        crossed = [k for k in KEYS[sport] if lo != hi and lo <= k <= hi and not (k == lo and o * n > 0 and lo == hi)]
+        if crossed and (o * n >= 0):                  # same favorite: through or onto/off a key number
+            out.append(f"KEY {','.join(map(str, crossed))}")
+        elif o * n < 0:
+            out.append("FLIP favorite")
+    tot = g.get("total")
+    if tot:
+        ov = next((r for r in tot if r["sel"].lower().startswith("over")), tot[0])
+        if ov["bets"] >= 65 or ov["bets"] <= 35:
+            out.append(f'PUB {"Over" if ov["bets"] >= 65 else "Under"} {max(ov["bets"], 100 - ov["bets"])}%')
+        for r in tot:
+            if r["handle"] - r["bets"] >= 15:
+                out.append(f'SHARP {r["sel"].split()[0]} +{r["handle"] - r["bets"]}')
+    to, tn = (f(line.get("total_open")), f(line.get("total_now"))) if line else (None, None)
+    if to is not None and tn is not None and abs(tn - to) >= (2 if sport == "CFB" else 1.5):
+        out.append(f"TOTAL {'up' if tn > to else 'down'} {abs(tn - to):g}")
+    return out
+
+
+def score(fl):
+    """Sort key: sharp + RLM agreeing first, then any sharp/RLM, then public/steam only."""
+    s = sum(3 for x in fl if x.startswith("RLM")) + sum(2 for x in fl if x.startswith("SHARP"))
+    return s + sum(1 for x in fl if x.startswith(("STEAM", "KEY", "TOTAL", "PUB")))
+
+
+def build(sport, games, updated, lines, lines_path):
+    rows, used, unmatched = [], set(), []
+    for g in games:
+        best, bs = None, 0.0
+        for i, l in enumerate(lines):
+            s = name_score(g["away"], l["away"]) + name_score(g["home"], l["home"])
+            if s > bs:
+                best, bs = i, s
+        line = lines[best] if best is not None and bs >= 1.6 else None
+        if line:
+            used.add(best)
+        else:
+            unmatched.append(f'{g["away"]} @ {g["home"]}')
+        fl = flags(g, line, sport)
+        sp, tot, ml = g.get("spread") or [{}, {}], g.get("total") or [{}, {}], g.get("moneyline") or [{}, {}]
+        rows.append({"pulled_et": NOW.isoformat(timespec="minutes"), "when": g["when"],
+                     "away": g["away"], "home": g["home"], "espn_id": (line or {}).get("espn_id", ""),
+                     "spread_open": (line or {}).get("spread_open", ""), "spread_now": (line or {}).get("spread_now", ""),
+                     "total_open": (line or {}).get("total_open", ""), "total_now": (line or {}).get("total_now", ""),
+                     "spr_away_sel": sp[0].get("sel", ""), "spr_away_handle": sp[0].get("handle", ""), "spr_away_bets": sp[0].get("bets", ""),
+                     "spr_home_handle": sp[1].get("handle", ""), "spr_home_bets": sp[1].get("bets", ""),
+                     "over_handle": tot[0].get("handle", ""), "over_bets": tot[0].get("bets", ""),
+                     "ml_away_handle": ml[0].get("handle", ""), "ml_away_bets": ml[0].get("bets", ""),
+                     "flags": "; ".join(fl), "signal": score(fl)})
+    return rows, unmatched
+
+
+def brief(sport, rows, updated, lines_path, unmatched):
+    hdr = [f"# {sport} — DK splits + DraftKings lines, pulled {NOW:%Y-%m-%d %H:%M} ET",
+           "",
+           f"Splits: DK Network, {len(rows)} games (page 'Updated' times: {', '.join(sorted(set(u for u in updated if u))) or 'n/a'}). "
+           f"Lines: {os.path.basename(lines_path) or 'none'} (DraftKings via ESPN; spread = AWAY team's number, open → now).",
+           "Splits cells = handle% / bets% for the AWAY side (spread, ML) or the Over (total); home/Under = 100 minus.",
+           "Flags: PUB 65%+ bets · SHARP handle−bets ≥ +15 · RLM line moved toward the side with <50% of bets · STEAM 1.5+ · KEY number crossed · TOTAL moved 2+ (CFB) / 1.5+ (NFL).",
+           "Rows sorted by signal (RLM and SHARP first). Verify every flag against the numbers.",
+           f"Unmatched to a DK line: {', '.join(unmatched) or 'none'}",
+           "",
+           "| Game | Start (ET) | Spread open→now | DK spr h/b | Total open→now | DK over h/b | DK ML h/b | Flags |",
+           "|---|---|---|---|---|---|---|---|"]
+    body = []
+    for r in sorted(rows, key=lambda r: (-r["signal"], r["when"])):
+        so, sn = r["spread_open"], r["spread_now"]
+        body.append(f'| {r["away"]} @ {r["home"]} | {r["when"]} | {so or "—"}→{sn or "—"} | {r["spr_away_handle"]}/{r["spr_away_bets"]} | '
+                    f'{r["total_open"] or "—"}→{r["total_now"] or "—"} | {r["over_handle"]}/{r["over_bets"]} | '
+                    f'{r["ml_away_handle"]}/{r["ml_away_bets"]} | {r["flags"] or "—"} |')
+    return "\n".join(hdr + body) + "\n"
+
+
+def write_csv(path, rows):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", newline="", encoding="utf-8") as fh:
+        if rows:
+            w = csv.DictWriter(fh, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
+
+
+def main():
+    sports = [s.upper() for s in sys.argv[1:]] or ["CFB", "NFL"]
+    status = {"pulled_et": NOW.isoformat(timespec="minutes"), "source": "DK Network splits + espn_lines.py"}
+    os.makedirs(f"{OUT}/latest", exist_ok=True)
+    for sport in sports:
+        try:
+            games, updated = pull_splits(sport)
+            lines, lp = latest_lines(sport)
+            rows, unmatched = build(sport, games, updated, lines, lp)
+            write_csv(f"{OUT}/{NOW:%Y-%m-%d}/{NOW:%H%M}_dk_{sport}.csv", rows)
+            write_csv(f"{OUT}/latest/dk_{sport}.csv", rows)
+            with open(f"{OUT}/latest/brief_{sport}.md", "w", encoding="utf-8") as fh:
+                fh.write(brief(sport, rows, updated, lp, unmatched))
+            status[sport] = (f"ok {len(rows)} games, {sum(1 for r in rows if r['signal'])} with a flag, "
+                             f"{len(unmatched)} without a DK line; page updated {', '.join(sorted(set(u for u in updated if u))) or 'n/a'}")
+            if not rows:
+                status[sport] = "0 games parsed (page empty, blocked, or layout changed)"
+        except Exception as e:
+            status[sport] = f"error: {e}"[:200]
+    with open(f"{OUT}/latest/status.json", "w") as fh:
+        json.dump(status, fh, indent=2)
+    print(json.dumps(status, indent=2))
+    return 1 if all(str(status.get(s, "")).startswith(("error", "0 games")) for s in sports) else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
