@@ -3,10 +3,9 @@
 
 The nightly Claude analysis runs where it cannot read this private repo, so the
 workflows call this after each pull. The gist holds:
-  status.json, tr_status.json            latest run status (VSiN / TeamRankings)
-  splits_DK_<SPORT>.csv                  ALL of today's DK split pulls (pulled_et column = pull time)
-  splits_CIRCA_<SPORT>.csv               ALL of today's Circa split pulls
-  circa_<SPORT>.csv                      ALL of today's Circa line-tracker pulls (open + current)
+  lines_status.json, tr_status.json      latest run status (ESPN lines / TeamRankings)
+  lines_<SPORT>.csv                      ALL of today's DraftKings line pulls via ESPN (pulled_et = pull time)
+  brief_<SPORT>.md                       one row per upcoming game: open -> first today -> now, move flags
   tr_<kind>_<SPORT>.csv                  newest TeamRankings file of each kind
   README.md                              update time and file list
 Raw files: https://gist.githubusercontent.com/<owner>/<GIST_ID>/raw/<file>
@@ -23,7 +22,8 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 
 SPORTS = ["NFL", "CFB", "NBA", "CBB"]
-VSIN_KINDS = ["splits_DK", "splits_CIRCA", "circa"]
+VSIN_KINDS = ["splits_DK", "splits_CIRCA", "circa"]   # history only: VSiN was dropped Nov 14, 2026
+LINE_KINDS = ["lines"]                                   # espn_lines.py: DraftKings open/now via ESPN
 TR_KINDS = ["tr_picks", "tr_ratings", "tr_ats", "tr_ou", "tr_stats"]
 
 
@@ -50,12 +50,12 @@ def combine(paths):
 
 def build_files(day):
     files = {}
-    for name in ("status.json", "tr_status.json"):
+    for name in ("lines_status.json", "tr_status.json"):
         p = os.path.join("data", name)
         if os.path.exists(p):
             files[name] = open(p, encoding="utf-8").read()
     for sport in SPORTS:
-        for kind in VSIN_KINDS:
+        for kind in LINE_KINDS:
             paths = glob.glob(os.path.join(day, f"[0-9][0-9][0-9][0-9]_{kind}_{sport}.csv"))
             if paths:
                 files[f"{kind}_{sport}.csv"] = combine(paths)
@@ -87,70 +87,67 @@ def _rows(text):
     return list(csv.DictReader(io.StringIO(text))) if text else []
 
 
-def _by_game(rows):
-    """{(away, home): row} for the newest pull, and the same for the first pull of the day."""
-    if not rows:
-        return {}, {}
-    pulls = sorted({r["pulled_et"] for r in rows})
-    first = {(r["away"], r["home"]): r for r in rows if r["pulled_et"] == pulls[0]}
-    last = {(r["away"], r["home"]): r for r in rows if r["pulled_et"] == pulls[-1]}
-    return last, first
+KEYS = {"NFL": (3, 7, 10), "CFB": (3, 7, 14, 17)}
+STEAM = {"NFL": 1.5, "CFB": 1.5, "NBA": 1.5, "CBB": 1.5}
+TOTAL_MOVE = {"NFL": 1.5, "CFB": 2, "NBA": 2, "CBB": 2}
 
 
-def _pct(r, side, kind):
-    """'bets/handle' for one side, e.g. '23/12'."""
-    if not r:
-        return "-"
-    b, h = _num(r.get(f"{side}_{kind}_bets")), _num(r.get(f"{side}_{kind}_handle"))
-    return "-" if b is None or h is None else f"{b:.0f}/{h:.0f}"
+def _crossed(a, b, keys):
+    """Key numbers strictly between |a| and |b| or landed on/off, e.g. -2.5 -> -3.5 crosses 3."""
+    if a is None or b is None or a == b or (a > 0) != (b > 0) and a != 0 and b != 0:
+        return []
+    lo, hi = sorted((abs(a), abs(b)))
+    return [k for k in keys if lo < k < hi or (k in (lo, hi) and lo != hi)]
 
 
 def brief(files, sport):
-    """One markdown line per game: Circa open->now, DK/Circa splits (away side, bets/handle %),
-    DK first pull of the day, and rubric flags. Small enough to read reliably by WebFetch."""
-    dk, dk_first = _by_game(_rows(files.get(f"splits_DK_{sport}.csv")))
-    ci, _ = _by_game(_rows(files.get(f"splits_CIRCA_{sport}.csv")))
-    ln, _ = _by_game(_rows(files.get(f"circa_{sport}.csv")))
-    if not dk and not ln:
+    """One markdown line per upcoming game: DraftKings spread / total / moneyline as
+    open -> first pull today -> now (via ESPN), plus line-move flags. Splits are not in the
+    pipeline (VSiN was dropped); the scheduled tasks read free DK splits themselves."""
+    rows = _rows(files.get(f"lines_{sport}.csv"))
+    if not rows:
         return ""
-    stamp = next(iter(dk.values()))["pulled_et"][11:16] if dk else "?"
-    first_stamp = next(iter(dk_first.values()))["pulled_et"][11:16] if dk_first else "?"
-    out = [f"# {sport} brief — DK/Circa pull {stamp} ET (DK first pull {first_stamp} ET)", "",
-           "Splits are AWAY side as bets%/handle% (home = 100 minus). Spreads are the away team's. "
-           "Flags: PUB = 65%+ of DK bets on one side; SHARP DK = handle minus bets >= +15, SHARP CI = >= +10 (Circa); "
-           "RLM = Circa spread moved toward the side with under 50% of DK bets. 0/0 and 100/100 cells and thin Circa samples (0/50/100) are not flagged.", "",
-           "| Game | Tip | Circa spread open→now | Circa total open→now | DK spr | DK spr first | Circa spr | DK over | Circa over | DK ML | Flags |",
-           "|---|---|---|---|---|---|---|---|---|---|---|"]
-    order = list(ln) + [k for k in dk if k not in ln]  # line-tracker order is the page's date/tip order
-    for key in order:
-        d, f, c, l = dk.get(key), dk_first.get(key), ci.get(key), ln.get(key)
-        o_sp, n_sp = (_num(l.get("circa_open_away_spread")), _num(l.get("circa_away_spread"))) if l else (None, None)
-        o_to, n_to = (_num(l.get("circa_open_total")), _num(l.get("circa_total"))) if l else (None, None)
+    pulls = sorted({r["pulled_et"] for r in rows})
+    first = {r["espn_id"]: r for r in rows if r["pulled_et"] == pulls[0]}
+    seen = {}
+    for r in rows:                        # newest row per game (games drop out once they start)
+        seen[r["espn_id"]] = r
+    last_pull = pulls[-1]
+    games = [r for r in seen.values() if r["pulled_et"] == last_pull]
+    out = [f"# {sport} lines — DraftKings via ESPN, pull {last_pull[11:16]} ET (first pull today {pulls[0][11:16]} ET)", "",
+           "Spread = AWAY team's number. Each cell is open → first pull today → now (DraftKings open is its opener for the game). "
+           f"Flags: STEAM = spread moved {STEAM[sport]:g}+ since open (direction = side the market moved toward); "
+           f"TOTAL = total moved {TOTAL_MOVE[sport]:g}+; KEY = crossed a key number"
+           + (f" ({'/'.join(map(str, KEYS[sport]))})" if sport in KEYS else "") +
+           "; FLIP = favorite changed; TODAY = moved 1+ since the first pull today. No splits here: read DK splits from DK Network.", "",
+           "| Game | Start (ET) | Spread open→today→now | Total open→today→now | ML away open→now | ML home open→now | Flags |",
+           "|---|---|---|---|---|---|---|"]
+    f3 = lambda a, b, c, sign: " → ".join("-" if v is None else (f"{v:+g}" if sign else f"{v:g}") for v in (a, b, c))
+    ml = lambda a, b: f"{'-' if a is None else f'{a:+g}'} → {'-' if b is None else f'{b:+g}'}"
+    for r in games:
+        f = first.get(r["espn_id"], r)
+        so, sf, sn = _num(r["spread_open"]), _num(f["spread_now"]), _num(r["spread_now"])
+        to, tf, tn = _num(r["total_open"]), _num(f["total_now"]), _num(r["total_now"])
         flags = []
-        if d:
-            ab, ah = _num(d.get("away_sp_bets")), _num(d.get("away_sp_handle"))
-            if ab is not None and ah is not None and not (ab in (0, 100) and ah in (0, 100)):  # 0/0, 100/100 = feed artifacts
-                if ab >= 65 or ab <= 35:
-                    flags.append(f"PUB {'away' if ab >= 65 else 'home'} {max(ab, 100 - ab):.0f}%")
-                if ah - ab >= 15 or ab - ah >= 15:
-                    flags.append(f"SHARP DK {'away' if ah > ab else 'home'} +{abs(ah - ab):.0f}")
-                if o_sp is not None and n_sp is not None and o_sp != n_sp:
-                    toward_away = n_sp < o_sp  # away spread got smaller = market moved toward away
-                    if (toward_away and ab < 50) or (not toward_away and ab > 50):
-                        flags.append(f"RLM {'away' if toward_away else 'home'}")
-            tb, th = _num(d.get("away_ov_bets")), _num(d.get("away_ov_handle"))
-            if tb is not None and th is not None and not (tb in (0, 100) and th in (0, 100)) and abs(th - tb) >= 15:
-                flags.append(f"SHARP DK {'over' if th > tb else 'under'} +{abs(th - tb):.0f}")
-        if c:
-            cb, chh = _num(c.get("away_sp_bets")), _num(c.get("away_sp_handle"))
-            if cb is not None and chh is not None and cb not in (0, 50, 100) and abs(chh - cb) >= 10:
-                flags.append(f"SHARP CI {'away' if chh > cb else 'home'} +{abs(chh - cb):.0f}")
-        fmt = lambda a, b: "-" if a is None and b is None else f"{'' if a is None else f'{a:+g}'}→{'' if b is None else f'{b:+g}'}"
-        fmt_t = lambda a, b: "-" if a is None and b is None else f"{'' if a is None else f'{a:g}'}→{'' if b is None else f'{b:g}'}"
-        when = f"{l.get('date', '')} {l.get('tip', '')}".strip() if l else (d.get("day", "") if d else "")
-        out.append(f"| {key[0]} @ {key[1]} | {when} | {fmt(o_sp, n_sp)} | {fmt_t(o_to, n_to)} | "
-                   f"{_pct(d, 'away', 'sp')} | {_pct(f, 'away', 'sp')} | {_pct(c, 'away', 'sp')} | "
-                   f"{_pct(d, 'away', 'ov')} | {_pct(c, 'away', 'ov')} | {_pct(d, 'away', 'ml')} | {'; '.join(flags) or '-'} |")
+        if so is not None and sn is not None:
+            mv = sn - so
+            if abs(mv) >= STEAM[sport]:
+                flags.append(f"STEAM {'away' if mv < 0 else 'home'} {abs(mv):g}")
+            if so != 0 and sn != 0 and (so > 0) != (sn > 0):
+                flags.append("FLIP")
+            ks = _crossed(so, sn, KEYS.get(sport, ()))
+            if ks:
+                flags.append("KEY " + "/".join(map(str, ks)))
+        if to is not None and tn is not None and abs(tn - to) >= TOTAL_MOVE[sport]:
+            flags.append(f"TOTAL {'up' if tn > to else 'down'} {abs(tn - to):g}")
+        if sf is not None and sn is not None and abs(sn - sf) >= 1:
+            flags.append(f"TODAY spr {sn - sf:+g}")
+        if tf is not None and tn is not None and abs(tn - tf) >= 1:
+            flags.append(f"TODAY tot {tn - tf:+g}")
+        game = f"{r['away']} @ {r['home']}" + (" (neutral)" if r.get("status") == "neutral" else "")
+        out.append(f"| {game} | {r['start_et']} | {f3(so, sf, sn, True)} | {f3(to, tf, tn, False)} | "
+                   f"{ml(_num(r['ml_away_open']), _num(r['ml_away_now']))} | {ml(_num(r['ml_home_open']), _num(r['ml_home_now']))} | "
+                   f"{'; '.join(flags) or '-'} |")
     return "\n".join(out) + "\n"
 
 
@@ -192,7 +189,7 @@ def main():
     files = build_files(day)
     now = datetime.now(ZoneInfo("America/New_York")).isoformat(timespec="minutes")
     readme = [f"# Pipeline data (latest)", "", f"Updated {now} ET from `{day}`.", "",
-              "VSiN files hold every pull of the day (see `pulled_et`); TeamRankings files are the newest pull.", ""]
+              "Line files hold every pull of the day (see `pulled_et`); TeamRankings files are the newest pull.", ""]
     readme += [f"- `{k}` ({v.count(chr(10)) - 1} rows)" if k.endswith(".csv") else f"- `{k}`" for k, v in sorted(files.items())]
     files["README.md"] = "\n".join(readme) + "\n"
     body = json.dumps({"files": {k: {"content": v} for k, v in files.items()}}).encode()
