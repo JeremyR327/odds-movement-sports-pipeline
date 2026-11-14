@@ -1,0 +1,12 @@
+name: ESPN lines probe (temporary)
+on:
+  push:
+    branches: [no-vsin]
+    paths: [espn_lines.py, .github/workflows/espn-probe.yml]
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 espn_lines.py --dump
+      - run: python3 espn_lines.py && head -4 data/*/*_lines_*.csv
