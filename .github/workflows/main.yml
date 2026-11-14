@@ -24,7 +24,8 @@ jobs:
       - name: Pull VSiN splits and Circa lines (Mac's own python3)
         id: pull
         env:
-          VSIN_COOKIE: ${{ secrets.VSIN_COOKIE }}
+          VSIN_COOKIE_SOURCE: chrome          # read the vsin.com login from Chrome on the Mac
+          VSIN_COOKIE: ${{ secrets.VSIN_COOKIE }}   # fallback only
         run: python3 vsin_pull.py
         continue-on-error: true
       - name: Save data to the repo

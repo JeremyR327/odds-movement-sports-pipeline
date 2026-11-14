@@ -46,6 +46,10 @@ def main():
     git("add", "-A", "data", ":(exclude)data/latest")
     if staged():
         git("commit", "-q", "-m", f"{label} {stamp}", check=True)
+    # data/latest/ is rebuilt below from the merged tree, so drop any local edits to it now:
+    # unstaged changes there would make `git pull --rebase` refuse to run.
+    git("checkout", "-q", "--", "data/latest")
+    git("clean", "-fdq", "--", "data/latest")
     for attempt in range(1, 6):
         if not pull():
             time.sleep(5 * attempt)

@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """Pull VSiN Pro DK + Circa betting splits and the public Circa line tracker.
 
-Runs in GitHub Actions. Reads the VSiN login cookie from the VSIN_COOKIE secret.
+Runs in GitHub Actions on Jeremy's Mac (self-hosted runner). With VSIN_COOKIE_SOURCE=chrome
+(set by main.yml) it reads the current vsin.com login cookie from Chrome on the Mac
+(chrome_cookies.py), so no cookie has to be pasted anywhere; if that fails it falls back to
+the VSIN_COOKIE secret.
 Writes timestamped CSVs under data/YYYY-MM-DD/ so repeated runs show line and
 split movement (and which book moved first).
 
@@ -184,8 +187,18 @@ def write(name, rows):
 
 
 def main():
-    cookie = os.environ.get("VSIN_COOKIE", "").strip()
     status, paywalled = {"pulled_et": NOW.isoformat(timespec="minutes")}, False
+    cookie = ""
+    if os.environ.get("VSIN_COOKIE_SOURCE", "").lower() == "chrome":
+        try:
+            from chrome_cookies import cookie_header
+            cookie, profile = cookie_header("vsin.com")
+            status["cookie_source"] = f"Chrome on the Mac (profile '{profile}')"
+        except Exception as e:
+            status["cookie_source"] = f"Chrome failed ({e}); using the VSIN_COOKIE secret"
+    if not cookie:
+        cookie = os.environ.get("VSIN_COOKIE", "").strip()
+        status.setdefault("cookie_source", "VSIN_COOKIE secret" if cookie else "none")
     for sport in SPORTS:
         for src in ("DK", "CIRCA"):
             key = f"splits_{src}_{sport}"
@@ -211,6 +224,18 @@ def main():
         status["alert"] = ("VSiN is blocking GitHub's servers (403 on the public line tracker too, which uses no cookie); "
                            "refreshing VSIN_COOKIE will not fix this" if tracker_blocked else
                            "VSiN cookie missing or expired: refresh the VSIN_COOKIE secret")
+    # Logged-out check: the free view shows ~1 game per splits page while the public line
+    # tracker still lists many. That means the cookie no longer logs in (Nov 13, 10:19 PM pull).
+    def n_games(v):
+        m = re.match(r"ok (\d+) games", str(v))
+        return int(m.group(1)) if m else 0
+    dk_max = max([n_games(v) for k, v in status.items() if k.startswith("splits_DK")] or [0])
+    tracker_max = max([n_games(v) for k, v in status.items() if k.startswith("circa_")] or [0])
+    if not paywalled and dk_max <= 2 and tracker_max >= 8:
+        paywalled = True
+        status["alert"] = ("VSiN splits show the logged-out free view (<=2 games per page) while the line "
+                           "tracker lists many: the VSiN login isn't working. On the Mac, open data.vsin.com "
+                           "in Chrome and sign in (or refresh the VSIN_COOKIE secret)")
     if DIAG:
         status["diag_403"] = DIAG
     os.makedirs("data", exist_ok=True)
