@@ -1,0 +1,15 @@
+pulled_et,when,away,home,espn_id,spread_open,spread_now,total_open,total_now,spr_away_sel,spr_away_handle,spr_away_bets,spr_home_handle,spr_home_bets,over_handle,over_bets,ml_away_handle,ml_away_bets,flags,signal
+2026-11-15T09:09-05:00,Sun 11/15 9:30 AM,NE Patriots,DET Lions,,,,,,DET Lions -2.5,66,64,34,36,89,72,42,51,PUB Over 72%; SHARP Over +17,3
+2026-11-15T09:09-05:00,Sun 11/15 1:00 PM,BUF Bills,NY Jets,,,,,,BUF Bills -8.5,64,76,36,24,47,45,7,3,PUB BUF Bills -8.5 76%,1
+2026-11-15T09:09-05:00,Sun 11/15 1:00 PM,JAX Jaguars,TEN Titans,,,,,,JAX Jaguars -10.5,72,74,28,26,43,61,19,4,PUB JAX Jaguars -10.5 74%; SHARP Under +18,3
+2026-11-15T09:09-05:00,Sun 11/15 1:00 PM,KC Chiefs,ATL Falcons,,,,,,KC Chiefs -3,68,82,32,18,96,57,16,13,PUB KC Chiefs -3 82%; SHARP Over +39,3
+2026-11-15T09:09-05:00,Sun 11/15 1:00 PM,HOU Texans,CLE Browns,401873056,-4.5,-4.5,38.5,40.5,HOU Texans -4.5,48,64,52,36,72,67,19,15,SHARP CLE Browns +4.5 +16; PUB Over 67%; TOTAL up 2,4
+2026-11-15T09:09-05:00,Sun 11/15 1:00 PM,MIN Vikings,GB Packers,,,,,,GB Packers -3,81,64,19,36,89,79,77,63,SHARP GB Packers -3 +17; PUB Over 79%,3
+2026-11-15T09:09-05:00,Sun 11/15 1:00 PM,MIA Dolphins,IND Colts,,,,,,IND Colts -4.5,49,56,51,44,33,65,49,73,PUB Over 65%; SHARP Under +32,3
+2026-11-15T09:09-05:00,Sun 11/15 1:00 PM,CAR Panthers,NO Saints,,,,,,NO Saints -1.5,53,36,47,64,59,76,48,36,SHARP NO Saints -1.5 +17; PUB Over 76%; SHARP Under +17,5
+2026-11-15T09:09-05:00,Sun 11/15 4:05 PM,SEA Seahawks,LV Raiders,,,,,,SEA Seahawks -6.5,62,82,38,18,46,60,11,8,PUB SEA Seahawks -6.5 82%; SHARP LV Raiders +6.5 +20,3
+2026-11-15T09:09-05:00,Sun 11/15 4:05 PM,LA Rams,ARI Cardinals,,,,,,LA Rams -9.5,42,58,58,42,18,70,16,6,SHARP ARI Cardinals +9.5 +16; PUB Over 70%; SHARP Under +52,5
+2026-11-15T09:09-05:00,Sun 11/15 4:25 PM,SF 49ers,DAL Cowboys,,,,,,SF 49ers -4.5,66,72,34,28,80,65,14,13,PUB SF 49ers -4.5 72%; PUB Over 65%; SHARP Over +15,4
+2026-11-15T09:09-05:00,Sun 11/15 8:20 PM,PIT Steelers,CIN Bengals,,,,,,CIN Bengals -3.5,50,61,50,39,89,72,78,81,PUB Over 72%; SHARP Over +17,3
+2026-11-15T09:09-05:00,Mon 11/16 8:15 PM,LA Chargers,BAL Ravens,,,,,,BAL Ravens -4.5,66,55,34,45,76,66,51,70,PUB Over 66%,1
+2026-11-15T09:09-05:00,Thu 11/19 8:15 PM,IND Colts,HOU Texans,,,,,,HOU Texans -10,100,100,0,0,0,0,29,49,PUB HOU Texans -10 100%; PUB Under 100%,2
