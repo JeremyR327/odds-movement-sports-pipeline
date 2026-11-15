@@ -1,30 +1,21 @@
 {
   "date": "2026-11-15",
-  "pulled_et": "2026-11-15T11:44-05:00",
-  "repaired": "46 stale Circa slate rows re-lined from DraftKings (2026-11-14, 2026-11-15)",
+  "pulled_et": "2026-11-15T17:44-05:00",
   "espn": "ok 44 games",
   "torvik": "ok 364 teams (saved copy from today)",
-  "tr": "ok 365 teams (2026-11-14 1529)",
+  "tr": "ok 365 teams (2026-11-15 1529)",
   "bpi": "ok 365 teams",
-  "espn_lines": "35/35 priced games have ESPN's DraftKings opener",
+  "espn_lines": "6/6 priced games have ESPN's DraftKings opener",
   "cbbd_lines": "skipped: ESPN has DraftKings open + current (saves the CBBD monthly quota)",
-  "check_names": [
-    "Purdue Fort Wayne @ Eastern Illinois: TR -24.9 vs BPI -1.1"
-  ],
-  "games_written": 37,
-  "with_line": 35,
-  "with_espn_open": 35,
-  "flags": 13,
+  "games_written": 6,
+  "with_line": 6,
+  "with_espn_open": 6,
+  "flags": 3,
   "unmatched": [
-    "Abraham Baldwin Agricultural Stallions @ Florida Gulf Coast Eagles",
-    "Capital Crusaders @ Robert Morris Colonials",
-    "Emmanuel (MA) Lions @ Yale Bulldogs",
-    "UC Merced Bobcats @ UC Santa Barbara Gauchos",
-    "Doane Tigers @ South Dakota Coyotes",
     "Ecclesia Royals @ UT Martin Skyhawks",
     "Paine Lions @ Bethune-Cookman Wildcats"
   ],
-  "sources": "espn ok 44 games \u00b7 espn_lines 35/35 priced games have ESPN's DraftKings opener \u00b7 torvik ok 364 teams (saved copy from today) \u00b7 tr ok 365 teams (2026-11-14 1529) \u00b7 bpi ok 365 teams",
+  "sources": "espn ok 44 games \u00b7 espn_lines 6/6 priced games have ESPN's DraftKings opener \u00b7 torvik ok 364 teams (saved copy from today) \u00b7 tr ok 365 teams (2026-11-15 1529) \u00b7 bpi ok 365 teams",
   "calibration": {
     "games": 56,
     "with_open": 56,
