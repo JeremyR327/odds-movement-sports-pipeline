@@ -21,11 +21,11 @@ date,tip_et,espn_id,away,home,site,tier,torvik_rank_away,torvik_rank_home,torvik
 2026-11-15,3:00 PM,401921168,Cleveland State,Alabama A&M,H,3,353,330,4.7,153.0,4.1,3.7,4.3,ESPN/DraftKings open+now,3.5,2.5,145.5,142.5,3.9,1.4,0.8,1.8,False,,,2026-11-15T10:41-05:00
 2026-11-15,3:00 PM,401911251,High Point,Saint Louis,H,1,93,8,9.8,144.7,7.0,6.3,8.2,ESPN/DraftKings open+now,5.5,7.5,163.5,165.5,6.0,-1.5,2.7,0.7,True,,,2026-11-15T10:41-05:00
 2026-11-15,3:00 PM,401909493,Creighton,Iowa,N,2,110,33,4.4,136.9,0.8,2.3,2.9,ESPN/DraftKings open+now,3.5,4.5,145.5,145.5,3.2,-1.3,-0.6,-1.6,False,,,2026-11-15T10:41-05:00
-2026-11-15,4:00 PM,401934396,Air Force,Pacific,H,2,251,46,11.7,143.2,10.6,10.1,11.1,Circa 11-13 22:42,13.5,13.5,165.5,164.5,12.5,-1.0,-2.4,-2.4,,,,2026-11-15T10:41-05:00
+2026-11-15,4:00 PM,401934396,Air Force,Pacific,H,2,251,46,11.7,143.2,10.6,10.1,11.1,none (stale Circa removed; no DraftKings pull before this slate),,,,,,,,,,,,2026-11-15T10:41-05:00
 2026-11-15,4:00 PM,401928789,New Mexico State,San Diego State,N,2,274,75,7.2,150.0,11.7,10.6,9.2,ESPN/DraftKings open+now,11.5,12.5,143.5,142.5,10.6,-1.9,-2.3,-3.3,False,,,2026-11-15T10:41-05:00
 2026-11-15,4:00 PM,401919825,Mercyhurst,James Madison,H,3,307,140,9.0,143.7,,11.7,9.8,ESPN/DraftKings open+now,15.5,14.5,138.5,138.5,12.6,-1.9,-5.7,-4.7,True,,,2026-11-15T10:41-05:00
 2026-11-15,4:00 PM,401917531,Chicago State,Loyola Marymount,H,3,229,303,0.1,153.8,14.7,12.5,6.9,ESPN/DraftKings open+now,16.5,18.5,141.5,140.5,11.7,-6.8,-9.6,-11.6,False,EDGE Chicago State 6.8 · line moved away,away,2026-11-15T10:41-05:00
-2026-11-15,4:00 PM,401917528,Idaho State,Seattle U,H,3,300,290,3.4,141.3,17.8,12.1,9.5,Circa 11-13 22:42,16.5,16.5,144.5,144.5,13.0,-3.5,-7.0,-7.0,,EDGE Idaho State 3.5,away,2026-11-15T10:41-05:00
+2026-11-15,4:00 PM,401917528,Idaho State,Seattle U,H,3,300,290,3.4,141.3,17.8,12.1,9.5,ESPN/DraftKings open+now 09:59 (repaired),15.5,15.5,145.5,142.5,12.5,-3.0,-6.0,-6.0,,EDGE Idaho State 3.0,away,2026-11-15T10:41-05:00
 2026-11-15,4:30 PM,401923393,Western Michigan,Southern Indiana,H,2,31,130,-1.9,138.4,-7.4,-4.5,-4.1,ESPN/DraftKings open+now,-5.5,-7.5,141.5,139.5,-4.9,2.6,1.4,3.4,False,EDGE Southern Indiana 2.6 · line moved away,home,2026-11-15T10:41-05:00
 2026-11-15,4:30 PM,401917175,New Haven,Penn State,H,2,241,145,6.5,144.7,20.7,18.1,13.1,ESPN/DraftKings open+now,25.5,24.5,142.5,143.5,20.5,-4.0,-12.4,-11.4,True,EDGE New Haven 4.0 · moved toward model,away,2026-11-15T10:41-05:00
 2026-11-15,5:00 PM,401926073,Pepperdine,Oregon,H,2,120,42,7.1,158.1,16.2,14.3,11.3,ESPN/DraftKings open+now,16.5,13.5,159.5,154.5,14.4,0.9,-5.2,-2.2,True,,,2026-11-15T10:41-05:00
