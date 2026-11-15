@@ -1,0 +1,14 @@
+pulled_et,when,away,home,espn_id,spread_open,spread_now,total_open,total_now,spr_away_sel,spr_away_handle,spr_away_bets,spr_home_handle,spr_home_bets,over_handle,over_bets,ml_away_handle,ml_away_bets,flags,signal
+2026-11-15T12:39-05:00,Sun 11/15 1:00 PM,BUF Bills,NY Jets,,,,,,BUF Bills -8.5,75,80,25,20,71,53,10,4,PUB BUF Bills -8.5 80%; SHARP Over +18,3
+2026-11-15T12:39-05:00,Sun 11/15 1:00 PM,KC Chiefs,ATL Falcons,,,,,,KC Chiefs -3,72,84,28,16,88,60,19,14,PUB KC Chiefs -3 84%; SHARP Over +28,3
+2026-11-15T12:39-05:00,Sun 11/15 1:00 PM,JAX Jaguars,TEN Titans,,,,,,JAX Jaguars -10.5,74,71,26,29,72,67,13,4,PUB JAX Jaguars -10.5 71%; PUB Over 67%,2
+2026-11-15T12:39-05:00,Sun 11/15 1:00 PM,HOU Texans,CLE Browns,401873056,-4.5,-4.5,38.5,40.5,HOU Texans -4.5,54,70,46,30,72,68,28,16,PUB HOU Texans -4.5 70%; SHARP CLE Browns +4.5 +16; PUB Over 68%; TOTAL up 2,5
+2026-11-15T12:39-05:00,Sun 11/15 1:00 PM,MIN Vikings,GB Packers,,,,,,GB Packers -2.5,82,73,18,27,83,79,75,61,PUB GB Packers -2.5 73%; PUB Over 79%,2
+2026-11-15T12:39-05:00,Sun 11/15 1:00 PM,MIA Dolphins,IND Colts,,,,,,IND Colts -4.5,51,55,49,45,62,70,58,74,PUB Over 70%,1
+2026-11-15T12:39-05:00,Sun 11/15 1:00 PM,CAR Panthers,NO Saints,,,,,,NO Saints -1.5,41,37,59,63,79,76,34,36,PUB Over 76%,1
+2026-11-15T12:39-05:00,Sun 11/15 4:05 PM,SEA Seahawks,LV Raiders,,,,,,SEA Seahawks -6.5,69,80,31,20,62,65,9,8,PUB SEA Seahawks -6.5 80%; PUB Over 65%,2
+2026-11-15T12:39-05:00,Sun 11/15 4:05 PM,LA Rams,ARI Cardinals,,,,,,LA Rams -9.5,54,61,46,39,23,71,17,6,PUB Over 71%; SHARP Under +48,3
+2026-11-15T12:39-05:00,Sun 11/15 4:25 PM,SF 49ers,DAL Cowboys,,,,,,SF 49ers -4.5,68,69,32,31,83,65,18,13,PUB SF 49ers -4.5 69%; PUB Over 65%; SHARP Over +18,4
+2026-11-15T12:39-05:00,Sun 11/15 8:20 PM,PIT Steelers,CIN Bengals,,,,,,CIN Bengals -3.5,57,61,43,39,82,70,81,81,PUB Over 70%,1
+2026-11-15T12:39-05:00,Mon 11/16 8:15 PM,LA Chargers,BAL Ravens,,,,,,BAL Ravens -4.5,69,53,31,47,83,71,45,70,SHARP BAL Ravens -4.5 +16; PUB Over 71%,3
+2026-11-15T12:39-05:00,Thu 11/19 8:15 PM,IND Colts,HOU Texans,,,,,,HOU Texans -10,66,60,34,40,17,50,37,54,SHARP Under +33,2
