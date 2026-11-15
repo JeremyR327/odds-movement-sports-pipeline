@@ -7,9 +7,9 @@ on:
 permissions:
   contents: write
 
-# Same group as the VSiN pull so the two never push to main at the same time.
+# Same group as the CBB pull so the manual pulls never push to main at the same time.
 concurrency:
-  group: vsin-pull
+  group: manual-pull
   cancel-in-progress: false
 
 jobs:

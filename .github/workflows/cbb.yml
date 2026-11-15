@@ -7,9 +7,9 @@ on:
 permissions:
   contents: write
 
-# Same group as the VSiN and TeamRankings pulls so only one job pushes to main at a time.
+# Same group as the TeamRankings pull so the manual pulls never push to main at the same time.
 concurrency:
-  group: vsin-pull
+  group: manual-pull
   cancel-in-progress: false
 
 jobs:
@@ -23,7 +23,7 @@ jobs:
           python-version: "3.12"
       - name: Install pyarrow (reads cbbdata's Parquet ratings)
         run: pip install --quiet pyarrow
-      - name: Build the CBB slate (Torvik + TR + BPI vs Circa/ESPN lines) and grade yesterday
+      - name: Build the CBB slate (Torvik + TR + BPI vs DraftKings lines) and grade yesterday
         id: pull
         env:
           CBD_API_KEY: ${{ secrets.CBD_API_KEY }}
