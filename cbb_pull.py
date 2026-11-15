@@ -695,6 +695,17 @@ def main():
     status = {"date": day.isoformat(), "pulled_et": NOW.isoformat(timespec="minutes")}
     soft_fail = False
 
+    # Fix slate rows priced from stale VSiN Circa snapshots (Nov 14-15, 2026, and any run of the
+    # old code) before anything below grades them. Does nothing once everything is fixed.
+    try:
+        sys.modules.setdefault("cbb_pull", sys.modules[__name__])   # share this module, not a 2nd copy
+        import repair_cbb_lines
+        fixed, days = repair_cbb_lines.repair(log=lambda *a: None)
+        if fixed:
+            status["repaired"] = f"{fixed} stale Circa slate rows re-lined from DraftKings ({', '.join(sorted(days))})"
+    except Exception as e:
+        status["repaired"] = f"error: {e}"; soft_fail = True
+
     try:
         games = espn_games(day); status["espn"] = f"ok {len(games)} games"
     except Exception as e:

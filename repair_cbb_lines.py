@@ -18,8 +18,10 @@ are left alone.) For each stale row this script:
 then rebuilds every results/<date>.csv from the repaired slates and the finals already in
 it, and refreshes latest/slate.csv, results.csv, brief.md, calibration.md and status.json.
 
-Idempotent: a second run finds nothing stale. Usage: python repair_cbb_lines.py [--check]
-(--check reports what would change without writing).
+Runs by itself: cbb_pull.py calls repair() at the start of every CBB pull, so after this is
+merged the next scheduled pull fixes any stale rows (including ones written by runs of the old
+code) before it grades anything. Idempotent: once fixed, nothing is stale.
+By hand: python repair_cbb_lines.py [--check]   (--check reports what would change, writes nothing)
 """
 import csv, glob, json, os, re, sys
 
@@ -112,14 +114,12 @@ def regression_check(paths):
     return n, worst
 
 
-def main():
-    check = "--check" in sys.argv
+def repair(check=False, log=print):
+    """Re-line every stale slate row and rebuild the results of the days it touched.
+    Returns (rows fixed, {day: rebuilt results or None}). cbb_pull.py calls this at the start
+    of every run, so stale rows are fixed before anything is graded."""
     slates = sorted(glob.glob(f"{cp.OUT}/????-??-??/[0-9][0-9][0-9][0-9]_slate.csv"))
-    n, worst = regression_check(slates)
-    print(f"regression check: {n} live rows since Nov 14 repriced with price(); flags identical, "
-          f"max fair/edge diff {worst:.2f} (consensus rounding only)")
-
-    changed_days, fixed = set(), 0
+    changed_days, fixed = {}, 0
     for path in slates:
         rows = read(path)
         if not rows or not any(stale(r) for r in rows):
@@ -129,22 +129,21 @@ def main():
         for a, b in zip(rows, new):
             if a is not b:
                 fixed += 1
-                print(f"  {path[-24:]} {a['away']} @ {a['home']}: {a['line_source']} "
-                      f"{a['open_home_margin']}->{a['cur_home_margin']} [{a['flag'] or 'no flag'}]  =>  "
-                      f"{b['line_source']} {b['open_home_margin']}->{b['cur_home_margin']} [{b['flag'] or 'no flag'}]")
-        changed_days.add(rows[0]["date"])
+                log(f"  {path[-24:]} {a['away']} @ {a['home']}: {a['line_source']} "
+                    f"{a['open_home_margin']}->{a['cur_home_margin']} [{a['flag'] or 'no flag'}]  =>  "
+                    f"{b['line_source']} {b['open_home_margin']}->{b['cur_home_margin']} [{b['flag'] or 'no flag'}]")
+        changed_days[rows[0]["date"]] = None
         if not check:
             cp.write_csv(path, new)
-    print(f"{fixed} stale slate rows on {len(changed_days)} day(s): {', '.join(sorted(changed_days)) or 'none'}")
-    if check or not changed_days:
-        return 0
+    log(f"{fixed} stale slate rows on {len(changed_days)} day(s): {', '.join(sorted(changed_days)) or 'none'}")
+    if check:
+        return fixed, changed_days
 
     # Rebuild results for the affected days from the repaired slates + the finals already graded.
-    latest_res = None
     for day in sorted(changed_days):
         rpath = f"{cp.OUT}/results/{day}.csv"
         if not os.path.exists(rpath):
-            continue                          # not graded yet: tomorrow's run grades the repaired slates
+            continue                          # not graded yet: the next run grades the repaired slates
         old = read(rpath)
         games = [{"espn_id": r["espn_id"], "completed": True,
                   "home": {"score": (float(r["final_total"]) + float(r["final_home_margin"])) / 2},
@@ -154,9 +153,23 @@ def main():
             prior += read(p)
         res = cp.build_results(cp.datetime.strptime(day, "%Y-%m-%d").date(), games, prior)
         cp.write_csv(rpath, res)
-        print(f"results/{day}.csv rebuilt: {sum(1 for a, b in zip(old, res) if a['close_source'] != b['close_source'])} "
-              f"of {len(res)} games re-graded")
-        latest_res = (day, res)
+        log(f"results/{day}.csv rebuilt: {sum(1 for a, b in zip(old, res) if a['close_source'] != b['close_source'])} "
+            f"of {len(res)} games re-graded")
+        changed_days[day] = res
+    return fixed, changed_days
+
+
+def main():
+    check = "--check" in sys.argv
+    slates = sorted(glob.glob(f"{cp.OUT}/????-??-??/[0-9][0-9][0-9][0-9]_slate.csv"))
+    n, worst = regression_check(slates)
+    print(f"regression check: {n} live rows since Nov 14 repriced with price(); flags identical, "
+          f"max fair/edge diff {worst:.2f} (consensus rounding only)")
+    fixed, days = repair(check)
+    if check or not days:
+        return 0
+    graded = [(d, r) for d, r in sorted(days.items()) if r is not None]
+    latest_res = graded[-1] if graded else None
 
     # Refresh the fixed-URL copies the Claude tasks read.
     newest_results = sorted(glob.glob(f"{cp.OUT}/results/????-??-??.csv"))[-1]
