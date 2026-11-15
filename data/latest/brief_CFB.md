@@ -1,9 +1,7 @@
-# CFB lines — DraftKings via ESPN, pull 22:41 ET (first pull today 09:09 ET)
+# CFB lines — DraftKings via ESPN, pull 09:09 ET (first pull today 09:09 ET)
 
 Spread = AWAY team's number. Each cell is open → first pull today → now (DraftKings open is its opener for the game). Flags: STEAM = spread moved 1.5+ since open (direction = side the market moved toward); TOTAL = total moved 2+; KEY = crossed a key number (3/7/14/17); FLIP = favorite changed; TODAY = moved 1+ since the first pull today. No splits here: read DK splits from DK Network.
 
 | Game | Start (ET) | Spread open→today→now | Total open→today→now | ML away open→now | ML home open→now | Flags |
 |---|---|---|---|---|---|---|
-| Colorado State Rams @ Washington State Cougars | Sat 11-14 10:45 PM | +6.5 → +9.5 → +7.5 | 62.5 → 65.5 → 64.5 | +170 → +235 | -205 → -290 | KEY 7; TOTAL up 2; TODAY spr -2; TODAY tot -1 |
-| North Dakota State Bison @ Hawai'i Rainbow Warriors | Sat 11-14 11:00 PM | -9.5 → -7 → -7.5 | 42.5 → 38.5 → 39.5 | -395 → -305 | +310 → +245 | STEAM home 2; TOTAL down 3; TODAY tot +1 |
-| Ole Miss Rebels @ Oklahoma Sooners | Sun 11-15 01:00 PM | +4 → +2.5 → +2.5 | 53.5 → 49.5 → 48.5 | +154 → +124 | -185 → -148 | STEAM away 1.5; KEY 3; TOTAL down 5; TODAY tot -1 |
+| Ole Miss Rebels @ Oklahoma Sooners | Sun 11-15 01:00 PM | +4 → +2.5 → +2.5 | 53.5 → 48.5 → 48.5 | +154 → +120 | -185 → -142 | STEAM away 1.5; KEY 3; TOTAL down 5 |
