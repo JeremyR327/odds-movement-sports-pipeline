@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Commit a pull's data and push it without merge conflicts.
 
-Several jobs push to main (the Pipeline loop, the VSiN pull on the Mac, the CBB pull), and
+Several jobs push to main (the Pipeline loop and the manual TeamRankings and CBB workflows), and
 each one used to rewrite data/latest/ before pushing. When two overlapped, `git pull --rebase`
 hit conflicts in data/latest/ and the second job's data was never pushed (Nov 13: the 3:29 PM
 TeamRankings pull was lost that way).

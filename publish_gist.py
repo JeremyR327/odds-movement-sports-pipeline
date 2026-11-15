@@ -22,7 +22,6 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 
 SPORTS = ["NFL", "CFB", "NBA", "CBB"]
-VSIN_KINDS = ["splits_DK", "splits_CIRCA", "circa"]   # history only: VSiN was dropped Nov 14, 2026
 LINE_KINDS = ["lines"]                                   # espn_lines.py: DraftKings open/now via ESPN
 TR_KINDS = ["tr_picks", "tr_ratings", "tr_ats", "tr_ou", "tr_stats"]
 
@@ -35,7 +34,7 @@ def latest_day_dir():
 def combine(paths):
     """Concatenate the day's CSVs (oldest first) under one header. Only files with
     the newest file's columns are kept, so files written by an older parser version
-    drop out; rows with the raw split-history entity are an old splits bug, so skip them."""
+    drop out."""
     files = [open(p, encoding="utf-8").read().splitlines() for p in sorted(paths)]
     files = [f for f in files if f]
     if not files:
@@ -44,7 +43,7 @@ def combine(paths):
     out = [header]
     for lines in files:
         if lines[0] == header:
-            out.extend(l for l in lines[1:] if "&#8634;" not in l)
+            out.extend(lines[1:])
     return "\n".join(out) + "\n"
 
 
@@ -60,9 +59,9 @@ def build_files(day):
             if paths:
                 files[f"{kind}_{sport}.csv"] = combine(paths)
         for kind in TR_KINDS:
-            # TeamRankings runs less often than VSiN, so take its newest file from any
-            # day (folder name + HHMM sort in time order); otherwise the 12:00 AM-10:23 AM
-            # window after the first VSiN pull of the day has no TR files at all.
+            # TeamRankings runs once a day (3:29 PM), so take its newest file from any day
+            # (folder name + HHMM sort in time order); otherwise the morning after the first
+            # lines pull of the day would have no TR files at all.
             paths = sorted(glob.glob(os.path.join("data", "????-??-??", f"[0-9][0-9][0-9][0-9]_{kind}_{sport}.csv")))
             if paths:
                 files[f"{kind}_{sport}.csv"] = open(paths[-1], encoding="utf-8").read()

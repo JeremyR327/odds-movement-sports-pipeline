@@ -12,15 +12,16 @@ Sources
     TR + BPI: TR ranks set the tier and Torvik's totals/ranks are left blank)
   - TeamRankings predictive ratings (newest data/*/HHMM_tr_ratings_CBB.csv)        optional
   - ESPN BPI via the power-index API (skipped if its layout isn't recognized)     optional
-  - DraftKings open/current from ESPN's scoreboard (VSiN Circa files are history only)
-    (no Circa -> CollegeBasketballData /lines open + current by book, one request per run;
-     then ESPN's book line; the source is labeled in line_source)
+  - Lines: DraftKings open + current from ESPN's scoreboard; if ESPN has no opener for most
+    games, CollegeBasketballData /lines open + current by book (one request per run); else
+    ESPN's current line only. The source is labeled in line_source. (VSiN/Circa was dropped
+    on Nov 14, 2026; repair_cbb_lines.py fixed the slates and results it left stale.)
 
 Outputs
   data/cbb/YYYY-MM-DD/HHMM_slate.csv      one row per game for this run
   data/cbb/results/YYYY-MM-DD.csv         yesterday's finals vs model, open and close
   data/cbb/latest/slate.csv, results.csv, brief.md, status.json   fixed URLs for the Claude tasks
-  (kept out of data/latest/, which publish_gist.py rewrites on every VSiN run)
+  (kept out of data/latest/, which publish_gist.py rewrites on every pull)
 
 Usage: python cbb_pull.py [--date YYYY-MM-DD] [--season 2027] [--no-results]
 Exit codes: 0 ok (source problems are listed in status.json), 2 no slate possible
@@ -36,7 +37,7 @@ UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit
                     "(KHTML, like Gecko) Chrome/130 Safari/537.36", "Accept": "*/*"}
 HCA = 3.0                                          # home-court points (ledger: Model weights)
 W = {"torvik": 0.5, "tr": 0.3, "bpi": 0.2}         # consensus weights; renormalized over models present
-MARKET_W = {1: 0.7, 2: 0.5, 3: 0.4}                # weight on the Circa opener in the fair line
+MARKET_W = {1: 0.7, 2: 0.5, 3: 0.4}                # weight on the opener in the fair line
 NOV_BUMP = 0.1                                     # extra market weight in November
 THRESH = {1: 1.5, 2: 2.5, 3: 2.5}                  # |fair - current| needed to flag, points
 OUT = "data/cbb"
@@ -49,7 +50,7 @@ def get(url, timeout=40):
 
 
 def norm(name):
-    """School-name key that lines up ESPN, Torvik, TeamRankings and VSiN spellings."""
+    """School-name key that lines up ESPN, Torvik, TeamRankings and CBBD spellings."""
     s = (name or "").lower().replace("&", " and ")
     s = re.sub(r"\(\d+\)", " ", s)
     s = re.sub(r"[.'’()]", "", s)
@@ -410,15 +411,6 @@ def bpi_ratings():
     return out
 
 
-def circa_rows():
-    """Recent pulls from the VSiN pipeline's Circa CBB files (oldest first)."""
-    rows = []
-    for p in sorted(glob.glob("data/????-??-??/[0-9][0-9][0-9][0-9]_circa_CBB.csv"))[-80:]:
-        with open(p, encoding="utf-8") as f:
-            rows += list(csv.DictReader(f))
-    return rows
-
-
 # Book preference when CBBD lists several (first present wins); otherwise the first listed.
 CBBD_BOOKS = ["consensus", "draftkings", "espn bet", "fanduel", "bovada", "betmgm", "caesars"]
 
@@ -471,18 +463,35 @@ def tier_of(ra, rh):
     return 3
 
 
-def build_slate(day, games, R, TR, B, circa, lines=None):
+def price(day, tier, cons, open_h, cur_h, tr_m, bpi_m, away, home):
+    """Fair line, edge and flag for one game (home-margin convention). Shared by build_slate and
+    repair_cbb_lines.py so a repaired row is priced exactly like a live one."""
+    mw = min(0.9, MARKET_W[tier] + (NOV_BUMP if day.month == 11 else 0))
+    anchor = open_h if open_h is not None else cur_h
+    fair = mw * anchor + (1 - mw) * cons if anchor is not None else None
+    edge = fair - cur_h if fair is not None and cur_h is not None else None
+    moved = None
+    if open_h is not None and cur_h is not None and cur_h != open_h:
+        moved = (cur_h - open_h) * (cons - open_h) > 0
+    flag = ""
+    suspect = tr_m is not None and bpi_m is not None and abs(tr_m - bpi_m) > NAME_CHECK_PTS
+    if edge is not None and abs(edge) >= THRESH[tier] and not suspect:
+        side = home if edge > 0 else away
+        flag = f"EDGE {side} {abs(edge):.1f}"
+        flag += " · moved toward model" if moved is True else (" · line moved away" if moved is False else "")
+    return {"fair_home_margin": rnd(fair), "edge_pts": rnd(edge),
+            "gap_cons_vs_open": rnd(cons - open_h) if open_h is not None else None,
+            "gap_cons_vs_cur": rnd(cons - cur_h) if cur_h is not None else None,
+            "moved_toward_model": moved, "flag": flag,
+            "flag_side": ("home" if edge > 0 else "away") if flag else "", "suspect": suspect}
+
+
+def build_slate(day, games, R, TR, B, lines=None):
     mt = Matcher(R) if R else None
     mtr = Matcher(TR, expand=True) if TR else None
     # Without Torvik, tiers come from TR rank (1 = best rating).
     tr_rank = {t: i for i, t in enumerate(sorted(TR, key=TR.get, reverse=True), 1)} if TR else {}
     mb = Matcher(B) if B else None
-    circ = {}
-    for r in circa:
-        circ.setdefault(norm(r.get("away")) + " @ " + norm(r.get("home")), []).append(r)
-    ckeys = list(circ)
-    used = set()
-
     lines = lines or {}
     lkeys = list(lines)
 
@@ -496,27 +505,7 @@ def build_slate(day, games, R, TR, B, circa, lines=None):
                                          lkeys, n=1, cutoff=0.85)
         return lines[best[0]] if best else None
 
-    def circa_for(g):
-        # VSiN CBB names are usually the school only ("George Mason"), sometimes shortened ("UMKC").
-        cands = lambda t: [norm(x) for x in (t["school"], t["short"], t["full"], t["abbr"]) if x]
-        hits = None
-        for ka in cands(g["away"]):
-            for kh in cands(g["home"]):
-                hits = hits or circ.get(ka + " @ " + kh)
-        if not hits:
-            best = difflib.get_close_matches(norm(g["away"]["school"]) + " @ " + norm(g["home"]["school"]),
-                                             ckeys, n=1, cutoff=0.85)
-            hits = circ.get(best[0]) if best else None
-        if not hits:
-            return None, None
-        used.add(norm(hits[0].get("away")) + " @ " + norm(hits[0].get("home")))
-        tip_iso = g["tip_dt"].isoformat(timespec="minutes")
-        hits = [r for r in hits if r.get("pulled_et", "") >= (g["tip_dt"] - timedelta(days=2)).isoformat()] or hits
-        pre = [r for r in hits if r.get("pulled_et", "") <= tip_iso] or hits
-        return hits[0], pre[-1]
-
     out, unmatched, name_checks = [], [], []
-    nov = day.month == 11
     for g in games:
         if g["tip_dt"] <= NOW or g["completed"]:
             continue                      # already tipped: the last pre-tip snapshot is the close
@@ -547,16 +536,9 @@ def build_slate(day, games, R, TR, B, circa, lines=None):
             continue
         cons = sum(W[k] * v for k, v in parts) / sum(W[k] for k, _ in parts)
 
-        first, last = circa_for(g)
         src, open_h, cur_h, open_t, cur_t = "", None, None, None, None
-        if last:
-            o, c = first_num(first.get("circa_open_away_spread")), first_num(last.get("circa_away_spread"))
-            # Away spread +26 = home favored by 26 = home margin +26.
-            open_h, cur_h = o, c
-            open_t, cur_t = first_num(first.get("circa_open_total")), first_num(last.get("circa_total"))
-            src = "Circa " + last.get("pulled_et", "")[5:16].replace("T", " ")
-        if cur_h is None and g.get("espn_open_home") is not None and g["espn_line_home"] is not None:
-            # ESPN's DraftKings opener + current: the main line source since VSiN was dropped.
+        if g.get("espn_open_home") is not None and g["espn_line_home"] is not None:
+            # ESPN's DraftKings opener + current: the main line source.
             open_h, cur_h = g["espn_open_home"], g["espn_line_home"]
             open_t, cur_t = g.get("espn_open_total"), g["espn_total"]
             src = f'ESPN/{g["espn_book"] or "book"} open+now'
@@ -567,27 +549,15 @@ def build_slate(day, games, R, TR, B, circa, lines=None):
             open_h = -float(cb["spread_open"]) if cb["spread_open"] is not None else None
             cur_t = cb["total"]
             open_t = cb["total_open"]
-            src = f'CBBD/{cb["provider"]} (no Circa)'
+            src = f'CBBD/{cb["provider"]}'
         if cur_h is None and g["espn_line_home"] is not None:
             cur_h, cur_t = g["espn_line_home"], g["espn_total"]
-            src = f'ESPN/{g["espn_book"] or "book"} (no Circa)'
+            src = f'ESPN/{g["espn_book"] or "book"} (current only)'
 
         tier = tier_of(ra, rh)
-        mw = min(0.9, MARKET_W[tier] + (NOV_BUMP if nov else 0))
-        anchor = open_h if open_h is not None else cur_h
-        fair = mw * anchor + (1 - mw) * cons if anchor is not None else None
-        edge = fair - cur_h if fair is not None and cur_h is not None else None
-        moved = None
-        if open_h is not None and cur_h is not None and cur_h != open_h:
-            moved = (cur_h - open_h) * (cons - open_h) > 0
-        flag = ""
-        suspect = tr_m is not None and bpi_m is not None and abs(tr_m - bpi_m) > NAME_CHECK_PTS
-        if suspect:
+        p = price(day, tier, cons, open_h, cur_h, tr_m, bpi_m, g["away"]["school"], g["home"]["school"])
+        if p.pop("suspect"):
             name_checks.append(f'{g["away"]["school"]} @ {g["home"]["school"]}: TR {tr_m:+.1f} vs BPI {bpi_m:+.1f}')
-        if edge is not None and abs(edge) >= THRESH[tier] and not suspect:
-            side = g["home"]["school"] if edge > 0 else g["away"]["school"]
-            flag = f"EDGE {side} {abs(edge):.1f}"
-            flag += " · moved toward model" if moved is True else (" · line moved away" if moved is False else "")
         out.append({
             "date": day.isoformat(), "tip_et": g["tip"], "espn_id": g["espn_id"],
             "away": g["away"]["school"], "home": g["home"]["school"], "site": "N" if g["neutral"] else "H",
@@ -595,18 +565,10 @@ def build_slate(day, games, R, TR, B, circa, lines=None):
             "torvik_home_margin": rnd(tv_m), "torvik_total": rnd(tv_t), "tr_home_margin": rnd(tr_m),
             "bpi_home_margin": rnd(bpi_m), "consensus_home_margin": rnd(cons),
             "line_source": src, "open_home_margin": open_h, "cur_home_margin": cur_h,
-            "open_total": open_t, "cur_total": cur_t,
-            "fair_home_margin": rnd(fair), "edge_pts": rnd(edge),
-            "gap_cons_vs_open": rnd(cons - open_h) if open_h is not None else None,
-            "gap_cons_vs_cur": rnd(cons - cur_h) if cur_h is not None else None,
-            "moved_toward_model": moved, "flag": flag,
-            "flag_side": ("home" if edge > 0 else "away") if flag else "",
+            "open_total": open_t, "cur_total": cur_t, **p,
             "pulled_et": NOW.isoformat(timespec="minutes"),
         })
-    # Circa games for this date that matched no ESPN game: name mismatches to add to norm()/aliases.
-    tag = day.strftime("%b %-d")
-    orphans = sorted({k for k, rs in circ.items() if k not in used and any(tag in (r.get("date") or "") for r in rs)})
-    return out, unmatched, orphans, name_checks
+    return out, unmatched, name_checks
 
 
 def build_results(day, games, slate_rows):
@@ -706,7 +668,7 @@ def brief(slate, status):
     lines = [f"# CBB model brief — {status['date']} (pulled {status['pulled_et'][11:16]} ET)", "",
              "All numbers are the HOME team's margin (+ = home favored). Edge = fair minus current line; "
              f"EDGE flags meet the tier threshold (T1 {THRESH[1]}, T2-3 {THRESH[2]} pts). "
-             "Fair = market weight x Circa opener + the rest x model consensus.",
+             "Fair = market weight x opener + the rest x model consensus.",
              f"Sources: {status['sources']}", "",
              "| Game (ET) | Site | Tier | Line src | Open→now | Total open→now | Torvik | TR | BPI | Cons | Fair | Edge | To model | Flag |",
              "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
@@ -749,10 +711,6 @@ def main():
         B = bpi_ratings(); status["bpi"] = f"ok {len(B)} teams"
     except Exception as e:
         B = {}; status["bpi"] = f"skipped: {e}"
-    circa = circa_rows()
-    today = [r for r in circa if r.get("pulled_et", "").startswith(day.isoformat())]
-    status["circa"] = (f"ok {len(today)} CBB rows pulled today" if today else
-                       "none (VSiN dropped): ESPN DraftKings open+now, then CBBD book lines")
 
     os.makedirs(f"{OUT}/latest", exist_ok=True)
     if R is None and TR:
@@ -765,11 +723,12 @@ def main():
 
     lines = {}
     lkey = (os.environ.get("CBBD_API_KEY") or os.environ.get("CBD_API_KEY") or "").strip()
-    priced = [g for g in games if g["espn_line_home"] is not None]
+    upcoming = [g for g in games if g["tip_dt"] > NOW and not g["completed"]]
+    priced = [g for g in upcoming if g["espn_line_home"] is not None]
     espn_open = sum(1 for g in priced if g.get("espn_open_home") is not None)
     status["espn_lines"] = f"{espn_open}/{len(priced)} priced games have ESPN's DraftKings opener"
-    if today:
-        status["cbbd_lines"] = "skipped: Circa rows available today"
+    if not upcoming:
+        status["cbbd_lines"] = "skipped: every game today has tipped (nothing to price)"
     elif priced and espn_open >= 0.8 * len(priced):
         status["cbbd_lines"] = "skipped: ESPN has DraftKings open + current (saves the CBBD monthly quota)"
     elif not lkey:
@@ -789,14 +748,14 @@ def main():
         except Exception as e:
             status["cbbd_lines"] = f"error: {e}".replace(lkey, "***")
 
-    slate, unmatched, orphans, name_checks = build_slate(day, games, R, TR, B, circa, lines)
+    slate, unmatched, name_checks = build_slate(day, games, R, TR, B, lines)
     if name_checks:
         status["check_names"] = name_checks[:40]   # flags suppressed on these games
-    status.update({"circa_unmatched": orphans[:40], "games_written": len(slate),
+    status.update({"games_written": len(slate),
                    "with_line": sum(1 for r in slate if r["cur_home_margin"] is not None),
-                   "with_circa": sum(1 for r in slate if r["line_source"].startswith("Circa")),
+                   "with_espn_open": sum(1 for r in slate if r["line_source"].endswith("open+now")),
                    "flags": sum(1 for r in slate if r["flag"]), "unmatched": unmatched[:40]})
-    status["sources"] = " · ".join(f"{k} {status[k]}" for k in ("espn", "torvik", "tr", "bpi", "circa"))
+    status["sources"] = " · ".join(f"{k} {status[k]}" for k in ("espn", "espn_lines", "torvik", "tr", "bpi"))
     write_csv(f"{OUT}/{day.isoformat()}/{NOW:%H%M}_slate.csv", slate)
     write_csv(f"{OUT}/latest/slate.csv", slate)
     with open(f"{OUT}/latest/brief.md", "w", encoding="utf-8") as fh:
