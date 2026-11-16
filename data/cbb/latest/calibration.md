@@ -1,18 +1,18 @@
-# CBB calibration, season to date — 114 games graded (updated 2026-11-15 22:41 ET)
+# CBB calibration, season to date — 150 games graded (updated 2026-11-16 10:41 ET)
 
 Mean absolute error vs the final margin; lower is better. The closing line is the benchmark to beat.
 
 | Predictor | All | Tier 1 | Tier 2 | Tier 3 |
 |---|---|---|---|---|
-| Closing line | 9.44 (n=111) | 11.00 (n=8) | 10.29 (n=54) | 8.26 (n=49) |
-| Opener | 9.71 (n=87) | 10.64 (n=7) | 10.64 (n=44) | 8.39 (n=36) |
-| Torvik | 11.67 (n=111) | 12.54 (n=8) | 13.10 (n=54) | 9.97 (n=49) |
-| TeamRankings | 10.26 (n=108) | 11.75 (n=8) | 10.82 (n=53) | 9.37 (n=47) |
-| BPI | 9.60 (n=111) | 12.81 (n=8) | 10.40 (n=54) | 8.20 (n=49) |
-| Model consensus | 10.32 (n=114) | 12.20 (n=8) | 11.43 (n=56) | 8.78 (n=50) |
-| Fair line | 9.22 (n=111) | 11.34 (n=8) | 10.13 (n=54) | 7.87 (n=49) |
+| Closing line | 9.71 (n=145) | 10.23 (n=15) | 10.70 (n=66) | 8.56 (n=64) |
+| Opener | 10.05 (n=121) | 10.29 (n=14) | 11.11 (n=56) | 8.83 (n=51) |
+| Torvik | 12.57 (n=147) | 14.08 (n=15) | 14.82 (n=68) | 9.82 (n=64) |
+| TeamRankings | 10.92 (n=142) | 10.71 (n=15) | 12.18 (n=66) | 9.61 (n=61) |
+| BPI | 10.00 (n=146) | 11.75 (n=15) | 11.02 (n=67) | 8.52 (n=64) |
+| Model consensus | 11.04 (n=150) | 12.51 (n=15) | 13.00 (n=70) | 8.59 (n=65) |
+| Fair line | 9.62 (n=145) | 10.95 (n=15) | 10.80 (n=66) | 8.10 (n=64) |
 
-- Flagged sides vs the closing line: 23-14 (62.2%; break-even at -110 is 52.4%)
-- Totals MAE: Torvik 13.38 (n=111) vs closing total 13.44 (n=111)
+- Flagged sides vs the closing line: 28-22 (56.0%; break-even at -110 is 52.4%)
+- Totals MAE: Torvik 13.82 (n=147) vs closing total 13.47 (n=145)
 
 Change weights or thresholds only after ~300 graded games, and only where a gap holds in every tier.

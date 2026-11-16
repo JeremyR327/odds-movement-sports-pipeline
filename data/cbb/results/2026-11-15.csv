@@ -1,0 +1,37 @@
+date,espn_id,away,home,tier,site,final_home_margin,final_total,open_home_margin,close_home_margin,close_source,close_total,consensus_home_margin,torvik_home_margin,tr_home_margin,bpi_home_margin,fair_home_margin,torvik_total,flag_at_close,flag_side,model_err,close_err,home_covered
+2026-11-15,401906866,Baylor,Texas,1,N,3.0,147.0,6.5,3.5,ESPN/DraftKings open+now,159.5,5.4,6.8,3.4,4.9,6.3,145.5,EDGE Texas 2.8 · moved toward model,home,-2.4,-0.5,False
+2026-11-15,401918949,Louisville,Memphis,2,H,20.0,176.0,-9.5,-9.5,ESPN/DraftKings open+now,164.5,-5.5,-3.9,-8.4,-5.0,-7.9,152.8,,,25.5,29.5,True
+2026-11-15,401920681,Syracuse,St. John's,1,H,17.0,141.0,12.5,12.5,ESPN/DraftKings open+now,149.5,6.5,2.1,12.1,9.0,11.3,148.1,,,10.5,4.5,True
+2026-11-15,401918453,William & Mary,Michigan,2,H,44.0,202.0,29.5,26.5,ESPN/DraftKings open+now,166.5,11.8,1.3,23.0,21.4,22.4,153.8,EDGE William & Mary 4.1 · moved toward model,away,32.2,17.5,True
+2026-11-15,401926772,Arkansas-Pine Bluff,USC,2,H,76.0,168.0,41.5,46.5,ESPN/DraftKings open+now,156.5,31.3,25.8,40.2,31.6,37.4,143.3,EDGE Arkansas-Pine Bluff 9.1 · line moved away,away,44.7,29.5,True
+2026-11-15,401926063,Boise State,Nebraska,1,N,27.0,177.0,8.5,9.5,ESPN/DraftKings open+now,159.5,5.4,3.4,7.3,7.7,7.9,150.5,EDGE Boise State 1.6 · line moved away,away,21.6,17.5,True
+2026-11-15,401924858,Quinnipiac,Central Connecticut,3,H,5.0,139.0,-5.5,-3.5,ESPN/DraftKings open+now,136.5,1.6,5.0,-2.8,-0.5,-2.0,151.2,,,3.4,8.5,True
+2026-11-15,401925896,Norfolk State,Georgia State,3,H,25.0,131.0,11.5,11.5,ESPN/DraftKings open+now,144.5,9.6,8.1,11.7,10.0,10.5,149.7,,,15.4,13.5,True
+2026-11-15,401920771,Colgate,Delaware,3,H,6.0,122.0,1.5,1.5,ESPN/DraftKings open+now,147.5,1.3,1.2,1.8,1.0,1.4,143.4,,,4.7,4.5,True
+2026-11-15,401920235,Dartmouth,Boston University,2,H,15.0,165.0,3.5,3.5,ESPN/DraftKings open+now,143.5,2.1,1.8,,2.6,2.9,146.5,,,12.9,11.5,True
+2026-11-15,401912210,Harvard,American University,2,H,6.0,134.0,1.5,1.5,ESPN/DraftKings open+now,130.5,2.1,1.5,1.4,4.8,1.8,141.0,,,3.9,4.5,True
+2026-11-15,401909774,Niagara,Iowa State,3,H,21.0,111.0,38.5,39.5,ESPN/DraftKings open+now,143.5,22.7,11.9,34.2,32.6,30.6,136.5,EDGE Niagara 8.9 · line moved away,away,-1.7,-18.5,False
+2026-11-15,401909554,New Hampshire,Boston College,2,H,12.0,122.0,22.5,21.5,ESPN/DraftKings open+now,132.5,13.1,8.7,18.5,15.8,18.7,137.9,EDGE New Hampshire 2.8 · moved toward model,away,-1.1,-9.5,False
+2026-11-15,401925926,South Carolina State,Charleston,1,H,24.0,156.0,18.5,18.5,ESPN/DraftKings open+now,160.5,10.2,3.9,17.3,15.2,16.8,151.0,EDGE South Carolina State 1.7,away,13.8,5.5,True
+2026-11-15,401925812,Temple,La Salle,3,H,-13.0,155.0,1.5,1.5,ESPN/DraftKings open+now,153.5,3.4,5.7,1.2,0.7,2.4,141.8,,,-16.4,-14.5,False
+2026-11-15,401921287,UAlbany,Holy Cross,3,H,-2.0,122.0,-3.5,-3.5,ESPN/DraftKings open+now,144.5,0.1,-1.0,0.6,2.0,-1.7,148.1,,,-2.1,1.5,True
+2026-11-15,401920136,Cal State Bakersfield,North Dakota State,3,H,-4.0,142.0,3.5,4.5,ESPN/DraftKings open+now,150.5,0.9,-3.0,4.5,5.2,2.2,161.6,,,-4.9,-8.5,False
+2026-11-15,401920065,Princeton,Rhode Island,2,H,7.0,151.0,9.5,6.5,ESPN/DraftKings open+now,137.5,8.1,9.4,6.9,6.6,8.9,138.0,,,-1.1,0.5,True
+2026-11-15,401909525,Missouri,Marquette,1,N,5.0,133.0,-1.5,1.5,ESPN/DraftKings open+now,153.5,-0.1,-1.3,0.7,1.5,-1.2,143.2,EDGE Missouri 2.7 · moved toward model,away,5.1,3.5,True
+2026-11-15,401926216,Wright State-Lake,Tennessee Tech,2,H,67.0,135.0,,,,,-5.8,-5.6,-6.1,,,155.4,,,72.8,,
+2026-11-15,401926068,Purdue Fort Wayne,Eastern Illinois,3,H,-12.0,160.0,-3.5,-3.5,ESPN/DraftKings open+now,146.5,-7.2,0.9,-24.9,-1.1,-5.4,144.0,,,-4.8,-8.5,False
+2026-11-15,401921168,Cleveland State,Alabama A&M,3,H,-1.0,147.0,3.5,2.5,ESPN/DraftKings open+now,142.5,4.3,4.7,4.1,3.7,3.9,153.0,,,-5.3,-3.5,False
+2026-11-15,401911251,High Point,Saint Louis,1,H,-10.0,126.0,5.5,7.5,ESPN/DraftKings open+now,165.5,8.2,9.8,7.0,6.3,6.0,144.7,,,-18.2,-17.5,False
+2026-11-15,401909493,Creighton,Iowa,2,N,-1.0,139.0,3.5,4.5,ESPN/DraftKings open+now,146.5,2.9,4.4,0.8,2.3,3.2,136.9,,,-3.9,-5.5,False
+2026-11-15,401934396,Air Force,Pacific,2,H,24.0,162.0,,,,,11.1,11.7,10.6,10.1,,143.2,,,12.9,,
+2026-11-15,401928789,New Mexico State,San Diego State,2,N,12.0,134.0,11.5,12.5,ESPN/DraftKings open+now,142.5,9.2,7.2,11.7,10.6,10.6,150.0,,,2.8,-0.5,False
+2026-11-15,401919825,Mercyhurst,James Madison,3,H,9.0,151.0,15.5,13.5,ESPN/DraftKings open+now,138.5,9.8,9.0,,11.7,12.6,143.7,,,-0.8,-4.5,False
+2026-11-15,401917531,Chicago State,Loyola Marymount,3,H,37.0,135.0,16.5,18.5,ESPN/DraftKings open+now,139.5,6.9,0.1,14.7,12.5,11.7,153.8,EDGE Chicago State 6.8 · line moved away,away,30.1,18.5,True
+2026-11-15,401917528,Idaho State,Seattle U,3,H,7.0,147.0,15.5,15.5,ESPN/DraftKings open+now,142.5,9.5,3.4,17.8,12.1,12.5,141.3,EDGE Idaho State 3.0,away,-2.5,-8.5,False
+2026-11-15,401923393,Western Michigan,Southern Indiana,2,H,-21.0,139.0,-5.5,-6.5,ESPN/DraftKings open+now,139.5,-4.1,-1.9,-7.4,-4.5,-4.9,138.4,,,-16.9,-14.5,False
+2026-11-15,401917175,New Haven,Penn State,2,H,34.0,138.0,25.5,24.5,ESPN/DraftKings open+now,142.5,13.1,6.5,20.7,18.1,20.5,144.7,EDGE New Haven 4.0 · moved toward model,away,20.9,9.5,True
+2026-11-15,401911017,Canisius,Buffalo,3,H,24.0,134.0,15.5,14.5,ESPN/DraftKings open+now,150.5,10.1,9.7,10.9,9.8,12.8,144.8,,,13.9,9.5,True
+2026-11-15,401920124,Cal Poly,Montana State,2,H,25.0,129.0,7.5,6.5,ESPN/DraftKings open+now,165.5,6.7,6.4,6.0,8.6,7.2,149.2,,,18.3,18.5,True
+2026-11-15,401929200,Texas State,UTSA,1,H,-20.0,154.0,-4.5,-3.5,ESPN/DraftKings open+now,147.5,-1.5,2.4,-6.3,-4.1,-3.9,144.9,,,-18.5,-16.5,False
+2026-11-15,401920896,Coastal Carolina,Wisconsin,3,H,8.0,170.0,29.5,27.5,ESPN/DraftKings open+now,148.5,18.8,14.6,24.1,21.4,24.2,138.6,EDGE Coastal Carolina 3.3 · moved toward model,away,-10.8,-19.5,False
+2026-11-15,401911472,Alabama State,San José State,3,H,12.0,148.0,11.5,13.5,ESPN/DraftKings open+now,150.5,9.1,3.6,13.8,16.0,10.3,147.6,EDGE Alabama State 3.2 · line moved away,away,2.9,-1.5,False
