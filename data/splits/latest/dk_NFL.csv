@@ -1,3 +1,14 @@
 pulled_et,when,away,home,espn_id,spread_open,spread_now,total_open,total_now,spr_away_sel,spr_away_handle,spr_away_bets,spr_home_handle,spr_home_bets,over_handle,over_bets,ml_away_handle,ml_away_bets,flags,signal
-2026-11-15T22:41-05:00,Mon 11/16 8:15 PM,LA Chargers,BAL Ravens,,,,,,BAL Ravens -4.5,27,56,73,44,87,67,41,68,SHARP LA Chargers +4.5 +29; PUB Over 67%; SHARP Over +20,5
-2026-11-15T22:41-05:00,Thu 11/19 8:15 PM,IND Colts,HOU Texans,,,,,,HOU Texans -10,61,40,39,60,17,50,59,64,SHARP HOU Texans -10 +21; SHARP Under +33,4
+2026-11-16T09:09-05:00,Mon 11/16 8:15 PM,LA Chargers,BAL Ravens,,,,,,BAL Ravens -4.5,32,57,68,43,95,70,47,67,SHARP LA Chargers +4.5 +25; PUB Over 70%; SHARP Over +25,5
+2026-11-16T09:09-05:00,Thu 11/19 8:15 PM,IND Colts,HOU Texans,,,,,,HOU Texans -10.5,11,38,89,63,17,50,63,69,SHARP IND Colts +10.5 +26; SHARP Under +33,4
+2026-11-16T09:09-05:00,Sun 11/22 1:00 PM,NO Saints,CHI Bears,,,,,,CHI Bears -10,97,77,3,23,100,100,89,90,PUB CHI Bears -10 77%; SHARP CHI Bears -10 +20; PUB Over 100%,4
+2026-11-16T09:09-05:00,Sun 11/22 1:00 PM,ARI Cardinals,KC Chiefs,,,,,,KC Chiefs -16.5,82,42,18,58,100,67,82,79,SHARP KC Chiefs -16.5 +40; PUB Over 67%; SHARP Over +33,5
+2026-11-16T09:09-05:00,Sun 11/22 1:00 PM,MIA Dolphins,BUF Bills,,,,,,BUF Bills -16.5,85,30,15,70,75,40,75,89,PUB MIA Dolphins +16.5 70%; SHARP BUF Bills -16.5 +55; SHARP Over +35,5
+2026-11-16T09:09-05:00,Sun 11/22 1:00 PM,TB Buccaneers,DET Lions,,,,,,DET Lions -5.5,52,71,48,29,100,100,63,90,PUB DET Lions -5.5 71%; SHARP TB Buccaneers +5.5 +19; PUB Over 100%,4
+2026-11-16T09:09-05:00,Sun 11/22 1:00 PM,TEN Titans,DAL Cowboys,,,,,,DAL Cowboys -7.5,26,62,74,38,99,67,70,93,SHARP TEN Titans +7.5 +36; PUB Over 67%; SHARP Over +32,5
+2026-11-16T09:09-05:00,Sun 11/22 1:00 PM,PIT Steelers,PHI Eagles,,,,,,PIT Steelers -4.5,72,83,28,17,100,100,8,12,PUB PIT Steelers -4.5 83%; PUB Over 100%,2
+2026-11-16T09:09-05:00,Sun 11/22 1:00 PM,BAL Ravens,CAR Panthers,,,,,,CAR Panthers -2.5,99,73,1,27,100,100,32,42,PUB CAR Panthers -2.5 73%; SHARP CAR Panthers -2.5 +26; PUB Over 100%,4
+2026-11-16T09:09-05:00,Sun 11/22 4:05 PM,NY Jets,LA Chargers,,,,,,LA Chargers -3,1,43,99,57,0,0,10,39,SHARP NY Jets +3 +42; PUB Under 100%,3
+2026-11-16T09:09-05:00,Sun 11/22 4:25 PM,LV Raiders,DEN Broncos,,,,,,DEN Broncos -10,58,36,42,64,2,33,18,85,SHARP DEN Broncos -10 +22; PUB Under 67%; SHARP Under +31,5
+2026-11-16T09:09-05:00,Sun 11/22 4:25 PM,JAX Jaguars,NY Giants,,,,,,JAX Jaguars -6.5,100,92,0,8,100,100,33,15,PUB JAX Jaguars -6.5 92%; PUB Over 100%,2
+2026-11-16T09:09-05:00,Sun 11/22 8:20 PM,MIN Vikings,SF 49ers,,,,,,SF 49ers -3,3,40,97,60,80,67,68,62,SHARP MIN Vikings +3 +37; PUB Over 67%,3
