@@ -1,37 +1,23 @@
 pulled_et,rot_away,rot_home,away,home,winner_pick,winner_stars,winner_prob,ats_pick,ats_stars,ats_prob,total_pick,total_stars,total_prob,ml_value_pick,ml_value_stars,ml_value_score,matchup_url
-2026-11-15T15:29-05:00,306591,306592,Quinnipiac,C Connecticut,Quinnipiac,2,63.23,QUIN -3.5,1,52.19,Over 136.5,1,51.02,QUIN -167,1,0.68,https://www.teamrankings.com/ncaa-basketball/matchup/bobcats-blue-devils-2026-11-15
-2026-11-15T15:29-05:00,679,680,Louisville,Memphis,Louisville,4,80.29,MEM +9.5,1,50.34,Under 164.5,1,52.5,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/cardinals-tigers-2026-11-15
-2026-11-15T15:29-05:00,306599,306600,Colgate,Delaware,Delaware,1,50.71,COLG +1.5,1,52.3,Over 147.5,1,50.97,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/raiders-fightin-blue-hens-2026-11-15
-2026-11-15T15:29-05:00,306593,306594,Dartmouth,Boston U,Boston U,1,57.7,DART +3.5,2,53.45,Under 143.0,2,53.15,DART +140,1,0.63,https://www.teamrankings.com/ncaa-basketball/matchup/big-green-terriers-2026-11-15
-2026-11-15T15:29-05:00,306595,306596,Norfolk St,Georgia St,Georgia St,4,85.52,NORF +11.5,1,50.02,Over 144.5,1,51.64,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/spartans-panthers-2026-11-15
-2026-11-15T15:29-05:00,677,678,Niagara,Iowa St,Iowa St,5,99.89,ISU -39.5,1,50.85,Under 143.5,1,51.86,Not Available,,,https://www.teamrankings.com/ncaa-basketball/matchup/purple-eagles-cyclones-2026-11-15
-2026-11-15T15:29-05:00,306597,306598,Harvard,American,American,1,51.0,HARV +1.5,1,52.02,Under 130.5,1,52.39,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/crimson-eagles-2026-11-15
-2026-11-15T15:29-05:00,675,676,Boise St,Nebraska,Nebraska,4,82.84,NEB -9.5,2,53.38,Over 159.5,1,50.14,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/broncos-cornhuskers-2026-11-15
-2026-11-15T15:29-05:00,306601,306602,New Hampshire,Boston College,Boston College,5,96.95,BC -20.5,1,50.96,Over 132.5,2,53.07,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/wildcats-eagles-2026-11-15
-2026-11-15T15:29-05:00,306605,306606,S Carolina St,Charleston,Charleston,5,95.13,SCST +18.5,1,51.79,Under 160.5,1,50.62,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/bulldogs-cougars-2026-11-15
-2026-11-15T15:29-05:00,306603,306604,Albany,Holy Cross,Albany,2,63.29,ALBY -3.5,1,52.26,Over 145.5,2,54.12,ALBY -162,1,1.46,https://www.teamrankings.com/ncaa-basketball/matchup/great-danes-crusaders-2026-11-15
-2026-11-15T15:29-05:00,685,686,William & Mary,Michigan,Michigan,5,98.57,CWM +26.5,1,52.45,Under 168.5,1,51.04,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/tribe-wolverines-2026-11-15
-2026-11-15T15:29-05:00,687,688,Princeton,Rhode Island,Rhode Island,3,72.52,URI -6.5,1,51.1,Over 137.5,2,54.83,PRIN +268,1,0.31,https://www.teamrankings.com/ncaa-basketball/matchup/tigers-rams-2026-11-15
-2026-11-15T15:29-05:00,683,684,CS Bakersfield,N Dakota St,N Dakota St,2,68.35,NDSU -4.5,2,53.93,Under 151.5,1,51.56,NDSU -191,1,2.71,https://www.teamrankings.com/ncaa-basketball/matchup/roadrunners-bison-2026-11-15
-2026-11-15T15:29-05:00,681,682,Temple,La Salle,La Salle,1,51.38,TEM +1.5,1,51.63,Over 152.5,1,51.15,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/owls-explorers-2026-11-15
-2026-11-15T15:29-05:00,689,690,Missouri,Marquette,Marquette,1,59.69,MARQ -2.5,2,52.9,Under 152.5,1,50.45,MARQ -146,1,0.34,https://www.teamrankings.com/ncaa-basketball/matchup/tigers-golden-eagles-2026-11-15
-2026-11-15T15:29-05:00,691,692,Creighton,Iowa,Iowa,2,62.07,IOWA -3.5,1,50.99,Under 146.5,1,51.51,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/bluejays-hawkeyes-2026-11-15
-2026-11-15T15:29-05:00,695,696,Purdue FW,E Illinois,Purdue FW,2,63.41,PFW -3.5,1,52.38,Over 144.5,2,52.86,PFW -161,1,1.72,https://www.teamrankings.com/ncaa-basketball/matchup/mastodons-panthers-2026-11-15
-2026-11-15T15:29-05:00,306607,306608,High Point,Saint Louis,Saint Louis,3,73.27,HP +7.5,1,51.74,Over 164.5,2,53.32,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/panthers-billikens-2026-11-15
-2026-11-15T15:29-05:00,694,693,Texas,Baylor,Texas,1,57.09,BAY +3.5,2,54.06,Under 159.5,1,50.44,BAY +142,1,1.59,https://www.teamrankings.com/ncaa-basketball/matchup/longhorns-bears-2026-11-15
-2026-11-15T15:29-05:00,306609,306610,Cleveland St,Alabama A&M,Alabama A&M,1,57.23,AAMU -2.5,1,50.42,Over 143.5,1,51.67,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/vikings-bulldogs-2026-11-15
-2026-11-15T15:29-05:00,306613,306614,Mercyhurst,J Madison,J Madison,4,88.25,JMU -12.5,1,51.04,Over 137.5,2,54.44,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/lakers-dukes-2026-11-15
-2026-11-15T15:29-05:00,306611,306612,Chicago St,Loyola Mymt,Loyola Mymt,5,95.16,CHS +18.5,1,51.67,Over 139.5,1,50.77,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/cougars-lions-2026-11-15
-2026-11-15T15:29-05:00,697,698,New Mexico St,San Diego St,San Diego St,4,87.71,NMSU +12.5,1,50.02,Under 143.5,2,53.45,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/aggies-aztecs-2026-11-15
-2026-11-15T15:29-05:00,623,624,Air Force,Pacific,Pacific,4,83.52,PAC -10.5,1,50.54,Over 164.5,2,53.87,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/falcons-tigers-2026-11-15
-2026-11-15T15:29-05:00,669,670,Idaho St,Seattle,Seattle,5,93.13,SEA -15.5,1,51.46,Over 143.5,1,51.2,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/bengals-redhawks-2026-11-15
-2026-11-15T15:29-05:00,699,700,W Michigan,S Indiana,W Michigan,3,73.32,WMU -6.5,1,52.04,Under 140.5,1,51.81,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/broncos-screaming-eagles-2026-11-15
-2026-11-15T15:29-05:00,,,New Haven,Penn St,Penn St,5,98.4,PSU -24.5,1,51.06,Over 142.5,2,54.41,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/chargers-nittany-lions-2026-11-15
-2026-11-15T15:29-05:00,701,702,Pepperdine,Oregon,Postponed,0,,Postponed,0,,Postponed,0,,Postponed,0,,https://www.teamrankings.com/ncaa-basketball/matchup/waves-ducks-2026-11-15
-2026-11-15T15:29-05:00,703,704,Canisius,Buffalo,Buffalo,4,89.43,CAN +13.5,1,50.59,Under 150.5,1,51.55,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/golden-griffins-bulls-2026-11-15
-2026-11-15T15:29-05:00,705,706,Cal Poly,Montana St,Montana St,3,74.63,MTST -6.5,2,53.6,Over 165.5,1,51.02,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/mustangs-bobcats-2026-11-15
-2026-11-15T15:29-05:00,707,708,Syracuse,St John's,St John's,4,87.7,SYR +12.5,1,50.04,Over 149.5,1,50.17,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/orange-red-storm-2026-11-15
-2026-11-15T15:29-05:00,306617,306618,AR-Pine Bluff,USC,USC,5,99.97,ARPB +46.5,1,50.41,Under 157.5,2,52.71,No Pick Yet,,,https://www.teamrankings.com/ncaa-basketball/matchup/golden-lions-trojans-2026-11-15
-2026-11-15T15:29-05:00,709,710,Texas St,UTSA,Texas St,2,62.86,TXST -3.5,1,51.81,Under 147.5,3,55.09,TXST -163,1,0.88,https://www.teamrankings.com/ncaa-basketball/matchup/bobcats-roadrunners-2026-11-15
-2026-11-15T15:29-05:00,711,712,Coastal Car,Wisconsin,Wisconsin,5,99.03,WIS -27.5,1,51.38,Under 148.5,2,54.26,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/chanticleers-badgers-2026-11-15
-2026-11-15T15:29-05:00,306621,306622,Alabama St,San Jose St,San Jose St,5,90.29,SJSU -13.5,1,51.34,Under 150.5,1,51.71,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/hornets-spartans-2026-11-15
+2026-11-16T15:29-05:00,306619,306620,Florida A&M,UTEP,UTEP,5,96.88,UTEP -20.5,1,50.52,Over 142.5,1,51.14,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/rattlers-miners-2026-11-16
+2026-11-16T15:29-05:00,306627,306628,Alcorn St,Maryland,Maryland,5,99.75,MD -34.5,1,52.49,Over 154.5,1,50.5,No Pick Yet,,,https://www.teamrankings.com/ncaa-basketball/matchup/braves-terrapins-2026-11-16
+2026-11-16T15:29-05:00,306629,306630,Iona,UMBC,Iona,1,56.59,UMBC +2.5,1,50.23,Over 143.5,2,54.87,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/gaels-retrievers-2026-11-16
+2026-11-16T15:29-05:00,306631,306632,Prairie View,Ohio St,Ohio St,5,99.6,OSU -32.5,1,51.63,Under 154.5,1,50.52,No Pick Yet,,,https://www.teamrankings.com/ncaa-basketball/matchup/panthers-buckeyes-2026-11-16
+2026-11-16T15:29-05:00,306637,306638,Jacksonville,Georgia,Georgia,5,97.67,UGA -22.5,1,50.15,Over 153.5,1,51.15,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/dolphins-bulldogs-2026-11-16
+2026-11-16T15:29-05:00,873,874,E Kentucky,Kent St,Kent St,4,83.24,KENT -9.5,2,53.98,Under 160.5,1,50.88,KENT -490,1,0.19,https://www.teamrankings.com/ncaa-basketball/matchup/colonels-golden-flashes-2026-11-16
+2026-11-16T15:29-05:00,871,872,The Citadel,Clemson,Clemson,5,98.23,CIT +24.5,1,50.77,Under 142.5,1,50.72,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/bulldogs-tigers-2026-11-16
+2026-11-16T15:29-05:00,,,St Thomas,LIU,St Thomas,1,53.98,STT -1.5,1,50.96,Over 145.5,1,50.2,STT -113,1,0.93,https://www.teamrankings.com/ncaa-basketball/matchup/tommies-sharks-2026-11-16
+2026-11-16T15:29-05:00,875,876,Richmond,Virginia Tech,Virginia Tech,4,89.0,VT -12.5,2,52.56,Over 152.5,1,50.21,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/spiders-hokies-2026-11-16
+2026-11-16T15:29-05:00,869,870,W Kentucky,Tulsa,Tulsa,3,74.2,TLSA -6.5,2,53.09,Over 158.5,1,52.09,TLSA -279,1,0.59,https://www.teamrankings.com/ncaa-basketball/matchup/hilltoppers-golden-hurricane-2026-11-16
+2026-11-16T15:29-05:00,306635,306636,Grambling,Kentucky,Kentucky,5,98.92,GRAM +28.5,2,53.04,Under 152.5,3,57.55,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/tigers-wildcats-2026-11-16
+2026-11-16T15:29-05:00,877,878,Tarleton St,Drake,Drake,4,81.91,DRKE -9.5,1,51.99,Under 146.5,2,53.36,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/texans-bulldogs-2026-11-16
+2026-11-16T15:29-05:00,885,886,Abl Christian,Missouri St,Missouri St,2,67.89,ACU +5.5,1,50.5,Under 141.5,1,52.14,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/wildcats-bears-2026-11-16
+2026-11-16T15:29-05:00,879,880,Columbia,Northwestern,Northwestern,4,86.29,NW -11.5,1,51.32,Over 140.5,1,50.95,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/lions-wildcats-2026-11-16
+2026-11-16T15:29-05:00,883,884,Montana,Kansas St,Kansas St,5,91.3,KSU -14.5,1,50.0,Under 153.5,2,53.91,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/grizzlies-wildcats-2026-11-16
+2026-11-16T15:29-05:00,881,882,C Arkansas,Oklahoma St,Oklahoma St,5,96.33,OKST -18.5,2,53.73,Under 161.5,1,51.44,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/bears-cowboys-2026-11-16
+2026-11-16T15:29-05:00,887,888,W Illinois,Minnesota,Minnesota,5,99.64,MINN -33.5,1,50.57,Under 136.5,1,51.11,No Pick Yet,,,https://www.teamrankings.com/ncaa-basketball/matchup/leathernecks-golden-gophers-2026-11-16
+2026-11-16T15:29-05:00,306639,306640,SE Louisiana,Texas A&M,Texas A&M,5,99.64,TAM -33.5,1,50.25,Under 161.5,1,51.94,No Pick Yet,,,https://www.teamrankings.com/ncaa-basketball/matchup/lions-aggies-2026-11-16
+2026-11-16T15:29-05:00,306641,306642,E Texas A&M,Oregon St,Oregon St,5,94.15,ORST -16.5,1,51.25,Under 154.5,1,50.21,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/lions-beavers-2026-11-16
+2026-11-16T15:29-05:00,891,892,Portland St,Saint Mary's,Saint Mary's,5,95.24,PRST +18.5,1,51.35,Under 150.5,3,55.24,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/vikings-gaels-2026-11-16
+2026-11-16T15:29-05:00,306643,306644,Texas So,UCSD,UCSD,5,95.36,TXSO +18.5,1,50.82,Under 157.5,1,51.27,Lay Off,0,,https://www.teamrankings.com/ncaa-basketball/matchup/tigers-tritons-2026-11-16
+2026-11-16T15:29-05:00,893,894,Long Beach St,UCLA,UCLA,5,99.44,UCLA -30.5,1,51.8,Under 145.5,1,51.56,No Pick Yet,,,https://www.teamrankings.com/ncaa-basketball/matchup/beach-bruins-2026-11-16
