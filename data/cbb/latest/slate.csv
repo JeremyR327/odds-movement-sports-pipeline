@@ -1,26 +1,24 @@
 date,tip_et,espn_id,away,home,site,tier,torvik_rank_away,torvik_rank_home,torvik_home_margin,torvik_total,tr_home_margin,bpi_home_margin,consensus_home_margin,line_source,open_home_margin,cur_home_margin,open_total,cur_total,fair_home_margin,edge_pts,gap_cons_vs_open,gap_cons_vs_cur,moved_toward_model,flag,flag_side,pulled_et
-2026-11-16,11:00 AM,401920962,Miami (OH) Hamilton,Morehead State,H,3,114,352,-7.6,148.1,-13.3,,-9.7,,,,,,,,,,,,,2026-11-16T10:41-05:00
-2026-11-16,2:00 PM,401929419,Florida A&M,UTEP,H,3,363,287,11.2,143.5,15.9,15.7,13.5,ESPN/Draft Kings open+now,19.5,19.5,140.5,142.5,16.5,-3.0,-6.0,-6.0,,EDGE Florida A&M 3.0,away,2026-11-16T10:41-05:00
-2026-11-16,6:00 PM,401921087,Iona,UMBC,H,3,276,195,6.0,140.5,-3.0,-0.7,1.9,ESPN/Draft Kings open+now,-2.5,-2.5,148.5,144.5,-0.3,2.2,4.4,4.4,,,,2026-11-16T10:41-05:00
-2026-11-16,6:00 PM,401916298,Alcorn State,Maryland,H,3,355,145,13.1,152.9,29.3,24.2,20.2,ESPN/Draft Kings open+now,34.5,35.5,152.5,154.5,27.3,-8.2,-14.3,-15.3,False,EDGE Alcorn State 8.2 · line moved away,away,2026-11-16T10:41-05:00
-2026-11-16,6:30 PM,401916317,Prairie View A&M,Ohio State,H,3,256,163,6.5,145.5,28.0,26.7,17.0,ESPN/Draft Kings open+now,34.5,33.5,153.5,154.5,25.8,-7.7,-17.5,-16.5,True,EDGE Prairie View A&M 7.7 · moved toward model,away,2026-11-16T10:41-05:00
-2026-11-16,7:00 PM,401921804,Grambling,Kentucky,H,2,175,170,3.2,154.3,27.0,21.8,14.1,ESPN/Draft Kings open+now,30.5,29.5,158.5,152.5,23.9,-5.6,-16.4,-15.4,True,EDGE Grambling 5.6 · moved toward model,away,2026-11-16T10:41-05:00
-2026-11-16,7:00 PM,401928841,Eastern Kentucky,Kent State,H,3,193,224,2.1,151.2,9.6,8.3,5.6,ESPN/Draft Kings open+now,11.5,10.5,157.5,161.5,8.5,-2.0,-5.9,-4.9,True,,,2026-11-16T10:41-05:00
-2026-11-16,7:00 PM,401927352,Virginia Lynchburg,North Carolina Central,H,2,31,180,-3.4,138.5,-29.5,,-13.2,,,,,,,,,,,,,2026-11-16T10:41-05:00
-2026-11-16,7:00 PM,401925864,Western Kentucky,Tulsa,H,2,114,156,1.5,150.7,6.0,6.0,3.7,ESPN/Draft Kings open+now,5.5,6.5,159.5,157.5,4.8,-1.7,-1.8,-2.8,False,,,2026-11-16T10:41-05:00
-2026-11-16,7:00 PM,401922240,Florida Memorial,Stetson,H,2,11,311,-11.3,149.5,-30.2,,-18.4,,,,,,,,,,,,,2026-11-16T10:41-05:00
-2026-11-16,7:00 PM,401918075,The Citadel,Clemson,H,3,269,214,5.4,152.1,22.1,19.5,13.2,ESPN/Draft Kings open+now,24.5,23.5,145.5,142.5,18.9,-4.6,-11.3,-10.3,True,EDGE The Citadel 4.6 · moved toward model,away,2026-11-16T10:41-05:00
-2026-11-16,7:00 PM,401911240,Richmond,Virginia Tech,H,1,53,25,5.3,142.4,13.2,9.5,8.5,ESPN/Draft Kings open+now,13.5,12.5,155.5,153.5,12.5,0.0,-5.0,-4.0,True,,,2026-11-16T10:41-05:00
-2026-11-16,7:00 PM,401906783,Jacksonville,Georgia,H,3,219,182,4.1,149.2,19.7,16.6,11.3,ESPN/Draft Kings open+now,23.5,21.5,153.5,152.5,17.4,-4.1,-12.2,-10.2,True,EDGE Jacksonville 4.1 · moved toward model,away,2026-11-16T10:41-05:00
-2026-11-16,7:30 PM,401927364,Tarleton State,Drake,H,2,125,256,-1.8,147.1,7.9,10.8,3.6,ESPN/Draft Kings open+now,10.5,8.5,145.5,146.5,7.7,-0.8,-6.9,-4.9,True,,,2026-11-16T10:41-05:00
-2026-11-16,8:00 PM,401920735,Columbia,Northwestern,H,2,272,66,10.5,147.7,11.3,9.3,10.5,ESPN/Draft Kings open+now,12.5,11.5,139.5,140.5,11.7,0.2,-2.0,-1.0,True,,,2026-11-16T10:41-05:00
-2026-11-16,8:00 PM,401917964,Abilene Christian,Missouri State,H,2,338,4,22.3,153.7,,2.2,16.5,ESPN/Draft Kings open+now,7.5,5.5,145.5,140.5,11.1,5.6,9.0,11.0,False,EDGE Missouri State 5.6 · line moved away,home,2026-11-16T10:41-05:00
-2026-11-16,8:00 PM,401917917,Central Arkansas,Oklahoma State,H,2,147,37,8.5,144.4,15.2,15.9,12.0,ESPN/Draft Kings open+now,21.5,20.5,160.5,160.5,17.7,-2.8,-9.5,-8.5,True,EDGE Central Arkansas 2.8 · moved toward model,away,2026-11-16T10:41-05:00
-2026-11-16,8:00 PM,401916307,Western Illinois,Minnesota,H,2,311,21,15.7,143.3,29.7,25.1,21.8,ESPN/Draft Kings open+now,36.5,34.5,138.5,135.5,30.6,-3.9,-14.7,-12.7,True,EDGE Western Illinois 3.9 · moved toward model,away,2026-11-16T10:41-05:00
-2026-11-16,8:00 PM,401909798,Montana,Kansas State,H,2,153,241,-0.2,143.9,11.3,8.5,5.0,ESPN/Draft Kings open+now,15.5,15.5,155.5,155.5,11.3,-4.2,-10.5,-10.5,,EDGE Montana 4.2,away,2026-11-16T10:41-05:00
-2026-11-16,8:30 PM,401920808,SE Louisiana,Texas A&M,H,2,254,16,14.3,143.4,28.2,23.8,20.4,ESPN/Draft Kings open+now,33.5,34.5,158.5,160.5,28.3,-6.2,-13.1,-14.1,False,EDGE SE Louisiana 6.2 · line moved away,away,2026-11-16T10:41-05:00
-2026-11-16,9:30 PM,401929192,East Texas A&M,Oregon State,H,2,175,108,5.3,145.9,18.2,12.2,10.5,ESPN/Draft Kings open+now,17.5,16.5,151.5,154.5,14.7,-1.8,-7.0,-6.0,True,,,2026-11-16T10:41-05:00
-2026-11-16,10:00 PM,401924265,Long Beach State,UCLA,H,2,158,3,14.8,143.3,29.6,25.8,21.4,ESPN/Draft Kings open+now,33.5,33.5,148.5,147.5,28.7,-4.8,-12.1,-12.1,,EDGE Long Beach State 4.8,away,2026-11-16T10:41-05:00
-2026-11-16,10:00 PM,401926228,Colorado Colorado Springs,Denver,H,2,164,79,5.8,138.9,-9.0,,0.3,,,,,,,,,,,,,2026-11-16T10:41-05:00
-2026-11-16,10:00 PM,401920373,Texas Southern,UC San Diego,H,3,295,158,7.8,145.3,,14.7,9.8,ESPN/Draft Kings open+now,18.5,19.5,156.5,156.5,14.1,-5.4,-8.7,-9.7,False,EDGE Texas Southern 5.4 · line moved away,away,2026-11-16T10:41-05:00
-2026-11-16,10:00 PM,401917532,Portland State,Saint Mary's,H,2,262,63,10.5,153.4,16.2,17.8,13.7,ESPN/Draft Kings open+now,17.5,17.5,150.5,149.5,16.0,-1.5,-3.8,-3.8,,,,2026-11-16T10:41-05:00
+2026-11-16,6:00 PM,401921087,Iona,UMBC,H,3,276,195,6.0,140.5,-3.0,-1.8,1.7,ESPN/DraftKings open+now,-2.5,-2.5,148.5,143.5,-0.4,2.1,4.2,4.2,,,,2026-11-16T17:44-05:00
+2026-11-16,6:00 PM,401916298,Alcorn State,Maryland,H,3,355,145,13.1,152.9,29.3,24.1,20.2,ESPN/DraftKings open+now,34.5,34.5,152.5,154.5,27.3,-7.2,-14.3,-14.3,,EDGE Alcorn State 7.2,away,2026-11-16T17:44-05:00
+2026-11-16,6:30 PM,401916317,Prairie View A&M,Ohio State,H,3,256,163,6.5,145.5,28.0,26.8,17.0,ESPN/DraftKings open+now,34.5,32.5,153.5,154.5,25.8,-6.7,-17.5,-15.5,True,EDGE Prairie View A&M 6.7 · moved toward model,away,2026-11-16T17:44-05:00
+2026-11-16,7:00 PM,401928841,Eastern Kentucky,Kent State,H,3,193,224,2.1,151.2,9.6,8.4,5.6,ESPN/DraftKings open+now,11.5,9.5,157.5,160.5,8.5,-1.0,-5.9,-3.9,True,,,2026-11-16T17:44-05:00
+2026-11-16,7:00 PM,401927352,Virginia Lynchburg,North Carolina Central,H,2,31,180,-3.4,138.5,-29.5,,-13.2,,,,,,,,,,,,,2026-11-16T17:44-05:00
+2026-11-16,7:00 PM,401925864,Western Kentucky,Tulsa,H,2,114,156,1.5,150.7,5.9,6.0,3.7,ESPN/DraftKings open+now,5.5,5.5,159.5,158.5,4.8,-0.7,-1.8,-1.8,,,,2026-11-16T17:44-05:00
+2026-11-16,7:00 PM,401922240,Florida Memorial,Stetson,H,2,11,311,-11.3,149.5,-30.2,,-18.4,,,,,,,,,,,,,2026-11-16T17:44-05:00
+2026-11-16,7:00 PM,401921804,Grambling,Kentucky,H,2,175,170,3.2,154.3,27.0,21.8,14.1,ESPN/DraftKings open+now,30.5,28.5,158.5,152.5,23.9,-4.6,-16.4,-14.4,True,EDGE Grambling 4.6 · moved toward model,away,2026-11-16T17:44-05:00
+2026-11-16,7:00 PM,401918075,The Citadel,Clemson,H,3,269,214,5.4,152.1,22.2,18.9,13.1,ESPN/DraftKings open+now,24.5,24.5,145.5,142.5,18.8,-5.7,-11.4,-11.4,,EDGE The Citadel 5.7,away,2026-11-16T17:44-05:00
+2026-11-16,7:00 PM,401911240,Richmond,Virginia Tech,H,1,53,25,5.3,142.4,13.2,9.4,8.5,ESPN/DraftKings open+now,13.5,12.5,155.5,151.5,12.5,0.0,-5.0,-4.0,True,,,2026-11-16T17:44-05:00
+2026-11-16,7:00 PM,401906783,Jacksonville,Georgia,H,3,219,182,4.1,149.2,19.7,16.8,11.3,ESPN/DraftKings open+now,23.5,21.5,153.5,153.5,17.4,-4.1,-12.2,-10.2,True,EDGE Jacksonville 4.1 · moved toward model,away,2026-11-16T17:44-05:00
+2026-11-16,7:30 PM,401927364,Tarleton State,Drake,H,2,125,256,-1.8,147.1,7.9,10.8,3.6,ESPN/DraftKings open+now,10.5,8.5,145.5,146.5,7.7,-0.8,-6.9,-4.9,True,,,2026-11-16T17:44-05:00
+2026-11-16,8:00 PM,401920735,Columbia,Northwestern,H,2,272,66,10.5,147.7,11.3,9.4,10.5,ESPN/DraftKings open+now,12.5,11.5,139.5,140.5,11.7,0.2,-2.0,-1.0,True,,,2026-11-16T17:44-05:00
+2026-11-16,8:00 PM,401917964,Abilene Christian,Missouri State,H,2,338,4,22.3,153.7,,2.3,16.5,ESPN/DraftKings open+now,7.5,5.5,145.5,139.5,11.1,5.6,9.0,11.0,False,EDGE Missouri State 5.6 · line moved away,home,2026-11-16T17:44-05:00
+2026-11-16,8:00 PM,401917917,Central Arkansas,Oklahoma State,H,2,147,37,8.5,144.4,15.3,15.9,12.0,ESPN/DraftKings open+now,21.5,18.5,160.5,162.5,17.7,-0.8,-9.5,-6.5,True,,,2026-11-16T17:44-05:00
+2026-11-16,8:00 PM,401916307,Western Illinois,Minnesota,H,2,311,21,15.7,143.3,29.6,25.0,21.7,ESPN/DraftKings open+now,36.5,33.5,138.5,135.5,30.6,-2.9,-14.8,-11.8,True,EDGE Western Illinois 2.9 · moved toward model,away,2026-11-16T17:44-05:00
+2026-11-16,8:00 PM,401909798,Montana,Kansas State,H,2,153,241,-0.2,143.9,11.3,8.3,4.9,ESPN/DraftKings open+now,15.5,14.5,155.5,153.5,11.3,-3.2,-10.6,-9.6,True,EDGE Montana 3.2 · moved toward model,away,2026-11-16T17:44-05:00
+2026-11-16,8:30 PM,401920808,SE Louisiana,Texas A&M,H,2,254,16,14.3,143.4,28.2,23.8,20.4,ESPN/DraftKings open+now,33.5,33.5,158.5,161.5,28.3,-5.2,-13.1,-13.1,,EDGE SE Louisiana 5.2,away,2026-11-16T17:44-05:00
+2026-11-16,9:30 PM,401929192,East Texas A&M,Oregon State,H,2,175,108,5.3,145.9,18.2,12.1,10.5,ESPN/DraftKings open+now,17.5,16.5,151.5,153.5,14.7,-1.8,-7.0,-6.0,True,,,2026-11-16T17:44-05:00
+2026-11-16,10:00 PM,401924265,Long Beach State,UCLA,H,2,158,3,14.8,143.3,29.3,25.6,21.3,ESPN/DraftKings open+now,33.5,29.5,148.5,145.5,28.6,-0.9,-12.2,-8.2,True,,,2026-11-16T17:44-05:00
+2026-11-16,10:00 PM,401926228,Colorado Colorado Springs,Denver,H,2,164,79,5.8,138.9,-9.1,,0.2,,,,,,,,,,,,,2026-11-16T17:44-05:00
+2026-11-16,10:00 PM,401920373,Texas Southern,UC San Diego,H,3,295,158,7.8,145.3,,14.7,9.8,ESPN/DraftKings open+now,18.5,18.5,156.5,157.5,14.1,-4.4,-8.7,-8.7,,EDGE Texas Southern 4.4,away,2026-11-16T17:44-05:00
+2026-11-16,10:00 PM,401917532,Portland State,Saint Mary's,H,2,262,63,10.5,153.4,16.2,16.1,13.3,ESPN/DraftKings open+now,17.5,18.5,150.5,150.5,15.8,-2.7,-4.2,-5.2,False,EDGE Portland State 2.7 · line moved away,away,2026-11-16T17:44-05:00
