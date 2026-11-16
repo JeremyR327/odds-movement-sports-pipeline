@@ -1,7 +1,0 @@
-date,tip_et,espn_id,away,home,site,tier,torvik_rank_away,torvik_rank_home,torvik_home_margin,torvik_total,tr_home_margin,bpi_home_margin,consensus_home_margin,line_source,open_home_margin,cur_home_margin,open_total,cur_total,fair_home_margin,edge_pts,gap_cons_vs_open,gap_cons_vs_cur,moved_toward_model,flag,flag_side,pulled_et
-2026-11-15,6:00 PM,401920124,Cal Poly,Montana State,H,2,236,139,6.4,149.2,6.0,8.6,6.7,ESPN/DraftKings open+now,7.5,6.5,166.5,165.5,7.2,0.7,-0.8,0.2,True,,,2026-11-15T17:44-05:00
-2026-11-15,7:00 PM,401920681,Syracuse,St. John's,H,1,22,34,2.1,148.1,12.1,9.0,6.5,ESPN/DraftKings open+now,12.5,12.5,150.5,149.5,11.3,-1.2,-6.0,-6.0,,,,2026-11-15T17:44-05:00
-2026-11-15,7:00 PM,401926772,Arkansas-Pine Bluff,USC,H,2,364,29,25.8,143.3,40.2,31.6,31.3,ESPN/DraftKings open+now,41.5,46.5,158.5,156.5,37.4,-9.1,-10.2,-15.2,False,EDGE Arkansas-Pine Bluff 9.1 · line moved away,away,2026-11-15T17:44-05:00
-2026-11-15,8:00 PM,401929200,Texas State,UTSA,H,1,70,91,2.4,144.9,-6.3,-4.1,-1.5,ESPN/DraftKings open+now,-4.5,-3.5,149.5,147.5,-3.9,-0.4,3.0,2.0,True,,,2026-11-15T17:44-05:00
-2026-11-15,8:00 PM,401920896,Coastal Carolina,Wisconsin,H,3,354,86,14.6,138.6,24.1,21.4,18.8,ESPN/DraftKings open+now,29.5,27.5,147.5,148.5,24.2,-3.3,-10.7,-8.7,True,EDGE Coastal Carolina 3.3 · moved toward model,away,2026-11-15T17:44-05:00
-2026-11-15,9:00 PM,401911472,Alabama State,San José State,H,3,227,211,3.6,147.6,13.8,16.0,9.1,ESPN/DraftKings open+now,11.5,13.5,159.5,150.5,10.3,-3.2,-2.4,-4.4,False,EDGE Alabama State 3.2 · line moved away,away,2026-11-15T17:44-05:00

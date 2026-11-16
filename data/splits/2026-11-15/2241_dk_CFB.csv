@@ -1,0 +1,51 @@
+pulled_et,when,away,home,espn_id,spread_open,spread_now,total_open,total_now,spr_away_sel,spr_away_handle,spr_away_bets,spr_home_handle,spr_home_bets,over_handle,over_bets,ml_away_handle,ml_away_bets,flags,signal
+2026-11-15T22:41-05:00,Tue 11/17 7:00 PM,Miami OH,Kent State,,,,,,Miami OH -9.5,0,50,100,50,,,89,11,SHARP Kent State +9.5 +50,2
+2026-11-15T22:41-05:00,Tue 11/17 7:00 PM,Ball State,Ohio,,,,,,Ohio -10.5,100,100,0,0,,,68,93,PUB Ohio -10.5 100%,1
+2026-11-15T22:41-05:00,Tue 11/17 7:00 PM,Eastern Michigan,Western Michigan,,,,,,Western Michigan -14.5,0,0,100,100,100,100,50,86,PUB Eastern Michigan +14.5 100%; PUB Over 100%,2
+2026-11-15T22:41-05:00,Wed 11/18 7:00 PM,Central Michigan,Buffalo,,,,,,Buffalo -2.5,100,100,0,0,,,65,71,PUB Buffalo -2.5 100%,1
+2026-11-15T22:41-05:00,Wed 11/18 7:30 PM,Akron,UMass,,,,,,UMass -3,100,100,0,0,,,16,63,PUB UMass -3 100%,1
+2026-11-15T22:41-05:00,Thu 11/19 7:30 PM,Rice,Temple,,,,,,Temple -3.5,100,100,0,0,,,100,100,PUB Temple -3.5 100%,1
+2026-11-15T22:41-05:00,Fri 11/20 6:00 PM,Iowa State,UCF,,,,,,UCF -2.5,100,50,0,50,0,0,100,100,SHARP UCF -2.5 +50; PUB Under 100%,3
+2026-11-15T22:41-05:00,Fri 11/20 7:30 PM,Clemson,Duke,,,,,,Duke -11.5,100,100,0,0,0,0,77,86,PUB Duke -11.5 100%; PUB Under 100%,2
+2026-11-15T22:41-05:00,Fri 11/20 8:00 PM,Oregon,Michigan State,,,,,,Oregon -14,100,100,0,0,,,0,0,PUB Oregon -14 100%,1
+2026-11-15T22:41-05:00,Fri 11/20 8:00 PM,UTEP,Air Force,,,,,,Air Force -22.5,100,100,0,0,,,100,100,PUB Air Force -22.5 100%,1
+2026-11-15T22:41-05:00,Fri 11/20 9:00 PM,New Mexico,Wyoming,,,,,,New Mexico -8.5,0,33,100,67,,,0,0,PUB Wyoming +8.5 67%; SHARP Wyoming +8.5 +33,3
+2026-11-15T22:41-05:00,Sat 11/21 12:00 PM,Ohio State,Nebraska,,,,,,Ohio State -2.5,34,43,66,57,,,0,10,,0
+2026-11-15T22:41-05:00,Sat 11/21 12:00 PM,BYU,Kansas,,,,,,BYU -5.5,100,100,0,0,0,0,0,0,PUB BYU -5.5 100%; PUB Under 100%,2
+2026-11-15T22:41-05:00,Sat 11/21 12:00 PM,Vanderbilt,Florida,,,,,,Florida -13.5,100,100,0,0,,,100,100,PUB Florida -13.5 100%,1
+2026-11-15T22:41-05:00,Sat 11/21 12:00 PM,Memphis,Navy,,,,,,,,,,,100,100,0,0,PUB Over 100%,1
+2026-11-15T22:41-05:00,Sat 11/21 12:00 PM,Wake Forest,Georgia Tech,,,,,,Wake Forest -21.5,100,100,0,0,100,100,0,0,PUB Wake Forest -21.5 100%; PUB Over 100%,2
+2026-11-15T22:41-05:00,Sat 11/21 12:00 PM,North Texas,Tulane,,,,,,North Texas -7,0,50,100,50,0,0,0,0,SHARP Tulane +7 +50; PUB Under 100%,3
+2026-11-15T22:41-05:00,Sat 11/21 12:00 PM,Colorado,Cincinnati,,,,,,Cincinnati -3.5,100,100,0,0,,,100,100,PUB Cincinnati -3.5 100%,1
+2026-11-15T22:41-05:00,Sat 11/21 12:00 PM,Pittsburgh,Louisville,,,,,,Louisville -13.5,100,100,0,0,,,0,50,PUB Louisville -13.5 100%,1
+2026-11-15T22:41-05:00,Sat 11/21 12:00 PM,Syracuse,Boston College,,,,,,Syracuse -3.5,100,100,0,0,,,0,0,PUB Syracuse -3.5 100%,1
+2026-11-15T22:41-05:00,Sat 11/21 12:00 PM,Northwestern,Minnesota,,,,,,Northwestern -3,100,100,0,0,,,,,PUB Northwestern -3 100%,1
+2026-11-15T22:41-05:00,Sat 11/21 1:00 PM,Houston,West Virginia,,,,,,Houston -7,100,100,0,0,,,0,0,PUB Houston -7 100%,1
+2026-11-15T22:41-05:00,Sat 11/21 1:00 PM,Western Kentucky,Liberty,,,,,,Liberty -16.5,100,100,0,0,,,,,PUB Liberty -16.5 100%,1
+2026-11-15T22:41-05:00,Sat 11/21 2:00 PM,Middle Tennessee,Sam Houston,,,,,,Middle Tennessee -6.5,100,100,0,0,,,70,67,PUB Middle Tennessee -6.5 100%,1
+2026-11-15T22:41-05:00,Sat 11/21 2:00 PM,Charlotte,Tulsa,,,,,,Tulsa -22.5,95,67,5,33,,,,,PUB Tulsa -22.5 67%; SHARP Tulsa -22.5 +28,3
+2026-11-15T22:41-05:00,Sat 11/21 2:30 PM,Iowa,Illinois,,,,,,Iowa -6.5,100,83,0,17,0,0,0,0,PUB Iowa -6.5 83%; SHARP Iowa -6.5 +17; PUB Under 100%,4
+2026-11-15T22:41-05:00,Sat 11/21 2:30 PM,South Florida,Florida Atlantic,,,,,,South Florida -1.5,0,50,100,50,,,,,SHARP Florida Atlantic +1.5 +50,2
+2026-11-15T22:41-05:00,Sat 11/21 3:00 PM,Coastal Carolina,Louisiana,,,,,,Louisiana -10,100,100,0,0,,,100,100,PUB Louisiana -10 100%,1
+2026-11-15T22:41-05:00,Sat 11/21 3:30 PM,LSU,Tennessee,,,,,,Tennessee -1.5,94,75,6,25,0,0,18,83,PUB Tennessee -1.5 75%; SHARP Tennessee -1.5 +19; PUB Under 100%,4
+2026-11-15T22:41-05:00,Sat 11/21 3:30 PM,Indiana,Washington,,,,,,Indiana -7.5,97,80,3,20,100,100,0,0,PUB Indiana -7.5 80%; SHARP Indiana -7.5 +17; PUB Over 100%,4
+2026-11-15T22:41-05:00,Sat 11/21 3:30 PM,UCLA,Michigan,,,,,,UCLA -5.5,15,67,85,33,0,0,36,29,PUB UCLA -5.5 67%; SHARP Michigan +5.5 +52; PUB Under 100%,4
+2026-11-15T22:41-05:00,Sat 11/21 3:30 PM,Texas Tech,Baylor,,,,,,Texas Tech -3.5,95,83,5,17,,,0,0,PUB Texas Tech -3.5 83%,1
+2026-11-15T22:41-05:00,Sat 11/21 3:30 PM,Arkansas,Texas,,,,,,Texas -21,1,50,99,50,,,100,100,SHARP Arkansas +21 +49,2
+2026-11-15T22:41-05:00,Sat 11/21 3:30 PM,Rutgers,Penn State,,,,,,Penn State -24.5,0,0,100,100,,,100,100,PUB Rutgers +24.5 100%,1
+2026-11-15T22:41-05:00,Sat 11/21 3:30 PM,NC State,Florida State,,,,,,Florida State -9.5,100,50,0,50,,,,,SHARP Florida State -9.5 +50,2
+2026-11-15T22:41-05:00,Sat 11/21 3:45 PM,Texas A&M,Oklahoma,,,,,,Oklahoma -7.5,100,100,0,0,,,100,100,PUB Oklahoma -7.5 100%,1
+2026-11-15T22:41-05:00,Sat 11/21 4:00 PM,Northern Illinois,North Dakota State,,,,,,North Dakota State -25.5,100,100,0,0,,,100,100,PUB North Dakota State -25.5 100%,1
+2026-11-15T22:41-05:00,Sat 11/21 6:15 PM,Maryland,USC,,,,,,USC -17.5,100,100,0,0,,,100,100,PUB USC -17.5 100%,1
+2026-11-15T22:41-05:00,Sat 11/21 7:00 PM,Virginia Tech,Miami FL,,,,,,Miami FL -20.5,0,0,100,100,0,0,2,90,PUB Virginia Tech +20.5 100%; PUB Under 100%,2
+2026-11-15T22:41-05:00,Sat 11/21 7:00 PM,Arizona,Kansas State,,,,,,Arizona -9.5,0,0,100,100,,,0,0,PUB Kansas State +9.5 100%,1
+2026-11-15T22:41-05:00,Sat 11/21 7:00 PM,UNLV,San Jose State,,,,,,UNLV -6,100,100,0,0,0,0,0,0,PUB UNLV -6 100%; PUB Under 100%,2
+2026-11-15T22:41-05:00,Sat 11/21 7:00 PM,Arkansas State,Louisiana Tech,,,,,,Louisiana Tech -14.5,0,0,100,100,100,100,,,PUB Arkansas State +14.5 100%; PUB Over 100%,2
+2026-11-15T22:41-05:00,Sat 11/21 7:30 PM,SMU,Notre Dame,,,,,,Notre Dame -21,49,50,51,50,100,50,9,86,SHARP Over +50,2
+2026-11-15T22:41-05:00,Sat 11/21 7:30 PM,Kentucky,Missouri,,,,,,Missouri -5.5,5,40,95,60,,,98,29,SHARP Kentucky +5.5 +35,2
+2026-11-15T22:41-05:00,Sat 11/21 7:30 PM,Georgia,South Carolina,,,,,,Georgia -16.5,0,0,100,100,100,100,0,0,PUB South Carolina +16.5 100%; PUB Over 100%,2
+2026-11-15T22:41-05:00,Sat 11/21 7:30 PM,Stanford,California,,,,,,Stanford -2.5,100,100,0,0,,,0,0,PUB Stanford -2.5 100%,1
+2026-11-15T22:41-05:00,Sat 11/21 9:00 PM,Utah,TCU,,,,,,Utah -6.5,76,88,24,13,0,0,0,0,PUB Utah -6.5 88%; PUB Under 100%,2
+2026-11-15T22:41-05:00,Sat 11/21 9:30 PM,San Diego State,Boise State,,,,,,Boise State -16.5,100,100,0,0,0,0,100,100,PUB Boise State -16.5 100%; PUB Under 100%,2
+2026-11-15T22:41-05:00,Sat 11/21 10:15 PM,Oklahoma State,Arizona State,,,,,,Oklahoma State -3,100,100,0,0,100,100,0,0,PUB Oklahoma State -3 100%; PUB Over 100%,2
+2026-11-15T22:41-05:00,Sat 11/21 10:30 PM,Hawaii,Nevada,,,,,,Nevada -4,100,100,0,0,0,0,,,PUB Nevada -4 100%; PUB Under 100%,2
