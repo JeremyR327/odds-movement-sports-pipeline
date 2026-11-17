@@ -1,14 +1,14 @@
-# NBA lines — DraftKings via ESPN, pull 09:09 ET (first pull today 09:09 ET)
+# NBA lines — DraftKings via ESPN, pull 12:39 ET (first pull today 09:09 ET)
 
 Spread = AWAY team's number. Each cell is open → first pull today → now (DraftKings open is its opener for the game). Flags: STEAM = spread moved 1.5+ since open (direction = side the market moved toward); TOTAL = total moved 2+; KEY = crossed a key number; FLIP = favorite changed; TODAY = moved 1+ since the first pull today. No splits here: read DK splits from DK Network.
 
 | Game | Start (ET) | Spread open→today→now | Total open→today→now | ML away open→now | ML home open→now | Flags |
 |---|---|---|---|---|---|---|
-| New York Knicks @ Toronto Raptors | Tue 11-17 07:30 PM | -3.5 → -2.5 → -2.5 | 216.5 → 215.5 → 215.5 | -152 → -148 | +128 → +125 | - |
-| Portland Trail Blazers @ Minnesota Timberwolves | Tue 11-17 08:00 PM | +2.5 → +1.5 → +1.5 | 226.5 → 228.5 → 228.5 | +111 → +114 | -132 → -135 | TOTAL up 2 |
-| Detroit Pistons @ San Antonio Spurs | Tue 11-17 08:00 PM | +7.5 → +9.5 → +9.5 | 220.5 → 222.5 → 222.5 | +277 → +312 | -345 → -396 | STEAM home 2; TOTAL up 2 |
+| New York Knicks @ Toronto Raptors | Tue 11-17 07:30 PM | -3.5 → -2.5 → -3.5 | 216.5 → 215.5 → 214.5 | -152 → -169 | +128 → +142 | TOTAL down 2; TODAY spr -1; TODAY tot -1 |
+| Portland Trail Blazers @ Minnesota Timberwolves | Tue 11-17 08:00 PM | +2.5 → +1.5 → +1.5 | 226.5 → 228.5 → 228.5 | +111 → +110 | -132 → -130 | TOTAL up 2 |
+| Detroit Pistons @ San Antonio Spurs | Tue 11-17 08:00 PM | +7.5 → +9.5 → +9.5 | 220.5 → 222.5 → 222.5 | +277 → +340 | -345 → -437 | STEAM home 2; TOTAL up 2 |
 | Utah Jazz @ LA Clippers | Tue 11-17 10:30 PM | +5.5 → +6.5 → +6.5 | 223.5 → 225.5 → 225.5 | +166 → +197 | -199 → -238 | TOTAL up 2 |
-| Charlotte Hornets @ Los Angeles Lakers | Tue 11-17 11:00 PM | +10.5 → +7.5 → +7.5 | 218.5 → 221.5 → 221.5 | +309 → +248 | -391 → -306 | STEAM away 3; TOTAL up 3 |
+| Charlotte Hornets @ Los Angeles Lakers | Tue 11-17 11:00 PM | +10.5 → +7.5 → +7.5 | 218.5 → 221.5 → 221.5 | +309 → +236 | -391 → -289 | STEAM away 3; TOTAL up 3 |
 | Memphis Grizzlies @ Cleveland Cavaliers | Wed 11-18 07:00 PM | - → - → - | - → - → - | - → - | - → - | - |
 | Houston Rockets @ Indiana Pacers | Wed 11-18 07:00 PM | - → - → - | - → - → - | - → - | - → - | - |
 | Milwaukee Bucks @ Miami Heat | Wed 11-18 07:00 PM | - → - → - | - → - → - | - → - | - → - | - |
