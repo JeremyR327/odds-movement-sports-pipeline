@@ -1,14 +1,14 @@
 pulled_et,when,away,home,espn_id,spread_open,spread_now,total_open,total_now,spr_away_sel,spr_away_handle,spr_away_bets,spr_home_handle,spr_home_bets,over_handle,over_bets,ml_away_handle,ml_away_bets,flags,signal
-2026-11-17T15:29-05:00,Thu 11/19 8:15 PM,IND Colts,HOU Texans,,,,,,HOU Texans -12.5,57,36,43,64,87,53,72,81,SHARP HOU Texans -12.5 +21; SHARP Over +34,4
-2026-11-17T15:29-05:00,Sun 11/22 1:00 PM,NO Saints,CHI Bears,,,,,,CHI Bears -11.5,87,62,13,38,24,64,88,88,SHARP CHI Bears -11.5 +25; SHARP Under +40,4
-2026-11-17T15:29-05:00,Sun 11/22 1:00 PM,MIA Dolphins,BUF Bills,,,,,,BUF Bills -16.5,69,37,31,63,80,71,99,92,SHARP BUF Bills -16.5 +32; PUB Over 71%,3
-2026-11-17T15:29-05:00,Sun 11/22 1:00 PM,ARI Cardinals,KC Chiefs,,,,,,KC Chiefs -16.5,60,38,40,62,11,64,74,87,SHARP KC Chiefs -16.5 +22; SHARP Under +53,4
-2026-11-17T15:29-05:00,Sun 11/22 1:00 PM,TB Buccaneers,DET Lions,,,,,,DET Lions -6.5,21,64,79,36,99,86,74,87,SHARP TB Buccaneers +6.5 +43; PUB Over 86%,3
-2026-11-17T15:29-05:00,Sun 11/22 1:00 PM,TEN Titans,DAL Cowboys,,,,,,DAL Cowboys -8.5,64,66,36,34,99,69,87,89,PUB DAL Cowboys -8.5 66%; PUB Over 69%; SHARP Over +30,4
-2026-11-17T15:29-05:00,Sun 11/22 1:00 PM,PIT Steelers,PHI Eagles,,,,,,PIT Steelers -4.5,68,69,32,31,7,50,38,24,PUB PIT Steelers -4.5 69%; SHARP Under +43,3
-2026-11-17T15:29-05:00,Sun 11/22 1:00 PM,BAL Ravens,CAR Panthers,,,,,,CAR Panthers -2.5,38,54,62,46,84,80,34,56,SHARP BAL Ravens +2.5 +16; PUB Over 80%,3
-2026-11-17T15:29-05:00,Sun 11/22 4:05 PM,NY Jets,LA Chargers,,,,,,LA Chargers -3.5,78,52,22,48,92,50,55,45,SHARP LA Chargers -3.5 +26; SHARP Over +42,4
-2026-11-17T15:29-05:00,Sun 11/22 4:25 PM,JAX Jaguars,NY Giants,,,,,,JAX Jaguars -6,92,80,8,20,9,57,32,13,PUB JAX Jaguars -6 80%; SHARP Under +48,3
-2026-11-17T15:29-05:00,Sun 11/22 4:25 PM,LV Raiders,DEN Broncos,,,,,,DEN Broncos -10,62,49,38,51,9,63,59,88,SHARP Under +53,2
-2026-11-17T15:29-05:00,Sun 11/22 8:20 PM,MIN Vikings,SF 49ers,,,,,,SF 49ers -3,69,56,31,44,75,73,55,62,PUB Over 73%,1
-2026-11-17T15:29-05:00,Mon 11/23 8:15 PM,CIN Bengals,WAS Commanders,,,,,,CIN Bengals -6.5,94,87,6,13,96,80,8,11,PUB CIN Bengals -6.5 87%; PUB Over 80%; SHARP Over +16,4
+2026-11-17T17:39-05:00,Thu 11/19 8:15 PM,IND Colts,HOU Texans,,,,,,HOU Texans -12.5,54,34,46,66,87,53,73,82,PUB IND Colts +12.5 66%; SHARP HOU Texans -12.5 +20; SHARP Over +34,5
+2026-11-17T17:39-05:00,Sun 11/22 1:00 PM,NO Saints,CHI Bears,,,,,,CHI Bears -11.5,86,60,14,40,24,64,88,89,SHARP CHI Bears -11.5 +26; SHARP Under +40,4
+2026-11-17T17:39-05:00,Sun 11/22 1:00 PM,ARI Cardinals,KC Chiefs,,,,,,KC Chiefs -16.5,59,37,41,63,11,60,74,87,SHARP KC Chiefs -16.5 +22; SHARP Under +49,4
+2026-11-17T17:39-05:00,Sun 11/22 1:00 PM,MIA Dolphins,BUF Bills,,,,,,BUF Bills -16.5,69,39,31,61,80,74,99,92,SHARP BUF Bills -16.5 +30; PUB Over 74%,3
+2026-11-17T17:39-05:00,Sun 11/22 1:00 PM,TB Buccaneers,DET Lions,,,,,,DET Lions -7,32,64,68,36,99,88,77,88,SHARP TB Buccaneers +7 +32; PUB Over 88%,3
+2026-11-17T17:39-05:00,Sun 11/22 1:00 PM,TEN Titans,DAL Cowboys,,,,,,DAL Cowboys -8.5,66,67,34,33,99,71,87,90,PUB DAL Cowboys -8.5 67%; PUB Over 71%; SHARP Over +28,4
+2026-11-17T17:39-05:00,Sun 11/22 1:00 PM,PIT Steelers,PHI Eagles,,,,,,PIT Steelers -4.5,80,70,20,30,6,33,30,23,PUB PIT Steelers -4.5 70%; PUB Under 67%; SHARP Under +27,4
+2026-11-17T17:39-05:00,Sun 11/22 1:00 PM,BAL Ravens,CAR Panthers,,,,,,CAR Panthers -2.5,66,56,34,44,84,83,36,60,PUB Over 83%,1
+2026-11-17T17:39-05:00,Sun 11/22 4:05 PM,NY Jets,LA Chargers,,,,,,LA Chargers -3.5,91,51,9,49,92,50,54,47,SHARP LA Chargers -3.5 +40; SHARP Over +42,4
+2026-11-17T17:39-05:00,Sun 11/22 4:25 PM,JAX Jaguars,NY Giants,,,,,,JAX Jaguars -6,93,81,7,19,9,56,32,13,PUB JAX Jaguars -6 81%; SHARP Under +47,3
+2026-11-17T17:39-05:00,Sun 11/22 4:25 PM,LV Raiders,DEN Broncos,,,,,,DEN Broncos -10,59,47,41,53,8,50,61,89,SHARP Under +42,2
+2026-11-17T17:39-05:00,Sun 11/22 8:20 PM,MIN Vikings,SF 49ers,,,,,,SF 49ers -3,69,57,31,43,78,79,55,63,PUB Over 79%,1
+2026-11-17T17:39-05:00,Mon 11/23 8:15 PM,CIN Bengals,WAS Commanders,,,,,,CIN Bengals -6.5,94,86,6,14,96,86,10,11,PUB CIN Bengals -6.5 86%; PUB Over 86%,2
