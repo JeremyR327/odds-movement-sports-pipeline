@@ -1,31 +1,30 @@
 {
   "date": "2026-11-17",
-  "pulled_et": "2026-11-17T10:41-05:00",
+  "pulled_et": "2026-11-17T17:44-05:00",
   "espn": "ok 68 games",
-  "torvik": "ok 364 teams (CollegeBasketballData adjusted efficiency, 68 poss)",
-  "tr": "ok 365 teams (2026-11-16 1529)",
+  "torvik": "ok 364 teams (saved copy from today)",
+  "tr": "ok 365 teams (2026-11-17 1529)",
   "bpi": "ok 365 teams",
-  "espn_lines": "55/55 priced games have ESPN's DraftKings opener",
+  "espn_lines": "52/52 priced games have ESPN's DraftKings opener",
   "cbbd_lines": "skipped: ESPN has DraftKings open + current (saves the CBBD monthly quota)",
   "check_names": [
-    "Maryland Eastern Shore @ DePaul: TR +2.0 vs BPI +22.8"
+    "Maryland Eastern Shore @ DePaul: TR +0.1 vs BPI +22.8"
   ],
-  "games_written": 59,
-  "with_line": 55,
-  "with_espn_open": 55,
-  "flags": 20,
+  "games_written": 55,
+  "with_line": 52,
+  "with_espn_open": 52,
+  "flags": 19,
   "unmatched": [
-    "Wilson WILSON @ Delaware Blue Hens",
     "SUNY Potsdam SUNY-POTSDAM @ Stony Brook Seawolves",
+    "Spring Hill Badgers @ South Alabama Jaguars",
     "Cheyney (PA) Wolves @ Delaware State Hornets",
     "Fort Lauderdale Eagles @ North Florida Ospreys",
-    "Spring Hill Badgers @ South Alabama Jaguars",
     "Embry Riddle (AZ) Eagles @ Northern Arizona Lumberjacks",
     "Newman Jets @ Kansas City Roos",
     "Life University Running Eagles @ Austin Peay Governors",
     "Simon Fraser Red Leafs @ Washington Huskies"
   ],
-  "sources": "espn ok 68 games \u00b7 espn_lines 55/55 priced games have ESPN's DraftKings opener \u00b7 torvik ok 364 teams (CollegeBasketballData adjusted efficiency, 68 poss) \u00b7 tr ok 365 teams (2026-11-16 1529) \u00b7 bpi ok 365 teams",
+  "sources": "espn ok 68 games \u00b7 espn_lines 52/52 priced games have ESPN's DraftKings opener \u00b7 torvik ok 364 teams (saved copy from today) \u00b7 tr ok 365 teams (2026-11-17 1529) \u00b7 bpi ok 365 teams",
   "calibration": {
     "games": 21,
     "with_open": 21,
