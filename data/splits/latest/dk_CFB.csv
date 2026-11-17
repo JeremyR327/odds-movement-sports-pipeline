@@ -1,51 +1,51 @@
 pulled_et,when,away,home,espn_id,spread_open,spread_now,total_open,total_now,spr_away_sel,spr_away_handle,spr_away_bets,spr_home_handle,spr_home_bets,over_handle,over_bets,ml_away_handle,ml_away_bets,flags,signal
-2026-11-17T09:09-05:00,Tue 11/17 6:00 PM,Eastern Michigan,Western Michigan,401866465,14.5,15.5,47.5,46.5,Western Michigan -15.5,59,52,41,48,98,73,89,95,RLM Eastern Michigan +15.5 (+14.5→+15.5); PUB Over 73%; SHARP Over +25,6
-2026-11-17T09:09-05:00,Tue 11/17 7:00 PM,Miami OH,Kent State,401866466,-8.5,-9.5,45.5,44.5,Miami OH -9.5,80,67,20,33,90,71,27,3,PUB Miami OH -9.5 67%; PUB Over 71%; SHARP Over +19,4
-2026-11-17T09:09-05:00,Tue 11/17 7:00 PM,Ball State,Ohio,401866464,9.5,11.5,50.5,49.5,Ohio -11.5,100,95,0,5,100,79,69,97,PUB Ohio -11.5 95%; RLM Ball State +11.5 (+9.5→+11.5); STEAM home 2; PUB Over 79%; SHARP Over +21,8
-2026-11-17T09:09-05:00,Wed 11/18 7:00 PM,Central Michigan,Buffalo,401866469,1.5,1.5,43.5,45.5,Buffalo -1.5,64,56,36,44,54,63,89,58,TOTAL up 2,1
-2026-11-17T09:09-05:00,Wed 11/18 7:30 PM,Akron,UMass,,,,,,UMass -3,100,83,0,17,93,60,87,75,PUB UMass -3 83%; SHARP UMass -3 +17; SHARP Over +33,5
-2026-11-17T09:09-05:00,Thu 11/19 7:30 PM,Rice,Temple,401862830,4.0,3.0,47.5,50.5,Temple -3,69,67,31,33,2,67,34,55,PUB Temple -3 67%; KEY 3; PUB Over 67%; SHARP Under +65; TOTAL up 3,6
-2026-11-17T09:09-05:00,Fri 11/20 6:00 PM,Iowa State,UCF,401856869,1.5,2.5,54.5,52.5,UCF -2.5,63,45,37,55,0,20,98,45,SHARP UCF -2.5 +18; PUB Under 80%; SHARP Under +20; TOTAL down 2,6
-2026-11-17T09:09-05:00,Fri 11/20 7:30 PM,Clemson,Duke,401858303,8.5,12.5,44.5,40.5,Duke -12.5,86,38,14,63,0,40,85,97,SHARP Duke -12.5 +48; STEAM home 4; SHARP Under +40; TOTAL down 4,6
-2026-11-17T09:09-05:00,Fri 11/20 7:30 PM,Bowling Green,Toledo,401866468,15.5,15.5,47.5,48.5,Toledo -15.5,97,50,3,50,,,100,100,SHARP Toledo -15.5 +47,2
-2026-11-17T09:09-05:00,Fri 11/20 8:00 PM,Oregon,Michigan State,401858529,-12.5,-16.5,45.5,45.5,Oregon -16.5,95,73,5,27,100,100,0,0,PUB Oregon -16.5 73%; SHARP Oregon -16.5 +22; STEAM away 4; KEY 14; PUB Over 100%,6
-2026-11-17T09:09-05:00,Fri 11/20 8:00 PM,UTEP,Air Force,401864545,21.5,22.5,46.5,47.5,Air Force -22.5,100,100,0,0,,,100,100,PUB Air Force -22.5 100%; RLM UTEP +22.5 (+21.5→+22.5),4
-2026-11-17T09:09-05:00,Fri 11/20 9:00 PM,New Mexico,Wyoming,401864542,-10.5,-7.5,38.5,37.5,New Mexico -7.5,7,38,93,63,100,100,64,12,SHARP Wyoming +7.5 +30; STEAM home 3; PUB Over 100%,4
-2026-11-17T09:09-05:00,Sat 11/21 12:00 PM,BYU,Kansas,401856866,-7.0,-5.5,50.5,47.5,BYU -5.5,92,88,8,12,0,50,2,2,PUB BYU -5.5 88%; RLM Kansas +5.5 (-7→-5.5); STEAM home 1.5; KEY 7; SHARP Under +50; TOTAL down 3,9
-2026-11-17T09:09-05:00,Sat 11/21 12:00 PM,Ohio State,Nebraska,401858531,-5.5,-3.0,47.5,41.5,Ohio State -3,73,72,27,28,100,100,3,6,PUB Ohio State -3 72%; RLM Nebraska +3 (-5.5→-3); STEAM home 2.5; KEY 3; PUB Over 100%; TOTAL down 6,8
-2026-11-17T09:09-05:00,Sat 11/21 12:00 PM,Vanderbilt,Florida,401856748,13.5,13.5,48.5,47.5,Florida -13.5,100,100,0,0,100,100,100,100,PUB Florida -13.5 100%; PUB Over 100%,2
-2026-11-17T09:09-05:00,Sat 11/21 12:00 PM,East Carolina,Army,401862831,4.5,5.5,42.5,44.5,Army -5.5,76,50,24,50,100,100,6,36,SHARP Army -5.5 +26; PUB Over 100%; TOTAL up 2,4
-2026-11-17T09:09-05:00,Sat 11/21 12:00 PM,North Texas,Tulane,401862835,-13.5,-6.5,60.5,57.5,North Texas -6.5,0,50,100,50,0,0,0,0,SHARP Tulane +6.5 +50; STEAM home 7; KEY 7; PUB Under 100%; TOTAL down 3,6
-2026-11-17T09:09-05:00,Sat 11/21 12:00 PM,Wake Forest,Georgia Tech,401858310,-20.5,-21.0,56.5,56.5,Wake Forest -21,100,100,0,0,100,100,0,0,PUB Wake Forest -21 100%; PUB Over 100%,2
-2026-11-17T09:09-05:00,Sat 11/21 12:00 PM,Wisconsin,Purdue,401858533,-6.0,-6.0,44.5,46.5,Wisconsin -6,100,100,0,0,100,100,0,0,PUB Wisconsin -6 100%; PUB Over 100%; TOTAL up 2,3
-2026-11-17T09:09-05:00,Sat 11/21 12:00 PM,Memphis,Navy,401862834,-3.0,-3.5,64.5,66.5,Memphis -3.5,8,50,92,50,100,100,0,0,SHARP Navy +3.5 +42; KEY 3; PUB Over 100%; TOTAL up 2,5
-2026-11-17T09:09-05:00,Sat 11/21 12:00 PM,Colorado,Cincinnati,401856867,2.5,3.0,59.5,58.5,Cincinnati -3,0,50,100,50,0,0,91,86,SHARP Colorado +3 +50; KEY 3; PUB Under 100%,4
-2026-11-17T09:09-05:00,Sat 11/21 12:30 PM,North Carolina,Virginia,401858305,1.5,1.5,43.5,43.5,Virginia -1.5,0,0,100,100,100,100,7,13,PUB North Carolina +1.5 100%; PUB Over 100%,2
-2026-11-17T09:09-05:00,Sat 11/21 1:00 PM,Houston,West Virginia,401856868,-7.0,-7.5,71.5,70.5,Houston -7.5,100,100,0,0,100,100,0,0,PUB Houston -7.5 100%; KEY 7; PUB Over 100%,3
-2026-11-17T09:09-05:00,Sat 11/21 1:00 PM,Western Kentucky,Liberty,401871080,14.5,17.5,52.5,53.5,Liberty -17.5,100,100,0,0,,,100,100,PUB Liberty -17.5 100%; RLM Western Kentucky +17.5 (+14.5→+17.5); STEAM home 3; KEY 17,6
-2026-11-17T09:09-05:00,Sat 11/21 2:00 PM,Charlotte,Tulsa,401862832,20.5,22.5,52.5,52.5,Tulsa -22.5,95,67,5,33,,,100,100,PUB Tulsa -22.5 67%; SHARP Tulsa -22.5 +28; RLM Charlotte +22.5 (+20.5→+22.5); STEAM home 2,7
-2026-11-17T09:09-05:00,Sat 11/21 2:30 PM,Iowa,Illinois,401858527,-5.5,-8.5,43.5,40.5,Iowa -8.5,100,90,0,10,0,33,0,0,PUB Iowa -8.5 90%; STEAM away 3; KEY 7; PUB Under 67%; SHARP Under +33; TOTAL down 3,7
-2026-11-17T09:09-05:00,Sat 11/21 2:30 PM,ULM,Appalachian State,,,,,,Appalachian State -14,100,100,0,0,,,100,100,PUB Appalachian State -14 100%,1
-2026-11-17T09:09-05:00,Sat 11/21 3:00 PM,FIU,Kennesaw State,,,,,,Kennesaw State -3.5,100,100,0,0,,,5,22,PUB Kennesaw State -3.5 100%,1
-2026-11-17T09:09-05:00,Sat 11/21 3:30 PM,Indiana,Washington,401858535,-7.5,-7.5,43.5,43.5,Indiana -7.5,98,89,2,11,100,100,0,0,PUB Indiana -7.5 89%; PUB Over 100%,2
-2026-11-17T09:09-05:00,Sat 11/21 3:30 PM,UCLA,Michigan,401858528,-5.5,-3.5,42.5,37.5,UCLA -3.5,26,75,74,25,0,0,11,12,PUB UCLA -3.5 75%; SHARP Michigan +3.5 +49; RLM Michigan +3.5 (-5.5→-3.5); STEAM home 2; PUB Under 100%; TOTAL down 5,9
-2026-11-17T09:09-05:00,Sat 11/21 3:30 PM,LSU,Tennessee,401856754,-1.5,-1.5,57.5,46.5,LSU -1.5,4,24,96,76,0,0,29,63,PUB Tennessee +1.5 76%; SHARP Tennessee +1.5 +20; PUB Under 100%; TOTAL down 11,5
-2026-11-17T09:09-05:00,Sat 11/21 3:30 PM,Arkansas,Texas,401856755,21.0,20.5,48.5,47.5,Texas -20.5,0,25,100,75,,,75,96,PUB Arkansas +20.5 75%; SHARP Arkansas +20.5 +25; RLM Texas -20.5 (+21→+20.5),6
-2026-11-17T09:09-05:00,Sat 11/21 3:30 PM,Texas Tech,Baylor,401856871,-1.5,-3.5,55.5,57.5,Texas Tech -3.5,41,78,59,22,,,0,0,PUB Texas Tech -3.5 78%; SHARP Baylor +3.5 +37; STEAM away 2; KEY 3; TOTAL up 2,6
-2026-11-17T09:09-05:00,Sat 11/21 3:30 PM,Rutgers,Penn State,401858532,20.5,24.5,49.5,50.5,Penn State -24.5,0,0,100,100,,,100,100,PUB Rutgers +24.5 100%; STEAM home 4,2
-2026-11-17T09:09-05:00,Sat 11/21 3:45 PM,Texas A&M,Oklahoma,401856752,2.5,7.5,51.5,38.5,Oklahoma -7.5,0,50,100,50,100,100,42,80,"SHARP Texas A&M +7.5 +50; STEAM home 5; KEY 3,7; PUB Over 100%; TOTAL down 13",6
-2026-11-17T09:09-05:00,Sat 11/21 4:00 PM,Northern Illinois,North Dakota State,401864543,25.5,25.5,48.5,45.5,North Dakota State -25.5,100,100,0,0,100,100,100,100,PUB North Dakota State -25.5 100%; PUB Over 100%; TOTAL down 3,3
-2026-11-17T09:09-05:00,Sat 11/21 6:00 PM,Washington State,Texas State,401860920,14.5,10.5,57.5,61.5,Texas State -10.5,97,75,3,25,,,100,100,PUB Texas State -10.5 75%; SHARP Texas State -10.5 +22; STEAM away 4; KEY 14; TOTAL up 4,6
-2026-11-17T09:09-05:00,Sat 11/21 6:15 PM,Maryland,USC,401858534,16.5,17.5,56.5,57.5,USC -17.5,100,100,0,0,,,100,100,PUB USC -17.5 100%; RLM Maryland +17.5 (+16.5→+17.5); KEY 17,5
-2026-11-17T09:09-05:00,Sat 11/21 7:00 PM,Virginia Tech,Miami FL,401858302,16.5,20.5,56.5,61.5,Miami FL -20.5,2,17,98,83,0,0,40,96,PUB Virginia Tech +20.5 83%; SHARP Virginia Tech +20.5 +15; STEAM home 4; KEY 17; PUB Under 100%; TOTAL up 5,7
-2026-11-17T09:09-05:00,Sat 11/21 7:00 PM,Arizona,Kansas State,401856865,-10.5,-7.0,50.5,52.5,Arizona -7,0,33,100,67,,,0,0,PUB Kansas State +7 67%; SHARP Kansas State +7 +33; STEAM home 3.5; KEY 7; TOTAL up 2,6
-2026-11-17T09:09-05:00,Sat 11/21 7:00 PM,Arkansas State,Louisiana Tech,401869938,16.5,13.5,50.5,52.5,Louisiana Tech -13.5,0,0,100,100,100,100,100,100,PUB Arkansas State +13.5 100%; RLM Louisiana Tech -13.5 (+16.5→+13.5); STEAM away 3; KEY 14; PUB Over 100%; TOTAL up 2,8
-2026-11-17T09:09-05:00,Sat 11/21 7:30 PM,Georgia,South Carolina,401856753,-10.5,-16.5,50.5,50.5,Georgia -16.5,56,50,44,50,100,100,0,0,STEAM away 6; KEY 14; PUB Over 100%,3
-2026-11-17T09:09-05:00,Sat 11/21 7:30 PM,SMU,Notre Dame,401858307,17.5,20.5,56.5,56.5,Notre Dame -20.5,91,57,9,43,100,50,86,95,SHARP Notre Dame -20.5 +34; RLM SMU +20.5 (+17.5→+20.5); STEAM home 3; SHARP Over +50,8
-2026-11-17T09:09-05:00,Sat 11/21 7:30 PM,Kentucky,Missouri,401856751,6.5,5.5,49.5,48.5,Missouri -5.5,5,40,95,60,,,89,25,SHARP Kentucky +5.5 +35; RLM Missouri -5.5 (+6.5→+5.5),5
-2026-11-17T09:09-05:00,Sat 11/21 8:00 PM,UTSA,UAB,401862836,-7.5,-6.5,53.5,52.5,UTSA -6.5,100,100,0,0,,,0,0,PUB UTSA -6.5 100%; RLM UAB +6.5 (-7.5→-6.5); KEY 7,5
-2026-11-17T09:09-05:00,Sat 11/21 9:00 PM,Utah,TCU,401856872,-5.5,-7.0,44.5,46.5,Utah -7,73,82,27,18,0,0,1,3,PUB Utah -7 82%; STEAM away 1.5; KEY 7; PUB Under 100%; TOTAL up 2,5
-2026-11-17T09:09-05:00,Sat 11/21 9:30 PM,San Diego State,Boise State,401860925,18.5,16.5,62.5,61.5,Boise State -16.5,100,100,0,0,0,0,100,100,PUB Boise State -16.5 100%; STEAM away 2; KEY 17; PUB Under 100%,4
-2026-11-17T09:09-05:00,Sat 11/21 10:15 PM,Oklahoma State,Arizona State,401856870,-4.0,-3.0,62.5,61.5,Oklahoma State -3,100,100,0,0,100,100,0,0,PUB Oklahoma State -3 100%; RLM Arizona State +3 (-4→-3); KEY 3; PUB Over 100%,6
-2026-11-17T09:09-05:00,Sat 11/21 10:30 PM,Hawaii,Nevada,401864541,2.5,4.0,42.5,40.5,Nevada -4,100,100,0,0,0,33,0,0,PUB Nevada -4 100%; RLM Hawaii +4 (+2.5→+4); STEAM home 1.5; KEY 3; PUB Under 67%; SHARP Under +33; TOTAL down 2,10
-2026-11-17T09:09-05:00,Sat 11/21 10:30 PM,Utah State,Oregon State,401860919,10.0,9.5,49.5,51.5,Oregon State -9.5,100,100,0,0,100,100,100,100,PUB Oregon State -9.5 100%; PUB Over 100%; TOTAL up 2,3
+2026-11-17T12:39-05:00,Tue 11/17 6:00 PM,Eastern Michigan,Western Michigan,401866465,14.5,15.5,47.5,46.5,Western Michigan -15.5,61,67,39,33,98,74,88,94,PUB Western Michigan -15.5 67%; RLM Eastern Michigan +15.5 (+14.5→+15.5); PUB Over 74%; SHARP Over +24,7
+2026-11-17T12:39-05:00,Tue 11/17 7:00 PM,Miami OH,Kent State,401866466,-8.5,-9.5,45.5,44.5,Miami OH -9.5,83,70,17,30,61,81,26,4,PUB Miami OH -9.5 70%; PUB Over 81%; SHARP Under +20,4
+2026-11-17T12:39-05:00,Tue 11/17 7:00 PM,Ball State,Ohio,401866464,9.5,10.0,50.5,49.5,Ohio -10,100,80,0,20,100,81,70,95,PUB Ohio -10 80%; SHARP Ohio -10 +20; RLM Ball State +10 (+9.5→+10); PUB Over 81%; SHARP Over +19,9
+2026-11-17T12:39-05:00,Wed 11/18 7:00 PM,Central Michigan,Buffalo,401866469,1.5,1.5,43.5,45.5,Buffalo -1.5,64,56,36,44,54,63,89,59,TOTAL up 2,1
+2026-11-17T12:39-05:00,Wed 11/18 7:30 PM,Akron,UMass,,,,,,UMass -3,100,87,0,13,93,60,87,74,PUB UMass -3 87%; SHARP Over +33,3
+2026-11-17T12:39-05:00,Thu 11/19 7:30 PM,Rice,Temple,401862830,4.0,3.0,47.5,50.5,Temple -3,69,69,31,31,2,67,34,56,PUB Temple -3 69%; KEY 3; PUB Over 67%; SHARP Under +65; TOTAL up 3,6
+2026-11-17T12:39-05:00,Fri 11/20 6:00 PM,Iowa State,UCF,401856869,1.5,2.5,54.5,49.5,UCF -2.5,63,45,37,55,0,17,98,44,SHARP UCF -2.5 +18; PUB Under 83%; SHARP Under +17; TOTAL down 5,6
+2026-11-17T12:39-05:00,Fri 11/20 7:30 PM,Clemson,Duke,401858303,8.5,12.5,44.5,40.5,Duke -12.5,86,38,14,63,0,40,84,95,SHARP Duke -12.5 +48; STEAM home 4; SHARP Under +40; TOTAL down 4,6
+2026-11-17T12:39-05:00,Fri 11/20 7:30 PM,Bowling Green,Toledo,401866468,15.5,15.5,47.5,48.5,Toledo -15.5,97,50,3,50,,,100,100,SHARP Toledo -15.5 +47,2
+2026-11-17T12:39-05:00,Fri 11/20 8:00 PM,Oregon,Michigan State,401858529,-12.5,-16.5,45.5,45.5,Oregon -16.5,95,73,5,27,100,100,0,0,PUB Oregon -16.5 73%; SHARP Oregon -16.5 +22; STEAM away 4; KEY 14; PUB Over 100%,6
+2026-11-17T12:39-05:00,Fri 11/20 8:00 PM,UTEP,Air Force,401864545,21.5,22.5,46.5,47.5,Air Force -22.5,100,100,0,0,,,100,100,PUB Air Force -22.5 100%; RLM UTEP +22.5 (+21.5→+22.5),4
+2026-11-17T12:39-05:00,Fri 11/20 9:00 PM,New Mexico,Wyoming,401864542,-10.5,-7.5,38.5,37.5,New Mexico -7.5,7,38,93,63,100,100,63,11,SHARP Wyoming +7.5 +30; STEAM home 3; PUB Over 100%,4
+2026-11-17T12:39-05:00,Sat 11/21 12:00 PM,BYU,Kansas,401856866,-7.0,-5.5,50.5,47.5,BYU -5.5,92,89,8,11,0,50,2,2,PUB BYU -5.5 89%; RLM Kansas +5.5 (-7→-5.5); STEAM home 1.5; KEY 7; SHARP Under +50; TOTAL down 3,9
+2026-11-17T12:39-05:00,Sat 11/21 12:00 PM,Ohio State,Nebraska,401858531,-5.5,-3.0,47.5,41.5,Ohio State -3,73,72,27,28,100,100,23,8,PUB Ohio State -3 72%; RLM Nebraska +3 (-5.5→-3); STEAM home 2.5; KEY 3; PUB Over 100%; TOTAL down 6,8
+2026-11-17T12:39-05:00,Sat 11/21 12:00 PM,Vanderbilt,Florida,401856748,13.5,13.5,48.5,47.5,Florida -13.5,100,100,0,0,100,100,100,100,PUB Florida -13.5 100%; PUB Over 100%,2
+2026-11-17T12:39-05:00,Sat 11/21 12:00 PM,Wake Forest,Georgia Tech,401858310,-20.5,-21.0,56.5,56.5,Wake Forest -21,1,67,99,33,100,100,0,0,PUB Wake Forest -21 67%; SHARP Georgia Tech +21 +66; PUB Over 100%,4
+2026-11-17T12:39-05:00,Sat 11/21 12:00 PM,East Carolina,Army,401862831,4.5,5.5,42.5,45.5,Army -5.5,76,50,24,50,100,100,6,36,SHARP Army -5.5 +26; PUB Over 100%; TOTAL up 3,4
+2026-11-17T12:39-05:00,Sat 11/21 12:00 PM,North Texas,Tulane,401862835,-13.5,-6.5,60.5,56.5,North Texas -6.5,0,25,100,75,0,0,2,7,PUB Tulane +6.5 75%; SHARP Tulane +6.5 +25; STEAM home 7; KEY 7; PUB Under 100%; TOTAL down 4,7
+2026-11-17T12:39-05:00,Sat 11/21 12:00 PM,Wisconsin,Purdue,401858533,-6.0,-6.0,44.5,46.5,Wisconsin -6,100,100,0,0,100,100,0,0,PUB Wisconsin -6 100%; PUB Over 100%; TOTAL up 2,3
+2026-11-17T12:39-05:00,Sat 11/21 12:00 PM,Memphis,Navy,401862834,-3.0,-3.5,64.5,67.5,Memphis -3.5,8,50,92,50,100,100,0,0,SHARP Navy +3.5 +42; KEY 3; PUB Over 100%; TOTAL up 3,5
+2026-11-17T12:39-05:00,Sat 11/21 12:00 PM,Colorado,Cincinnati,401856867,2.5,3.0,59.5,58.5,Cincinnati -3,0,50,100,50,0,0,91,86,SHARP Colorado +3 +50; KEY 3; PUB Under 100%,4
+2026-11-17T12:39-05:00,Sat 11/21 12:30 PM,North Carolina,Virginia,401858305,1.5,1.5,43.5,43.5,Virginia -1.5,0,0,100,100,100,100,7,11,PUB North Carolina +1.5 100%; PUB Over 100%,2
+2026-11-17T12:39-05:00,Sat 11/21 1:00 PM,Houston,West Virginia,401856868,-7.0,-8.5,71.5,70.5,Houston -8.5,100,100,0,0,100,100,0,0,PUB Houston -8.5 100%; STEAM away 1.5; KEY 7; PUB Over 100%,4
+2026-11-17T12:39-05:00,Sat 11/21 1:00 PM,Western Kentucky,Liberty,401871080,14.5,17.5,52.5,53.5,Liberty -17.5,100,100,0,0,,,100,100,PUB Liberty -17.5 100%; RLM Western Kentucky +17.5 (+14.5→+17.5); STEAM home 3; KEY 17,6
+2026-11-17T12:39-05:00,Sat 11/21 2:00 PM,Charlotte,Tulsa,401862832,20.5,22.5,52.5,52.5,Tulsa -22.5,95,67,5,33,,,100,100,PUB Tulsa -22.5 67%; SHARP Tulsa -22.5 +28; RLM Charlotte +22.5 (+20.5→+22.5); STEAM home 2,7
+2026-11-17T12:39-05:00,Sat 11/21 2:30 PM,Iowa,Illinois,401858527,-5.5,-8.5,43.5,40.5,Iowa -8.5,97,83,3,17,0,33,0,0,PUB Iowa -8.5 83%; STEAM away 3; KEY 7; PUB Under 67%; SHARP Under +33; TOTAL down 3,7
+2026-11-17T12:39-05:00,Sat 11/21 2:30 PM,ULM,Appalachian State,,,,,,Appalachian State -14,100,100,0,0,,,100,100,PUB Appalachian State -14 100%,1
+2026-11-17T12:39-05:00,Sat 11/21 3:00 PM,FIU,Kennesaw State,,,,,,Kennesaw State -3.5,100,100,0,0,,,5,22,PUB Kennesaw State -3.5 100%,1
+2026-11-17T12:39-05:00,Sat 11/21 3:30 PM,Indiana,Washington,401858535,-7.5,-7.5,43.5,43.5,Indiana -7.5,98,89,2,11,100,100,0,0,PUB Indiana -7.5 89%; PUB Over 100%,2
+2026-11-17T12:39-05:00,Sat 11/21 3:30 PM,UCLA,Michigan,401858528,-5.5,-3.5,42.5,37.5,UCLA -3.5,26,77,74,23,0,0,11,14,PUB UCLA -3.5 77%; SHARP Michigan +3.5 +51; RLM Michigan +3.5 (-5.5→-3.5); STEAM home 2; PUB Under 100%; TOTAL down 5,9
+2026-11-17T12:39-05:00,Sat 11/21 3:30 PM,LSU,Tennessee,401856754,-1.5,-1.5,57.5,46.5,LSU -1.5,4,22,96,78,0,0,29,63,PUB Tennessee +1.5 78%; SHARP Tennessee +1.5 +18; PUB Under 100%; TOTAL down 11,5
+2026-11-17T12:39-05:00,Sat 11/21 3:30 PM,Arkansas,Texas,401856755,21.0,20.5,48.5,47.5,Texas -20.5,0,25,100,75,,,75,96,PUB Arkansas +20.5 75%; SHARP Arkansas +20.5 +25; RLM Texas -20.5 (+21→+20.5),6
+2026-11-17T12:39-05:00,Sat 11/21 3:30 PM,Texas Tech,Baylor,401856871,-1.5,-3.5,55.5,55.5,Texas Tech -3.5,43,82,57,18,50,50,0,0,PUB Texas Tech -3.5 82%; SHARP Baylor +3.5 +39; STEAM away 2; KEY 3,5
+2026-11-17T12:39-05:00,Sat 11/21 3:30 PM,Rutgers,Penn State,401858532,20.5,24.5,49.5,50.5,Penn State -24.5,0,0,100,100,,,100,100,PUB Rutgers +24.5 100%; STEAM home 4,2
+2026-11-17T12:39-05:00,Sat 11/21 3:45 PM,Texas A&M,Oklahoma,401856752,2.5,7.5,51.5,38.5,Oklahoma -7.5,0,50,100,50,100,100,42,80,"SHARP Texas A&M +7.5 +50; STEAM home 5; KEY 3,7; PUB Over 100%; TOTAL down 13",6
+2026-11-17T12:39-05:00,Sat 11/21 4:00 PM,Northern Illinois,North Dakota State,401864543,25.5,25.5,48.5,43.5,North Dakota State -25.5,100,100,0,0,100,100,100,100,PUB North Dakota State -25.5 100%; PUB Over 100%; TOTAL down 5,3
+2026-11-17T12:39-05:00,Sat 11/21 6:00 PM,Washington State,Texas State,401860920,14.5,10.5,57.5,61.5,Texas State -10.5,97,80,3,20,100,100,100,100,PUB Texas State -10.5 80%; SHARP Texas State -10.5 +17; STEAM away 4; KEY 14; PUB Over 100%; TOTAL up 4,7
+2026-11-17T12:39-05:00,Sat 11/21 6:15 PM,Maryland,USC,401858534,16.5,17.5,56.5,57.5,USC -17.5,100,100,0,0,,,100,100,PUB USC -17.5 100%; RLM Maryland +17.5 (+16.5→+17.5); KEY 17,5
+2026-11-17T12:39-05:00,Sat 11/21 7:00 PM,Virginia Tech,Miami FL,401858302,16.5,20.5,56.5,61.5,Miami FL -20.5,2,17,98,83,92,50,40,97,PUB Virginia Tech +20.5 83%; SHARP Virginia Tech +20.5 +15; STEAM home 4; KEY 17; SHARP Over +42; TOTAL up 5,8
+2026-11-17T12:39-05:00,Sat 11/21 7:00 PM,Arizona,Kansas State,401856865,-10.5,-7.0,50.5,52.5,Arizona -7,6,50,94,50,,,0,0,SHARP Kansas State +7 +44; STEAM home 3.5; KEY 7; TOTAL up 2,5
+2026-11-17T12:39-05:00,Sat 11/21 7:00 PM,Arkansas State,Louisiana Tech,401869938,16.5,13.5,50.5,52.5,Louisiana Tech -13.5,100,50,0,50,100,100,100,100,SHARP Louisiana Tech -13.5 +50; STEAM away 3; KEY 14; PUB Over 100%; TOTAL up 2,6
+2026-11-17T12:39-05:00,Sat 11/21 7:30 PM,Georgia,South Carolina,401856753,-10.5,-16.5,50.5,51.5,Georgia -16.5,56,50,44,50,100,100,0,0,STEAM away 6; KEY 14; PUB Over 100%,3
+2026-11-17T12:39-05:00,Sat 11/21 7:30 PM,SMU,Notre Dame,401858307,17.5,20.5,56.5,56.5,Notre Dame -20.5,91,57,9,43,100,50,86,96,SHARP Notre Dame -20.5 +34; RLM SMU +20.5 (+17.5→+20.5); STEAM home 3; SHARP Over +50,8
+2026-11-17T12:39-05:00,Sat 11/21 7:30 PM,Kentucky,Missouri,401856751,6.5,5.5,49.5,48.5,Missouri -5.5,5,40,95,60,,,89,29,SHARP Kentucky +5.5 +35; RLM Missouri -5.5 (+6.5→+5.5),5
+2026-11-17T12:39-05:00,Sat 11/21 8:00 PM,UTSA,UAB,401862836,-7.5,-6.5,53.5,51.5,UTSA -6.5,100,100,0,0,100,100,0,0,PUB UTSA -6.5 100%; RLM UAB +6.5 (-7.5→-6.5); KEY 7; PUB Over 100%; TOTAL down 2,7
+2026-11-17T12:39-05:00,Sat 11/21 9:00 PM,Utah,TCU,401856872,-5.5,-7.0,44.5,46.5,Utah -7,24,77,76,23,0,0,1,3,PUB Utah -7 77%; SHARP TCU +7 +53; STEAM away 1.5; KEY 7; PUB Under 100%; TOTAL up 2,7
+2026-11-17T12:39-05:00,Sat 11/21 9:30 PM,San Diego State,Boise State,401860925,18.5,16.5,62.5,61.5,Boise State -16.5,100,100,0,0,0,0,100,100,PUB Boise State -16.5 100%; STEAM away 2; KEY 17; PUB Under 100%,4
+2026-11-17T12:39-05:00,Sat 11/21 10:15 PM,Oklahoma State,Arizona State,401856870,-4.0,-3.0,62.5,61.5,Oklahoma State -3,100,100,0,0,100,100,0,0,PUB Oklahoma State -3 100%; RLM Arizona State +3 (-4→-3); KEY 3; PUB Over 100%,6
+2026-11-17T12:39-05:00,Sat 11/21 10:30 PM,Hawaii,Nevada,401864541,2.5,4.0,42.5,40.5,Nevada -4,100,100,0,0,0,33,0,0,PUB Nevada -4 100%; RLM Hawaii +4 (+2.5→+4); STEAM home 1.5; KEY 3; PUB Under 67%; SHARP Under +33; TOTAL down 2,10
+2026-11-17T12:39-05:00,Sat 11/21 10:30 PM,Utah State,Oregon State,401860919,10.0,9.5,49.5,51.5,Oregon State -9.5,100,100,0,0,100,100,100,100,PUB Oregon State -9.5 100%; PUB Over 100%; TOTAL up 2,3
