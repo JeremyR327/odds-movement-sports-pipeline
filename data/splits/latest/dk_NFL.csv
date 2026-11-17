@@ -1,11 +1,14 @@
 pulled_et,when,away,home,espn_id,spread_open,spread_now,total_open,total_now,spr_away_sel,spr_away_handle,spr_away_bets,spr_home_handle,spr_home_bets,over_handle,over_bets,ml_away_handle,ml_away_bets,flags,signal
-2026-11-16T22:41-05:00,Thu 11/19 8:15 PM,IND Colts,HOU Texans,,,,,,HOU Texans -11.5,25,34,75,66,8,50,72,78,PUB IND Colts +11.5 66%; SHARP Under +42,3
-2026-11-16T22:41-05:00,Sun 11/22 1:00 PM,NO Saints,CHI Bears,,,,,,CHI Bears -11.5,96,73,4,27,100,100,89,90,PUB CHI Bears -11.5 73%; SHARP CHI Bears -11.5 +23; PUB Over 100%,4
-2026-11-16T22:41-05:00,Sun 11/22 1:00 PM,ARI Cardinals,KC Chiefs,,,,,,KC Chiefs -16.5,78,42,22,58,100,83,81,86,SHARP KC Chiefs -16.5 +36; PUB Over 83%; SHARP Over +17,5
-2026-11-16T22:41-05:00,Sun 11/22 1:00 PM,MIA Dolphins,BUF Bills,,,,,,BUF Bills -16.5,89,40,11,60,82,70,99,93,SHARP BUF Bills -16.5 +49; PUB Over 70%,3
-2026-11-16T22:41-05:00,Sun 11/22 1:00 PM,TB Buccaneers,DET Lions,,,,,,DET Lions -6.5,12,61,88,39,100,100,68,90,SHARP TB Buccaneers +6.5 +49; PUB Over 100%,3
-2026-11-16T22:41-05:00,Sun 11/22 1:00 PM,TEN Titans,DAL Cowboys,,,,,,DAL Cowboys -8.5,67,72,33,28,100,75,80,92,PUB DAL Cowboys -8.5 72%; PUB Over 75%; SHARP Over +25,4
-2026-11-16T22:41-05:00,Sun 11/22 1:00 PM,PIT Steelers,PHI Eagles,,,,,,PIT Steelers -4.5,76,79,24,21,100,100,36,17,PUB PIT Steelers -4.5 79%; PUB Over 100%,2
-2026-11-16T22:41-05:00,Sun 11/22 4:25 PM,JAX Jaguars,NY Giants,,,,,,JAX Jaguars -6,99,84,1,16,100,100,26,11,PUB JAX Jaguars -6 84%; SHARP JAX Jaguars -6 +15; PUB Over 100%,4
-2026-11-16T22:41-05:00,Sun 11/22 4:25 PM,LV Raiders,DEN Broncos,,,,,,DEN Broncos -10,47,43,53,57,9,67,52,90,PUB Over 67%; SHARP Under +58,3
-2026-11-16T22:41-05:00,Sun 11/22 8:20 PM,MIN Vikings,SF 49ers,,,,,,SF 49ers -3,23,47,77,53,100,80,80,68,SHARP MIN Vikings +3 +24; PUB Over 80%; SHARP Over +20,5
+2026-11-17T09:09-05:00,Thu 11/19 8:15 PM,IND Colts,HOU Texans,,,,,,HOU Texans -12.5,62,35,38,65,84,47,73,80,PUB IND Colts +12.5 65%; SHARP HOU Texans -12.5 +27; SHARP Over +37,5
+2026-11-17T09:09-05:00,Sun 11/22 1:00 PM,NO Saints,CHI Bears,,,,,,CHI Bears -11.5,94,67,6,33,95,78,87,87,PUB CHI Bears -11.5 67%; SHARP CHI Bears -11.5 +27; PUB Over 78%; SHARP Over +17,6
+2026-11-17T09:09-05:00,Sun 11/22 1:00 PM,ARI Cardinals,KC Chiefs,,,,,,KC Chiefs -16.5,75,41,25,59,100,89,74,86,SHARP KC Chiefs -16.5 +34; PUB Over 89%,3
+2026-11-17T09:09-05:00,Sun 11/22 1:00 PM,MIA Dolphins,BUF Bills,,,,,,BUF Bills -16.5,85,35,15,65,80,64,99,92,PUB MIA Dolphins +16.5 65%; SHARP BUF Bills -16.5 +50; SHARP Over +16,5
+2026-11-17T09:09-05:00,Sun 11/22 1:00 PM,TB Buccaneers,DET Lions,,,,,,DET Lions -6.5,21,65,79,35,100,100,72,86,PUB DET Lions -6.5 65%; SHARP TB Buccaneers +6.5 +44; PUB Over 100%,4
+2026-11-17T09:09-05:00,Sun 11/22 1:00 PM,TEN Titans,DAL Cowboys,,,,,,DAL Cowboys -8.5,68,69,32,31,100,78,84,89,PUB DAL Cowboys -8.5 69%; PUB Over 78%; SHARP Over +22,4
+2026-11-17T09:09-05:00,Sun 11/22 1:00 PM,PIT Steelers,PHI Eagles,,,,,,PIT Steelers -4.5,57,70,43,30,100,100,35,24,PUB PIT Steelers -4.5 70%; PUB Over 100%,2
+2026-11-17T09:09-05:00,Sun 11/22 1:00 PM,BAL Ravens,CAR Panthers,,,,,,CAR Panthers -2.5,30,52,70,48,40,67,62,54,SHARP BAL Ravens +2.5 +22; PUB Over 67%; SHARP Under +27,5
+2026-11-17T09:09-05:00,Sun 11/22 4:05 PM,NY Jets,LA Chargers,,,,,,LA Chargers -3,84,50,16,50,92,50,55,42,SHARP LA Chargers -3 +34; SHARP Over +42,4
+2026-11-17T09:09-05:00,Sun 11/22 4:25 PM,JAX Jaguars,NY Giants,,,,,,JAX Jaguars -6,98,79,2,21,86,67,34,13,PUB JAX Jaguars -6 79%; SHARP JAX Jaguars -6 +19; PUB Over 67%; SHARP Over +19,6
+2026-11-17T09:09-05:00,Sun 11/22 4:25 PM,LV Raiders,DEN Broncos,,,,,,DEN Broncos -10,74,46,26,54,9,71,59,88,SHARP DEN Broncos -10 +28; PUB Over 71%; SHARP Under +62,5
+2026-11-17T09:09-05:00,Sun 11/22 8:20 PM,MIN Vikings,SF 49ers,,,,,,SF 49ers -3,56,51,44,49,97,67,54,64,PUB Over 67%; SHARP Over +30,3
+2026-11-17T09:09-05:00,Mon 11/23 8:15 PM,CIN Bengals,WAS Commanders,,,,,,CIN Bengals -6.5,98,90,2,10,93,67,10,12,PUB CIN Bengals -6.5 90%; PUB Over 67%; SHARP Over +26,4
