@@ -1,24 +1,24 @@
 {
   "date": "2026-11-18",
-  "pulled_et": "2026-11-18T15:30-05:00",
+  "pulled_et": "2026-11-18T17:44-05:00",
   "espn": "ok 71 games",
   "torvik": "ok 364 teams (saved copy from today); pace from TeamRankings for 352 teams",
   "tr": "ok 365 teams (2026-11-18 1529)",
   "bpi": "ok 365 teams",
-  "espn_lines": "59/59 priced games have ESPN's DraftKings opener",
+  "espn_lines": "58/58 priced games have ESPN's DraftKings opener",
   "cbbd_lines": "skipped: ESPN has DraftKings open + current (saves the CBBD monthly quota)",
-  "dk_splits": "ok 46 games, pulled 15:29",
+  "dk_splits": "ok 46 games, pulled 17:39",
   "check_names": [
     "Purdue Fort Wayne @ Bradley: TR -15.2 vs BPI +5.6"
   ],
-  "games_written": 61,
-  "with_line": 59,
-  "with_espn_open": 59,
-  "flags": 6,
-  "mkt_flags": 21,
-  "tier1_mkt_flags": 2,
+  "games_written": 60,
+  "with_line": 58,
+  "with_espn_open": 58,
+  "flags": 8,
+  "mkt_flags": 25,
+  "tier1_mkt_flags": 3,
   "total_flags": 38,
-  "fade_flags": 32,
+  "fade_flags": 33,
   "unmatched": [
     "MCLA Mohawks @ New Haven Chargers",
     "Defiance Yellow Jackets @ Miami (OH) RedHawks",
@@ -29,7 +29,7 @@
     "Lindsey Wilson Blue Raiders @ Southern Indiana Screaming Eagles",
     "McMurry War Hawks @ Abilene Christian Wildcats"
   ],
-  "sources": "espn ok 71 games \u00b7 espn_lines 59/59 priced games have ESPN's DraftKings opener \u00b7 torvik ok 364 teams (saved copy from today); pace from TeamRankings for 352 teams \u00b7 tr ok 365 teams (2026-11-18 1529) \u00b7 bpi ok 365 teams",
+  "sources": "espn ok 71 games \u00b7 espn_lines 58/58 priced games have ESPN's DraftKings opener \u00b7 torvik ok 364 teams (saved copy from today); pace from TeamRankings for 352 teams \u00b7 tr ok 365 teams (2026-11-18 1529) \u00b7 bpi ok 365 teams",
   "calibration": {
     "games": 55,
     "with_open": 55,
