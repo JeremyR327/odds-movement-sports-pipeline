@@ -36,10 +36,18 @@ NOW = datetime.now(ET)
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
                     "(KHTML, like Gecko) Chrome/130 Safari/537.36", "Accept": "*/*"}
 HCA = 3.0                                          # home-court points (ledger: Model weights)
-W = {"torvik": 0.5, "tr": 0.3, "bpi": 0.2}         # consensus weights; renormalized over models present
+# Nov 16 review (150 games): BPI MAE 10.00 (~ the opener), TR 10.92, Torvik stand-in 12.57 with a +4
+# home bias, so BPI leads. Renormalized over the models present.
+W = {"torvik": 0.2, "tr": 0.35, "bpi": 0.45}
 MARKET_W = {1: 0.7, 2: 0.5, 3: 0.4}                # weight on the opener in the fair line
 NOV_BUMP = 0.1                                     # extra market weight in November
-THRESH = {1: 1.5, 2: 2.5, 3: 2.5}                  # |fair - current| needed to flag, points
+# |fair - current| needed for a MODEL flag. Tier 1 (both top-100) gets no model flags: model edges went
+# 1-6 there; Tier 1 is read through the market instead (MKT flags: line path + DK splits).
+THRESH = {1: None, 2: 3.0, 3: 3.0}
+CHECK_EDGE = 5.0          # model edges this big are usually data problems: flag as CHECK, track apart
+TOTAL_GAP = 4.0           # Torvik total this far from the line = a TOTAL flag (unders 70-38 at 4+, Nov 13-15)
+FADE_FAV = 7.0            # home favorites of 7+ (home dog = FADE flag, tracked apart from the models)
+SPLITS_MAX_AGE_H = 3.0    # DK splits (data/splits/latest/dk_CBB.csv) older than this are ignored
 OUT = "data/cbb"
 
 
@@ -361,6 +369,31 @@ def torvik_ratings(season):
     return R, src
 
 
+def add_pace(R):
+    """CBBD's adjusted ratings have no tempo (every team got 68 possessions, which squeezed its margins:
+    finals ran ~1.2x its predictions). Fill adjt from TeamRankings' possessions-per-game where a team
+    matches; leave 68 otherwise. Returns how many teams got a real pace."""
+    paths = sorted(glob.glob("data/????-??-??/[0-9][0-9][0-9][0-9]_tr_stats_CBB.csv"))
+    if not paths:
+        return 0
+    pace = {}
+    with open(paths[-1], encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            if r.get("stat") == "possessions-per-game":
+                try:
+                    pace[r["team"].strip()] = float(r["season"])
+                except (KeyError, ValueError):
+                    pass
+    if len(pace) < 300:
+        return 0
+    m, n = Matcher(pace, expand=True), 0
+    for t, v in R.items():
+        hit = m(t)
+        if hit and 55 <= pace[hit] <= 85 and v.get("adjt") == CBBD_POSS:
+            v["adjt"] = pace[hit]; n += 1
+    return n
+
+
 def torvik_predict(a, h, R, neutral):
     """KenPom-style: possessions from tempos, points from O vs D relative to D-I average."""
     avg_eff = sum(t["adjoe"] for t in R.values()) / len(R)
@@ -475,9 +508,10 @@ def price(day, tier, cons, open_h, cur_h, tr_m, bpi_m, away, home):
         moved = (cur_h - open_h) * (cons - open_h) > 0
     flag = ""
     suspect = tr_m is not None and bpi_m is not None and abs(tr_m - bpi_m) > NAME_CHECK_PTS
-    if edge is not None and abs(edge) >= THRESH[tier] and not suspect:
+    th = THRESH.get(tier)
+    if edge is not None and th is not None and abs(edge) >= th and not suspect:
         side = home if edge > 0 else away
-        flag = f"EDGE {side} {abs(edge):.1f}"
+        flag = f"{'CHECK' if abs(edge) >= CHECK_EDGE else 'EDGE'} {side} {abs(edge):.1f}"
         flag += " · moved toward model" if moved is True else (" · line moved away" if moved is False else "")
     return {"fair_home_margin": rnd(fair), "edge_pts": rnd(edge),
             "gap_cons_vs_open": rnd(cons - open_h) if open_h is not None else None,
@@ -486,7 +520,48 @@ def price(day, tier, cons, open_h, cur_h, tr_m, bpi_m, away, home):
             "flag_side": ("home" if edge > 0 else "away") if flag else "", "suspect": suspect}
 
 
+def dk_splits_cbb():
+    """espn_id -> DK Network spread/total handle and bets (dk_splits.py output), if fresh."""
+    p = "data/splits/latest/dk_CBB.csv"
+    if not os.path.exists(p):
+        return {}, "no dk_CBB.csv"
+    with open(p, encoding="utf-8") as f:
+        rows = [r for r in csv.DictReader(f) if r.get("espn_id")]
+    if not rows:
+        return {}, "dk_CBB.csv has no games joined to ESPN"
+    age = (NOW - datetime.fromisoformat(rows[0]["pulled_et"])).total_seconds() / 3600
+    if age > SPLITS_MAX_AGE_H:
+        return {}, f"stale ({age:.1f} h old)"
+    return {r["espn_id"]: r for r in rows}, f"ok {len(rows)} games, pulled {rows[0]['pulled_et'][11:16]}"
+
+
+def market_read(sp, open_h, cur_h, away, home):
+    """MKT flags from the DraftKings line path (home margin) and DK splits (away side handle/bets).
+    RLM = line moved toward the side with under 50% of bets; SHARP = handle minus bets >= 15;
+    STEAM = 1.5+ move. Thin samples (any 0% or 100% cell) are not read."""
+    out = []
+    num = lambda k: float(sp[k]) if sp and sp.get(k) not in (None, "", "None") else None
+    ah, ab = num("spr_away_handle"), num("spr_away_bets")
+    thin = ah is None or ab is None or ah in (0, 100) or ab in (0, 100)
+    moved = None if open_h is None or cur_h is None or cur_h == open_h else cur_h - open_h
+    toward = None if moved is None else (home if moved > 0 else away)    # home margin up = market to home
+    if not thin:
+        if ah - ab >= 15:
+            out.append(f"SHARP {away} +{ah - ab:.0f}")
+        elif ab - ah >= 15:
+            out.append(f"SHARP {home} +{ab - ah:.0f}")
+        minority = away if ab < 50 else (home if ab > 50 else None)
+        if toward and minority == toward:
+            out.append(f"RLM {toward} ({open_h:+.1f}→{cur_h:+.1f})")
+        if max(ab, 100 - ab) >= 65:
+            out.append(f"PUB {away if ab >= 65 else home} {max(ab, 100 - ab):.0f}%")
+    if moved is not None and abs(moved) >= 1.5:
+        out.append(f"STEAM {toward} {abs(moved):.1f}")
+    return out, ("thin" if thin and sp else ("n/a" if not sp else f"{ah:.0f}/{ab:.0f}"))
+
+
 def build_slate(day, games, R, TR, B, lines=None):
+    SPL, _ = dk_splits_cbb()
     mt = Matcher(R) if R else None
     mtr = Matcher(TR, expand=True) if TR else None
     # Without Torvik, tiers come from TR rank (1 = best rating).
@@ -558,6 +633,26 @@ def build_slate(day, games, R, TR, B, lines=None):
         p = price(day, tier, cons, open_h, cur_h, tr_m, bpi_m, g["away"]["school"], g["home"]["school"])
         if p.pop("suspect"):
             name_checks.append(f'{g["away"]["school"]} @ {g["home"]["school"]}: TR {tr_m:+.1f} vs BPI {bpi_m:+.1f}')
+        away_s, home_s = g["away"]["school"], g["home"]["school"]
+        mkt, spl = market_read(SPL.get(g["espn_id"]), open_h, cur_h, away_s, home_s)
+        # Tier 1 is read through the market: a MKT flag needs RLM, or SHARP money with a move the same way.
+        mkt_flag = ""
+        rlm = next((x for x in mkt if x.startswith("RLM")), None)
+        sharp = next((x for x in mkt if x.startswith("SHARP")), None)
+        steam = next((x for x in mkt if x.startswith("STEAM")), None)
+        if rlm:
+            mkt_flag = rlm
+        elif sharp and steam and sharp.split()[1] == steam.split()[1]:
+            mkt_flag = f"{sharp} + {steam}"
+        # Both MKT kinds back the side the line moved toward (home margin up = toward home).
+        mkt_side = ("home" if cur_h > open_h else "away") if mkt_flag else ""
+        tot_flag, tot_side = "", ""
+        if tv_t is not None and cur_t not in (None, ""):
+            gap = tv_t - float(cur_t)
+            if abs(gap) >= TOTAL_GAP:
+                tot_side = "over" if gap > 0 else "under"
+                tot_flag = f"TOTAL {tot_side.title()} ({tv_t:.1f} vs {float(cur_t):g})"
+        fade = "FADE home fav" if (not g["neutral"] and cur_h is not None and cur_h >= FADE_FAV) else ""
         out.append({
             "date": day.isoformat(), "tip_et": g["tip"], "espn_id": g["espn_id"],
             "away": g["away"]["school"], "home": g["home"]["school"], "site": "N" if g["neutral"] else "H",
@@ -566,6 +661,8 @@ def build_slate(day, games, R, TR, B, lines=None):
             "bpi_home_margin": rnd(bpi_m), "consensus_home_margin": rnd(cons),
             "line_source": src, "open_home_margin": open_h, "cur_home_margin": cur_h,
             "open_total": open_t, "cur_total": cur_t, **p,
+            "dk_spr_away_h_b": spl, "market": "; ".join(mkt), "mkt_flag": mkt_flag, "mkt_side": mkt_side,
+            "total_flag": tot_flag, "total_side": tot_side, "fade_flag": fade,
             "pulled_et": NOW.isoformat(timespec="minutes"),
         })
     return out, unmatched, name_checks
@@ -594,6 +691,11 @@ def build_results(day, games, slate_rows):
             "torvik_home_margin": num("torvik_home_margin"), "tr_home_margin": num("tr_home_margin"),
             "bpi_home_margin": num("bpi_home_margin"), "fair_home_margin": num("fair_home_margin"),
             "torvik_total": num("torvik_total"), "flag_at_close": r["flag"], "flag_side": r.get("flag_side", ""),
+            "mkt_flag": r.get("mkt_flag", ""), "mkt_side": r.get("mkt_side", ""),
+            "total_flag": r.get("total_flag", ""), "total_side": r.get("total_side", ""),
+            "fade_flag": r.get("fade_flag", ""),
+            "total_result": (None if num("cur_total") is None or total == num("cur_total")
+                             else ("over" if total > num("cur_total") else "under")),
             "model_err": rnd(margin - cons) if cons is not None else None,
             "close_err": rnd(margin - close) if close is not None else None,
             "home_covered": None if close is None or margin == close else margin > close,
@@ -643,12 +745,29 @@ def calibration_all():
                      ("tr_home_margin", "TeamRankings"), ("bpi_home_margin", "BPI"), ("consensus_home_margin", "Model consensus"),
                      ("fair_home_margin", "Fair line")):
         out.append(f"| {label} | {mae(k)} | " + " | ".join(mae(k, sub=tiers[t]) for t in (1, 2, 3)) + " |")
-    flagged = [r for r in rows if r.get("flag_side") and r.get("home_covered") in ("True", "False")]
-    won = sum((r["flag_side"] == "home") == (r["home_covered"] == "True") for r in flagged)
-    out += ["", f"- Flagged sides vs the closing line: {won}-{len(flagged) - won}" +
-            (f" ({100 * won / len(flagged):.1f}%; break-even at -110 is 52.4%)" if flagged else ""),
+    def rec(sub, side_key):
+        g = [r for r in sub if r.get(side_key) and r.get("home_covered") in ("True", "False")]
+        w = sum((r[side_key] == "home") == (r["home_covered"] == "True") for r in g)
+        return f"{w}-{len(g) - w}" + (f" ({100 * w / len(g):.1f}%)" if g else "")
+    edge = [r for r in rows if r.get("flag_at_close", "").startswith("EDGE")]
+    check = [r for r in rows if r.get("flag_at_close", "").startswith("CHECK")]
+    t1m = [r for r in rows if r.get("tier") == "1" and r.get("mkt_flag")]
+    mk = [r for r in rows if r.get("mkt_flag")]
+    fade = [dict(r, fade_side="away") for r in rows if r.get("fade_flag")]
+    tots = [r for r in rows if r.get("total_side") and r.get("total_result") in ("over", "under")]
+    tw = sum(r["total_side"] == r["total_result"] for r in tots)
+    out += ["", "Records vs the closing line (break-even at -110 is 52.4%):",
+            f"- All model flags (any tier, as logged): {rec(rows, 'flag_side')}",
+            f"- EDGE flags (Tier 2-3, edge 3-5 pts; from Nov 16): {rec(edge, 'flag_side')}",
+            f"- CHECK flags (edge 5+, usually data problems): {rec(check, 'flag_side')}",
+            f"- MKT flags, Tier 1 (RLM, or sharp money + steam): {rec(t1m, 'mkt_side')}",
+            f"- MKT flags, all tiers: {rec(mk, 'mkt_side')}",
+            f"- FADE (away side vs a home favorite of {FADE_FAV:g}+): {rec(fade, 'fade_side')}",
+            f"- TOTAL flags (Torvik total {TOTAL_GAP:g}+ off the line): {tw}-{len(tots) - tw}" +
+            (f" ({100 * tw / len(tots):.1f}%)" if tots else ""),
             f"- Totals MAE: Torvik {mae('torvik_total', 'final_total')} vs closing total {mae('close_total', 'final_total')}",
-            "", "Change weights or thresholds only after ~300 graded games, and only where a gap holds in every tier."]
+            "", "Flag families overlap (a game can be EDGE, FADE and TOTAL at once); judge each on its own record.",
+            "Change weights or thresholds only after ~300 graded games, and only where a gap holds in every tier."]
     os.makedirs(f"{OUT}/latest", exist_ok=True)
     with open(f"{OUT}/latest/calibration.md", "w", encoding="utf-8") as fh:
         fh.write("\n".join(out) + "\n")
@@ -667,19 +786,34 @@ def brief(slate, status):
         return "—" if x in (None, "") else (f"{x:+.1f}" if isinstance(x, float) else str(x))
     lines = [f"# CBB model brief — {status['date']} (pulled {status['pulled_et'][11:16]} ET)", "",
              "All numbers are the HOME team's margin (+ = home favored). Edge = fair minus current line; "
-             f"EDGE flags meet the tier threshold (T1 {THRESH[1]}, T2-3 {THRESH[2]} pts). "
-             "Fair = market weight x opener + the rest x model consensus.",
-             f"Sources: {status['sources']}", "",
-             "| Game (ET) | Site | Tier | Line src | Open→now | Total open→now | Torvik | TR | BPI | Cons | Fair | Edge | To model | Flag |",
-             "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
+             f"Model flags (Tier 2-3 only): EDGE = edge {THRESH[2]}-{CHECK_EDGE:g} pts, CHECK = {CHECK_EDGE:g}+ (verify names/rosters first). "
+             "Fair = market weight x opener + the rest x model consensus. "
+             f"MKT = market read from the DraftKings line path + DK splits (RLM, or sharp money with a same-way move); "
+             f"TOTAL = Torvik total {TOTAL_GAP:g}+ off the line; FADE = home favorite of {FADE_FAV:g}+ (tracked, not a model call).",
+             f"Sources: {status['sources']} · DK splits {status.get('dk_splits', 'n/a')}", ""]
     rows = [r for r in slate if r["cur_home_margin"] is not None]
-    rows.sort(key=lambda r: (r["flag"] == "", -abs(r["edge_pts"] or 0)))
+    t1 = sorted([r for r in rows if r["tier"] == 1], key=lambda r: (r["mkt_flag"] == "", r["tip_et"]))
+    lines += ["## Tier 1 market board (both teams top-100: read the market, not the models)", "",
+              "| Game (ET) | Site | Open→now | Total open→now | DK spr h/b (away) | Market | MKT flag | Cons / Fair (info) |",
+              "|---|---|---|---|---|---|---|---|"]
+    for r in t1:
+        lines.append(f"| {r['away']} @ {r['home']} {r['tip_et']} | {r['site']} | {f(r['open_home_margin'])}→{f(r['cur_home_margin'])} | "
+                     f"{r['open_total'] or '—'}→{r['cur_total'] or '—'} | {r['dk_spr_away_h_b']} | {r['market'] or '—'} | "
+                     f"{r['mkt_flag'] or '—'} | {f(r['consensus_home_margin'])} / {f(r['fair_home_margin'])} |")
+    if not t1:
+        lines.append("| no Tier 1 games with a line | | | | | | | |")
+    lines += ["", "## All games (flags first)", "",
+              "| Game (ET) | Site | Tier | Line src | Open→now | Total open→now | Torvik | TR | BPI | Cons | Fair | Edge | To model | DK h/b | Flag | MKT | TOTAL | FADE |",
+              "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
+    anyflag = lambda r: bool(r["flag"] or r["mkt_flag"] or r["total_flag"])
+    rows.sort(key=lambda r: (not anyflag(r), -abs(r["edge_pts"] or 0)))
     for r in rows:
         moved = "—" if r["moved_toward_model"] is None else ("yes" if r["moved_toward_model"] else "no")
         lines.append(f"| {r['away']} @ {r['home']} {r['tip_et']} | {r['site']} | {r['tier']} | {r['line_source']} | "
                      f"{f(r['open_home_margin'])}→{f(r['cur_home_margin'])} | {r['open_total'] or '—'}→{r['cur_total'] or '—'} | "
                      f"{f(r['torvik_home_margin'])} | {f(r['tr_home_margin'])} | {f(r['bpi_home_margin'])} | "
-                     f"{f(r['consensus_home_margin'])} | {f(r['fair_home_margin'])} | {f(r['edge_pts'])} | {moved} | {r['flag']} |")
+                     f"{f(r['consensus_home_margin'])} | {f(r['fair_home_margin'])} | {f(r['edge_pts'])} | {moved} | "
+                     f"{r['dk_spr_away_h_b']} | {r['flag'] or '—'} | {r['mkt_flag'] or '—'} | {r['total_flag'] or '—'} | {r['fade_flag'] or '—'} |")
     lines += ["", f"{len(slate) - len(rows)} games had no line yet; they are in slate.csv only."]
     return "\n".join(lines) + "\n"
 
@@ -712,6 +846,10 @@ def main():
         games = None; status["espn"] = f"error: {e}"
     try:
         R, tsrc = torvik_ratings(args.season); status["torvik"] = f"ok {len(R)} teams ({tsrc})"
+        if "CollegeBasketballData" in tsrc or "saved copy" in tsrc:
+            npace = add_pace(R)
+            if npace:
+                status["torvik"] += f"; pace from TeamRankings for {npace} teams"
     except Exception as e:
         R = None; status["torvik"] = f"error: {e}"
     try:
@@ -759,13 +897,18 @@ def main():
         except Exception as e:
             status["cbbd_lines"] = f"error: {e}".replace(lkey, "***")
 
+    status["dk_splits"] = dk_splits_cbb()[1]
     slate, unmatched, name_checks = build_slate(day, games, R, TR, B, lines)
     if name_checks:
         status["check_names"] = name_checks[:40]   # flags suppressed on these games
     status.update({"games_written": len(slate),
                    "with_line": sum(1 for r in slate if r["cur_home_margin"] is not None),
                    "with_espn_open": sum(1 for r in slate if r["line_source"].endswith("open+now")),
-                   "flags": sum(1 for r in slate if r["flag"]), "unmatched": unmatched[:40]})
+                   "flags": sum(1 for r in slate if r["flag"]),
+                   "mkt_flags": sum(1 for r in slate if r["mkt_flag"]),
+                   "tier1_mkt_flags": sum(1 for r in slate if r["mkt_flag"] and r["tier"] == 1),
+                   "total_flags": sum(1 for r in slate if r["total_flag"]),
+                   "fade_flags": sum(1 for r in slate if r["fade_flag"]), "unmatched": unmatched[:40]})
     status["sources"] = " · ".join(f"{k} {status[k]}" for k in ("espn", "espn_lines", "torvik", "tr", "bpi"))
     write_csv(f"{OUT}/{day.isoformat()}/{NOW:%H%M}_slate.csv", slate)
     write_csv(f"{OUT}/latest/slate.csv", slate)

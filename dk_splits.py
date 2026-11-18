@@ -25,8 +25,8 @@ ET = ZoneInfo("America/New_York")
 NOW = datetime.now(ET)
 URL = ("https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/"
        "?tb_eg={eg}&tb_edate=n7days&tb_emt=0&tb_page={page}")
-EG = {"CFB": 87637, "NFL": 88808}
-KEYS = {"CFB": (3, 7, 14, 17), "NFL": (3, 7, 10)}
+EG = {"CFB": 87637, "NFL": 88808, "CBB": 92483}   # CBB = DraftKings NCAAB event group (unverified: status shows 0 games if wrong)
+KEYS = {"CFB": (3, 7, 14, 17), "NFL": (3, 7, 10), "CBB": ()}
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
                     "(KHTML, like Gecko) Chrome/130 Safari/537.36",
       "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -109,6 +109,10 @@ def name_score(dk, espn):
     d, e = norm(dk), norm(espn)
     if e.startswith(d):
         return 1.0
+    dw, ew = d.split(), e.split()
+    if len(dw) >= 2 and dw[-1] == ew[-1] and (dw[0][0] == ew[0][0] or len(dw[0]) <= 3):
+        return 0.95                                                     # 'la chargers' ~ 'los angeles chargers'
+
     d2 = re.sub(r"\b(fl|oh|pa|ca|tx)\b", "", d).strip()                 # 'miami fl' -> 'miami'
     if d2 and e.startswith(d2 + " "):
         return 0.95
@@ -129,14 +133,34 @@ def f(x):
         return None
 
 
+def thin(rows):
+    """CBB/early-week samples: a 0% or 100% handle or bets cell means too few tickets to read."""
+    return not rows or any(r["handle"] in (0, 100) or r["bets"] in (0, 100) for r in rows)
+
+
+def orient(g):
+    """DK Network lists the HOME side first. Put the away side first by matching names, so every
+    away/home column (and RLM) is right whatever order the page uses; Over first for totals."""
+    for mkt in ("moneyline", "spread"):
+        rows = g.get(mkt)
+        if rows and len(rows) == 2:
+            sa = name_score(g["away"], rows[0]["sel"]) + name_score(g["home"], rows[1]["sel"])
+            sb = name_score(g["away"], rows[1]["sel"]) + name_score(g["home"], rows[0]["sel"])
+            if sb > sa:
+                g[mkt] = [rows[1], rows[0]]
+    tot = g.get("total")
+    if tot and len(tot) == 2 and not tot[0]["sel"].lower().startswith("over"):
+        g["total"] = [tot[1], tot[0]]
+    return g
+
+
 def flags(g, line, sport):
     """Rubric flags for one game. Spread numbers are the AWAY team's (line file convention)."""
     out, sides = [], {}
     sp = g.get("spread")
     if sp:
-        a, h = sp                                   # DK lists away first, home second
-        for side, r in (("away", a), ("home", h)):
-            sides[side] = r
+        sides["away"], sides["home"] = sp          # orient() put the away side first
+    if sp and not thin(sp):
         pub = max(sp, key=lambda r: r["bets"])
         if pub["bets"] >= 65:
             out.append(f'PUB {pub["sel"]} {pub["bets"]}%')
@@ -147,7 +171,7 @@ def flags(g, line, sport):
     if o is not None and n is not None and n != o and sp:
         # Away spread +3 -> +5: away gets more points = market moved to HOME. -3 -> -5 = moved to AWAY.
         toward = "home" if n > o else "away"
-        minority = "away" if sides["away"]["bets"] < 50 else ("home" if sides["home"]["bets"] < 50 else None)
+        minority = None if thin(sp) else ("away" if sides["away"]["bets"] < 50 else ("home" if sides["home"]["bets"] < 50 else None))
         if minority and minority == toward:
             out.append(f'RLM {sides[toward]["sel"]} ({o:+g}→{n:+g})')
         if abs(n - o) >= 1.5:
@@ -159,7 +183,7 @@ def flags(g, line, sport):
         elif o * n < 0:
             out.append("FLIP favorite")
     tot = g.get("total")
-    if tot:
+    if tot and not thin(tot):
         ov = next((r for r in tot if r["sel"].lower().startswith("over")), tot[0])
         if ov["bets"] >= 65 or ov["bets"] <= 35:
             out.append(f'PUB {"Over" if ov["bets"] >= 65 else "Under"} {max(ov["bets"], 100 - ov["bets"])}%')
@@ -167,7 +191,7 @@ def flags(g, line, sport):
             if r["handle"] - r["bets"] >= 15:
                 out.append(f'SHARP {r["sel"].split()[0]} +{r["handle"] - r["bets"]}')
     to, tn = (f(line.get("total_open")), f(line.get("total_now"))) if line else (None, None)
-    if to is not None and tn is not None and abs(tn - to) >= (2 if sport == "CFB" else 1.5):
+    if to is not None and tn is not None and abs(tn - to) >= {"CFB": 2, "NFL": 1.5, "CBB": 3}.get(sport, 2):
         out.append(f"TOTAL {'up' if tn > to else 'down'} {abs(tn - to):g}")
     return out
 
@@ -191,6 +215,7 @@ def build(sport, games, updated, lines, lines_path):
             used.add(best)
         else:
             unmatched.append(f'{g["away"]} @ {g["home"]}')
+        orient(g)
         fl = flags(g, line, sport)
         sp, tot, ml = g.get("spread") or [{}, {}], g.get("total") or [{}, {}], g.get("moneyline") or [{}, {}]
         rows.append({"pulled_et": NOW.isoformat(timespec="minutes"), "when": g["when"],
@@ -201,7 +226,8 @@ def build(sport, games, updated, lines, lines_path):
                      "spr_home_handle": sp[1].get("handle", ""), "spr_home_bets": sp[1].get("bets", ""),
                      "over_handle": tot[0].get("handle", ""), "over_bets": tot[0].get("bets", ""),
                      "ml_away_handle": ml[0].get("handle", ""), "ml_away_bets": ml[0].get("bets", ""),
-                     "flags": "; ".join(fl), "signal": score(fl)})
+                     "flags": "; ".join(fl + (["THIN spread sample"] if g.get("spread") and thin(g["spread"]) else [])),
+                     "signal": score(fl)})
     return rows, unmatched
 
 
@@ -234,7 +260,7 @@ def write_csv(path, rows):
 
 
 def main():
-    sports = [s.upper() for s in sys.argv[1:]] or ["CFB", "NFL"]
+    sports = [s.upper() for s in sys.argv[1:]] or ["CFB", "NFL", "CBB"]
     status = {"pulled_et": NOW.isoformat(timespec="minutes"), "source": "DK Network splits + espn_lines.py"}
     os.makedirs(f"{OUT}/latest", exist_ok=True)
     for sport in sports:

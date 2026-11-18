@@ -14,8 +14,10 @@ those lines, with the rubric flags; written to data/splits/latest/).
   12:39 PM daily         lines: midday point on the path
   3:29 PM daily          lines + TeamRankings: for the 3:45 PM NFL & CFB scan
   5:39 PM daily          lines: for the 5:52 PM evening analysis
-  10:41 AM, 5:44 PM, 10:41 PM  CBB model slate (cbb_pull.py) for the CBB morning scan (10:57 AM)
-                         and pre-tip (5:57 PM) tasks; the late run logs closing lines
+  7:44 PM daily          lines + CBB: last read before the 9 PM tips
+  10:41 AM, 1:44 PM, 3:29 PM, 5:44 PM, 7:44 PM, 10:41 PM  CBB model slate (cbb_pull.py). The extra
+                         afternoon/evening snapshots give every tip window a pre-tip line + splits read
+                         (the last snapshot before tip is the close used for grading).
 Edit SLOTS below to change them.
 
 After each pull it refreshes data/latest/ (publish_gist.py --write-dir), commits
@@ -32,10 +34,12 @@ SLOTS = [
     (9, 9, None, ["lines"]),
     (9, 59, {5, 6}, ["lines"]),
     (12, 39, None, ["lines"]),
-    (15, 29, None, ["lines", "tr"]),
+    (13, 44, None, ["cbb"]),        # CBB snapshot before the early-afternoon tips (weekend noon-3 PM games)
+    (15, 29, None, ["lines", "tr", "cbb"]),   # + CBB snapshot before 4-6 PM tips
     (17, 39, None, ["lines"]),
     (10, 41, None, ["cbb"]),
     (17, 44, None, ["cbb"]),        # after the 5:39 lines pull; read by the 5:57 PM CBB pre-tip task
+    (19, 44, None, ["lines", "cbb"]),  # last read before the 9 PM tips (lines + DK splits + CBB)
     (22, 41, None, ["lines", "cbb"]),  # late games and closing lines for the next morning's grading
 ]
 RUN_FOR = timedelta(minutes=int(os.environ.get("LOOP_MINUTES", "330")))
