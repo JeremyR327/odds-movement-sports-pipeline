@@ -1,80 +1,79 @@
-# CBB lines — DraftKings via ESPN, pull 09:09 ET (first pull today 09:09 ET)
+# CBB lines — DraftKings via ESPN, pull 12:39 ET (first pull today 09:09 ET)
 
 Spread = AWAY team's number. Each cell is open → first pull today → now (DraftKings open is its opener for the game). Flags: STEAM = spread moved 1.5+ since open (direction = side the market moved toward); TOTAL = total moved 2+; KEY = crossed a key number; FLIP = favorite changed; TODAY = moved 1+ since the first pull today. No splits here: read DK splits from DK Network.
 
 | Game | Start (ET) | Spread open→today→now | Total open→today→now | ML away open→now | ML home open→now | Flags |
 |---|---|---|---|---|---|---|
-| Jackson State Tigers @ Baylor Bears | Wed 11-18 12:00 PM | +34.5 → +34.5 → +34.5 | 155.5 → 157.5 → 157.5 | - → - | - → - | TOTAL up 2 |
-| Rutgers Scarlet Knights @ Notre Dame Fighting Irish (neutral) | Wed 11-18 02:00 PM | +2.5 → +4.5 → +4.5 | 153.5 → 149.5 → 149.5 | +124 → +142 | -148 → -170 | STEAM home 2; TOTAL down 4 |
-| Houston Cougars @ Florida Gators (neutral) | Wed 11-18 04:30 PM | +1.5 → +2.5 → +2.5 | 151.5 → 148.5 → 148.5 | +114 → +114 | -135 → -135 | TOTAL down 3 |
-| Tennessee Tech Golden Eagles @ UNC Asheville Bulldogs | Wed 11-18 06:30 PM | -2.5 → -2.5 → -2.5 | 161.5 → 162.5 → 162.5 | -155 → -135 | +130 → +114 | - |
-| Samford Bulldogs @ South Carolina Upstate Spartans | Wed 11-18 06:30 PM | -7.5 → -7.5 → -7.5 | 150.5 → 150.5 → 150.5 | -278 → -298 | +225 → +240 | - |
-| Chattanooga Mocs @ Winthrop Eagles | Wed 11-18 06:30 PM | -1.5 → -3.5 → -3.5 | 164.5 → 164.5 → 164.5 | -118 → -175 | -102 → +145 | STEAM away 2 |
-| Detroit Mercy Titans @ Eastern Michigan Eagles | Wed 11-18 06:30 PM | +12.5 → +10.5 → +10.5 | 142.5 → 140.5 → 140.5 | +550 → +525 | -800 → -750 | STEAM away 2; TOTAL down 2 |
-| IU Indianapolis Jaguars @ Penn State Nittany Lions | Wed 11-18 06:30 PM | +18.5 → +17.5 → +17.5 | 169.5 → 170.5 → 170.5 | +1200 → +1000 | -2400 → -1800 | - |
-| Navy Midshipmen @ Georgetown Hoyas | Wed 11-18 06:30 PM | +22.5 → +21.5 → +21.5 | 140.5 → 139.5 → 139.5 | +2000 → +2200 | -6500 → -8000 | - |
-| Siena Saints @ St. John's Red Storm | Wed 11-18 07:00 PM | +30.5 → +30.5 → +30.5 | 164.5 → 168.5 → 168.5 | +4000 → +4000 | -50000 → -50000 | TOTAL up 4 |
+| Rutgers Scarlet Knights @ Notre Dame Fighting Irish (neutral) | Wed 11-18 02:00 PM | +2.5 → +4.5 → +2.5 | 153.5 → 149.5 → 150.5 | +124 → +124 | -148 → -148 | TOTAL down 3; TODAY spr -2; TODAY tot +1 |
+| Houston Cougars @ Florida Gators (neutral) | Wed 11-18 04:30 PM | +1.5 → +2.5 → +1.5 | 151.5 → 148.5 → 145.5 | +114 → +105 | -135 → -125 | TOTAL down 6; TODAY spr -1; TODAY tot -3 |
+| Tennessee Tech Golden Eagles @ UNC Asheville Bulldogs | Wed 11-18 06:30 PM | -2.5 → -2.5 → -3.5 | 161.5 → 162.5 → 162.5 | -155 → -166 | +130 → +140 | TODAY spr -1 |
+| Samford Bulldogs @ South Carolina Upstate Spartans | Wed 11-18 06:30 PM | -7.5 → -7.5 → -6.5 | 150.5 → 150.5 → 150.5 | -278 → -305 | +225 → +245 | TODAY spr +1 |
+| Chattanooga Mocs @ Winthrop Eagles | Wed 11-18 06:30 PM | -1.5 → -3.5 → -3.5 | 164.5 → 164.5 → 165.5 | -118 → -180 | -102 → +150 | STEAM away 2; TODAY tot +1 |
+| Detroit Mercy Titans @ Eastern Michigan Eagles | Wed 11-18 06:30 PM | +12.5 → +10.5 → +10.5 | 142.5 → 140.5 → 140.5 | +550 → +500 | -800 → -700 | STEAM away 2; TOTAL down 2 |
+| IU Indianapolis Jaguars @ Penn State Nittany Lions | Wed 11-18 06:30 PM | +18.5 → +17.5 → +17.5 | 169.5 → 170.5 → 169.5 | +1200 → +1000 | -2400 → -1800 | TODAY tot -1 |
+| Navy Midshipmen @ Georgetown Hoyas | Wed 11-18 06:30 PM | +22.5 → +21.5 → +20.5 | 140.5 → 139.5 → 138.5 | +2000 → +1500 | -6500 → -3600 | STEAM away 2; TOTAL down 2; TODAY spr -1; TODAY tot -1 |
+| Siena Saints @ St. John's Red Storm | Wed 11-18 07:00 PM | +30.5 → +30.5 → +29.5 | 164.5 → 168.5 → 170.5 | +4000 → +4000 | -50000 → -50000 | TOTAL up 6; TODAY spr -1; TODAY tot +2 |
 | MCLA Mohawks @ New Haven Chargers | Wed 11-18 07:00 PM | - → - → - | - → - → - | - → - | - → - | - |
 | Defiance Yellow Jackets @ Miami (OH) RedHawks | Wed 11-18 07:00 PM | - → - → - | - → - → - | - → - | - → - | - |
-| Mercer Bears @ Presbyterian Blue Hose | Wed 11-18 07:00 PM | +2.5 → +2.5 → +2.5 | 153.5 → 153.5 → 153.5 | +130 → +124 | -155 → -148 | - |
-| James Madison Dukes @ Towson Tigers | Wed 11-18 07:00 PM | +3.5 → +3.5 → +3.5 | 140.5 → 139.5 → 139.5 | +150 → +136 | -180 → -162 | - |
-| Howard Bison @ Duquesne Dukes (neutral) | Wed 11-18 07:00 PM | +5.5 → +6.5 → +6.5 | 141.5 → 143.5 → 143.5 | +200 → +220 | -245 → -270 | TOTAL up 2 |
-| Coppin State Eagles @ La Salle Explorers | Wed 11-18 07:00 PM | +14.5 → +14.5 → +14.5 | 143.5 → 143.5 → 143.5 | +900 → +750 | -1600 → -1200 | - |
+| Mercer Bears @ Presbyterian Blue Hose | Wed 11-18 07:00 PM | +2.5 → +2.5 → +1.5 | 153.5 → 153.5 → 152.5 | +130 → +100 | -155 → -120 | TODAY spr -1; TODAY tot -1 |
+| James Madison Dukes @ Towson Tigers | Wed 11-18 07:00 PM | +3.5 → +3.5 → +3.5 | 140.5 → 139.5 → 138.5 | +150 → +140 | -180 → -166 | TOTAL down 2; TODAY tot -1 |
+| Howard Bison @ Duquesne Dukes (neutral) | Wed 11-18 07:00 PM | +5.5 → +6.5 → +4.5 | 141.5 → 143.5 → 139.5 | +200 → +185 | -245 → -225 | TOTAL down 2; TODAY spr -2; TODAY tot -4 |
+| Coppin State Eagles @ La Salle Explorers | Wed 11-18 07:00 PM | +14.5 → +14.5 → +14.5 | 143.5 → 143.5 → 141.5 | +900 → +750 | -1600 → -1200 | TOTAL down 2; TODAY tot -2 |
 | St. Joseph's Brooklyn Bears @ Fairfield Stags | Wed 11-18 07:00 PM | - → - → - | - → - → - | - → - | - → - | - |
-| Boston University Terriers @ Merrimack Warriors | Wed 11-18 07:00 PM | +4.5 → +3.5 → +3.5 | 137.5 → 133.5 → 133.5 | +180 → +150 | -218 → -180 | TOTAL down 4 |
-| Florida Gulf Coast Eagles @ Florida Atlantic Owls | Wed 11-18 07:00 PM | +6.5 → +4.5 → +4.5 | 155.5 → 154.5 → 154.5 | +225 → +180 | -278 → -218 | STEAM away 2 |
-| Furman Paladins @ Radford Highlanders | Wed 11-18 07:00 PM | -5.5 → -5.5 → -5.5 | 150.5 → 149.5 → 149.5 | -230 → -250 | +190 → +205 | - |
-| VMI Keydets @ Longwood Lancers | Wed 11-18 07:00 PM | +6.5 → +6.5 → +6.5 | 151.5 → 153.5 → 153.5 | +230 → +220 | -285 → -270 | TOTAL up 2 |
-| Morgan State Bears @ North Carolina A&T Aggies | Wed 11-18 07:00 PM | +6.5 → +7.5 → +7.5 | 149.5 → 149.5 → 149.5 | +230 → +245 | -285 → -305 | - |
-| Elon Phoenix @ South Carolina Gamecocks | Wed 11-18 07:00 PM | +16.5 → +15.5 → +15.5 | 138.5 → 136.5 → 136.5 | +1100 → +900 | -2100 → -1600 | TOTAL down 2 |
-| Morehead State Eagles @ Ohio Bobcats | Wed 11-18 07:00 PM | +17.5 → +16.5 → +16.5 | 151.5 → 150.5 → 150.5 | +1200 → +1000 | -2400 → -1800 | - |
+| Boston University Terriers @ Merrimack Warriors | Wed 11-18 07:00 PM | +4.5 → +3.5 → +3.5 | 137.5 → 133.5 → 132.5 | +180 → +142 | -218 → -170 | TOTAL down 5; TODAY tot -1 |
+| Florida Gulf Coast Eagles @ Florida Atlantic Owls | Wed 11-18 07:00 PM | +6.5 → +4.5 → +5.5 | 155.5 → 154.5 → 154.5 | +225 → +195 | -278 → -238 | TODAY spr +1 |
+| Furman Paladins @ Radford Highlanders | Wed 11-18 07:00 PM | -5.5 → -5.5 → -4.5 | 150.5 → 149.5 → 150.5 | -230 → -205 | +190 → +170 | TODAY spr +1; TODAY tot +1 |
+| VMI Keydets @ Longwood Lancers | Wed 11-18 07:00 PM | +6.5 → +6.5 → +7.5 | 151.5 → 153.5 → 154.5 | +230 → +250 | -285 → -310 | TOTAL up 3; TODAY spr +1; TODAY tot +1 |
+| Morgan State Bears @ North Carolina A&T Aggies | Wed 11-18 07:00 PM | +6.5 → +7.5 → +7.5 | 149.5 → 149.5 → 150.5 | +230 → +260 | -285 → -325 | TODAY tot +1 |
+| Elon Phoenix @ South Carolina Gamecocks | Wed 11-18 07:00 PM | +16.5 → +15.5 → +15.5 | 138.5 → 136.5 → 136.5 | +1100 → +950 | -2100 → -1650 | TOTAL down 2 |
+| Morehead State Eagles @ Ohio Bobcats | Wed 11-18 07:00 PM | +17.5 → +16.5 → +16.5 | 151.5 → 150.5 → 150.5 | +1200 → +950 | -2400 → -1650 | - |
 | Utica Pioneers @ Colgate Raiders | Wed 11-18 07:00 PM | - → - → - | - → - → - | - → - | - → - | - |
-| Vermont Catamounts @ Yale Bulldogs | Wed 11-18 07:00 PM | +2.5 → +4.5 → +4.5 | 140.5 → 138.5 → 138.5 | +114 → +154 | -135 → -185 | STEAM home 2; TOTAL down 2 |
-| North Carolina Central Eagles @ George Mason Patriots | Wed 11-18 07:00 PM | +26.5 → +26.5 → +26.5 | 135.5 → 133.5 → 133.5 | +3500 → +3500 | -20000 → -20000 | TOTAL down 2 |
-| UNC Wilmington Seahawks @ Long Island University Sharks | Wed 11-18 07:00 PM | -10.5 → -9.5 → -9.5 | 147.5 → 147.5 → 147.5 | -600 → -550 | +440 → +410 | - |
-| NJIT Highlanders @ Fairleigh Dickinson Knights | Wed 11-18 07:00 PM | +3.5 → +3.5 → +3.5 | 136.5 → 136.5 → 136.5 | +154 → +140 | -185 → -166 | - |
-| Chicago State Cougars @ UIC Flames | Wed 11-18 07:00 PM | +23.5 → +22.5 → +22.5 | 140.5 → 139.5 → 139.5 | +2000 → +2000 | -6500 → -6500 | - |
+| Vermont Catamounts @ Yale Bulldogs | Wed 11-18 07:00 PM | +2.5 → +4.5 → +6.5 | 140.5 → 138.5 → 140.5 | +114 → +230 | -135 → -285 | STEAM home 4; TODAY spr +2; TODAY tot +2 |
+| North Carolina Central Eagles @ George Mason Patriots | Wed 11-18 07:00 PM | +26.5 → +26.5 → +23.5 | 135.5 → 133.5 → 131.5 | +3500 → +2200 | -20000 → -8000 | STEAM away 3; TOTAL down 4; TODAY spr -3; TODAY tot -2 |
+| UNC Wilmington Seahawks @ Long Island University Sharks | Wed 11-18 07:00 PM | -10.5 → -9.5 → -9.5 | 147.5 → 147.5 → 147.5 | -600 → -500 | +440 → +380 | - |
+| NJIT Highlanders @ Fairleigh Dickinson Knights | Wed 11-18 07:00 PM | +3.5 → +3.5 → +4.5 | 136.5 → 136.5 → 136.5 | +154 → +154 | -185 → -185 | TODAY spr +1 |
+| Chicago State Cougars @ UIC Flames | Wed 11-18 07:00 PM | +23.5 → +22.5 → +22.5 | 140.5 → 139.5 → 139.5 | +2000 → +2500 | -6500 → -9000 | - |
 | Columbia (SC) Fighting Koalas @ West Georgia Wolves | Wed 11-18 07:00 PM | - → - → - | - → - → - | - → - | - → - | - |
-| Wofford Terriers @ Charleston Southern Buccaneers | Wed 11-18 07:00 PM | -2.5 → -3.5 → -3.5 | 161.5 → 161.5 → 161.5 | -142 → -162 | +120 → +136 | - |
-| Brown Bears @ Holy Cross Crusaders | Wed 11-18 07:00 PM | -6.5 → -5.5 → -5.5 | 138.5 → 139.5 → 139.5 | -245 → -250 | +200 → +205 | - |
-| Binghamton Bearcats @ Lafayette Leopards | Wed 11-18 07:00 PM | +2.5 → +3.5 → +3.5 | 133.5 → 132.5 → 132.5 | +120 → +120 | -142 → -142 | - |
+| Wofford Terriers @ Charleston Southern Buccaneers | Wed 11-18 07:00 PM | -2.5 → -3.5 → -1.5 | 161.5 → 161.5 → 163.5 | -142 → -125 | +120 → +105 | TOTAL up 2; TODAY spr +2; TODAY tot +2 |
+| Brown Bears @ Holy Cross Crusaders | Wed 11-18 07:00 PM | -6.5 → -5.5 → -6.5 | 138.5 → 139.5 → 138.5 | -245 → -285 | +200 → +230 | TODAY spr -1; TODAY tot -1 |
+| Binghamton Bearcats @ Lafayette Leopards | Wed 11-18 07:00 PM | +2.5 → +3.5 → +4.5 | 133.5 → 132.5 → 133.5 | +120 → +140 | -142 → -166 | STEAM home 2; TODAY spr +1; TODAY tot +1 |
 | LSU New Orleans Privateers @ Texas Tech Red Raiders | Wed 11-18 07:30 PM | +34.5 → +35.5 → +35.5 | 150.5 → 157.5 → 157.5 | - → - | - → - | TOTAL up 7 |
-| Kansas Jayhawks @ West Virginia Mountaineers (neutral) | Wed 11-18 07:30 PM | -8.5 → -8.5 → -8.5 | 150.5 → 152.5 → 152.5 | - → - | - → - | TOTAL up 2 |
+| Kansas Jayhawks @ West Virginia Mountaineers (neutral) | Wed 11-18 07:30 PM | -8.5 → -8.5 → -8.5 | 150.5 → 152.5 → 150.5 | -425 → -440 | +330 → +340 | TODAY tot -2 |
 | Malone Pioneers @ Wright State Raiders | Wed 11-18 07:30 PM | - → - → - | - → - → - | - → - | - → - | - |
 | College of Biblical Studies Ambassadors @ UT Rio Grande Valley Vaqueros | Wed 11-18 07:30 PM | - → - → - | - → - → - | - → - | - → - | - |
 | Union Commonwealth (KY) Bulldogs @ Belmont Bruins | Wed 11-18 07:30 PM | - → - → - | - → - → - | - → - | - → - | - |
-| Youngstown State Penguins @ Cincinnati Bearcats | Wed 11-18 07:30 PM | +27.5 → +27.5 → +27.5 | 153.5 → 153.5 → 153.5 | +3500 → +3500 | -20000 → -20000 | - |
-| Northern Illinois Huskies @ Marquette Golden Eagles | Wed 11-18 07:30 PM | +30.5 → +27.5 → +27.5 | 145.5 → 144.5 → 144.5 | +4000 → +3500 | -50000 → -20000 | STEAM away 3 |
-| UL Monroe Warhawks @ LSU Tigers | Wed 11-18 08:00 PM | +36.5 → +36.5 → +36.5 | 158.5 → 159.5 → 159.5 | - → - | - → - | - |
-| Florida A&M Rattlers @ UTSA Roadrunners | Wed 11-18 08:00 PM | +15.5 → +15.5 → +15.5 | 150.5 → 150.5 → 150.5 | +900 → +1000 | -1600 → -1800 | - |
-| Incarnate Word Cardinals @ Texas State Bobcats | Wed 11-18 08:00 PM | +17.5 → +16.5 → +16.5 | 143.5 → 140.5 → 140.5 | +1200 → +1300 | -2400 → -2800 | TOTAL down 3 |
-| Arkansas-Pine Bluff Golden Lions @ Arkansas State Red Wolves | Wed 11-18 08:00 PM | +25.5 → +26.5 → +26.5 | 159.5 → 161.5 → 161.5 | +3000 → +3000 | -10000 → -10000 | TOTAL up 2 |
+| Youngstown State Penguins @ Cincinnati Bearcats | Wed 11-18 07:30 PM | +27.5 → +27.5 → +28.5 | 153.5 → 153.5 → 153.5 | +3500 → +4000 | -20000 → -50000 | TODAY spr +1 |
+| Northern Illinois Huskies @ Marquette Golden Eagles | Wed 11-18 07:30 PM | +30.5 → +27.5 → +27.5 | 145.5 → 144.5 → 146.5 | +4000 → +4000 | -50000 → -50000 | STEAM away 3; TODAY tot +2 |
+| UL Monroe Warhawks @ LSU Tigers | Wed 11-18 08:00 PM | +36.5 → +36.5 → +37.5 | 158.5 → 159.5 → 159.5 | - → - | - → - | TODAY spr +1 |
+| Florida A&M Rattlers @ UTSA Roadrunners | Wed 11-18 08:00 PM | +15.5 → +15.5 → +17.5 | 150.5 → 150.5 → 150.5 | +900 → +1200 | -1600 → -2400 | STEAM home 2; TODAY spr +2 |
+| Incarnate Word Cardinals @ Texas State Bobcats | Wed 11-18 08:00 PM | +17.5 → +16.5 → +18.5 | 143.5 → 140.5 → 140.5 | +1200 → +1200 | -2400 → -2400 | TOTAL down 3; TODAY spr +2 |
+| Arkansas-Pine Bluff Golden Lions @ Arkansas State Red Wolves | Wed 11-18 08:00 PM | +25.5 → +26.5 → +28.5 | 159.5 → 161.5 → 162.5 | +3000 → +3500 | -10000 → -20000 | STEAM home 3; TOTAL up 3; TODAY spr +2; TODAY tot +1 |
 | Purdue Fort Wayne Mastodons @ Bradley Braves | Wed 11-18 08:00 PM | +6.5 → +6.5 → +6.5 | 135.5 → 135.5 → 135.5 | +225 → +235 | -278 → -290 | - |
-| Cornell Big Red @ Syracuse Orange | Wed 11-18 08:00 PM | +22.5 → +21.5 → +21.5 | 156.5 → 158.5 → 158.5 | +1800 → +1800 | -5000 → -5000 | TOTAL up 2 |
+| Cornell Big Red @ Syracuse Orange | Wed 11-18 08:00 PM | +22.5 → +21.5 → +18.5 | 156.5 → 158.5 → 156.5 | +1800 → +1600 | -5000 → -4000 | STEAM away 4; TODAY spr -3; TODAY tot -2 |
 | Lindsey Wilson Blue Raiders @ Southern Indiana Screaming Eagles | Wed 11-18 08:00 PM | - → - → - | - → - → - | - → - | - → - | - |
-| New Hampshire Wildcats @ Stonehill Skyhawks | Wed 11-18 08:00 PM | -1.5 → -1.5 → -1.5 | 133.5 → 133.5 → 133.5 | -130 → -130 | +110 → +110 | - |
-| UNC Greensboro Spartans @ Gardner-Webb Runnin' Bulldogs | Wed 11-18 08:00 PM | -2.5 → -2.5 → -2.5 | 150.5 → 148.5 → 148.5 | -135 → -135 | +114 → +114 | TOTAL down 2 |
-| Wichita State Shockers @ Loyola Chicago Ramblers | Wed 11-18 08:00 PM | -1.5 → -1.5 → -1.5 | 150.5 → 149.5 → 149.5 | -115 → -120 | -105 → +100 | - |
+| New Hampshire Wildcats @ Stonehill Skyhawks | Wed 11-18 08:00 PM | -1.5 → -1.5 → -1.5 | 133.5 → 133.5 → 129.5 | -130 → -130 | +110 → +110 | TOTAL down 4; TODAY tot -4 |
+| UNC Greensboro Spartans @ Gardner-Webb Runnin' Bulldogs | Wed 11-18 08:00 PM | -2.5 → -2.5 → -2.5 | 150.5 → 148.5 → 148.5 | -135 → -148 | +114 → +124 | TOTAL down 2 |
+| Wichita State Shockers @ Loyola Chicago Ramblers | Wed 11-18 08:00 PM | -1.5 → -1.5 → -1.5 | 150.5 → 149.5 → 150.5 | -115 → -122 | -105 → +102 | TODAY tot +1 |
 | Boston College Eagles @ Harvard Crimson | Wed 11-18 08:00 PM | -4.5 → -3.5 → -3.5 | 128.5 → 128.5 → 128.5 | -155 → -180 | +130 → +150 | - |
-| Campbell Fighting Camels @ Oklahoma Sooners | Wed 11-18 08:00 PM | +24.5 → +22.5 → +22.5 | 147.5 → 146.5 → 146.5 | +2200 → +1800 | -8000 → -5000 | STEAM away 2 |
-| South Dakota Coyotes @ Nebraska Cornhuskers | Wed 11-18 08:30 PM | +34.5 → +33.5 → +33.5 | 163.5 → 157.5 → 157.5 | - → - | - → - | TOTAL down 6 |
-| UConn Huskies @ Arizona Wildcats | Wed 11-18 09:00 PM | +2.5 → +3.5 → +3.5 | 147.5 → 148.5 → 148.5 | +130 → +140 | -155 → -166 | - |
-| Northern Colorado Bears @ BYU Cougars | Wed 11-18 09:00 PM | +29.5 → +29.5 → +29.5 | 162.5 → 162.5 → 162.5 | +4000 → +4000 | -50000 → -50000 | - |
+| Campbell Fighting Camels @ Oklahoma Sooners | Wed 11-18 08:00 PM | +24.5 → +22.5 → +20.5 | 147.5 → 146.5 → 147.5 | +2200 → +1800 | -8000 → -5000 | STEAM away 4; TODAY spr -2; TODAY tot +1 |
+| South Dakota Coyotes @ Nebraska Cornhuskers | Wed 11-18 08:30 PM | +34.5 → +33.5 → +33.5 | 163.5 → 157.5 → 155.5 | - → - | - → - | TOTAL down 8; TODAY tot -2 |
+| UConn Huskies @ Arizona Wildcats | Wed 11-18 09:00 PM | +2.5 → +3.5 → +3.5 | 147.5 → 148.5 → 147.5 | +130 → +140 | -155 → -166 | TODAY tot -1 |
+| Northern Colorado Bears @ BYU Cougars | Wed 11-18 09:00 PM | +29.5 → +29.5 → +29.5 | 162.5 → 162.5 → 163.5 | +4000 → +4000 | -50000 → -50000 | TODAY tot +1 |
 | North Dakota State Bison @ Colorado State Rams | Wed 11-18 09:00 PM | +14.5 → +13.5 → +13.5 | 147.5 → 147.5 → 147.5 | +800 → +700 | -1350 → -1100 | - |
-| Weber State Wildcats @ Utah State Aggies | Wed 11-18 09:00 PM | +32.5 → +31.5 → +31.5 | 168.5 → 170.5 → 170.5 | - → - | - → - | TOTAL up 2 |
-| Alcorn State Braves @ Missouri Tigers | Wed 11-18 09:00 PM | +44.5 → +43.5 → +43.5 | 153.5 → 154.5 → 154.5 | - → - | - → - | - |
-| Oakland Golden Grizzlies @ Arizona State Sun Devils | Wed 11-18 09:00 PM | +25.5 → +24.5 → +24.5 | 150.5 → 148.5 → 148.5 | +2500 → +2500 | -9000 → -9000 | TOTAL down 2 |
+| Weber State Wildcats @ Utah State Aggies | Wed 11-18 09:00 PM | +32.5 → +31.5 → +29.5 | 168.5 → 170.5 → 171.5 | +5000 → +4000 | -100000 → -50000 | STEAM away 3; TOTAL up 3; TODAY spr -2; TODAY tot +1 |
+| Alcorn State Braves @ Missouri Tigers | Wed 11-18 09:00 PM | +44.5 → +43.5 → +42.5 | 153.5 → 154.5 → 153.5 | - → - | - → - | STEAM away 2; TODAY spr -1; TODAY tot -1 |
+| Oakland Golden Grizzlies @ Arizona State Sun Devils | Wed 11-18 09:00 PM | +25.5 → +24.5 → +23.5 | 150.5 → 148.5 → 147.5 | +2500 → +1800 | -9000 → -5000 | STEAM away 2; TOTAL down 3; TODAY spr -1; TODAY tot -1 |
 | McMurry War Hawks @ Abilene Christian Wildcats | Wed 11-18 09:00 PM | - → - → - | - → - → - | - → - | - → - | - |
-| Fresno State Bulldogs @ San José State Spartans | Wed 11-18 09:00 PM | +5.5 → +6.5 → +6.5 | 153.5 → 156.5 → 156.5 | +205 → +225 | -250 → -278 | TOTAL up 3 |
-| Portland Pilots @ Colorado Buffaloes | Wed 11-18 09:00 PM | +15.5 → +14.5 → +14.5 | 153.5 → 154.5 → 154.5 | +900 → +800 | -1600 → -1350 | - |
-| Bethune-Cookman Wildcats @ Creighton Bluejays | Wed 11-18 09:00 PM | +23.5 → +23.5 → +23.5 | 151.5 → 152.5 → 152.5 | - → - | - → - | - |
-| UC Riverside Highlanders @ San Diego Toreros | Wed 11-18 09:30 PM | +7.5 → +7.5 → +7.5 | 148.5 → 149.5 → 149.5 | +250 → +250 | -310 → -310 | - |
-| Texas Southern Tigers @ San Diego State Aztecs | Wed 11-18 10:00 PM | +26.5 → +27.5 → +27.5 | 155.5 → 157.5 → 157.5 | +4000 → +4000 | -50000 → -50000 | TOTAL up 2 |
-| Washington State Cougars @ Hawai'i Rainbow Warriors (neutral) | Wed 11-18 10:00 PM | -1.5 → +1.5 → +1.5 | 143.5 → 138.5 → 138.5 | -115 → +105 | -105 → -125 | STEAM home 3; FLIP; TOTAL down 5 |
+| Fresno State Bulldogs @ San José State Spartans | Wed 11-18 09:00 PM | +5.5 → +6.5 → +6.5 | 153.5 → 156.5 → 156.5 | +205 → +220 | -250 → -270 | TOTAL up 3 |
+| Portland Pilots @ Colorado Buffaloes | Wed 11-18 09:00 PM | +15.5 → +14.5 → +14.5 | 153.5 → 154.5 → 154.5 | +900 → +850 | -1600 → -1450 | - |
+| Bethune-Cookman Wildcats @ Creighton Bluejays | Wed 11-18 09:00 PM | +23.5 → +23.5 → +23.5 | 151.5 → 152.5 → 153.5 | +2500 → +2500 | -9000 → -9000 | TOTAL up 2; TODAY tot +1 |
+| UC Riverside Highlanders @ San Diego Toreros | Wed 11-18 09:30 PM | +7.5 → +7.5 → +6.5 | 148.5 → 149.5 → 147.5 | +250 → +235 | -310 → -290 | TODAY spr -1; TODAY tot -2 |
+| Texas Southern Tigers @ San Diego State Aztecs | Wed 11-18 10:00 PM | +26.5 → +27.5 → +24.5 | 155.5 → 157.5 → 157.5 | +4000 → +2500 | -50000 → -9000 | STEAM away 2; TOTAL up 2; TODAY spr -3 |
+| Washington State Cougars @ Hawai'i Rainbow Warriors (neutral) | Wed 11-18 10:00 PM | -1.5 → +1.5 → +1.5 | 143.5 → 138.5 → 137.5 | -115 → -105 | -105 → -115 | STEAM home 3; FLIP; TOTAL down 6; TODAY tot -1 |
 | Louisiana Ragin' Cajuns @ San Francisco Dons | Wed 11-18 10:00 PM | +8.5 → +10.5 → +10.5 | 135.5 → 134.5 → 134.5 | +455 → +455 | -625 → -625 | STEAM home 2 |
-| UNLV Rebels @ Auburn Tigers (neutral) | Wed 11-18 10:00 PM | +8.5 → +8.5 → +8.5 | 162.5 → 161.5 → 161.5 | - → - | - → - | - |
-| Idaho Vandals @ Nevada Wolf Pack | Wed 11-18 10:00 PM | +19.5 → +18.5 → +18.5 | 145.5 → 145.5 → 145.5 | +1500 → +1100 | -3600 → -2100 | - |
-| Cal State Fullerton Titans @ UCLA Bruins | Wed 11-18 10:30 PM | +34.5 → +34.5 → +34.5 | 160.5 → 165.5 → 165.5 | - → - | - → - | TOTAL up 5 |
+| UNLV Rebels @ Auburn Tigers (neutral) | Wed 11-18 10:00 PM | +8.5 → +8.5 → +8.5 | 162.5 → 161.5 → 159.5 | +285 → +310 | -360 → -395 | TOTAL down 3; TODAY tot -2 |
+| Idaho Vandals @ Nevada Wolf Pack | Wed 11-18 10:00 PM | +19.5 → +18.5 → +18.5 | 145.5 → 145.5 → 146.5 | +1500 → +1100 | -3600 → -2100 | TODAY tot +1 |
+| Cal State Fullerton Titans @ UCLA Bruins | Wed 11-18 10:30 PM | +34.5 → +34.5 → +32.5 | 160.5 → 165.5 → 166.5 | - → - | - → - | STEAM away 2; TOTAL up 6; TODAY spr -2; TODAY tot +1 |
 | TBD @ TBD (neutral) | Thu 11-19 02:30 PM | - → - → - | - → - → - | - → - | - → - | - |
 | TBD @ TBD (neutral) | Thu 11-19 05:00 PM | - → - → - | - → - → - | - → - | - → - | - |
 | NC State Wolfpack @ Murray State Racers (neutral) | Thu 11-19 06:00 PM | - → - → - | - → - → - | - → - | - → - | - |
