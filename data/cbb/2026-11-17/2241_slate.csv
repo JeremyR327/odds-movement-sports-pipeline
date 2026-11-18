@@ -1,0 +1,3 @@
+date,tip_et,espn_id,away,home,site,tier,torvik_rank_away,torvik_rank_home,torvik_home_margin,torvik_total,tr_home_margin,bpi_home_margin,consensus_home_margin,line_source,open_home_margin,cur_home_margin,open_total,cur_total,fair_home_margin,edge_pts,gap_cons_vs_open,gap_cons_vs_cur,moved_toward_model,flag,flag_side,pulled_et
+2026-11-17,11:00 PM,401925879,Montana State,Gonzaga,H,2,139,41,7.9,152.7,20.2,15.6,13.2,ESPN/DraftKings open+now,24.5,23.5,151.5,152.5,20.0,-3.5,-11.3,-10.3,True,EDGE Montana State 3.5 · moved toward model,away,2026-11-17T22:41-05:00
+2026-11-17,11:59 PM,401920512,West Virginia,Auburn,N,1,19,39,-1.9,140.4,2.4,1.2,0.0,ESPN/DraftKings open+now,1.5,1.5,142.5,144.5,1.2,-0.3,-1.5,-1.5,,,,2026-11-17T22:41-05:00
