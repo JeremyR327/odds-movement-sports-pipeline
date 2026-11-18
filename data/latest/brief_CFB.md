@@ -1,15 +1,15 @@
-# CFB lines — DraftKings via ESPN, pull 12:39 ET (first pull today 09:09 ET)
+# CFB lines — DraftKings via ESPN, pull 15:29 ET (first pull today 09:09 ET)
 
 Spread = AWAY team's number. Each cell is open → first pull today → now (DraftKings open is its opener for the game). Flags: STEAM = spread moved 1.5+ since open (direction = side the market moved toward); TOTAL = total moved 2+; KEY = crossed a key number (3/7/14/17); FLIP = favorite changed; TODAY = moved 1+ since the first pull today. No splits here: read DK splits from DK Network.
 
 | Game | Start (ET) | Spread open→today→now | Total open→today→now | ML away open→now | ML home open→now | Flags |
 |---|---|---|---|---|---|---|
-| Akron Zips @ Massachusetts Minutemen | Wed 11-18 07:00 PM | +3.5 → +3.5 → +3 | 47.5 → 46.5 → 47.5 | +130 → +140 | -155 → -166 | KEY 3; TODAY tot +1 |
+| Akron Zips @ Massachusetts Minutemen | Wed 11-18 07:00 PM | +3.5 → +3.5 → +3.5 | 47.5 → 46.5 → 47.5 | +130 → +150 | -155 → -180 | TODAY tot +1 |
 | Central Michigan Chippewas @ Buffalo Bulls | Wed 11-18 07:30 PM | +1.5 → - → +2.5 | 43.5 → - → 46.5 | +105 → +120 | -125 → -142 | TOTAL up 3 |
 | Rice Owls @ Temple Owls | Thu 11-19 07:30 PM | +4 → +3 → +3 | 47.5 → 50.5 → 51.5 | +142 → +124 | -170 → -148 | KEY 3; TOTAL up 4; TODAY tot +1 |
-| Iowa State Cyclones @ UCF Knights | Fri 11-20 06:00 PM | +1.5 → +2.5 → +2.5 | 54.5 → 49.5 → 48.5 | -108 → +105 | -112 → -125 | TOTAL down 6; TODAY tot -1 |
+| Iowa State Cyclones @ UCF Knights | Fri 11-20 06:00 PM | +1.5 → +2.5 → +1.5 | 54.5 → 49.5 → 48.5 | -108 → +105 | -112 → -125 | TOTAL down 6; TODAY spr -1; TODAY tot -1 |
 | Clemson Tigers @ Duke Blue Devils | Fri 11-20 07:30 PM | +8.5 → +13.5 → +13.5 | 44.5 → 40.5 → 40.5 | +260 → +400 | -325 → -535 | STEAM home 5; TOTAL down 4 |
-| Bowling Green Falcons @ Toledo Rockets | Fri 11-20 07:30 PM | +15.5 → +15.5 → +15.5 | 47.5 → 48.5 → 48.5 | +500 → +525 | -700 → -750 | - |
+| Bowling Green Falcons @ Toledo Rockets | Fri 11-20 07:30 PM | +15.5 → +15.5 → +16.5 | 47.5 → 48.5 → 48.5 | +500 → +525 | -700 → -750 | TODAY spr +1 |
 | Oregon Ducks @ Michigan State Spartans | Fri 11-20 08:00 PM | -12.5 → -16.5 → -16.5 | 45.5 → 45.5 → 44.5 | -455 → -850 | +350 → +575 | STEAM away 4; KEY 14; TODAY tot -1 |
 | UTEP Miners @ Air Force Falcons | Fri 11-20 08:00 PM | +21.5 → +23.5 → +23.5 | 46.5 → 47.5 → 47.5 | +1300 → +1100 | -2800 → -2100 | STEAM home 2 |
 | New Mexico Lobos @ Wyoming Cowboys | Fri 11-20 09:00 PM | -10.5 → -7.5 → -7.5 | 38.5 → 37.5 → 37.5 | -440 → -305 | +340 → +245 | STEAM home 3 |
@@ -22,7 +22,7 @@ Spread = AWAY team's number. Each cell is open → first pull today → now (Dra
 | Syracuse Orange @ Boston College Eagles | Sat 11-21 12:00 PM | -3.5 → -2.5 → -2.5 | 50.5 → 50.5 → 50.5 | -166 → -135 | +140 → +114 | KEY 3 |
 | Northwestern Wildcats @ Minnesota Golden Gophers | Sat 11-21 12:00 PM | -3 → -3 → -3 | 43.5 → 42.5 → 42.5 | -148 → -155 | +124 → +130 | - |
 | Wisconsin Badgers @ Purdue Boilermakers | Sat 11-21 12:00 PM | -6 → -6 → -6 | 44.5 → 46.5 → 46.5 | -218 → -230 | +180 → +190 | TOTAL up 2 |
-| East Carolina Pirates @ Army Black Knights | Sat 11-21 12:00 PM | +4.5 → +6 → +6 | 42.5 → 45.5 → 45.5 | +150 → +180 | -180 → -218 | STEAM home 1.5; TOTAL up 3 |
+| East Carolina Pirates @ Army Black Knights | Sat 11-21 12:00 PM | +4.5 → +6 → +6 | 42.5 → 45.5 → 45.5 | +150 → +190 | -180 → -230 | STEAM home 1.5; TOTAL up 3 |
 | Memphis Tigers @ Navy Midshipmen | Sat 11-21 12:00 PM | -3 → -3.5 → -3.5 | 64.5 → 67.5 → 67.5 | -166 → -170 | +140 → +142 | KEY 3; TOTAL up 3 |
 | North Texas Mean Green @ Tulane Green Wave | Sat 11-21 12:00 PM | -13.5 → -6 → -6.5 | 60.5 → 55.5 → 55.5 | -575 → -238 | +425 → +195 | STEAM home 7; KEY 7; TOTAL down 5 |
 | North Carolina Tar Heels @ Virginia Cavaliers | Sat 11-21 12:30 PM | +1.5 → +1.5 → +1.5 | 43.5 → 43.5 → 43.5 | -105 → -102 | -115 → -118 | - |
@@ -59,7 +59,7 @@ Spread = AWAY team's number. Each cell is open → first pull today → now (Dra
 | Arizona Wildcats @ Kansas State Wildcats | Sat 11-21 07:00 PM | -10.5 → -7 → -7 | 50.5 → 52.5 → 52.5 | -380 → -290 | +300 → +235 | STEAM home 3.5; KEY 7; TOTAL up 2 |
 | UNLV Rebels @ San José State Spartans | Sat 11-21 07:00 PM | -3 → -7 → -7 | 49.5 → 46.5 → 46.5 | -148 → -258 | +124 → +210 | STEAM away 4; KEY 3/7; TOTAL down 3 |
 | Arkansas State Red Wolves @ Louisiana Tech Bulldogs | Sat 11-21 07:00 PM | +16.5 → +13.5 → +13.5 | 50.5 → 53.5 → 53.5 | +575 → +425 | -850 → -575 | STEAM away 3; KEY 14; TOTAL up 3 |
-| Georgia Bulldogs @ South Carolina Gamecocks | Sat 11-21 07:30 PM | -10.5 → -16.5 → -16.5 | 50.5 → 51.5 → 50.5 | -375 → -850 | +295 → +575 | STEAM away 6; KEY 14; TODAY tot -1 |
+| Georgia Bulldogs @ South Carolina Gamecocks | Sat 11-21 07:30 PM | -10.5 → -16.5 → -16.5 | 50.5 → 51.5 → 51.5 | -375 → -850 | +295 → +575 | STEAM away 6; KEY 14 |
 | SMU Mustangs @ Notre Dame Fighting Irish | Sat 11-21 07:30 PM | +17.5 → +20.5 → +20.5 | 56.5 → 56.5 → 56.5 | +625 → +950 | -950 → -1650 | STEAM home 3 |
 | Kentucky Wildcats @ Missouri Tigers | Sat 11-21 07:30 PM | +6.5 → +5.5 → +5.5 | 49.5 → 48.5 → 48.5 | +185 → +180 | -225 → -218 | - |
 | Pittsburgh Panthers @ Louisville Cardinals | Sat 11-21 07:30 PM | +12.5 → +14 → +14 | 51.5 → 50.5 → 50.5 | +270 → +425 | -340 → -575 | STEAM home 1.5; KEY 14 |
@@ -70,4 +70,4 @@ Spread = AWAY team's number. Each cell is open → first pull today → now (Dra
 | San Diego State Aztecs @ Boise State Broncos | Sat 11-21 09:30 PM | +18.5 → +16.5 → +16.5 | 62.5 → 61.5 → 62.5 | +850 → +600 | -1450 → -900 | STEAM away 2; KEY 17; TODAY tot +1 |
 | Oklahoma State Cowboys @ Arizona State Sun Devils | Sat 11-21 10:15 PM | -4 → -3 → -3 | 62.5 → 61.5 → 61.5 | -175 → -155 | +145 → +130 | KEY 3 |
 | Utah State Aggies @ Oregon State Beavers | Sat 11-21 10:30 PM | +10 → +9.5 → +9.5 | 49.5 → 50.5 → 50.5 | +295 → +280 | -375 → -355 | - |
-| Hawai'i Rainbow Warriors @ Nevada Wolf Pack | Sat 11-21 10:30 PM | +2.5 → +4 → +4 | 42.5 → 40.5 → 40.5 | +110 → +160 | -130 → -192 | STEAM home 1.5; KEY 3; TOTAL down 2 |
+| Hawai'i Rainbow Warriors @ Nevada Wolf Pack | Sat 11-21 10:30 PM | +2.5 → +4 → +4.5 | 42.5 → 40.5 → 40.5 | +110 → +170 | -130 → -205 | STEAM home 2; KEY 3; TOTAL down 2 |
