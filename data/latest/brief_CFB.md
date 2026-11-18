@@ -1,23 +1,20 @@
-# CFB lines — DraftKings via ESPN, pull 17:39 ET (first pull today 09:09 ET)
+# CFB lines — DraftKings via ESPN, pull 22:41 ET (first pull today 09:09 ET)
 
 Spread = AWAY team's number. Each cell is open → first pull today → now (DraftKings open is its opener for the game). Flags: STEAM = spread moved 1.5+ since open (direction = side the market moved toward); TOTAL = total moved 2+; KEY = crossed a key number (3/7/14/17); FLIP = favorite changed; TODAY = moved 1+ since the first pull today. No splits here: read DK splits from DK Network.
 
 | Game | Start (ET) | Spread open→today→now | Total open→today→now | ML away open→now | ML home open→now | Flags |
 |---|---|---|---|---|---|---|
-| Eastern Michigan Eagles @ Western Michigan Broncos | Tue 11-17 06:00 PM | +14.5 → +15.5 → +17.5 | 47.5 → 46.5 → 46.5 | +455 → +575 | -625 → -850 | STEAM home 3; KEY 17; TODAY spr +2 |
-| Ball State Cardinals @ Ohio Bobcats | Tue 11-17 07:00 PM | +9.5 → +11.5 → +10 | 50.5 → 49.5 → 50.5 | +280 → +320 | -355 → -410 | TODAY spr -1.5; TODAY tot +1 |
-| Miami (OH) RedHawks @ Kent State Golden Flashes | Tue 11-17 07:00 PM | -8.5 → -9.5 → -9.5 | 45.5 → 44.5 → 45.5 | -310 → -375 | +250 → +295 | TODAY tot +1 |
 | Akron Zips @ Massachusetts Minutemen | Wed 11-18 07:00 PM | +3.5 → +3 → +3 | 47.5 → 46.5 → 46.5 | +130 → +136 | -155 → -162 | KEY 3 |
 | Central Michigan Chippewas @ Buffalo Bulls | Wed 11-18 07:30 PM | +1.5 → +1.5 → +1.5 | 43.5 → 45.5 → 45.5 | +105 → -102 | -125 → -118 | TOTAL up 2 |
 | Rice Owls @ Temple Owls | Thu 11-19 07:30 PM | +4 → +3 → +3 | 47.5 → 50.5 → 50.5 | +142 → +124 | -170 → -148 | KEY 3; TOTAL up 3 |
 | Iowa State Cyclones @ UCF Knights | Fri 11-20 06:00 PM | +1.5 → +2.5 → +2.5 | 54.5 → 52.5 → 49.5 | -108 → +110 | -112 → -130 | TOTAL down 5; TODAY tot -3 |
 | Clemson Tigers @ Duke Blue Devils | Fri 11-20 07:30 PM | +8.5 → +12.5 → +13.5 | 44.5 → 40.5 → 40.5 | +260 → +400 | -325 → -535 | STEAM home 5; TOTAL down 4; TODAY spr +1 |
 | Bowling Green Falcons @ Toledo Rockets | Fri 11-20 07:30 PM | +15.5 → +15.5 → +15.5 | 47.5 → 48.5 → 48.5 | +500 → +525 | -700 → -750 | - |
-| Oregon Ducks @ Michigan State Spartans | Fri 11-20 08:00 PM | -12.5 → -16.5 → -16.5 | 45.5 → 45.5 → 45.5 | -455 → -750 | +350 → +525 | STEAM away 4; KEY 14 |
+| Oregon Ducks @ Michigan State Spartans | Fri 11-20 08:00 PM | -12.5 → -16.5 → -16.5 | 45.5 → 45.5 → 45.5 | -455 → -800 | +350 → +550 | STEAM away 4; KEY 14 |
 | UTEP Miners @ Air Force Falcons | Fri 11-20 08:00 PM | +21.5 → +22.5 → +23.5 | 46.5 → 47.5 → 47.5 | +1300 → +1100 | -2800 → -2100 | STEAM home 2; TODAY spr +1 |
 | New Mexico Lobos @ Wyoming Cowboys | Fri 11-20 09:00 PM | -10.5 → -7.5 → -7.5 | 38.5 → 37.5 → 37.5 | -440 → -305 | +340 → +245 | STEAM home 3 |
 | BYU Cougars @ Kansas Jayhawks | Sat 11-21 12:00 PM | -7 → -5.5 → -5.5 | 50.5 → 47.5 → 47.5 | -258 → -225 | +210 → +185 | STEAM home 1.5; KEY 7; TOTAL down 3 |
-| Wake Forest Demon Deacons @ Georgia Tech Yellow Jackets | Sat 11-21 12:00 PM | -20.5 → -21 → -21 | 56.5 → 56.5 → 56.5 | -1650 → -1600 | +950 → +900 | - |
+| Wake Forest Demon Deacons @ Georgia Tech Yellow Jackets | Sat 11-21 12:00 PM | -20.5 → -21 → -20.5 | 56.5 → 56.5 → 56.5 | -1650 → -1600 | +950 → +900 | - |
 | Wofford Terriers @ Ole Miss Rebels | Sat 11-21 12:00 PM | - → - → - | - → - → - | - → - | - → - | - |
 | Ohio State Buckeyes @ Nebraska Cornhuskers | Sat 11-21 12:00 PM | -5.5 → -3 → -3 | 47.5 → 41.5 → 41.5 | -198 → -162 | +164 → +136 | STEAM home 2.5; KEY 3; TOTAL down 6 |
 | Vanderbilt Commodores @ Florida Gators | Sat 11-21 12:00 PM | +13.5 → +13.5 → +13.5 | 48.5 → 47.5 → 47.5 | +400 → +410 | -535 → -550 | - |
@@ -41,14 +38,14 @@ Spread = AWAY team's number. Each cell is open → first pull today → now (Dra
 | UL Monroe Warhawks @ App State Mountaineers | Sat 11-21 02:30 PM | +13.5 → +14 → +14 | 50.5 → 49.5 → 49.5 | +425 → +455 | -575 → -625 | KEY 14 |
 | Coastal Carolina Chanticleers @ Louisiana Ragin' Cajuns | Sat 11-21 03:00 PM | +7.5 → +10.5 → +10.5 | 50.5 → 51.5 → 50.5 | +225 → +320 | -278 → -410 | STEAM home 3; TODAY tot -1 |
 | Delaware Blue Hens @ New Mexico State Aggies | Sat 11-21 03:00 PM | -4.5 → -3.5 → -3.5 | 53.5 → 53.5 → 54.5 | -185 → -166 | +154 → +140 | TODAY tot +1 |
-| Florida International Panthers @ Kennesaw State Owls | Sat 11-21 03:00 PM | +4 → +3.5 → +3.5 | 42.5 → 44.5 → 44.5 | +145 → +142 | -175 → -170 | TOTAL up 2 |
+| Florida International Panthers @ Kennesaw State Owls | Sat 11-21 03:00 PM | +4 → +3.5 → +3.5 | 42.5 → 44.5 → 44.5 | +145 → +140 | -175 → -166 | TOTAL up 2 |
 | UCLA Bruins @ Michigan Wolverines | Sat 11-21 03:30 PM | -5.5 → -3.5 → -3.5 | 42.5 → 37.5 → 37.5 | -218 → -185 | +180 → +154 | STEAM home 2; TOTAL down 5 |
-| Arkansas Razorbacks @ Texas Longhorns | Sat 11-21 03:30 PM | +21 → +20.5 → +20.5 | 48.5 → 47.5 → 47.5 | +850 → +900 | -1450 → -1600 | - |
+| Arkansas Razorbacks @ Texas Longhorns | Sat 11-21 03:30 PM | +21 → +20.5 → +20.5 | 48.5 → 47.5 → 46.5 | +850 → +900 | -1450 → -1600 | TOTAL down 2; TODAY tot -1 |
 | LSU Tigers @ Tennessee Volunteers | Sat 11-21 03:30 PM | -1.5 → -1.5 → -1.5 | 57.5 → 46.5 → 45.5 | -118 → -115 | -102 → -105 | TOTAL down 12; TODAY tot -1 |
 | Indiana Hoosiers @ Washington Huskies | Sat 11-21 03:30 PM | -7.5 → -7.5 → -7.5 | 43.5 → 43.5 → 43.5 | -278 → -310 | +225 → +250 | - |
 | Texas Tech Red Raiders @ Baylor Bears | Sat 11-21 03:30 PM | -1.5 → -3.5 → -3.5 | 55.5 → 57.5 → 55.5 | -112 → -170 | -108 → +142 | STEAM away 2; KEY 3; TODAY tot -2 |
 | Samford Bulldogs @ Auburn Tigers | Sat 11-21 03:30 PM | - → - → - | - → - → - | - → - | - → - | - |
-| NC State Wolfpack @ Florida State Seminoles | Sat 11-21 03:30 PM | +10 → +9.5 → +9.5 | 54.5 → 55.5 → 56.5 | +245 → +295 | -305 → -375 | TOTAL up 2; TODAY tot +1 |
+| NC State Wolfpack @ Florida State Seminoles | Sat 11-21 03:30 PM | +10 → +9.5 → +10 | 54.5 → 55.5 → 56.5 | +245 → +310 | -305 → -395 | TOTAL up 2; TODAY tot +1 |
 | Rutgers Scarlet Knights @ Penn State Nittany Lions | Sat 11-21 03:30 PM | +20.5 → +24.5 → +24.5 | 49.5 → 50.5 → 50.5 | +1000 → +1200 | -1800 → -2400 | STEAM home 4 |
 | Old Dominion Monarchs @ UConn Huskies | Sat 11-21 03:30 PM | +14.5 → +13.5 → +13.5 | 48.5 → 47.5 → 47.5 | +410 → +400 | -550 → -535 | KEY 14 |
 | Texas A&M Aggies @ Oklahoma Sooners | Sat 11-21 03:45 PM | +2.5 → +7.5 → +7.5 | 51.5 → 38.5 → 38.5 | +120 → +245 | -142 → -305 | STEAM home 5; KEY 3/7; TOTAL down 13 |
@@ -56,7 +53,7 @@ Spread = AWAY team's number. Each cell is open → first pull today → now (Dra
 | Georgia Southern Eagles @ Troy Trojans | Sat 11-21 04:00 PM | -8.5 → -8.5 → -8.5 | 47.5 → 48.5 → 48.5 | -325 → -325 | +260 → +260 | - |
 | Georgia State Panthers @ Marshall Thundering Herd | Sat 11-21 04:00 PM | -1.5 → +1.5 → +1.5 | 57.5 → 56.5 → 56.5 | -118 → -110 | -102 → -110 | STEAM home 3; FLIP |
 | South Alabama Jaguars @ Southern Miss Golden Eagles | Sat 11-21 04:00 PM | -5.5 → -3.5 → -3.5 | 62.5 → 65.5 → 65.5 | -192 → -185 | +160 → +154 | STEAM home 2; TOTAL up 3 |
-| Washington State Cougars @ Texas State Bobcats | Sat 11-21 06:00 PM | +14.5 → +10.5 → +10.5 | 57.5 → 61.5 → 61.5 | +500 → +330 | -700 → -425 | STEAM away 4; KEY 14; TOTAL up 4 |
+| Washington State Cougars @ Texas State Bobcats | Sat 11-21 06:00 PM | +14.5 → +10.5 → +11.5 | 57.5 → 61.5 → 61.5 | +500 → +340 | -700 → -440 | STEAM away 3; KEY 14; TOTAL up 4; TODAY spr +1 |
 | Maryland Terrapins @ USC Trojans | Sat 11-21 06:15 PM | +16.5 → +17.5 → +17.5 | 56.5 → 57.5 → 57.5 | +550 → +600 | -800 → -900 | KEY 17 |
 | Virginia Tech Hokies @ Miami Hurricanes | Sat 11-21 07:00 PM | +16.5 → +20.5 → +20.5 | 56.5 → 61.5 → 61.5 | +675 → +900 | -1050 → -1600 | STEAM home 4; KEY 17; TOTAL up 5 |
 | Arizona Wildcats @ Kansas State Wildcats | Sat 11-21 07:00 PM | -10.5 → -7 → -7 | 50.5 → 52.5 → 52.5 | -380 → -290 | +300 → +235 | STEAM home 3.5; KEY 7; TOTAL up 2 |
