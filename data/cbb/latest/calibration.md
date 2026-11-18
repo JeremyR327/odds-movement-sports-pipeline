@@ -1,18 +1,26 @@
-# CBB calibration, season to date — 175 games graded (updated 2026-11-17 22:41 ET)
+# CBB calibration, season to date — 234 games graded (updated 2026-11-18 10:41 ET)
 
 Mean absolute error vs the final margin; lower is better. The closing line is the benchmark to beat.
 
 | Predictor | All | Tier 1 | Tier 2 | Tier 3 |
 |---|---|---|---|---|
-| Closing line | 10.08 (n=166) | 9.88 (n=16) | 10.74 (n=78) | 9.40 (n=72) |
-| Opener | 10.37 (n=142) | 9.83 (n=15) | 10.93 (n=68) | 9.86 (n=59) |
-| Torvik | 14.27 (n=172) | 13.93 (n=16) | 16.59 (n=83) | 11.70 (n=73) |
-| TeamRankings | 12.44 (n=165) | 10.28 (n=16) | 14.12 (n=80) | 11.00 (n=69) |
-| BPI | 10.67 (n=167) | 11.49 (n=16) | 11.52 (n=79) | 9.55 (n=72) |
-| Model consensus | 12.64 (n=175) | 12.26 (n=16) | 14.76 (n=85) | 10.29 (n=74) |
-| Fair line | 10.12 (n=166) | 10.55 (n=16) | 10.97 (n=78) | 9.10 (n=72) |
+| Closing line | 10.31 (n=221) | 11.12 (n=24) | 10.58 (n=101) | 9.82 (n=96) |
+| Opener | 10.49 (n=197) | 10.76 (n=23) | 10.79 (n=91) | 10.09 (n=83) |
+| Torvik | 14.33 (n=231) | 15.28 (n=25) | 15.73 (n=108) | 12.53 (n=98) |
+| TeamRankings | 12.70 (n=222) | 12.77 (n=25) | 13.64 (n=105) | 11.60 (n=92) |
+| BPI | 10.60 (n=222) | 11.47 (n=24) | 10.86 (n=102) | 10.10 (n=96) |
+| Model consensus | 12.77 (n=234) | 13.64 (n=25) | 14.02 (n=110) | 11.16 (n=99) |
+| Fair line | 10.25 (n=221) | 10.97 (n=24) | 10.60 (n=101) | 9.69 (n=96) |
 
-- Flagged sides vs the closing line: 33-29 (53.2%; break-even at -110 is 52.4%)
-- Totals MAE: Torvik 14.76 (n=172) vs closing total 13.84 (n=166)
+Records vs the closing line (break-even at -110 is 52.4%):
+- All model flags (any tier, as logged): 49-33 (59.8%)
+- EDGE flags (Tier 2-3, edge 3-5 pts; from Nov 16): 49-33 (59.8%)
+- CHECK flags (edge 5+, usually data problems): 0-0
+- MKT flags, Tier 1 (RLM, or sharp money + steam): 0-0
+- MKT flags, all tiers: 0-0
+- FADE (away side vs a home favorite of 7+): 0-0
+- TOTAL flags (Torvik total 4+ off the line): 0-0
+- Totals MAE: Torvik 14.92 (n=231) vs closing total 13.31 (n=221)
 
+Flag families overlap (a game can be EDGE, FADE and TOTAL at once); judge each on its own record.
 Change weights or thresholds only after ~300 graded games, and only where a gap holds in every tier.
