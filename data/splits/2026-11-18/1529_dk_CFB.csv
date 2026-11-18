@@ -1,0 +1,51 @@
+pulled_et,when,away,home,espn_id,spread_open,spread_now,total_open,total_now,spr_away_sel,spr_away_handle,spr_away_bets,spr_home_handle,spr_home_bets,over_handle,over_bets,ml_away_handle,ml_away_bets,flags,signal
+2026-11-18T15:29-05:00,Wed 11/18 7:00 PM,Central Michigan,Buffalo,401866469,1.5,2.5,43.5,46.5,Central Michigan +2.5,16,23,84,77,76,77,2,31,PUB Buffalo -2.5 77%; PUB Over 77%; TOTAL up 3,3
+2026-11-18T15:29-05:00,Wed 11/18 7:30 PM,Akron,UMass,,,,,,Akron +3.5,3,19,97,81,86,69,19,16,PUB UMass -3.5 81%; SHARP UMass -3.5 +16; PUB Over 69%; SHARP Over +17,6
+2026-11-18T15:29-05:00,Thu 11/19 7:30 PM,Rice,Temple,401862830,4.0,3.0,47.5,51.5,Rice +3,31,27,69,73,2,63,79,34,PUB Temple -3 73%; RLM Rice +3 (+4→+3); KEY 3; SHARP Under +60; TOTAL up 4,8
+2026-11-18T15:29-05:00,Fri 11/20 6:00 PM,Iowa State,UCF,401856869,1.5,1.5,54.5,48.5,Iowa State +1.5,37,57,63,43,0,44,10,53,SHARP UCF -1.5 +20; TOTAL down 6,3
+2026-11-18T15:29-05:00,Fri 11/20 7:30 PM,Clemson,Duke,401858303,8.5,13.5,44.5,40.5,Clemson +13.5,10,60,90,40,22,64,21,6,SHARP Duke -13.5 +50; RLM Duke -13.5 (+8.5→+13.5); STEAM home 5; SHARP Under +42; TOTAL down 4,9
+2026-11-18T15:29-05:00,Fri 11/20 7:30 PM,Bowling Green,Toledo,401866468,15.5,16.5,47.5,48.5,Bowling Green +16.5,3,33,97,67,100,100,0,0,PUB Toledo -16.5 67%; SHARP Toledo -16.5 +30,3
+2026-11-18T15:29-05:00,Fri 11/20 8:00 PM,Oregon,Michigan State,401858529,-12.5,-16.5,45.5,44.5,Oregon -16.5,95,83,5,17,100,86,100,100,PUB Oregon -16.5 83%; STEAM away 4; KEY 14,3
+2026-11-18T15:29-05:00,Fri 11/20 8:00 PM,UTEP,Air Force,401864545,21.5,23.5,46.5,47.5,UTEP +23.5,0,0,100,100,94,75,0,0,STEAM home 2; PUB Over 75%; SHARP Over +19; THIN spread sample,4
+2026-11-18T15:29-05:00,Fri 11/20 9:00 PM,New Mexico,Wyoming,401864542,-10.5,-7.5,38.5,37.5,New Mexico -7.5,7,19,93,81,84,67,16,88,PUB Wyoming +7.5 81%; STEAM home 3; PUB Over 67%; SHARP Over +17,5
+2026-11-18T15:29-05:00,Sat 11/21 12:00 PM,BYU,Kansas,401856866,-7.0,-5.5,50.5,47.5,BYU -5.5,93,94,7,6,0,67,86,94,PUB BYU -5.5 94%; RLM Kansas +5.5 (-7→-5.5); STEAM home 1.5; KEY 7; TOTAL down 3,7
+2026-11-18T15:29-05:00,Sat 11/21 12:00 PM,Ohio State,Nebraska,401858531,-5.5,-3.0,47.5,41.5,Ohio State -3,82,85,18,15,100,100,71,89,PUB Ohio State -3 85%; RLM Nebraska +3 (-5.5→-3); STEAM home 2.5; KEY 3; TOTAL down 6,7
+2026-11-18T15:29-05:00,Sat 11/21 12:00 PM,Vanderbilt,Florida,401856748,13.5,13.5,48.5,46.5,Vanderbilt +13.5,0,25,100,75,100,100,0,0,TOTAL down 2; THIN spread sample,1
+2026-11-18T15:29-05:00,Sat 11/21 12:00 PM,Wake Forest,Georgia Tech,401858310,-20.5,-21.0,56.5,56.5,Wake Forest -21,89,73,11,27,100,100,64,98,PUB Wake Forest -21 73%; SHARP Wake Forest -21 +16,3
+2026-11-18T15:29-05:00,Sat 11/21 12:00 PM,North Texas,Tulane,401862835,-13.5,-6.5,60.5,55.5,North Texas -6.5,1,29,99,71,0,50,98,95,PUB Tulane +6.5 71%; SHARP Tulane +6.5 +28; STEAM home 7; KEY 7; TOTAL down 5,6
+2026-11-18T15:29-05:00,Sat 11/21 12:00 PM,East Carolina,Army,401862831,4.5,6.0,42.5,45.5,East Carolina +6,24,63,76,38,100,100,86,60,SHARP Army -6 +38; RLM Army -6 (+4.5→+6); STEAM home 1.5; TOTAL up 3,7
+2026-11-18T15:29-05:00,Sat 11/21 12:00 PM,Wisconsin,Purdue,401858533,-6.0,-6.0,44.5,46.5,Wisconsin -6,100,100,0,0,100,100,100,100,TOTAL up 2; THIN spread sample,1
+2026-11-18T15:29-05:00,Sat 11/21 12:00 PM,Colorado,Cincinnati,401856867,2.5,3.0,59.5,58.5,Colorado +3,73,43,27,57,0,0,40,25,SHARP Colorado +3 +30; KEY 3,3
+2026-11-18T15:29-05:00,Sat 11/21 12:00 PM,Memphis,Navy,401862834,-3.0,-3.5,64.5,67.5,Memphis -3.5,9,75,91,25,92,75,100,100,PUB Memphis -3.5 75%; SHARP Navy +3.5 +66; KEY 3; PUB Over 75%; SHARP Over +17; TOTAL up 3,8
+2026-11-18T15:29-05:00,Sat 11/21 12:00 PM,Syracuse,Boston College,401858309,-3.5,-2.5,50.5,50.5,Syracuse -2.5,98,71,2,29,0,0,2,63,PUB Syracuse -2.5 71%; SHARP Syracuse -2.5 +27; RLM Boston College +2.5 (-3.5→-2.5); KEY 3,7
+2026-11-18T15:29-05:00,Sat 11/21 12:30 PM,North Carolina,Virginia,401858305,1.5,1.5,43.5,43.5,North Carolina +1.5,100,100,0,0,100,100,95,81,THIN spread sample,0
+2026-11-18T15:29-05:00,Sat 11/21 1:00 PM,Houston,West Virginia,401856868,-7.0,-8.5,71.5,70.5,Houston -8.5,57,63,43,38,100,100,44,93,STEAM away 1.5; KEY 7,2
+2026-11-18T15:29-05:00,Sat 11/21 1:00 PM,Western Kentucky,Liberty,401871080,14.5,17.5,52.5,53.5,Western Kentucky +17.5,0,17,100,83,100,100,0,0,STEAM home 3; KEY 17; THIN spread sample,2
+2026-11-18T15:29-05:00,Sat 11/21 2:00 PM,Missouri State,Jacksonville State,401871079,10.5,10.5,53.5,53.5,Missouri State +10.5,0,33,100,67,0,0,0,0,THIN spread sample,0
+2026-11-18T15:29-05:00,Sat 11/21 2:30 PM,Iowa,Illinois,401858527,-5.5,-8.5,43.5,40.5,Iowa -8.5,95,63,5,37,0,50,66,93,SHARP Iowa -8.5 +32; STEAM away 3; KEY 7; TOTAL down 3,5
+2026-11-18T15:29-05:00,Sat 11/21 2:30 PM,ULM,Appalachian State,,,,,,ULM +14,0,33,100,67,0,0,0,0,THIN spread sample,0
+2026-11-18T15:29-05:00,Sat 11/21 3:30 PM,Indiana,Washington,401858535,-7.5,-7.5,43.5,43.5,Indiana -7.5,99,88,1,13,100,100,74,96,PUB Indiana -7.5 88%,1
+2026-11-18T15:29-05:00,Sat 11/21 3:30 PM,UCLA,Michigan,401858528,-5.5,-3.5,42.5,37.5,UCLA -3.5,54,88,46,12,15,25,82,89,PUB UCLA -3.5 88%; SHARP Michigan +3.5 +34; RLM Michigan +3.5 (-5.5→-3.5); STEAM home 2; PUB Under 75%; TOTAL down 5,9
+2026-11-18T15:29-05:00,Sat 11/21 3:30 PM,LSU,Tennessee,401856754,-1.5,-1.5,57.5,45.5,LSU -1.5,4,25,96,75,0,25,8,24,PUB Tennessee +1.5 75%; SHARP Tennessee +1.5 +21; TOTAL down 12,4
+2026-11-18T15:29-05:00,Sat 11/21 3:30 PM,Arkansas,Texas,401856755,21.0,20.5,48.5,46.5,Arkansas +20.5,100,77,0,23,,,24,2,TOTAL down 2; THIN spread sample,1
+2026-11-18T15:29-05:00,Sat 11/21 3:30 PM,Texas Tech,Baylor,401856871,-1.5,-3.5,55.5,55.5,Texas Tech -3.5,44,78,56,22,71,75,100,100,PUB Texas Tech -3.5 78%; SHARP Baylor +3.5 +34; STEAM away 2; KEY 3; PUB Over 75%,6
+2026-11-18T15:29-05:00,Sat 11/21 3:30 PM,Rutgers,Penn State,401858532,20.5,24.5,49.5,50.5,Rutgers +24.5,100,100,0,0,0,0,0,0,STEAM home 4; THIN spread sample,1
+2026-11-18T15:29-05:00,Sat 11/21 3:30 PM,Old Dominion,UConn,401861968,14.5,13.5,48.5,47.5,Old Dominion +13.5,0,0,100,100,100,100,0,0,KEY 14; THIN spread sample,1
+2026-11-18T15:29-05:00,Sat 11/21 3:30 PM,NC State,Florida State,401858304,10.0,10.5,54.5,56.5,NC State +10.5,0,71,100,29,,,0,0,TOTAL up 2; THIN spread sample,1
+2026-11-18T15:29-05:00,Sat 11/21 3:45 PM,Texas A&M,Oklahoma,401856752,2.5,7.5,51.5,38.5,Texas A&M +7.5,100,83,0,17,50,50,63,21,"STEAM home 5; KEY 3,7; TOTAL down 13; THIN spread sample",3
+2026-11-18T15:29-05:00,Sat 11/21 4:00 PM,Northern Illinois,North Dakota State,401864543,25.5,25.5,48.5,43.5,Northern Illinois +25.5,0,0,100,100,51,50,0,0,TOTAL down 5; THIN spread sample,1
+2026-11-18T15:29-05:00,Sat 11/21 6:00 PM,Washington State,Texas State,401860920,14.5,11.5,57.5,61.5,Washington State +11.5,3,17,97,83,100,100,26,12,PUB Texas State -11.5 83%; RLM Washington State +11.5 (+14.5→+11.5); STEAM away 3; KEY 14; TOTAL up 4,7
+2026-11-18T15:29-05:00,Sat 11/21 6:15 PM,Maryland,USC,401858534,16.5,17.5,56.5,57.5,Maryland +17.5,1,25,99,75,,,0,0,PUB USC -17.5 75%; SHARP USC -17.5 +24; KEY 17,4
+2026-11-18T15:29-05:00,Sat 11/21 7:00 PM,Virginia Tech,Miami FL,401858302,16.5,20.5,56.5,60.5,Virginia Tech +20.5,99,65,1,35,92,33,58,2,PUB Virginia Tech +20.5 65%; SHARP Virginia Tech +20.5 +34; RLM Miami FL -20.5 (+16.5→+20.5); STEAM home 4; KEY 17; PUB Under 67%; SHARP Over +59; TOTAL up 4,12
+2026-11-18T15:29-05:00,Sat 11/21 7:00 PM,Arizona,Kansas State,401856865,-10.5,-7.0,50.5,52.5,Arizona -7,6,56,94,44,100,100,100,100,SHARP Kansas State +7 +50; RLM Kansas State +7 (-10.5→-7); STEAM home 3.5; KEY 7; TOTAL up 2,8
+2026-11-18T15:29-05:00,Sat 11/21 7:00 PM,Arkansas State,Louisiana Tech,401869938,16.5,13.5,50.5,53.5,Arkansas State +13.5,0,67,100,33,100,50,0,0,STEAM away 3; KEY 14; TOTAL up 3; THIN spread sample,3
+2026-11-18T15:29-05:00,Sat 11/21 7:30 PM,Georgia,South Carolina,401856753,-10.5,-16.5,50.5,51.5,Georgia -16.5,77,65,23,35,100,67,99,99,PUB Georgia -16.5 65%; STEAM away 6; KEY 14,3
+2026-11-18T15:29-05:00,Sat 11/21 7:30 PM,SMU,Notre Dame,401858307,17.5,20.5,56.5,56.5,SMU +20.5,8,46,92,54,100,33,13,4,SHARP Notre Dame -20.5 +38; STEAM home 3,3
+2026-11-18T15:29-05:00,Sat 11/21 7:30 PM,Kentucky,Missouri,401856751,6.5,5.5,49.5,48.5,Kentucky +5.5,95,78,5,22,100,100,51,75,PUB Kentucky +5.5 78%; SHARP Kentucky +5.5 +17,3
+2026-11-18T15:29-05:00,Sat 11/21 7:30 PM,Colorado State,Fresno State,401860918,19.5,20.5,61.5,66.5,Colorado State +20.5,0,0,100,100,100,100,0,0,TOTAL up 5; THIN spread sample,1
+2026-11-18T15:29-05:00,Sat 11/21 7:30 PM,Pittsburgh,Louisville,401858306,12.5,14.0,51.5,50.5,Pittsburgh +14,0,33,100,67,0,0,79,6,STEAM home 1.5; KEY 14; THIN spread sample,2
+2026-11-18T15:29-05:00,Sat 11/21 9:00 PM,Utah,TCU,401856872,-5.5,-7.0,44.5,46.5,Utah -7,33,86,67,14,0,50,99,99,PUB Utah -7 86%; SHARP TCU +7 +53; STEAM away 1.5; KEY 7; TOTAL up 2,6
+2026-11-18T15:29-05:00,Sat 11/21 9:30 PM,San Diego State,Boise State,401860925,18.5,16.5,62.5,62.5,San Diego State +16.5,0,0,100,100,0,0,0,0,STEAM away 2; KEY 17; THIN spread sample,2
+2026-11-18T15:29-05:00,Sat 11/21 10:15 PM,Oklahoma State,Arizona State,401856870,-4.0,-3.0,62.5,61.5,Oklahoma State -3,100,100,0,0,100,100,39,79,KEY 3; THIN spread sample,1
+2026-11-18T15:29-05:00,Sat 11/21 10:30 PM,Utah State,Oregon State,401860919,10.0,9.5,49.5,50.5,Utah State +9.5,7,25,93,75,100,50,0,0,PUB Oregon State -9.5 75%; SHARP Oregon State -9.5 +18; RLM Utah State +9.5 (+10→+9.5),6
+2026-11-18T15:29-05:00,Sat 11/21 10:30 PM,Hawaii,Nevada,401864541,2.5,4.5,42.5,40.5,Hawaii +4.5,0,0,100,100,0,50,100,100,STEAM home 2; KEY 3; TOTAL down 2; THIN spread sample,3
