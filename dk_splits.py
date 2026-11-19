@@ -265,13 +265,18 @@ def build(sport, games, updated, lines, lines_path):
             unmatched.append(f'{g["away"]} @ {g["home"]}')
         orient(g)
         fl = flags(g, line, sport)
-        tp, ts = None, 0.0
+        tp, ts, flip = None, 0.0, False
+        aw, hm = ((line or {}).get("away") or g["away"]), ((line or {}).get("home") or g["home"])
         for t in TP:
             # TR uses school/city names ("Indianapolis"); ESPN's full names ("Indianapolis Colts") match them best.
-            aw, hm = ((line or {}).get("away") or g["away"]), ((line or {}).get("home") or g["home"])
-            sc = max(name_score(t["away"], aw) + name_score(t["home"], hm), name_score(g["away"], t["away"]) + name_score(g["home"], t["home"]))
-            if sc > ts:
-                tp, ts = t, sc
+            # Neutral sites can list the teams the other way round: then the margin's sign flips.
+            for rev in (False, True):
+                ta, th = (t["home"], t["away"]) if rev else (t["away"], t["home"])
+                sc = max(name_score(ta, aw) + name_score(th, hm), name_score(g["away"], ta) + name_score(g["home"], th))
+                if sc > ts:
+                    tp, ts, flip = t, sc, rev
+        if tp and ts >= 1.4 and flip and tp.get("proj_home_margin") not in (None, ""):
+            tp = dict(tp, proj_home_margin=-float(tp["proj_home_margin"]))
         tp = tp if ts >= 1.4 else None
         sp, tot, ml = g.get("spread") or [{}, {}], g.get("total") or [{}, {}], g.get("moneyline") or [{}, {}]
         rows.append({"pulled_et": NOW.isoformat(timespec="minutes"), "when": g["when"],

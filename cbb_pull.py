@@ -678,9 +678,13 @@ def build_slate(day, games, R, TR, B, lines=None):
             a2, h2 = mtr(g["away"]["school"], g["away"]["full"]), mtr(g["home"]["school"], g["home"]["full"])
             if a2 and h2:
                 tr_m = TR[h2] - TR[a2] + hca; parts.append(("tr", tr_m))
-                pj = TRP.get((a2, h2))
+                # Neutral sites: TeamRankings and ESPN can list the teams in opposite order, so try both
+                # and flip the margin into ESPN's home team's terms.
+                pj, sign = TRP.get((a2, h2)), 1
+                if not pj:
+                    pj, sign = TRP.get((h2, a2)), -1
                 if pj and pj.get("proj_home_margin") not in (None, ""):
-                    trp_m, trp_t = float(pj["proj_home_margin"]), float(pj["proj_total"])
+                    trp_m, trp_t = sign * float(pj["proj_home_margin"]), float(pj["proj_total"])
                 if ra is None:
                     ra, rh = tr_rank[a2], tr_rank[h2]
         if mb:
