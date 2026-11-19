@@ -581,6 +581,19 @@ def market_read(sp, open_h, cur_h, away, home):
     return out, ("thin" if thin and sp else ("n/a" if not sp else f"{ah:.0f}/{ab:.0f}"))
 
 
+def tr_projections():
+    """(away, home) TR names -> TeamRankings final-score projection row (teamrankings_pull.py, daily
+    ~3:29 PM, Tier 1-type games only), if the newest file is from today or yesterday."""
+    paths = sorted(glob.glob("data/????-??-??/[0-9][0-9][0-9][0-9]_tr_proj_CBB.csv"))
+    if not paths:
+        return {}
+    day = datetime.strptime(os.path.basename(os.path.dirname(paths[-1])), "%Y-%m-%d").date()
+    if (NOW.date() - day).days > 1:
+        return {}
+    with open(paths[-1], encoding="utf-8") as fh:
+        return {(r["away"].strip(), r["home"].strip()): r for r in csv.DictReader(fh) if r.get("status") == "ok"}
+
+
 def total_read(sp, open_t, cur_t):
     """TOTAL (market) flag from the DraftKings total path + DK splits (Over handle/bets), the same rule
     as MKT for sides: RLM (total moved toward the side with <50% of bets), or SHARP money with a
@@ -632,6 +645,8 @@ def build_slate(day, games, R, TR, B, lines=None):
         return lines[best[0]] if best else None
 
     out, unmatched, name_checks = [], [], []
+    # Picks-grid names can differ from ratings names ("N Carolina"), so key projections by the ratings name.
+    TRP = {(mtr(a, a), mtr(h, h)): r for (a, h), r in tr_projections().items()} if mtr else {}
     tempos = [v["adjt"] for v in R.values()] if R else []
     avg_t = sum(tempos) / len(tempos) if tempos else None
     has_pace = bool(tempos) and max(tempos) - min(tempos) > 1      # all 68s = CBBD without TR pace
@@ -641,6 +656,7 @@ def build_slate(day, games, R, TR, B, lines=None):
         hca = 0 if g["neutral"] else HCA
         tv_m = tv_t = tv_ra = tv_rh = None
         proj_poss, pace_tag = None, ""
+        trp_m = trp_t = None
         parts, tr_m, bpi_m, ra, rh = [], None, None, None, None
         if mt:
             ta = mt(g["away"]["school"], g["away"]["full"])
@@ -662,6 +678,9 @@ def build_slate(day, games, R, TR, B, lines=None):
             a2, h2 = mtr(g["away"]["school"], g["away"]["full"]), mtr(g["home"]["school"], g["home"]["full"])
             if a2 and h2:
                 tr_m = TR[h2] - TR[a2] + hca; parts.append(("tr", tr_m))
+                pj = TRP.get((a2, h2))
+                if pj and pj.get("proj_home_margin") not in (None, ""):
+                    trp_m, trp_t = float(pj["proj_home_margin"]), float(pj["proj_total"])
                 if ra is None:
                     ra, rh = tr_rank[a2], tr_rank[h2]
         if mb:
@@ -722,7 +741,10 @@ def build_slate(day, games, R, TR, B, lines=None):
             "open_total": open_t, "cur_total": cur_t, **p,
             "dk_spr_away_h_b": spl, "market": "; ".join(mkt), "mkt_flag": mkt_flag, "mkt_side": mkt_side,
             "total_flag": tot_flag, "total_side": tot_side, "total_model_gap": tot_gap,
-            "proj_poss": rnd(proj_poss), "pace_tag": pace_tag, "fade_flag": fade,
+            "proj_poss": rnd(proj_poss), "pace_tag": pace_tag,
+            "tr_proj_home_margin": rnd(trp_m), "tr_proj_total": rnd(trp_t),
+            "tr_total_gap": rnd(trp_t - float(cur_t)) if trp_t is not None and cur_t not in (None, "") else None,
+            "fade_flag": fade,
             "pulled_et": NOW.isoformat(timespec="minutes"),
         })
     return out, unmatched, name_checks
@@ -754,6 +776,7 @@ def build_results(day, games, slate_rows):
             "mkt_flag": r.get("mkt_flag", ""), "mkt_side": r.get("mkt_side", ""),
             "total_flag": r.get("total_flag", ""), "total_side": r.get("total_side", ""),
             "proj_poss": num("proj_poss"), "pace_tag": r.get("pace_tag", ""),
+            "tr_proj_home_margin": num("tr_proj_home_margin"), "tr_proj_total": num("tr_proj_total"),
             "fade_flag": r.get("fade_flag", ""),
             "total_result": (None if num("cur_total") is None or total == num("cur_total")
                              else ("over" if total > num("cur_total") else "under")),
@@ -846,7 +869,12 @@ def calibration_all():
                 [r for r in tots if (r["total_side"] == "under" and "SLOW" in r.get("pace_tag", "")) or
                  (r["total_side"] == "over" and "FAST" in r.get("pace_tag", ""))]),
             f"- Retired model-total rule (stand-in total {TOTAL_GAP:g}+ off the close, not de-biased): {ow}-{len(old) - ow}",
-            f"- Totals MAE: Torvik {mae('torvik_total', 'final_total')} vs closing total {mae('close_total', 'final_total')}",
+            f"- Totals MAE: Torvik {mae('torvik_total', 'final_total')} · TR projection {mae('tr_proj_total', 'final_total')} vs closing total {mae('close_total', 'final_total')}",
+            f"- TR projected margin MAE (Tier 1-type games only): {mae('tr_proj_home_margin')} vs closing line {mae('close_home_margin', sub=[r for r in rows if f(r, 'tr_proj_home_margin') is not None])}",
+            "- TR projected total 4+ off the close (side vs the closing total): " +
+            (lambda g: f"{sum((f(r, 'tr_proj_total') > f(r, 'close_total')) == (r['total_result'] == 'over') for r in g)}-"
+                       f"{sum((f(r, 'tr_proj_total') > f(r, 'close_total')) != (r['total_result'] == 'over') for r in g)}")(
+                [r for r in graded_t if f(r, "tr_proj_total") is not None and abs(f(r, "tr_proj_total") - f(r, "close_total")) >= 4]),
             "", "Flag families overlap (a game can be EDGE, FADE and TOTAL at once); judge each on its own record.",
             "Change weights or thresholds only after ~300 graded games, and only where a gap holds in every tier."]
     os.makedirs(f"{OUT}/latest", exist_ok=True)
@@ -875,12 +903,14 @@ def brief(slate, status):
     rows = [r for r in slate if r["cur_home_margin"] is not None]
     t1 = sorted([r for r in rows if r["tier"] == 1], key=lambda r: (r["mkt_flag"] == "", r["tip_et"]))
     lines += ["## Tier 1 market board (both teams top-100: read the market, not the models)", "",
-              "| Game (ET) | Site | Open→now | Total open→now | DK spr h/b (away) | Market | MKT flag | Cons / Fair (info) |",
+              "| Game (ET) | Site | Open→now | Total open→now | DK spr h/b (away) | Market | MKT flag | Cons / Fair · TR proj (info) |",
               "|---|---|---|---|---|---|---|---|"]
     for r in t1:
         lines.append(f"| {r['away']} @ {r['home']} {r['tip_et']} | {r['site']} | {f(r['open_home_margin'])}→{f(r['cur_home_margin'])} | "
                      f"{r['open_total'] or '—'}→{r['cur_total'] or '—'} | {r['dk_spr_away_h_b']} | {r['market'] or '—'} | "
-                     f"{r['mkt_flag'] or '—'} | {f(r['consensus_home_margin'])} / {f(r['fair_home_margin'])} |")
+                     f"{r['mkt_flag'] or '—'} | {f(r['consensus_home_margin'])} / {f(r['fair_home_margin'])}"
+                     + (f" · TR proj {f(r['tr_proj_home_margin'])}, total {r['tr_proj_total']:g}" if r.get("tr_proj_total") is not None else "")
+                     + " |")
     if not t1:
         lines.append("| no Tier 1 games with a line | | | | | | | |")
     lines += ["", "## All games (flags first)", "",

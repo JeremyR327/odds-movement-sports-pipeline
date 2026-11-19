@@ -9,12 +9,21 @@ and stats are public). Writes timestamped CSVs under data/YYYY-MM-DD/:
   HHMM_tr_ats_<SPORT>.csv      team ATS records (all games)
   HHMM_tr_ou_<SPORT>.csv       team over/under records (all games)
   HHMM_tr_stats_<SPORT>.csv    selected team stats, long format (one row per team per stat)
+NFL, CFB and CBB also get (added Nov 19, 2026):
+  HHMM_tr_splits_<SPORT>.csv   ATS records as home / away / favorite / underdog and O-U as home / away
+                               (long format: split, market, team, record columns)
+  HHMM_tr_ratings_more_<SPORT>.csv  home rating, away rating and strength of schedule (rating_kind column)
+  HHMM_tr_proj_<SPORT>.csv     TeamRankings' final-score projection per game (projected score for each
+                               team -> projected home margin and total; Vegas-implied score for comparison),
+                               for every NFL game, CFB games with both teams TR top-50 and CBB games with
+                               both teams TR top-100. Needs the subscriber cookie: logged out, the page
+                               shows "Subscribe to view" and the row is marked locked.
 and data/tr_status.json.
 
 Exit codes: 0 = everything pulled; 1 = some pages failed (see tr_status.json);
 2 = cookie set but TeamRankings shows the logged-out page -> refresh the secret.
 """
-import csv, json, os, re, sys, time, urllib.request
+import csv, json, os, re, sys, time, urllib.error, urllib.request
 from datetime import datetime
 from html import unescape
 from zoneinfo import ZoneInfo
@@ -41,15 +50,30 @@ NOW = datetime.now(ZoneInfo("America/New_York"))
 OUTDIR = os.path.join("data", NOW.strftime("%Y-%m-%d"))
 STAMP = NOW.strftime("%H%M")
 PAUSE = 1.0  # seconds between requests
+EXTRA_PAUSE = 2.5   # slower for the added pages (TeamRankings rate-limits bursts)
+SPLITS = [("ats", "is_home"), ("ats", "is_away"), ("ats", "is_fav"), ("ats", "is_dog"), ("ou", "is_home"), ("ou", "is_away")]
+MORE_RATINGS = [("home", "home-by-other"), ("away", "away-by-other"), ("sos", "schedule-strength-by-other")]
+PROJ = {"NFL": (None, 16), "CFB": (50, 15), "CBB": (100, 20)}   # (both teams within TR rank, max games)
 
 
-def get(url, cookie=None):
+class RateLimited(Exception):
+    pass
+
+
+def get(url, cookie=None, pause=PAUSE):
     h = {"User-Agent": UA}
     if cookie:
         h["Cookie"] = cookie
-    with urllib.request.urlopen(urllib.request.Request(url, headers=h), timeout=40) as r:
-        body = r.read().decode("utf-8", "replace")
-    time.sleep(PAUSE)
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers=h), timeout=40) as r:
+            body = r.read().decode("utf-8", "replace")
+    except urllib.error.HTTPError as e:
+        if e.code in (403, 429):
+            raise RateLimited(f"HTTP {e.code}")
+        raise
+    time.sleep(pause)
+    if re.search(r"rate.?limit|too many requests", body[:3000], flags=re.I):
+        raise RateLimited("rate-limit page")
     return body
 
 
@@ -140,6 +164,56 @@ def parse_stat(html, stat):
     return [{"stat": stat, "season_label": headers[2], **dict(zip(names, r))} for r in rows if len(r) == len(names)]
 
 
+def parse_proj(html):
+    """'Final Score Projection' table on a matchup page: rows (team, projection, Vegas implied[, actual]).
+    Returns [] if the section is missing; projection None where the page says 'Subscribe to view'."""
+    i = html.find("Final Score Projection")
+    if i < 0:
+        return []
+    start, end = html.rfind("<table", 0, i), html.find("</table>", i)
+    if start < 0 or end < 0:
+        return []
+    out = []
+    for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", html[start:end], flags=re.S):
+        cells = [text(c) for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", tr, flags=re.S)]
+        if not cells or "Final Score Projection" in cells[0] or not cells[0]:
+            continue
+        locked = any("subscribe" in c.lower() for c in cells[1:])
+        nums = [float(x) for c in cells[1:] for x in re.findall(r"^\s*(-?\d+(?:\.\d+)?)\s*$", c)]
+        if locked:
+            out.append({"team": cells[0], "proj": None, "vegas": nums[0] if nums else None, "locked": True})
+        elif nums:
+            out.append({"team": cells[0], "proj": nums[0], "vegas": nums[1] if len(nums) > 1 else None, "locked": False})
+    return out[:2]
+
+
+def projections(sport, picks, ratings, cookie):
+    """One matchup page per selected game (picks grid order = away, home)."""
+    top, cap = PROJ[sport]
+    rank = {r["team"]: int(r["rank"]) for r in ratings if str(r.get("rank", "")).isdigit()}
+    pick = [g for g in picks if g.get("matchup_url") and
+            (top is None or (rank.get(g["away"], 999) <= top and rank.get(g["home"], 999) <= top))][:cap]
+    rows, locked = [], 0
+    for g in pick:
+        url = g["matchup_url"] if g["matchup_url"].startswith("http") else BASE + g["matchup_url"]
+        p = parse_proj(get(url, cookie, EXTRA_PAUSE))
+        if len(p) != 2:
+            rows.append({"away": g["away"], "home": g["home"], "matchup_url": url, "status": "no projection table"})
+            continue
+        a, h = p
+        r = {"away": g["away"], "home": g["home"], "matchup_url": url, "page_teams": f"{a['team']} / {h['team']}",
+             "away_proj": a["proj"], "home_proj": h["proj"], "vegas_away": a["vegas"], "vegas_home": h["vegas"]}
+        if a["locked"] or h["locked"] or a["proj"] is None or h["proj"] is None:
+            locked += 1
+            r["status"] = "locked (Subscribe to view)"
+        else:
+            r.update(proj_home_margin=round(h["proj"] - a["proj"], 1), proj_total=round(h["proj"] + a["proj"], 1), status="ok")
+        if a["vegas"] is not None and h["vegas"] is not None:
+            r.update(vegas_home_margin=round(h["vegas"] - a["vegas"], 1), vegas_total=round(h["vegas"] + a["vegas"], 1))
+        rows.append(r)
+    return rows, locked
+
+
 def write(name, rows):
     if not rows:
         return
@@ -153,7 +227,9 @@ def main():
     cookie = os.environ.get("TEAMRANKINGS_COOKIE", "").strip()
     pulled = NOW.isoformat(timespec="minutes")
     status, logged_out = {"pulled_et": pulled, "cookie_set": bool(cookie)}, False
+    limited = False
     for sport, (picks_page, slug, trend_slug) in SPORTS.items():
+        got = {}
         jobs = [("picks", f"{BASE}/{picks_page}/", parse_picks),
                 ("ratings", f"{BASE}/{slug}/ranking/predictive-by-other", parse_ratings),
                 ("ats", f"{BASE}/{trend_slug}/trends/ats_trends/", parse_trend),
@@ -163,6 +239,7 @@ def main():
             try:
                 html = get(url, cookie or None)
                 rows = parse(html)
+                got[kind] = rows
                 write(key, [{"pulled_et": pulled, **r} for r in rows])
                 status[key] = f"ok {len(rows)} rows" if rows else "0 rows"
                 if kind == "picks":
@@ -179,6 +256,31 @@ def main():
                 errs.append(f"{stat}: {e}")
         write(f"tr_stats_{sport}", [{"pulled_et": pulled, **r} for r in stats])
         status[f"tr_stats_{sport}"] = f"ok {len(stats)} rows" + (f"; errors: {'; '.join(errs)}" if errs else "")
+        if sport not in PROJ:
+            continue
+        # Added pages: slower, and the whole extra block stops for the day on a rate limit.
+        for name, fn in (("splits", lambda: [dict(split=sc[3:], market=mk, **r) for mk, sc in SPLITS
+                                             for r in parse_trend(get(f"{BASE}/{trend_slug}/trends/{mk}_trends/?sc={sc}", None, EXTRA_PAUSE))]),
+                         ("ratings_more", lambda: [dict(rating_kind=k, **r) for k, page in MORE_RATINGS
+                                                   for r in parse_ratings(get(f"{BASE}/{slug}/ranking/{page}", None, EXTRA_PAUSE))]),
+                         ("proj", None)):
+            key = f"tr_{name}_{sport}"
+            if limited:
+                status[key] = "skipped (TeamRankings rate limit earlier in this run)"
+                continue
+            try:
+                if name == "proj":
+                    rows, nlock = projections(sport, got.get("picks", []), got.get("ratings", []), cookie or None)
+                    status[key] = f"ok {len(rows)} games" + (f", {nlock} locked (cookie not a subscriber or expired)" if nlock else "")
+                else:
+                    rows = fn()
+                    status[key] = f"ok {len(rows)} rows"
+                write(key, [{"pulled_et": pulled, **r} for r in rows])
+            except RateLimited as e:
+                limited = True
+                status[key] = f"rate limited ({e}); extra TeamRankings pages skipped for the rest of this run"
+            except Exception as e:
+                status[key] = f"error: {e}"[:200]
     if logged_out:
         status["alert"] = "TeamRankings cookie set but pages show logged out: refresh the TEAMRANKINGS_COOKIE secret"
     os.makedirs("data", exist_ok=True)

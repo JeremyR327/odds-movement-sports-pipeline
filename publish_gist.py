@@ -23,7 +23,7 @@ from zoneinfo import ZoneInfo
 
 SPORTS = ["NFL", "CFB", "NBA", "CBB"]
 LINE_KINDS = ["lines"]                                   # espn_lines.py: DraftKings open/now via ESPN
-TR_KINDS = ["tr_picks", "tr_ratings", "tr_ats", "tr_ou", "tr_stats"]
+TR_KINDS = ["tr_picks", "tr_ratings", "tr_ats", "tr_ou", "tr_stats", "tr_splits", "tr_ratings_more", "tr_proj"]
 
 
 def latest_day_dir():

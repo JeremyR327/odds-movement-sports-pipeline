@@ -18,7 +18,7 @@ the side with under 50% of bets; STEAM = 1.5+ spread move; KEY = crossed a key n
 Usage: python dk_splits.py [CFB NFL]   (default: CFB NFL)
 """
 import csv, difflib, glob, html, json, os, re, sys, time, urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 ET = ZoneInfo("America/New_York")
@@ -32,6 +32,11 @@ UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit
       "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
       "Accept-Language": "en-US,en;q=0.9", "Cache-Control": "no-cache", "Pragma": "no-cache"}
 OUT = "data/splits"
+# ESPN's DraftKings "open" for NFL/CFB is the number posted at schedule release (May for the NFL), so
+# open -> now spans months of injuries and records, not this week's market. For these sports the
+# opener is the FIRST pipeline pull that saw the game within this many days; ESPN's open is kept
+# as spread_open_espn / total_open_espn. CBB openers are posted the day before and stay ESPN's.
+WEEK_OPEN_DAYS = {"NFL": 6, "CFB": 6}
 
 
 def get(url):
@@ -126,6 +131,42 @@ def latest_lines(sport):
     return list(csv.DictReader(open(paths[-1], encoding="utf-8"))) if paths else [], (paths[-1] if paths else "")
 
 
+def week_open(sport):
+    """espn_id -> {spread, total, at}: the first pipeline line pull that saw the game in the window."""
+    days = WEEK_OPEN_DAYS.get(sport)
+    if not days:
+        return {}
+    cutoff = (NOW - timedelta(days=days)).strftime("%Y-%m-%d")
+    out = {}
+    for p in sorted(glob.glob(f"data/????-??-??/[0-9][0-9][0-9][0-9]_lines_{sport}.csv")):
+        day = os.path.basename(os.path.dirname(p))
+        if day < cutoff:
+            continue
+        at = f"{day[5:]} {os.path.basename(p)[:4]}"
+        with open(p, encoding="utf-8") as fh:
+            for r in csv.DictReader(fh):
+                e = out.setdefault(r.get("espn_id", ""), {"spread": "", "total": "", "at": ""})
+                if not e["spread"] and r.get("spread_now") not in (None, ""):
+                    e["spread"], e["at"] = r["spread_now"], at
+                if not e["total"] and r.get("total_now") not in (None, ""):
+                    e["total"] = r["total_now"]
+    out.pop("", None)
+    return out
+
+
+def tr_proj(sport):
+    """Newest TeamRankings final-score projections (teamrankings_pull.py, daily ~3:29 PM) if from
+    today or yesterday: [(away, home, proj_home_margin, proj_total)], plus the file's pull time."""
+    paths = sorted(glob.glob(f"data/????-??-??/[0-9][0-9][0-9][0-9]_tr_proj_{sport}.csv"))
+    if not paths:
+        return [], ""
+    day = os.path.basename(os.path.dirname(paths[-1]))
+    if (NOW.date() - datetime.strptime(day, "%Y-%m-%d").date()).days > 1:
+        return [], ""
+    rows = [r for r in csv.DictReader(open(paths[-1], encoding="utf-8")) if r.get("status") == "ok"]
+    return rows, f"{day[5:]} {os.path.basename(paths[-1])[:4]}"
+
+
 def f(x):
     try:
         return float(x)
@@ -204,6 +245,8 @@ def score(fl):
 
 def build(sport, games, updated, lines, lines_path):
     rows, used, unmatched = [], set(), []
+    WO = week_open(sport)
+    TP, _ = tr_proj(sport)
     for g in games:
         best, bs = None, 0.0
         for i, l in enumerate(lines):
@@ -213,19 +256,35 @@ def build(sport, games, updated, lines, lines_path):
         line = lines[best] if best is not None and bs >= 1.6 else None
         if line:
             used.add(best)
+            line = dict(line, spread_open_espn=line.get("spread_open", ""), total_open_espn=line.get("total_open", ""), open_at="ESPN open")
+            wo = WO.get(line.get("espn_id", ""))
+            if wo:
+                line.update(spread_open=wo["spread"] or line["spread_open"], total_open=wo["total"] or line["total_open"],
+                            open_at=f"first pull {wo['at']}")
         else:
             unmatched.append(f'{g["away"]} @ {g["home"]}')
         orient(g)
         fl = flags(g, line, sport)
+        tp, ts = None, 0.0
+        for t in TP:
+            # TR uses school/city names ("Indianapolis"); ESPN's full names ("Indianapolis Colts") match them best.
+            aw, hm = ((line or {}).get("away") or g["away"]), ((line or {}).get("home") or g["home"])
+            sc = max(name_score(t["away"], aw) + name_score(t["home"], hm), name_score(g["away"], t["away"]) + name_score(g["home"], t["home"]))
+            if sc > ts:
+                tp, ts = t, sc
+        tp = tp if ts >= 1.4 else None
         sp, tot, ml = g.get("spread") or [{}, {}], g.get("total") or [{}, {}], g.get("moneyline") or [{}, {}]
         rows.append({"pulled_et": NOW.isoformat(timespec="minutes"), "when": g["when"],
                      "away": g["away"], "home": g["home"], "espn_id": (line or {}).get("espn_id", ""),
                      "spread_open": (line or {}).get("spread_open", ""), "spread_now": (line or {}).get("spread_now", ""),
                      "total_open": (line or {}).get("total_open", ""), "total_now": (line or {}).get("total_now", ""),
+                     "open_at": (line or {}).get("open_at", ""), "spread_open_espn": (line or {}).get("spread_open_espn", ""),
+                     "total_open_espn": (line or {}).get("total_open_espn", ""),
                      "spr_away_sel": sp[0].get("sel", ""), "spr_away_handle": sp[0].get("handle", ""), "spr_away_bets": sp[0].get("bets", ""),
                      "spr_home_handle": sp[1].get("handle", ""), "spr_home_bets": sp[1].get("bets", ""),
                      "over_handle": tot[0].get("handle", ""), "over_bets": tot[0].get("bets", ""),
                      "ml_away_handle": ml[0].get("handle", ""), "ml_away_bets": ml[0].get("bets", ""),
+                     "tr_proj_spread_away": (tp or {}).get("proj_home_margin", ""), "tr_proj_total": (tp or {}).get("proj_total", ""),
                      "flags": "; ".join(fl + (["THIN spread sample"] if g.get("spread") and thin(g["spread"]) else [])),
                      "signal": score(fl)})
     return rows, unmatched
@@ -235,20 +294,26 @@ def brief(sport, rows, updated, lines_path, unmatched):
     hdr = [f"# {sport} — DK splits + DraftKings lines, pulled {NOW:%Y-%m-%d %H:%M} ET",
            "",
            f"Splits: DK Network, {len(rows)} games (page 'Updated' times: {', '.join(sorted(set(u for u in updated if u))) or 'n/a'}). "
-           f"Lines: {os.path.basename(lines_path) or 'none'} (DraftKings via ESPN; spread = AWAY team's number, open → now).",
+           f"Lines: {os.path.basename(lines_path) or 'none'} (DraftKings via ESPN; spread = AWAY team's number, open → now). "
+           + (f"Open = the first pipeline pull that saw the game in the last {WEEK_OPEN_DAYS[sport]} days (ESPN's open is the schedule-release number), "
+              "so movement is this week's market." if sport in WEEK_OPEN_DAYS else "Open = ESPN's DraftKings opener."),
            "Splits cells = handle% / bets% for the AWAY side (spread, ML) or the Over (total); home/Under = 100 minus.",
            "Flags: PUB 65%+ bets · SHARP handle−bets ≥ +15 · RLM line moved toward the side with <50% of bets · STEAM 1.5+ · KEY number crossed · TOTAL moved 2+ (CFB) / 1.5+ (NFL).",
            "Rows sorted by signal (RLM and SHARP first). Verify every flag against the numbers.",
+           "TR proj = TeamRankings' final-score projection as the AWAY team's spread / total"
+           + (f" (pulled {tr_proj(sport)[1]}); a model check only, never a signal." if tr_proj(sport)[1] else ": none pulled today or yesterday."),
            f"Unmatched to a DK line: {', '.join(unmatched) or 'none'}",
            "",
-           "| Game | Start (ET) | Spread open→now | DK spr h/b | Total open→now | DK over h/b | DK ML h/b | Flags |",
-           "|---|---|---|---|---|---|---|---|"]
+           "| Game | Start (ET) | Spread open→now | DK spr h/b | Total open→now | DK over h/b | DK ML h/b | TR proj | Flags |",
+           "|---|---|---|---|---|---|---|---|---|"]
     body = []
     for r in sorted(rows, key=lambda r: (-r["signal"], r["when"])):
         so, sn = r["spread_open"], r["spread_now"]
         body.append(f'| {r["away"]} @ {r["home"]} | {r["when"]} | {so or "—"}→{sn or "—"} | {r["spr_away_handle"]}/{r["spr_away_bets"]} | '
                     f'{r["total_open"] or "—"}→{r["total_now"] or "—"} | {r["over_handle"]}/{r["over_bets"]} | '
-                    f'{r["ml_away_handle"]}/{r["ml_away_bets"]} | {r["flags"] or "—"} |')
+                    f'{r["ml_away_handle"]}/{r["ml_away_bets"]} | '
+                    + (f'{float(r["tr_proj_spread_away"]):+g} / {r["tr_proj_total"]}' if r.get("tr_proj_spread_away") not in (None, "") else "—")
+                    + f' | {r["flags"] or "—"} |')
     return "\n".join(hdr + body) + "\n"
 
 
