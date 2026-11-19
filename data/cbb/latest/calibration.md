@@ -1,4 +1,4 @@
-# CBB calibration, season to date — 297 games graded (updated 2026-11-19 10:41 ET)
+# CBB calibration, season to date — 297 games graded (updated 2026-11-19 12:20 ET)
 
 Mean absolute error vs the final margin; lower is better. The closing line is the benchmark to beat.
 
@@ -26,7 +26,9 @@ Records vs the closing line (break-even at -110 is 52.4%):
 - Pace CLASH games, Under vs the closing total: 0-0
 - TOTAL-MKT agreeing with pace (Under + SLOW, Over + FAST): 0-0
 - Retired model-total rule (stand-in total 4+ off the close, not de-biased): 113-84
-- Totals MAE: Torvik 15.22 (n=294) vs closing total 13.39 (n=282)
+- Totals MAE: Torvik 15.22 (n=294) · TR projection — vs closing total 13.39 (n=282)
+- TR projected margin MAE (Tier 1-type games only): — vs closing line —
+- TR projected total 4+ off the close (side vs the closing total): 0-0
 
 Flag families overlap (a game can be EDGE, FADE and TOTAL at once); judge each on its own record.
 Change weights or thresholds only after ~300 graded games, and only where a gap holds in every tier.

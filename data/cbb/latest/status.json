@@ -1,23 +1,23 @@
 {
   "date": "2026-11-19",
-  "pulled_et": "2026-11-19T10:41-05:00",
+  "pulled_et": "2026-11-19T12:20-05:00",
   "espn": "ok 36 games",
-  "torvik": "ok 365 teams (CollegeBasketballData adjusted efficiency, 68 poss); pace from TeamRankings for 353 teams",
-  "tr": "ok 365 teams (2026-11-18 1529)",
+  "torvik": "ok 365 teams (saved copy from today); pace from TeamRankings for 353 teams",
+  "tr": "ok 365 teams (2026-11-19 1216)",
   "bpi": "ok 365 teams",
   "espn_lines": "29/29 priced games have ESPN's DraftKings opener",
   "cbbd_lines": "skipped: ESPN has DraftKings open + current (saves the CBBD monthly quota)",
-  "dk_splits": "ok 24 games, pulled 09:09",
+  "dk_splits": "stale (3.2 h old)",
   "check_names": [
-    "Georgia Southern @ Houston Christian: TR +34.6 vs BPI +4.3"
+    "Georgia Southern @ Houston Christian: TR +35.4 vs BPI +4.3"
   ],
   "games_written": 28,
   "with_line": 28,
   "with_espn_open": 28,
-  "flags": 2,
-  "mkt_flags": 10,
-  "tier1_mkt_flags": 2,
-  "total_flags": 1,
+  "flags": 3,
+  "mkt_flags": 0,
+  "tier1_mkt_flags": 0,
+  "total_flags": 0,
   "fade_flags": 11,
   "unmatched": [
     "Berea Mountaineers @ Northern Kentucky Norse",
@@ -29,7 +29,7 @@
     "Southeast Missouri State Redhawks @ St. Thomas Tommies",
     "Northwest Indian RedHawks @ Portland State Vikings"
   ],
-  "sources": "espn ok 36 games \u00b7 espn_lines 29/29 priced games have ESPN's DraftKings opener \u00b7 torvik ok 365 teams (CollegeBasketballData adjusted efficiency, 68 poss); pace from TeamRankings for 353 teams \u00b7 tr ok 365 teams (2026-11-18 1529) \u00b7 bpi ok 365 teams",
+  "sources": "espn ok 36 games \u00b7 espn_lines 29/29 priced games have ESPN's DraftKings opener \u00b7 torvik ok 365 teams (saved copy from today); pace from TeamRankings for 353 teams \u00b7 tr ok 365 teams (2026-11-19 1216) \u00b7 bpi ok 365 teams",
   "calibration": {
     "games": 61,
     "with_open": 61,
