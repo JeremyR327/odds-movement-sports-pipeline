@@ -1,4 +1,4 @@
-# CBB calibration, season to date — 234 games graded (updated 2026-11-18 19:44 ET)
+# CBB calibration, season to date — 234 games graded (updated 2026-11-18 22:41 ET)
 
 Mean absolute error vs the final margin; lower is better. The closing line is the benchmark to beat.
 
@@ -19,7 +19,13 @@ Records vs the closing line (break-even at -110 is 52.4%):
 - MKT flags, Tier 1 (RLM, or sharp money + steam): 0-0
 - MKT flags, all tiers: 0-0
 - FADE (away side vs a home favorite of 7+): 0-0
-- TOTAL flags (Torvik total 4+ off the line): 0-0
+- TOTAL-MKT flags (total RLM, or sharp money + same-way move; from Nov 18): 0-0
+- Baseline, every game's Under vs the closing total: 122-99 (55.2%) (a TOTAL family must beat this)
+- Pace FAST games, Under vs the closing total: 0-0
+- Pace SLOW games, Under vs the closing total: 0-0
+- Pace CLASH games, Under vs the closing total: 0-0
+- TOTAL-MKT agreeing with pace (Under + SLOW, Over + FAST): 0-0
+- Retired model-total rule (stand-in total 4+ off the close, not de-biased): 93-65
 - Totals MAE: Torvik 14.92 (n=231) vs closing total 13.31 (n=221)
 
 Flag families overlap (a game can be EDGE, FADE and TOTAL at once); judge each on its own record.
