@@ -1,13 +1,13 @@
-# NBA lines — DraftKings via ESPN, pull 09:09 ET (first pull today 09:09 ET)
+# NBA lines — DraftKings via ESPN, pull 12:39 ET (first pull today 09:09 ET)
 
 Spread = AWAY team's number. Each cell is open → first pull today → now (DraftKings open is its opener for the game). Flags: STEAM = spread moved 1.5+ since open (direction = side the market moved toward); TOTAL = total moved 2+; KEY = crossed a key number; FLIP = favorite changed; TODAY = moved 1+ since the first pull today. No splits here: read DK splits from DK Network.
 
 | Game | Start (ET) | Spread open→today→now | Total open→today→now | ML away open→now | ML home open→now | Flags |
 |---|---|---|---|---|---|---|
-| Golden State Warriors @ Memphis Grizzlies | Thu 11-19 08:00 PM | +8.5 → +6.5 → +6.5 | 225.5 → 226.5 → 226.5 | +268 → +200 | -334 → -243 | STEAM away 2 |
-| Portland Trail Blazers @ Milwaukee Bucks | Thu 11-19 08:00 PM | -9.5 → -10.5 → -10.5 | 225.5 → 228.5 → 228.5 | -369 → -440 | +293 → +343 | TOTAL up 3 |
-| New York Knicks @ Minnesota Timberwolves | Thu 11-19 08:00 PM | -1.5 → -1.5 → -1.5 | 217.5 → 216.5 → 216.5 | -123 → -113 | +104 → -104 | - |
-| LA Clippers @ San Antonio Spurs | Thu 11-19 08:00 PM | +16.5 → +15.5 → +15.5 | 225.5 → 224.5 → 224.5 | +720 → +670 | -1140 → -1040 | - |
+| Golden State Warriors @ Memphis Grizzlies | Thu 11-19 08:00 PM | +8.5 → +6.5 → +6.5 | 225.5 → 226.5 → 225.5 | +268 → +200 | -334 → -243 | STEAM away 2; TODAY tot -1 |
+| Portland Trail Blazers @ Milwaukee Bucks | Thu 11-19 08:00 PM | -9.5 → -10.5 → -10.5 | 225.5 → 228.5 → 229.5 | -369 → -467 | +293 → +360 | TOTAL up 4; TODAY tot +1 |
+| New York Knicks @ Minnesota Timberwolves | Thu 11-19 08:00 PM | -1.5 → -1.5 → -1.5 | 217.5 → 216.5 → 215.5 | -123 → -113 | +104 → -104 | TOTAL down 2; TODAY tot -1 |
+| LA Clippers @ San Antonio Spurs | Thu 11-19 08:00 PM | +16.5 → +15.5 → +15.5 | 225.5 → 224.5 → 225.5 | +720 → +670 | -1140 → -1040 | TODAY tot +1 |
 | Charlotte Hornets @ Atlanta Hawks | Fri 11-20 07:00 PM | - → - → - | - → - → - | - → - | - → - | - |
 | Orlando Magic @ Brooklyn Nets | Fri 11-20 07:30 PM | - → - → - | - → - → - | - → - | - → - | - |
 | Indiana Pacers @ Cleveland Cavaliers | Fri 11-20 07:30 PM | - → - → - | - → - → - | - → - | - → - | - |
