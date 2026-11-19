@@ -1,32 +1,32 @@
-# CBB calibration, season to date — 234 games graded (updated 2026-11-18 22:41 ET)
+# CBB calibration, season to date — 297 games graded (updated 2026-11-19 10:41 ET)
 
 Mean absolute error vs the final margin; lower is better. The closing line is the benchmark to beat.
 
 | Predictor | All | Tier 1 | Tier 2 | Tier 3 |
 |---|---|---|---|---|
-| Closing line | 10.31 (n=221) | 11.12 (n=24) | 10.58 (n=101) | 9.82 (n=96) |
-| Opener | 10.49 (n=197) | 10.76 (n=23) | 10.79 (n=91) | 10.09 (n=83) |
-| Torvik | 14.33 (n=231) | 15.28 (n=25) | 15.73 (n=108) | 12.53 (n=98) |
-| TeamRankings | 12.70 (n=222) | 12.77 (n=25) | 13.64 (n=105) | 11.60 (n=92) |
-| BPI | 10.60 (n=222) | 11.47 (n=24) | 10.86 (n=102) | 10.10 (n=96) |
-| Model consensus | 12.77 (n=234) | 13.64 (n=25) | 14.02 (n=110) | 11.16 (n=99) |
-| Fair line | 10.25 (n=221) | 10.97 (n=24) | 10.60 (n=101) | 9.69 (n=96) |
+| Closing line | 10.08 (n=282) | 10.30 (n=30) | 10.49 (n=132) | 9.57 (n=120) |
+| Opener | 10.29 (n=258) | 10.12 (n=29) | 10.72 (n=122) | 9.86 (n=107) |
+| Torvik | 13.99 (n=294) | 14.83 (n=31) | 15.13 (n=139) | 12.50 (n=124) |
+| TeamRankings | 12.28 (n=280) | 11.97 (n=31) | 12.86 (n=133) | 11.69 (n=116) |
+| BPI | 10.59 (n=283) | 10.68 (n=30) | 10.97 (n=133) | 10.14 (n=120) |
+| Model consensus | 12.41 (n=297) | 12.67 (n=31) | 13.37 (n=141) | 11.27 (n=125) |
+| Fair line | 10.13 (n=282) | 10.35 (n=30) | 10.56 (n=132) | 9.60 (n=120) |
 
 Records vs the closing line (break-even at -110 is 52.4%):
-- All model flags (any tier, as logged): 49-33 (59.8%)
-- EDGE flags (Tier 2-3, edge 3-5 pts; from Nov 16): 49-33 (59.8%)
-- CHECK flags (edge 5+, usually data problems): 0-0
-- MKT flags, Tier 1 (RLM, or sharp money + steam): 0-0
-- MKT flags, all tiers: 0-0
-- FADE (away side vs a home favorite of 7+): 0-0
+- All model flags (any tier, as logged): 53-38 (58.2%)
+- EDGE flags (Tier 2-3, edge 3-5 pts; from Nov 16): 52-37 (58.4%)
+- CHECK flags (edge 5+, usually data problems): 1-1 (50.0%)
+- MKT flags, Tier 1 (RLM, or sharp money + steam): 3-0 (100.0%)
+- MKT flags, all tiers: 17-13 (56.7%)
+- FADE (away side vs a home favorite of 7+): 17-17 (50.0%)
 - TOTAL-MKT flags (total RLM, or sharp money + same-way move; from Nov 18): 0-0
-- Baseline, every game's Under vs the closing total: 122-99 (55.2%) (a TOTAL family must beat this)
+- Baseline, every game's Under vs the closing total: 149-133 (52.8%) (a TOTAL family must beat this)
 - Pace FAST games, Under vs the closing total: 0-0
 - Pace SLOW games, Under vs the closing total: 0-0
 - Pace CLASH games, Under vs the closing total: 0-0
 - TOTAL-MKT agreeing with pace (Under + SLOW, Over + FAST): 0-0
-- Retired model-total rule (stand-in total 4+ off the close, not de-biased): 93-65
-- Totals MAE: Torvik 14.92 (n=231) vs closing total 13.31 (n=221)
+- Retired model-total rule (stand-in total 4+ off the close, not de-biased): 113-84
+- Totals MAE: Torvik 15.22 (n=294) vs closing total 13.39 (n=282)
 
 Flag families overlap (a game can be EDGE, FADE and TOTAL at once); judge each on its own record.
 Change weights or thresholds only after ~300 graded games, and only where a gap holds in every tier.
