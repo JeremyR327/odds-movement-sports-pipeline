@@ -1,4 +1,4 @@
-# NFL lines — DraftKings via ESPN, pull 17:39 ET (first pull today 09:09 ET)
+# NFL lines — DraftKings via ESPN, pull 19:44 ET (first pull today 09:09 ET)
 
 Spread = AWAY team's number. Each cell is open → first pull today → now (DraftKings open is its opener for the game). Flags: STEAM = spread moved 1.5+ since open (direction = side the market moved toward); TOTAL = total moved 1.5+; KEY = crossed a key number (3/7/10); FLIP = favorite changed; TODAY = moved 1+ since the first pull today. No splits here: read DK splits from DK Network.
 
@@ -12,8 +12,8 @@ Spread = AWAY team's number. Each cell is open → first pull today → now (Dra
 | Arizona Cardinals @ Kansas City Chiefs | Sun 11-22 01:00 PM | +11.5 → +16.5 → +15.5 | 44.5 → 41.5 → 40.5 | +440 → +800 | -600 → -1350 | STEAM home 4; TOTAL down 4; TODAY spr -1; TODAY tot -1 |
 | Pittsburgh Steelers @ Philadelphia Eagles | Sun 11-22 01:00 PM | +5.5 → -4.5 → -4.5 | 42.5 → 38.5 → 37.5 | +205 → -218 | -250 → +180 | STEAM away 10; FLIP; TOTAL down 5; TODAY tot -1 |
 | Baltimore Ravens @ Carolina Panthers | Sun 11-22 01:00 PM | -4.5 → +2.5 → +2.5 | 46.5 → 44.5 → 43.5 | -218 → +114 | +180 → -135 | STEAM home 7; FLIP; TOTAL down 3; TODAY tot -1 |
-| New York Jets @ Los Angeles Chargers | Sun 11-22 04:05 PM | +9.5 → +3.5 → +3 | 41.5 → 41.5 → 41.5 | +340 → +130 | -440 → -155 | STEAM away 6.5; KEY 3/7 |
-| Las Vegas Raiders @ Denver Broncos | Sun 11-22 04:25 PM | +8.5 → +10 → +10 | 41.5 → 40.5 → 40.5 | +330 → +455 | -425 → -625 | STEAM home 1.5; KEY 10 |
+| New York Jets @ Los Angeles Chargers | Sun 11-22 04:05 PM | +9.5 → +3.5 → +3 | 41.5 → 41.5 → 41.5 | +340 → +136 | -440 → -162 | STEAM away 6.5; KEY 3/7 |
+| Las Vegas Raiders @ Denver Broncos | Sun 11-22 04:25 PM | +8.5 → +10 → +10 | 41.5 → 40.5 → 40.5 | +330 → +440 | -425 → -600 | STEAM home 1.5; KEY 10 |
 | Jacksonville Jaguars @ New York Giants | Sun 11-22 04:25 PM | -1.5 → -6 → -6 | 46.5 → 46.5 → 46.5 | -125 → -265 | +105 → +215 | STEAM away 4.5; KEY 3 |
 | Minnesota Vikings @ San Francisco 49ers (neutral) | Sun 11-22 08:20 PM | +3.5 → +3 → +3 | 46.5 → 45.5 → 45.5 | +170 → +136 | -205 → -162 | KEY 3 |
 | Cincinnati Bengals @ Washington Commanders | Mon 11-23 08:15 PM | -1.5 → -6.5 → -6.5 | 52.5 → 54.5 → 54.5 | -125 → -310 | +105 → +250 | STEAM away 5; KEY 3; TOTAL up 2 |
