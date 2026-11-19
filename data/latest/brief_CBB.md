@@ -1,36 +1,35 @@
-# CBB lines — DraftKings via ESPN, pull 15:29 ET (first pull today 09:09 ET)
+# CBB lines — DraftKings via ESPN, pull 17:39 ET (first pull today 09:09 ET)
 
 Spread = AWAY team's number. Each cell is open → first pull today → now (DraftKings open is its opener for the game). Flags: STEAM = spread moved 1.5+ since open (direction = side the market moved toward); TOTAL = total moved 2+; KEY = crossed a key number; FLIP = favorite changed; TODAY = moved 1+ since the first pull today. No splits here: read DK splits from DK Network.
 
 | Game | Start (ET) | Spread open→today→now | Total open→today→now | ML away open→now | ML home open→now | Flags |
 |---|---|---|---|---|---|---|
-| Notre Dame Fighting Irish @ Auburn Tigers (neutral) | Thu 11-19 05:00 PM | +3.5 → +3.5 → +3.5 | 152.5 → 152.5 → 151.5 | +154 → +145 | -185 → -175 | TODAY tot -1 |
-| NC State Wolfpack @ Murray State Racers (neutral) | Thu 11-19 06:00 PM | -4.5 → -4.5 → -3.5 | 160.5 → 162.5 → 164.5 | -185 → -170 | +154 → +142 | TOTAL up 4; TODAY spr +1; TODAY tot +2 |
+| NC State Wolfpack @ Murray State Racers (neutral) | Thu 11-19 06:00 PM | -4.5 → -4.5 → -3.5 | 160.5 → 162.5 → 164.5 | -185 → -166 | +154 → +140 | TOTAL up 4; TODAY spr +1; TODAY tot +2 |
 | Robert Morris Colonials @ Toledo Rockets | Thu 11-19 07:00 PM | +7.5 → +6.5 → +6.5 | 144.5 → 143.5 → 144.5 | +250 → +245 | -310 → -305 | TODAY tot +1 |
 | Berea Mountaineers @ Northern Kentucky Norse | Thu 11-19 07:00 PM | - → - → - | - → - → - | - → - | - → - | - |
 | North Park Vikings @ SIU Edwardsville Cougars | Thu 11-19 07:00 PM | - → - → - | - → - → - | - → - | - → - | - |
-| Maine Black Bears @ Quinnipiac Bobcats | Thu 11-19 07:00 PM | +10.5 → +10.5 → +8.5 | 136.5 → 133.5 → 133.5 | +425 → +380 | -575 → -500 | STEAM away 2; TOTAL down 3; TODAY spr -2 |
-| Little Rock Trojans @ Jacksonville Dolphins | Thu 11-19 07:00 PM | +2.5 → +1.5 → +1.5 | 144.5 → 144.5 → 144.5 | +120 → +110 | -142 → -130 | - |
-| Montana State Bobcats @ High Point Panthers | Thu 11-19 07:00 PM | +12.5 → +12.5 → +12.5 | 143.5 → 145.5 → 144.5 | +750 → +650 | -1200 → -1000 | TODAY tot -1 |
-| UMBC Retrievers @ Ohio State Buckeyes | Thu 11-19 07:00 PM | +33.5 → +31.5 → +29.5 | 155.5 → 158.5 → 155.5 | +5000 → - | -100000 → - | STEAM away 4; TODAY spr -2; TODAY tot -3 |
+| Maine Black Bears @ Quinnipiac Bobcats | Thu 11-19 07:00 PM | +10.5 → +10.5 → +8.5 | 136.5 → 133.5 → 133.5 | +425 → +350 | -575 → -455 | STEAM away 2; TOTAL down 3; TODAY spr -2 |
+| Little Rock Trojans @ Jacksonville Dolphins | Thu 11-19 07:00 PM | +2.5 → +1.5 → +1.5 | 144.5 → 144.5 → 143.5 | +120 → +105 | -142 → -125 | TODAY tot -1 |
+| Montana State Bobcats @ High Point Panthers | Thu 11-19 07:00 PM | +12.5 → +12.5 → +12.5 | 143.5 → 145.5 → 144.5 | +750 → +625 | -1200 → -950 | TODAY tot -1 |
+| UMBC Retrievers @ Ohio State Buckeyes | Thu 11-19 07:00 PM | +33.5 → +31.5 → +28.5 | 155.5 → 158.5 → 155.5 | +5000 → - | -100000 → - | STEAM away 5; TODAY spr -3; TODAY tot -3 |
 | Mary Baldwin Fighting Squirrels @ American University Eagles | Thu 11-19 07:00 PM | - → - → - | - → - → - | - → - | - → - | - |
 | Buffalo Bulls @ St. Bonaventure Bonnies | Thu 11-19 07:00 PM | +9.5 → +11.5 → +11.5 | 146.5 → 146.5 → 146.5 | +490 → +525 | -675 → -750 | STEAM home 2 |
 | Northeastern Huskies @ Butler Bulldogs | Thu 11-19 07:00 PM | +15.5 → +15.5 → +16.5 | 164.5 → 164.5 → 163.5 | +900 → +950 | -1600 → -1650 | TODAY spr +1; TODAY tot -1 |
 | Tusculum Pioneers @ North Alabama Lions | Thu 11-19 07:30 PM | - → - → - | - → - → - | - → - | - → - | - |
 | Charleston Cougars @ Drake Bulldogs | Thu 11-19 07:30 PM | -1.5 → +1.5 → +1.5 | 158.5 → 159.5 → 158.5 | -110 → +102 | -110 → -122 | STEAM home 3; FLIP; TODAY tot -1 |
 | Tulane Green Wave @ Louisiana Tech Bulldogs | Thu 11-19 07:30 PM | -1.5 → +1.5 → +2.5 | 144.5 → 142.5 → 142.5 | -125 → +114 | +105 → -135 | STEAM home 4; FLIP; TOTAL down 2; TODAY spr +1 |
-| Southern Utah Thunderbirds @ Texas Longhorns | Thu 11-19 08:00 PM | +38.5 → +38.5 → +35.5 | 157.5 → 157.5 → 156.5 | - → - | - → - | STEAM away 3; TODAY spr -3; TODAY tot -1 |
+| Southern Utah Thunderbirds @ Texas Longhorns | Thu 11-19 08:00 PM | +38.5 → +38.5 → +35.5 | 157.5 → 157.5 → 155.5 | - → - | - → - | STEAM away 3; TOTAL down 2; TODAY spr -3; TODAY tot -2 |
 | Stetson Hatters @ Louisville Cardinals | Thu 11-19 08:00 PM | +34.5 → +36.5 → +36.5 | 154.5 → 155.5 → 154.5 | - → - | - → - | STEAM home 2; TODAY tot -1 |
 | Mayville State Comets @ North Dakota Fighting Hawks | Thu 11-19 08:00 PM | - → - → - | - → - → - | - → - | - → - | - |
 | Eureka Red Devils @ Illinois State Redbirds | Thu 11-19 08:00 PM | - → - → - | - → - → - | - → - | - → - | - |
-| Georgia Southern Eagles @ Houston Christian Huskies | Thu 11-19 08:00 PM | +3.5 → +2.5 → +3.5 | 148.5 → 151.5 → 153.5 | +154 → +130 | -185 → -155 | TOTAL up 5; TODAY spr +1; TODAY tot +2 |
+| Georgia Southern Eagles @ Houston Christian Huskies | Thu 11-19 08:00 PM | +3.5 → +2.5 → +3.5 | 148.5 → 151.5 → 153.5 | +154 → +140 | -185 → -166 | TOTAL up 5; TODAY spr +1; TODAY tot +2 |
 | Southeast Missouri State Redhawks @ St. Thomas Tommies | Thu 11-19 08:00 PM | +7.5 → +7.5 → +6.5 | 152.5 → 148.5 → 149.5 | +245 → +245 | -305 → -305 | TOTAL down 3; TODAY spr -1; TODAY tot +1 |
-| Texas A&M Aggies @ TCU Horned Frogs | Thu 11-19 08:00 PM | -1.5 → -1.5 → -1.5 | 162.5 → 162.5 → 162.5 | -115 → -110 | -105 → -110 | - |
+| Texas A&M Aggies @ TCU Horned Frogs | Thu 11-19 08:00 PM | -1.5 → -1.5 → -1.5 | 162.5 → 162.5 → 163.5 | -115 → -110 | -105 → -110 | TODAY tot +1 |
 | Seton Hall Pirates @ Wisconsin Badgers (neutral) | Thu 11-19 08:30 PM | +3.5 → +3.5 → +5.5 | 140.5 → 139.5 → 138.5 | +160 → +180 | -192 → -218 | STEAM home 2; TOTAL down 2; TODAY spr +2; TODAY tot -1 |
 | Rutgers Scarlet Knights @ UNLV Rebels (neutral) | Thu 11-19 08:30 PM | -3.5 → -2.5 → -2.5 | 156.5 → 156.5 → 157.5 | -155 → -148 | +130 → +124 | TODAY tot +1 |
 | Oregon State Beavers @ Oregon Ducks (neutral) | Thu 11-19 09:00 PM | +2.5 → +1.5 → +1.5 | 164.5 → 161.5 → 160.5 | +140 → +102 | -166 → -122 | TOTAL down 4; TODAY tot -1 |
-| Southern Miss Golden Eagles @ Grambling Tigers | Thu 11-19 09:00 PM | -1.5 → -1.5 → -1.5 | 147.5 → 147.5 → 146.5 | -118 → -122 | -102 → +102 | TODAY tot -1 |
-| UC Santa Barbara Gauchos @ Pepperdine Waves | Thu 11-19 09:00 PM | -3.5 → -2.5 → -1.5 | 150.5 → 150.5 → 149.5 | -166 → -135 | +140 → +114 | STEAM home 2; TODAY spr +1; TODAY tot -1 |
+| Southern Miss Golden Eagles @ Grambling Tigers | Thu 11-19 09:00 PM | -1.5 → -1.5 → -1.5 | 147.5 → 147.5 → 145.5 | -118 → -122 | -102 → +102 | TOTAL down 2; TODAY tot -2 |
+| UC Santa Barbara Gauchos @ Pepperdine Waves | Thu 11-19 09:00 PM | -3.5 → -2.5 → -1.5 | 150.5 → 150.5 → 148.5 | -166 → -135 | +140 → +114 | STEAM home 2; TOTAL down 2; TODAY spr +1; TODAY tot -2 |
 | Utah Tech Trailblazers @ Washington Huskies | Thu 11-19 09:00 PM | +17.5 → +17.5 → +16.5 | 159.5 → 155.5 → 155.5 | +1000 → +1000 | -1800 → -1800 | TOTAL down 4; TODAY spr -1 |
 | UTEP Miners @ New Mexico State Aggies | Thu 11-19 09:00 PM | +1.5 → +1.5 → +1.5 | 136.5 → 132.5 → 132.5 | +102 → -102 | -122 → -118 | TOTAL down 4 |
 | Northwest Indian RedHawks @ Portland State Vikings | Thu 11-19 10:00 PM | - → - → - | - → - → - | - → - | - → - | - |
@@ -38,14 +37,14 @@ Spread = AWAY team's number. Each cell is open → first pull today → now (Dra
 | East Texas A&M Lions @ California Golden Bears | Thu 11-19 10:00 PM | +14.5 → +13.5 → +14.5 | 146.5 → 145.5 → 145.5 | +700 → +750 | -1100 → -1200 | TODAY spr +1 |
 | VCU Rams @ Santa Clara Broncos | Thu 11-19 10:30 PM | +1.5 → +2.5 → +1.5 | 164.5 → 164.5 → 163.5 | +100 → +110 | -120 → -130 | TODAY spr -1; TODAY tot -1 |
 | Houston Cougars @ Kansas Jayhawks (neutral) | Thu 11-19 11:00 PM | -2.5 → -2.5 → -3.5 | 148.5 → 151.5 → 150.5 | -130 → -166 | +110 → +140 | TOTAL up 2; TODAY spr -1; TODAY tot -1 |
-| Tarleton State Texans @ USC Trojans | Thu 11-19 11:00 PM | +26.5 → +27.5 → +28.5 | 157.5 → 159.5 → 158.5 | +3000 → +5000 | -10000 → -100000 | STEAM home 2; TODAY spr +1; TODAY tot -1 |
+| Tarleton State Texans @ USC Trojans | Thu 11-19 11:00 PM | +26.5 → +27.5 → +28.5 | 157.5 → 159.5 → 158.5 | +3000 → - | -10000 → - | STEAM home 2; TODAY spr +1; TODAY tot -1 |
 | Averett Cougars @ William & Mary Tribe | Fri 11-20 11:00 AM | - → - → - | - → - → - | - → - | - → - | - |
 | Bloomfield Deacons @ Maryland Eastern Shore Hawks | Fri 11-20 12:00 PM | - → - → - | - → - → - | - → - | - → - | - |
 | Green Bay Phoenix @ Florida State Seminoles | Fri 11-20 12:00 PM | - → - → - | - → - → - | - → - | - → - | - |
 | Oklahoma State Cowboys @ Minnesota Golden Gophers (neutral) | Fri 11-20 12:30 PM | - → - → - | - → - → - | - → - | - → - | - |
 | Temple Owls @ Middle Tennessee Blue Raiders (neutral) | Fri 11-20 12:30 PM | - → - → - | - → - → - | - → - | - → - | - |
 | UAB Blazers @ George Washington Revolutionaries (neutral) | Fri 11-20 02:00 PM | - → - → - | - → - → - | - → - | - → - | - |
-| Northwestern Wildcats @ Virginia Tech Hokies (neutral) | Fri 11-20 03:00 PM | - → - → - | - → - → - | - → - | - → - | - |
+| Northwestern Wildcats @ Virginia Tech Hokies (neutral) | Fri 11-20 03:00 PM | +11.5 → - → +10.5 | 143.5 → - → 143.5 | +625 → +470 | -950 → -650 | - |
 | Western Illinois Leathernecks @ UAlbany Great Danes (neutral) | Fri 11-20 03:00 PM | - → - → - | - → - → - | - → - | - → - | - |
 | Indiana State Sycamores @ Stephen F. Austin Lumberjacks (neutral) | Fri 11-20 03:00 PM | - → - → - | - → - → - | - → - | - → - | - |
 | South Dakota State Jackrabbits @ Idaho State Bengals | Fri 11-20 04:00 PM | - → - → - | - → - → - | - → - | - → - | - |
