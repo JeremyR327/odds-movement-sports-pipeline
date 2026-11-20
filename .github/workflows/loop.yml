@@ -23,7 +23,7 @@ concurrency:
 jobs:
   loop:
     runs-on: ubuntu-latest
-    timeout-minutes: 350
+    timeout-minutes: 358
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -32,6 +32,9 @@ jobs:
       - name: Install pyarrow (cbb_pull.py reads cbbdata's Parquet ratings)
         run: pip install --quiet pyarrow
       - name: Pull at the scheduled times (see loop_pull.py)
+        # Step limit below the job limit: a slow last slot fails this step instead of the job being
+        # cancelled at the job limit, so the restart step below still runs and the chain continues.
+        timeout-minutes: 345
         env:
           TEAMRANKINGS_COOKIE: ${{ secrets.TEAMRANKINGS_COOKIE }}
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
