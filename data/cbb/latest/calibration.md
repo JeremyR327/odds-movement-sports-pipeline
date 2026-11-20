@@ -1,4 +1,4 @@
-# CBB calibration, season to date — 325 games graded (updated 2026-11-20 15:33 ET)
+# CBB calibration, season to date — 325 games graded (updated 2026-11-20 17:44 ET)
 
 Mean absolute error vs the final margin; lower is better. The closing line is the benchmark to beat.
 
@@ -45,7 +45,7 @@ CLV = points the close moved toward the flagged side after the FIRST snapshot th
 | FAT (opponent of the tired team) | 0 | — | — | — | — | 0-0 |
 | ALT (home team at altitude) | 0 | — | — | — | — | 0-0 |
 | FIRST-MOVE (1.5+ off the opener before 10 AM) | 0 | — | — | — | — | 0-0 |
-| LAG (FanDuel/Novig 1+ off Pinnacle, at that book) | 0 | — | — | — | — | 0-0 |
+| LAG (FanDuel/Novig 1+ off the market, at that book) | 0 | — | — | — | — | 0-0 |
 
 Flag families overlap (a game can be EDGE, FADE and TOTAL at once); judge each on its own record.
 Change weights or thresholds only after ~300 graded games, and only where a gap holds in every tier.
