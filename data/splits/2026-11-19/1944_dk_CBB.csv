@@ -1,0 +1,40 @@
+pulled_et,when,away,home,espn_id,spread_open,spread_now,total_open,total_now,open_at,spread_open_espn,total_open_espn,spr_away_sel,spr_away_handle,spr_away_bets,spr_home_handle,spr_home_bets,over_handle,over_bets,ml_away_handle,ml_away_bets,tr_proj_spread_away,tr_proj_total,flags,signal
+2026-11-19T19:44-05:00,Thu 11/19 8:00 PM,Texas A&M,TCU,401919050,-1.5,-1.5,162.5,163.5,ESPN open,-1.5,162.5,Texas A&M -1.5,79,61,21,39,90,59,78,69,2.0,163.2,SHARP Texas A&M -1.5 +18; SHARP Over +31,4
+2026-11-19T19:44-05:00,Thu 11/19 8:00 PM,SE Missouri State,Saint Thomas MN,,,,,,,,,SE Missouri State +6.5,9,30,91,70,67,61,16,8,,,PUB Saint Thomas MN -6.5 70%; SHARP Saint Thomas MN -6.5 +21,3
+2026-11-19T19:44-05:00,Thu 11/19 8:00 PM,Georgia Southern,Houston Christian,401921028,3.5,3.5,148.5,153.5,ESPN open,3.5,148.5,Georgia Southern +3.5,34,48,66,52,99,53,5,25,,,SHARP Over +46; TOTAL up 5,3
+2026-11-19T19:44-05:00,Thu 11/19 8:00 PM,Southern Utah,Texas,401906867,38.5,35.5,157.5,155.5,ESPN open,38.5,157.5,Southern Utah +35.5,2,23,98,77,50,45,,,,,PUB Texas -35.5 77%; SHARP Texas -35.5 +21; RLM Southern Utah +35.5 (+38.5→+35.5); STEAM away 3,7
+2026-11-19T19:44-05:00,Thu 11/19 8:00 PM,Stetson,Louisville,401918950,34.5,36.5,154.5,154.5,ESPN open,34.5,154.5,Stetson +36.5,36,43,64,57,71,56,,,,,STEAM home 2; SHARP Over +15,3
+2026-11-19T19:44-05:00,Thu 11/19 8:30 PM,Seton Hall,Wisconsin,401920888,3.5,5.5,140.5,138.5,ESPN open,3.5,140.5,Seton Hall +5.5,83,50,17,50,8,53,5,9,,,SHARP Seton Hall +5.5 +33; STEAM home 2; SHARP Under +45,5
+2026-11-19T19:44-05:00,Thu 11/19 8:30 PM,UNLV,Rutgers,,,,,,,,,UNLV +2.5,4,27,96,73,99,69,55,21,2.9,156.9,PUB Rutgers -2.5 73%; SHARP Rutgers -2.5 +23; PUB Over 69%; SHARP Over +30,6
+2026-11-19T19:44-05:00,Thu 11/19 9:00 PM,Oregon State,Oregon,401930884,2.5,1.5,164.5,160.5,ESPN open,2.5,164.5,Oregon State +1.5,51,44,49,56,75,53,15,32,,,RLM Oregon State +1.5 (+2.5→+1.5); SHARP Over +22; TOTAL down 4,6
+2026-11-19T19:44-05:00,Thu 11/19 9:00 PM,UTEP,New Mexico State,401911534,1.5,1.5,136.5,134.5,ESPN open,1.5,136.5,UTEP +1.5,16,54,84,46,46,73,45,37,,,SHARP New Mexico State -1.5 +38; PUB Over 73%; SHARP Under +27,5
+2026-11-19T19:44-05:00,Thu 11/19 9:00 PM,Utah Tech,Washington,401925941,17.5,16.5,159.5,155.5,ESPN open,17.5,159.5,Utah Tech +16.5,8,34,92,66,45,50,0,2,,,PUB Washington -16.5 66%; SHARP Washington -16.5 +26; RLM Utah Tech +16.5 (+17.5→+16.5); TOTAL down 4,7
+2026-11-19T19:44-05:00,Thu 11/19 9:00 PM,UC Santa Barbara,Pepperdine,401928354,-3.5,-1.5,150.5,148.5,ESPN open,-3.5,150.5,UC Santa Barbara -1.5,96,66,4,34,2,50,64,79,,,PUB UC Santa Barbara -1.5 66%; SHARP UC Santa Barbara -1.5 +30; RLM Pepperdine +1.5 (-3.5→-1.5); STEAM home 2; SHARP Under +48,9
+2026-11-19T19:44-05:00,Thu 11/19 9:00 PM,Southern Miss,Grambling,401928388,-1.5,-1.5,147.5,144.5,ESPN open,-1.5,147.5,Southern Miss -1.5,10,44,90,56,100,75,14,63,,,SHARP Grambling +1.5 +34; TOTAL down 3,3
+2026-11-19T19:44-05:00,Thu 11/19 10:00 PM,Sacramento State,Stanford,401920349,16.5,16.5,151.5,154.5,ESPN open,16.5,151.5,Sacramento State +16.5,44,46,56,54,32,50,0,5,,,SHARP Under +18; TOTAL up 3,3
+2026-11-19T19:44-05:00,Thu 11/19 10:00 PM,East Texas A&M,California,401918056,14.5,14.5,146.5,145.5,ESPN open,14.5,146.5,East Texas A&M +14.5,7,30,93,70,100,100,5,5,,,PUB California -14.5 70%; SHARP California -14.5 +23,3
+2026-11-19T19:44-05:00,Thu 11/19 10:30 PM,VCU,Santa Clara,401917536,1.5,1.5,164.5,163.5,ESPN open,1.5,164.5,VCU +1.5,17,25,83,75,100,67,9,40,,,PUB Santa Clara -1.5 75%,1
+2026-11-19T19:44-05:00,Thu 11/19 11:00 PM,Kansas,Houston,,,,,,,,,Kansas +3.5,25,36,75,64,93,69,4,23,,,PUB Over 69%; SHARP Over +24,3
+2026-11-19T19:44-05:00,Thu 11/19 11:00 PM,Tarleton State,USC,401926773,26.5,28.5,157.5,158.5,ESPN open,26.5,157.5,Tarleton State +28.5,88,21,12,79,96,44,,,,,PUB USC -28.5 79%; SHARP Tarleton State +28.5 +67; STEAM home 2; SHARP Over +52,6
+2026-11-19T19:44-05:00,Fri 11/20 12:30 PM,Oklahoma State,Minnesota,401921418,-1.5,-1.5,146.5,146.5,ESPN open,-1.5,146.5,Oklahoma State -1.5,0,0,100,100,,,0,0,,,THIN spread sample,0
+2026-11-19T19:44-05:00,Fri 11/20 3:00 PM,Indiana State,Stephen F. Austin,401916123,2.5,3.5,144.5,144.5,ESPN open,2.5,144.5,Indiana State +3.5,0,0,100,100,,,,,,,THIN spread sample,0
+2026-11-19T19:44-05:00,Fri 11/20 3:00 PM,Northwestern,Virginia Tech,401920380,11.5,10.5,143.5,143.5,ESPN open,11.5,143.5,,,,,,,,0,0,,,,0
+2026-11-19T19:44-05:00,Fri 11/20 4:00 PM,South Dakota State,Idaho State,401922022,-6.5,-6.5,145.5,145.5,ESPN open,-6.5,145.5,South Dakota State -6.5,100,100,0,0,,,,,,,THIN spread sample,0
+2026-11-19T19:44-05:00,Fri 11/20 4:30 PM,Rhode Island,Liberty,401920066,-2.5,-2.5,141.5,141.5,ESPN open,-2.5,141.5,Rhode Island -2.5,100,100,0,0,,,0,0,,,THIN spread sample,0
+2026-11-19T19:44-05:00,Fri 11/20 5:30 PM,UT Martin,Southern Illinois,401916124,1.5,1.5,150.5,150.5,ESPN open,1.5,150.5,UT Martin +1.5,0,0,100,100,,,100,100,,,THIN spread sample,0
+2026-11-19T19:44-05:00,Fri 11/20 5:30 PM,Dayton,Utah,401921419,1.5,1.5,141.5,141.5,ESPN open,1.5,141.5,,,,,,,,100,100,,,,0
+2026-11-19T19:44-05:00,Fri 11/20 6:00 PM,Delaware,CSUN,,,,,,,,,Delaware +6.5,0,0,100,100,,,,,,,THIN spread sample,0
+2026-11-19T19:44-05:00,Fri 11/20 6:30 PM,North Texas,Appalachian State,,,,,,,,,,,,,,,,0,0,,,,0
+2026-11-19T19:44-05:00,Fri 11/20 7:00 PM,Georgia State,Jacksonville State,401926782,2.5,2.5,135.5,135.5,ESPN open,2.5,135.5,Georgia State +2.5,0,0,100,100,,,,,,,THIN spread sample,0
+2026-11-19T19:44-05:00,Fri 11/20 7:00 PM,Coastal Carolina,Tennessee,401906852,29.5,29.5,143.5,143.5,ESPN open,29.5,143.5,Coastal Carolina +29.5,100,100,0,0,,,,,,,THIN spread sample,0
+2026-11-19T19:44-05:00,Fri 11/20 7:00 PM,UMKC,Iona,,,,,,,,,UMKC +4.5,0,0,100,100,,,,,,,THIN spread sample,0
+2026-11-19T19:44-05:00,Fri 11/20 7:00 PM,Monmouth,Princeton,401924736,3.5,3.5,138.5,139.5,ESPN open,3.5,138.5,Monmouth +3.5,0,0,100,100,,,,,,,THIN spread sample,0
+2026-11-19T19:44-05:00,Fri 11/20 7:00 PM,Oakland,Purdue,401926134,25.5,25.5,147.5,147.5,ESPN open,25.5,147.5,Oakland +25.5,100,100,0,0,,,,,,,THIN spread sample,0
+2026-11-19T19:44-05:00,Fri 11/20 7:00 PM,Richmond,Western Kentucky,401927396,-1.5,-1.5,152.5,152.5,ESPN open,-1.5,152.5,Richmond -1.5,100,100,0,0,,,,,,,THIN spread sample,0
+2026-11-19T19:44-05:00,Fri 11/20 7:30 PM,Iowa,Xavier,401909545,3.5,3.5,145.5,145.5,ESPN open,3.5,145.5,Iowa +3.5,0,0,100,100,,,,,,,THIN spread sample,0
+2026-11-19T19:44-05:00,Fri 11/20 7:30 PM,Tulsa,Mississippi State,401925865,5.5,5.5,153.5,153.5,ESPN open,5.5,153.5,Tulsa +5.5,0,0,100,100,,,,,,,THIN spread sample,0
+2026-11-19T19:44-05:00,Fri 11/20 8:00 PM,Kentucky,Indiana,401916290,3.5,3.5,155.5,155.5,ESPN open,3.5,155.5,Kentucky +3.5,0,0,100,100,,,0,0,,,THIN spread sample,0
+2026-11-19T19:44-05:00,Fri 11/20 8:00 PM,Utah Valley,East Carolina,401916125,-4.5,-4.5,152.5,152.5,ESPN open,-4.5,152.5,Utah Valley -4.5,100,100,0,0,,,,,,,THIN spread sample,0
+2026-11-19T19:44-05:00,Fri 11/20 8:00 PM,South Alabama,SMU,401929459,16.5,16.5,149.5,149.5,ESPN open,16.5,149.5,South Alabama +16.5,100,100,0,0,,,,,,,THIN spread sample,0
+2026-11-19T19:44-05:00,Fri 11/20 8:00 PM,Campbell,Kansas State,401909799,15.5,15.5,156.5,156.5,ESPN open,15.5,156.5,Campbell +15.5,100,100,0,0,,,,,,,THIN spread sample,0
+2026-11-19T19:44-05:00,Fri 11/20 11:00 PM,Saint Louis,Saint Marys,401911252,1.5,1.5,158.5,158.5,ESPN open,1.5,158.5,Saint Louis +1.5,0,0,100,100,,,,,,,THIN spread sample,0

@@ -1,0 +1,14 @@
+pulled_et,espn_id,start_et,away,home,away_abbr,home_abbr,book,spread_open,spread_now,spread_odds_now,total_open,total_now,ml_away_open,ml_away_now,ml_home_open,ml_home_now,status
+2026-11-19T19:44-05:00,401873066,Thu 11-19 08:15 PM,Indianapolis Colts,Houston Texans,IND,HOU,Draft Kings,5.5,12.5,-108.0,45.5,44.5,195.0,533.0,-238.0,-750.0,
+2026-11-19T19:44-05:00,401873070,Sun 11-22 01:00 PM,Miami Dolphins,Buffalo Bills,MIA,BUF,Draft Kings,11.5,16.5,-112.0,47.5,44.5,440.0,850.0,-600.0,-1440.0,
+2026-11-19T19:44-05:00,401873071,Sun 11-22 01:00 PM,New Orleans Saints,Chicago Bears,NO,CHI,Draft Kings,6.5,11.5,-112.0,46.5,48.5,225.0,447.0,-278.0,-600.0,
+2026-11-19T19:44-05:00,401873073,Sun 11-22 01:00 PM,Tennessee Titans,Dallas Cowboys,TEN,DAL,Draft Kings,6.5,8.5,-115.0,48.5,55.5,235.0,307.0,-290.0,-387.0,
+2026-11-19T19:44-05:00,401873072,Sun 11-22 01:00 PM,Tampa Bay Buccaneers,Detroit Lions,TB,DET,Draft Kings,4.5,6.0,-107.0,49.5,45.5,190.0,230.0,-230.0,-281.0,
+2026-11-19T19:44-05:00,401873067,Sun 11-22 01:00 PM,Arizona Cardinals,Kansas City Chiefs,ARI,KC,Draft Kings,11.5,16.5,-113.0,44.5,40.5,440.0,840.0,-600.0,-1420.0,
+2026-11-19T19:44-05:00,401873076,Sun 11-22 01:00 PM,Pittsburgh Steelers,Philadelphia Eagles,PIT,PHI,Draft Kings,5.5,-4.5,-105.0,42.5,38.5,205.0,-205.0,-250.0,171.0,
+2026-11-19T19:44-05:00,401873068,Sun 11-22 01:00 PM,Baltimore Ravens,Carolina Panthers,BAL,CAR,Draft Kings,-4.5,3.0,-115.0,46.5,43.5,-218.0,123.0,180.0,-146.0,
+2026-11-19T19:44-05:00,401873074,Sun 11-22 04:05 PM,New York Jets,Los Angeles Chargers,NYJ,LAC,Draft Kings,9.5,3.0,-106.0,41.5,41.5,340.0,143.0,-440.0,-170.0,
+2026-11-19T19:44-05:00,401873075,Sun 11-22 04:25 PM,Las Vegas Raiders,Denver Broncos,LV,DEN,Draft Kings,8.5,10.0,-105.0,41.5,40.5,330.0,436.0,-425.0,-583.0,
+2026-11-19T19:44-05:00,401873069,Sun 11-22 04:25 PM,Jacksonville Jaguars,New York Giants,JAX,NYG,Draft Kings,-1.5,-6.0,-110.0,46.5,46.5,-125.0,-259.0,105.0,214.0,
+2026-11-19T19:44-05:00,401873077,Sun 11-22 08:20 PM,Minnesota Vikings,San Francisco 49ers,MIN,SF,Draft Kings,3.5,3.5,-118.0,46.5,46.5,170.0,147.0,-205.0,-174.0,neutral
+2026-11-19T19:44-05:00,401873078,Mon 11-23 08:15 PM,Cincinnati Bengals,Washington Commanders,CIN,WSH,Draft Kings,-1.5,-6.0,-112.0,52.5,53.5,-125.0,-279.0,105.0,228.0,
