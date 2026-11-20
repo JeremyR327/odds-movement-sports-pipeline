@@ -24,7 +24,7 @@ After each pull it refreshes data/latest/ (publish_gist.py --write-dir), commits
 and pushes. A failed pull or push is logged and the loop carries on.
 Set LOOP_MINUTES to change how long one run lasts (default 330).
 """
-import os, subprocess, sys, time
+import glob, os, shutil, subprocess, sys, time
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
@@ -61,6 +61,29 @@ def sh(*cmd):
     return subprocess.run(cmd).returncode
 
 
+# WebFetch (the cloud tasks' reader) caches a fixed URL for days and ignores ?t=, so a task asking
+# for data/splits/latest/status.json can get last week's copy. Each slot also writes the small
+# status/brief files to a path that is new every pull: data/snap/<date>/<HHMM of the slot>/.
+SNAP = {"data/splits/latest/status.json": "splits_status.json", "data/cbb/latest/status.json": "cbb_status.json",
+        "data/cbb/latest/brief.md": "cbb_brief.md", "data/cbb/latest/calibration.md": "cbb_calibration.md",
+        "data/lines_status.json": "lines_status.json", "data/tr_status.json": "tr_status.json"}
+
+
+def snapshot(when, kinds):
+    out = os.path.join("data", "snap", when.strftime("%Y-%m-%d"), when.strftime("%H%M"))
+    os.makedirs(out, exist_ok=True)
+    srcs = dict(SNAP)
+    for p in glob.glob("data/splits/latest/brief_*.md"):
+        srcs[p] = "splits_" + os.path.basename(p)
+    n = 0
+    for src, name in srcs.items():
+        fresh = os.path.exists(src) and os.path.getmtime(src) >= when.timestamp() - 60
+        if fresh:                      # only files this slot actually rewrote
+            shutil.copyfile(src, os.path.join(out, name)); n += 1
+    with open(os.path.join(out, "README.md"), "w") as f:
+        f.write(f"Snapshot of slot {when:%Y-%m-%d %H:%M} ET ({'+'.join(kinds)}): {n} files.\n")
+
+
 def save(label):
     """Commit + push via save_pull.py: own files first, then rebuild data/latest/ on top of
     the newest main, so overlapping jobs can't conflict (see save_pull.py)."""
@@ -89,6 +112,10 @@ def main():
             sh(sys.executable, "teamrankings_pull.py")
         if "cbb" in kinds:
             sh(sys.executable, "cbb_pull.py")        # exit 2 = no slate possible; logged, loop continues
+        try:
+            snapshot(when, kinds)
+        except Exception as e:
+            print(f"snapshot failed: {e}", flush=True)
         names = {"lines": "Lines pull", "tr": "TeamRankings pull", "cbb": "CBB pull"}
         save("Pipeline pull" if len(kinds) > 1 else names[kinds[0]])
 
