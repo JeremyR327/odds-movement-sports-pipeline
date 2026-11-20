@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-20",
+  "pulled_et": "2026-11-20T10:41-05:00",
+  "repaired": "error: No module named 'repair_cbb_lines'",
+  "espn": "ok 59 games",
+  "torvik": "ok 365 teams (CollegeBasketballData adjusted efficiency, 68 poss); pace from TeamRankings for 353 teams",
+  "tr": "ok 365 teams (2026-11-19 1529)",
+  "bpi": "ok 365 teams",
+  "espn_lines": "51/51 priced games have ESPN's DraftKings opener",
+  "cbbd_lines": "skipped: ESPN has DraftKings open + current (saves the CBBD monthly quota)",
+  "dk_splits": "ok 46 games, pulled 09:09",
+  "games_written": 51,
+  "with_line": 51,
+  "with_espn_open": 51,
+  "flags": 6,
+  "mkt_flags": 6,
+  "tier1_mkt_flags": 0,
+  "total_flags": 2,
+  "fade_flags": 19,
+  "unmatched": [
+    "Averett Cougars @ William & Mary Tribe",
+    "Bloomfield Deacons @ Maryland Eastern Shore Hawks",
+    "Worcester State Lancers @ Bryant Bulldogs",
+    "Central Baptist Mustangs @ Incarnate Word Cardinals",
+    "WVU Tech Golden Bears @ Akron Zips",
+    "Paine Lions @ West Georgia Wolves",
+    "West Coast Baptist Eagles @ Pepperdine Waves",
+    "Neumann Knights @ Lehigh Mountain Hawks"
+  ],
+  "sources": "espn ok 59 games \u00b7 espn_lines 51/51 priced games have ESPN's DraftKings opener \u00b7 torvik ok 365 teams (CollegeBasketballData adjusted efficiency, 68 poss); pace from TeamRankings for 353 teams \u00b7 tr ok 365 teams (2026-11-19 1529) \u00b7 bpi ok 365 teams",
+  "calibration": {
+    "games": 28,
+    "with_open": 28,
+    "avg_gap_cons_vs_open": 3.33,
+    "avg_gap_cons_vs_close": 3.45,
+    "avg_move_open_to_close": 1.29,
+    "pct_moved_toward_consensus": 42.1,
+    "flagged_games_graded": 3,
+    "flagged_covered": 1
+  },
+  "results": "2026-11-19: 28 finals",
+  "season_graded": 325
+}
