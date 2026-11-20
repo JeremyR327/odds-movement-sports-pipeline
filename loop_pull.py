@@ -9,7 +9,8 @@ Pulls are timed to feed the scheduled Claude tasks (all ET). VSiN was dropped on
 (DraftKings open + current, espn_lines.py), which runs here on GitHub's servers. Every lines
 pull is followed by dk_splits.py (DK Network handle/bets for every NFL and CFB game, joined to
 those lines, with the rubric flags; written to data/splits/latest/).
-  9:09 AM daily          lines: morning baseline for the day's line path
+  9:09 AM daily          lines + scores: morning baseline; finals for recent NFL/CFB/NBA games
+  12:39 PM daily         (also scores: second finals pass)
   9:59 AM Sat/Sun        lines: for the 10:13 AM weekend final check
   12:39 PM daily         lines: midday point on the path
   3:29 PM daily          lines + TeamRankings: for the 3:45 PM NFL & CFB scan
@@ -31,16 +32,17 @@ from zoneinfo import ZoneInfo
 ET = ZoneInfo("America/New_York")
 # (hour, minute, weekdays or None for every day, kinds); weekday 5 = Sat, 6 = Sun
 SLOTS = [
-    (9, 9, None, ["lines"]),
+    (9, 9, None, ["lines", "scores"]),     # + finals for yesterday's games (data/results/)
     (9, 59, {5, 6}, ["lines"]),
-    (12, 39, None, ["lines"]),
+    (12, 39, None, ["lines", "scores"]),   # second finals pass (late West Coast games, ESPN lag)
     (13, 44, None, ["cbb"]),        # CBB snapshot before the early-afternoon tips (weekend noon-3 PM games)
-    (15, 29, None, ["lines", "tr", "cbb"]),   # + CBB snapshot before 4-6 PM tips
+    (15, 29, None, ["lines", "tr", "books", "cbb"]),   # + books (FD/Novig/Pinnacle) + CBB before 4-6 PM tips
     (17, 39, None, ["lines"]),
-    (10, 41, None, ["cbb"]),
+    (7, 4, None, ["cbb"]),          # early CBB read: FIRST-MOVE flags (opener -> before 10 AM)
+    (10, 41, None, ["books_cbb", "cbb"]),
     (17, 44, None, ["cbb"]),        # after the 5:39 lines pull; read by the 5:57 PM CBB pre-tip task
-    (19, 44, None, ["lines", "cbb"]),  # last read before the 9 PM tips (lines + DK splits + CBB)
-    (22, 41, None, ["lines", "cbb"]),  # late games and closing lines for the next morning's grading
+    (19, 44, None, ["lines", "books", "cbb"]),  # last read before the 9 PM tips (lines + DK splits + books + CBB)
+    (22, 41, None, ["lines", "cbb", "cbb_tomorrow"]),  # closing lines for grading + tomorrow's CBB openers
 ]
 RUN_FOR = timedelta(minutes=int(os.environ.get("LOOP_MINUTES", "330")))
 
@@ -66,7 +68,9 @@ def sh(*cmd):
 # status/brief files to a path that is new every pull: data/snap/<date>/<HHMM of the slot>/.
 SNAP = {"data/splits/latest/status.json": "splits_status.json", "data/cbb/latest/status.json": "cbb_status.json",
         "data/cbb/latest/brief.md": "cbb_brief.md", "data/cbb/latest/calibration.md": "cbb_calibration.md",
-        "data/lines_status.json": "lines_status.json", "data/tr_status.json": "tr_status.json"}
+        "data/lines_status.json": "lines_status.json", "data/tr_status.json": "tr_status.json",
+        "data/results/status.json": "results_status.json", "data/books/status.json": "books_status.json",
+        "data/cbb/latest/brief_tomorrow.md": "cbb_brief_tomorrow.md"}
 
 
 def snapshot(when, kinds):
@@ -75,6 +79,8 @@ def snapshot(when, kinds):
     srcs = dict(SNAP)
     for p in glob.glob("data/splits/latest/brief_*.md"):
         srcs[p] = "splits_" + os.path.basename(p)
+    for p in glob.glob("data/books/latest/board_*.md"):
+        srcs[p] = "books_" + os.path.basename(p)
     n = 0
     for src, name in srcs.items():
         fresh = os.path.exists(src) and os.path.getmtime(src) >= when.timestamp() - 60
@@ -108,15 +114,23 @@ def main():
         if "lines" in kinds:
             sh(sys.executable, "espn_lines.py")
             sh(sys.executable, "dk_splits.py")       # DK Network splits for every NFL/CFB game, joined to these lines
+        if "scores" in kinds:
+            sh(sys.executable, "scores_pull.py", "8")   # NFL/CFB/NBA finals + closes for the last 8 days
         if "tr" in kinds:
             sh(sys.executable, "teamrankings_pull.py")
+        if "books" in kinds:
+            sh(sys.executable, "books_pull.py", "NFL", "CFB", "CBB")   # The Odds API, 2 credits per sport
+        if "books_cbb" in kinds:
+            sh(sys.executable, "books_pull.py", "CBB")
         if "cbb" in kinds:
             sh(sys.executable, "cbb_pull.py")        # exit 2 = no slate possible; logged, loop continues
+        if "cbb_tomorrow" in kinds:
+            sh(sys.executable, "cbb_pull.py", "--tomorrow")   # tomorrow's openers -> data/cbb/<date>/0000_slate.csv
         try:
             snapshot(when, kinds)
         except Exception as e:
             print(f"snapshot failed: {e}", flush=True)
-        names = {"lines": "Lines pull", "tr": "TeamRankings pull", "cbb": "CBB pull"}
+        names = {"lines": "Lines pull", "scores": "Scores pull", "books_cbb": "Books pull", "tr": "TeamRankings pull", "cbb": "CBB pull"}
         save("Pipeline pull" if len(kinds) > 1 else names[kinds[0]])
 
 

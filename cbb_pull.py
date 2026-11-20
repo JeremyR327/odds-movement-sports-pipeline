@@ -167,7 +167,7 @@ def espn_games(day):
             t = c.get("team", {})
             return {"school": t.get("location") or t.get("shortDisplayName") or t.get("displayName", ""),
                     "full": t.get("displayName", ""), "short": t.get("shortDisplayName", ""),
-                    "abbr": t.get("abbreviation", ""), "score": c.get("score")}
+                    "abbr": t.get("abbreviation", ""), "score": c.get("score"), "id": str(t.get("id", ""))}
         a, h = info(teams["away"]), info(teams["home"])
         odds = (comp.get("odds") or [{}])[0]
         tip = datetime.fromisoformat(ev["date"].replace("Z", "+00:00")).astimezone(ET)
@@ -581,6 +581,24 @@ def market_read(sp, open_h, cur_h, away, home):
     return out, ("thin" if thin and sp else ("n/a" if not sp else f"{ah:.0f}/{ab:.0f}"))
 
 
+BOOKS_MAX_AGE_H = 6.0     # Odds API board (data/books/latest/CBB.csv) older than this is ignored
+
+
+def books_cbb():
+    """norm('away full') + ' @ ' + norm('home full') -> books_pull.py row (FanDuel/Novig/Pinnacle lines, LAG)."""
+    p = "data/books/latest/CBB.csv"
+    if not os.path.exists(p):
+        return {}, "no books file"
+    with open(p, encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+    if not rows:
+        return {}, "books file empty"
+    age = (NOW - datetime.fromisoformat(rows[0]["pulled_et"])).total_seconds() / 3600
+    if age > BOOKS_MAX_AGE_H:
+        return {}, f"stale ({age:.1f} h old)"
+    return {norm(r["away"]) + " @ " + norm(r["home"]): r for r in rows}, f"ok {len(rows)} games, pulled {rows[0]['pulled_et'][11:16]}"
+
+
 def tr_projections():
     """(away, home) TR names -> TeamRankings final-score projection row (teamrankings_pull.py, daily
     ~3:29 PM, Tier 1-type games only), if the newest file is from today or yesterday."""
@@ -624,8 +642,21 @@ def total_read(sp, open_t, cur_t):
     return "TOTAL-MKT " + " + ".join(tags), side, ""
 
 
-def build_slate(day, games, R, TR, B, lines=None):
+def build_slate(day, games, R, TR, B, lines=None, ctx=None, preview=False):
     SPL, _ = dk_splits_cbb()
+    BK, _ = books_cbb()
+    bkeys = list(BK)
+    ctx = ctx or {}
+
+    def books_for(g):
+        for ka in {norm(g["away"]["full"]), norm(g["away"]["school"])}:
+            for kh in {norm(g["home"]["full"]), norm(g["home"]["school"])}:
+                if ka + " @ " + kh in BK:
+                    return BK[ka + " @ " + kh], 1
+                if kh + " @ " + ka in BK:          # neutral sites: books can list the teams the other way
+                    return BK[kh + " @ " + ka], -1
+        best = difflib.get_close_matches(norm(g["away"]["full"]) + " @ " + norm(g["home"]["full"]), bkeys, n=1, cutoff=0.88)
+        return (BK[best[0]], 1) if best else (None, 1)
     mt = Matcher(R) if R else None
     mtr = Matcher(TR, expand=True) if TR else None
     # Without Torvik, tiers come from TR rank (1 = best rating).
@@ -735,6 +766,26 @@ def build_slate(day, games, R, TR, B, lines=None):
         # The stand-in model total is logged (torvik_total, total_model_gap) for calibration only.
         tot_gap = rnd(tv_t - float(cur_t)) if tv_t is not None and cur_t not in (None, "") else None
         fade = "FADE home fav" if (not g["neutral"] and cur_h is not None and cur_h >= FADE_FAV) else ""
+        # Small-conference context (cbb_context.py): rotation/DNP, fatigue/travel, altitude.
+        cx = ctx.get(g["espn_id"], {})
+        # FIRST-MOVE: the line already moved 1.5+ off the DraftKings opener by the early (before 10 AM)
+        # pull, when the public isn't betting small games yet: usually the first sharp bet.
+        early, early_side = "", ""
+        if not preview and NOW.hour < 10 and open_h is not None and cur_h is not None and abs(cur_h - open_h) >= 1.5:
+            early_side = "home" if cur_h > open_h else "away"
+            early = f"FIRST-MOVE {home_s if early_side == 'home' else away_s} {open_h:+.1f}→{cur_h:+.1f} by {NOW:%H:%M}"
+        # Book lag: FanDuel/Novig vs Pinnacle (else DK) from books_pull.py, in home-margin terms
+        # (the books file uses the away team's spread, which equals the home margin).
+        bk, flip = books_for(g)
+        hm = lambda v: (flip * float(v)) if v not in (None, "") else None
+        lag, lag_side, lag_line = "", "", None
+        if bk and bk.get("lag_side") and bk.get("lag_spread_away") not in (None, ""):
+            lag = bk["lag_flag"].split("; ")[0]
+            s0 = bk["lag_side"] if flip == 1 else ("home" if bk["lag_side"] == "away" else "away")
+            lag_side, lag_line = s0, hm(bk["lag_spread_away"])
+            k = -1 if s0 == "home" else 1        # each team's own spread: home margin +6 = home -6, away +6
+            lag = (f"LAG {bk['lag_book']} {home_s if s0 == 'home' else away_s} {k * lag_line:+.1f} vs "
+                   f"{bk['lag_ref']} {k * hm(bk[bk['lag_ref'] + '_spread_away']):+.1f}")
         out.append({
             "date": day.isoformat(), "tip_et": g["tip"], "espn_id": g["espn_id"],
             "away": g["away"]["school"], "home": g["home"]["school"], "site": "N" if g["neutral"] else "H",
@@ -749,14 +800,62 @@ def build_slate(day, games, R, TR, B, lines=None):
             "tr_proj_home_margin": rnd(trp_m), "tr_proj_total": rnd(trp_t),
             "tr_total_gap": rnd(trp_t - float(cur_t)) if trp_t is not None and cur_t not in (None, "") else None,
             "fade_flag": fade,
+            "rot_flag": cx.get("rot_flag", ""), "rot_side": cx.get("rot_side", ""),
+            "fat_flag": cx.get("fat_flag", ""), "fat_side": cx.get("fat_side", ""),
+            "alt_flag": cx.get("alt_flag", ""), "early_flag": early, "early_side": early_side,
+            "lag_flag": lag, "lag_side": lag_side, "lag_line": lag_line,
+            "pin_home_margin": hm(bk.get("PIN_spread_away")) if bk else None,
+            "fd_home_margin": hm(bk.get("FD_spread_away")) if bk else None,
+            "nov_home_margin": hm(bk.get("NOV_spread_away")) if bk else None,
             "pulled_et": NOW.isoformat(timespec="minutes"),
         })
     return out, unmatched, name_checks
 
 
+# Flag families graded for closing-line value: (name, flag column, side column or fixed side, line column)
+CLV_FAMILIES = [("edge", "flag", "flag_side", "cur_home_margin"), ("mkt", "mkt_flag", "mkt_side", "cur_home_margin"),
+                ("total", "total_flag", "total_side", "cur_total"), ("fade", "fade_flag", "away", "cur_home_margin"),
+                # small-conference phase (Nov 20): context and timing flags, tracked before any bet
+                ("rot", "rot_flag", "rot_side", "cur_home_margin"), ("fat", "fat_flag", "fat_side", "cur_home_margin"),
+                ("alt", "alt_flag", "home", "cur_home_margin"), ("early", "early_flag", "early_side", "cur_home_margin"),
+                # LAG is graded at the lagging book's number (FanDuel/Novig), not DraftKings'
+                ("lag", "lag_flag", "lag_side", "lag_line")]
+FIXED_SIDE = {"fade": "away", "alt": "home"}
+
+
+def clv_pts(side, bet_line, close_line):
+    """Points of closing-line value for a bet on `side` at `bet_line` (home margin, or total for over/under):
+    positive = the close moved our way after we flagged it."""
+    if side in (None, "") or bet_line is None or close_line is None:
+        return None
+    d = close_line - bet_line
+    return round(d if side in ("home", "over") else -d, 1) + 0.0
+
+
+def first_flags(slate_rows):
+    """espn_id -> {family: (side, line, pulled_et)} at the FIRST snapshot each family fired (no hindsight)."""
+    first = {}
+    for r in slate_rows:                                  # oldest files first
+        f = first.setdefault(r["espn_id"], {})
+        for fam, col, side_col, line_col in CLV_FAMILIES:
+            if fam in f or not r.get(col):
+                continue
+            if fam == "edge" and not str(r[col]).startswith("EDGE"):
+                continue
+            side = FIXED_SIDE.get(fam) or r.get(side_col, "")
+            try:
+                line = float(r[line_col])
+            except (TypeError, ValueError, KeyError):
+                continue
+            if side:
+                f[fam] = (side, line, r.get("pulled_et", ""))
+    return first
+
+
 def build_results(day, games, slate_rows):
     """Finals for `day` joined to the last slate row written for each game (oldest files first)."""
     last = {r["espn_id"]: r for r in slate_rows}
+    FIRST = first_flags(slate_rows)
     out = []
     for g in games:
         r = last.get(g["espn_id"])
@@ -782,12 +881,25 @@ def build_results(day, games, slate_rows):
             "proj_poss": num("proj_poss"), "pace_tag": r.get("pace_tag", ""),
             "tr_proj_home_margin": num("tr_proj_home_margin"), "tr_proj_total": num("tr_proj_total"),
             "fade_flag": r.get("fade_flag", ""),
+            "rot_flag": r.get("rot_flag", ""), "fat_flag": r.get("fat_flag", ""), "alt_flag": r.get("alt_flag", ""),
+            "early_flag": r.get("early_flag", ""), "lag_flag": r.get("lag_flag", ""),
             "total_result": (None if num("cur_total") is None or total == num("cur_total")
                              else ("over" if total > num("cur_total") else "under")),
             "model_err": rnd(margin - cons) if cons is not None else None,
             "close_err": rnd(margin - close) if close is not None else None,
             "home_covered": None if close is None or margin == close else margin > close,
         })
+        # Closing-line value per family, from the first snapshot it fired, and "as if bet at the open".
+        ct, ot = num("cur_total"), num("open_total")
+        for fam, _, _, line_col in CLV_FAMILIES:
+            side, line, at = FIRST.get(g["espn_id"], {}).get(fam, ("", None, ""))
+            cl, op = (ct, ot) if line_col == "cur_total" else (close, opn)
+            out[-1].update({f"{fam}_first_side": side, f"{fam}_first_line": line, f"{fam}_first_at": at,
+                            f"{fam}_clv": clv_pts(side, line, cl), f"{fam}_open_clv": clv_pts(side, op, cl),
+                            f"{fam}_rec": (None if not side or cl is None else
+                                              ("push" if (total if line_col == "cur_total" else margin) == cl else
+                                               ("win" if ((total > cl) if line_col == "cur_total" else (margin > cl)) ==
+                                                (side in ("home", "over")) else "loss")))})
     return out
 
 
@@ -813,6 +925,22 @@ def calibration(res):
             "avg_gap_cons_vs_close": avg(gaps_c), "avg_move_open_to_close": avg(moves),
             "pct_moved_toward_consensus": round(100 * toward / len(moved), 1) if moved else None,
             "flagged_games_graded": flagged, "flagged_covered": flag_cov}
+
+
+def clv_line(rows, fam, label):
+    """One CLV table row for a family over all graded results that carry first-flag fields."""
+    sub = rows
+    if fam == "mkt_t1":
+        fam, sub = "mkt", [r for r in rows if r.get("tier") == "1"]
+    g = lambda r, k: float(r[k]) if r.get(k) not in (None, "", "None") else None
+    c = [g(r, f"{fam}_clv") for r in sub if g(r, f"{fam}_clv") is not None]
+    o = [g(r, f"{fam}_open_clv") for r in sub if g(r, f"{fam}_open_clv") is not None]
+    w = sum(r.get(f"{fam}_rec") == "win" for r in sub)
+    l = sum(r.get(f"{fam}_rec") == "loss" for r in sub)
+    avg = lambda x: f"{sum(x) / len(x):+.2f}" if x else "—"
+    pct = lambda x: f"{100 * sum(v > 0 for v in x) / len(x):.0f}%" if x else "—"
+    rec = f"{w}-{l}" + (f" ({100 * w / (w + l):.1f}%)" if w + l else "")
+    return f"| {label} | {len(c)} | {avg(c)} | {pct(c)} | {avg(o)} | {pct(o)} | {rec} |"
 
 
 def calibration_all():
@@ -879,6 +1007,22 @@ def calibration_all():
             (lambda g: f"{sum((f(r, 'tr_proj_total') > f(r, 'close_total')) == (r['total_result'] == 'over') for r in g)}-"
                        f"{sum((f(r, 'tr_proj_total') > f(r, 'close_total')) != (r['total_result'] == 'over') for r in g)}")(
                 [r for r in graded_t if f(r, "tr_proj_total") is not None and abs(f(r, "tr_proj_total") - f(r, "close_total")) >= 4]),
+            "", "## Closing-line value by family (the real test at this volume)", "",
+            "CLV = points the close moved toward the flagged side after the FIRST snapshot the family fired "
+            "(no hindsight). Open CLV = the same side as if bet at the DraftKings opener (the bet-timing test). "
+            "Record = that first-flag side vs the closing number. A family that wins but has negative CLV is luck "
+            "or a fading market bias, not an edge. MKT and TOTAL-MKT flags are defined by the line already moving "
+            "their way, so their open CLV is positive by construction: judge them on CLV after the flag.", "",
+            "| Family | n | Avg CLV (pts) | % CLV > 0 | Avg open CLV | % open CLV > 0 | Record vs close |",
+            "|---|---|---|---|---|---|---|",
+            *[clv_line(rows, fam, label) for fam, label in (("edge", "EDGE (Tier 2-3)"), ("mkt", "MKT (all tiers)"),
+                                                           ("mkt_t1", "MKT Tier 1"), ("total", "TOTAL-MKT"),
+                                                           ("fade", "FADE home fav 7+"),
+                                                           ("rot", "ROT (opponent of a team missing a core player)"),
+                                                           ("fat", "FAT (opponent of the tired team)"),
+                                                           ("alt", "ALT (home team at altitude)"),
+                                                           ("early", "FIRST-MOVE (1.5+ off the opener before 10 AM)"),
+                                                           ("lag", "LAG (FanDuel/Novig 1+ off Pinnacle, at that book)"))],
             "", "Flag families overlap (a game can be EDGE, FADE and TOTAL at once); judge each on its own record.",
             "Change weights or thresholds only after ~300 graded games, and only where a gap holds in every tier."]
     os.makedirs(f"{OUT}/latest", exist_ok=True)
@@ -917,6 +1061,21 @@ def brief(slate, status):
                      + " |")
     if not t1:
         lines.append("| no Tier 1 games with a line | | | | | | | |")
+    # Small-conference context: tracked flags, judged on CLV before any bet (cbb_context.py, books_pull.py).
+    cx = lambda r: [x for x in (r.get("lag_flag"), r.get("early_flag"), r.get("rot_flag"), r.get("fat_flag"), r.get("alt_flag")) if x]
+    ctx_rows = sorted([r for r in rows if cx(r)], key=lambda r: (not r.get("lag_flag"), not r.get("early_flag"), r["tier"], r["tip_et"]))
+    lines += ["", "## Context flags (tracked on CLV, not bets): LAG · FIRST-MOVE · ROT · FAT · ALT", "",
+              "LAG = FanDuel/Novig 1+ pt off Pinnacle (else DK). FIRST-MOVE = 1.5+ off the DK opener before 10 AM. "
+              "ROT = a core player (24+ min avg) sat or played under half his minutes last game. "
+              "FAT = B2B / 3-in-4 / 3rd+ straight road game. ALT = home team at altitude.", "",
+              f"Books: {status.get('books', 'n/a')} · Context: {status.get('context', 'n/a')}", "",
+              "| Game (ET) | Tier | Open→now (DK) | PIN / FD / NOV | DK h/b | Flags |", "|---|---|---|---|---|---|"]
+    for r in ctx_rows:
+        lines.append(f"| {r['away']} @ {r['home']} {r['tip_et']} | {r['tier']} | {f(r['open_home_margin'])}→{f(r['cur_home_margin'])} | "
+                     f"{f(r.get('pin_home_margin'))} / {f(r.get('fd_home_margin'))} / {f(r.get('nov_home_margin'))} | "
+                     f"{r['dk_spr_away_h_b']} | {' · '.join(cx(r))} |")
+    if not ctx_rows:
+        lines.append("| no context flags this pull | | | | | |")
     lines += ["", "## All games (flags first)", "",
               "| Game (ET) | Site | Tier | Line src | Open→now | Total open→now | Torvik | TR | BPI | Cons | Fair | Edge | To model | DK h/b | Flag | MKT | TOTAL | FADE |",
               "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
@@ -939,21 +1098,15 @@ def main():
     ap.add_argument("--date", default=NOW.date().isoformat())
     ap.add_argument("--season", default="2027")
     ap.add_argument("--no-results", action="store_true")
+    ap.add_argument("--tomorrow", action="store_true",
+                    help="late-night preview of tomorrow's slate (openers): writes data/cbb/<tomorrow>/0000_slate.csv "
+                         "and latest/brief_tomorrow.md only")
     args = ap.parse_args()
     day = datetime.strptime(args.date, "%Y-%m-%d").date()
+    if args.tomorrow:
+        day, args.no_results = NOW.date() + timedelta(days=1), True
     status = {"date": day.isoformat(), "pulled_et": NOW.isoformat(timespec="minutes")}
     soft_fail = False
-
-    # Fix slate rows priced from stale VSiN Circa snapshots (Nov 14-15, 2026, and any run of the
-    # old code) before anything below grades them. Does nothing once everything is fixed.
-    try:
-        sys.modules.setdefault("cbb_pull", sys.modules[__name__])   # share this module, not a 2nd copy
-        import repair_cbb_lines
-        fixed, days = repair_cbb_lines.repair(log=lambda *a: None)
-        if fixed:
-            status["repaired"] = f"{fixed} stale Circa slate rows re-lined from DraftKings ({', '.join(sorted(days))})"
-    except Exception as e:
-        status["repaired"] = f"error: {e}"; soft_fail = True
 
     try:
         games = espn_games(day); status["espn"] = f"ok {len(games)} games"
@@ -1013,7 +1166,13 @@ def main():
             status["cbbd_lines"] = f"error: {e}".replace(lkey, "***")
 
     status["dk_splits"] = dk_splits_cbb()[1]
-    slate, unmatched, name_checks = build_slate(day, games, R, TR, B, lines)
+    status["books"] = books_cbb()[1]
+    try:
+        import cbb_context
+        ctx, status["context"] = cbb_context.for_games(day, upcoming)
+    except Exception as e:
+        ctx, status["context"] = {}, f"error: {e}"[:160]
+    slate, unmatched, name_checks = build_slate(day, games, R, TR, B, lines, ctx, preview=args.tomorrow)
     if name_checks:
         status["check_names"] = name_checks[:40]   # flags suppressed on these games
     status.update({"games_written": len(slate),
@@ -1023,8 +1182,18 @@ def main():
                    "mkt_flags": sum(1 for r in slate if r["mkt_flag"]),
                    "tier1_mkt_flags": sum(1 for r in slate if r["mkt_flag"] and r["tier"] == 1),
                    "total_flags": sum(1 for r in slate if r["total_flag"]),
-                   "fade_flags": sum(1 for r in slate if r["fade_flag"]), "unmatched": unmatched[:40]})
+                   "fade_flags": sum(1 for r in slate if r["fade_flag"]),
+                   **{f"{k}_flags": sum(1 for r in slate if r[f"{k}_flag"]) for k in ("lag", "early", "rot", "fat", "alt")},
+                   "unmatched": unmatched[:40]})
     status["sources"] = " · ".join(f"{k} {status[k]}" for k in ("espn", "espn_lines", "torvik", "tr", "bpi"))
+    if args.tomorrow:
+        # 0000 sorts first in the day's folder: the earliest snapshot (openers) for first-flag CLV,
+        # never mistaken for the close. latest/ keeps today's brief for anything still reading it.
+        write_csv(f"{OUT}/{day.isoformat()}/0000_slate.csv", slate)
+        with open(f"{OUT}/latest/brief_tomorrow.md", "w", encoding="utf-8") as fh:
+            fh.write(brief(slate, status))
+        print(json.dumps(status, indent=2))
+        return
     write_csv(f"{OUT}/{day.isoformat()}/{NOW:%H%M}_slate.csv", slate)
     write_csv(f"{OUT}/latest/slate.csv", slate)
     with open(f"{OUT}/latest/brief.md", "w", encoding="utf-8") as fh:
@@ -1051,6 +1220,28 @@ def main():
                 graded.append(f"{yday.isoformat()}: {len(res)} finals")
             except Exception as e:
                 graded.append(f"{yday.isoformat()}: error {e}"); soft_fail = True
+        # One-time catch-up: results files graded before a family existed carry no {fam}_clv columns.
+        # Rebuild them from their saved slates (oldest first, a few per run) so CLV covers the season.
+        need = CLV_FAMILIES[-1][0] + "_clv"
+        redo = []
+        for rp in sorted(glob.glob(f"{OUT}/results/????-??-??.csv")):
+            with open(rp, encoding="utf-8") as fh:
+                head = fh.readline()
+            if need not in head:
+                redo.append(os.path.basename(rp)[:10])
+        for d in redo[:6]:
+            prior = []
+            for sp in sorted(glob.glob(f"{OUT}/{d}/[0-9][0-9][0-9][0-9]_slate.csv")):
+                with open(sp, encoding="utf-8") as fh:
+                    prior += list(csv.DictReader(fh))
+            if not prior:
+                continue
+            try:
+                dd = datetime.strptime(d, "%Y-%m-%d").date()
+                write_csv(f"{OUT}/results/{d}.csv", build_results(dd, espn_games(dd), prior))
+                graded.append(f"{d}: re-graded for CLV")
+            except Exception as e:
+                graded.append(f"{d}: re-grade error {e}")
         status["results"] = "; ".join(graded) or "no earlier slate files yet"
         status["season_graded"] = calibration_all()
 
