@@ -12,8 +12,8 @@ Caches (so each ESPN page is read once):
   data/cbb/box/<date>.json     espn_id -> team_id -> [{id, name, min, starter, dnp}] for finals
 ROT  = a core player (avg 24+ min over 3+ prior games) played < 50% of his average, or was
        listed DNP / missing, in his team's most recent game. Side = the opponent.
-FAT  = played yesterday (B2B), or 2+ games in the prior 3 days (3-in-4), or today is a 3rd+
-       straight road/neutral game. Side = the opponent of the tired team (none if both are).
+FAT  = played yesterday (B2B), or 2+ games in the prior 3 days (3-in-4), or today is the 3rd+
+       road/neutral game in 7 days. Side = the opponent of the tired team (none if both are).
 ALT  = home team plays at altitude (4,500 ft+) and the visitor doesn't. Side = home.
 """
 import json, os, sys, time, urllib.request
@@ -190,14 +190,12 @@ def fatigue(team_id, by_team, today, home_today, neutral_today):
         tags.append("3in4")
     away_today = neutral_today or not home_today
     if away_today:
-        streak = 0
-        for g in reversed(prior):
-            if g["neutral"] or g["away_id"] == team_id:
-                streak += 1
-            else:
-                break
-        if streak >= 2:
-            tags.append(f"ROAD{streak + 1}")
+        # 3rd+ road/neutral game in 7 days (a plain road streak flagged every early-season body-bag
+        # trip: 13 of 50 games on Nov 20, too common to mean anything)
+        week = [g for g in prior if (today - date.fromisoformat(g["date"])).days <= 6
+                and (g["neutral"] or g["away_id"] == team_id)]
+        if len(week) >= 2:
+            tags.append(f"ROAD{len(week) + 1}in7")
     return tags
 
 

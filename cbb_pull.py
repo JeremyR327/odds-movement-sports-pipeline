@@ -774,7 +774,7 @@ def build_slate(day, games, R, TR, B, lines=None, ctx=None, preview=False):
         if not preview and NOW.hour < 10 and open_h is not None and cur_h is not None and abs(cur_h - open_h) >= 1.5:
             early_side = "home" if cur_h > open_h else "away"
             early = f"FIRST-MOVE {home_s if early_side == 'home' else away_s} {open_h:+.1f}→{cur_h:+.1f} by {NOW:%H:%M}"
-        # Book lag: FanDuel/Novig vs Pinnacle (else DK) from books_pull.py, in home-margin terms
+        # Book lag: FanDuel/Novig vs the market median from books_pull.py, in home-margin terms
         # (the books file uses the away team's spread, which equals the home margin).
         bk, flip = books_for(g)
         hm = lambda v: (flip * float(v)) if v not in (None, "") else None
@@ -1022,7 +1022,7 @@ def calibration_all():
                                                            ("fat", "FAT (opponent of the tired team)"),
                                                            ("alt", "ALT (home team at altitude)"),
                                                            ("early", "FIRST-MOVE (1.5+ off the opener before 10 AM)"),
-                                                           ("lag", "LAG (FanDuel/Novig 1+ off Pinnacle, at that book)"))],
+                                                           ("lag", "LAG (FanDuel/Novig 1+ off the market, at that book)"))],
             "", "Flag families overlap (a game can be EDGE, FADE and TOTAL at once); judge each on its own record.",
             "Change weights or thresholds only after ~300 graded games, and only where a gap holds in every tier."]
     os.makedirs(f"{OUT}/latest", exist_ok=True)
@@ -1065,7 +1065,7 @@ def brief(slate, status):
     cx = lambda r: [x for x in (r.get("lag_flag"), r.get("early_flag"), r.get("rot_flag"), r.get("fat_flag"), r.get("alt_flag")) if x]
     ctx_rows = sorted([r for r in rows if cx(r)], key=lambda r: (not r.get("lag_flag"), not r.get("early_flag"), r["tier"], r["tip_et"]))
     lines += ["", "## Context flags (tracked on CLV, not bets): LAG · FIRST-MOVE · ROT · FAT · ALT", "",
-              "LAG = FanDuel/Novig 1+ pt off Pinnacle (else DK). FIRST-MOVE = 1.5+ off the DK opener before 10 AM. "
+              "LAG = FanDuel/Novig 1+ pt off the market (median of Pinnacle, DK, BetOnline, LowVig). FIRST-MOVE = 1.5+ off the DK opener before 10 AM. "
               "ROT = a core player (24+ min avg) sat or played under half his minutes last game. "
               "FAT = B2B / 3-in-4 / 3rd+ straight road game. ALT = home team at altitude.", "",
               f"Books: {status.get('books', 'n/a')} · Context: {status.get('context', 'n/a')}", "",

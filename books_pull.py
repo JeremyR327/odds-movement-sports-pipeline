@@ -34,6 +34,9 @@ SHORT = {"pinnacle": "PIN", "draftkings": "DK", "fanduel": "FD", "novig": "NOV",
          "lowvig": "LV", "kalshi": "KAL"}
 BET_BOOKS = ["fanduel", "novig"]          # where Jeremy bets: these are checked for lag
 LAG_SPREAD, LAG_TOTAL = 1.0, 1.5
+REF_BOOKS = ["pinnacle", "draftkings", "betonlineag", "lowvig"]   # market reference = median of these
+PRICE_OK = (-160, 140)    # a main line is priced near -110; exchanges post empty books at -9900/-100000
+                          # and alternate lines at -1718: anything outside this range is not the market
 MIN_CREDITS = {"floor": 8, "reserve": 40}  # below reserve only the 3:29 PM pull runs; below floor none
 LONG = ["pulled_et", "event_id", "commence_et", "away", "home", "book", "last_update",
         "spread_away", "spread_away_price", "spread_home_price", "total", "over_price", "under_price"]
@@ -60,21 +63,32 @@ def fetch(sport, key):
         time.sleep(4 * (attempt + 1))
 
 
+def price_ok(*ps):
+    try:
+        return all(p is not None and (PRICE_OK[0] <= float(p) <= -100 or 100 <= float(p) <= PRICE_OK[1]) for p in ps)
+    except (TypeError, ValueError):
+        return False
+
+
 def rows_for(events):
     out = []
     for ev in events:
         away, home = ev.get("away_team", ""), ev.get("home_team", "")
         start = datetime.fromisoformat(ev["commence_time"].replace("Z", "+00:00")).astimezone(ET)
+        if start <= NOW:          # in-play odds are not lines
+            continue
         for b in ev.get("bookmakers", []):
             r = {"pulled_et": NOW.isoformat(timespec="minutes"), "event_id": ev.get("id"),
                  "commence_et": start.isoformat(timespec="minutes"), "away": away, "home": home,
                  "book": b.get("key"), "last_update": b.get("last_update", "")}
             for m in b.get("markets", []):
                 oc = {o.get("name"): o for o in m.get("outcomes", [])}
-                if m.get("key") == "spreads" and away in oc and home in oc:
+                if m.get("key") == "spreads" and away in oc and home in oc and \
+                        price_ok(oc[away].get("price"), oc[home].get("price")):
                     r.update(spread_away=oc[away].get("point"), spread_away_price=oc[away].get("price"),
                              spread_home_price=oc[home].get("price"))
-                elif m.get("key") == "totals" and "Over" in oc and "Under" in oc:
+                elif m.get("key") == "totals" and "Over" in oc and "Under" in oc and \
+                        price_ok(oc["Over"].get("price"), oc["Under"].get("price")):
                     r.update(total=oc["Over"].get("point"), over_price=oc["Over"].get("price"),
                              under_price=oc["Under"].get("price"))
             out.append(r)
@@ -83,10 +97,11 @@ def rows_for(events):
 
 def lag_flags(by_book):
     """by_book: book -> row. Spreads from the away side: a bigger away number is better for the away bettor."""
-    ref_book = next((b for b in ("pinnacle", "draftkings") if by_book.get(b, {}).get("spread_away") is not None), None)
+    refs = [float(by_book[b]["spread_away"]) for b in REF_BOOKS if by_book.get(b, {}).get("spread_away") is not None]
+    ref_book = "MKT" if len(refs) >= 2 else None
     flags, side, line, book_used = [], "", None, ""
     if ref_book:
-        ref = float(by_book[ref_book]["spread_away"])
+        ref = median(refs)
         for b in BET_BOOKS:
             v = by_book.get(b, {}).get("spread_away")
             if v is None:
@@ -98,16 +113,16 @@ def lag_flags(by_book):
                 side, line, book_used = "home", v, b
         if side:
             k = 1 if side == "away" else -1          # show each side's own number (home -2 vs -3.5)
-            flags.append(f"LAG {SHORT[book_used]} {side} {k * line:+g} vs {SHORT[ref_book]} {k * ref:+g}")
-    tref = next((b for b in ("pinnacle", "draftkings") if by_book.get(b, {}).get("total") is not None), None)
-    if tref:
-        t = float(by_book[tref]["total"])
+            flags.append(f"LAG {SHORT[book_used]} {side} {k * line + 0.0:+g} vs market {k * ref + 0.0:+g}")
+    trefs = [float(by_book[b]["total"]) for b in REF_BOOKS if by_book.get(b, {}).get("total") is not None]
+    if len(trefs) >= 2:
+        t = median(trefs)
         for b in BET_BOOKS:
             v = by_book.get(b, {}).get("total")
             if v is not None and abs(float(v) - t) >= LAG_TOTAL:
-                flags.append(f"LAG-TOT {SHORT[b]} {'under' if float(v) > t else 'over'} {float(v):g} vs {SHORT[tref]} {t:g}")
+                flags.append(f"LAG-TOT {SHORT[b]} {'under' if float(v) > t else 'over'} {float(v):g} vs market {t:g}")
     # side/line are the bet: away spread number at the lagging book (away-side convention)
-    return flags, side, line, (SHORT[book_used] if book_used else ""), (SHORT[ref_book] if ref_book else "")
+    return flags, side, line, (SHORT[book_used] if book_used else ""), (ref_book or ""), (ref if ref_book else None)
 
 
 def wide(rows):
@@ -126,7 +141,8 @@ def wide(rows):
         sp = [float(bb[b]["spread_away"]) for b in bb if bb[b].get("spread_away") is not None]
         g["spread_range"] = round(max(sp) - min(sp), 1) if len(sp) > 1 else ""
         g["spread_median"] = median(sp) if sp else ""
-        flags, side, line, book, ref = lag_flags(bb)
+        flags, side, line, book, ref, refnum = lag_flags(bb)
+        g["MKT_spread_away"] = refnum if refnum is not None else ""
         g.update(lag_flag="; ".join(flags), lag_side=side, lag_spread_away=line if line is not None else "",
                  lag_book=book, lag_ref=ref, pulled_et=NOW.isoformat(timespec="minutes"))
         out.append(g)
@@ -138,8 +154,10 @@ def board(sport, games, note):
     cols = [SHORT[b] for b in BOOKS]
     lines = [f"# Lines across books — {sport} (pulled {NOW:%Y-%m-%d %H:%M} ET, The Odds API)", "",
              "Spread = AWAY team's number. PIN = Pinnacle (public-site odds, can lag a little), NOV = Novig, "
-             "KAL = Kalshi. LAG = FanDuel or Novig 1+ pt better than Pinnacle (else DK) on a side "
-             "(totals 1.5+): the bettable number hasn't caught up. Tracked on CLV, not a bet by itself.", "",
+             "KAL = Kalshi. Market = median of PIN/DK/BOL/LV. LAG = FanDuel or Novig 1+ pt better than the market on a side "
+             "(totals 1.5+): the bettable number hasn't caught up. Tracked on CLV, not a bet by itself. "
+             f"Lines priced outside {PRICE_OK[0]}/+{PRICE_OK[1]} (empty exchange books, alt lines) and games already "
+             "started are dropped.", "",
              f"{note}", "",
              "| Game (ET) | " + " | ".join(cols) + " | Range | Totals (PIN/DK/FD/NOV) | LAG |",
              "|---|" + "---|" * len(cols) + "---|---|---|"]
