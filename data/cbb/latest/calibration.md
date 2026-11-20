@@ -1,4 +1,4 @@
-# CBB calibration, season to date — 325 games graded (updated 2026-11-20 10:41 ET)
+# CBB calibration, season to date — 325 games graded (updated 2026-11-20 12:27 ET)
 
 Mean absolute error vs the final margin; lower is better. The closing line is the benchmark to beat.
 
@@ -29,6 +29,23 @@ Records vs the closing line (break-even at -110 is 52.4%):
 - Totals MAE: Torvik 14.99 (n=322) · TR projection 10.10 (n=5) vs closing total 13.11 (n=310)
 - TR projected margin MAE (Tier 1-type games only): 10.02 (n=5) vs closing line 9.30 (n=5)
 - TR projected total 4+ off the close (side vs the closing total): 0-0
+
+## Closing-line value by family (the real test at this volume)
+
+CLV = points the close moved toward the flagged side after the FIRST snapshot the family fired (no hindsight). Open CLV = the same side as if bet at the DraftKings opener (the bet-timing test). Record = that first-flag side vs the closing number. A family that wins but has negative CLV is luck or a fading market bias, not an edge. MKT and TOTAL-MKT flags are defined by the line already moving their way, so their open CLV is positive by construction: judge them on CLV after the flag.
+
+| Family | n | Avg CLV (pts) | % CLV > 0 | Avg open CLV | % open CLV > 0 | Record vs close |
+|---|---|---|---|---|---|---|
+| EDGE (Tier 2-3) | 107 | +0.33 | 29% | -0.18 | 34% | 57-49 (53.8%) |
+| MKT (all tiers) | 52 | +0.10 | 17% | +1.90 | 94% | 28-24 (53.8%) |
+| MKT Tier 1 | 6 | -0.50 | 0% | +0.83 | 83% | 5-1 (83.3%) |
+| TOTAL-MKT | 52 | +0.17 | 27% | +0.90 | 60% | 25-27 (48.1%) |
+| FADE home fav 7+ | 46 | +0.39 | 43% | +0.70 | 54% | 25-21 (54.3%) |
+| ROT (opponent of a team missing a core player) | 0 | — | — | — | — | 0-0 |
+| FAT (opponent of the tired team) | 0 | — | — | — | — | 0-0 |
+| ALT (home team at altitude) | 0 | — | — | — | — | 0-0 |
+| FIRST-MOVE (1.5+ off the opener before 10 AM) | 0 | — | — | — | — | 0-0 |
+| LAG (FanDuel/Novig 1+ off Pinnacle, at that book) | 0 | — | — | — | — | 0-0 |
 
 Flag families overlap (a game can be EDGE, FADE and TOTAL at once); judge each on its own record.
 Change weights or thresholds only after ~300 graded games, and only where a gap holds in every tier.
