@@ -1,0 +1,7 @@
+{
+  "pulled_et": "2026-11-21T12:39-05:00",
+  "source": "ESPN scoreboard + pipeline lines",
+  "NFL": "ok 14 games, 14 final, 0 final without a pipeline close",
+  "CFB": "ok 129 games, 71 final, 3 final without a pipeline close",
+  "NBA": "ok 67 games, 61 final, 9 final without a pipeline close"
+}
