@@ -1,4 +1,4 @@
-# CBB calibration, season to date — 376 games graded (updated 2026-11-21 07:04 ET)
+# CBB calibration, season to date — 376 games graded (updated 2026-11-21 10:41 ET)
 
 Mean absolute error vs the final margin; lower is better. The closing line is the benchmark to beat.
 
