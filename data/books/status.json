@@ -1,13 +1,13 @@
 {
-  "pulled_et": "2026-11-20T15:33-05:00",
+  "pulled_et": "2026-11-20T19:44-05:00",
   "source": "The Odds API",
   "books": "pinnacle,draftkings,fanduel,novig,betonlineag,lowvig,kalshi",
-  "credits_remaining": 468,
-  "credits_used": "32",
+  "credits_remaining": 462,
+  "credits_used": "38",
   "NFL_cost": "2",
-  "NFL": "ok 28 games; lag flags 9; books with lines: pin 12, dk 28, fd 28, nov 28, bol 26, lv 26, kal 16",
+  "NFL": "ok 28 games; lag flags 4; books with lines: pin 12, dk 28, fd 28, nov 28, bol 26, lv 26, kal 16",
   "CFB_cost": "2",
-  "CFB": "ok 80 games; lag flags 22; books with lines: pin 60, dk 75, fd 78, nov 76, bol 64, lv 62, kal 68",
+  "CFB": "ok 77 games; lag flags 7; books with lines: pin 57, dk 72, fd 75, nov 75, bol 61, lv 59, kal 65",
   "CBB_cost": "2",
-  "CBB": "ok 69 games; lag flags 23; books with lines: pin 47, dk 48, fd 48, nov 64, bol 65, lv 65, kal 56"
+  "CBB": "ok 47 games; lag flags 6; books with lines: pin 16, dk 45, fd 36, nov 46, bol 47, lv 47, kal 46"
 }
