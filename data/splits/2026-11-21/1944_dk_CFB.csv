@@ -1,0 +1,10 @@
+pulled_et,when,away,home,espn_id,spread_open,spread_now,total_open,total_now,open_at,spread_open_espn,total_open_espn,spr_away_sel,spr_away_handle,spr_away_bets,spr_home_handle,spr_home_bets,over_handle,over_bets,ml_away_handle,ml_away_bets,tr_proj_spread_away,tr_proj_total,flags,signal
+2026-11-21T19:44-05:00,Sat 11/21 8:00 PM,UTSA,UAB,401862836,-5.5,-4.0,52.5,49.5,first pull 11-16 0909,-7.5,53.5,UTSA -4,24,49,76,51,80,70,38,71,,,SHARP UAB +4 +25; STEAM home 1.5; PUB Over 70%; TOTAL down 3,5
+2026-11-21T19:44-05:00,Sat 11/21 9:00 PM,Utah,TCU,401856872,-6.5,-8.5,46.5,46.5,first pull 11-16 0909,-5.5,44.5,Utah -8.5,50,48,50,52,68,64,91,96,,,RLM Utah -8.5 (-6.5→-8.5); STEAM away 2; KEY 7,5
+2026-11-21T19:44-05:00,Sat 11/21 9:30 PM,San Diego State,Boise State,401860925,16.5,20.5,62.5,60.5,first pull 11-16 0909,18.5,62.5,San Diego State +20.5,14,28,86,72,79,84,5,0,,,PUB Boise State -20.5 72%; STEAM home 4; KEY 17; PUB Over 84%; TOTAL down 2,5
+2026-11-21T19:44-05:00,Sat 11/21 10:15 PM,Oklahoma State,Arizona State,401856870,-3.0,-2.5,61.5,59.5,first pull 11-16 0909,-4.0,62.5,Oklahoma State -2.5,90,91,10,9,100,98,30,75,,,PUB Oklahoma State -2.5 91%; RLM Arizona State +2.5 (-3→-2.5); KEY 3; TOTAL down 2,6
+2026-11-21T19:44-05:00,Sat 11/21 10:30 PM,Utah State,Oregon State,401860919,9.5,7.0,51.5,51.5,first pull 11-16 0909,10.0,49.5,Utah State +7,41,28,59,72,92,79,37,10,,,PUB Oregon State -7 72%; RLM Utah State +7 (+9.5→+7); STEAM away 2.5; KEY 7; PUB Over 79%,7
+2026-11-21T19:44-05:00,Sat 11/21 10:30 PM,Hawaii,Nevada,401864541,4.0,7.0,40.5,40.5,first pull 11-16 0909,2.5,42.5,Hawaii +7,3,23,97,77,6,49,10,18,,,PUB Nevada -7 77%; SHARP Nevada -7 +20; STEAM home 3; KEY 7; SHARP Under +43,7
+2026-11-21T19:44-05:00,Tue 11/24 7:00 PM,Miami OH,Western Michigan,,,,,,,,,Miami OH +7.5,100,100,0,0,,,,,,,THIN spread sample,0
+2026-11-21T19:44-05:00,Fri 11/27 12:00 PM,Mississippi State,Ole Miss,,,,,,,,,Mississippi State +19.5,100,100,0,0,,,0,0,,,THIN spread sample,0
+2026-11-21T19:44-05:00,Fri 11/27 12:00 PM,Nebraska,Iowa,,,,,,,,,Nebraska +6,3,50,97,50,,,,,,,SHARP Iowa -6 +47,2
