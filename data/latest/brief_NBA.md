@@ -1,16 +1,16 @@
-# NBA lines — DraftKings via ESPN, pull 12:39 ET (first pull today 09:09 ET)
+# NBA lines — DraftKings via ESPN, pull 15:29 ET (first pull today 09:09 ET)
 
 Spread = AWAY team's number. Each cell is open → first pull today → now (DraftKings open is its opener for the game). Flags: STEAM = spread moved 1.5+ since open (direction = side the market moved toward); TOTAL = total moved 2+; KEY = crossed a key number; FLIP = favorite changed; TODAY = moved 1+ since the first pull today. No splits here: read DK splits from DK Network.
 
 | Game | Start (ET) | Spread open→today→now | Total open→today→now | ML away open→now | ML home open→now | Flags |
 |---|---|---|---|---|---|---|
-| Detroit Pistons @ Atlanta Hawks | Sun 11-22 03:30 PM | -1.5 → -2.5 → -1.5 | 227.5 → 224.5 → 223.5 | -120 → -124 | +101 → +105 | TOTAL down 4; TODAY spr +1; TODAY tot -1 |
-| Oklahoma City Thunder @ Miami Heat | Sun 11-22 06:00 PM | +2.5 → +3.5 → +4.5 | 231.5 → 231.5 → 231.5 | +117 → +146 | -139 → -173 | STEAM home 2; TODAY spr +1 |
-| Orlando Magic @ Washington Wizards | Sun 11-22 07:00 PM | -5.5 → -4.5 → -4.5 | 222.5 → 220.5 → 220.5 | -206 → -204 | +172 → +170 | TOTAL down 2 |
-| Denver Nuggets @ Chicago Bulls | Sun 11-22 07:00 PM | -8.5 → -8.5 → -9.5 | 237.5 → 237.5 → 234.5 | -333 → -423 | +268 → +331 | TOTAL down 3; TODAY spr -1; TODAY tot -3 |
-| Dallas Mavericks @ Utah Jazz | Sun 11-22 07:00 PM | -1.5 → -1.5 → +1.5 | 225.5 → 225.5 → 224.5 | -119 → -108 | +101 → -110 | STEAM home 3; FLIP; TODAY spr +3; TODAY tot -1 |
-| Indiana Pacers @ New York Knicks | Sun 11-22 08:00 PM | +9.5 → +8.5 → +8.5 | 217.5 → 214.5 → 214.5 | +296 → +276 | -373 → -344 | TOTAL down 3 |
-| Boston Celtics @ Golden State Warriors | Sun 11-22 08:30 PM | -8.5 → -8.5 → -8.5 | 212.5 → 210.5 → 210.5 | -378 → -359 | +299 → +286 | TOTAL down 2 |
+| Detroit Pistons @ Atlanta Hawks | Sun 11-22 03:30 PM | -1.5 → -2.5 → -2.5 | 227.5 → 224.5 → 224.5 | -120 → -135 | +101 → +114 | TOTAL down 3 |
+| Oklahoma City Thunder @ Miami Heat | Sun 11-22 06:00 PM | +2.5 → +3.5 → +3.5 | 231.5 → 231.5 → 231.5 | +117 → +146 | -139 → -173 | - |
+| Orlando Magic @ Washington Wizards | Sun 11-22 07:00 PM | -5.5 → -4.5 → -4.5 | 222.5 → 220.5 → 220.5 | -206 → -197 | +172 → +165 | TOTAL down 2 |
+| Denver Nuggets @ Chicago Bulls | Sun 11-22 07:00 PM | -8.5 → -8.5 → -9.5 | 237.5 → 237.5 → 235.5 | -333 → -437 | +268 → +340 | TOTAL down 2; TODAY spr -1; TODAY tot -2 |
+| Dallas Mavericks @ Utah Jazz | Sun 11-22 07:00 PM | -1.5 → -1.5 → -1.5 | 225.5 → 225.5 → 225.5 | -119 → -130 | +101 → +110 | - |
+| Indiana Pacers @ New York Knicks | Sun 11-22 08:00 PM | +9.5 → +8.5 → +7.5 | 217.5 → 214.5 → 213.5 | +296 → +240 | -373 → -296 | STEAM away 2; TOTAL down 4; TODAY spr -1; TODAY tot -1 |
+| Boston Celtics @ Golden State Warriors | Sun 11-22 08:30 PM | -8.5 → -8.5 → -8.5 | 212.5 → 210.5 → 210.5 | -378 → -344 | +299 → +276 | TOTAL down 2 |
 | Memphis Grizzlies @ Charlotte Hornets | Mon 11-23 07:00 PM | - → - → - | - → - → - | - → - | - → - | - |
 | Portland Trail Blazers @ Philadelphia 76ers | Mon 11-23 07:00 PM | - → - → - | - → - → - | - → - | - → - | - |
 | Oklahoma City Thunder @ Indiana Pacers | Mon 11-23 07:30 PM | - → - → - | - → - → - | - → - | - → - | - |
