@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-23",
+  "pulled_et": "2026-11-23T15:32-05:00",
+  "espn": "ok 46 games",
+  "torvik": "ok 365 teams (saved copy from today)",
+  "tr": "ok 365 teams (2026-11-23 1529)",
+  "bpi": "ok 365 teams",
+  "espn_lines": "23/23 priced games have ESPN's DraftKings opener",
+  "cbbd_lines": "skipped: ESPN has DraftKings open + current (saves the CBBD monthly quota)",
+  "dk_splits": "ok 31 games, pulled 15:29",
+  "books": "ok 45 games, pulled 15:32",
+  "context": "ok 1224 box scores in view (0 fetched this run, 0 still to backfill), 590 teams",
+  "check_names": [
+    "Maryland Eastern Shore @ Youngstown State: TR -17.5 vs BPI +13.6"
+  ],
+  "games_written": 26,
+  "with_line": 22,
+  "with_espn_open": 22,
+  "flags": 0,
+  "mkt_flags": 7,
+  "tier1_mkt_flags": 1,
+  "total_flags": 3,
+  "fade_flags": 9,
+  "lag_flags": 3,
+  "early_flags": 0,
+  "rot_flags": 9,
+  "fat_flags": 7,
+  "alt_flags": 0,
+  "unmatched": [
+    "Temple Owls @ UT Martin Skyhawks",
+    "RIT Tigers @ Buffalo Bulls",
+    "Spalding Pelicans @ Ball State Cardinals",
+    "Mansfield Mountaineers @ Le Moyne Dolphins",
+    "Carolina University Bruins @ North Carolina Central Eagles",
+    "Dickinson State Blue Hawks @ Idaho Vandals",
+    "Carroll (MT) Fighting Saints @ Montana Grizzlies"
+  ],
+  "sources": "espn ok 46 games \u00b7 espn_lines 23/23 priced games have ESPN's DraftKings opener \u00b7 torvik ok 365 teams (saved copy from today) \u00b7 tr ok 365 teams (2026-11-23 1529) \u00b7 bpi ok 365 teams",
+  "calibration": {
+    "games": 38,
+    "with_open": 38,
+    "avg_gap_cons_vs_open": 2.69,
+    "avg_gap_cons_vs_close": 2.15,
+    "avg_move_open_to_close": 1.11,
+    "pct_moved_toward_consensus": 84.0,
+    "flagged_games_graded": 0,
+    "flagged_covered": 0
+  },
+  "results": "2026-11-22: 38 finals",
+  "season_graded": 467
+}
