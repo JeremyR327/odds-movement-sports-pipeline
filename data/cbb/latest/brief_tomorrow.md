@@ -1,80 +1,74 @@
-# CBB model brief — 2026-11-22 (pulled 22:41 ET)
+# CBB model brief — 2026-11-23 (pulled 22:41 ET)
 
 All numbers are the HOME team's margin (+ = home favored). Edge = fair minus current line; Model flags (Tier 2-3 only): EDGE = edge 3.0-5 pts, CHECK = 5+ (verify names/rosters first). Fair = market weight x opener + the rest x model consensus. MKT = market read from the DraftKings line path + DK splits (RLM, or sharp money with a same-way move); TOTAL = market read on the total (RLM, or sharp money with a same-way move of 1+); FADE = home favorite of 7+ (tracked, not a model call).
-Sources: espn ok 42 games · espn_lines 38/38 priced games have ESPN's DraftKings opener · torvik ok 365 teams (saved copy from today) · tr ok 365 teams (2026-11-21 1529) · bpi ok 365 teams · DK splits ok 28 games, pulled 22:41
+Sources: espn ok 46 games · espn_lines 30/30 priced games have ESPN's DraftKings opener · torvik ok 365 teams (saved copy from today); pace from TeamRankings for 353 teams · tr ok 365 teams (2026-11-22 1529) · bpi ok 365 teams · DK splits ok 25 games, pulled 22:41
 
 ## Tier 1 market board (both teams top-100: read the market, not the models)
 
 | Game (ET) | Site | Open→now | Total open→now | DK spr h/b (away) | Market | MKT flag | Cons / Fair · TR proj (info) |
 |---|---|---|---|---|---|---|---|
-| Nebraska @ Butler 12:00 PM | N | -11.5→-11.5 | 153.5→154.5 | thin | — | — | -12.6 / -11.7 |
-| Virginia Tech @ Oklahoma State 3:30 PM | N | +1.5→-1.5 | 158.5→158.5 | thin | STEAM Virginia Tech 3.0 | — | -0.6 / +1.1 |
+| VCU @ Providence 9:00 PM | N | +1.5→+1.5 | 152.5→154.5 | thin | — | — | -0.6 / +1.1 |
 
 ## Context flags (tracked on CLV, not bets): LAG · FIRST-MOVE · ROT · FAT · ALT
 
 LAG = FanDuel/Novig 1+ pt off the market (median of Pinnacle, DK, BetOnline, LowVig). FIRST-MOVE = 1.5+ off the DK opener before 10 AM. ROT = a core player (24+ min avg) sat or played under half his minutes last game. FAT = B2B / 3-in-4 / 3rd+ straight road game. ALT = home team at altitude.
 
-Books: ok 43 games, pulled 19:44 · Context: ok 1179 box scores in view (56 fetched this run, 0 still to backfill), 588 teams
+Books: ok 33 games, pulled 19:44 · Context: ok 1221 box scores in view (39 fetched this run, 0 still to backfill), 590 teams
 
 | Game (ET) | Tier | Open→now (DK) | PIN / FD / NOV | DK h/b | Flags |
 |---|---|---|---|---|---|
-| UMass Lowell @ Cincinnati 2:00 PM | 2 | +31.5→+30.5 | — / +29.5 / — | n/a | LAG FD Cincinnati -29.5 vs MKT -31.0 |
-| Evansville @ Memphis 2:00 PM | 2 | +21.5→+21.5 | — / +20.5 / — | thin | LAG FD Memphis -20.5 vs MKT -21.5 · ROT Evansville: AJ Casey DNP (avg 34) 11-17; ROT Memphis: Luke Almodovar DNP (avg 29) 11-15 |
-| UC Irvine @ Loyola Marymount 4:30 PM | 2 | -2.5→-3.5 | — / -2.5 / -3.5 | thin | LAG FD UC Irvine -2.5 vs MKT -3.5 · FAT UC Irvine B2B ROAD3in7; FAT Loyola Marymount B2B |
-| Utah @ Minnesota 6:00 PM | 2 | +10.5→+10.5 | — / +11.5 / +10.5 | thin | LAG FD Utah +11.5 vs MKT +10.5 |
-| Rhode Island @ UAB 7:00 PM | 2 | -2.5→-2.5 | — / -1.5 / -2.5 | n/a | LAG FD Rhode Island -1.5 vs MKT -2.5 · ROT UAB: Justyn Fernandez DNP (avg 25) 11-20 |
-| California Baptist @ Portland 7:00 PM | 2 | +10.5→+9.5 | — / +7.5 / +7.5 | n/a | LAG FD Portland -7.5 vs MKT -10.5 · ROT Portland: James O'Donnell DNP (avg 28) 11-21 · FAT California Baptist B2B; FAT Portland B2B ROAD3in7 |
-| South Dakota @ Utah Tech 2:00 PM | 3 | -1.5→+1.5 | — / — / +1.5 | thin | LAG NOV South Dakota +1.5 vs MKT -0.0 |
-| Rice @ Lamar 5:00 PM | 3 | +2.5→+2.5 | — / +1.5 / +2.5 | n/a | LAG FD Lamar -1.5 vs MKT -2.5 |
-| Nebraska @ Butler 12:00 PM | 1 | -11.5→-11.5 | — / -11.5 / — | thin | ROT Butler: Samis Calderon 10 min (avg 25) 11-19 |
-| George Washington @ Western Kentucky 2:00 PM | 2 | -5.5→-5.5 | — / — / — | thin | FAT Western Kentucky ROAD3in7 |
-| San Diego @ Fordham 2:00 PM | 2 | +2.5→+2.5 | — / +2.5 / — | thin | ROT Fordham: Rikus Schulte DNP (avg 25) 11-21 · FAT San Diego B2B; FAT Fordham B2B ROAD3in7 |
-| Richmond @ Liberty 4:30 PM | 2 | +1.5→+1.5 | — / — / +1.5 | 12/14 | FAT Richmond ROAD3in7; FAT Liberty ROAD3in7 |
-| Cal State Fullerton @ Portland State 5:00 PM | 2 | +3.5→+4.5 | — / — / — | 2/17 | ROT Portland State: Yaroslav Nikonov DNP (avg 30) 11-19 |
-| Louisiana @ USC 8:00 PM | 2 | +33.5→+33.5 | — / +32.5 / — | n/a | ROT Louisiana: Mekhi Cooper DNP (avg 29) 11-18 |
-| Western Illinois @ Canisius 1:00 PM | 3 | +3.5→+4.5 | — / — / +4.5 | thin | ROT Canisius: Vinny Sigona DNP (avg 27) 11-21 · FAT Western Illinois B2B 3in4 ROAD4in7; FAT Canisius B2B 3in4 |
-| William & Mary @ Youngstown State 2:00 PM | 3 | -2.5→-2.5 | — / — / -2.5 | thin | ROT Youngstown State: Linus Holmstrom DNP (avg 31) 11-18 |
-| West Florida @ South Alabama 3:00 PM | 3 | +7.5→+6.5 | — / — / — | thin | ROT South Alabama: Aaron Goldstein DNP (avg 35) 11-20 |
-| Mercyhurst @ UAlbany 3:30 PM | 3 | +1.5→+1.5 | — / — / — | n/a | ROT UAlbany: Zacharie Matulu DNP (avg 32) 11-21 · FAT Mercyhurst B2B 3in4 ROAD3in7; FAT UAlbany B2B 3in4 ROAD3in7 |
-| UNC Asheville @ Samford 5:00 PM | 3 | +9.5→+9.5 | — / — / +9.5 | thin | ROT UNC Asheville: Ja'Corey Lipkins 10 min (avg 26) 11-18 |
-| NJIT @ Boston College 5:00 PM | 3 | +24.5→+24.5 | — / — / — | n/a | ROT Boston College: Money Williams DNP (avg 37) 11-18 |
-| Southern Miss @ Valparaiso 6:00 PM | 3 | +8.5→+7.5 | — / — / — | thin | ROT Valparaiso: Carter Hopoi 4 min (avg 25) 11-21, JT Pettigrew 4 min (avg 26) 11-21, Rakim Chaney 4 min (avg 31) 11-21, Justus McNair 4 min (avg 25) 11-21, Sader Servilus DNP (avg 24) 11-21 · FAT Southern Miss B2B 3in4 ROAD3in7; FAT Valparaiso B2B |
+| VCU @ Providence 9:00 PM | 1 | +1.5→+1.5 | — / +1.5 / — | thin | LAG FD VCU +1.5 vs MKT +0.0 · ROT Providence: Jacob Bannarbie 10 min (avg 26) 11-17 |
+| Illinois State @ Santa Clara 7:00 PM | 2 | +5.5→+5.5 | — / +4.5 / +5.5 | thin | LAG FD Santa Clara -4.5 vs MKT -6.0 |
+| UNC Greensboro @ Pepperdine 9:30 PM | 2 | +11.5→+11.5 | — / +10.5 / +11.5 | thin | LAG FD Pepperdine -10.5 vs MKT -12.5 · ROT Pepperdine: Petar Majstorovic 6 min (avg 26) 11-20, Evan Haywood 7 min (avg 28) 11-20, Jahari Williamson 1 min (avg 27) 11-20 |
+| Alabama State @ California 10:00 PM | 2 | +19.5→+19.5 | — / — / — | thin | FAT Alabama State ROAD3in7 |
+| Long Beach State @ Florida International 1:00 PM | 2 | +9.5→+9.5 | — / — / — | n/a | ROT Long Beach State: Max Vanlaningham 8 min (avg 25) 11-16, Yohann Sissoko DNP (avg 25) 11-16 |
+| Akron @ Wright State 1:30 PM | 2 | +1.5→+1.5 | — / +1.5 / +1.5 | thin | ROT Wright State: Dominic Pangonis DNP (avg 26) 11-18 |
+| Yale @ Belmont 4:00 PM | 2 | +2.5→+2.5 | — / — / +3.5 | thin | ROT Yale: Jordan Brathwaite DNP (avg 30) 11-18 |
+| Washington @ BYU 5:00 PM | 2 | +10.5→+12.5 | — / +11.5 / +11.5 | thin | ROT BYU: Robert Wright III DNP (avg 30) 11-18 |
+| Texas A&M-Corpus Christi @ Wichita State 7:30 PM | 2 | +21.5→+21.5 | — / — / — | n/a | FAT Texas A&M-Corpus Christi ROAD3in7 |
+| Winthrop @ Illinois 8:00 PM | 2 | +45.5→+45.5 | — / — / — | thin | ROT Illinois: Quentin Coleman DNP (avg 27) 11-20 |
+| Monmouth @ North Carolina 8:00 PM | 2 | +20.5→+20.5 | — / +20.5 / — | thin | FAT Monmouth ROAD3in7 |
+| Eastern Washington @ UNLV 10:00 PM | 3 | +7.5→+7.5 | — / +7.5 / +7.5 | thin | ROT UNLV: Cam Miles 15 min (avg 33) 11-19 |
+| Indiana State @ East Carolina 12:30 PM | 3 | +2.5→+2.5 | — / +2.5 / +2.5 | thin | FAT Indiana State 3in4 ROAD3in7; FAT East Carolina 3in4 ROAD3in7 |
+| Middle Tennessee @ Southern Illinois 3:00 PM | 3 | +1.5→+2.5 | — / — / +2.5 | thin | ROT Middle Tennessee: Marcus Whitlock Jr. DNP (avg 27) 11-21 · FAT Middle Tennessee 3in4 ROAD4in7; FAT Southern Illinois 3in4 ROAD4in7 |
+| Arkansas State @ Southern Utah 3:30 PM | 3 | -6.5→-7.5 | — / — / — | thin | ROT Arkansas State: Layne Taylor 14 min (avg 32) 11-18 |
+| William & Mary @ IU Indianapolis 3:30 PM | 3 | -4.5→-4.5 | — / — / — | n/a | FAT William & Mary B2B 3in4; FAT IU Indianapolis B2B ROAD3in7 |
+| Maryland Eastern Shore @ Youngstown State 6:30 PM | 3 | +13.5→+14.5 | — / — / — | n/a | FAT Maryland Eastern Shore B2B 3in4 ROAD3in7; FAT Youngstown State B2B |
+| Central Arkansas @ North Florida 7:00 PM | 3 | -8.5→-9.5 | — / — / — | thin | ROT North Florida: JR Bartelus DNP (avg 24) 11-21 |
 
 ## All games (flags first)
 
 | Game (ET) | Site | Tier | Line src | Open→now | Total open→now | Torvik | TR | BPI | Cons | Fair | Edge | To model | DK h/b | Flag | MKT | TOTAL | FADE |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Southern Indiana @ Texas 3:00 PM | H | 2 | ESPN/DraftKings open+now | +39.5→+39.5 | 148.5→148.5 | +28.2 | +35.3 | +32.1 | +32.4 | +36.7 | -2.8 | — | n/a | — | — | — | FADE home fav |
-| Virginia Tech @ Oklahoma State 3:30 PM | N | 1 | ESPN/DraftKings open+now | +1.5→-1.5 | 158.5→158.5 | -3.0 | -1.7 | +1.2 | -0.6 | +1.1 | +2.6 | yes | thin | — | — | FAST | — |
-| Louisiana @ USC 8:00 PM | H | 2 | ESPN/DraftKings open+now | +33.5→+33.5 | 146.5→146.5 | +23.9 | +29.5 | +26.6 | +27.1 | +30.9 | -2.6 | — | n/a | — | — | — | FADE home fav |
-| Chicago State @ Marquette 1:00 PM | H | 2 | ESPN/DraftKings open+now | +33.5→+34.5 | 139.5→139.5 | +26.5 | +32.9 | +28.7 | +29.7 | +32.0 | -2.5 | no | thin | — | — | — | FADE home fav |
-| UMass Lowell @ Cincinnati 2:00 PM | H | 2 | ESPN/DraftKings open+now | +31.5→+30.5 | 148.5→147.5 | +23.3 | +26.3 | +21.6 | +23.6 | +28.3 | -2.2 | yes | n/a | — | — | — | FADE home fav |
-| William & Mary @ Youngstown State 2:00 PM | H | 3 | ESPN/DraftKings open+now | -2.5→-2.5 | 166.5→164.5 | -2.1 | +0.9 | +3.8 | +1.6 | -0.5 | +2.0 | — | thin | — | — | FAST | — |
-| Delaware @ UCLA 7:00 PM | H | 2 | ESPN/DraftKings open+now | +29.5→+29.5 | 146.5→145.5 | +22.6 | +27.5 | +23.2 | +24.6 | +27.5 | -2.0 | — | thin | — | — | SLOW | FADE home fav |
-| Mercyhurst @ UAlbany 3:30 PM | N | 3 | ESPN/DraftKings open+now | +1.5→+1.5 | 128.5→129.5 | -0.7 | -3.5 | -1.8 | -2.2 | -0.3 | -1.8 | — | n/a | — | — | SLOW | — |
-| NJIT @ Boston College 5:00 PM | H | 3 | ESPN/DraftKings open+now | +24.5→+24.5 | 135.5→135.5 | +17.5 | +23.4 | +22.1 | +21.6 | +23.1 | -1.4 | — | n/a | — | — | SLOW | FADE home fav |
-| Wyoming @ Duquesne 2:00 PM | N | 2 | ESPN/DraftKings open+now | -4.5→-3.5 | 139.5→139.5 | -2.5 | -5.9 | -6.2 | -5.4 | -4.8 | -1.3 | no | thin | — | — | SLOW | — |
-| UNC Asheville @ Samford 5:00 PM | H | 3 | ESPN/DraftKings open+now | +9.5→+9.5 | 156.5→156.5 | +6.8 | +7.5 | +7.5 | +7.4 | +8.4 | -1.1 | — | thin | — | — | — | FADE home fav |
-| Richmond @ Liberty 4:30 PM | N | 2 | ESPN/DraftKings open+now | +1.5→+1.5 | 143.5→142.5 | -1.8 | -1.2 | -0.7 | -1.1 | +0.5 | -1.0 | — | 12/14 | — | — | SLOW | — |
-| UC Irvine @ Loyola Marymount 4:30 PM | N | 2 | ESPN/DraftKings open+now | -2.5→-3.5 | 140.5→139.5 | -3.3 | -2.8 | -1.8 | -2.5 | -2.5 | +1.0 | no | thin | — | — | — | — |
-| Temple @ Stephen F. Austin 5:30 PM | N | 2 | ESPN/DraftKings open+now | -1.5→-1.5 | 144.5→144.5 | -0.2 | +1.1 | +1.5 | +1.0 | -0.5 | +1.0 | — | thin | — | — | — | — |
-| South Dakota @ Utah Tech 2:00 PM | N | 3 | ESPN/DraftKings open+now | -1.5→+1.5 | 156.5→154.5 | +0.9 | +2.3 | +4.4 | +3.0 | +0.7 | -0.8 | yes | thin | — | — | FAST | — |
-| George Washington @ Western Kentucky 2:00 PM | N | 2 | ESPN/DraftKings open+now | -5.5→-5.5 | 146.5→146.5 | -4.5 | -4.0 | -3.4 | -3.8 | -4.8 | +0.7 | — | thin | — | — | — | — |
-| Evansville @ Memphis 2:00 PM | H | 2 | ESPN/DraftKings open+now | +21.5→+21.5 | 159.5→159.5 | +16.6 | +20.4 | +20.8 | +19.8 | +20.8 | -0.7 | — | thin | — | — | — | FADE home fav |
-| Utah @ Minnesota 6:00 PM | N | 2 | ESPN/DraftKings open+now | +10.5→+10.5 | 130.5→129.5 | +7.4 | +9.8 | +8.5 | +8.7 | +9.8 | -0.7 | — | thin | — | — | SLOW | — |
-| Rhode Island @ UAB 7:00 PM | N | 2 | ESPN/DraftKings open+now | -2.5→-2.5 | 150.5→149.5 | +0.9 | -0.4 | -1.8 | -0.8 | -1.8 | +0.7 | — | n/a | — | — | — | — |
-| California Baptist @ Portland 7:00 PM | N | 2 | ESPN/DraftKings open+now | +10.5→+9.5 | 145.5→146.5 | -5.3 | +10.7 | +8.1 | +6.3 | +8.8 | -0.7 | yes | n/a | — | — | — | — |
-| Seattle U @ UC San Diego 9:30 PM | N | 2 | ESPN/DraftKings open+now | +1.5→+1.5 | 144.5→145.5 | +0.0 | — | -0.4 | -0.3 | +0.8 | -0.7 | — | thin | — | — | — | — |
-| Dayton @ Northwestern 1:00 PM | N | 2 | ESPN/DraftKings open+now | -3.5→-3.5 | 135.5→135.5 | -0.9 | -3.3 | -1.5 | -2.0 | -2.9 | +0.6 | — | thin | — | — | SLOW | — |
-| San Diego @ Fordham 2:00 PM | N | 2 | ESPN/DraftKings open+now | +2.5→+2.5 | 144.5→143.5 | +1.0 | +3.7 | +5.7 | +4.1 | +3.1 | +0.6 | — | thin | — | — | SLOW | — |
-| Southern Miss @ Valparaiso 6:00 PM | N | 3 | ESPN/DraftKings open+now | +8.5→+7.5 | 144.5→143.5 | +6.5 | +8.8 | +7.4 | +7.7 | +8.1 | +0.6 | yes | thin | — | — | — | — |
-| West Florida @ South Alabama 3:00 PM | H | 3 | ESPN/DraftKings open+now | +7.5→+6.5 | 143.5→143.5 | +6.1 | +7.1 | +6.1 | +6.4 | +7.0 | +0.5 | yes | thin | — | — | SLOW | — |
-| Western Illinois @ Canisius 1:00 PM | H | 3 | ESPN/DraftKings open+now | +3.5→+4.5 | 138.5→139.5 | +6.1 | +5.2 | +4.2 | +5.0 | +4.2 | -0.3 | yes | thin | — | — | — | — |
-| Robert Morris @ New Mexico State 2:30 PM | N | 3 | ESPN/DraftKings open+now | +2.5→+1.5 | 137.5→137.5 | +2.2 | +0.8 | -1.7 | -0.0 | +1.2 | -0.3 | yes | thin | — | — | SLOW | — |
-| Nebraska @ Butler 12:00 PM | N | 1 | ESPN/DraftKings open+now | -11.5→-11.5 | 153.5→154.5 | -11.6 | -13.3 | -12.6 | -12.6 | -11.7 | -0.2 | — | thin | — | — | FAST | — |
-| Rice @ Lamar 5:00 PM | N | 3 | ESPN/DraftKings open+now | +2.5→+2.5 | 161.5→164.5 | +1.7 | +3.8 | +1.1 | +2.2 | +2.3 | -0.2 | — | n/a | — | — | FAST CLASH | — |
-| Towson @ American University 1:00 PM | H | 2 | ESPN/DraftKings open+now | +1.5→+1.5 | 132.5→133.5 | +2.1 | +1.2 | +2.2 | +1.8 | +1.6 | +0.1 | — | thin | — | — | SLOW | — |
-| Cal State Fullerton @ Portland State 5:00 PM | H | 2 | ESPN/DraftKings open+now | +3.5→+4.5 | 162.5→163.5 | +3.9 | +5.0 | +7.0 | +5.7 | +4.4 | -0.1 | yes | 2/17 | — | — | FAST | — |
-| San José State @ Loyola Chicago 11:59 PM | N | 2 | ESPN/DraftKings open+now | +3.5→+3.5 | 148.5→148.5 | +2.9 | +2.9 | +4.4 | +3.6 | +3.5 | +0.0 | — | thin | — | — | — | — |
+| Winthrop @ Illinois 8:00 PM | H | 2 | ESPN/DraftKings open+now | +45.5→+45.5 | 178.5→180.5 | +32.6 | +38.6 | +32.9 | +34.8 | +41.2 | -4.3 | — | thin | EDGE Winthrop 4.3 | — | FAST | FADE home fav |
+| Arkansas State @ Southern Utah 3:30 PM | N | 3 | ESPN/DraftKings open+now | -6.5→-7.5 | 159.5→160.5 | -3.4 | -2.6 | -0.1 | -1.6 | -4.1 | +3.4 | no | thin | EDGE Southern Utah 3.4 · line moved away | — | FAST | — |
+| Texas A&M-Corpus Christi @ Wichita State 7:30 PM | H | 2 | ESPN/DraftKings open+now | +21.5→+21.5 | 145.5→144.5 | +8.6 | +16.3 | +12.4 | +13.0 | +18.1 | -3.4 | — | n/a | EDGE Texas A&M-Corpus Christi 3.4 | — | — | FADE home fav |
+| Denver @ Kansas 8:00 PM | H | 2 | ESPN/DraftKings open+now | +37.5→+36.5 | 156.5→157.5 | +17.1 | +31.5 | +26.6 | +26.4 | +33.1 | -3.4 | yes | thin | EDGE Denver 3.4 · moved toward model | — | — | FADE home fav |
+| Maryland Eastern Shore @ Youngstown State 6:30 PM | H | 3 | ESPN/DraftKings open+now | +13.5→+14.5 | 133.5→133.5 | +9.4 | -16.5 | +13.6 | +2.2 | +7.9 | -6.6 | no | n/a | — | — | — | FADE home fav |
+| Central Arkansas @ North Florida 7:00 PM | H | 3 | ESPN/DraftKings open+now | -8.5→-9.5 | 163.5→164.5 | -5.0 | -7.1 | -5.2 | -5.8 | -7.2 | +2.3 | no | thin | — | — | FAST | — |
+| Monmouth @ North Carolina 8:00 PM | H | 2 | ESPN/DraftKings open+now | +20.5→+20.5 | 153.5→153.5 | +5.5 | +19.0 | +16.0 | +15.0 | +18.3 | -2.2 | — | thin | — | — | — | FADE home fav |
+| Washington @ BYU 5:00 PM | N | 2 | ESPN/DraftKings open+now | +10.5→+12.5 | 166.5→165.5 | +8.3 | +12.2 | +9.9 | +10.4 | +10.4 | -2.1 | no | thin | — | — | — | — |
+| Illinois State @ Santa Clara 7:00 PM | N | 2 | ESPN/DraftKings open+now | +5.5→+5.5 | 151.5→151.5 | -1.0 | +3.6 | +1.4 | +1.7 | +4.0 | -1.5 | — | thin | — | — | — | — |
+| UNC Greensboro @ Pepperdine 9:30 PM | H | 2 | ESPN/DraftKings open+now | +11.5→+11.5 | 152.5→153.5 | +2.3 | +10.8 | +8.1 | +7.9 | +10.1 | -1.4 | — | thin | — | — | — | FADE home fav |
+| Alabama State @ California 10:00 PM | H | 2 | ESPN/DraftKings open+now | +19.5→+19.5 | 148.5→147.5 | +4.5 | +18.7 | +19.8 | +16.4 | +18.2 | -1.3 | — | thin | — | — | — | FADE home fav |
+| St. Bonaventure @ App State 11:00 AM | N | 2 | ESPN/DraftKings open+now | -5.5→-5.5 | 133.5→133.5 | -5.2 | -3.8 | -0.1 | -2.4 | -4.3 | +1.2 | — | n/a | — | — | SLOW | — |
+| Middle Tennessee @ Southern Illinois 3:00 PM | N | 3 | ESPN/DraftKings open+now | +1.5→+2.5 | 150.5→149.5 | +2.4 | +0.2 | +1.4 | +1.2 | +1.3 | -1.2 | no | thin | — | — | — | — |
+| North Carolina A&T @ South Carolina State 7:00 PM | H | 3 | ESPN/DraftKings open+now | -2.5→-2.5 | 149.5→150.5 | -0.3 | -1.4 | +0.9 | -0.1 | -1.3 | +1.2 | — | thin | — | — | — | — |
+| Northern Iowa @ Davidson 11:00 AM | N | 3 | ESPN/DraftKings open+now | +5.5→+5.5 | 142.5→140.5 | +3.2 | +3.7 | +3.6 | +3.5 | +4.5 | -1.0 | — | 2/25 | — | — | SLOW | — |
+| Long Beach State @ Florida International 1:00 PM | H | 2 | ESPN/DraftKings open+now | +9.5→+9.5 | 159.5→160.5 | +8.7 | +7.2 | +6.0 | +7.0 | +8.5 | -1.0 | — | n/a | — | — | FAST | FADE home fav |
+| Tulsa @ Oregon State 2:00 PM | N | 2 | ESPN/DraftKings open+now | +6.5→+6.5 | 151.5→153.5 | +4.2 | +4.9 | +3.4 | +4.1 | +5.5 | -1.0 | — | thin | — | — | — | — |
+| Eastern Washington @ UNLV 10:00 PM | H | 3 | ESPN/DraftKings open+now | +7.5→+7.5 | 161.5→160.5 | -1.0 | +7.8 | +6.7 | +5.5 | +6.5 | -1.0 | — | thin | — | — | — | FADE home fav |
+| William & Mary @ IU Indianapolis 3:30 PM | N | 3 | ESPN/DraftKings open+now | -4.5→-4.5 | 165.5→165.5 | +0.4 | — | -4.1 | -2.7 | -3.6 | +0.9 | — | n/a | — | — | FAST | — |
+| Indiana State @ East Carolina 12:30 PM | N | 3 | ESPN/DraftKings open+now | +2.5→+2.5 | 145.5→146.5 | +5.9 | +1.2 | -1.3 | +1.0 | +1.8 | -0.7 | — | thin | — | — | — | — |
+| Akron @ Wright State 1:30 PM | N | 2 | ESPN/DraftKings open+now | +1.5→+1.5 | 147.5→147.5 | +10.0 | +1.1 | +1.7 | +3.2 | +2.2 | +0.7 | — | thin | — | — | — | — |
+| Tulane @ Georgia State 4:00 PM | N | 2 | ESPN/DraftKings open+now | +1.5→+1.5 | 149.5→147.5 | +2.4 | -1.0 | -0.7 | -0.2 | +0.8 | -0.7 | — | thin | — | — | — | — |
+| Colorado State @ Arizona 11:30 PM | N | 2 | ESPN/DraftKings open+now | +17.5→+16.5 | 158.5→158.5 | +9.6 | +16.2 | +13.3 | +13.6 | +15.9 | -0.6 | yes | thin | — | — | — | — |
+| Yale @ Belmont 4:00 PM | N | 2 | ESPN/DraftKings open+now | +2.5→+2.5 | 143.5→142.5 | +3.5 | +1.9 | -0.1 | +1.3 | +2.0 | -0.5 | — | thin | — | — | — | — |
+| Fairleigh Dickinson @ Iona 7:00 PM | H | 3 | ESPN/DraftKings open+now | +8.5→+9.5 | 133.5→133.5 | +8.5 | — | +10.0 | +9.6 | +9.0 | -0.5 | yes | thin | — | — | — | FADE home fav |
+| Nevada @ San Francisco 4:30 PM | N | 2 | ESPN/DraftKings open+now | -7.5→-7.5 | 138.5→137.5 | -6.8 | -9.5 | -8.4 | -8.5 | -7.9 | -0.4 | — | thin | — | — | — | — |
+| VCU @ Providence 9:00 PM | N | 1 | ESPN/DraftKings open+now | +1.5→+1.5 | 152.5→154.5 | -1.5 | +2.0 | -2.2 | -0.6 | +1.1 | -0.4 | — | thin | — | — | FAST | — |
+| Ole Miss @ Clemson 2:30 PM | N | 2 | ESPN/DraftKings open+now | -5.5→-5.5 | 150.5→149.5 | -11.2 | -4.6 | -5.0 | -6.1 | -5.7 | -0.2 | — | thin | — | — | — | — |
+| Georgia Southern @ Northern Kentucky 7:00 PM | H | 3 | ESPN/DraftKings open+now | +3.5→+3.5 | 164.5→166.5 | -0.7 | +5.0 | +3.4 | +3.1 | +3.3 | -0.2 | — | thin | — | — | FAST | — |
+| Charlotte @ Florida Gulf Coast 1:30 PM | N | 2 | ESPN/DraftKings open+now | -7.5→-6.5 | 145.5→145.5 | -1.9 | -7.6 | -4.5 | -5.1 | -6.5 | -0.0 | yes | thin | — | — | — | — |
 
-0 games had no line yet; they are in slate.csv only.
+4 games had no line yet; they are in slate.csv only.

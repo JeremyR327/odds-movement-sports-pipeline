@@ -1,7 +1,7 @@
 {
-  "pulled_et": "2026-11-22T19:44-05:00",
+  "pulled_et": "2026-11-22T22:41-05:00",
   "source": "DK Network splits + espn_lines.py",
-  "CFB": "ok 50 games, 10 with a flag, 50 without a DK line; page updated 7:41 PM",
-  "NFL": "ok 7 games, 7 with a flag, 5 without a DK line; page updated 7:41 PM",
-  "CBB": "ok 23 games, 4 with a flag, 10 without a DK line; page updated 7:41 PM"
+  "CFB": "ok 50 games, 16 with a flag, 50 without a DK line; page updated 10:38 PM, 10:41 PM",
+  "NFL": "ok 6 games, 6 with a flag, 5 without a DK line; page updated 10:41 PM",
+  "CBB": "ok 35 games, 4 with a flag, 10 without a DK line; page updated 10:41 PM"
 }
