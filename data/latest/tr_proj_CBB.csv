@@ -1,4 +1,16 @@
-pulled_et,away,home,matchup_url,status
-2026-11-23T15:29-05:00,Mississippi,Clemson,https://www.teamrankings.com/ncaa-basketball/matchup/rebels-tigers-2026-11-23,no projection table
-2026-11-23T15:29-05:00,Washington,BYU,https://www.teamrankings.com/ncaa-basketball/matchup/huskies-cougars-2026-11-23,no projection table
-2026-11-23T15:29-05:00,VCU,Providence,https://www.teamrankings.com/ncaa-basketball/matchup/rams-friars-2026-11-23,no projection table
+pulled_et,away,home,matchup_url,page_teams,away_proj,home_proj,vegas_away,vegas_home,proj_home_margin,proj_total,status,vegas_home_margin,vegas_total
+2026-11-24T15:29-05:00,Pittsburgh,Oklahoma,https://www.teamrankings.com/ncaa-basketball/matchup/panthers-sooners-2026-11-24,Pittsburgh / Oklahoma,73.3,74.0,75.0,73.5,0.7,147.3,ok,-1.5,148.5
+2026-11-24T15:29-05:00,BYU,Mississippi,https://www.teamrankings.com/ncaa-basketball/matchup/cougars-rebels-2026-11-24,BYU / Mississippi,77.4,78.5,78.0,79.5,1.1,155.9,ok,1.5,157.5
+2026-11-24T15:29-05:00,Maryland,Tennessee,https://www.teamrankings.com/ncaa-basketball/matchup/terrapins-volunteers-2026-11-24,Maryland / Tennessee,72.6,74.8,73.0,75.5,2.2,147.4,ok,2.5,148.5
+2026-11-24T15:29-05:00,TCU,Miami,https://www.teamrankings.com/ncaa-basketball/matchup/horned-frogs-hurricanes-2026-11-24,TCU / Miami,74.2,78.5,74.5,79.0,4.3,152.7,ok,4.5,153.5
+2026-11-24T15:29-05:00,Arizona,Providence,https://www.teamrankings.com/ncaa-basketball/matchup/wildcats-friars-2026-11-24,Arizona / Providence,81.6,74.5,82.0,74.5,-7.1,156.1,ok,-7.5,156.5
+2026-11-24T15:29-05:00,Michigan,Creighton,https://www.teamrankings.com/ncaa-basketball/matchup/wolverines-bluejays-2026-11-24,Michigan / Creighton,83.0,78.6,83.5,78.0,-4.4,161.6,ok,-5.5,161.5
+2026-11-24T15:29-05:00,Iowa St,San Diego St,https://www.teamrankings.com/ncaa-basketball/matchup/cyclones-aztecs-2026-11-24,Iowa St / San Diego St,74.7,66.1,76.0,66.5,-8.6,140.8,ok,-9.5,142.5
+2026-11-24T15:29-05:00,DePaul,Purdue,https://www.teamrankings.com/ncaa-basketball/matchup/blue-demons-boilermakers-2026-11-24,DePaul / Purdue,64.1,67.9,64.5,68.0,3.8,132.0,ok,3.5,132.5
+2026-11-24T15:29-05:00,Nevada,Santa Clara,https://www.teamrankings.com/ncaa-basketball/matchup/wolf-pack-broncos-2026-11-24,Nevada / Santa Clara,78.5,80.3,78.5,80.0,1.8,158.8,ok,1.5,158.5
+2026-11-24T15:29-05:00,Vanderbilt,Ohio St,https://www.teamrankings.com/ncaa-basketball/matchup/commodores-buckeyes-2026-11-24,Vanderbilt / Ohio St,78.1,77.2,79.0,77.5,-0.9,155.3,ok,-1.5,156.5
+2026-11-24T15:29-05:00,Washington,Clemson,https://www.teamrankings.com/ncaa-basketball/matchup/huskies-tigers-2026-11-24,Washington / Clemson,72.8,74.9,74.5,76.0,2.1,147.7,ok,1.5,150.5
+2026-11-24T15:29-05:00,Louisville,Texas Tech,https://www.teamrankings.com/ncaa-basketball/matchup/cardinals-red-raiders-2026-11-24,Louisville / Texas Tech,74.9,78.2,75.5,78.0,3.3,153.1,ok,2.5,153.5
+2026-11-24T15:29-05:00,Grand Canyon,Saint Louis,https://www.teamrankings.com/ncaa-basketball/matchup/lopes-billikens-2026-11-24,Grand Canyon / Saint Louis,80.5,81.2,83.0,81.5,0.7,161.7,ok,-1.5,164.5
+2026-11-24T15:29-05:00,Alabama,Baylor,https://www.teamrankings.com/ncaa-basketball/matchup/crimson-tide-bears-2026-11-24,Alabama / Baylor,87.8,87.3,88.0,86.5,-0.5,175.1,ok,-1.5,174.5
+2026-11-24T15:29-05:00,St John's,Oregon,https://www.teamrankings.com/ncaa-basketball/matchup/red-storm-ducks-2026-11-24,St John's / Oregon,82.6,72.2,83.5,73.0,-10.4,154.8,ok,-10.5,156.5
