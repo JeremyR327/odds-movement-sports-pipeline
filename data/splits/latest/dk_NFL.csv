@@ -1,17 +1,17 @@
 pulled_et,when,away,home,espn_id,spread_open,spread_now,total_open,total_now,open_at,spread_open_espn,total_open_espn,spr_away_sel,spr_away_handle,spr_away_bets,spr_home_handle,spr_home_bets,over_handle,over_bets,ml_away_handle,ml_away_bets,tr_proj_spread_away,tr_proj_total,flags,signal
-2026-11-24T15:29-05:00,Wed 11/25 8:00 PM,GB Packers,LA Rams,,,,,,,,,GB Packers +2.5,41,42,59,58,62,80,81,61,,,PUB Over 80%; SHARP Under +18,3
-2026-11-24T15:29-05:00,Thu 11/26 1:00 PM,CHI Bears,DET Lions,,,,,,,,,CHI Bears -2.5,34,44,66,56,80,61,31,39,,,SHARP Over +19,2
-2026-11-24T15:29-05:00,Thu 11/26 4:30 PM,PHI Eagles,DAL Cowboys,,,,,,,,,PHI Eagles +8.5,49,41,51,59,73,74,52,18,,,PUB Over 74%,1
-2026-11-24T15:29-05:00,Thu 11/26 8:20 PM,KC Chiefs,BUF Bills,,,,,,,,,KC Chiefs +3,45,44,55,56,54,72,57,42,,,PUB Over 72%; SHARP Under +18,3
-2026-11-24T15:29-05:00,Fri 11/27 3:00 PM,DEN Broncos,PIT Steelers,,,,,,,,,DEN Broncos -3,85,76,15,24,71,86,86,85,,,PUB DEN Broncos -3 76%; PUB Over 86%; SHARP Under +15,4
-2026-11-24T15:29-05:00,Sun 11/29 1:00 PM,NY Giants,IND Colts,,,,,,,,,NY Giants -6.5,100,91,0,9,100,100,87,94,,,THIN spread sample,0
-2026-11-24T15:29-05:00,Sun 11/29 1:00 PM,ATL Falcons,MIN Vikings,,,,,,,,,ATL Falcons +7,0,3,100,97,41,85,25,8,,,PUB Over 85%; SHARP Under +44; THIN spread sample,3
-2026-11-24T15:29-05:00,Sun 11/29 1:00 PM,BAL Ravens,HOU Texans,,,,,,,,,BAL Ravens +6.5,17,22,83,78,100,100,26,13,,,PUB HOU Texans -6.5 78%,1
-2026-11-24T15:29-05:00,Sun 11/29 1:00 PM,TEN Titans,JAX Jaguars,,,,,,,,,TEN Titans +14.5,71,61,29,39,100,100,51,6,,,,0
-2026-11-24T15:29-05:00,Sun 11/29 1:00 PM,NO Saints,CIN Bengals,,,,,,,,,NO Saints +10,61,53,39,47,0,0,24,4,,,,0
-2026-11-24T15:29-05:00,Sun 11/29 1:00 PM,NY Jets,MIA Dolphins,,,,,,,,,NY Jets -3.5,37,42,63,58,100,100,30,78,,,,0
-2026-11-24T15:29-05:00,Sun 11/29 4:05 PM,NE Patriots,LA Chargers,,,,,,,,,NE Patriots +1.5,60,67,40,33,80,75,87,74,,,PUB NE Patriots +1.5 67%; PUB Over 75%,2
-2026-11-24T15:29-05:00,Sun 11/29 4:25 PM,SEA Seahawks,SF 49ers,,,,,,,,,SEA Seahawks +3,66,26,34,74,18,50,13,10,,,PUB SF 49ers -3 74%; SHARP SEA Seahawks +3 +40; SHARP Under +32,5
-2026-11-24T15:29-05:00,Sun 11/29 4:25 PM,WAS Commanders,ARI Cardinals,,,,,,,,,WAS Commanders -7.5,100,85,0,15,0,50,36,91,,,THIN spread sample,0
-2026-11-24T15:29-05:00,Sun 11/29 8:20 PM,LV Raiders,CLE Browns,,,,,,,,,LV Raiders +4.5,97,63,3,37,43,50,82,26,,,SHARP LV Raiders +4.5 +34,2
-2026-11-24T15:29-05:00,Mon 11/30 8:15 PM,CAR Panthers,TB Buccaneers,,,,,,,,,CAR Panthers +3,26,28,74,72,85,83,49,48,,,PUB TB Buccaneers -3 72%; PUB Over 83%,2
+2026-11-24T17:39-05:00,Wed 11/25 8:00 PM,GB Packers,LA Rams,,,,,,,,,GB Packers +2.5,48,42,52,58,66,79,81,61,,,PUB Over 79%,1
+2026-11-24T17:39-05:00,Thu 11/26 1:00 PM,CHI Bears,DET Lions,,,,,,,,,CHI Bears -2.5,44,44,56,56,80,60,30,38,,,SHARP Over +20,2
+2026-11-24T17:39-05:00,Thu 11/26 4:30 PM,PHI Eagles,DAL Cowboys,,,,,,,,,PHI Eagles +8.5,47,39,53,61,73,74,52,18,,,PUB Over 74%,1
+2026-11-24T17:39-05:00,Thu 11/26 8:20 PM,KC Chiefs,BUF Bills,,,,,,,,,KC Chiefs +3,44,41,56,59,53,70,57,42,,,PUB Over 70%; SHARP Under +17,3
+2026-11-24T17:39-05:00,Fri 11/27 3:00 PM,DEN Broncos,PIT Steelers,,,,,,,,,DEN Broncos -3,85,78,15,22,70,83,86,85,,,PUB DEN Broncos -3 78%; PUB Over 83%,2
+2026-11-24T17:39-05:00,Sun 11/29 1:00 PM,NY Giants,IND Colts,,,,,,,,,NY Giants -6.5,99,88,1,12,46,75,87,93,-6.8,42.8,PUB NY Giants -6.5 88%; PUB Over 75%; SHARP Under +29,4
+2026-11-24T17:39-05:00,Sun 11/29 1:00 PM,ATL Falcons,MIN Vikings,,,,,,,,,ATL Falcons +7,0,3,100,98,36,79,25,7,,,PUB Over 79%; SHARP Under +43; THIN spread sample,3
+2026-11-24T17:39-05:00,Sun 11/29 1:00 PM,BAL Ravens,HOU Texans,,,,,,,,,BAL Ravens +6.5,16,23,84,77,100,100,29,13,,,PUB HOU Texans -6.5 77%,1
+2026-11-24T17:39-05:00,Sun 11/29 1:00 PM,TEN Titans,JAX Jaguars,,,,,,,,,TEN Titans +14.5,56,54,44,46,97,89,51,5,,,PUB Over 89%,1
+2026-11-24T17:39-05:00,Sun 11/29 1:00 PM,NO Saints,CIN Bengals,,,,,,,,,NO Saints +10,55,38,45,62,0,0,24,4,,,SHARP NO Saints +10 +17,2
+2026-11-24T17:39-05:00,Sun 11/29 1:00 PM,NY Jets,MIA Dolphins,,,,,,,,,NY Jets -3.5,39,50,61,50,98,86,27,76,-3.4,40.4,PUB Over 86%,1
+2026-11-24T17:39-05:00,Sun 11/29 4:05 PM,NE Patriots,LA Chargers,,,,,,,,,NE Patriots +1.5,61,70,39,30,80,75,88,73,,,PUB NE Patriots +1.5 70%; PUB Over 75%,2
+2026-11-24T17:39-05:00,Sun 11/29 4:25 PM,SEA Seahawks,SF 49ers,,,,,,,,,SEA Seahawks +3,65,27,35,73,13,33,13,9,,,PUB SF 49ers -3 73%; SHARP SEA Seahawks +3 +38; PUB Under 67%; SHARP Under +20,6
+2026-11-24T17:39-05:00,Sun 11/29 4:25 PM,WAS Commanders,ARI Cardinals,,,,,,,,,WAS Commanders -7.5,100,88,0,13,1,67,38,92,,,PUB Over 67%; SHARP Under +66; THIN spread sample,3
+2026-11-24T17:39-05:00,Sun 11/29 8:20 PM,LV Raiders,CLE Browns,,,,,,,,,LV Raiders +4.5,97,63,3,38,54,67,82,27,,,SHARP LV Raiders +4.5 +34; PUB Over 67%,3
+2026-11-24T17:39-05:00,Mon 11/30 8:15 PM,CAR Panthers,TB Buccaneers,,,,,,,,,CAR Panthers +3,27,38,73,63,80,75,44,46,,,PUB Over 75%,1
