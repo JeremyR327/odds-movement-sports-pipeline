@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-24",
+  "pulled_et": "2026-11-24T15:33-05:00",
+  "espn": "ok 87 games",
+  "torvik": "ok 365 teams (saved copy from today); pace from TeamRankings for 353 teams",
+  "tr": "ok 365 teams (2026-11-24 1529)",
+  "bpi": "ok 365 teams",
+  "espn_lines": "64/64 priced games have ESPN's DraftKings opener",
+  "cbbd_lines": "skipped: ESPN has DraftKings open + current (saves the CBBD monthly quota)",
+  "dk_splits": "ok 44 games, pulled 15:29",
+  "books": "ok 94 games, pulled 15:33",
+  "context": "ok 1088 box scores in view (0 fetched this run, 0 still to backfill), 548 teams",
+  "check_names": [
+    "Purdue Fort Wayne @ Southeast Missouri State: TR -18.8 vs BPI +1.4",
+    "Houston Christian @ UL Monroe: TR -31.3 vs BPI -0.9"
+  ],
+  "games_written": 68,
+  "with_line": 64,
+  "with_espn_open": 64,
+  "flags": 6,
+  "mkt_flags": 11,
+  "tier1_mkt_flags": 2,
+  "total_flags": 9,
+  "fade_flags": 23,
+  "lag_flags": 6,
+  "early_flags": 0,
+  "rot_flags": 19,
+  "fat_flags": 13,
+  "alt_flags": 1,
+  "unmatched": [
+    "Bloomsburg Huskies @ Wagner Seahawks",
+    "Emerson Lions @ Quinnipiac Bobcats",
+    "Carolina Christian Centurions @ Presbyterian Blue Hose",
+    "SUNY Fredonia Blue Devils @ Mercyhurst Lakers",
+    "Arlington Baptist Patriots @ East Texas A&M Lions"
+  ],
+  "sources": "espn ok 87 games \u00b7 espn_lines 64/64 priced games have ESPN's DraftKings opener \u00b7 torvik ok 365 teams (saved copy from today); pace from TeamRankings for 353 teams \u00b7 tr ok 365 teams (2026-11-24 1529) \u00b7 bpi ok 365 teams",
+  "calibration": {
+    "games": 33,
+    "with_open": 33,
+    "avg_gap_cons_vs_open": 2.77,
+    "avg_gap_cons_vs_close": 2.26,
+    "avg_move_open_to_close": 1.0,
+    "pct_moved_toward_consensus": 73.7,
+    "flagged_games_graded": 2,
+    "flagged_covered": 1
+  },
+  "results": "2026-11-23: 37 finals",
+  "season_graded": 504
+}
