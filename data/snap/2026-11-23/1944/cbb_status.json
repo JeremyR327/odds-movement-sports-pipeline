@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-23",
+  "pulled_et": "2026-11-23T19:44-05:00",
+  "espn": "ok 46 games",
+  "torvik": "ok 365 teams (saved copy from today)",
+  "tr": "ok 365 teams (2026-11-23 1529)",
+  "bpi": "ok 365 teams",
+  "espn_lines": "11/11 priced games have ESPN's DraftKings opener",
+  "cbbd_lines": "skipped: ESPN has DraftKings open + current (saves the CBBD monthly quota)",
+  "dk_splits": "ok 36 games, pulled 19:44",
+  "books": "ok 63 games, pulled 19:44",
+  "context": "ok 1224 box scores in view (0 fetched this run, 0 still to backfill), 590 teams",
+  "games_written": 12,
+  "with_line": 11,
+  "with_espn_open": 11,
+  "flags": 1,
+  "mkt_flags": 6,
+  "tier1_mkt_flags": 0,
+  "total_flags": 6,
+  "fade_flags": 6,
+  "lag_flags": 5,
+  "early_flags": 0,
+  "rot_flags": 6,
+  "fat_flags": 5,
+  "alt_flags": 0,
+  "unmatched": [
+    "Dickinson State Blue Hawks @ Idaho Vandals",
+    "Carroll (MT) Fighting Saints @ Montana Grizzlies"
+  ],
+  "sources": "espn ok 46 games \u00b7 espn_lines 11/11 priced games have ESPN's DraftKings opener \u00b7 torvik ok 365 teams (saved copy from today) \u00b7 tr ok 365 teams (2026-11-23 1529) \u00b7 bpi ok 365 teams",
+  "calibration": {
+    "games": 38,
+    "with_open": 38,
+    "avg_gap_cons_vs_open": 2.69,
+    "avg_gap_cons_vs_close": 2.15,
+    "avg_move_open_to_close": 1.11,
+    "pct_moved_toward_consensus": 84.0,
+    "flagged_games_graded": 0,
+    "flagged_covered": 0
+  },
+  "results": "2026-11-22: 38 finals",
+  "season_graded": 467
+}
