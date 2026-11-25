@@ -1,6 +1,6 @@
-# NFL — DK splits + DraftKings lines, pulled 2026-11-24 19:44 ET
+# NFL — DK splits + DraftKings lines, pulled 2026-11-24 22:41 ET
 
-Splits: DK Network, 16 games (page 'Updated' times: 7:44 PM). Lines: 1944_lines_NFL.csv (DraftKings via ESPN; spread = AWAY team's number, open → now). Open = the first pipeline pull that saw the game in the last 6 days (ESPN's open is the schedule-release number), so movement is this week's market.
+Splits: DK Network, 16 games (page 'Updated' times: 10:38 PM). Lines: 1944_lines_NFL.csv (DraftKings via ESPN; spread = AWAY team's number, open → now). Open = the first pipeline pull that saw the game in the last 6 days (ESPN's open is the schedule-release number), so movement is this week's market.
 Splits cells = handle% / bets% for the AWAY side (spread, ML) or the Over (total); home/Under = 100 minus.
 Flags: PUB 65%+ bets · SHARP handle−bets ≥ +15 · RLM line moved toward the side with <50% of bets · STEAM 1.5+ · KEY number crossed · TOTAL moved 2+ (CFB) / 1.5+ (NFL).
 Rows sorted by signal (RLM and SHARP first). Verify every flag against the numbers.
@@ -9,19 +9,19 @@ Unmatched to a DK line: GB Packers @ LA Rams, CHI Bears @ DET Lions, PHI Eagles 
 
 | Game | Start (ET) | Spread open→now | DK spr h/b | Total open→now | DK over h/b | DK ML h/b | TR proj | Flags |
 |---|---|---|---|---|---|---|---|---|
-| SEA Seahawks @ SF 49ers | Sun 11/29 4:25 PM | —→— | 65/27 | —→— | 13/33 | 13/10 | — | PUB SF 49ers -3.5 73%; SHARP SEA Seahawks +3.5 +38; PUB Under 67%; SHARP Under +20 |
-| NY Giants @ IND Colts | Sun 11/29 1:00 PM | —→— | 99/89 | —→— | 46/75 | 88/93 | -6.8 / 42.8 | PUB NY Giants -6.5 89%; PUB Over 75%; SHARP Under +29 |
-| LV Raiders @ CLE Browns | Sun 11/29 8:20 PM | —→— | 97/66 | —→— | 54/67 | 73/27 | — | PUB LV Raiders +4.5 66%; SHARP LV Raiders +4.5 +31; PUB Over 67% |
-| ATL Falcons @ MIN Vikings | Sun 11/29 1:00 PM | —→— | 0/2 | —→— | 48/80 | 24/7 | — | PUB Over 80%; SHARP Under +32; THIN spread sample |
+| SEA Seahawks @ SF 49ers | Sun 11/29 4:25 PM | —→— | 65/28 | —→— | 13/33 | 13/9 | — | PUB SF 49ers -3.5 72%; SHARP SEA Seahawks +3.5 +37; PUB Under 67%; SHARP Under +20 |
+| NY Giants @ IND Colts | Sun 11/29 1:00 PM | —→— | 99/90 | —→— | 46/75 | 92/93 | -6.8 / 42.8 | PUB NY Giants -6.5 90%; PUB Over 75%; SHARP Under +29 |
+| LV Raiders @ CLE Browns | Sun 11/29 8:20 PM | —→— | 97/67 | —→— | 54/67 | 70/25 | — | PUB LV Raiders +4.5 67%; SHARP LV Raiders +4.5 +30; PUB Over 67% |
+| ATL Falcons @ MIN Vikings | Sun 11/29 1:00 PM | —→— | 0/2 | —→— | 48/80 | 23/6 | — | PUB Over 80%; SHARP Under +32; THIN spread sample |
 | TEN Titans @ JAX Jaguars | Sun 11/29 1:00 PM | —→— | 14/48 | —→— | 97/89 | 51/6 | — | SHARP JAX Jaguars -14.5 +34; PUB Over 89% |
-| NO Saints @ CIN Bengals | Sun 11/29 1:00 PM | —→— | 55/37 | —→— | 6/14 | 22/4 | — | SHARP NO Saints +10 +18; PUB Under 86% |
-| NY Jets @ MIA Dolphins | Sun 11/29 1:00 PM | —→— | 37/52 | —→— | 98/86 | 25/74 | -3.4 / 40.4 | SHARP MIA Dolphins +3.5 +15; PUB Over 86% |
-| WAS Commanders @ ARI Cardinals | Sun 11/29 4:25 PM | —→— | 100/83 | —→— | 1/67 | 43/93 | — | PUB Over 67%; SHARP Under +66; THIN spread sample |
-| KC Chiefs @ BUF Bills | Thu 11/26 8:20 PM | —→— | 45/42 | —→— | 53/71 | 58/42 | — | PUB Over 71%; SHARP Under +18 |
-| DEN Broncos @ PIT Steelers | Fri 11/27 3:00 PM | —→— | 85/78 | —→— | 70/83 | 86/83 | — | PUB DEN Broncos -3 78%; PUB Over 83% |
-| NE Patriots @ LA Chargers | Sun 11/29 4:05 PM | —→— | 61/72 | —→— | 80/75 | 88/72 | — | PUB NE Patriots +1.5 72%; PUB Over 75% |
-| CHI Bears @ DET Lions | Thu 11/26 1:00 PM | —→— | 43/43 | —→— | 82/63 | 33/38 | — | SHARP Over +19 |
-| CAR Panthers @ TB Buccaneers | Mon 11/30 8:15 PM | —→— | 28/40 | —→— | 78/67 | 42/47 | — | PUB Over 67% |
-| BAL Ravens @ HOU Texans | Sun 11/29 1:00 PM | —→— | 21/28 | —→— | 100/100 | 27/12 | — | PUB HOU Texans -7 72% |
-| PHI Eagles @ DAL Cowboys | Thu 11/26 4:30 PM | —→— | 45/38 | —→— | 76/79 | 52/17 | — | PUB Over 79% |
-| GB Packers @ LA Rams | Wed 11/25 8:00 PM | —→— | 45/42 | —→— | 66/79 | 81/61 | — | PUB Over 79% |
+| NO Saints @ CIN Bengals | Sun 11/29 1:00 PM | —→— | 54/37 | —→— | 6/14 | 16/3 | — | SHARP NO Saints +10 +17; PUB Under 86% |
+| NY Jets @ MIA Dolphins | Sun 11/29 1:00 PM | —→— | 37/53 | —→— | 98/86 | 34/75 | -3.4 / 40.4 | SHARP MIA Dolphins +3.5 +16; PUB Over 86% |
+| WAS Commanders @ ARI Cardinals | Sun 11/29 4:25 PM | —→— | 100/86 | —→— | 1/67 | 42/91 | — | PUB Over 67%; SHARP Under +66; THIN spread sample |
+| DEN Broncos @ PIT Steelers | Fri 11/27 3:00 PM | —→— | 86/80 | —→— | 70/83 | 86/83 | — | PUB DEN Broncos -3 80%; PUB Over 83% |
+| NE Patriots @ LA Chargers | Sun 11/29 4:05 PM | —→— | 61/66 | —→— | 80/75 | 75/72 | — | PUB NE Patriots +1.5 66%; PUB Over 75% |
+| CHI Bears @ DET Lions | Thu 11/26 1:00 PM | —→— | 45/46 | —→— | 84/64 | 31/37 | — | SHARP Over +20 |
+| CAR Panthers @ TB Buccaneers | Mon 11/30 8:15 PM | —→— | 28/42 | —→— | 78/67 | 43/48 | — | PUB Over 67% |
+| BAL Ravens @ HOU Texans | Sun 11/29 1:00 PM | —→— | 21/30 | —→— | 100/100 | 26/11 | — | PUB HOU Texans -7 70% |
+| PHI Eagles @ DAL Cowboys | Thu 11/26 4:30 PM | —→— | 40/36 | —→— | 85/80 | 51/17 | — | PUB Over 80% |
+| KC Chiefs @ BUF Bills | Thu 11/26 8:20 PM | —→— | 40/41 | —→— | 57/71 | 58/43 | — | PUB Over 71% |
+| GB Packers @ LA Rams | Wed 11/25 8:00 PM | —→— | 44/40 | —→— | 70/81 | 81/61 | — | PUB Over 81% |
