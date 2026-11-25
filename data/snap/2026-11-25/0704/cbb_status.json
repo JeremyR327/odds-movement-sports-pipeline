@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-25",
+  "pulled_et": "2026-11-25T07:04-05:00",
+  "espn": "ok 69 games",
+  "torvik": "ok 365 teams (CollegeBasketballData adjusted efficiency, 68 poss); pace from TeamRankings for 353 teams",
+  "tr": "ok 365 teams (2026-11-24 1529)",
+  "bpi": "ok 365 teams",
+  "espn_lines": "53/53 priced games have ESPN's DraftKings opener",
+  "cbbd_lines": "skipped: ESPN has DraftKings open + current (saves the CBBD monthly quota)",
+  "dk_splits": "stale (8.4 h old)",
+  "books": "stale (11.3 h old)",
+  "context": "ok 1146 box scores in view (13 fetched this run, 0 still to backfill), 549 teams",
+  "check_names": [
+    "West Florida @ Northwestern State: TR +16.9 vs BPI +2.2"
+  ],
+  "games_written": 60,
+  "with_line": 52,
+  "with_espn_open": 52,
+  "flags": 3,
+  "mkt_flags": 0,
+  "tier1_mkt_flags": 0,
+  "total_flags": 0,
+  "fade_flags": 18,
+  "lag_flags": 0,
+  "early_flags": 4,
+  "rot_flags": 25,
+  "fat_flags": 26,
+  "alt_flags": 2,
+  "unmatched": [
+    "Mercy Mavericks @ Fordham Rams",
+    "Grace Christian Tigers @ Western Michigan Broncos",
+    "Montreat Cavaliers @ Western Carolina Catamounts",
+    "Warner Royals @ North Florida Ospreys",
+    "Johnson & Wales Griffins @ Brown Bears",
+    "Bethesda Flames @ Utah Tech Trailblazers",
+    "Case Western Reserve Spartans @ Cleveland State Vikings",
+    "St. Thomas Tommies @ UNC Wilmington Seahawks",
+    "Northwest Indian RedHawks @ Montana State Bobcats"
+  ],
+  "sources": "espn ok 69 games \u00b7 espn_lines 53/53 priced games have ESPN's DraftKings opener \u00b7 torvik ok 365 teams (CollegeBasketballData adjusted efficiency, 68 poss); pace from TeamRankings for 353 teams \u00b7 tr ok 365 teams (2026-11-24 1529) \u00b7 bpi ok 365 teams",
+  "calibration": {
+    "games": 78,
+    "with_open": 78,
+    "avg_gap_cons_vs_open": 2.64,
+    "avg_gap_cons_vs_close": 2.9,
+    "avg_move_open_to_close": 1.38,
+    "pct_moved_toward_consensus": 54.0,
+    "flagged_games_graded": 8,
+    "flagged_covered": 3
+  },
+  "results": "2026-11-24: 82 finals",
+  "season_graded": 586
+}
