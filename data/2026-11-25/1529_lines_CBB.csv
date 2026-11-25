@@ -1,0 +1,63 @@
+pulled_et,espn_id,start_et,away,home,away_abbr,home_abbr,book,spread_open,spread_now,spread_odds_now,total_open,total_now,ml_away_open,ml_away_now,ml_home_open,ml_home_now,status
+2026-11-25T15:29-05:00,401928359,Wed 11-25 03:30 PM,Arkansas State Red Wolves,Florida International Panthers,ARST,FIU,Draft Kings,-1.5,2.5,-118.0,171.5,178.5,105.0,110.0,-125.0,-130.0,
+2026-11-25T15:29-05:00,401925943,Wed 11-25 04:00 PM,Bethesda Flames,Utah Tech Trailblazers,BTHS,UTU,,,,,,,,,,,
+2026-11-25T15:29-05:00,401925050,Wed 11-25 04:00 PM,Grambling Tigers,LSU New Orleans Privateers,GRAM,NOLA,Draft Kings,4.5,3.5,-115.0,155.5,148.5,145.0,136.0,-175.0,-162.0,
+2026-11-25T15:29-05:00,401924737,Wed 11-25 04:00 PM,Princeton Tigers,Liberty Flames,PRIN,LIB,Draft Kings,2.5,3.5,-112.0,135.5,138.5,136.0,142.0,-162.0,-170.0,neutral
+2026-11-25T15:29-05:00,401921703,Wed 11-25 04:00 PM,Georgia State Panthers,Florida Gulf Coast Eagles,GAST,FGCU,Draft Kings,-2.5,-1.5,-110.0,146.5,142.5,-155.0,-118.0,130.0,-102.0,neutral
+2026-11-25T15:29-05:00,401920858,Wed 11-25 04:00 PM,Prairie View A&M Panthers,Marshall Thundering Herd,PV,MRSH,Draft Kings,17.5,14.5,-112.0,151.5,150.5,900.0,750.0,-1600.0,-1200.0,
+2026-11-25T15:29-05:00,401921670,Wed 11-25 04:30 PM,South Carolina Gamecocks,USC Trojans,SC,USC,Draft Kings,10.5,10.5,-112.0,148.5,145.5,390.0,440.0,-520.0,-600.0,neutral
+2026-11-25T15:29-05:00,401926065,Wed 11-25 05:00 PM,Southern Jaguars,Nebraska Cornhuskers,SOU,NEB,Draft Kings,35.5,34.5,-112.0,145.5,149.5,,,,,
+2026-11-25T15:29-05:00,401917182,Wed 11-25 05:00 PM,Memphis Tigers,Penn State Nittany Lions,MEM,PSU,Draft Kings,-4.5,-4.5,-105.0,165.5,162.5,-225.0,-180.0,185.0,150.0,neutral
+2026-11-25T15:29-05:00,401925917,Wed 11-25 05:00 PM,Portland State Vikings,UC Riverside Highlanders,PRST,UCR,Draft Kings,3.5,2.5,-110.0,152.5,152.5,160.0,120.0,-192.0,-142.0,
+2026-11-25T15:29-05:00,401925688,Wed 11-25 05:00 PM,Alcorn State Braves,Texas State Bobcats,ALCN,TXST,Draft Kings,23.5,26.5,-112.0,146.5,147.5,2200.0,3500.0,-8000.0,-20000.0,neutral
+2026-11-25T15:29-05:00,401920237,Wed 11-25 05:00 PM,Holy Cross Crusaders,Dartmouth Big Green,HC,DART,Draft Kings,11.5,12.5,-118.0,146.5,147.5,550.0,550.0,-800.0,-800.0,
+2026-11-25T15:29-05:00,401921716,Wed 11-25 05:30 PM,BYU Cougars,Providence Friars,BYU,PROV,Draft Kings,-4.5,-2.5,-108.0,154.5,154.5,-205.0,-142.0,170.0,120.0,neutral
+2026-11-25T15:29-05:00,401922253,Wed 11-25 06:00 PM,West Florida Argonauts,Northwestern State Demons,UWF,NWST,Draft Kings,1.5,1.5,-112.0,141.5,139.5,100.0,-102.0,-120.0,-118.0,
+2026-11-25T15:29-05:00,401920549,Wed 11-25 06:00 PM,Kennesaw State Owls,Charleston Cougars,KENN,COFC,Draft Kings,1.5,1.5,-110.0,158.5,160.5,-102.0,102.0,-118.0,-122.0,neutral
+2026-11-25T15:29-05:00,401920299,Wed 11-25 06:00 PM,Cal State Northridge Matadors,Weber State Wildcats,CSUN,WEB,Draft Kings,-2.5,-1.5,-118.0,167.5,168.5,-155.0,-135.0,130.0,114.0,
+2026-11-25T15:29-05:00,401911241,Wed 11-25 06:00 PM,Bethune-Cookman Wildcats,Richmond Spiders,BCU,RICH,Draft Kings,12.5,11.5,-105.0,149.5,146.5,550.0,525.0,-800.0,-750.0,
+2026-11-25T15:29-05:00,401909720,Wed 11-25 06:00 PM,UAlbany Great Danes,Syracuse Orange,UALB,SYR,Draft Kings,27.5,25.5,-110.0,150.5,147.5,3500.0,3500.0,-50000.0,-20000.0,
+2026-11-25T15:29-05:00,401909568,Wed 11-25 07:00 PM,UConn Huskies,Duke Blue Devils,CONN,DUKE,Draft Kings,-1.5,-1.5,-108.0,152.5,145.5,-135.0,-120.0,114.0,100.0,neutral
+2026-11-25T15:29-05:00,401922285,Wed 11-25 07:00 PM,South Carolina Upstate Spartans,The Citadel Bulldogs,UPST,CIT,Draft Kings,4.5,3.5,-108.0,139.5,138.5,154.0,142.0,-185.0,-170.0,
+2026-11-25T15:29-05:00,401921170,Wed 11-25 07:00 PM,Case Western Reserve Spartans,Cleveland State Vikings,CWRU,CLE,,,,,,,,,,,
+2026-11-25T15:29-05:00,401921108,Wed 11-25 07:00 PM,Bellarmine Knights,Northern Kentucky Norse,BELL,NKU,Draft Kings,6.5,7.5,-112.0,149.5,146.5,230.0,250.0,-285.0,-310.0,
+2026-11-25T15:29-05:00,401920916,Wed 11-25 07:00 PM,Northern Illinois Huskies,SIU Edwardsville Cougars,NIU,SIUE,Draft Kings,-4.5,-2.5,-118.0,138.5,137.5,-225.0,-155.0,185.0,130.0,
+2026-11-25T15:29-05:00,401920847,Wed 11-25 07:00 PM,St. Thomas Tommies,UNC Wilmington Seahawks,STMN,UNCW,Draft Kings,6.5,5.5,-112.0,157.5,156.5,275.0,190.0,-345.0,-230.0,
+2026-11-25T15:29-05:00,401920076,Wed 11-25 07:00 PM,Longwood Lancers,George Mason Patriots,LONG,GMU,Draft Kings,14.5,16.5,-108.0,143.5,145.5,700.0,1000.0,-1100.0,-1800.0,
+2026-11-25T15:29-05:00,401918971,Wed 11-25 07:00 PM,SMU Mustangs,Utah State Aggies,SMU,USU,Draft Kings,4.5,3.5,-102.0,169.5,162.5,190.0,145.0,-230.0,-175.0,neutral
+2026-11-25T15:29-05:00,401918960,Wed 11-25 07:00 PM,Norfolk State Spartans,NC State Wolfpack,NORF,NCSU,Draft Kings,27.5,27.5,-105.0,149.5,150.5,4000.0,4000.0,-50000.0,-50000.0,
+2026-11-25T15:29-05:00,401911028,Wed 11-25 07:00 PM,Northeastern Huskies,Wisconsin Badgers,NE,WIS,Draft Kings,21.5,19.5,-105.0,158.5,154.5,1600.0,1500.0,-4000.0,-3600.0,
+2026-11-25T15:29-05:00,401929287,Wed 11-25 07:30 PM,Wake Forest Demon Deacons,Mississippi State Bulldogs,WAKE,MSST,Draft Kings,4.5,3.5,-108.0,150.5,148.5,170.0,145.0,-205.0,-175.0,neutral
+2026-11-25T15:29-05:00,401920138,Wed 11-25 08:00 PM,Cal State Bakersfield Roadrunners,Pepperdine Waves,CSUB,PEPP,Draft Kings,10.5,9.5,-110.0,160.5,159.5,410.0,370.0,-550.0,-485.0,
+2026-11-25T15:29-05:00,401911522,Wed 11-25 08:00 PM,Omaha Mavericks,UC Davis Aggies,OMA,UCD,Draft Kings,7.5,4.5,-112.0,146.5,146.5,215.0,164.0,-265.0,-198.0,neutral
+2026-11-25T15:29-05:00,401920550,Wed 11-25 08:30 PM,Eastern Michigan Eagles,UTEP Miners,EMU,UTEP,Draft Kings,2.5,1.5,-125.0,133.5,131.5,136.0,-108.0,-162.0,-112.0,neutral
+2026-11-25T15:29-05:00,401925880,Wed 11-25 09:00 PM,Northwest Indian RedHawks,Montana State Bobcats,NWIC,MTST,,,,,,,,,,,
+2026-11-25T15:29-05:00,401924897,Wed 11-25 09:00 PM,Mississippi Valley State Delta Devils,New Mexico Lobos,MVSU,UNM,Draft Kings,35.5,35.5,-105.0,150.5,152.5,,,,,
+2026-11-25T15:29-05:00,401917545,Wed 11-25 09:00 PM,Eastern Washington Eagles,Loyola Marymount Lions,EWU,LMU,Draft Kings,7.5,7.5,-112.0,152.5,152.5,230.0,260.0,-285.0,-325.0,
+2026-11-25T15:29-05:00,401921671,Wed 11-25 09:30 PM,Grand Canyon Lopes,Colorado Buffaloes,GCU,COLO,Draft Kings,-9.5,-9.5,-115.0,154.5,154.5,-520.0,-520.0,390.0,390.0,neutral
+2026-11-25T15:29-05:00,401921713,Wed 11-25 10:00 PM,Washington Huskies,VCU Rams,WASH,VCU,Draft Kings,3.5,3.5,-105.0,147.5,144.5,160.0,154.0,-192.0,-185.0,neutral
+2026-11-25T15:29-05:00,401917544,Wed 11-25 10:30 PM,Pacific Tigers,Jacksonville State Gamecocks,PAC,JXST,Draft Kings,-5.5,-3.5,-112.0,133.5,132.5,-270.0,-185.0,220.0,154.0,neutral
+2026-11-25T15:29-05:00,401929005,Wed 11-25 11:59 PM,Incarnate Word Cardinals,Hawai'i Rainbow Warriors,UIW,HAW,Draft Kings,16.5,17.5,-118.0,142.5,139.5,950.0,1100.0,-1650.0,-2100.0,
+2026-11-25T15:29-05:00,401921672,Wed 11-25 11:59 PM,Stanford Cardinal,Saint Louis Billikens,STAN,SLU,Draft Kings,4.5,4.5,-118.0,154.5,152.5,,,,,neutral
+2026-11-25T15:29-05:00,401921714,Thu 11-26 12:30 AM,Clemson Tigers,Colorado State Rams,CLEM,CSU,Draft Kings,-2.5,-3.5,-105.0,153.5,148.5,-180.0,-166.0,150.0,140.0,neutral
+2026-11-25T15:29-05:00,401929281,Thu 11-26 11:00 AM,Georgia Bulldogs,Cincinnati Bearcats,UGA,CIN,,,,,,,,,,,neutral
+2026-11-25T15:29-05:00,401912231,Thu 11-26 12:00 PM,Army Black Knights,UTSA Roadrunners,ARMY,UTSA,,,,,,,,,,,
+2026-11-25T15:29-05:00,401906807,Thu 11-26 12:00 PM,Oklahoma Sooners,Purdue Boilermakers,OU,PUR,,,,,,,,,,,neutral
+2026-11-25T15:29-05:00,401920528,Thu 11-26 01:00 PM,San Diego State Aztecs,Maryland Terrapins,SDSU,MD,Draft Kings,1.5,4.5,-110.0,153.5,153.5,100.0,185.0,-120.0,-225.0,neutral
+2026-11-25T15:29-05:00,401929282,Thu 11-26 01:30 PM,Boston College Eagles,UCF Knights,BC,UCF,,,,,,,,,,,neutral
+2026-11-25T15:29-05:00,401921674,Thu 11-26 02:00 PM,South Carolina Gamecocks,Arizona State Sun Devils,SC,ASU,,,,,,,,,,,neutral
+2026-11-25T15:29-05:00,401906869,Thu 11-26 02:30 PM,Georgetown Hoyas,Texas Longhorns,GTWN,TEX,Draft Kings,8.5,8.5,-110.0,155.5,155.5,295.0,295.0,-375.0,-375.0,neutral
+2026-11-25T15:29-05:00,401920529,Thu 11-26 03:30 PM,Tennessee Volunteers,Iowa State Cyclones,TENN,ISU,Draft Kings,-1.5,2.5,-118.0,139.5,139.5,-112.0,124.0,-108.0,-148.0,neutral
+2026-11-25T15:29-05:00,401920537,Thu 11-26 03:30 PM,Miami Hurricanes,Michigan Wolverines,MIA,MICH,Draft Kings,-2.5,-2.5,-110.0,163.5,160.5,-162.0,-162.0,136.0,136.0,neutral
+2026-11-25T15:29-05:00,401925757,Thu 11-26 04:30 PM,Arkansas Razorbacks,Michigan State Spartans,ARK,MSU,Draft Kings,5.5,5.5,-110.0,151.5,151.5,180.0,180.0,-218.0,-218.0,neutral
+2026-11-25T15:29-05:00,401921673,Thu 11-26 04:30 PM,Utah State Aggies,USC Trojans,USU,USC,,,,,,,,,,,neutral
+2026-11-25T15:29-05:00,401917547,Thu 11-26 05:00 PM,Saint Mary's Gaels,UCLA Bruins,SMC,UCLA,,,,,,,,,,,neutral
+2026-11-25T15:29-05:00,401920538,Thu 11-26 06:00 PM,TCU Horned Frogs,Creighton Bluejays,TCU,CREI,Draft Kings,-1.5,-1.5,100.0,156.5,155.5,-120.0,-120.0,100.0,100.0,neutral
+2026-11-25T15:29-05:00,401918972,Thu 11-26 07:00 PM,SMU Mustangs,LSU Tigers,SMU,LSU,,,,,,,,,,,neutral
+2026-11-25T15:29-05:00,401909506,Thu 11-26 07:00 PM,DePaul Blue Demons,Pittsburgh Panthers,DEP,PITT,,,,,,,,,,,neutral
+2026-11-25T15:29-05:00,401911523,Thu 11-26 08:00 PM,Jacksonville State Gamecocks,UC Davis Aggies,JXST,UCD,,,,,,,,,,,neutral
+2026-11-25T15:29-05:00,401920530,Thu 11-26 09:00 PM,Louisville Cardinals,St. John's Red Storm,LOU,SJU,Draft Kings,-4.5,2.5,-108.0,157.5,157.5,170.0,136.0,-205.0,-162.0,neutral
+2026-11-25T15:29-05:00,401920539,Thu 11-26 09:00 PM,Alabama Crimson Tide,Kansas State Wildcats,ALA,KSU,Draft Kings,12.5,-14.5,-110.0,177.5,169.5,-700.0,-1000.0,500.0,650.0,neutral
+2026-11-25T15:29-05:00,401917546,Thu 11-26 10:30 PM,Pacific Tigers,Omaha Mavericks,PAC,OMA,,,,,,,,,,,neutral
+2026-11-25T15:29-05:00,401920531,Thu 11-26 11:30 PM,Texas Tech Red Raiders,Oregon Ducks,TTU,ORE,Draft Kings,-8.5,-9.5,-110.0,153.5,150.5,-440.0,-470.0,340.0,360.0,neutral
+2026-11-25T15:29-05:00,401920540,Thu 11-26 11:30 PM,Baylor Bears,Gonzaga Bulldogs,BAY,GONZ,Draft Kings,-4.5,4.5,-118.0,166.5,159.5,180.0,170.0,-218.0,-205.0,neutral
