@@ -1,4 +1,4 @@
-# CFB lines — DraftKings via ESPN, pull 17:39 ET (first pull today 09:09 ET)
+# CFB lines — DraftKings via ESPN, pull 19:44 ET (first pull today 09:09 ET)
 
 Spread = AWAY team's number. Each cell is open → first pull today → now (DraftKings open is its opener for the game). Flags: STEAM = spread moved 1.5+ since open (direction = side the market moved toward); TOTAL = total moved 2+; KEY = crossed a key number (3/7/14/17); FLIP = favorite changed; TODAY = moved 1+ since the first pull today. No splits here: read DK splits from DK Network.
 
@@ -40,13 +40,13 @@ Spread = AWAY team's number. Each cell is open → first pull today → now (Dra
 | Louisiana Ragin' Cajuns @ Georgia State Panthers | Sat 11-28 02:00 PM | -3 → -5.5 → -5.5 | 56.5 → 55.5 → 55.5 | -142 → -205 | +120 → +170 | STEAM away 2.5; KEY 3 |
 | Liberty Flames @ Missouri State Bears | Sat 11-28 02:00 PM | -14.5 → -17.5 → -17.5 | 51.5 → 53.5 → 53.5 | -575 → -900 | +425 → +600 | STEAM away 3; KEY 17; TOTAL up 2 |
 | Sam Houston Bearkats @ Florida International Panthers | Sat 11-28 02:00 PM | +10.5 → +11.5 → +11.5 | 39.5 → 41.5 → 41.5 | +310 → +350 | -395 → -455 | TOTAL up 2 |
-| New Mexico State Aggies @ Middle Tennessee Blue Raiders | Sat 11-28 02:00 PM | +3.5 → +3 → +3 | 52.5 → 51.5 → 51.5 | +145 → +136 | -175 → -162 | KEY 3 |
+| New Mexico State Aggies @ Middle Tennessee Blue Raiders | Sat 11-28 02:00 PM | +3.5 → +3 → +3.5 | 52.5 → 51.5 → 51.5 | +145 → +136 | -175 → -162 | - |
 | South Carolina Gamecocks @ Clemson Tigers | Sat 11-28 03:00 PM | +3 → -6 → -6 | 53.5 → 41.5 → 41.5 | +130 → -230 | -155 → +190 | STEAM away 9; FLIP; TOTAL down 12 |
 | Virginia Cavaliers @ Virginia Tech Hokies | Sat 11-28 03:00 PM | +1.5 → +3 → +3 | 53.5 → 50.5 → 50.5 | +105 → +130 | -125 → -155 | STEAM home 1.5; KEY 3; TOTAL down 3 |
 | Troy Trojans @ Arkansas State Red Wolves | Sat 11-28 03:00 PM | +3.5 → +3.5 → +3.5 | 46.5 → 46.5 → 46.5 | +140 → +154 | -166 → -185 | - |
 | Georgia Tech Yellow Jackets @ Georgia Bulldogs | Sat 11-28 03:30 PM | +35.5 → +35.5 → +35.5 | 55.5 → 55.5 → 55.5 | +4000 → +2200 | -50000 → -8000 | - |
 | Duke Blue Devils @ Wake Forest Demon Deacons | Sat 11-28 03:30 PM | +10.5 → +14.5 → +14.5 | 52.5 → 55.5 → 55.5 | +280 → +470 | -355 → -650 | STEAM home 4; KEY 14; TOTAL up 3 |
-| USC Trojans @ UCLA Bruins | Sat 11-28 03:30 PM | -11.5 → -7 → -7 | 55.5 → 45.5 → 45.5 | -425 → -250 | +330 → +205 | STEAM home 4.5; KEY 7; TOTAL down 10 |
+| USC Trojans @ UCLA Bruins | Sat 11-28 03:30 PM | -11.5 → -7 → -6.5 | 55.5 → 45.5 → 45.5 | -425 → -250 | +330 → +205 | STEAM home 5; KEY 7; TOTAL down 10 |
 | Cincinnati Bearcats @ BYU Cougars | Sat 11-28 03:30 PM | +12.5 → +15.5 → +15.5 | 56.5 → 56.5 → 55.5 | +380 → +490 | -500 → -675 | STEAM home 3; KEY 14; TODAY tot -1 |
 | SMU Mustangs @ Stanford Cardinal | Sat 11-28 03:30 PM | -10 → -7.5 → -7.5 | 60.5 → 61.5 → 61.5 | -340 → -298 | +270 → +240 | STEAM home 2.5 |
 | Penn State Nittany Lions @ Maryland Terrapins | Sat 11-28 03:30 PM | -7.5 → -7 → -7 | 49.5 → 49.5 → 48.5 | -290 → -278 | +235 → +225 | KEY 7; TODAY tot -1 |
@@ -61,7 +61,7 @@ Spread = AWAY team's number. Each cell is open → first pull today → now (Dra
 | Kansas Jayhawks @ Oklahoma State Cowboys | Sat 11-28 06:15 PM | +6.5 → +6.5 → +6.5 | 67.5 → 64.5 → 64.5 | +185 → +190 | -225 → -230 | TOTAL down 3 |
 | San Diego State Aztecs @ Washington State Cougars | Sat 11-28 06:30 PM | -3 → +2.5 → +2.5 | 46.5 → 46.5 → 46.5 | -148 → +120 | +124 → -142 | STEAM home 5.5; FLIP |
 | Tennessee Volunteers @ Vanderbilt Commodores | Sat 11-28 07:00 PM | -3 → -14 → -13.5 | 57.5 → 42.5 → 42.5 | -155 → -550 | +130 → +410 | STEAM away 10.5; KEY 3/7; TOTAL down 15 |
-| Purdue Boilermakers @ Indiana Hoosiers | Sat 11-28 07:00 PM | +22.5 → +23.5 → +22.5 | 52.5 → 52.5 → 52.5 | +750 → +1100 | -1200 → -2100 | TODAY spr -1 |
+| Purdue Boilermakers @ Indiana Hoosiers | Sat 11-28 07:00 PM | +22.5 → +23.5 → +23.5 | 52.5 → 52.5 → 52.5 | +750 → +1100 | -1200 → -2100 | - |
 | Auburn Tigers @ Alabama Crimson Tide | Sat 11-28 07:30 PM | +10 → +14.5 → +14.5 | 52.5 → 49.5 → 49.5 | +320 → +500 | -410 → -700 | STEAM home 4.5; KEY 14; TOTAL down 3 |
 | Washington Huskies @ Oregon Ducks | Sat 11-28 07:30 PM | +15.5 → +14 → +14 | 54.5 → 50.5 → 50.5 | +455 → +455 | -625 → -625 | STEAM away 1.5; KEY 14; TOTAL down 4 |
 | Pittsburgh Panthers @ California Golden Bears | Sat 11-28 07:30 PM | +7.5 → -9.5 → -9.5 | 47.5 → 47.5 → 47.5 | +235 → -355 | -290 → +280 | STEAM away 17; FLIP |
