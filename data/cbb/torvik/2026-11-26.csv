@@ -1,0 +1,366 @@
+team,adjoe,adjde,adjt,rank
+Illinois,130.4,99.0,68.0,1
+Houston,120.9,97.6,68.0,2
+UCLA,119.2,96.7,68.0,3
+USC,118.0,96.6,68.0,4
+Missouri,119.8,99.8,68.0,5
+Texas,118.8,98.9,68.0,6
+Utah State,121.8,101.9,68.0,7
+Minnesota,119.5,99.7,68.0,7
+Virginia,119.7,100.4,68.0,9
+Vanderbilt,112.7,93.4,68.0,9
+Iowa,118.4,99.4,68.0,11
+Ole Miss,111.2,92.7,68.0,12
+Texas Tech,108.1,90.1,68.0,13
+St. John's,115.9,98.6,68.0,14
+Kansas,117.1,99.9,68.0,15
+DePaul,112.3,95.5,68.0,16
+Oklahoma State,119.7,102.9,68.0,17
+Baylor,114.9,98.3,68.0,18
+Arizona,120.1,103.6,68.0,18
+Nebraska,117.6,101.0,68.0,18
+Florida,120.8,104.3,68.0,18
+Marquette,111.1,94.5,68.0,18
+Duke,113.5,97.7,68.0,23
+Miami,111.1,95.3,68.0,23
+LSU,113.2,97.7,68.0,25
+Gonzaga,118.4,103.1,68.0,26
+Texas A&M,115.3,100.1,68.0,26
+Texas State,117.0,102.0,68.0,28
+Pittsburgh,113.4,99.3,68.0,29
+Cincinnati,113.7,99.6,68.0,29
+UConn,114.7,101.4,68.0,31
+Western Michigan,112.5,99.5,68.0,32
+Florida State,115.7,103.3,68.0,33
+Notre Dame,118.2,105.8,68.0,34
+Iowa State,107.1,94.9,68.0,35
+Creighton,112.2,100.1,68.0,35
+West Virginia,113.6,101.5,68.0,37
+Saint Mary's,120.0,108.1,68.0,38
+Rutgers,119.6,107.8,68.0,39
+NC State,114.6,103.0,68.0,40
+Indiana,116.8,105.1,68.0,40
+Seton Hall,109.1,97.3,68.0,40
+Mississippi State,114.5,102.7,68.0,40
+Wright State,114.8,103.2,68.0,44
+Michigan State,113.1,101.5,68.0,44
+Wichita State,113.2,102.2,68.0,46
+Georgia,115.8,104.7,68.0,46
+BYU,118.0,107.2,68.0,48
+Tennessee,104.9,94.3,68.0,49
+Murray State,110.2,99.7,68.0,50
+Memphis,117.4,107.0,68.0,51
+TCU,114.4,104.2,68.0,52
+San Diego State,113.4,103.1,68.0,52
+George Washington,110.7,100.6,68.0,54
+Saint Louis,113.0,103.0,68.0,54
+Miami (OH),114.7,104.6,68.0,54
+Wyoming,115.2,105.2,68.0,57
+UC Santa Barbara,116.9,106.9,68.0,57
+Grand Canyon,114.2,104.3,68.0,57
+Western Kentucky,110.0,100.1,68.0,60
+Boston College,115.2,105.3,68.0,60
+High Point,109.1,99.4,68.0,62
+Auburn,112.6,102.9,68.0,62
+Oregon State,115.2,105.6,68.0,64
+Louisville,115.8,106.2,68.0,64
+North Carolina,110.1,100.7,68.0,66
+St. Bonaventure,113.2,103.7,68.0,66
+New Mexico,115.2,105.8,68.0,66
+Davidson,106.7,97.6,68.0,69
+Virginia Tech,116.0,107.0,68.0,70
+Alabama,114.9,106.0,68.0,71
+St. Thomas-Minnesota,117.3,108.4,68.0,72
+Columbia,108.4,99.6,68.0,72
+Cal State Fullerton,113.2,104.4,68.0,72
+Xavier,106.4,97.6,68.0,72
+George Mason,109.5,100.6,68.0,72
+Lamar,113.6,104.9,68.0,77
+Purdue,113.7,105.1,68.0,77
+Wake Forest,113.2,104.5,68.0,79
+South Carolina,111.9,103.4,68.0,80
+Syracuse,112.9,104.7,68.0,81
+Furman,112.3,104.2,68.0,82
+Nevada,108.8,100.8,68.0,83
+Arkansas,112.4,104.5,68.0,84
+SMU,112.8,105.0,68.0,84
+Tennessee Tech,117.5,109.7,68.0,86
+Georgetown,115.9,108.1,68.0,86
+South Florida,113.8,106.2,68.0,88
+Northern Illinois,117.3,109.8,68.0,89
+UT Martin,110.4,103.0,68.0,90
+Old Dominion,111.3,104.0,68.0,91
+Sam Houston,109.9,102.7,68.0,92
+James Madison,111.4,104.2,68.0,92
+Rhode Island,112.2,105.1,68.0,94
+Maryland,112.6,105.5,68.0,95
+Oregon,116.5,109.7,68.0,96
+VCU,113.1,106.6,68.0,97
+California,110.4,103.9,68.0,97
+Butler,112.4,106.0,68.0,99
+Ohio State,114.0,107.7,68.0,100
+Charlotte,109.5,103.2,68.0,100
+Utah Valley,113.8,107.8,68.0,102
+UTEP,108.0,102.3,68.0,103
+Illinois State,116.2,110.5,68.0,104
+UNC Wilmington,116.0,110.3,68.0,105
+Wisconsin,109.3,103.8,68.0,106
+Michigan,112.7,107.3,68.0,107
+Villanova,108.2,102.8,68.0,107
+Seattle U,107.5,102.2,68.0,109
+Penn State,111.9,106.8,68.0,110
+Providence,105.2,100.0,68.0,110
+Houston Christian,111.2,106.1,68.0,112
+Arizona State,113.5,108.7,68.0,113
+Central Arkansas,109.9,105.1,68.0,113
+Loyola Chicago,106.1,101.5,68.0,115
+Cal State Bakersfield,112.8,108.4,68.0,116
+Montana State,109.0,104.8,68.0,117
+Charleston,112.0,108.1,68.0,118
+Richmond,110.2,106.3,68.0,118
+San Diego,112.1,108.4,68.0,120
+Akron,106.6,103.0,68.0,121
+Pepperdine,111.8,108.8,68.0,122
+Stephen F. Austin,109.1,106.2,68.0,123
+Chattanooga,112.3,109.6,68.0,124
+Cornell,109.1,106.5,68.0,125
+Fordham,107.4,105.2,68.0,126
+Kentucky,112.5,110.3,68.0,126
+Boston University,109.9,107.7,68.0,126
+Pennsylvania,108.7,106.6,68.0,129
+Washington State,112.2,110.3,68.0,130
+App State,106.3,104.5,68.0,131
+Howard,108.3,106.5,68.0,131
+Tulsa,106.4,104.6,68.0,131
+UMass Lowell,105.7,103.9,68.0,131
+Washington,110.4,108.7,68.0,135
+Colorado,106.4,104.7,68.0,135
+Vermont,113.6,112.0,68.0,137
+Valparaiso,110.5,108.9,68.0,137
+Boise State,110.7,109.2,68.0,139
+Elon,107.3,105.8,68.0,139
+Pacific,106.0,104.6,68.0,141
+South Dakota State,110.3,108.9,68.0,142
+Eastern Kentucky,106.4,105.1,68.0,142
+Bowling Green,116.1,114.9,68.0,144
+Texas A&M-Corpus Christi,106.7,105.5,68.0,144
+Santa Clara,110.3,109.2,68.0,146
+Massachusetts,103.3,102.2,68.0,146
+East Tennessee State,105.0,103.9,68.0,146
+McNeese,112.8,111.7,68.0,146
+Georgia State,110.0,108.9,68.0,146
+William & Mary,109.7,108.7,68.0,151
+UT Arlington,107.2,106.2,68.0,151
+UTSA,107.6,106.6,68.0,151
+Purdue Fort Wayne,112.9,112.0,68.0,154
+Princeton,105.5,104.8,68.0,155
+Rice,108.9,108.2,68.0,155
+Southern Illinois,111.4,110.9,68.0,157
+Portland State,108.2,107.7,68.0,157
+Northwestern,107.9,107.3,68.0,157
+Campbell,113.1,112.4,68.0,157
+Stanford,108.2,107.8,68.0,161
+Stony Brook,108.1,107.7,68.0,161
+Green Bay,108.3,108.0,68.0,163
+Saint Joseph's,103.6,103.4,68.0,164
+Liberty,111.7,111.5,68.0,165
+Marshall,102.6,102.5,68.0,165
+American University,108.6,108.6,68.0,167
+UC Irvine,102.7,102.7,68.0,167
+Siena,111.5,111.5,68.0,167
+Arkansas State,110.0,110.2,68.0,170
+Oral Roberts,108.1,108.2,68.0,170
+Ohio,110.5,110.6,68.0,170
+Clemson,112.9,113.1,68.0,173
+UCF,112.7,112.9,68.0,174
+UT Rio Grande Valley,107.4,107.7,68.0,174
+IU Indianapolis,109.8,110.2,68.0,176
+Toledo,105.6,106.1,68.0,177
+Loyola Marymount,109.6,110.1,68.0,177
+Bethune-Cookman,111.5,111.9,68.0,177
+Cal State Northridge,107.9,108.5,68.0,180
+Bellarmine,110.1,110.7,68.0,180
+Oklahoma,108.3,109.3,68.0,182
+UC Riverside,100.8,101.9,68.0,183
+Towson,101.3,102.6,68.0,184
+Yale,107.0,108.4,68.0,185
+North Carolina A&T,106.1,107.4,68.0,185
+Evansville,105.7,107.1,68.0,185
+Duquesne,107.3,108.8,68.0,188
+Belmont,106.9,108.4,68.0,188
+Austin Peay,101.9,103.5,68.0,190
+Central Michigan,109.8,111.4,68.0,190
+Radford,104.5,106.1,68.0,190
+Colorado State,108.8,110.5,68.0,193
+Florida Gulf Coast,109.7,111.4,68.0,193
+Buffalo,105.9,107.8,68.0,195
+Florida International,106.3,108.2,68.0,195
+New Hampshire,94.9,96.7,68.0,195
+Florida Atlantic,110.8,112.7,68.0,198
+Samford,108.9,110.9,68.0,199
+San José State,112.3,114.3,68.0,199
+Drake,107.4,109.5,68.0,199
+Mercer,109.1,111.2,68.0,202
+Louisiana Tech,102.7,104.9,68.0,202
+Lafayette,104.1,106.3,68.0,202
+Kennesaw State,102.0,104.2,68.0,202
+Eastern Michigan,107.0,109.3,68.0,206
+Colgate,106.2,108.6,68.0,207
+Monmouth,103.2,105.6,68.0,207
+Kansas State,105.0,107.4,68.0,207
+Denver,104.9,107.3,68.0,207
+Eastern Washington,105.3,107.9,68.0,211
+UAB,108.9,111.4,68.0,211
+Drexel,107.2,109.7,68.0,211
+Southern Miss,107.7,110.2,68.0,211
+Kent State,106.5,109.1,68.0,215
+Temple,107.2,109.8,68.0,215
+Middle Tennessee,107.2,109.9,68.0,215
+UNLV,105.5,108.2,68.0,218
+Missouri State,103.8,106.7,68.0,219
+Longwood,106.5,109.4,68.0,219
+VMI,103.1,106.0,68.0,219
+UIC,103.8,106.7,68.0,219
+West Florida,106.2,109.2,68.0,223
+Lehigh,106.1,109.4,68.0,224
+Delaware,103.6,107.1,68.0,225
+Hampton,101.3,104.7,68.0,225
+Kansas City,107.9,111.3,68.0,225
+Binghamton,107.2,110.6,68.0,228
+Cal Poly,106.2,109.8,68.0,229
+Abilene Christian,110.5,114.2,68.0,230
+Northern Arizona,114.9,118.7,68.0,230
+North Texas,106.2,110.0,68.0,232
+North Carolina Central,101.9,105.7,68.0,233
+Marist,103.3,107.2,68.0,233
+Bradley,99.7,103.5,68.0,233
+UNC Greensboro,108.7,112.7,68.0,236
+Idaho State,106.3,110.4,68.0,237
+Fresno State,109.0,113.2,68.0,238
+Milwaukee,105.4,109.6,68.0,238
+Jacksonville State,108.0,112.3,68.0,240
+Brown,103.2,107.5,68.0,240
+Georgia Southern,104.7,109.0,68.0,240
+East Texas A&M,104.8,109.2,68.0,243
+North Alabama,106.0,110.5,68.0,243
+UC Davis,101.3,105.7,68.0,245
+Tarleton State,105.4,109.9,68.0,245
+Dayton,105.7,110.3,68.0,247
+Tennessee State,104.5,109.1,68.0,247
+Harvard,105.8,110.5,68.0,249
+Lipscomb,106.7,111.4,68.0,249
+East Carolina,102.0,106.7,68.0,249
+Georgia Tech,106.0,110.7,68.0,249
+Hofstra,101.8,106.6,68.0,253
+San Francisco,103.4,108.2,68.0,254
+Bryant,98.8,103.7,68.0,254
+Dartmouth,106.5,111.4,68.0,254
+Grambling,106.8,111.8,68.0,257
+Western Carolina,106.1,111.1,68.0,257
+Troy,107.5,112.5,68.0,257
+South Alabama,109.3,114.3,68.0,260
+Charleston Southern,101.3,106.6,68.0,261
+Queens University,115.1,120.5,68.0,262
+Northeastern,109.0,114.5,68.0,263
+Southern Indiana,101.0,106.6,68.0,264
+South Carolina State,103.2,108.9,68.0,265
+The Citadel,101.8,107.9,68.0,266
+Utah Tech,108.7,114.9,68.0,267
+Air Force,109.6,115.8,68.0,268
+Idaho,107.0,113.3,68.0,269
+Quinnipiac,105.5,111.8,68.0,269
+Alabama A&M,103.9,110.3,68.0,271
+Central Connecticut,105.2,111.6,68.0,272
+Northwestern State,104.1,110.6,68.0,272
+Prairie View A&M,101.8,108.5,68.0,274
+Portland,104.7,111.3,68.0,274
+Tulane,104.1,110.7,68.0,274
+Ball State,102.4,109.1,68.0,277
+Youngstown State,103.1,109.8,68.0,277
+Utah,99.3,106.0,68.0,277
+North Dakota State,105.7,112.5,68.0,280
+Montana,101.8,108.9,68.0,281
+Little Rock,110.9,118.1,68.0,282
+Mercyhurst,102.0,109.2,68.0,282
+Long Beach State,108.4,115.7,68.0,284
+Delaware State,104.1,111.4,68.0,284
+Western Illinois,100.6,107.9,68.0,284
+Sacramento State,98.5,105.9,68.0,284
+Iona,97.3,104.7,68.0,288
+Wofford,109.4,117.0,68.0,289
+Alabama State,104.9,112.6,68.0,290
+Merrimack,101.5,109.5,68.0,291
+Indiana State,102.6,110.7,68.0,292
+Nicholls,99.7,107.8,68.0,292
+Long Island University,99.7,107.9,68.0,292
+South Dakota,104.2,112.3,68.0,292
+Southeast Missouri State,105.7,114.0,68.0,296
+Le Moyne,103.1,111.7,68.0,297
+UNC Asheville,105.2,113.8,68.0,297
+SIU Edwardsville,100.8,109.3,68.0,297
+Maine,95.3,103.9,68.0,300
+Cleveland State,104.8,113.5,68.0,300
+Sacred Heart,110.1,118.7,68.0,300
+Presbyterian,107.0,115.6,68.0,303
+Northern Iowa,109.6,118.5,68.0,304
+New Mexico State,104.6,113.5,68.0,304
+New Haven,96.3,105.2,68.0,304
+Hawai'i,100.3,109.3,68.0,307
+UC San Diego,109.4,118.5,68.0,308
+Southern Utah,103.3,112.6,68.0,309
+North Dakota,103.4,112.5,68.0,309
+Niagara,100.0,109.2,68.0,309
+Jackson State,99.6,108.9,68.0,312
+Fairfield,97.2,106.5,68.0,313
+La Salle,104.6,114.1,68.0,314
+Coppin State,95.0,104.6,68.0,315
+Lindenwood,96.8,106.4,68.0,315
+UAlbany,101.3,111.0,68.0,317
+New Orleans,99.6,109.5,68.0,318
+Winthrop,106.2,116.4,68.0,319
+Stetson,104.3,114.7,68.0,320
+Fairleigh Dickinson,101.1,111.4,68.0,320
+Morgan State,98.5,109.0,68.0,322
+Army,100.7,111.3,68.0,323
+Southern,101.5,112.3,68.0,324
+SE Louisiana,103.8,114.5,68.0,325
+North Florida,98.3,109.2,68.0,326
+Coastal Carolina,97.5,108.8,68.0,327
+West Georgia,98.8,110.2,68.0,328
+Wagner,96.2,107.8,68.0,329
+Incarnate Word,97.3,109.2,68.0,330
+Maryland Eastern Shore,96.5,108.3,68.0,330
+Louisiana,99.3,111.2,68.0,332
+Robert Morris,100.6,112.6,68.0,332
+UL Monroe,99.9,112.2,68.0,334
+Jacksonville,103.3,115.7,68.0,335
+UMBC,98.3,110.8,68.0,335
+Loyola Maryland,97.8,110.3,68.0,337
+Navy,98.0,110.7,68.0,338
+Morehead State,104.1,116.7,68.0,338
+Texas Southern,101.0,113.8,68.0,340
+Northern Kentucky,99.8,112.9,68.0,341
+Gardner-Webb,100.2,113.3,68.0,342
+Omaha,100.3,113.5,68.0,343
+Mount St. Mary's,99.0,112.2,68.0,343
+Manhattan,98.7,112.1,68.0,345
+South Carolina Upstate,99.5,112.9,68.0,345
+Stonehill,102.3,116.1,68.0,347
+Chicago State,105.2,119.1,68.0,348
+Oakland,104.1,118.0,68.0,349
+Bucknell,100.6,114.8,68.0,350
+Mississippi Valley State,101.0,115.5,68.0,351
+Saint Peter's,91.4,105.9,68.0,352
+Norfolk State,102.4,117.9,68.0,353
+Weber State,102.6,118.2,68.0,354
+Holy Cross,94.5,111.2,68.0,355
+Northern Colorado,94.7,112.0,68.0,356
+Canisius,97.9,115.2,68.0,357
+Rider,100.1,118.5,68.0,358
+California Baptist,99.3,118.1,68.0,359
+NJIT,94.2,113.3,68.0,360
+Florida A&M,94.6,115.6,68.0,361
+Eastern Illinois,99.4,120.5,68.0,362
+Alcorn State,95.9,118.3,68.0,363
+Detroit Mercy,98.9,122.5,68.0,364
+Arkansas-Pine Bluff,90.1,121.0,68.0,365
