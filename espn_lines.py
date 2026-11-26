@@ -13,6 +13,7 @@ ESPN's odds object (provider = DraftKings) carries pointSpread / total / moneyli
 ("BUF -3.5") and "overUnder"; those fill the current line when the newer fields are missing.
 Stdlib only.
 """
+import team_match
 import csv, json, os, re, sys, time, urllib.request
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
@@ -30,7 +31,8 @@ LEAGUES = {
 }
 FIELDS = ["pulled_et", "espn_id", "start_et", "away", "home", "away_abbr", "home_abbr", "book",
           "spread_open", "spread_now", "spread_odds_now", "total_open", "total_now",
-          "ml_away_open", "ml_away_now", "ml_home_open", "ml_home_now", "status"]
+          "ml_away_open", "ml_away_now", "ml_home_open", "ml_home_now", "status",
+          "away_team_id", "home_team_id", "spread_open_raw", "open_check"]
 
 
 def get(url):
@@ -132,7 +134,15 @@ def pull(sport):
                      "away": a.get("displayName", ""), "home": h.get("displayName", ""),
                      "away_abbr": a.get("abbreviation", ""), "home_abbr": h.get("abbreviation", ""),
                      **parse_odds(odds or {}, a.get("abbreviation", ""), h.get("abbreviation", "")),
-                     "status": "neutral" if comp.get("neutralSite") else ""})
+                     "status": "neutral" if comp.get("neutralSite") else "",
+                     "away_team_id": str(a.get("id", "")), "home_team_id": str(h.get("id", ""))})
+        # ESPN can store the opening spread in DraftKings' orientation while the moneyline follows
+        # ESPN's (neutral sites). The opening moneyline names the real favorite: fix or flag the sign.
+        r = rows[-1]
+        r["spread_open_raw"] = r["spread_open"]
+        r["spread_open"], r["open_check"] = team_match.check_opener(r["spread_open"], r["ml_away_open"], r["ml_home_open"])
+        if r["open_check"] in ("no_spread",):
+            r["spread_open"] = r["spread_open_raw"]
     return rows
 
 
