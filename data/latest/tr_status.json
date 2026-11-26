@@ -1,5 +1,5 @@
 {
-  "pulled_et": "2026-11-25T15:29-05:00",
+  "pulled_et": "2026-11-26T15:29-05:00",
   "cookie_set": true,
   "tr_picks_NFL": "ok 16 rows",
   "tr_picks_NFL_logged_in": true,
@@ -19,19 +19,19 @@
   "tr_splits_CFB": "ok 824 rows",
   "tr_ratings_more_CFB": "ok 414 rows",
   "tr_proj_CFB": "ok 15 games",
-  "tr_picks_NBA": "ok 9 rows",
+  "tr_picks_NBA": "ok 11 rows",
   "tr_picks_NBA_logged_in": true,
   "tr_ratings_NBA": "ok 30 rows",
   "tr_ats_NBA": "ok 30 rows",
   "tr_ou_NBA": "ok 30 rows",
   "tr_stats_NBA": "ok 150 rows",
-  "tr_picks_CBB": "ok 57 rows",
+  "tr_picks_CBB": "ok 24 rows",
   "tr_picks_CBB_logged_in": true,
   "tr_ratings_CBB": "ok 365 rows",
   "tr_ats_CBB": "ok 365 rows",
   "tr_ou_CBB": "ok 365 rows",
   "tr_stats_CBB": "ok 1460 rows",
-  "tr_splits_CBB": "ok 1953 rows",
+  "tr_splits_CBB": "ok 1965 rows",
   "tr_ratings_more_CBB": "ok 1095 rows",
-  "tr_proj_CBB": "ok 14 games"
+  "tr_proj_CBB": "ok 19 games"
 }

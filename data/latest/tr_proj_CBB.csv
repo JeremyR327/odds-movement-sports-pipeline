@@ -1,15 +1,20 @@
 pulled_et,away,home,matchup_url,page_teams,away_proj,home_proj,vegas_away,vegas_home,proj_home_margin,proj_total,status,vegas_home_margin,vegas_total
-2026-11-25T15:29-05:00,Stanford,Colorado,https://www.teamrankings.com/ncaa-basketball/matchup/cardinal-buffaloes-2026-11-25,STAN / COLO,72.4,67.4,72.5,68.0,-5.0,139.8,ok,-4.5,140.5
-2026-11-25T15:29-05:00,Kansas St,Gonzaga,https://www.teamrankings.com/ncaa-basketball/matchup/wildcats-bulldogs-2026-11-25,KSU / GONZ,70.2,85.6,71.2,86.2,15.4,155.8,ok,15.0,157.4
-2026-11-25T15:29-05:00,Marquette,Virginia,https://www.teamrankings.com/ncaa-basketball/matchup/golden-eagles-cavaliers-2026-11-25,Marquette / Virginia,71.9,78.2,73.0,78.5,6.3,150.1,ok,5.5,151.5
-2026-11-25T15:29-05:00,Arizona St,LSU,https://www.teamrankings.com/ncaa-basketball/matchup/sun-devils-tigers-2026-11-25,Arizona St / LSU,69.7,73.9,70.5,75.0,4.2,143.6,ok,4.5,145.5
-2026-11-25T15:29-05:00,Xavier,Texas A&M,https://www.teamrankings.com/ncaa-basketball/matchup/musketeers-aggies-2026-11-25,Xavier / Texas A&M,82.6,87.0,83.5,87.0,4.4,169.6,ok,3.5,170.5
-2026-11-25T15:29-05:00,Arizona,Mississippi,https://www.teamrankings.com/ncaa-basketball/matchup/wildcats-rebels-2026-11-25,Arizona / Mississippi,79.3,73.7,79.5,74.0,-5.6,153.0,ok,-5.5,153.5
-2026-11-25T15:29-05:00,USC,South Carolina,https://www.teamrankings.com/ncaa-basketball/matchup/trojans-gamecocks-2026-11-25,USC / South Carolina,77.2,67.4,78.0,67.5,-9.8,144.6,ok,-10.5,145.5
-2026-11-25T15:29-05:00,Memphis,Penn St,https://www.teamrankings.com/ncaa-basketball/matchup/tigers-nittany-lions-2026-11-25,Memphis / Penn St,83.4,79.4,84.0,79.5,-4.0,162.8,ok,-4.5,163.5
-2026-11-25T15:29-05:00,Providence,BYU,https://www.teamrankings.com/ncaa-basketball/matchup/friars-cougars-2026-11-25,Providence / BYU,75.5,77.7,76.0,78.5,2.2,153.2,ok,2.5,154.5
-2026-11-25T15:29-05:00,SMU,Utah St,https://www.teamrankings.com/ncaa-basketball/matchup/mustangs-aggies-2026-11-25,SMU / Utah St,78.5,82.2,79.5,83.0,3.7,160.7,ok,3.5,162.5
-2026-11-25T15:29-05:00,Duke,UConn,https://www.teamrankings.com/ncaa-basketball/matchup/blue-devils-huskies-2026-11-25,Duke / UConn,71.5,74.1,72.5,74.0,2.6,145.6,ok,1.5,146.5
-2026-11-25T15:29-05:00,Wake Forest,Mississippi St,https://www.teamrankings.com/ncaa-basketball/matchup/demon-deacons-bulldogs-2026-11-25,Wake Forest / Mississippi St,72.7,75.8,72.5,76.0,3.1,148.5,ok,3.5,148.5
-2026-11-25T15:29-05:00,Grand Canyon,Colorado,https://www.teamrankings.com/ncaa-basketball/matchup/lopes-buffaloes-2026-11-25,Grand Canyon / Colorado,80.6,71.4,82.0,72.5,-9.2,152.0,ok,-9.5,154.5
-2026-11-25T15:29-05:00,VCU,Washington,https://www.teamrankings.com/ncaa-basketball/matchup/rams-huskies-2026-11-25,VCU / Washington,74.4,70.4,74.8,70.8,-4.0,144.8,ok,-4.0,145.6
+2026-11-26T15:29-05:00,Saint Louis,Stanford,https://www.teamrankings.com/ncaa-basketball/matchup/billikens-cardinal-2026-11-26,SLU / STAN,77.0,74.1,78.0,74.5,-2.9,151.1,ok,-3.5,152.5
+2026-11-26T15:29-05:00,Colorado St,Clemson,https://www.teamrankings.com/ncaa-basketball/matchup/rams-tigers-2026-11-26,CSU / CLEM,70.1,75.3,71.5,76.0,5.2,145.4,ok,4.5,147.5
+2026-11-26T15:29-05:00,Georgia,Cincinnati,https://www.teamrankings.com/ncaa-basketball/matchup/bulldogs-bearcats-2026-11-26,UGA / CIN,76.1,79.1,77.0,79.5,3.0,155.2,ok,2.5,156.5
+2026-11-26T15:29-05:00,Oklahoma,Purdue,https://www.teamrankings.com/ncaa-basketball/matchup/sooners-boilermakers-2026-11-26,OKLA / PUR,67.1,71.8,68.0,72.5,4.7,138.9,ok,4.5,140.5
+2026-11-26T15:29-05:00,San Diego St,Maryland,https://www.teamrankings.com/ncaa-basketball/matchup/aztecs-terrapins-2026-11-26,San Diego St / Maryland,73.9,78.6,74.0,78.5,4.7,152.5,ok,4.5,152.5
+2026-11-26T15:29-05:00,Boston College,UCF,https://www.teamrankings.com/ncaa-basketball/matchup/eagles-knights-2026-11-26,Boston College / UCF,72.2,74.5,72.5,75.0,2.3,146.7,ok,2.5,147.5
+2026-11-26T15:29-05:00,South Carolina,Arizona St,https://www.teamrankings.com/ncaa-basketball/matchup/gamecocks-sun-devils-2026-11-26,South Carolina / Arizona St,67.0,72.5,67.5,72.0,5.5,139.5,ok,4.5,139.5
+2026-11-26T15:29-05:00,Georgetown,Texas,https://www.teamrankings.com/ncaa-basketball/matchup/hoyas-longhorns-2026-11-26,Georgetown / Texas,73.4,81.9,73.0,81.5,8.5,155.3,ok,8.5,154.5
+2026-11-26T15:29-05:00,Iowa St,Tennessee,https://www.teamrankings.com/ncaa-basketball/matchup/cyclones-volunteers-2026-11-26,Iowa St / Tennessee,72.3,66.5,72.0,66.5,-5.8,138.8,ok,-5.5,138.5
+2026-11-26T15:29-05:00,Michigan,Miami,https://www.teamrankings.com/ncaa-basketball/matchup/wolverines-hurricanes-2026-11-26,Michigan / Miami,79.6,81.2,80.0,81.5,1.6,160.8,ok,1.5,161.5
+2026-11-26T15:29-05:00,Arkansas,Michigan St,https://www.teamrankings.com/ncaa-basketball/matchup/razorbacks-spartans-2026-11-26,Arkansas / Michigan St,70.5,76.4,71.5,77.0,5.9,146.9,ok,5.5,148.5
+2026-11-26T15:29-05:00,Utah St,USC,https://www.teamrankings.com/ncaa-basketball/matchup/aggies-trojans-2026-11-26,Utah St / USC,77.3,79.2,77.5,79.0,1.9,156.5,ok,1.5,156.5
+2026-11-26T15:29-05:00,Saint Mary's,UCLA,https://www.teamrankings.com/ncaa-basketball/matchup/gaels-bruins-2026-11-26,Saint Mary's / UCLA,71.8,80.2,72.5,80.0,8.4,152.0,ok,7.5,152.5
+2026-11-26T15:29-05:00,Creighton,TCU,https://www.teamrankings.com/ncaa-basketball/matchup/bluejays-horned-frogs-2026-11-26,Creighton / TCU,78.0,76.5,77.0,75.5,-1.5,154.5,ok,-1.5,152.5
+2026-11-26T15:29-05:00,SMU,LSU,https://www.teamrankings.com/ncaa-basketball/matchup/mustangs-tigers-2026-11-26,SMU / LSU,73.5,80.5,74.0,81.5,7.0,154.0,ok,7.5,155.5
+2026-11-26T15:29-05:00,DePaul,Pittsburgh,https://www.teamrankings.com/ncaa-basketball/matchup/blue-demons-panthers-2026-11-26,DePaul / Pittsburgh,68.9,69.6,69.5,68.0,0.7,138.5,ok,-1.5,137.5
+2026-11-26T15:29-05:00,St John's,Louisville,https://www.teamrankings.com/ncaa-basketball/matchup/red-storm-cardinals-2026-11-26,St John's / Louisville,80.9,80.2,81.5,80.0,-0.7,161.1,ok,-1.5,161.5
+2026-11-26T15:29-05:00,Oregon,Texas Tech,https://www.teamrankings.com/ncaa-basketball/matchup/ducks-red-raiders-2026-11-26,Oregon / Texas Tech,69.1,79.8,69.0,79.5,10.7,148.9,ok,10.5,148.5
+2026-11-26T15:29-05:00,Gonzaga,Baylor,https://www.teamrankings.com/ncaa-basketball/matchup/bulldogs-bears-2026-11-26,Gonzaga / Baylor,78.5,75.6,78.5,75.0,-2.9,154.1,ok,-3.5,153.5
