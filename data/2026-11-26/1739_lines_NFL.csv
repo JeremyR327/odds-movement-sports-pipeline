@@ -1,0 +1,14 @@
+pulled_et,espn_id,start_et,away,home,away_abbr,home_abbr,book,spread_open,spread_now,spread_odds_now,total_open,total_now,ml_away_open,ml_away_now,ml_home_open,ml_home_now,status,away_team_id,home_team_id,spread_open_raw,open_check
+2026-11-26T17:39-05:00,401873082,Thu 11-26 08:20 PM,Kansas City Chiefs,Buffalo Bills,KC,BUF,DraftKings,2.5,3.0,-119.0,49.5,45.5,114.0,130.0,-135.0,-153.0,,12,2,2.5,ok
+2026-11-26T17:39-05:00,401873083,Fri 11-27 03:00 PM,Denver Broncos,Pittsburgh Steelers,DEN,PIT,DraftKings,-1.5,-4.5,-122.0,41.5,36.5,-118.0,-254.0,-102.0,209.0,,7,23,-1.5,ok
+2026-11-26T17:39-05:00,401873087,Sun 11-29 01:00 PM,New Orleans Saints,Cincinnati Bengals,NO,CIN,DraftKings,6.5,10.0,-113.0,48.5,49.5,235.0,423.0,-290.0,-562.0,,18,4,6.5,ok
+2026-11-26T17:39-05:00,401873088,Sun 11-29 01:00 PM,New York Giants,Indianapolis Colts,NYG,IND,DraftKings,2.5,-6.0,-109.0,47.5,41.5,114.0,-286.0,-135.0,235.0,,19,11,2.5,ok
+2026-11-26T17:39-05:00,401873089,Sun 11-29 01:00 PM,New York Jets,Miami Dolphins,NYJ,MIA,DraftKings,1.5,-4.5,-115.0,41.5,39.5,105.0,-241.0,-125.0,199.0,,20,15,1.5,ok
+2026-11-26T17:39-05:00,401873084,Sun 11-29 01:00 PM,Atlanta Falcons,Minnesota Vikings,ATL,MIN,DraftKings,4.5,7.0,-119.0,43.5,41.5,180.0,252.0,-218.0,-310.0,,1,16,4.5,ok
+2026-11-26T17:39-05:00,401873090,Sun 11-29 01:00 PM,Tennessee Titans,Jacksonville Jaguars,TEN,JAX,DraftKings,5.5,14.5,-116.0,45.5,49.5,210.0,780.0,-258.0,-1260.0,,10,30,5.5,ok
+2026-11-26T17:39-05:00,401873085,Sun 11-29 01:00 PM,Baltimore Ravens,Houston Texans,BAL,HOU,DraftKings,1.5,6.5,-107.0,45.5,47.5,-102.0,267.0,-118.0,-332.0,,33,34,1.5,ok
+2026-11-26T17:39-05:00,401873093,Sun 11-29 04:05 PM,New England Patriots,Los Angeles Chargers,NE,LAC,DraftKings,2.5,-2.5,-108.0,45.5,35.5,114.0,-137.0,-135.0,116.0,,17,24,2.5,ok
+2026-11-26T17:39-05:00,401873092,Sun 11-29 04:25 PM,Washington Commanders,Arizona Cardinals,WSH,ARI,DraftKings,-4.5,-6.5,-118.0,47.5,41.5,-218.0,-352.0,180.0,282.0,,28,22,-4.5,ok
+2026-11-26T17:39-05:00,401873091,Sun 11-29 04:25 PM,Seattle Seahawks,San Francisco 49ers,SEA,SF,DraftKings,1.5,3.0,-117.0,46.5,43.5,-108.0,128.0,-112.0,-152.0,,26,25,1.5,ok
+2026-11-26T17:39-05:00,401873086,Sun 11-29 08:20 PM,Las Vegas Raiders,Cleveland Browns,LV,CLE,DraftKings,2.5,4.5,-114.0,39.5,40.5,110.0,201.0,-130.0,-244.0,,13,5,2.5,ok
+2026-11-26T17:39-05:00,401873094,Mon 11-30 08:15 PM,Carolina Panthers,Tampa Bay Buccaneers,CAR,TB,DraftKings,3.5,3.0,-112.0,44.5,43.5,160.0,132.0,-192.0,-157.0,,29,27,3.5,ok
