@@ -1,30 +1,27 @@
-# CBB lines — DraftKings via ESPN, pull 09:09 ET (first pull today 09:09 ET)
+# CBB lines — DraftKings via ESPN, pull 12:39 ET (first pull today 09:09 ET)
 
 Spread = AWAY team's number. Each cell is open → first pull today → now (DraftKings open is its opener for the game). Flags: STEAM = spread moved 1.5+ since open (direction = side the market moved toward); TOTAL = total moved 2+; KEY = crossed a key number; FLIP = favorite changed; TODAY = moved 1+ since the first pull today. No splits here: read DK splits from DK Network.
 
 | Game | Start (ET) | Spread open→today→now | Total open→today→now | ML away open→now | ML home open→now | Flags |
 |---|---|---|---|---|---|---|
-| Georgia Bulldogs @ Cincinnati Bearcats (neutral) | Thu 11-26 11:00 AM | +1.5 → +2.5 → +2.5 | 156.5 → 154.5 → 154.5 | +110 → +114 | -130 → -135 | TOTAL down 2 |
-| Army Black Knights @ UTSA Roadrunners | Thu 11-26 12:00 PM | +14.5 → +12.5 → +12.5 | 151.5 → 149.5 → 149.5 | +700 → +650 | -1100 → -1000 | STEAM away 2; TOTAL down 2 |
-| Oklahoma Sooners @ Purdue Boilermakers (neutral) | Thu 11-26 12:00 PM | +4.5 → +4.5 → +4.5 | 141.5 → 142.5 → 142.5 | +185 → +180 | -225 → -218 | - |
-| San Diego State Aztecs @ Maryland Terrapins (neutral) | Thu 11-26 01:00 PM | +1.5 → +4.5 → +4.5 | 153.5 → 152.5 → 152.5 | +100 → +185 | -120 → -225 | STEAM home 3 |
-| Boston College Eagles @ UCF Knights (neutral) | Thu 11-26 01:30 PM | +2.5 → +1.5 → +1.5 | 144.5 → 146.5 → 146.5 | +140 → +100 | -166 → -120 | TOTAL up 2 |
-| South Carolina Gamecocks @ Arizona State Sun Devils (neutral) | Thu 11-26 02:00 PM | +3.5 → +3.5 → +3.5 | 140.5 → 139.5 → 139.5 | +130 → +142 | -155 → -170 | - |
-| Georgetown Hoyas @ Texas Longhorns (neutral) | Thu 11-26 02:30 PM | +8.5 → +8.5 → +8.5 | 155.5 → 154.5 → 154.5 | +295 → +320 | -375 → -410 | - |
-| Tennessee Volunteers @ Iowa State Cyclones (neutral) | Thu 11-26 03:30 PM | -1.5 → +3.5 → +3.5 | 139.5 → 139.5 → 139.5 | -112 → +140 | -108 → -166 | STEAM home 5; FLIP |
-| Miami Hurricanes @ Michigan Wolverines (neutral) | Thu 11-26 03:30 PM | -2.5 → -2.5 → -2.5 | 163.5 → 158.5 → 158.5 | -162 → -135 | +136 → +114 | TOTAL down 5 |
-| Arkansas Razorbacks @ Michigan State Spartans (neutral) | Thu 11-26 04:30 PM | +5.5 → +5.5 → +5.5 | 151.5 → 149.5 → 149.5 | +180 → +185 | -218 → -225 | TOTAL down 2 |
-| Utah State Aggies @ USC Trojans (neutral) | Thu 11-26 04:30 PM | +3.5 → +2.5 → +2.5 | 162.5 → 162.5 → 162.5 | +130 → +120 | -155 → -142 | - |
-| Saint Mary's Gaels @ UCLA Bruins (neutral) | Thu 11-26 05:00 PM | +7.5 → +7.5 → +7.5 | 155.5 → 152.5 → 152.5 | +245 → +270 | -305 → -340 | TOTAL down 3 |
-| TCU Horned Frogs @ Creighton Bluejays (neutral) | Thu 11-26 06:00 PM | -1.5 → +1.5 → +1.5 | 156.5 → 154.5 → 154.5 | -120 → -110 | +100 → -110 | STEAM home 3; FLIP; TOTAL down 2 |
-| SMU Mustangs @ LSU Tigers (neutral) | Thu 11-26 07:00 PM | +7.5 → +6.5 → +6.5 | 159.5 → 158.5 → 158.5 | +245 → +225 | -305 → -278 | - |
-| DePaul Blue Demons @ Pittsburgh Panthers (neutral) | Thu 11-26 07:00 PM | +1.5 → -1.5 → -1.5 | 139.5 → 138.5 → 138.5 | -110 → -108 | -110 → -112 | STEAM away 3; FLIP |
-| Jacksonville State Gamecocks @ UC Davis Aggies (neutral) | Thu 11-26 08:00 PM | -1.5 → -2.5 → -2.5 | 138.5 → 140.5 → 140.5 | -125 → -142 | +105 → +120 | TOTAL up 2 |
-| Louisville Cardinals @ St. John's Red Storm (neutral) | Thu 11-26 09:00 PM | -4.5 → +2.5 → +2.5 | 157.5 → 161.5 → 161.5 | +170 → +120 | -205 → -142 | STEAM home 7; FLIP; TOTAL up 4 |
-| Alabama Crimson Tide @ Kansas State Wildcats (neutral) | Thu 11-26 09:00 PM | +12.5 → -14.5 → -14.5 | 177.5 → 169.5 → 169.5 | -700 → -1200 | +500 → +750 | STEAM away 27; FLIP; TOTAL down 8 |
-| Pacific Tigers @ Omaha Mavericks (neutral) | Thu 11-26 10:30 PM | -8.5 → -8.5 → -8.5 | 139.5 → 139.5 → 139.5 | -395 → -395 | +310 → +310 | - |
-| Texas Tech Red Raiders @ Oregon Ducks (neutral) | Thu 11-26 11:30 PM | -8.5 → -9.5 → -9.5 | 153.5 → 148.5 → 148.5 | -440 → -520 | +340 → +390 | TOTAL down 5 |
-| Baylor Bears @ Gonzaga Bulldogs (neutral) | Thu 11-26 11:30 PM | -4.5 → +3.5 → +3.5 | 166.5 → 155.5 → 155.5 | +180 → +145 | -218 → -175 | STEAM home 8; FLIP; TOTAL down 11 |
+| San Diego State Aztecs @ Maryland Terrapins (neutral) | Thu 11-26 01:00 PM | +1.5 → +4.5 → +4.5 | 153.5 → 152.5 → 152.5 | +100 → +160 | -120 → -192 | STEAM home 3 |
+| Boston College Eagles @ UCF Knights (neutral) | Thu 11-26 01:30 PM | +2.5 → +1.5 → +2.5 | 144.5 → 146.5 → 146.5 | +140 → +114 | -166 → -135 | TOTAL up 2; TODAY spr +1 |
+| South Carolina Gamecocks @ Arizona State Sun Devils (neutral) | Thu 11-26 02:00 PM | +3.5 → +3.5 → +4.5 | 140.5 → 139.5 → 138.5 | +130 → +160 | -155 → -192 | TOTAL down 2; TODAY spr +1; TODAY tot -1 |
+| Georgetown Hoyas @ Texas Longhorns (neutral) | Thu 11-26 02:30 PM | +8.5 → +8.5 → +8.5 | 155.5 → 154.5 → 153.5 | +295 → +300 | -375 → -380 | TOTAL down 2; TODAY tot -1 |
+| Tennessee Volunteers @ Iowa State Cyclones (neutral) | Thu 11-26 03:30 PM | -1.5 → +3.5 → +4.5 | 139.5 → 139.5 → 139.5 | -112 → +170 | -108 → -205 | STEAM home 6; FLIP; TODAY spr +1 |
+| Miami Hurricanes @ Michigan Wolverines (neutral) | Thu 11-26 03:30 PM | -2.5 → -2.5 → -1.5 | 163.5 → 158.5 → 159.5 | -162 → -122 | +136 → +102 | TOTAL down 4; TODAY spr +1; TODAY tot +1 |
+| Arkansas Razorbacks @ Michigan State Spartans (neutral) | Thu 11-26 04:30 PM | +5.5 → +5.5 → +5.5 | 151.5 → 149.5 → 148.5 | +180 → +185 | -218 → -225 | TOTAL down 3; TODAY tot -1 |
+| Utah State Aggies @ USC Trojans (neutral) | Thu 11-26 04:30 PM | +3.5 → +2.5 → +1.5 | 162.5 → 162.5 → 157.5 | +130 → +105 | -155 → -125 | STEAM away 2; TOTAL down 5; TODAY spr -1; TODAY tot -5 |
+| Saint Mary's Gaels @ UCLA Bruins (neutral) | Thu 11-26 05:00 PM | +7.5 → +7.5 → +7.5 | 155.5 → 152.5 → 152.5 | +245 → +260 | -305 → -325 | TOTAL down 3 |
+| TCU Horned Frogs @ Creighton Bluejays (neutral) | Thu 11-26 06:00 PM | -1.5 → +1.5 → +1.5 | 156.5 → 154.5 → 153.5 | -120 → +105 | +100 → -125 | STEAM home 3; FLIP; TOTAL down 3; TODAY tot -1 |
+| SMU Mustangs @ LSU Tigers (neutral) | Thu 11-26 07:00 PM | +7.5 → +6.5 → +7.5 | 159.5 → 158.5 → 155.5 | +245 → +260 | -305 → -325 | TOTAL down 4; TODAY spr +1; TODAY tot -3 |
+| DePaul Blue Demons @ Pittsburgh Panthers (neutral) | Thu 11-26 07:00 PM | +1.5 → -1.5 → -1.5 | 139.5 → 138.5 → 136.5 | -110 → -112 | -110 → -108 | STEAM away 3; FLIP; TOTAL down 3; TODAY tot -2 |
+| Jacksonville State Gamecocks @ UC Davis Aggies (neutral) | Thu 11-26 08:00 PM | -1.5 → -2.5 → -3.5 | 138.5 → 140.5 → 137.5 | -125 → -162 | +105 → +136 | STEAM away 2; TODAY spr -1; TODAY tot -3 |
+| Louisville Cardinals @ St. John's Red Storm (neutral) | Thu 11-26 09:00 PM | -4.5 → +2.5 → +1.5 | 157.5 → 161.5 → 160.5 | +170 → +105 | -205 → -125 | STEAM home 6; FLIP; TOTAL up 3; TODAY spr -1; TODAY tot -1 |
+| Alabama Crimson Tide @ Kansas State Wildcats (neutral) | Thu 11-26 09:00 PM | +12.5 → -14.5 → -13.5 | 177.5 → 169.5 → 169.5 | -700 → -1100 | +500 → +700 | STEAM away 26; FLIP; TOTAL down 8; TODAY spr +1 |
+| Pacific Tigers @ Omaha Mavericks (neutral) | Thu 11-26 10:30 PM | -8.5 → -8.5 → -7.5 | 139.5 → 139.5 → 139.5 | -395 → -345 | +310 → +275 | TODAY spr +1 |
+| Texas Tech Red Raiders @ Oregon Ducks (neutral) | Thu 11-26 11:30 PM | -8.5 → -9.5 → -10.5 | 153.5 → 148.5 → 148.5 | -440 → -535 | +340 → +400 | STEAM away 2; TOTAL down 5; TODAY spr -1 |
+| Baylor Bears @ Gonzaga Bulldogs (neutral) | Thu 11-26 11:30 PM | -4.5 → +3.5 → +3.5 | 166.5 → 155.5 → 153.5 | +180 → +145 | -218 → -175 | STEAM home 8; FLIP; TOTAL down 13; TODAY tot -2 |
 | Virginia Cavaliers @ Xavier Musketeers (neutral) | Fri 11-27 11:00 AM | - → - → - | - → - → - | - → - | - → - | - |
 | Liberty Flames @ St. Thomas Tommies (neutral) | Fri 11-27 12:00 PM | - → - → - | - → - → - | - → - | - → - | - |
 | Vermont Catamounts @ Merrimack Warriors (neutral) | Fri 11-27 01:00 PM | - → - → - | - → - → - | - → - | - → - | - |
