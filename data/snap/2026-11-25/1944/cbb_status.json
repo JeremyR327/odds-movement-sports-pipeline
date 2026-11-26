@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-25",
+  "pulled_et": "2026-11-25T19:44-05:00",
+  "espn": "ok 69 games",
+  "torvik": "ok 365 teams (saved copy from today); pace from TeamRankings for 353 teams",
+  "tr": "ok 365 teams (2026-11-25 1529)",
+  "bpi": "ok 365 teams",
+  "espn_lines": "13/13 priced games have ESPN's DraftKings opener",
+  "cbbd_lines": "skipped: ESPN has DraftKings open + current (saves the CBBD monthly quota)",
+  "dk_splits": "ok 27 games, pulled 19:44",
+  "books": "ok 34 games, pulled 19:44",
+  "context": "ok 1146 box scores in view (0 fetched this run, 0 still to backfill), 549 teams",
+  "games_written": 13,
+  "with_line": 13,
+  "with_espn_open": 13,
+  "flags": 1,
+  "mkt_flags": 5,
+  "tier1_mkt_flags": 1,
+  "total_flags": 0,
+  "fade_flags": 4,
+  "lag_flags": 2,
+  "early_flags": 0,
+  "rot_flags": 6,
+  "fat_flags": 5,
+  "alt_flags": 1,
+  "unmatched": [
+    "Northwest Indian RedHawks @ Montana State Bobcats"
+  ],
+  "sources": "espn ok 69 games \u00b7 espn_lines 13/13 priced games have ESPN's DraftKings opener \u00b7 torvik ok 365 teams (saved copy from today); pace from TeamRankings for 353 teams \u00b7 tr ok 365 teams (2026-11-25 1529) \u00b7 bpi ok 365 teams",
+  "calibration": {
+    "games": 78,
+    "with_open": 78,
+    "avg_gap_cons_vs_open": 2.64,
+    "avg_gap_cons_vs_close": 2.9,
+    "avg_move_open_to_close": 1.38,
+    "pct_moved_toward_consensus": 54.0,
+    "flagged_games_graded": 8,
+    "flagged_covered": 3
+  },
+  "results": "2026-11-24: 82 finals",
+  "season_graded": 586
+}
