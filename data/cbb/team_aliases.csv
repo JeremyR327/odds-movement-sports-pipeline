@@ -1,0 +1,2623 @@
+source,name,name_key,espn_id,espn_location,method,evidence_games
+dk_splits,Abilene Christian,abilene christian,2000,Abilene Christian,exact_espn,4
+espn,ACU,ACU,2000,Abilene Christian,espn_abbr,0
+espn,Abilene Christian,abilene christian,2000,Abilene Christian,espn_location,0
+espn,Abilene Christian Wildcats,abilene christian wildcats,2000,Abilene Christian,espn_display,0
+odds_api,Abilene Christian Wildcats,abilene christian wildcats,2000,Abilene Christian,exact_espn,3
+teamrankings,Abl Christian,abl christian,2000,Abilene Christian,game_verified+reviewed,2
+torvik,Abilene Christian,abilene christian,2000,Abilene Christian,exact_known_name,0
+dk_splits,Air Force,air force,2005,Air Force,exact_espn,10
+espn,AF,AF,2005,Air Force,espn_abbr,0
+espn,Air Force,air force,2005,Air Force,espn_location,0
+espn,Air Force Falcons,air force falcons,2005,Air Force,espn_display,0
+odds_api,Air Force Falcons,air force falcons,2005,Air Force,exact_espn,7
+teamrankings,Air Force,air force,2005,Air Force,exact_espn,4
+torvik,Air Force,air force,2005,Air Force,exact_known_name,0
+dk_splits,Akron,akron,2006,Akron,exact_espn,12
+espn,AKR,AKR,2006,Akron,espn_abbr,0
+espn,Akron,akron,2006,Akron,espn_location,0
+espn,Akron Zips,akron zips,2006,Akron,espn_display,0
+odds_api,Akron Zips,akron zips,2006,Akron,exact_espn,9
+teamrankings,Akron,akron,2006,Akron,exact_espn,5
+torvik,Akron,akron,2006,Akron,exact_known_name,0
+dk_splits,Alabama,alabama,333,Alabama,exact_espn,16
+espn,ALA,ALA,333,Alabama,espn_abbr,0
+espn,Alabama,alabama,333,Alabama,espn_location,0
+espn,Alabama Crimson Tide,alabama crimson tide,333,Alabama,espn_display,0
+odds_api,Alabama Crimson Tide,alabama crimson tide,333,Alabama,exact_espn,11
+teamrankings,Alabama,alabama,333,Alabama,exact_espn,3
+torvik,Alabama,alabama,333,Alabama,exact_known_name,0
+dk_splits,Alabama A&M,alabama a and m,2010,Alabama A&M,exact_espn,9
+espn,AAMU,AAMU,2010,Alabama A&M,espn_abbr,0
+espn,Alabama A&M,alabama a and m,2010,Alabama A&M,espn_location,0
+espn,Alabama A&M Bulldogs,alabama a and m bulldogs,2010,Alabama A&M,espn_display,0
+odds_api,Alabama A&M Bulldogs,alabama a and m bulldogs,2010,Alabama A&M,exact_espn,7
+teamrankings,Alabama A&M,alabama a and m,2010,Alabama A&M,exact_espn,6
+torvik,Alabama A&M,alabama a and m,2010,Alabama A&M,exact_known_name,0
+dk_splits,Alabama State,alabama st,2011,Alabama State,exact_espn,11
+espn,ALST,ALST,2011,Alabama State,espn_abbr,0
+espn,Alabama State,alabama st,2011,Alabama State,espn_location,0
+espn,Alabama State Hornets,alabama st hornets,2011,Alabama State,espn_display,0
+odds_api,Alabama St Hornets,alabama st hornets,2011,Alabama State,exact_espn,6
+teamrankings,Alabama St,alabama st,2011,Alabama State,exact_espn,4
+torvik,Alabama St.,alabama st,2011,Alabama State,exact_known_name,0
+torvik,Alabama State,alabama st,2011,Alabama State,exact_known_name,0
+dk_splits,Alcorn,alcorn,2016,Alcorn State,game_verified+reviewed,4
+espn,ALCN,ALCN,2016,Alcorn State,espn_abbr,0
+espn,Alcorn State,alcorn st,2016,Alcorn State,espn_location,0
+espn,Alcorn State Braves,alcorn st braves,2016,Alcorn State,espn_display,0
+odds_api,Alcorn St Braves,alcorn st braves,2016,Alcorn State,exact_espn,4
+teamrankings,Alcorn St,alcorn st,2016,Alcorn State,exact_espn,5
+torvik,Alcorn St.,alcorn st,2016,Alcorn State,exact_known_name,0
+torvik,Alcorn State,alcorn st,2016,Alcorn State,exact_known_name,0
+dk_splits,American,american,44,American University,game_verified+reviewed,4
+espn,AMER,AMER,44,American University,espn_abbr,0
+espn,American University,american university,44,American University,espn_location,0
+espn,American University Eagles,american university eagles,44,American University,espn_display,0
+odds_api,American Eagles,american eagles,44,American University,game_verified+reviewed,2
+teamrankings,American,american,44,American University,game_verified+reviewed,2
+torvik,American,american,44,American University,exact_known_name,0
+torvik,American University,american university,44,American University,exact_known_name,0
+dk_splits,Appalachian State,appalachian st,2026,App State,game_verified+reviewed,16
+espn,APP,APP,2026,App State,espn_abbr,0
+espn,App State,app st,2026,App State,espn_location,0
+espn,App State Mountaineers,app st mountaineers,2026,App State,espn_display,0
+odds_api,Appalachian St Mountaineers,appalachian st mountaineers,2026,App State,game_verified+reviewed,10
+teamrankings,App State,app st,2026,App State,exact_espn,4
+torvik,App State,app st,2026,App State,exact_known_name,0
+torvik,Appalachian St.,appalachian st,2026,App State,exact_known_name,0
+dk_splits,Arizona,arizona,12,Arizona,exact_espn,19
+espn,ARIZ,ARIZ,12,Arizona,espn_abbr,0
+espn,Arizona,arizona,12,Arizona,espn_location,0
+espn,Arizona Wildcats,arizona wildcats,12,Arizona,espn_display,0
+odds_api,Arizona Wildcats,arizona wildcats,12,Arizona,exact_espn,8
+teamrankings,Arizona,arizona,12,Arizona,exact_espn,5
+torvik,Arizona,arizona,12,Arizona,exact_known_name,0
+dk_splits,Arizona State,arizona st,9,Arizona State,exact_espn,12
+espn,ASU,ASU,9,Arizona State,espn_abbr,0
+espn,Arizona State,arizona st,9,Arizona State,espn_location,0
+espn,Arizona State Sun Devils,arizona st sun devils,9,Arizona State,espn_display,0
+odds_api,Arizona St Sun Devils,arizona st sun devils,9,Arizona State,exact_espn,6
+teamrankings,Arizona St,arizona st,9,Arizona State,exact_espn,4
+torvik,Arizona St.,arizona st,9,Arizona State,exact_known_name,0
+torvik,Arizona State,arizona st,9,Arizona State,exact_known_name,0
+dk_splits,Arkansas,arkansas,8,Arkansas,exact_espn,9
+espn,ARK,ARK,8,Arkansas,espn_abbr,0
+espn,Arkansas,arkansas,8,Arkansas,espn_location,0
+espn,Arkansas Razorbacks,arkansas razorbacks,8,Arkansas,espn_display,0
+odds_api,Arkansas Razorbacks,arkansas razorbacks,8,Arkansas,exact_espn,6
+teamrankings,Arkansas,arkansas,8,Arkansas,exact_espn,2
+torvik,Arkansas,arkansas,8,Arkansas,exact_known_name,0
+dk_splits,Arkansas State,arkansas st,2032,Arkansas State,exact_espn,16
+espn,ARST,ARST,2032,Arkansas State,espn_abbr,0
+espn,Arkansas State,arkansas st,2032,Arkansas State,espn_location,0
+espn,Arkansas State Red Wolves,arkansas st red wolves,2032,Arkansas State,espn_display,0
+odds_api,Arkansas St Red Wolves,arkansas st red wolves,2032,Arkansas State,exact_espn,8
+teamrankings,Arkansas St,arkansas st,2032,Arkansas State,exact_espn,5
+torvik,Arkansas St.,arkansas st,2032,Arkansas State,exact_known_name,0
+torvik,Arkansas State,arkansas st,2032,Arkansas State,exact_known_name,0
+dk_splits,Arkansas-Pine Bluff,arkansas pine bluff,2029,Arkansas-Pine Bluff,exact_espn,7
+espn,Arkansas-Pine Bluff,arkansas pine bluff,2029,Arkansas-Pine Bluff,espn_location,0
+espn,Arkansas-Pine Bluff Golden Lions,arkansas pine bluff golden lions,2029,Arkansas-Pine Bluff,espn_display,0
+espn,UAPB,UAPB,2029,Arkansas-Pine Bluff,espn_abbr,0
+odds_api,Arkansas-Pine Bluff Golden Lions,arkansas pine bluff golden lions,2029,Arkansas-Pine Bluff,exact_espn,1
+teamrankings,AR-Pine Bluff,ar pine bluff,2029,Arkansas-Pine Bluff,game_verified+reviewed,3
+torvik,Arkansas Pine Bluff,arkansas pine bluff,2029,Arkansas-Pine Bluff,exact_known_name,0
+torvik,Arkansas-Pine Bluff,arkansas pine bluff,2029,Arkansas-Pine Bluff,exact_known_name,0
+dk_splits,Army,army,349,Army,exact_espn,8
+espn,ARMY,ARMY,349,Army,espn_abbr,0
+espn,Army,army,349,Army,espn_location,0
+espn,Army Black Knights,army black knights,349,Army,espn_display,0
+odds_api,Army Knights,army knights,349,Army,game_verified,6
+teamrankings,Army,army,349,Army,exact_espn,5
+torvik,Army,army,349,Army,exact_known_name,0
+dk_splits,Auburn,auburn,2,Auburn,exact_espn,8
+espn,AUB,AUB,2,Auburn,espn_abbr,0
+espn,Auburn,auburn,2,Auburn,espn_location,0
+espn,Auburn Tigers,auburn tigers,2,Auburn,espn_display,0
+odds_api,Auburn Tigers,auburn tigers,2,Auburn,exact_espn,4
+teamrankings,Auburn,auburn,2,Auburn,exact_espn,7
+torvik,Auburn,auburn,2,Auburn,exact_known_name,0
+dk_splits,Austin Peay,austin peay,2046,Austin Peay,exact_espn,3
+espn,APSU,APSU,2046,Austin Peay,espn_abbr,0
+espn,Austin Peay,austin peay,2046,Austin Peay,espn_location,0
+espn,Austin Peay Governors,austin peay governors,2046,Austin Peay,espn_display,0
+odds_api,Austin Peay Governors,austin peay governors,2046,Austin Peay,exact_espn,1
+teamrankings,Austin Peay,austin peay,2046,Austin Peay,exact_espn,2
+torvik,Austin Peay,austin peay,2046,Austin Peay,exact_known_name,0
+dk_splits,BYU,byu,252,BYU,exact_espn,19
+espn,BYU,byu,252,BYU,espn_location,0
+espn,BYU,BYU,252,BYU,espn_abbr,0
+espn,BYU Cougars,byu cougars,252,BYU,espn_display,0
+odds_api,BYU Cougars,byu cougars,252,BYU,exact_espn,8
+teamrankings,BYU,byu,252,BYU,exact_espn,9
+torvik,BYU,byu,252,BYU,exact_known_name,0
+espn,BALL,BALL,2050,Ball State,espn_abbr,0
+espn,Ball State,ball st,2050,Ball State,espn_location,0
+espn,Ball State Cardinals,ball st cardinals,2050,Ball State,espn_display,0
+teamrankings,Ball St,ball st,2050,Ball State,exact_espn,1
+torvik,Ball St.,ball st,2050,Ball State,exact_known_name,0
+torvik,Ball State,ball st,2050,Ball State,exact_known_name,0
+dk_splits,Baylor,baylor,239,Baylor,exact_espn,17
+espn,BAY,BAY,239,Baylor,espn_abbr,0
+espn,Baylor,baylor,239,Baylor,espn_location,0
+espn,Baylor Bears,baylor bears,239,Baylor,espn_display,0
+odds_api,Baylor Bears,baylor bears,239,Baylor,exact_espn,11
+teamrankings,Baylor,baylor,239,Baylor,exact_espn,5
+torvik,Baylor,baylor,239,Baylor,exact_known_name,0
+dk_splits,Bellarmine,bellarmine,91,Bellarmine,exact_espn,11
+espn,BELL,BELL,91,Bellarmine,espn_abbr,0
+espn,Bellarmine,bellarmine,91,Bellarmine,espn_location,0
+espn,Bellarmine Knights,bellarmine knights,91,Bellarmine,espn_display,0
+odds_api,Bellarmine Knights,bellarmine knights,91,Bellarmine,exact_espn,6
+teamrankings,Bellarmine,bellarmine,91,Bellarmine,exact_espn,5
+torvik,Bellarmine,bellarmine,91,Bellarmine,exact_known_name,0
+dk_splits,Belmont,belmont,2057,Belmont,exact_espn,11
+espn,BEL,BEL,2057,Belmont,espn_abbr,0
+espn,Belmont,belmont,2057,Belmont,espn_location,0
+espn,Belmont Bruins,belmont bruins,2057,Belmont,espn_display,0
+odds_api,Belmont Bruins,belmont bruins,2057,Belmont,exact_espn,8
+teamrankings,Belmont,belmont,2057,Belmont,exact_espn,5
+torvik,Belmont,belmont,2057,Belmont,exact_known_name,0
+dk_splits,Bethune-Cookman,bethune cookman,2065,Bethune-Cookman,exact_espn,6
+espn,BCU,BCU,2065,Bethune-Cookman,espn_abbr,0
+espn,Bethune-Cookman,bethune cookman,2065,Bethune-Cookman,espn_location,0
+espn,Bethune-Cookman Wildcats,bethune cookman wildcats,2065,Bethune-Cookman,espn_display,0
+odds_api,Bethune-Cookman Wildcats,bethune cookman wildcats,2065,Bethune-Cookman,exact_espn,2
+teamrankings,Bethune,bethune,2065,Bethune-Cookman,game_verified+reviewed,2
+torvik,Bethune Cookman,bethune cookman,2065,Bethune-Cookman,exact_known_name,0
+torvik,Bethune-Cookman,bethune cookman,2065,Bethune-Cookman,exact_known_name,0
+dk_splits,Binghamton,binghamton,2066,Binghamton,exact_espn,11
+espn,BING,BING,2066,Binghamton,espn_abbr,0
+espn,Binghamton,binghamton,2066,Binghamton,espn_location,0
+espn,Binghamton Bearcats,binghamton bearcats,2066,Binghamton,espn_display,0
+odds_api,Binghamton Bearcats,binghamton bearcats,2066,Binghamton,exact_espn,3
+teamrankings,Binghamton,binghamton,2066,Binghamton,exact_espn,4
+torvik,Binghamton,binghamton,2066,Binghamton,exact_known_name,0
+dk_splits,Boise State,boise st,68,Boise State,exact_espn,8
+espn,BOIS,BOIS,68,Boise State,espn_abbr,0
+espn,Boise State,boise st,68,Boise State,espn_location,0
+espn,Boise State Broncos,boise st broncos,68,Boise State,espn_display,0
+odds_api,Boise State Broncos,boise st broncos,68,Boise State,exact_espn,7
+teamrankings,Boise St,boise st,68,Boise State,exact_espn,3
+torvik,Boise St.,boise st,68,Boise State,exact_known_name,0
+torvik,Boise State,boise st,68,Boise State,exact_known_name,0
+dk_splits,Boston College,boston college,103,Boston College,exact_espn,12
+espn,BC,BC,103,Boston College,espn_abbr,0
+espn,Boston College,boston college,103,Boston College,espn_location,0
+espn,Boston College Eagles,boston college eagles,103,Boston College,espn_display,0
+odds_api,Boston College Eagles,boston college eagles,103,Boston College,exact_espn,6
+teamrankings,Boston College,boston college,103,Boston College,exact_espn,4
+torvik,Boston College,boston college,103,Boston College,exact_known_name,0
+dk_splits,Boston University,boston university,104,Boston University,exact_espn,11
+espn,BU,BU,104,Boston University,espn_abbr,0
+espn,Boston University,boston university,104,Boston University,espn_location,0
+espn,Boston University Terriers,boston university terriers,104,Boston University,espn_display,0
+odds_api,Boston Univ. Terriers,boston univ terriers,104,Boston University,game_verified+reviewed,4
+teamrankings,Boston U,boston u,104,Boston University,game_verified+reviewed,4
+torvik,Boston University,boston university,104,Boston University,exact_known_name,0
+dk_splits,Bowling Green,bowling green,189,Bowling Green,exact_espn,9
+espn,BGSU,BGSU,189,Bowling Green,espn_abbr,0
+espn,Bowling Green,bowling green,189,Bowling Green,espn_location,0
+espn,Bowling Green Falcons,bowling green falcons,189,Bowling Green,espn_display,0
+odds_api,Bowling Green Falcons,bowling green falcons,189,Bowling Green,exact_espn,5
+teamrankings,Bowling Green,bowling green,189,Bowling Green,exact_espn,6
+torvik,Bowling Green,bowling green,189,Bowling Green,exact_known_name,0
+dk_splits,Bradley,bradley,71,Bradley,exact_espn,14
+espn,BRAD,BRAD,71,Bradley,espn_abbr,0
+espn,Bradley,bradley,71,Bradley,espn_location,0
+espn,Bradley Braves,bradley braves,71,Bradley,espn_display,0
+odds_api,Bradley Braves,bradley braves,71,Bradley,exact_espn,5
+teamrankings,Bradley,bradley,71,Bradley,exact_espn,7
+torvik,Bradley,bradley,71,Bradley,exact_known_name,0
+dk_splits,Brown,brown,225,Brown,exact_espn,10
+espn,BRWN,BRWN,225,Brown,espn_abbr,0
+espn,Brown,brown,225,Brown,espn_location,0
+espn,Brown Bears,brown bears,225,Brown,espn_display,0
+odds_api,Brown Bears,brown bears,225,Brown,exact_espn,2
+teamrankings,Brown,brown,225,Brown,exact_espn,6
+torvik,Brown,brown,225,Brown,exact_known_name,0
+dk_splits,Bryant,bryant,2803,Bryant,exact_espn,4
+espn,BRY,BRY,2803,Bryant,espn_abbr,0
+espn,Bryant,bryant,2803,Bryant,espn_location,0
+espn,Bryant Bulldogs,bryant bulldogs,2803,Bryant,espn_display,0
+odds_api,Bryant Bulldogs,bryant bulldogs,2803,Bryant,exact_espn,2
+teamrankings,Bryant,bryant,2803,Bryant,exact_espn,3
+torvik,Bryant,bryant,2803,Bryant,exact_known_name,0
+dk_splits,Bucknell,bucknell,2083,Bucknell,exact_espn,9
+espn,BUCK,BUCK,2083,Bucknell,espn_abbr,0
+espn,Bucknell,bucknell,2083,Bucknell,espn_location,0
+espn,Bucknell Bison,bucknell bison,2083,Bucknell,espn_display,0
+odds_api,Bucknell Bison,bucknell bison,2083,Bucknell,exact_espn,5
+teamrankings,Bucknell,bucknell,2083,Bucknell,exact_espn,4
+torvik,Bucknell,bucknell,2083,Bucknell,exact_known_name,0
+dk_splits,Buffalo,buffalo,2084,Buffalo,exact_espn,6
+espn,BUF,BUF,2084,Buffalo,espn_abbr,0
+espn,Buffalo,buffalo,2084,Buffalo,espn_location,0
+espn,Buffalo Bulls,buffalo bulls,2084,Buffalo,espn_display,0
+teamrankings,Buffalo,buffalo,2084,Buffalo,exact_espn,3
+torvik,Buffalo,buffalo,2084,Buffalo,exact_known_name,0
+dk_splits,Butler,butler,2086,Butler,exact_espn,10
+espn,BTLR,BTLR,2086,Butler,espn_abbr,0
+espn,Butler,butler,2086,Butler,espn_location,0
+espn,Butler Bulldogs,butler bulldogs,2086,Butler,espn_display,0
+odds_api,Butler Bulldogs,butler bulldogs,2086,Butler,exact_espn,3
+teamrankings,Butler,butler,2086,Butler,exact_espn,5
+torvik,Butler,butler,2086,Butler,exact_known_name,0
+dk_splits,Cal Poly,cal poly,13,Cal Poly,exact_espn,7
+espn,CP,CP,13,Cal Poly,espn_abbr,0
+espn,Cal Poly,cal poly,13,Cal Poly,espn_location,0
+espn,Cal Poly Mustangs,cal poly mustangs,13,Cal Poly,espn_display,0
+odds_api,Cal Poly Mustangs,cal poly mustangs,13,Cal Poly,exact_espn,4
+teamrankings,Cal Poly,cal poly,13,Cal Poly,exact_espn,2
+torvik,Cal Poly,cal poly,13,Cal Poly,exact_known_name,0
+dk_splits,CSU Bakersfield,csu bakersfield,2934,Cal State Bakersfield,game_verified+reviewed,12
+espn,CSUB,CSUB,2934,Cal State Bakersfield,espn_abbr,0
+espn,Cal State Bakersfield,cal st bakersfield,2934,Cal State Bakersfield,espn_location,0
+espn,Cal State Bakersfield Roadrunners,cal st bakersfield roadrunners,2934,Cal State Bakersfield,espn_display,0
+odds_api,CSU Bakersfield Roadrunners,csu bakersfield roadrunners,2934,Cal State Bakersfield,game_verified+reviewed,8
+teamrankings,CS Bakersfield,cs bakersfield,2934,Cal State Bakersfield,game_verified+reviewed,6
+torvik,Cal St. Bakersfield,cal st bakersfield,2934,Cal State Bakersfield,exact_known_name,0
+torvik,Cal State Bakersfield,cal st bakersfield,2934,Cal State Bakersfield,exact_known_name,0
+dk_splits,Cal State Fullerton,cal st fullerton,2239,Cal State Fullerton,exact_espn,11
+espn,CSUF,CSUF,2239,Cal State Fullerton,espn_abbr,0
+espn,Cal State Fullerton,cal st fullerton,2239,Cal State Fullerton,espn_location,0
+espn,Cal State Fullerton Titans,cal st fullerton titans,2239,Cal State Fullerton,espn_display,0
+odds_api,CSU Fullerton Titans,csu fullerton titans,2239,Cal State Fullerton,game_verified+reviewed,4
+teamrankings,CS Fullerton,cs fullerton,2239,Cal State Fullerton,game_verified+reviewed,2
+torvik,Cal St. Fullerton,cal st fullerton,2239,Cal State Fullerton,exact_known_name,0
+torvik,Cal State Fullerton,cal st fullerton,2239,Cal State Fullerton,exact_known_name,0
+dk_splits,CSUN,csun,2463,Cal State Northridge,exact_espn,11
+espn,CSUN,CSUN,2463,Cal State Northridge,espn_abbr,0
+espn,Cal State Northridge,cal st northridge,2463,Cal State Northridge,espn_location,0
+espn,Cal State Northridge Matadors,cal st northridge matadors,2463,Cal State Northridge,espn_display,0
+odds_api,CSU Northridge Matadors,csu northridge matadors,2463,Cal State Northridge,game_verified+reviewed,6
+teamrankings,CS Northridge,cs northridge,2463,Cal State Northridge,game_verified+reviewed,3
+torvik,Cal St. Northridge,cal st northridge,2463,Cal State Northridge,exact_known_name,0
+torvik,Cal State Northridge,cal st northridge,2463,Cal State Northridge,exact_known_name,0
+dk_splits,California,california,25,California,exact_espn,11
+espn,CAL,CAL,25,California,espn_abbr,0
+espn,California,california,25,California,espn_location,0
+espn,California Golden Bears,california golden bears,25,California,espn_display,0
+odds_api,California Golden Bears,california golden bears,25,California,exact_espn,3
+teamrankings,California,california,25,California,exact_espn,4
+torvik,California,california,25,California,exact_known_name,0
+dk_splits,California Baptist,california baptist,2856,California Baptist,exact_espn,11
+espn,CBU,CBU,2856,California Baptist,espn_abbr,0
+espn,California Baptist,california baptist,2856,California Baptist,espn_location,0
+espn,California Baptist Lancers,california baptist lancers,2856,California Baptist,espn_display,0
+odds_api,Cal Baptist Lancers,cal baptist lancers,2856,California Baptist,game_verified+reviewed,8
+teamrankings,Cal Baptist,cal baptist,2856,California Baptist,game_verified+reviewed,3
+torvik,Cal Baptist,cal baptist,2856,California Baptist,exact_known_name,0
+torvik,California Baptist,california baptist,2856,California Baptist,exact_known_name,0
+dk_splits,Campbell,campbell,2097,Campbell,exact_espn,16
+espn,CAM,CAM,2097,Campbell,espn_abbr,0
+espn,Campbell,campbell,2097,Campbell,espn_location,0
+espn,Campbell Fighting Camels,campbell fighting camels,2097,Campbell,espn_display,0
+odds_api,Campbell Fighting Camels,campbell fighting camels,2097,Campbell,exact_espn,6
+teamrankings,Campbell,campbell,2097,Campbell,exact_espn,4
+torvik,Campbell,campbell,2097,Campbell,exact_known_name,0
+dk_splits,Canisius,canisius,2099,Canisius,exact_espn,12
+espn,CAN,CAN,2099,Canisius,espn_abbr,0
+espn,Canisius,canisius,2099,Canisius,espn_location,0
+espn,Canisius Golden Griffins,canisius golden griffins,2099,Canisius,espn_display,0
+odds_api,Canisius Golden Griffins,canisius golden griffins,2099,Canisius,exact_espn,7
+teamrankings,Canisius,canisius,2099,Canisius,exact_espn,7
+torvik,Canisius,canisius,2099,Canisius,exact_known_name,0
+dk_splits,Central Arkansas,central arkansas,2110,Central Arkansas,exact_espn,9
+espn,CARK,CARK,2110,Central Arkansas,espn_abbr,0
+espn,Central Arkansas,central arkansas,2110,Central Arkansas,espn_location,0
+espn,Central Arkansas Bears,central arkansas bears,2110,Central Arkansas,espn_display,0
+odds_api,Central Arkansas Bears,central arkansas bears,2110,Central Arkansas,exact_espn,4
+teamrankings,C Arkansas,c arkansas,2110,Central Arkansas,game_verified+reviewed,3
+torvik,Central Arkansas,central arkansas,2110,Central Arkansas,exact_known_name,0
+espn,CCSU,CCSU,2115,Central Connecticut,espn_abbr,0
+espn,Central Connecticut,central connecticut,2115,Central Connecticut,espn_location,0
+espn,Central Connecticut Blue Devils,central connecticut blue devils,2115,Central Connecticut,espn_display,0
+teamrankings,C Connecticut,c connecticut,2115,Central Connecticut,game_verified+reviewed,4
+torvik,Central Connecticut,central connecticut,2115,Central Connecticut,exact_known_name,0
+dk_splits,Central Michigan,central michigan,2117,Central Michigan,exact_espn,9
+espn,CMU,CMU,2117,Central Michigan,espn_abbr,0
+espn,Central Michigan,central michigan,2117,Central Michigan,espn_location,0
+espn,Central Michigan Chippewas,central michigan chippewas,2117,Central Michigan,espn_display,0
+odds_api,Central Michigan Chippewas,central michigan chippewas,2117,Central Michigan,exact_espn,6
+teamrankings,C Michigan,c michigan,2117,Central Michigan,game_verified+reviewed,5
+torvik,Central Michigan,central michigan,2117,Central Michigan,exact_known_name,0
+dk_splits,Charleston,charleston,232,Charleston,exact_espn,16
+espn,COFC,COFC,232,Charleston,espn_abbr,0
+espn,Charleston,charleston,232,Charleston,espn_location,0
+espn,Charleston Cougars,charleston cougars,232,Charleston,espn_display,0
+odds_api,Charleston Cougars,charleston cougars,232,Charleston,exact_espn,7
+teamrankings,Charleston,charleston,232,Charleston,exact_espn,5
+torvik,Charleston,charleston,232,Charleston,exact_known_name,0
+dk_splits,Charleston Southern,charleston southern,2127,Charleston Southern,exact_espn,12
+espn,CHSO,CHSO,2127,Charleston Southern,espn_abbr,0
+espn,Charleston Southern,charleston southern,2127,Charleston Southern,espn_location,0
+espn,Charleston Southern Buccaneers,charleston southern buccaneers,2127,Charleston Southern,espn_display,0
+odds_api,Charleston Southern Buccaneers,charleston southern buccaneers,2127,Charleston Southern,exact_espn,4
+teamrankings,Charleston So,charleston so,2127,Charleston Southern,game_verified+reviewed,5
+torvik,Charleston Southern,charleston southern,2127,Charleston Southern,exact_known_name,0
+dk_splits,Charlotte,charlotte,2429,Charlotte,exact_espn,6
+espn,CLT,CLT,2429,Charlotte,espn_abbr,0
+espn,Charlotte,charlotte,2429,Charlotte,espn_location,0
+espn,Charlotte 49ers,charlotte 49ers,2429,Charlotte,espn_display,0
+odds_api,Charlotte 49ers,charlotte 49ers,2429,Charlotte,exact_espn,4
+teamrankings,Charlotte,charlotte,2429,Charlotte,exact_espn,3
+torvik,Charlotte,charlotte,2429,Charlotte,exact_known_name,0
+dk_splits,Chattanooga,chattanooga,236,Chattanooga,exact_espn,11
+espn,Chattanooga,chattanooga,236,Chattanooga,espn_location,0
+espn,Chattanooga Mocs,chattanooga mocs,236,Chattanooga,espn_display,0
+espn,UTC,UTC,236,Chattanooga,espn_abbr,0
+odds_api,Chattanooga Mocs,chattanooga mocs,236,Chattanooga,exact_espn,4
+teamrankings,Chattanooga,chattanooga,236,Chattanooga,exact_espn,3
+torvik,Chattanooga,chattanooga,236,Chattanooga,exact_known_name,0
+dk_splits,Chicago State,chicago st,2130,Chicago State,exact_espn,7
+espn,CHST,CHST,2130,Chicago State,espn_abbr,0
+espn,Chicago State,chicago st,2130,Chicago State,espn_location,0
+espn,Chicago State Cougars,chicago st cougars,2130,Chicago State,espn_display,0
+odds_api,Chicago St Cougars,chicago st cougars,2130,Chicago State,exact_espn,2
+teamrankings,Chicago St,chicago st,2130,Chicago State,exact_espn,2
+torvik,Chicago St.,chicago st,2130,Chicago State,exact_known_name,0
+torvik,Chicago State,chicago st,2130,Chicago State,exact_known_name,0
+dk_splits,Cincinnati,cincinnati,2132,Cincinnati,exact_espn,10
+espn,CIN,CIN,2132,Cincinnati,espn_abbr,0
+espn,Cincinnati,cincinnati,2132,Cincinnati,espn_location,0
+espn,Cincinnati Bearcats,cincinnati bearcats,2132,Cincinnati,espn_display,0
+odds_api,Cincinnati Bearcats,cincinnati bearcats,2132,Cincinnati,exact_espn,5
+teamrankings,Cincinnati,cincinnati,2132,Cincinnati,exact_espn,3
+torvik,Cincinnati,cincinnati,2132,Cincinnati,exact_known_name,0
+dk_splits,Clemson,clemson,228,Clemson,exact_espn,16
+espn,CLEM,CLEM,228,Clemson,espn_abbr,0
+espn,Clemson,clemson,228,Clemson,espn_location,0
+espn,Clemson Tigers,clemson tigers,228,Clemson,espn_display,0
+odds_api,Clemson Tigers,clemson tigers,228,Clemson,exact_espn,9
+teamrankings,Clemson,clemson,228,Clemson,exact_espn,3
+torvik,Clemson,clemson,228,Clemson,exact_known_name,0
+dk_splits,Cleveland State,cleveland st,325,Cleveland State,exact_espn,4
+espn,CLE,CLE,325,Cleveland State,espn_abbr,0
+espn,Cleveland State,cleveland st,325,Cleveland State,espn_location,0
+espn,Cleveland State Vikings,cleveland st vikings,325,Cleveland State,espn_display,0
+odds_api,Cleveland St Vikings,cleveland st vikings,325,Cleveland State,exact_espn,3
+teamrankings,Cleveland St,cleveland st,325,Cleveland State,exact_espn,3
+torvik,Cleveland St.,cleveland st,325,Cleveland State,exact_known_name,0
+torvik,Cleveland State,cleveland st,325,Cleveland State,exact_known_name,0
+dk_splits,Coastal Carolina,coastal carolina,324,Coastal Carolina,exact_espn,10
+espn,CCU,CCU,324,Coastal Carolina,espn_abbr,0
+espn,Coastal Carolina,coastal carolina,324,Coastal Carolina,espn_location,0
+espn,Coastal Carolina Chanticleers,coastal carolina chanticleers,324,Coastal Carolina,espn_display,0
+odds_api,Coastal Carolina Chanticleers,coastal carolina chanticleers,324,Coastal Carolina,exact_espn,5
+teamrankings,Coastal Car,coastal car,324,Coastal Carolina,game_verified+reviewed,3
+torvik,Coastal Carolina,coastal carolina,324,Coastal Carolina,exact_known_name,0
+espn,COLG,COLG,2142,Colgate,espn_abbr,0
+espn,Colgate,colgate,2142,Colgate,espn_location,0
+espn,Colgate Raiders,colgate raiders,2142,Colgate,espn_display,0
+teamrankings,Colgate,colgate,2142,Colgate,exact_espn,1
+torvik,Colgate,colgate,2142,Colgate,exact_known_name,0
+dk_splits,Colorado,colorado,38,Colorado,exact_espn,16
+espn,COLO,COLO,38,Colorado,espn_abbr,0
+espn,Colorado,colorado,38,Colorado,espn_location,0
+espn,Colorado Buffaloes,colorado buffaloes,38,Colorado,espn_display,0
+odds_api,Colorado Buffaloes,colorado buffaloes,38,Colorado,exact_espn,7
+teamrankings,Colorado,colorado,38,Colorado,exact_espn,7
+torvik,Colorado,colorado,38,Colorado,exact_known_name,0
+dk_splits,Colorado State,colorado st,36,Colorado State,exact_espn,22
+espn,CSU,CSU,36,Colorado State,espn_abbr,0
+espn,Colorado State,colorado st,36,Colorado State,espn_location,0
+espn,Colorado State Rams,colorado st rams,36,Colorado State,espn_display,0
+odds_api,Colorado St Rams,colorado st rams,36,Colorado State,exact_espn,10
+teamrankings,Colorado St,colorado st,36,Colorado State,exact_espn,4
+torvik,Colorado St.,colorado st,36,Colorado State,exact_known_name,0
+torvik,Colorado State,colorado st,36,Colorado State,exact_known_name,0
+dk_splits,Columbia,columbia,171,Columbia,exact_espn,5
+espn,COLU,COLU,171,Columbia,espn_abbr,0
+espn,Columbia,columbia,171,Columbia,espn_location,0
+espn,Columbia Lions,columbia lions,171,Columbia,espn_display,0
+odds_api,Columbia Lions,columbia lions,171,Columbia,exact_espn,5
+teamrankings,Columbia,columbia,171,Columbia,exact_espn,3
+torvik,Columbia,columbia,171,Columbia,exact_known_name,0
+dk_splits,Coppin State,coppin st,2154,Coppin State,exact_espn,8
+espn,COPP,COPP,2154,Coppin State,espn_abbr,0
+espn,Coppin State,coppin st,2154,Coppin State,espn_location,0
+espn,Coppin State Eagles,coppin st eagles,2154,Coppin State,espn_display,0
+odds_api,Coppin St Eagles,coppin st eagles,2154,Coppin State,exact_espn,4
+teamrankings,Coppin St,coppin st,2154,Coppin State,exact_espn,7
+torvik,Coppin St.,coppin st,2154,Coppin State,exact_known_name,0
+torvik,Coppin State,coppin st,2154,Coppin State,exact_known_name,0
+dk_splits,Cornell,cornell,172,Cornell,exact_espn,14
+espn,COR,COR,172,Cornell,espn_abbr,0
+espn,Cornell,cornell,172,Cornell,espn_location,0
+espn,Cornell Big Red,cornell big red,172,Cornell,espn_display,0
+odds_api,Cornell Big Red,cornell big red,172,Cornell,exact_espn,5
+teamrankings,Cornell,cornell,172,Cornell,exact_espn,4
+torvik,Cornell,cornell,172,Cornell,exact_known_name,0
+dk_splits,Creighton,creighton,156,Creighton,exact_espn,23
+espn,CREI,CREI,156,Creighton,espn_abbr,0
+espn,Creighton,creighton,156,Creighton,espn_location,0
+espn,Creighton Bluejays,creighton bluejays,156,Creighton,espn_display,0
+odds_api,Creighton Bluejays,creighton bluejays,156,Creighton,exact_espn,10
+teamrankings,Creighton,creighton,156,Creighton,exact_espn,5
+torvik,Creighton,creighton,156,Creighton,exact_known_name,0
+espn,DART,DART,159,Dartmouth,espn_abbr,0
+espn,Dartmouth,dartmouth,159,Dartmouth,espn_location,0
+espn,Dartmouth Big Green,dartmouth big green,159,Dartmouth,espn_display,0
+odds_api,Dartmouth Big Green,dartmouth big green,159,Dartmouth,exact_espn,2
+teamrankings,Dartmouth,dartmouth,159,Dartmouth,exact_espn,2
+torvik,Dartmouth,dartmouth,159,Dartmouth,exact_known_name,0
+dk_splits,Davidson,davidson,2166,Davidson,exact_espn,6
+espn,DAV,DAV,2166,Davidson,espn_abbr,0
+espn,Davidson,davidson,2166,Davidson,espn_location,0
+espn,Davidson Wildcats,davidson wildcats,2166,Davidson,espn_display,0
+odds_api,Davidson Wildcats,davidson wildcats,2166,Davidson,exact_espn,6
+teamrankings,Davidson,davidson,2166,Davidson,exact_espn,5
+torvik,Davidson,davidson,2166,Davidson,exact_known_name,0
+dk_splits,Dayton,dayton,2168,Dayton,exact_espn,11
+espn,DAY,DAY,2168,Dayton,espn_abbr,0
+espn,Dayton,dayton,2168,Dayton,espn_location,0
+espn,Dayton Flyers,dayton flyers,2168,Dayton,espn_display,0
+odds_api,Dayton Flyers,dayton flyers,2168,Dayton,exact_espn,5
+teamrankings,Dayton,dayton,2168,Dayton,exact_espn,5
+torvik,Dayton,dayton,2168,Dayton,exact_known_name,0
+dk_splits,DePaul,depaul,305,DePaul,exact_espn,10
+espn,DEP,DEP,305,DePaul,espn_abbr,0
+espn,DePaul,depaul,305,DePaul,espn_location,0
+espn,DePaul Blue Demons,depaul blue demons,305,DePaul,espn_display,0
+odds_api,DePaul Blue Demons,depaul blue demons,305,DePaul,exact_espn,7
+teamrankings,DePaul,depaul,305,DePaul,exact_espn,3
+torvik,DePaul,depaul,305,DePaul,exact_known_name,0
+dk_splits,Delaware,delaware,48,Delaware,exact_espn,13
+espn,DEL,DEL,48,Delaware,espn_abbr,0
+espn,Delaware,delaware,48,Delaware,espn_location,0
+espn,Delaware Blue Hens,delaware blue hens,48,Delaware,espn_display,0
+odds_api,Delaware Blue Hens,delaware blue hens,48,Delaware,exact_espn,6
+teamrankings,Delaware,delaware,48,Delaware,exact_espn,3
+torvik,Delaware,delaware,48,Delaware,exact_known_name,0
+dk_splits,Delaware State,delaware st,2169,Delaware State,exact_espn,7
+espn,DSU,DSU,2169,Delaware State,espn_abbr,0
+espn,Delaware State,delaware st,2169,Delaware State,espn_location,0
+espn,Delaware State Hornets,delaware st hornets,2169,Delaware State,espn_display,0
+odds_api,Delaware St Hornets,delaware st hornets,2169,Delaware State,exact_espn,4
+teamrankings,Delaware St,delaware st,2169,Delaware State,exact_espn,4
+torvik,Delaware St.,delaware st,2169,Delaware State,exact_known_name,0
+torvik,Delaware State,delaware st,2169,Delaware State,exact_known_name,0
+dk_splits,Denver,denver,2172,Denver,exact_espn,12
+espn,DEN,DEN,2172,Denver,espn_abbr,0
+espn,Denver,denver,2172,Denver,espn_location,0
+espn,Denver Pioneers,denver pioneers,2172,Denver,espn_display,0
+odds_api,Denver Pioneers,denver pioneers,2172,Denver,exact_espn,7
+teamrankings,Denver,denver,2172,Denver,exact_espn,3
+torvik,Denver,denver,2172,Denver,exact_known_name,0
+dk_splits,Detroit Mercy,detroit mercy,2174,Detroit Mercy,exact_espn,11
+espn,DETM,DETM,2174,Detroit Mercy,espn_abbr,0
+espn,Detroit Mercy,detroit mercy,2174,Detroit Mercy,espn_location,0
+espn,Detroit Mercy Titans,detroit mercy titans,2174,Detroit Mercy,espn_display,0
+odds_api,Detroit Mercy Titans,detroit mercy titans,2174,Detroit Mercy,exact_espn,7
+teamrankings,Detroit Mercy,detroit mercy,2174,Detroit Mercy,exact_espn,6
+torvik,Detroit Mercy,detroit mercy,2174,Detroit Mercy,exact_known_name,0
+dk_splits,Drake,drake,2181,Drake,exact_espn,11
+espn,DRKE,DRKE,2181,Drake,espn_abbr,0
+espn,Drake,drake,2181,Drake,espn_location,0
+espn,Drake Bulldogs,drake bulldogs,2181,Drake,espn_display,0
+odds_api,Drake Bulldogs,drake bulldogs,2181,Drake,exact_espn,3
+teamrankings,Drake,drake,2181,Drake,exact_espn,4
+torvik,Drake,drake,2181,Drake,exact_known_name,0
+dk_splits,Drexel,drexel,2182,Drexel,exact_espn,11
+espn,DREX,DREX,2182,Drexel,espn_abbr,0
+espn,Drexel,drexel,2182,Drexel,espn_location,0
+espn,Drexel Dragons,drexel dragons,2182,Drexel,espn_display,0
+odds_api,Drexel Dragons,drexel dragons,2182,Drexel,exact_espn,6
+teamrankings,Drexel,drexel,2182,Drexel,exact_espn,3
+torvik,Drexel,drexel,2182,Drexel,exact_known_name,0
+dk_splits,Duke,duke,150,Duke,exact_espn,14
+espn,DUKE,DUKE,150,Duke,espn_abbr,0
+espn,Duke,duke,150,Duke,espn_location,0
+espn,Duke Blue Devils,duke blue devils,150,Duke,espn_display,0
+odds_api,Duke Blue Devils,duke blue devils,150,Duke,exact_espn,9
+teamrankings,Duke,duke,150,Duke,exact_espn,5
+torvik,Duke,duke,150,Duke,exact_known_name,0
+dk_splits,Duquesne,duquesne,2184,Duquesne,exact_espn,15
+espn,DUQ,DUQ,2184,Duquesne,espn_abbr,0
+espn,Duquesne,duquesne,2184,Duquesne,espn_location,0
+espn,Duquesne Dukes,duquesne dukes,2184,Duquesne,espn_display,0
+odds_api,Duquesne Dukes,duquesne dukes,2184,Duquesne,exact_espn,6
+teamrankings,Duquesne,duquesne,2184,Duquesne,exact_espn,5
+torvik,Duquesne,duquesne,2184,Duquesne,exact_known_name,0
+dk_splits,East Carolina,east carolina,151,East Carolina,exact_espn,14
+espn,ECU,ECU,151,East Carolina,espn_abbr,0
+espn,East Carolina,east carolina,151,East Carolina,espn_location,0
+espn,East Carolina Pirates,east carolina pirates,151,East Carolina,espn_display,0
+odds_api,East Carolina Pirates,east carolina pirates,151,East Carolina,exact_espn,7
+teamrankings,E Carolina,e carolina,151,East Carolina,game_verified+reviewed,4
+torvik,East Carolina,east carolina,151,East Carolina,exact_known_name,0
+dk_splits,ETSU,etsu,2193,East Tennessee State,exact_espn,4
+espn,ETSU,ETSU,2193,East Tennessee State,espn_abbr,0
+espn,East Tennessee State,east tennessee st,2193,East Tennessee State,espn_location,0
+espn,East Tennessee State Buccaneers,east tennessee st buccaneers,2193,East Tennessee State,espn_display,0
+odds_api,East Tennessee St Buccaneers,east tennessee st buccaneers,2193,East Tennessee State,exact_espn,2
+teamrankings,E Tennessee St,e tennessee st,2193,East Tennessee State,game_verified+reviewed,2
+torvik,East Tennessee St.,east tennessee st,2193,East Tennessee State,exact_known_name,0
+torvik,East Tennessee State,east tennessee st,2193,East Tennessee State,exact_known_name,0
+dk_splits,East Texas A&M,east texas a and m,2837,East Texas A&M,exact_espn,5
+espn,ETAM,ETAM,2837,East Texas A&M,espn_abbr,0
+espn,East Texas A&M,east texas a and m,2837,East Texas A&M,espn_location,0
+espn,East Texas A&M Lions,east texas a and m lions,2837,East Texas A&M,espn_display,0
+teamrankings,E Texas A&M,e texas a and m,2837,East Texas A&M,game_verified+reviewed,3
+torvik,East Texas A&M,east texas a and m,2837,East Texas A&M,exact_known_name,0
+dk_splits,Eastern Illinois,eastern illinois,2197,Eastern Illinois,exact_espn,6
+espn,EIU,EIU,2197,Eastern Illinois,espn_abbr,0
+espn,Eastern Illinois,eastern illinois,2197,Eastern Illinois,espn_location,0
+espn,Eastern Illinois Panthers,eastern illinois panthers,2197,Eastern Illinois,espn_display,0
+odds_api,Eastern Illinois Panthers,eastern illinois panthers,2197,Eastern Illinois,exact_espn,3
+teamrankings,E Illinois,e illinois,2197,Eastern Illinois,game_verified+reviewed,3
+torvik,Eastern Illinois,eastern illinois,2197,Eastern Illinois,exact_known_name,0
+dk_splits,Eastern Kentucky,eastern kentucky,2198,Eastern Kentucky,exact_espn,6
+espn,EKU,EKU,2198,Eastern Kentucky,espn_abbr,0
+espn,Eastern Kentucky,eastern kentucky,2198,Eastern Kentucky,espn_location,0
+espn,Eastern Kentucky Colonels,eastern kentucky colonels,2198,Eastern Kentucky,espn_display,0
+odds_api,Eastern Kentucky Colonels,eastern kentucky colonels,2198,Eastern Kentucky,exact_espn,5
+teamrankings,E Kentucky,e kentucky,2198,Eastern Kentucky,game_verified+reviewed,4
+torvik,Eastern Kentucky,eastern kentucky,2198,Eastern Kentucky,exact_known_name,0
+dk_splits,Eastern Michigan,eastern michigan,2199,Eastern Michigan,exact_espn,20
+espn,EMU,EMU,2199,Eastern Michigan,espn_abbr,0
+espn,Eastern Michigan,eastern michigan,2199,Eastern Michigan,espn_location,0
+espn,Eastern Michigan Eagles,eastern michigan eagles,2199,Eastern Michigan,espn_display,0
+odds_api,Eastern Michigan Eagles,eastern michigan eagles,2199,Eastern Michigan,exact_espn,10
+teamrankings,E Michigan,e michigan,2199,Eastern Michigan,game_verified+reviewed,4
+torvik,Eastern Michigan,eastern michigan,2199,Eastern Michigan,exact_known_name,0
+dk_splits,Eastern Washington,eastern washington,331,Eastern Washington,exact_espn,11
+espn,EWU,EWU,331,Eastern Washington,espn_abbr,0
+espn,Eastern Washington,eastern washington,331,Eastern Washington,espn_location,0
+espn,Eastern Washington Eagles,eastern washington eagles,331,Eastern Washington,espn_display,0
+odds_api,Eastern Washington Eagles,eastern washington eagles,331,Eastern Washington,exact_espn,9
+teamrankings,E Washington,e washington,331,Eastern Washington,game_verified+reviewed,3
+torvik,Eastern Washington,eastern washington,331,Eastern Washington,exact_known_name,0
+dk_splits,Elon,elon,2210,Elon,exact_espn,18
+espn,ELON,ELON,2210,Elon,espn_abbr,0
+espn,Elon,elon,2210,Elon,espn_location,0
+espn,Elon Phoenix,elon phoenix,2210,Elon,espn_display,0
+odds_api,Elon Phoenix,elon phoenix,2210,Elon,exact_espn,7
+teamrankings,Elon,elon,2210,Elon,exact_espn,4
+torvik,Elon,elon,2210,Elon,exact_known_name,0
+dk_splits,Evansville,evansville,339,Evansville,exact_espn,5
+espn,EVAN,EVAN,339,Evansville,espn_abbr,0
+espn,Evansville,evansville,339,Evansville,espn_location,0
+espn,Evansville Purple Aces,evansville purple aces,339,Evansville,espn_display,0
+odds_api,Evansville Purple Aces,evansville purple aces,339,Evansville,exact_espn,7
+teamrankings,Evansville,evansville,339,Evansville,exact_espn,5
+torvik,Evansville,evansville,339,Evansville,exact_known_name,0
+dk_splits,Fairfield,fairfield,2217,Fairfield,exact_espn,4
+espn,FAIR,FAIR,2217,Fairfield,espn_abbr,0
+espn,Fairfield,fairfield,2217,Fairfield,espn_location,0
+espn,Fairfield Stags,fairfield stags,2217,Fairfield,espn_display,0
+odds_api,Fairfield Stags,fairfield stags,2217,Fairfield,exact_espn,2
+teamrankings,Fairfield,fairfield,2217,Fairfield,exact_espn,3
+torvik,Fairfield,fairfield,2217,Fairfield,exact_known_name,0
+dk_splits,Fairleigh Dickinson,fairleigh dickinson,161,Fairleigh Dickinson,exact_espn,9
+espn,FDU,FDU,161,Fairleigh Dickinson,espn_abbr,0
+espn,Fairleigh Dickinson,fairleigh dickinson,161,Fairleigh Dickinson,espn_location,0
+espn,Fairleigh Dickinson Knights,fairleigh dickinson knights,161,Fairleigh Dickinson,espn_display,0
+odds_api,Fairleigh Dickinson Knights,fairleigh dickinson knights,161,Fairleigh Dickinson,exact_espn,2
+teamrankings,F Dickinson,f dickinson,161,Fairleigh Dickinson,game_verified+reviewed,2
+torvik,Fairleigh Dickinson,fairleigh dickinson,161,Fairleigh Dickinson,exact_known_name,0
+dk_splits,Florida,florida,57,Florida,exact_espn,8
+espn,FLA,FLA,57,Florida,espn_abbr,0
+espn,Florida,florida,57,Florida,espn_location,0
+espn,Florida Gators,florida gators,57,Florida,espn_display,0
+odds_api,Florida Gators,florida gators,57,Florida,exact_espn,3
+teamrankings,Florida,florida,57,Florida,exact_espn,8
+torvik,Florida,florida,57,Florida,exact_known_name,0
+dk_splits,Florida A&M,florida a and m,50,Florida A&M,exact_espn,5
+espn,FAMU,FAMU,50,Florida A&M,espn_abbr,0
+espn,Florida A&M,florida a and m,50,Florida A&M,espn_location,0
+espn,Florida A&M Rattlers,florida a and m rattlers,50,Florida A&M,espn_display,0
+odds_api,Florida A&M Rattlers,florida a and m rattlers,50,Florida A&M,exact_espn,4
+teamrankings,Florida A&M,florida a and m,50,Florida A&M,exact_espn,3
+torvik,Florida A&M,florida a and m,50,Florida A&M,exact_known_name,0
+dk_splits,Florida Atlantic,florida atlantic,2226,Florida Atlantic,exact_espn,10
+espn,FAU,FAU,2226,Florida Atlantic,espn_abbr,0
+espn,Florida Atlantic,florida atlantic,2226,Florida Atlantic,espn_location,0
+espn,Florida Atlantic Owls,florida atlantic owls,2226,Florida Atlantic,espn_display,0
+odds_api,Florida Atlantic Owls,florida atlantic owls,2226,Florida Atlantic,exact_espn,3
+teamrankings,Florida Atlantic,florida atlantic,2226,Florida Atlantic,exact_espn,2
+torvik,Florida Atlantic,florida atlantic,2226,Florida Atlantic,exact_known_name,0
+dk_splits,Florida Gulf Coast,florida gulf coast,526,Florida Gulf Coast,exact_espn,10
+espn,FGCU,FGCU,526,Florida Gulf Coast,espn_abbr,0
+espn,Florida Gulf Coast,florida gulf coast,526,Florida Gulf Coast,espn_location,0
+espn,Florida Gulf Coast Eagles,florida gulf coast eagles,526,Florida Gulf Coast,espn_display,0
+odds_api,Florida Gulf Coast Eagles,florida gulf coast eagles,526,Florida Gulf Coast,exact_espn,3
+teamrankings,FGCU,fgcu,526,Florida Gulf Coast,exact_espn,3
+torvik,Florida Gulf Coast,florida gulf coast,526,Florida Gulf Coast,exact_known_name,0
+dk_splits,FIU,fiu,2229,Florida International,exact_espn,10
+espn,FIU,FIU,2229,Florida International,espn_abbr,0
+espn,Florida International,florida international,2229,Florida International,espn_location,0
+espn,Florida International Panthers,florida international panthers,2229,Florida International,espn_display,0
+odds_api,Florida Int'l Golden Panthers,florida intl golden panthers,2229,Florida International,game_verified+reviewed,8
+teamrankings,Florida Intl,florida intl,2229,Florida International,game_verified+reviewed,4
+torvik,FIU,fiu,2229,Florida International,exact_known_name,0
+torvik,Florida International,florida international,2229,Florida International,exact_known_name,0
+dk_splits,Florida State,florida st,52,Florida State,exact_espn,2
+espn,FSU,FSU,52,Florida State,espn_abbr,0
+espn,Florida State,florida st,52,Florida State,espn_location,0
+espn,Florida State Seminoles,florida st seminoles,52,Florida State,espn_display,0
+odds_api,Florida St Seminoles,florida st seminoles,52,Florida State,exact_espn,5
+teamrankings,Florida St,florida st,52,Florida State,exact_espn,4
+torvik,Florida St.,florida st,52,Florida State,exact_known_name,0
+torvik,Florida State,florida st,52,Florida State,exact_known_name,0
+dk_splits,Fordham,fordham,2230,Fordham,exact_espn,7
+espn,FOR,FOR,2230,Fordham,espn_abbr,0
+espn,Fordham,fordham,2230,Fordham,espn_location,0
+espn,Fordham Rams,fordham rams,2230,Fordham,espn_display,0
+odds_api,Fordham Rams,fordham rams,2230,Fordham,exact_espn,6
+teamrankings,Fordham,fordham,2230,Fordham,exact_espn,4
+torvik,Fordham,fordham,2230,Fordham,exact_known_name,0
+dk_splits,Fresno State,fresno st,278,Fresno State,exact_espn,10
+espn,FRES,FRES,278,Fresno State,espn_abbr,0
+espn,Fresno State,fresno st,278,Fresno State,espn_location,0
+espn,Fresno State Bulldogs,fresno st bulldogs,278,Fresno State,espn_display,0
+odds_api,Fresno St Bulldogs,fresno st bulldogs,278,Fresno State,exact_espn,3
+teamrankings,Fresno St,fresno st,278,Fresno State,exact_espn,4
+torvik,Fresno St.,fresno st,278,Fresno State,exact_known_name,0
+torvik,Fresno State,fresno st,278,Fresno State,exact_known_name,0
+dk_splits,Furman,furman,231,Furman,exact_espn,10
+espn,FUR,FUR,231,Furman,espn_abbr,0
+espn,Furman,furman,231,Furman,espn_location,0
+espn,Furman Paladins,furman paladins,231,Furman,espn_display,0
+odds_api,Furman Paladins,furman paladins,231,Furman,exact_espn,3
+teamrankings,Furman,furman,231,Furman,exact_espn,3
+torvik,Furman,furman,231,Furman,exact_known_name,0
+dk_splits,Gardner-Webb,gardner webb,2241,Gardner-Webb,exact_espn,11
+espn,GWEB,GWEB,2241,Gardner-Webb,espn_abbr,0
+espn,Gardner-Webb,gardner webb,2241,Gardner-Webb,espn_location,0
+espn,Gardner-Webb Runnin' Bulldogs,gardner webb runnin bulldogs,2241,Gardner-Webb,espn_display,0
+odds_api,Gardner-Webb Bulldogs,gardner webb bulldogs,2241,Gardner-Webb,game_verified,4
+teamrankings,Gardner-Webb,gardner webb,2241,Gardner-Webb,exact_espn,4
+torvik,Gardner Webb,gardner webb,2241,Gardner-Webb,exact_known_name,0
+torvik,Gardner-Webb,gardner webb,2241,Gardner-Webb,exact_known_name,0
+dk_splits,George Mason,george mason,2244,George Mason,exact_espn,12
+espn,GMU,GMU,2244,George Mason,espn_abbr,0
+espn,George Mason,george mason,2244,George Mason,espn_location,0
+espn,George Mason Patriots,george mason patriots,2244,George Mason,espn_display,0
+odds_api,George Mason Patriots,george mason patriots,2244,George Mason,exact_espn,6
+teamrankings,George Mason,george mason,2244,George Mason,exact_espn,7
+torvik,George Mason,george mason,2244,George Mason,exact_known_name,0
+dk_splits,George Washington,george washington,45,George Washington,exact_espn,7
+espn,GW,GW,45,George Washington,espn_abbr,0
+espn,George Washington,george washington,45,George Washington,espn_location,0
+espn,George Washington Revolutionaries,george washington revolutionaries,45,George Washington,espn_display,0
+odds_api,GW Revolutionaries,gw revolutionaries,45,George Washington,game_verified+reviewed,5
+teamrankings,G Washington,g washington,45,George Washington,game_verified+reviewed,3
+torvik,George Washington,george washington,45,George Washington,exact_known_name,0
+dk_splits,Georgetown,georgetown,46,Georgetown,exact_espn,12
+espn,GTWN,GTWN,46,Georgetown,espn_abbr,0
+espn,Georgetown,georgetown,46,Georgetown,espn_location,0
+espn,Georgetown Hoyas,georgetown hoyas,46,Georgetown,espn_display,0
+odds_api,Georgetown Hoyas,georgetown hoyas,46,Georgetown,exact_espn,5
+teamrankings,Georgetown,georgetown,46,Georgetown,exact_espn,3
+torvik,Georgetown,georgetown,46,Georgetown,exact_known_name,0
+dk_splits,Georgia,georgia,61,Georgia,exact_espn,9
+espn,Georgia,georgia,61,Georgia,espn_location,0
+espn,Georgia Bulldogs,georgia bulldogs,61,Georgia,espn_display,0
+espn,UGA,UGA,61,Georgia,espn_abbr,0
+odds_api,Georgia Bulldogs,georgia bulldogs,61,Georgia,exact_espn,6
+teamrankings,Georgia,georgia,61,Georgia,exact_espn,2
+torvik,Georgia,georgia,61,Georgia,exact_known_name,0
+dk_splits,Georgia Southern,georgia southern,290,Georgia Southern,exact_espn,13
+espn,GASO,GASO,290,Georgia Southern,espn_abbr,0
+espn,Georgia Southern,georgia southern,290,Georgia Southern,espn_location,0
+espn,Georgia Southern Eagles,georgia southern eagles,290,Georgia Southern,espn_display,0
+odds_api,Georgia Southern Eagles,georgia southern eagles,290,Georgia Southern,exact_espn,5
+teamrankings,Georgia So,georgia so,290,Georgia Southern,game_verified+reviewed,6
+torvik,Georgia Southern,georgia southern,290,Georgia Southern,exact_known_name,0
+dk_splits,Georgia State,georgia st,2247,Georgia State,exact_espn,14
+espn,GAST,GAST,2247,Georgia State,espn_abbr,0
+espn,Georgia State,georgia st,2247,Georgia State,espn_location,0
+espn,Georgia State Panthers,georgia st panthers,2247,Georgia State,espn_display,0
+odds_api,Georgia St Panthers,georgia st panthers,2247,Georgia State,exact_espn,7
+teamrankings,Georgia St,georgia st,2247,Georgia State,exact_espn,5
+torvik,Georgia St.,georgia st,2247,Georgia State,exact_known_name,0
+torvik,Georgia State,georgia st,2247,Georgia State,exact_known_name,0
+dk_splits,Georgia Tech,georgia tech,59,Georgia Tech,exact_espn,11
+espn,GT,GT,59,Georgia Tech,espn_abbr,0
+espn,Georgia Tech,georgia tech,59,Georgia Tech,espn_location,0
+espn,Georgia Tech Yellow Jackets,georgia tech yellow jackets,59,Georgia Tech,espn_display,0
+odds_api,Georgia Tech Yellow Jackets,georgia tech yellow jackets,59,Georgia Tech,exact_espn,6
+teamrankings,Georgia Tech,georgia tech,59,Georgia Tech,exact_espn,5
+torvik,Georgia Tech,georgia tech,59,Georgia Tech,exact_known_name,0
+dk_splits,Gonzaga,gonzaga,2250,Gonzaga,exact_espn,19
+espn,GONZ,GONZ,2250,Gonzaga,espn_abbr,0
+espn,Gonzaga,gonzaga,2250,Gonzaga,espn_location,0
+espn,Gonzaga Bulldogs,gonzaga bulldogs,2250,Gonzaga,espn_display,0
+odds_api,Gonzaga Bulldogs,gonzaga bulldogs,2250,Gonzaga,exact_espn,11
+teamrankings,Gonzaga,gonzaga,2250,Gonzaga,exact_espn,4
+torvik,Gonzaga,gonzaga,2250,Gonzaga,exact_known_name,0
+dk_splits,Grambling,grambling,2755,Grambling,exact_espn,9
+espn,GRAM,GRAM,2755,Grambling,espn_abbr,0
+espn,Grambling,grambling,2755,Grambling,espn_location,0
+espn,Grambling Tigers,grambling tigers,2755,Grambling,espn_display,0
+odds_api,Grambling St Tigers,grambling st tigers,2755,Grambling,game_verified,2
+teamrankings,Grambling,grambling,2755,Grambling,exact_espn,4
+torvik,Grambling,grambling,2755,Grambling,exact_known_name,0
+torvik,Grambling St.,grambling st,2755,Grambling,fuzzy+reviewed,0
+dk_splits,Grand Canyon,grand canyon,2253,Grand Canyon,exact_espn,6
+espn,GCU,GCU,2253,Grand Canyon,espn_abbr,0
+espn,Grand Canyon,grand canyon,2253,Grand Canyon,espn_location,0
+espn,Grand Canyon Lopes,grand canyon lopes,2253,Grand Canyon,espn_display,0
+odds_api,Grand Canyon Antelopes,grand canyon antelopes,2253,Grand Canyon,game_verified,7
+teamrankings,Grand Canyon,grand canyon,2253,Grand Canyon,exact_espn,5
+torvik,Grand Canyon,grand canyon,2253,Grand Canyon,exact_known_name,0
+dk_splits,Green Bay,green bay,2739,Green Bay,exact_espn,3
+espn,GB,GB,2739,Green Bay,espn_abbr,0
+espn,Green Bay,green bay,2739,Green Bay,espn_location,0
+espn,Green Bay Phoenix,green bay phoenix,2739,Green Bay,espn_display,0
+odds_api,Green Bay Phoenix,green bay phoenix,2739,Green Bay,exact_espn,5
+teamrankings,Green Bay,green bay,2739,Green Bay,exact_espn,4
+torvik,Green Bay,green bay,2739,Green Bay,exact_known_name,0
+dk_splits,Hampton,hampton,2261,Hampton,exact_espn,6
+espn,HAMP,HAMP,2261,Hampton,espn_abbr,0
+espn,Hampton,hampton,2261,Hampton,espn_location,0
+espn,Hampton Pirates,hampton pirates,2261,Hampton,espn_display,0
+odds_api,Hampton Pirates,hampton pirates,2261,Hampton,exact_espn,3
+teamrankings,Hampton,hampton,2261,Hampton,exact_espn,2
+torvik,Hampton,hampton,2261,Hampton,exact_known_name,0
+dk_splits,Harvard,harvard,108,Harvard,exact_espn,13
+espn,HARV,HARV,108,Harvard,espn_abbr,0
+espn,Harvard,harvard,108,Harvard,espn_location,0
+espn,Harvard Crimson,harvard crimson,108,Harvard,espn_display,0
+odds_api,Harvard Crimson,harvard crimson,108,Harvard,exact_espn,4
+teamrankings,Harvard,harvard,108,Harvard,exact_espn,5
+torvik,Harvard,harvard,108,Harvard,exact_known_name,0
+dk_splits,Hawaii,hawaii,62,Hawai'i,exact_espn,11
+espn,HAW,HAW,62,Hawai'i,espn_abbr,0
+espn,Hawai'i,hawaii,62,Hawai'i,espn_location,0
+espn,Hawai'i Rainbow Warriors,hawaii rainbow warriors,62,Hawai'i,espn_display,0
+odds_api,Hawai'i Rainbow Warriors,hawaii rainbow warriors,62,Hawai'i,exact_espn,3
+teamrankings,Hawai'i,hawaii,62,Hawai'i,exact_espn,2
+torvik,Hawai'i,hawaii,62,Hawai'i,exact_known_name,0
+torvik,Hawaii,hawaii,62,Hawai'i,exact_known_name,0
+dk_splits,High Point,high point,2272,High Point,exact_espn,10
+espn,HPU,HPU,2272,High Point,espn_abbr,0
+espn,High Point,high point,2272,High Point,espn_location,0
+espn,High Point Panthers,high point panthers,2272,High Point,espn_display,0
+odds_api,High Point Panthers,high point panthers,2272,High Point,exact_espn,3
+teamrankings,High Point,high point,2272,High Point,exact_espn,7
+torvik,High Point,high point,2272,High Point,exact_known_name,0
+espn,HOF,HOF,2275,Hofstra,espn_abbr,0
+espn,Hofstra,hofstra,2275,Hofstra,espn_location,0
+espn,Hofstra Pride,hofstra pride,2275,Hofstra,espn_display,0
+teamrankings,Hofstra,hofstra,2275,Hofstra,exact_espn,2
+torvik,Hofstra,hofstra,2275,Hofstra,exact_known_name,0
+dk_splits,Holy Cross,holy cross,107,Holy Cross,exact_espn,8
+espn,HC,HC,107,Holy Cross,espn_abbr,0
+espn,Holy Cross,holy cross,107,Holy Cross,espn_location,0
+espn,Holy Cross Crusaders,holy cross crusaders,107,Holy Cross,espn_display,0
+odds_api,Holy Cross Crusaders,holy cross crusaders,107,Holy Cross,exact_espn,4
+teamrankings,Holy Cross,holy cross,107,Holy Cross,exact_espn,4
+torvik,Holy Cross,holy cross,107,Holy Cross,exact_known_name,0
+dk_splits,Houston,houston,248,Houston,exact_espn,9
+espn,HOU,HOU,248,Houston,espn_abbr,0
+espn,Houston,houston,248,Houston,espn_location,0
+espn,Houston Cougars,houston cougars,248,Houston,espn_display,0
+teamrankings,Houston,houston,248,Houston,exact_espn,6
+torvik,Houston,houston,248,Houston,exact_known_name,0
+dk_splits,Houston Christian,houston christian,2277,Houston Christian,exact_espn,5
+espn,HCU,HCU,2277,Houston Christian,espn_abbr,0
+espn,Houston Christian,houston christian,2277,Houston Christian,espn_location,0
+espn,Houston Christian Huskies,houston christian huskies,2277,Houston Christian,espn_display,0
+odds_api,Houston Christian Huskies,houston christian huskies,2277,Houston Christian,exact_espn,2
+teamrankings,Hou Christian,hou christian,2277,Houston Christian,game_verified+reviewed,4
+torvik,Houston Christian,houston christian,2277,Houston Christian,exact_known_name,0
+dk_splits,Howard,howard,47,Howard,exact_espn,4
+espn,HOW,HOW,47,Howard,espn_abbr,0
+espn,Howard,howard,47,Howard,espn_location,0
+espn,Howard Bison,howard bison,47,Howard,espn_display,0
+teamrankings,Howard,howard,47,Howard,exact_espn,5
+torvik,Howard,howard,47,Howard,exact_known_name,0
+dk_splits,IU Indianapolis,iu indianapolis,85,IU Indianapolis,exact_espn,11
+espn,IU Indianapolis,iu indianapolis,85,IU Indianapolis,espn_location,0
+espn,IU Indianapolis Jaguars,iu indianapolis jaguars,85,IU Indianapolis,espn_display,0
+espn,IUIN,IUIN,85,IU Indianapolis,espn_abbr,0
+odds_api,IUPUI Jaguars,iupui jaguars,85,IU Indianapolis,game_verified+reviewed,4
+teamrankings,IU Indy,iu indy,85,IU Indianapolis,game_verified+reviewed,2
+torvik,IU Indianapolis,iu indianapolis,85,IU Indianapolis,exact_known_name,0
+torvik,IU Indy,iu indy,85,IU Indianapolis,exact_known_name,0
+dk_splits,Idaho,idaho,70,Idaho,exact_espn,7
+espn,IDHO,IDHO,70,Idaho,espn_abbr,0
+espn,Idaho,idaho,70,Idaho,espn_location,0
+espn,Idaho Vandals,idaho vandals,70,Idaho,espn_display,0
+odds_api,Idaho Vandals,idaho vandals,70,Idaho,exact_espn,3
+teamrankings,Idaho,idaho,70,Idaho,exact_espn,2
+torvik,Idaho,idaho,70,Idaho,exact_known_name,0
+dk_splits,Idaho State,idaho st,304,Idaho State,exact_espn,7
+espn,IDST,IDST,304,Idaho State,espn_abbr,0
+espn,Idaho State,idaho st,304,Idaho State,espn_location,0
+espn,Idaho State Bengals,idaho st bengals,304,Idaho State,espn_display,0
+odds_api,Idaho State Bengals,idaho st bengals,304,Idaho State,exact_espn,6
+teamrankings,Idaho St,idaho st,304,Idaho State,exact_espn,3
+torvik,Idaho St.,idaho st,304,Idaho State,exact_known_name,0
+torvik,Idaho State,idaho st,304,Idaho State,exact_known_name,0
+dk_splits,Illinois,illinois,356,Illinois,exact_espn,12
+espn,ILL,ILL,356,Illinois,espn_abbr,0
+espn,Illinois,illinois,356,Illinois,espn_location,0
+espn,Illinois Fighting Illini,illinois fighting illini,356,Illinois,espn_display,0
+odds_api,Illinois Fighting Illini,illinois fighting illini,356,Illinois,exact_espn,6
+teamrankings,Illinois,illinois,356,Illinois,exact_espn,4
+torvik,Illinois,illinois,356,Illinois,exact_known_name,0
+dk_splits,Illinois State,illinois st,2287,Illinois State,exact_espn,8
+espn,ILST,ILST,2287,Illinois State,espn_abbr,0
+espn,Illinois State,illinois st,2287,Illinois State,espn_location,0
+espn,Illinois State Redbirds,illinois st redbirds,2287,Illinois State,espn_display,0
+odds_api,Illinois St Redbirds,illinois st redbirds,2287,Illinois State,exact_espn,5
+teamrankings,Illinois St,illinois st,2287,Illinois State,exact_espn,3
+torvik,Illinois St.,illinois st,2287,Illinois State,exact_known_name,0
+torvik,Illinois State,illinois st,2287,Illinois State,exact_known_name,0
+dk_splits,Incarnate Word,incarnate word,2916,Incarnate Word,exact_espn,9
+espn,Incarnate Word,incarnate word,2916,Incarnate Word,espn_location,0
+espn,Incarnate Word Cardinals,incarnate word cardinals,2916,Incarnate Word,espn_display,0
+espn,UIW,UIW,2916,Incarnate Word,espn_abbr,0
+odds_api,Incarnate Word Cardinals,incarnate word cardinals,2916,Incarnate Word,exact_espn,3
+teamrankings,Incarnate Word,incarnate word,2916,Incarnate Word,exact_espn,1
+torvik,Incarnate Word,incarnate word,2916,Incarnate Word,exact_known_name,0
+dk_splits,Indiana,indiana,84,Indiana,exact_espn,10
+espn,IU,IU,84,Indiana,espn_abbr,0
+espn,Indiana,indiana,84,Indiana,espn_location,0
+espn,Indiana Hoosiers,indiana hoosiers,84,Indiana,espn_display,0
+odds_api,Indiana Hoosiers,indiana hoosiers,84,Indiana,exact_espn,5
+teamrankings,Indiana,indiana,84,Indiana,exact_espn,6
+torvik,Indiana,indiana,84,Indiana,exact_known_name,0
+dk_splits,Indiana State,indiana st,282,Indiana State,exact_espn,10
+espn,INST,INST,282,Indiana State,espn_abbr,0
+espn,Indiana State,indiana st,282,Indiana State,espn_location,0
+espn,Indiana State Sycamores,indiana st sycamores,282,Indiana State,espn_display,0
+odds_api,Indiana St Sycamores,indiana st sycamores,282,Indiana State,exact_espn,6
+teamrankings,Indiana St,indiana st,282,Indiana State,exact_espn,3
+torvik,Indiana St.,indiana st,282,Indiana State,exact_known_name,0
+torvik,Indiana State,indiana st,282,Indiana State,exact_known_name,0
+dk_splits,Iona,iona,314,Iona,exact_espn,11
+espn,IONA,IONA,314,Iona,espn_abbr,0
+espn,Iona,iona,314,Iona,espn_location,0
+espn,Iona Gaels,iona gaels,314,Iona,espn_display,0
+odds_api,Iona Gaels,iona gaels,314,Iona,exact_espn,4
+teamrankings,Iona,iona,314,Iona,exact_espn,4
+torvik,Iona,iona,314,Iona,exact_known_name,0
+dk_splits,Iowa,iowa,2294,Iowa,exact_espn,7
+espn,IOWA,IOWA,2294,Iowa,espn_abbr,0
+espn,Iowa,iowa,2294,Iowa,espn_location,0
+espn,Iowa Hawkeyes,iowa hawkeyes,2294,Iowa,espn_display,0
+odds_api,Iowa Hawkeyes,iowa hawkeyes,2294,Iowa,exact_espn,4
+teamrankings,Iowa,iowa,2294,Iowa,exact_espn,4
+torvik,Iowa,iowa,2294,Iowa,exact_known_name,0
+dk_splits,Iowa State,iowa st,66,Iowa State,exact_espn,19
+espn,ISU,ISU,66,Iowa State,espn_abbr,0
+espn,Iowa State,iowa st,66,Iowa State,espn_location,0
+espn,Iowa State Cyclones,iowa st cyclones,66,Iowa State,espn_display,0
+odds_api,Iowa State Cyclones,iowa st cyclones,66,Iowa State,exact_espn,10
+teamrankings,Iowa St,iowa st,66,Iowa State,exact_espn,4
+torvik,Iowa St.,iowa st,66,Iowa State,exact_known_name,0
+torvik,Iowa State,iowa st,66,Iowa State,exact_known_name,0
+dk_splits,Jackson State,jackson st,2296,Jackson State,exact_espn,3
+espn,JKST,JKST,2296,Jackson State,espn_abbr,0
+espn,Jackson State,jackson st,2296,Jackson State,espn_location,0
+espn,Jackson State Tigers,jackson st tigers,2296,Jackson State,espn_display,0
+odds_api,Jackson St Tigers,jackson st tigers,2296,Jackson State,exact_espn,1
+teamrankings,Jackson St,jackson st,2296,Jackson State,exact_espn,3
+torvik,Jackson St.,jackson st,2296,Jackson State,exact_known_name,0
+torvik,Jackson State,jackson st,2296,Jackson State,exact_known_name,0
+dk_splits,Jacksonville,jacksonville,294,Jacksonville,exact_espn,12
+espn,JAX,JAX,294,Jacksonville,espn_abbr,0
+espn,Jacksonville,jacksonville,294,Jacksonville,espn_location,0
+espn,Jacksonville Dolphins,jacksonville dolphins,294,Jacksonville,espn_display,0
+odds_api,Jacksonville Dolphins,jacksonville dolphins,294,Jacksonville,exact_espn,4
+teamrankings,Jacksonville,jacksonville,294,Jacksonville,exact_espn,5
+torvik,Jacksonville,jacksonville,294,Jacksonville,exact_known_name,0
+dk_splits,Jacksonville State,jacksonville st,55,Jacksonville State,exact_espn,14
+espn,JXST,JXST,55,Jacksonville State,espn_abbr,0
+espn,Jacksonville State,jacksonville st,55,Jacksonville State,espn_location,0
+espn,Jacksonville State Gamecocks,jacksonville st gamecocks,55,Jacksonville State,espn_display,0
+odds_api,Jacksonville St Gamecocks,jacksonville st gamecocks,55,Jacksonville State,exact_espn,10
+teamrankings,Jacksonville St,jacksonville st,55,Jacksonville State,exact_espn,4
+torvik,Jacksonville St.,jacksonville st,55,Jacksonville State,exact_known_name,0
+torvik,Jacksonville State,jacksonville st,55,Jacksonville State,exact_known_name,0
+dk_splits,James Madison,james madison,256,James Madison,exact_espn,6
+espn,JMU,JMU,256,James Madison,espn_abbr,0
+espn,James Madison,james madison,256,James Madison,espn_location,0
+espn,James Madison Dukes,james madison dukes,256,James Madison,espn_display,0
+odds_api,James Madison Dukes,james madison dukes,256,James Madison,exact_espn,2
+teamrankings,J Madison,j madison,256,James Madison,game_verified+reviewed,3
+torvik,James Madison,james madison,256,James Madison,exact_known_name,0
+dk_splits,Kansas,kansas,2305,Kansas,exact_espn,16
+espn,KU,KU,2305,Kansas,espn_abbr,0
+espn,Kansas,kansas,2305,Kansas,espn_location,0
+espn,Kansas Jayhawks,kansas jayhawks,2305,Kansas,espn_display,0
+odds_api,Kansas Jayhawks,kansas jayhawks,2305,Kansas,exact_espn,4
+teamrankings,Kansas,kansas,2305,Kansas,exact_espn,8
+torvik,Kansas,kansas,2305,Kansas,exact_known_name,0
+dk_splits,UMKC,umkc,140,Kansas City,game_verified+reviewed,8
+espn,KC,KC,140,Kansas City,espn_abbr,0
+espn,Kansas City,kansas city,140,Kansas City,espn_location,0
+espn,Kansas City Roos,kansas city roos,140,Kansas City,espn_display,0
+odds_api,UMKC Kangaroos,umkc kangaroos,140,Kansas City,game_verified+reviewed,6
+teamrankings,Kansas City,kansas city,140,Kansas City,exact_espn,5
+torvik,Kansas City,kansas city,140,Kansas City,exact_known_name,0
+torvik,UMKC,umkc,140,Kansas City,exact_known_name,0
+dk_splits,Kansas State,kansas st,2306,Kansas State,exact_espn,26
+espn,KSU,KSU,2306,Kansas State,espn_abbr,0
+espn,Kansas State,kansas st,2306,Kansas State,espn_location,0
+espn,Kansas State Wildcats,kansas st wildcats,2306,Kansas State,espn_display,0
+odds_api,Kansas St Wildcats,kansas st wildcats,2306,Kansas State,exact_espn,14
+teamrankings,Kansas St,kansas st,2306,Kansas State,exact_espn,5
+torvik,Kansas St.,kansas st,2306,Kansas State,exact_known_name,0
+torvik,Kansas State,kansas st,2306,Kansas State,exact_known_name,0
+dk_splits,Kennesaw State,kennesaw st,338,Kennesaw State,exact_espn,13
+espn,KENN,KENN,338,Kennesaw State,espn_abbr,0
+espn,Kennesaw State,kennesaw st,338,Kennesaw State,espn_location,0
+espn,Kennesaw State Owls,kennesaw st owls,338,Kennesaw State,espn_display,0
+odds_api,Kennesaw St Owls,kennesaw st owls,338,Kennesaw State,exact_espn,8
+teamrankings,Kennesaw St,kennesaw st,338,Kennesaw State,exact_espn,5
+torvik,Kennesaw St.,kennesaw st,338,Kennesaw State,exact_known_name,0
+torvik,Kennesaw State,kennesaw st,338,Kennesaw State,exact_known_name,0
+dk_splits,Kent State,kent st,2309,Kent State,exact_espn,9
+espn,KENT,KENT,2309,Kent State,espn_abbr,0
+espn,Kent State,kent st,2309,Kent State,espn_location,0
+espn,Kent State Golden Flashes,kent st golden flashes,2309,Kent State,espn_display,0
+odds_api,Kent State Golden Flashes,kent st golden flashes,2309,Kent State,exact_espn,7
+teamrankings,Kent St,kent st,2309,Kent State,exact_espn,3
+torvik,Kent St.,kent st,2309,Kent State,exact_known_name,0
+torvik,Kent State,kent st,2309,Kent State,exact_known_name,0
+dk_splits,Kentucky,kentucky,96,Kentucky,exact_espn,7
+espn,Kentucky,kentucky,96,Kentucky,espn_location,0
+espn,Kentucky Wildcats,kentucky wildcats,96,Kentucky,espn_display,0
+espn,UK,UK,96,Kentucky,espn_abbr,0
+odds_api,Kentucky Wildcats,kentucky wildcats,96,Kentucky,exact_espn,3
+teamrankings,Kentucky,kentucky,96,Kentucky,exact_espn,3
+torvik,Kentucky,kentucky,96,Kentucky,exact_known_name,0
+dk_splits,LSU,lsu,99,LSU,exact_espn,15
+espn,LSU,lsu,99,LSU,espn_location,0
+espn,LSU,LSU,99,LSU,espn_abbr,0
+espn,LSU Tigers,lsu tigers,99,LSU,espn_display,0
+odds_api,LSU Tigers,lsu tigers,99,LSU,exact_espn,7
+teamrankings,LSU,lsu,99,LSU,exact_espn,5
+torvik,LSU,lsu,99,LSU,exact_known_name,0
+dk_splits,New Orleans,new orleans,2443,LSU New Orleans,game_verified+reviewed,13
+espn,LSU New Orleans,lsu new orleans,2443,LSU New Orleans,espn_location,0
+espn,LSU New Orleans Privateers,lsu new orleans privateers,2443,LSU New Orleans,espn_display,0
+espn,NOLA,NOLA,2443,LSU New Orleans,espn_abbr,0
+odds_api,New Orleans Privateers,new orleans privateers,2443,LSU New Orleans,game_verified+reviewed,5
+teamrankings,LSU New Orleans,lsu new orleans,2443,LSU New Orleans,exact_espn,3
+torvik,New Orleans,new orleans,2443,LSU New Orleans,exact_known_name,0
+dk_splits,La Salle,la salle,2325,La Salle,exact_espn,9
+espn,LAS,LAS,2325,La Salle,espn_abbr,0
+espn,La Salle,la salle,2325,La Salle,espn_location,0
+espn,La Salle Explorers,la salle explorers,2325,La Salle,espn_display,0
+odds_api,La Salle Explorers,la salle explorers,2325,La Salle,exact_espn,4
+teamrankings,La Salle,la salle,2325,La Salle,exact_espn,4
+torvik,La Salle,la salle,2325,La Salle,exact_known_name,0
+dk_splits,Lafayette,lafayette,322,Lafayette,exact_espn,8
+espn,LAF,LAF,322,Lafayette,espn_abbr,0
+espn,Lafayette,lafayette,322,Lafayette,espn_location,0
+espn,Lafayette Leopards,lafayette leopards,322,Lafayette,espn_display,0
+odds_api,Lafayette Leopards,lafayette leopards,322,Lafayette,exact_espn,2
+teamrankings,Lafayette,lafayette,322,Lafayette,exact_espn,3
+torvik,Lafayette,lafayette,322,Lafayette,exact_known_name,0
+dk_splits,Lamar,lamar,2320,Lamar,exact_espn,7
+espn,LAM,LAM,2320,Lamar,espn_abbr,0
+espn,Lamar,lamar,2320,Lamar,espn_location,0
+espn,Lamar Cardinals,lamar cardinals,2320,Lamar,espn_display,0
+odds_api,Lamar Cardinals,lamar cardinals,2320,Lamar,exact_espn,5
+teamrankings,Lamar,lamar,2320,Lamar,exact_espn,3
+torvik,Lamar,lamar,2320,Lamar,exact_known_name,0
+dk_splits,Le Moyne,le moyne,2330,Le Moyne,exact_espn,5
+espn,LEM,LEM,2330,Le Moyne,espn_abbr,0
+espn,Le Moyne,le moyne,2330,Le Moyne,espn_location,0
+espn,Le Moyne Dolphins,le moyne dolphins,2330,Le Moyne,espn_display,0
+odds_api,Le Moyne Dolphins,le moyne dolphins,2330,Le Moyne,exact_espn,3
+teamrankings,Le Moyne,le moyne,2330,Le Moyne,exact_espn,3
+torvik,Le Moyne,le moyne,2330,Le Moyne,exact_known_name,0
+dk_splits,Lehigh,lehigh,2329,Lehigh,exact_espn,4
+espn,LEH,LEH,2329,Lehigh,espn_abbr,0
+espn,Lehigh,lehigh,2329,Lehigh,espn_location,0
+espn,Lehigh Mountain Hawks,lehigh mountain hawks,2329,Lehigh,espn_display,0
+odds_api,Lehigh Mountain Hawks,lehigh mountain hawks,2329,Lehigh,exact_espn,2
+teamrankings,Lehigh,lehigh,2329,Lehigh,exact_espn,2
+torvik,Lehigh,lehigh,2329,Lehigh,exact_known_name,0
+dk_splits,Liberty,liberty,2335,Liberty,exact_espn,14
+espn,LIB,LIB,2335,Liberty,espn_abbr,0
+espn,Liberty,liberty,2335,Liberty,espn_location,0
+espn,Liberty Flames,liberty flames,2335,Liberty,espn_display,0
+odds_api,Liberty Flames,liberty flames,2335,Liberty,exact_espn,10
+teamrankings,Liberty,liberty,2335,Liberty,exact_espn,4
+torvik,Liberty,liberty,2335,Liberty,exact_known_name,0
+dk_splits,Lindenwood,lindenwood,2815,Lindenwood,exact_espn,7
+espn,LIN,LIN,2815,Lindenwood,espn_abbr,0
+espn,Lindenwood,lindenwood,2815,Lindenwood,espn_location,0
+espn,Lindenwood Lions,lindenwood lions,2815,Lindenwood,espn_display,0
+odds_api,Lindenwood Lions,lindenwood lions,2815,Lindenwood,exact_espn,5
+teamrankings,Lindenwood,lindenwood,2815,Lindenwood,exact_espn,3
+torvik,Lindenwood,lindenwood,2815,Lindenwood,exact_known_name,0
+dk_splits,Lipscomb,lipscomb,288,Lipscomb,exact_espn,6
+espn,LIP,LIP,288,Lipscomb,espn_abbr,0
+espn,Lipscomb,lipscomb,288,Lipscomb,espn_location,0
+espn,Lipscomb Bisons,lipscomb bisons,288,Lipscomb,espn_display,0
+odds_api,Lipscomb Bisons,lipscomb bisons,288,Lipscomb,exact_espn,7
+teamrankings,Lipscomb,lipscomb,288,Lipscomb,exact_espn,5
+torvik,Lipscomb,lipscomb,288,Lipscomb,exact_known_name,0
+dk_splits,Little Rock,little rock,2031,Little Rock,exact_espn,8
+espn,LR,LR,2031,Little Rock,espn_abbr,0
+espn,Little Rock,little rock,2031,Little Rock,espn_location,0
+espn,Little Rock Trojans,little rock trojans,2031,Little Rock,espn_display,0
+odds_api,Arkansas-Little Rock Trojans,arkansas little rock trojans,2031,Little Rock,game_verified+reviewed,2
+teamrankings,Little Rock,little rock,2031,Little Rock,exact_espn,5
+torvik,Little Rock,little rock,2031,Little Rock,exact_known_name,0
+dk_splits,Long Beach State,long beach st,299,Long Beach State,exact_espn,9
+espn,LBSU,LBSU,299,Long Beach State,espn_abbr,0
+espn,Long Beach State,long beach st,299,Long Beach State,espn_location,0
+espn,Long Beach State Beach,long beach st beach,299,Long Beach State,espn_display,0
+odds_api,Long Beach St 49ers,long beach st 49ers,299,Long Beach State,game_verified,7
+teamrankings,Long Beach St,long beach st,299,Long Beach State,exact_espn,4
+torvik,Long Beach St.,long beach st,299,Long Beach State,exact_known_name,0
+torvik,Long Beach State,long beach st,299,Long Beach State,exact_known_name,0
+dk_splits,LIU,liu,112358,Long Island University,exact_espn,7
+espn,LIU,LIU,112358,Long Island University,espn_abbr,0
+espn,Long Island University,long island university,112358,Long Island University,espn_location,0
+espn,Long Island University Sharks,long island university sharks,112358,Long Island University,espn_display,0
+odds_api,LIU Sharks,liu sharks,112358,Long Island University,game_verified+reviewed,2
+teamrankings,LIU,liu,112358,Long Island University,exact_espn,3
+torvik,LIU,liu,112358,Long Island University,exact_known_name,0
+torvik,Long Island University,long island university,112358,Long Island University,exact_known_name,0
+dk_splits,Longwood,longwood,2344,Longwood,exact_espn,11
+espn,LONG,LONG,2344,Longwood,espn_abbr,0
+espn,Longwood,longwood,2344,Longwood,espn_location,0
+espn,Longwood Lancers,longwood lancers,2344,Longwood,espn_display,0
+odds_api,Longwood Lancers,longwood lancers,2344,Longwood,exact_espn,4
+teamrankings,Longwood,longwood,2344,Longwood,exact_espn,4
+torvik,Longwood,longwood,2344,Longwood,exact_known_name,0
+dk_splits,Louisiana,louisiana,309,Louisiana,exact_espn,11
+espn,Louisiana,louisiana,309,Louisiana,espn_location,0
+espn,Louisiana Ragin' Cajuns,louisiana ragin cajuns,309,Louisiana,espn_display,0
+espn,UL,UL,309,Louisiana,espn_abbr,0
+odds_api,Louisiana Ragin' Cajuns,louisiana ragin cajuns,309,Louisiana,exact_espn,5
+teamrankings,Louisiana,louisiana,309,Louisiana,exact_espn,3
+torvik,Louisiana,louisiana,309,Louisiana,exact_known_name,0
+dk_splits,Louisiana Tech,louisiana tech,2348,Louisiana Tech,exact_espn,6
+espn,LT,LT,2348,Louisiana Tech,espn_abbr,0
+espn,Louisiana Tech,louisiana tech,2348,Louisiana Tech,espn_location,0
+espn,Louisiana Tech Bulldogs,louisiana tech bulldogs,2348,Louisiana Tech,espn_display,0
+odds_api,Louisiana Tech Bulldogs,louisiana tech bulldogs,2348,Louisiana Tech,exact_espn,2
+teamrankings,Louisiana Tech,louisiana tech,2348,Louisiana Tech,exact_espn,5
+torvik,Louisiana Tech,louisiana tech,2348,Louisiana Tech,exact_known_name,0
+dk_splits,Louisville,louisville,97,Louisville,exact_espn,24
+espn,LOU,LOU,97,Louisville,espn_abbr,0
+espn,Louisville,louisville,97,Louisville,espn_location,0
+espn,Louisville Cardinals,louisville cardinals,97,Louisville,espn_display,0
+odds_api,Louisville Cardinals,louisville cardinals,97,Louisville,exact_espn,11
+teamrankings,Louisville,louisville,97,Louisville,exact_espn,5
+torvik,Louisville,louisville,97,Louisville,exact_known_name,0
+dk_splits,Loyola Chicago,loyola chicago,2350,Loyola Chicago,exact_espn,17
+espn,LUC,LUC,2350,Loyola Chicago,espn_abbr,0
+espn,Loyola Chicago,loyola chicago,2350,Loyola Chicago,espn_location,0
+espn,Loyola Chicago Ramblers,loyola chicago ramblers,2350,Loyola Chicago,espn_display,0
+odds_api,Loyola (Chi) Ramblers,loyola chi ramblers,2350,Loyola Chicago,game_verified+reviewed,8
+teamrankings,Loyola Chi,loyola chi,2350,Loyola Chicago,game_verified+reviewed,4
+torvik,Loyola Chicago,loyola chicago,2350,Loyola Chicago,exact_known_name,0
+dk_splits,Loyola Maryland,loyola maryland,2352,Loyola Maryland,exact_espn,6
+espn,L-MD,L-MD,2352,Loyola Maryland,espn_abbr,0
+espn,Loyola Maryland,loyola maryland,2352,Loyola Maryland,espn_location,0
+espn,Loyola Maryland Greyhounds,loyola maryland greyhounds,2352,Loyola Maryland,espn_display,0
+odds_api,Loyola (MD) Greyhounds,loyola md greyhounds,2352,Loyola Maryland,game_verified+reviewed,4
+teamrankings,Loyola MD,loyola md,2352,Loyola Maryland,game_verified+reviewed,6
+torvik,Loyola MD,loyola md,2352,Loyola Maryland,exact_known_name,0
+torvik,Loyola Maryland,loyola maryland,2352,Loyola Maryland,exact_known_name,0
+dk_splits,Loyola Marymount,loyola marymount,2351,Loyola Marymount,exact_espn,16
+espn,LMU,LMU,2351,Loyola Marymount,espn_abbr,0
+espn,Loyola Marymount,loyola marymount,2351,Loyola Marymount,espn_location,0
+espn,Loyola Marymount Lions,loyola marymount lions,2351,Loyola Marymount,espn_display,0
+odds_api,Loyola Marymount Lions,loyola marymount lions,2351,Loyola Marymount,exact_espn,13
+teamrankings,Loyola Mymt,loyola mymt,2351,Loyola Marymount,game_verified+reviewed,8
+torvik,Loyola Marymount,loyola marymount,2351,Loyola Marymount,exact_known_name,0
+dk_splits,Maine,maine,311,Maine,exact_espn,10
+espn,ME,ME,311,Maine,espn_abbr,0
+espn,Maine,maine,311,Maine,espn_location,0
+espn,Maine Black Bears,maine black bears,311,Maine,espn_display,0
+odds_api,Maine Black Bears,maine black bears,311,Maine,exact_espn,2
+teamrankings,Maine,maine,311,Maine,exact_espn,5
+torvik,Maine,maine,311,Maine,exact_known_name,0
+dk_splits,Manhattan,manhattan,2363,Manhattan,exact_espn,5
+espn,MAN,MAN,2363,Manhattan,espn_abbr,0
+espn,Manhattan,manhattan,2363,Manhattan,espn_location,0
+espn,Manhattan Jaspers,manhattan jaspers,2363,Manhattan,espn_display,0
+odds_api,Manhattan Jaspers,manhattan jaspers,2363,Manhattan,exact_espn,3
+teamrankings,Manhattan,manhattan,2363,Manhattan,exact_espn,4
+torvik,Manhattan,manhattan,2363,Manhattan,exact_known_name,0
+dk_splits,Marist,marist,2368,Marist,exact_espn,4
+espn,MRST,MRST,2368,Marist,espn_abbr,0
+espn,Marist,marist,2368,Marist,espn_location,0
+espn,Marist Red Foxes,marist red foxes,2368,Marist,espn_display,0
+odds_api,Marist Red Foxes,marist red foxes,2368,Marist,exact_espn,2
+teamrankings,Marist,marist,2368,Marist,exact_espn,2
+torvik,Marist,marist,2368,Marist,exact_known_name,0
+dk_splits,Marquette,marquette,269,Marquette,exact_espn,11
+espn,MARQ,MARQ,269,Marquette,espn_abbr,0
+espn,Marquette,marquette,269,Marquette,espn_location,0
+espn,Marquette Golden Eagles,marquette golden eagles,269,Marquette,espn_display,0
+odds_api,Marquette Golden Eagles,marquette golden eagles,269,Marquette,exact_espn,5
+teamrankings,Marquette,marquette,269,Marquette,exact_espn,5
+torvik,Marquette,marquette,269,Marquette,exact_known_name,0
+dk_splits,Marshall,marshall,276,Marshall,exact_espn,9
+espn,MRSH,MRSH,276,Marshall,espn_abbr,0
+espn,Marshall,marshall,276,Marshall,espn_location,0
+espn,Marshall Thundering Herd,marshall thundering herd,276,Marshall,espn_display,0
+odds_api,Marshall Thundering Herd,marshall thundering herd,276,Marshall,exact_espn,5
+teamrankings,Marshall,marshall,276,Marshall,exact_espn,4
+torvik,Marshall,marshall,276,Marshall,exact_known_name,0
+dk_splits,Maryland,maryland,120,Maryland,exact_espn,21
+espn,MD,MD,120,Maryland,espn_abbr,0
+espn,Maryland,maryland,120,Maryland,espn_location,0
+espn,Maryland Terrapins,maryland terrapins,120,Maryland,espn_display,0
+odds_api,Maryland Terrapins,maryland terrapins,120,Maryland,exact_espn,11
+teamrankings,Maryland,maryland,120,Maryland,exact_espn,4
+torvik,Maryland,maryland,120,Maryland,exact_known_name,0
+dk_splits,MD Eastern Shore,md eastern shore,2379,Maryland Eastern Shore,game_verified+reviewed,8
+espn,Maryland Eastern Shore,maryland eastern shore,2379,Maryland Eastern Shore,espn_location,0
+espn,Maryland Eastern Shore Hawks,maryland eastern shore hawks,2379,Maryland Eastern Shore,espn_display,0
+espn,UMES,UMES,2379,Maryland Eastern Shore,espn_abbr,0
+odds_api,Maryland-Eastern Shore Hawks,maryland eastern shore hawks,2379,Maryland Eastern Shore,exact_espn,5
+teamrankings,Maryland ES,maryland es,2379,Maryland Eastern Shore,game_verified+reviewed,6
+torvik,Maryland Eastern Shore,maryland eastern shore,2379,Maryland Eastern Shore,exact_known_name,0
+dk_splits,UMass,umass,113,Massachusetts,game_verified+reviewed,6
+espn,MASS,MASS,113,Massachusetts,espn_abbr,0
+espn,Massachusetts,massachusetts,113,Massachusetts,espn_location,0
+espn,Massachusetts Minutemen,massachusetts minutemen,113,Massachusetts,espn_display,0
+odds_api,Massachusetts Minutemen,massachusetts minutemen,113,Massachusetts,exact_espn,2
+teamrankings,UMass,umass,113,Massachusetts,game_verified+reviewed,2
+torvik,Massachusetts,massachusetts,113,Massachusetts,exact_known_name,0
+dk_splits,McNeese,mcneese,2377,McNeese,exact_espn,5
+espn,MCN,MCN,2377,McNeese,espn_abbr,0
+espn,McNeese,mcneese,2377,McNeese,espn_location,0
+espn,McNeese Cowboys,mcneese cowboys,2377,McNeese,espn_display,0
+odds_api,McNeese Cowboys,mcneese cowboys,2377,McNeese,exact_espn,2
+teamrankings,McNeese,mcneese,2377,McNeese,exact_espn,2
+torvik,McNeese,mcneese,2377,McNeese,exact_known_name,0
+torvik,McNeese St.,mcneese st,2377,McNeese,fuzzy+reviewed,0
+dk_splits,Memphis,memphis,235,Memphis,exact_espn,10
+espn,MEM,MEM,235,Memphis,espn_abbr,0
+espn,Memphis,memphis,235,Memphis,espn_location,0
+espn,Memphis Tigers,memphis tigers,235,Memphis,espn_display,0
+odds_api,Memphis Tigers,memphis tigers,235,Memphis,exact_espn,7
+teamrankings,Memphis,memphis,235,Memphis,exact_espn,5
+torvik,Memphis,memphis,235,Memphis,exact_known_name,0
+dk_splits,Mercer,mercer,2382,Mercer,exact_espn,16
+espn,MER,MER,2382,Mercer,espn_abbr,0
+espn,Mercer,mercer,2382,Mercer,espn_location,0
+espn,Mercer Bears,mercer bears,2382,Mercer,espn_display,0
+odds_api,Mercer Bears,mercer bears,2382,Mercer,exact_espn,5
+teamrankings,Mercer,mercer,2382,Mercer,exact_espn,7
+torvik,Mercer,mercer,2382,Mercer,exact_known_name,0
+dk_splits,Mercyhurst,mercyhurst,2385,Mercyhurst,exact_espn,10
+espn,MERC,MERC,2385,Mercyhurst,espn_abbr,0
+espn,Mercyhurst,mercyhurst,2385,Mercyhurst,espn_location,0
+espn,Mercyhurst Lakers,mercyhurst lakers,2385,Mercyhurst,espn_display,0
+odds_api,Mercyhurst Lakers,mercyhurst lakers,2385,Mercyhurst,exact_espn,6
+teamrankings,Mercyhurst,mercyhurst,2385,Mercyhurst,exact_espn,7
+torvik,Mercyhurst,mercyhurst,2385,Mercyhurst,exact_known_name,0
+dk_splits,Merrimack,merrimack,2771,Merrimack,exact_espn,4
+espn,MRMK,MRMK,2771,Merrimack,espn_abbr,0
+espn,Merrimack,merrimack,2771,Merrimack,espn_location,0
+espn,Merrimack Warriors,merrimack warriors,2771,Merrimack,espn_display,0
+teamrankings,Merrimack,merrimack,2771,Merrimack,exact_espn,1
+torvik,Merrimack,merrimack,2771,Merrimack,exact_known_name,0
+dk_splits,Miami FL,miami fl,2390,Miami,game_verified,21
+espn,MIA,MIA,2390,Miami,espn_abbr,0
+espn,Miami,miami,2390,Miami,espn_location,0
+espn,Miami Hurricanes,miami hurricanes,2390,Miami,espn_display,0
+odds_api,Miami Hurricanes,miami hurricanes,2390,Miami,exact_espn,11
+teamrankings,Miami,miami,2390,Miami,exact_espn,4
+torvik,Miami,miami,2390,Miami,exact_known_name,0
+torvik,Miami FL,miami fl,2390,Miami,exact_known_name,0
+dk_splits,Miami OH,miami oh,193,Miami (OH),exact_espn,6
+espn,M-OH,M-OH,193,Miami (OH),espn_abbr,0
+espn,Miami (OH),miami oh,193,Miami (OH),espn_location,0
+espn,Miami (OH) RedHawks,miami oh redhawks,193,Miami (OH),espn_display,0
+odds_api,Miami (OH) RedHawks,miami oh redhawks,193,Miami (OH),exact_espn,6
+teamrankings,Miami OH,miami oh,193,Miami (OH),exact_espn,2
+torvik,Miami (OH),miami oh,193,Miami (OH),exact_known_name,0
+torvik,Miami OH,miami oh,193,Miami (OH),exact_known_name,0
+dk_splits,Michigan,michigan,130,Michigan,exact_espn,29
+espn,MICH,MICH,130,Michigan,espn_abbr,0
+espn,Michigan,michigan,130,Michigan,espn_location,0
+espn,Michigan Wolverines,michigan wolverines,130,Michigan,espn_display,0
+odds_api,Michigan Wolverines,michigan wolverines,130,Michigan,exact_espn,14
+teamrankings,Michigan,michigan,130,Michigan,exact_espn,5
+torvik,Michigan,michigan,130,Michigan,exact_known_name,0
+dk_splits,Michigan State,michigan st,127,Michigan State,exact_espn,5
+espn,MSU,MSU,127,Michigan State,espn_abbr,0
+espn,Michigan State,michigan st,127,Michigan State,espn_location,0
+espn,Michigan State Spartans,michigan st spartans,127,Michigan State,espn_display,0
+odds_api,Michigan St Spartans,michigan st spartans,127,Michigan State,exact_espn,6
+teamrankings,Michigan St,michigan st,127,Michigan State,exact_espn,3
+torvik,Michigan St.,michigan st,127,Michigan State,exact_known_name,0
+torvik,Michigan State,michigan st,127,Michigan State,exact_known_name,0
+dk_splits,Middle Tennessee,middle tennessee,2393,Middle Tennessee,exact_espn,8
+espn,MTSU,MTSU,2393,Middle Tennessee,espn_abbr,0
+espn,Middle Tennessee,middle tennessee,2393,Middle Tennessee,espn_location,0
+espn,Middle Tennessee Blue Raiders,middle tennessee blue raiders,2393,Middle Tennessee,espn_display,0
+odds_api,Middle Tennessee Blue Raiders,middle tennessee blue raiders,2393,Middle Tennessee,exact_espn,5
+teamrankings,Middle Tenn,middle tenn,2393,Middle Tennessee,game_verified+reviewed,5
+torvik,Middle Tennessee,middle tennessee,2393,Middle Tennessee,exact_known_name,0
+dk_splits,Milwaukee,milwaukee,270,Milwaukee,exact_espn,6
+espn,MILW,MILW,270,Milwaukee,espn_abbr,0
+espn,Milwaukee,milwaukee,270,Milwaukee,espn_location,0
+espn,Milwaukee Panthers,milwaukee panthers,270,Milwaukee,espn_display,0
+odds_api,Milwaukee Panthers,milwaukee panthers,270,Milwaukee,exact_espn,6
+teamrankings,Milwaukee,milwaukee,270,Milwaukee,exact_espn,2
+torvik,Milwaukee,milwaukee,270,Milwaukee,exact_known_name,0
+dk_splits,Minnesota,minnesota,135,Minnesota,exact_espn,11
+espn,MINN,MINN,135,Minnesota,espn_abbr,0
+espn,Minnesota,minnesota,135,Minnesota,espn_location,0
+espn,Minnesota Golden Gophers,minnesota golden gophers,135,Minnesota,espn_display,0
+odds_api,Minnesota Golden Gophers,minnesota golden gophers,135,Minnesota,exact_espn,5
+teamrankings,Minnesota,minnesota,135,Minnesota,exact_espn,6
+torvik,Minnesota,minnesota,135,Minnesota,exact_known_name,0
+dk_splits,Mississippi State,mississippi st,344,Mississippi State,exact_espn,12
+espn,MSST,MSST,344,Mississippi State,espn_abbr,0
+espn,Mississippi State,mississippi st,344,Mississippi State,espn_location,0
+espn,Mississippi State Bulldogs,mississippi st bulldogs,344,Mississippi State,espn_display,0
+odds_api,Mississippi St Bulldogs,mississippi st bulldogs,344,Mississippi State,exact_espn,7
+teamrankings,Mississippi St,mississippi st,344,Mississippi State,exact_espn,4
+torvik,Mississippi St.,mississippi st,344,Mississippi State,exact_known_name,0
+torvik,Mississippi State,mississippi st,344,Mississippi State,exact_known_name,0
+dk_splits,Mississippi Valley,mississippi valley,2400,Mississippi Valley State,game_verified,9
+espn,MVSU,MVSU,2400,Mississippi Valley State,espn_abbr,0
+espn,Mississippi Valley State,mississippi valley st,2400,Mississippi Valley State,espn_location,0
+espn,Mississippi Valley State Delta Devils,mississippi valley st delta devils,2400,Mississippi Valley State,espn_display,0
+odds_api,Miss Valley St Delta Devils,miss valley st delta devils,2400,Mississippi Valley State,game_verified+reviewed,6
+teamrankings,Miss Valley St,miss valley st,2400,Mississippi Valley State,game_verified+reviewed,2
+torvik,Mississippi Valley St.,mississippi valley st,2400,Mississippi Valley State,exact_known_name,0
+torvik,Mississippi Valley State,mississippi valley st,2400,Mississippi Valley State,exact_known_name,0
+dk_splits,Missouri,missouri,142,Missouri,exact_espn,7
+espn,MIZ,MIZ,142,Missouri,espn_abbr,0
+espn,Missouri,missouri,142,Missouri,espn_location,0
+espn,Missouri Tigers,missouri tigers,142,Missouri,espn_display,0
+odds_api,Missouri Tigers,missouri tigers,142,Missouri,exact_espn,7
+teamrankings,Missouri,missouri,142,Missouri,exact_espn,4
+torvik,Missouri,missouri,142,Missouri,exact_known_name,0
+dk_splits,Missouri State,missouri st,2623,Missouri State,exact_espn,5
+espn,MOST,MOST,2623,Missouri State,espn_abbr,0
+espn,Missouri State,missouri st,2623,Missouri State,espn_location,0
+espn,Missouri State Bears,missouri st bears,2623,Missouri State,espn_display,0
+odds_api,Missouri St Bears,missouri st bears,2623,Missouri State,exact_espn,3
+teamrankings,Missouri St,missouri st,2623,Missouri State,exact_espn,2
+torvik,Missouri St.,missouri st,2623,Missouri State,exact_known_name,0
+torvik,Missouri State,missouri st,2623,Missouri State,exact_known_name,0
+dk_splits,Monmouth,monmouth,2405,Monmouth,exact_espn,12
+espn,MONM,MONM,2405,Monmouth,espn_abbr,0
+espn,Monmouth,monmouth,2405,Monmouth,espn_location,0
+espn,Monmouth Hawks,monmouth hawks,2405,Monmouth,espn_display,0
+odds_api,Monmouth Hawks,monmouth hawks,2405,Monmouth,exact_espn,6
+teamrankings,Monmouth,monmouth,2405,Monmouth,exact_espn,6
+torvik,Monmouth,monmouth,2405,Monmouth,exact_known_name,0
+espn,MONT,MONT,149,Montana,espn_abbr,0
+espn,Montana,montana,149,Montana,espn_location,0
+espn,Montana Grizzlies,montana grizzlies,149,Montana,espn_display,0
+teamrankings,Montana,montana,149,Montana,exact_espn,3
+torvik,Montana,montana,149,Montana,exact_known_name,0
+dk_splits,Montana State,montana st,147,Montana State,exact_espn,4
+espn,MTST,MTST,147,Montana State,espn_abbr,0
+espn,Montana State,montana st,147,Montana State,espn_location,0
+espn,Montana State Bobcats,montana st bobcats,147,Montana State,espn_display,0
+teamrankings,Montana St,montana st,147,Montana State,exact_espn,7
+torvik,Montana St.,montana st,147,Montana State,exact_known_name,0
+torvik,Montana State,montana st,147,Montana State,exact_known_name,0
+dk_splits,Morehead State,morehead st,2413,Morehead State,exact_espn,12
+espn,MORE,MORE,2413,Morehead State,espn_abbr,0
+espn,Morehead State,morehead st,2413,Morehead State,espn_location,0
+espn,Morehead State Eagles,morehead st eagles,2413,Morehead State,espn_display,0
+odds_api,Morehead St Eagles,morehead st eagles,2413,Morehead State,exact_espn,4
+teamrankings,Morehead St,morehead st,2413,Morehead State,exact_espn,3
+torvik,Morehead St.,morehead st,2413,Morehead State,exact_known_name,0
+torvik,Morehead State,morehead st,2413,Morehead State,exact_known_name,0
+dk_splits,Morgan State,morgan st,2415,Morgan State,exact_espn,8
+espn,MORG,MORG,2415,Morgan State,espn_abbr,0
+espn,Morgan State,morgan st,2415,Morgan State,espn_location,0
+espn,Morgan State Bears,morgan st bears,2415,Morgan State,espn_display,0
+odds_api,Morgan St Bears,morgan st bears,2415,Morgan State,exact_espn,4
+teamrankings,Morgan St,morgan st,2415,Morgan State,exact_espn,7
+torvik,Morgan St.,morgan st,2415,Morgan State,exact_known_name,0
+torvik,Morgan State,morgan st,2415,Morgan State,exact_known_name,0
+dk_splits,Mount Saint Marys,mount st marys,116,Mount St. Mary's,exact_espn,4
+espn,MSM,MSM,116,Mount St. Mary's,espn_abbr,0
+espn,Mount St. Mary's,mount st marys,116,Mount St. Mary's,espn_location,0
+espn,Mount St. Mary's Mountaineers,mount st marys mountaineers,116,Mount St. Mary's,espn_display,0
+odds_api,Mt. St. Mary's Mountaineers,mt st marys mountaineers,116,Mount St. Mary's,game_verified+reviewed,4
+teamrankings,Mt St Mary's,mt st marys,116,Mount St. Mary's,game_verified+reviewed,3
+torvik,Mount St. Mary's,mount st marys,116,Mount St. Mary's,exact_known_name,0
+dk_splits,Murray State,murray st,93,Murray State,exact_espn,9
+espn,MUR,MUR,93,Murray State,espn_abbr,0
+espn,Murray State,murray st,93,Murray State,espn_location,0
+espn,Murray State Racers,murray st racers,93,Murray State,espn_display,0
+odds_api,Murray St Racers,murray st racers,93,Murray State,exact_espn,2
+teamrankings,Murray St,murray st,93,Murray State,exact_espn,7
+torvik,Murray St.,murray st,93,Murray State,exact_known_name,0
+torvik,Murray State,murray st,93,Murray State,exact_known_name,0
+dk_splits,NC State,nc st,152,NC State,exact_espn,13
+espn,NC State,nc st,152,NC State,espn_location,0
+espn,NC State Wolfpack,nc st wolfpack,152,NC State,espn_display,0
+espn,NCSU,NCSU,152,NC State,espn_abbr,0
+odds_api,NC State Wolfpack,nc st wolfpack,152,NC State,exact_espn,5
+teamrankings,NC State,nc st,152,NC State,exact_espn,7
+torvik,N.C. State,nc st,152,NC State,exact_known_name,0
+torvik,NC State,nc st,152,NC State,exact_known_name,0
+dk_splits,NJIT,njit,2885,NJIT,exact_espn,10
+espn,NJIT,njit,2885,NJIT,espn_location,0
+espn,NJIT,NJIT,2885,NJIT,espn_abbr,0
+espn,NJIT Highlanders,njit highlanders,2885,NJIT,espn_display,0
+odds_api,NJIT Highlanders,njit highlanders,2885,NJIT,exact_espn,4
+teamrankings,NJIT,njit,2885,NJIT,exact_espn,5
+torvik,NJIT,njit,2885,NJIT,exact_known_name,0
+dk_splits,Navy,navy,2426,Navy,exact_espn,8
+espn,NAVY,NAVY,2426,Navy,espn_abbr,0
+espn,Navy,navy,2426,Navy,espn_location,0
+espn,Navy Midshipmen,navy midshipmen,2426,Navy,espn_display,0
+odds_api,Navy Midshipmen,navy midshipmen,2426,Navy,exact_espn,2
+teamrankings,Navy,navy,2426,Navy,exact_espn,3
+torvik,Navy,navy,2426,Navy,exact_known_name,0
+dk_splits,Nebraska,nebraska,158,Nebraska,exact_espn,10
+espn,NEB,NEB,158,Nebraska,espn_abbr,0
+espn,Nebraska,nebraska,158,Nebraska,espn_location,0
+espn,Nebraska Cornhuskers,nebraska cornhuskers,158,Nebraska,espn_display,0
+odds_api,Nebraska Cornhuskers,nebraska cornhuskers,158,Nebraska,exact_espn,5
+teamrankings,Nebraska,nebraska,158,Nebraska,exact_espn,5
+torvik,Nebraska,nebraska,158,Nebraska,exact_known_name,0
+dk_splits,Nevada,nevada,2440,Nevada,exact_espn,11
+espn,NEV,NEV,2440,Nevada,espn_abbr,0
+espn,Nevada,nevada,2440,Nevada,espn_location,0
+espn,Nevada Wolf Pack,nevada wolf pack,2440,Nevada,espn_display,0
+odds_api,Nevada Wolf Pack,nevada wolf pack,2440,Nevada,exact_espn,6
+teamrankings,Nevada,nevada,2440,Nevada,exact_espn,5
+torvik,Nevada,nevada,2440,Nevada,exact_known_name,0
+espn,New Hampshire,new hampshire,160,New Hampshire,espn_location,0
+espn,New Hampshire Wildcats,new hampshire wildcats,160,New Hampshire,espn_display,0
+espn,UNH,UNH,160,New Hampshire,espn_abbr,0
+odds_api,New Hampshire Wildcats,new hampshire wildcats,160,New Hampshire,exact_espn,4
+teamrankings,New Hampshire,new hampshire,160,New Hampshire,exact_espn,4
+torvik,New Hampshire,new hampshire,160,New Hampshire,exact_known_name,0
+dk_splits,New Haven,new haven,2441,New Haven,exact_espn,4
+espn,NHVN,NHVN,2441,New Haven,espn_abbr,0
+espn,New Haven,new haven,2441,New Haven,espn_location,0
+espn,New Haven Chargers,new haven chargers,2441,New Haven,espn_display,0
+odds_api,New Haven Chargers,new haven chargers,2441,New Haven,exact_espn,4
+teamrankings,New Haven,new haven,2441,New Haven,exact_espn,4
+torvik,New Haven,new haven,2441,New Haven,exact_known_name,0
+dk_splits,New Mexico,new mexico,167,New Mexico,exact_espn,9
+espn,New Mexico,new mexico,167,New Mexico,espn_location,0
+espn,New Mexico Lobos,new mexico lobos,167,New Mexico,espn_display,0
+espn,UNM,UNM,167,New Mexico,espn_abbr,0
+odds_api,New Mexico Lobos,new mexico lobos,167,New Mexico,exact_espn,6
+teamrankings,New Mexico,new mexico,167,New Mexico,exact_espn,5
+torvik,New Mexico,new mexico,167,New Mexico,exact_known_name,0
+dk_splits,New Mexico State,new mexico st,166,New Mexico State,exact_espn,14
+espn,NMSU,NMSU,166,New Mexico State,espn_abbr,0
+espn,New Mexico State,new mexico st,166,New Mexico State,espn_location,0
+espn,New Mexico State Aggies,new mexico st aggies,166,New Mexico State,espn_display,0
+odds_api,New Mexico St Aggies,new mexico st aggies,166,New Mexico State,exact_espn,6
+teamrankings,New Mexico St,new mexico st,166,New Mexico State,exact_espn,8
+torvik,New Mexico St.,new mexico st,166,New Mexico State,exact_known_name,0
+torvik,New Mexico State,new mexico st,166,New Mexico State,exact_known_name,0
+dk_splits,Niagara,niagara,315,Niagara,exact_espn,5
+espn,NIA,NIA,315,Niagara,espn_abbr,0
+espn,Niagara,niagara,315,Niagara,espn_location,0
+espn,Niagara Purple Eagles,niagara purple eagles,315,Niagara,espn_display,0
+odds_api,Niagara Purple Eagles,niagara purple eagles,315,Niagara,exact_espn,2
+teamrankings,Niagara,niagara,315,Niagara,exact_espn,5
+torvik,Niagara,niagara,315,Niagara,exact_known_name,0
+dk_splits,Nicholls State,nicholls st,2447,Nicholls,game_verified,8
+espn,NICH,NICH,2447,Nicholls,espn_abbr,0
+espn,Nicholls,nicholls,2447,Nicholls,espn_location,0
+espn,Nicholls Colonels,nicholls colonels,2447,Nicholls,espn_display,0
+odds_api,Nicholls St Colonels,nicholls st colonels,2447,Nicholls,game_verified,4
+teamrankings,Nicholls,nicholls,2447,Nicholls,exact_espn,5
+torvik,Nicholls,nicholls,2447,Nicholls,exact_known_name,0
+torvik,Nicholls St.,nicholls st,2447,Nicholls,exact_known_name,0
+dk_splits,Norfolk State,norfolk st,2450,Norfolk State,exact_espn,10
+espn,NORF,NORF,2450,Norfolk State,espn_abbr,0
+espn,Norfolk State,norfolk st,2450,Norfolk State,espn_location,0
+espn,Norfolk State Spartans,norfolk st spartans,2450,Norfolk State,espn_display,0
+odds_api,Norfolk St Spartans,norfolk st spartans,2450,Norfolk State,exact_espn,4
+teamrankings,Norfolk St,norfolk st,2450,Norfolk State,exact_espn,4
+torvik,Norfolk St.,norfolk st,2450,Norfolk State,exact_known_name,0
+torvik,Norfolk State,norfolk st,2450,Norfolk State,exact_known_name,0
+dk_splits,North Alabama,north alabama,2453,North Alabama,exact_espn,4
+espn,North Alabama,north alabama,2453,North Alabama,espn_location,0
+espn,North Alabama Lions,north alabama lions,2453,North Alabama,espn_display,0
+espn,UNA,UNA,2453,North Alabama,espn_abbr,0
+odds_api,North Alabama Lions,north alabama lions,2453,North Alabama,exact_espn,4
+teamrankings,N Alabama,n alabama,2453,North Alabama,game_verified+reviewed,1
+torvik,North Alabama,north alabama,2453,North Alabama,exact_known_name,0
+dk_splits,North Carolina,north carolina,153,North Carolina,exact_espn,12
+espn,North Carolina,north carolina,153,North Carolina,espn_location,0
+espn,North Carolina Tar Heels,north carolina tar heels,153,North Carolina,espn_display,0
+espn,UNC,UNC,153,North Carolina,espn_abbr,0
+odds_api,North Carolina Tar Heels,north carolina tar heels,153,North Carolina,exact_espn,7
+teamrankings,North Carolina,north carolina,153,North Carolina,exact_espn,3
+torvik,North Carolina,north carolina,153,North Carolina,exact_known_name,0
+dk_splits,North Carolina A&T,north carolina a and t,2448,North Carolina A&T,exact_espn,9
+espn,NCAT,NCAT,2448,North Carolina A&T,espn_abbr,0
+espn,North Carolina A&T,north carolina a and t,2448,North Carolina A&T,espn_location,0
+espn,North Carolina A&T Aggies,north carolina a and t aggies,2448,North Carolina A&T,espn_display,0
+odds_api,North Carolina A&T Aggies,north carolina a and t aggies,2448,North Carolina A&T,exact_espn,2
+teamrankings,NC A&T,nc a and t,2448,North Carolina A&T,game_verified+reviewed,2
+torvik,North Carolina A&T,north carolina a and t,2448,North Carolina A&T,exact_known_name,0
+dk_splits,NC Central,nc central,2428,North Carolina Central,game_verified+reviewed,4
+espn,NCCU,NCCU,2428,North Carolina Central,espn_abbr,0
+espn,North Carolina Central,north carolina central,2428,North Carolina Central,espn_location,0
+espn,North Carolina Central Eagles,north carolina central eagles,2428,North Carolina Central,espn_display,0
+teamrankings,NC Central,nc central,2428,North Carolina Central,game_verified+reviewed,1
+torvik,North Carolina Central,north carolina central,2428,North Carolina Central,exact_known_name,0
+dk_splits,North Dakota,north dakota,155,North Dakota,exact_espn,6
+espn,North Dakota,north dakota,155,North Dakota,espn_location,0
+espn,North Dakota Fighting Hawks,north dakota fighting hawks,155,North Dakota,espn_display,0
+espn,UND,UND,155,North Dakota,espn_abbr,0
+odds_api,North Dakota Fighting Hawks,north dakota fighting hawks,155,North Dakota,exact_espn,4
+teamrankings,North Dakota,north dakota,155,North Dakota,exact_espn,4
+torvik,North Dakota,north dakota,155,North Dakota,exact_known_name,0
+dk_splits,North Dakota State,north dakota st,2449,North Dakota State,exact_espn,4
+espn,NDSU,NDSU,2449,North Dakota State,espn_abbr,0
+espn,North Dakota State,north dakota st,2449,North Dakota State,espn_location,0
+espn,North Dakota State Bison,north dakota st bison,2449,North Dakota State,espn_display,0
+teamrankings,N Dakota St,n dakota st,2449,North Dakota State,game_verified+reviewed,2
+torvik,North Dakota St.,north dakota st,2449,North Dakota State,exact_known_name,0
+torvik,North Dakota State,north dakota st,2449,North Dakota State,exact_known_name,0
+dk_splits,North Florida,north florida,2454,North Florida,exact_espn,8
+espn,North Florida,north florida,2454,North Florida,espn_location,0
+espn,North Florida Ospreys,north florida ospreys,2454,North Florida,espn_display,0
+espn,UNF,UNF,2454,North Florida,espn_abbr,0
+odds_api,North Florida Ospreys,north florida ospreys,2454,North Florida,exact_espn,4
+teamrankings,N Florida,n florida,2454,North Florida,game_verified+reviewed,3
+torvik,North Florida,north florida,2454,North Florida,exact_known_name,0
+dk_splits,North Texas,north texas,249,North Texas,exact_espn,6
+espn,North Texas,north texas,249,North Texas,espn_location,0
+espn,North Texas Mean Green,north texas mean green,249,North Texas,espn_display,0
+espn,UNT,UNT,249,North Texas,espn_abbr,0
+odds_api,North Texas Mean Green,north texas mean green,249,North Texas,exact_espn,2
+teamrankings,N Texas,n texas,249,North Texas,game_verified+reviewed,2
+torvik,North Texas,north texas,249,North Texas,exact_known_name,0
+dk_splits,Northeastern,northeastern,111,Northeastern,exact_espn,14
+espn,NE,NE,111,Northeastern,espn_abbr,0
+espn,Northeastern,northeastern,111,Northeastern,espn_location,0
+espn,Northeastern Huskies,northeastern huskies,111,Northeastern,espn_display,0
+odds_api,Northeastern Huskies,northeastern huskies,111,Northeastern,exact_espn,6
+teamrankings,Northeastern,northeastern,111,Northeastern,exact_espn,5
+torvik,Northeastern,northeastern,111,Northeastern,exact_known_name,0
+dk_splits,Northern Arizona,northern arizona,2464,Northern Arizona,exact_espn,7
+espn,NAU,NAU,2464,Northern Arizona,espn_abbr,0
+espn,Northern Arizona,northern arizona,2464,Northern Arizona,espn_location,0
+espn,Northern Arizona Lumberjacks,northern arizona lumberjacks,2464,Northern Arizona,espn_display,0
+odds_api,Northern Arizona Lumberjacks,northern arizona lumberjacks,2464,Northern Arizona,exact_espn,4
+teamrankings,N Arizona,n arizona,2464,Northern Arizona,game_verified+reviewed,2
+torvik,Northern Arizona,northern arizona,2464,Northern Arizona,exact_known_name,0
+dk_splits,Northern Colorado,northern colorado,2458,Northern Colorado,exact_espn,9
+espn,Northern Colorado,northern colorado,2458,Northern Colorado,espn_location,0
+espn,Northern Colorado Bears,northern colorado bears,2458,Northern Colorado,espn_display,0
+espn,UNCO,UNCO,2458,Northern Colorado,espn_abbr,0
+odds_api,N Colorado Bears,n colorado bears,2458,Northern Colorado,game_verified+reviewed,4
+teamrankings,N Colorado,n colorado,2458,Northern Colorado,game_verified+reviewed,4
+torvik,Northern Colorado,northern colorado,2458,Northern Colorado,exact_known_name,0
+dk_splits,Northern Illinois,northern illinois,2459,Northern Illinois,exact_espn,11
+espn,NIU,NIU,2459,Northern Illinois,espn_abbr,0
+espn,Northern Illinois,northern illinois,2459,Northern Illinois,espn_location,0
+espn,Northern Illinois Huskies,northern illinois huskies,2459,Northern Illinois,espn_display,0
+odds_api,Northern Illinois Huskies,northern illinois huskies,2459,Northern Illinois,exact_espn,7
+teamrankings,N Illinois,n illinois,2459,Northern Illinois,game_verified+reviewed,4
+torvik,Northern Illinois,northern illinois,2459,Northern Illinois,exact_known_name,0
+dk_splits,Northern Iowa,northern iowa,2460,Northern Iowa,exact_espn,6
+espn,Northern Iowa,northern iowa,2460,Northern Iowa,espn_location,0
+espn,Northern Iowa Panthers,northern iowa panthers,2460,Northern Iowa,espn_display,0
+espn,UNI,UNI,2460,Northern Iowa,espn_abbr,0
+odds_api,Northern Iowa Panthers,northern iowa panthers,2460,Northern Iowa,exact_espn,6
+teamrankings,N Iowa,n iowa,2460,Northern Iowa,game_verified+reviewed,5
+torvik,Northern Iowa,northern iowa,2460,Northern Iowa,exact_known_name,0
+dk_splits,Northern Kentucky,northern kentucky,94,Northern Kentucky,exact_espn,9
+espn,NKU,NKU,94,Northern Kentucky,espn_abbr,0
+espn,Northern Kentucky,northern kentucky,94,Northern Kentucky,espn_location,0
+espn,Northern Kentucky Norse,northern kentucky norse,94,Northern Kentucky,espn_display,0
+odds_api,Northern Kentucky Norse,northern kentucky norse,94,Northern Kentucky,exact_espn,5
+teamrankings,N Kentucky,n kentucky,94,Northern Kentucky,game_verified+reviewed,4
+torvik,Northern Kentucky,northern kentucky,94,Northern Kentucky,exact_known_name,0
+dk_splits,Northwestern,northwestern,77,Northwestern,exact_espn,11
+espn,NU,NU,77,Northwestern,espn_abbr,0
+espn,Northwestern,northwestern,77,Northwestern,espn_location,0
+espn,Northwestern Wildcats,northwestern wildcats,77,Northwestern,espn_display,0
+odds_api,Northwestern Wildcats,northwestern wildcats,77,Northwestern,exact_espn,5
+teamrankings,Northwestern,northwestern,77,Northwestern,exact_espn,3
+torvik,Northwestern,northwestern,77,Northwestern,exact_known_name,0
+dk_splits,Northwestern State,northwestern st,2466,Northwestern State,exact_espn,6
+espn,NWST,NWST,2466,Northwestern State,espn_abbr,0
+espn,Northwestern State,northwestern st,2466,Northwestern State,espn_location,0
+espn,Northwestern State Demons,northwestern st demons,2466,Northwestern State,espn_display,0
+odds_api,Northwestern St Demons,northwestern st demons,2466,Northwestern State,exact_espn,4
+teamrankings,NW State,nw st,2466,Northwestern State,game_verified+reviewed,3
+torvik,Northwestern St.,northwestern st,2466,Northwestern State,exact_known_name,0
+torvik,Northwestern State,northwestern st,2466,Northwestern State,exact_known_name,0
+dk_splits,Notre Dame,notre dame,87,Notre Dame,exact_espn,9
+espn,ND,ND,87,Notre Dame,espn_abbr,0
+espn,Notre Dame,notre dame,87,Notre Dame,espn_location,0
+espn,Notre Dame Fighting Irish,notre dame fighting irish,87,Notre Dame,espn_display,0
+odds_api,Notre Dame Fighting Irish,notre dame fighting irish,87,Notre Dame,exact_espn,4
+teamrankings,Notre Dame,notre dame,87,Notre Dame,exact_espn,7
+torvik,Notre Dame,notre dame,87,Notre Dame,exact_known_name,0
+dk_splits,Oakland,oakland,2473,Oakland,exact_espn,11
+espn,OAK,OAK,2473,Oakland,espn_abbr,0
+espn,Oakland,oakland,2473,Oakland,espn_location,0
+espn,Oakland Golden Grizzlies,oakland golden grizzlies,2473,Oakland,espn_display,0
+odds_api,Oakland Golden Grizzlies,oakland golden grizzlies,2473,Oakland,exact_espn,2
+teamrankings,Oakland,oakland,2473,Oakland,exact_espn,3
+torvik,Oakland,oakland,2473,Oakland,exact_known_name,0
+dk_splits,Ohio,ohio,195,Ohio,exact_espn,10
+espn,OHIO,OHIO,195,Ohio,espn_abbr,0
+espn,Ohio,ohio,195,Ohio,espn_location,0
+espn,Ohio Bobcats,ohio bobcats,195,Ohio,espn_display,0
+odds_api,Ohio Bobcats,ohio bobcats,195,Ohio,exact_espn,6
+teamrankings,Ohio,ohio,195,Ohio,exact_espn,3
+torvik,Ohio,ohio,195,Ohio,exact_known_name,0
+dk_splits,Ohio State,ohio st,194,Ohio State,exact_espn,12
+espn,OSU,OSU,194,Ohio State,espn_abbr,0
+espn,Ohio State,ohio st,194,Ohio State,espn_location,0
+espn,Ohio State Buckeyes,ohio st buckeyes,194,Ohio State,espn_display,0
+odds_api,Ohio State Buckeyes,ohio st buckeyes,194,Ohio State,exact_espn,3
+teamrankings,Ohio St,ohio st,194,Ohio State,exact_espn,5
+torvik,Ohio St.,ohio st,194,Ohio State,exact_known_name,0
+torvik,Ohio State,ohio st,194,Ohio State,exact_known_name,0
+dk_splits,Oklahoma,oklahoma,201,Oklahoma,exact_espn,12
+espn,OU,OU,201,Oklahoma,espn_abbr,0
+espn,Oklahoma,oklahoma,201,Oklahoma,espn_location,0
+espn,Oklahoma Sooners,oklahoma sooners,201,Oklahoma,espn_display,0
+odds_api,Oklahoma Sooners,oklahoma sooners,201,Oklahoma,exact_espn,6
+teamrankings,Oklahoma,oklahoma,201,Oklahoma,exact_espn,3
+torvik,Oklahoma,oklahoma,201,Oklahoma,exact_known_name,0
+dk_splits,Oklahoma State,oklahoma st,197,Oklahoma State,exact_espn,10
+espn,OKST,OKST,197,Oklahoma State,espn_abbr,0
+espn,Oklahoma State,oklahoma st,197,Oklahoma State,espn_location,0
+espn,Oklahoma State Cowboys,oklahoma st cowboys,197,Oklahoma State,espn_display,0
+odds_api,Oklahoma St Cowboys,oklahoma st cowboys,197,Oklahoma State,exact_espn,5
+teamrankings,Oklahoma St,oklahoma st,197,Oklahoma State,exact_espn,8
+torvik,Oklahoma St.,oklahoma st,197,Oklahoma State,exact_known_name,0
+torvik,Oklahoma State,oklahoma st,197,Oklahoma State,exact_known_name,0
+dk_splits,Old Dominion,old dominion,295,Old Dominion,exact_espn,6
+espn,ODU,ODU,295,Old Dominion,espn_abbr,0
+espn,Old Dominion,old dominion,295,Old Dominion,espn_location,0
+espn,Old Dominion Monarchs,old dominion monarchs,295,Old Dominion,espn_display,0
+odds_api,Old Dominion Monarchs,old dominion monarchs,295,Old Dominion,exact_espn,3
+teamrankings,Old Dominion,old dominion,295,Old Dominion,exact_espn,3
+torvik,Old Dominion,old dominion,295,Old Dominion,exact_known_name,0
+dk_splits,Ole Miss,ole miss,145,Ole Miss,exact_espn,12
+espn,MISS,MISS,145,Ole Miss,espn_abbr,0
+espn,Ole Miss,ole miss,145,Ole Miss,espn_location,0
+espn,Ole Miss Rebels,ole miss rebels,145,Ole Miss,espn_display,0
+odds_api,Ole Miss Rebels,ole miss rebels,145,Ole Miss,exact_espn,6
+teamrankings,Mississippi,mississippi,145,Ole Miss,game_verified+reviewed,2
+torvik,Mississippi,mississippi,145,Ole Miss,exact_known_name,0
+torvik,Ole Miss,ole miss,145,Ole Miss,exact_known_name,0
+dk_splits,Omaha,omaha,2437,Omaha,exact_espn,6
+espn,OMA,OMA,2437,Omaha,espn_abbr,0
+espn,Omaha,omaha,2437,Omaha,espn_location,0
+espn,Omaha Mavericks,omaha mavericks,2437,Omaha,espn_display,0
+odds_api,Omaha Mavericks,omaha mavericks,2437,Omaha,exact_espn,8
+teamrankings,Omaha,omaha,2437,Omaha,exact_espn,2
+torvik,Nebraska Omaha,nebraska omaha,2437,Omaha,manual,0
+torvik,Omaha,omaha,2437,Omaha,exact_known_name,0
+dk_splits,Oral Roberts,oral roberts,198,Oral Roberts,exact_espn,11
+espn,ORU,ORU,198,Oral Roberts,espn_abbr,0
+espn,Oral Roberts,oral roberts,198,Oral Roberts,espn_location,0
+espn,Oral Roberts Golden Eagles,oral roberts golden eagles,198,Oral Roberts,espn_display,0
+odds_api,Oral Roberts Golden Eagles,oral roberts golden eagles,198,Oral Roberts,exact_espn,7
+teamrankings,Oral Roberts,oral roberts,198,Oral Roberts,exact_espn,3
+torvik,Oral Roberts,oral roberts,198,Oral Roberts,exact_known_name,0
+dk_splits,Oregon,oregon,2483,Oregon,exact_espn,28
+espn,ORE,ORE,2483,Oregon,espn_abbr,0
+espn,Oregon,oregon,2483,Oregon,espn_location,0
+espn,Oregon Ducks,oregon ducks,2483,Oregon,espn_display,0
+odds_api,Oregon Ducks,oregon ducks,2483,Oregon,exact_espn,11
+teamrankings,Oregon,oregon,2483,Oregon,exact_espn,7
+torvik,Oregon,oregon,2483,Oregon,exact_known_name,0
+dk_splits,Oregon State,oregon st,204,Oregon State,exact_espn,15
+espn,ORST,ORST,204,Oregon State,espn_abbr,0
+espn,Oregon State,oregon st,204,Oregon State,espn_location,0
+espn,Oregon State Beavers,oregon st beavers,204,Oregon State,espn_display,0
+odds_api,Oregon St Beavers,oregon st beavers,204,Oregon State,exact_espn,5
+teamrankings,Oregon St,oregon st,204,Oregon State,exact_espn,7
+torvik,Oregon St.,oregon st,204,Oregon State,exact_known_name,0
+torvik,Oregon State,oregon st,204,Oregon State,exact_known_name,0
+dk_splits,Pacific,pacific,279,Pacific,exact_espn,17
+espn,PAC,PAC,279,Pacific,espn_abbr,0
+espn,Pacific,pacific,279,Pacific,espn_location,0
+espn,Pacific Tigers,pacific tigers,279,Pacific,espn_display,0
+odds_api,Pacific Tigers,pacific tigers,279,Pacific,exact_espn,13
+teamrankings,Pacific,pacific,279,Pacific,exact_espn,4
+torvik,Pacific,pacific,279,Pacific,exact_known_name,0
+dk_splits,Penn State,penn st,213,Penn State,exact_espn,10
+espn,PSU,PSU,213,Penn State,espn_abbr,0
+espn,Penn State,penn st,213,Penn State,espn_location,0
+espn,Penn State Nittany Lions,penn st nittany lions,213,Penn State,espn_display,0
+odds_api,Penn State Nittany Lions,penn st nittany lions,213,Penn State,exact_espn,4
+teamrankings,Penn St,penn st,213,Penn State,exact_espn,7
+torvik,Penn St.,penn st,213,Penn State,exact_known_name,0
+torvik,Penn State,penn st,213,Penn State,exact_known_name,0
+dk_splits,Pennsylvania,pennsylvania,219,Pennsylvania,exact_espn,11
+espn,PENN,PENN,219,Pennsylvania,espn_abbr,0
+espn,Pennsylvania,pennsylvania,219,Pennsylvania,espn_location,0
+espn,Pennsylvania Quakers,pennsylvania quakers,219,Pennsylvania,espn_display,0
+odds_api,Pennsylvania Quakers,pennsylvania quakers,219,Pennsylvania,exact_espn,8
+teamrankings,Penn,penn,219,Pennsylvania,exact_espn,3
+torvik,Penn,penn,219,Pennsylvania,exact_known_name,0
+torvik,Pennsylvania,pennsylvania,219,Pennsylvania,exact_known_name,0
+dk_splits,Pepperdine,pepperdine,2492,Pepperdine,exact_espn,17
+espn,PEPP,PEPP,2492,Pepperdine,espn_abbr,0
+espn,Pepperdine,pepperdine,2492,Pepperdine,espn_location,0
+espn,Pepperdine Waves,pepperdine waves,2492,Pepperdine,espn_display,0
+odds_api,Pepperdine Waves,pepperdine waves,2492,Pepperdine,exact_espn,9
+teamrankings,Pepperdine,pepperdine,2492,Pepperdine,exact_espn,5
+torvik,Pepperdine,pepperdine,2492,Pepperdine,exact_known_name,0
+dk_splits,Pittsburgh,pittsburgh,221,Pittsburgh,exact_espn,12
+espn,PITT,PITT,221,Pittsburgh,espn_abbr,0
+espn,Pittsburgh,pittsburgh,221,Pittsburgh,espn_location,0
+espn,Pittsburgh Panthers,pittsburgh panthers,221,Pittsburgh,espn_display,0
+odds_api,Pittsburgh Panthers,pittsburgh panthers,221,Pittsburgh,exact_espn,8
+teamrankings,Pittsburgh,pittsburgh,221,Pittsburgh,exact_espn,4
+torvik,Pittsburgh,pittsburgh,221,Pittsburgh,exact_known_name,0
+dk_splits,Portland,portland,2501,Portland,exact_espn,12
+espn,PORT,PORT,2501,Portland,espn_abbr,0
+espn,Portland,portland,2501,Portland,espn_location,0
+espn,Portland Pilots,portland pilots,2501,Portland,espn_display,0
+odds_api,Portland Pilots,portland pilots,2501,Portland,exact_espn,7
+teamrankings,Portland,portland,2501,Portland,exact_espn,4
+torvik,Portland,portland,2501,Portland,exact_known_name,0
+dk_splits,Portland State,portland st,2502,Portland State,exact_espn,10
+espn,PRST,PRST,2502,Portland State,espn_abbr,0
+espn,Portland State,portland st,2502,Portland State,espn_location,0
+espn,Portland State Vikings,portland st vikings,2502,Portland State,espn_display,0
+odds_api,Portland St Vikings,portland st vikings,2502,Portland State,exact_espn,8
+teamrankings,Portland St,portland st,2502,Portland State,exact_espn,4
+torvik,Portland St.,portland st,2502,Portland State,exact_known_name,0
+torvik,Portland State,portland st,2502,Portland State,exact_known_name,0
+dk_splits,Prairie View,prairie view,2504,Prairie View A&M,game_verified+reviewed,3
+espn,PV,PV,2504,Prairie View A&M,espn_abbr,0
+espn,Prairie View A&M,prairie view a and m,2504,Prairie View A&M,espn_location,0
+espn,Prairie View A&M Panthers,prairie view a and m panthers,2504,Prairie View A&M,espn_display,0
+odds_api,Prairie View Panthers,prairie view panthers,2504,Prairie View A&M,game_verified+reviewed,2
+teamrankings,Prairie View,prairie view,2504,Prairie View A&M,game_verified+reviewed,3
+torvik,Prairie View A&M,prairie view a and m,2504,Prairie View A&M,exact_known_name,0
+dk_splits,Presbyterian,presbyterian,2506,Presbyterian,exact_espn,10
+espn,PRES,PRES,2506,Presbyterian,espn_abbr,0
+espn,Presbyterian,presbyterian,2506,Presbyterian,espn_location,0
+espn,Presbyterian Blue Hose,presbyterian blue hose,2506,Presbyterian,espn_display,0
+odds_api,Presbyterian Blue Hose,presbyterian blue hose,2506,Presbyterian,exact_espn,2
+teamrankings,Presbyterian,presbyterian,2506,Presbyterian,exact_espn,3
+torvik,Presbyterian,presbyterian,2506,Presbyterian,exact_known_name,0
+dk_splits,Princeton,princeton,163,Princeton,exact_espn,10
+espn,PRIN,PRIN,163,Princeton,espn_abbr,0
+espn,Princeton,princeton,163,Princeton,espn_location,0
+espn,Princeton Tigers,princeton tigers,163,Princeton,espn_display,0
+odds_api,Princeton Tigers,princeton tigers,163,Princeton,exact_espn,6
+teamrankings,Princeton,princeton,163,Princeton,exact_espn,3
+torvik,Princeton,princeton,163,Princeton,exact_known_name,0
+dk_splits,Providence,providence,2507,Providence,exact_espn,16
+espn,PROV,PROV,2507,Providence,espn_abbr,0
+espn,Providence,providence,2507,Providence,espn_location,0
+espn,Providence Friars,providence friars,2507,Providence,espn_display,0
+odds_api,Providence Friars,providence friars,2507,Providence,exact_espn,9
+teamrankings,Providence,providence,2507,Providence,exact_espn,9
+torvik,Providence,providence,2507,Providence,exact_known_name,0
+dk_splits,Purdue,purdue,2509,Purdue,exact_espn,16
+espn,PUR,PUR,2509,Purdue,espn_abbr,0
+espn,Purdue,purdue,2509,Purdue,espn_location,0
+espn,Purdue Boilermakers,purdue boilermakers,2509,Purdue,espn_display,0
+odds_api,Purdue Boilermakers,purdue boilermakers,2509,Purdue,exact_espn,9
+teamrankings,Purdue,purdue,2509,Purdue,exact_espn,4
+torvik,Purdue,purdue,2509,Purdue,exact_known_name,0
+dk_splits,Purdue Fort Wayne,purdue fort wayne,2870,Purdue Fort Wayne,exact_espn,10
+espn,PFW,PFW,2870,Purdue Fort Wayne,espn_abbr,0
+espn,Purdue Fort Wayne,purdue fort wayne,2870,Purdue Fort Wayne,espn_location,0
+espn,Purdue Fort Wayne Mastodons,purdue fort wayne mastodons,2870,Purdue Fort Wayne,espn_display,0
+odds_api,Fort Wayne Mastodons,fort wayne mastodons,2870,Purdue Fort Wayne,game_verified+reviewed,3
+teamrankings,Purdue FW,purdue fw,2870,Purdue Fort Wayne,game_verified+reviewed,6
+torvik,Purdue Fort Wayne,purdue fort wayne,2870,Purdue Fort Wayne,exact_known_name,0
+dk_splits,Queens NC,queens nc,2511,Queens University,game_verified+reviewed,7
+espn,QUC,QUC,2511,Queens University,espn_abbr,0
+espn,Queens University,queens university,2511,Queens University,espn_location,0
+espn,Queens University Royals,queens university royals,2511,Queens University,espn_display,0
+odds_api,Queens University Royals,queens university royals,2511,Queens University,exact_espn,3
+teamrankings,Queens,queens,2511,Queens University,game_verified+reviewed,4
+torvik,Queens,queens,2511,Queens University,exact_known_name,0
+torvik,Queens University,queens university,2511,Queens University,exact_known_name,0
+dk_splits,Quinnipiac,quinnipiac,2514,Quinnipiac,exact_espn,4
+espn,QUIN,QUIN,2514,Quinnipiac,espn_abbr,0
+espn,Quinnipiac,quinnipiac,2514,Quinnipiac,espn_location,0
+espn,Quinnipiac Bobcats,quinnipiac bobcats,2514,Quinnipiac,espn_display,0
+teamrankings,Quinnipiac,quinnipiac,2514,Quinnipiac,exact_espn,6
+torvik,Quinnipiac,quinnipiac,2514,Quinnipiac,exact_known_name,0
+dk_splits,Radford,radford,2515,Radford,exact_espn,9
+espn,RAD,RAD,2515,Radford,espn_abbr,0
+espn,Radford,radford,2515,Radford,espn_location,0
+espn,Radford Highlanders,radford highlanders,2515,Radford,espn_display,0
+odds_api,Radford Highlanders,radford highlanders,2515,Radford,exact_espn,2
+teamrankings,Radford,radford,2515,Radford,exact_espn,2
+torvik,Radford,radford,2515,Radford,exact_known_name,0
+dk_splits,Rhode Island,rhode island,227,Rhode Island,exact_espn,10
+espn,Rhode Island,rhode island,227,Rhode Island,espn_location,0
+espn,Rhode Island Rams,rhode island rams,227,Rhode Island,espn_display,0
+espn,URI,URI,227,Rhode Island,espn_abbr,0
+odds_api,Rhode Island Rams,rhode island rams,227,Rhode Island,exact_espn,6
+teamrankings,Rhode Island,rhode island,227,Rhode Island,exact_espn,7
+torvik,Rhode Island,rhode island,227,Rhode Island,exact_known_name,0
+dk_splits,Rice,rice,242,Rice,exact_espn,12
+espn,RICE,RICE,242,Rice,espn_abbr,0
+espn,Rice,rice,242,Rice,espn_location,0
+espn,Rice Owls,rice owls,242,Rice,espn_display,0
+odds_api,Rice Owls,rice owls,242,Rice,exact_espn,9
+teamrankings,Rice,rice,242,Rice,exact_espn,4
+torvik,Rice,rice,242,Rice,exact_known_name,0
+dk_splits,Richmond,richmond,257,Richmond,exact_espn,15
+espn,RICH,RICH,257,Richmond,espn_abbr,0
+espn,Richmond,richmond,257,Richmond,espn_location,0
+espn,Richmond Spiders,richmond spiders,257,Richmond,espn_display,0
+odds_api,Richmond Spiders,richmond spiders,257,Richmond,exact_espn,8
+teamrankings,Richmond,richmond,257,Richmond,exact_espn,7
+torvik,Richmond,richmond,257,Richmond,exact_known_name,0
+dk_splits,Rider,rider,2520,Rider,exact_espn,6
+espn,RID,RID,2520,Rider,espn_abbr,0
+espn,Rider,rider,2520,Rider,espn_location,0
+espn,Rider Broncs,rider broncs,2520,Rider,espn_display,0
+odds_api,Rider Broncs,rider broncs,2520,Rider,exact_espn,4
+teamrankings,Rider,rider,2520,Rider,exact_espn,4
+torvik,Rider,rider,2520,Rider,exact_known_name,0
+dk_splits,Robert Morris,robert morris,2523,Robert Morris,exact_espn,13
+espn,RMU,RMU,2523,Robert Morris,espn_abbr,0
+espn,Robert Morris,robert morris,2523,Robert Morris,espn_location,0
+espn,Robert Morris Colonials,robert morris colonials,2523,Robert Morris,espn_display,0
+odds_api,Robert Morris Colonials,robert morris colonials,2523,Robert Morris,exact_espn,5
+teamrankings,Robert Morris,robert morris,2523,Robert Morris,exact_espn,4
+torvik,Robert Morris,robert morris,2523,Robert Morris,exact_known_name,0
+dk_splits,Rutgers,rutgers,164,Rutgers,exact_espn,11
+espn,RUTG,RUTG,164,Rutgers,espn_abbr,0
+espn,Rutgers,rutgers,164,Rutgers,espn_location,0
+espn,Rutgers Scarlet Knights,rutgers scarlet knights,164,Rutgers,espn_display,0
+odds_api,Rutgers Scarlet Knights,rutgers scarlet knights,164,Rutgers,exact_espn,4
+teamrankings,Rutgers,rutgers,164,Rutgers,exact_espn,8
+torvik,Rutgers,rutgers,164,Rutgers,exact_known_name,0
+dk_splits,SE Louisiana,se louisiana,2545,SE Louisiana,exact_espn,9
+espn,SE Louisiana,se louisiana,2545,SE Louisiana,espn_location,0
+espn,SE Louisiana Lions,se louisiana lions,2545,SE Louisiana,espn_display,0
+espn,SELA,SELA,2545,SE Louisiana,espn_abbr,0
+odds_api,SE Louisiana Lions,se louisiana lions,2545,SE Louisiana,exact_espn,6
+teamrankings,SE Louisiana,se louisiana,2545,SE Louisiana,exact_espn,5
+torvik,SE Louisiana,se louisiana,2545,SE Louisiana,exact_known_name,0
+torvik,Southeastern Louisiana,southeastern louisiana,2545,SE Louisiana,manual,0
+dk_splits,SIU Edwardsville,siu edwardsville,2565,SIU Edwardsville,exact_espn,2
+espn,SIU Edwardsville,siu edwardsville,2565,SIU Edwardsville,espn_location,0
+espn,SIU Edwardsville Cougars,siu edwardsville cougars,2565,SIU Edwardsville,espn_display,0
+espn,SIUE,SIUE,2565,SIU Edwardsville,espn_abbr,0
+odds_api,SIU-Edwardsville Cougars,siu edwardsville cougars,2565,SIU Edwardsville,exact_espn,4
+teamrankings,SIU Edward,siu edward,2565,SIU Edwardsville,game_verified+reviewed,2
+torvik,SIU Edwardsville,siu edwardsville,2565,SIU Edwardsville,exact_known_name,0
+dk_splits,SMU,smu,2567,SMU,exact_espn,18
+espn,SMU,smu,2567,SMU,espn_location,0
+espn,SMU,SMU,2567,SMU,espn_abbr,0
+espn,SMU Mustangs,smu mustangs,2567,SMU,espn_display,0
+odds_api,SMU Mustangs,smu mustangs,2567,SMU,exact_espn,11
+teamrankings,SMU,smu,2567,SMU,exact_espn,5
+torvik,SMU,smu,2567,SMU,exact_known_name,0
+dk_splits,Sacramento State,sacramento st,16,Sacramento State,exact_espn,7
+espn,SAC,SAC,16,Sacramento State,espn_abbr,0
+espn,Sacramento State,sacramento st,16,Sacramento State,espn_location,0
+espn,Sacramento State Hornets,sacramento st hornets,16,Sacramento State,espn_display,0
+teamrankings,Sacramento St,sacramento st,16,Sacramento State,exact_espn,3
+torvik,Sacramento St.,sacramento st,16,Sacramento State,exact_known_name,0
+torvik,Sacramento State,sacramento st,16,Sacramento State,exact_known_name,0
+dk_splits,Sacred Heart,sacred heart,2529,Sacred Heart,exact_espn,4
+espn,SHU,SHU,2529,Sacred Heart,espn_abbr,0
+espn,Sacred Heart,sacred heart,2529,Sacred Heart,espn_location,0
+espn,Sacred Heart Pioneers,sacred heart pioneers,2529,Sacred Heart,espn_display,0
+odds_api,Sacred Heart Pioneers,sacred heart pioneers,2529,Sacred Heart,exact_espn,4
+teamrankings,Sacred Heart,sacred heart,2529,Sacred Heart,exact_espn,5
+torvik,Sacred Heart,sacred heart,2529,Sacred Heart,exact_known_name,0
+dk_splits,Saint Josephs,st josephs,2603,Saint Joseph's,exact_espn,5
+espn,JOES,JOES,2603,Saint Joseph's,espn_abbr,0
+espn,Saint Joseph's,st josephs,2603,Saint Joseph's,espn_location,0
+espn,Saint Joseph's Hawks,st josephs hawks,2603,Saint Joseph's,espn_display,0
+odds_api,Saint Joseph's Hawks,st josephs hawks,2603,Saint Joseph's,exact_espn,2
+teamrankings,Saint Joseph's,st josephs,2603,Saint Joseph's,exact_espn,3
+torvik,Saint Joseph's,st josephs,2603,Saint Joseph's,exact_known_name,0
+dk_splits,Saint Louis,st louis,139,Saint Louis,exact_espn,16
+espn,SLU,SLU,139,Saint Louis,espn_abbr,0
+espn,Saint Louis,st louis,139,Saint Louis,espn_location,0
+espn,Saint Louis Billikens,st louis billikens,139,Saint Louis,espn_display,0
+odds_api,Saint Louis Billikens,st louis billikens,139,Saint Louis,exact_espn,10
+teamrankings,Saint Louis,st louis,139,Saint Louis,exact_espn,5
+torvik,Saint Louis,st louis,139,Saint Louis,exact_known_name,0
+dk_splits,Saint Marys,st marys,2608,Saint Mary's,exact_espn,12
+espn,SMC,SMC,2608,Saint Mary's,espn_abbr,0
+espn,Saint Mary's,st marys,2608,Saint Mary's,espn_location,0
+espn,Saint Mary's Gaels,st marys gaels,2608,Saint Mary's,espn_display,0
+odds_api,Saint Mary's Gaels,st marys gaels,2608,Saint Mary's,exact_espn,6
+teamrankings,Saint Mary's,st marys,2608,Saint Mary's,exact_espn,2
+torvik,Saint Mary's,st marys,2608,Saint Mary's,exact_known_name,0
+dk_splits,Saint Peters,st peters,2612,Saint Peter's,exact_espn,6
+espn,SPU,SPU,2612,Saint Peter's,espn_abbr,0
+espn,Saint Peter's,st peters,2612,Saint Peter's,espn_location,0
+espn,Saint Peter's Peacocks,st peters peacocks,2612,Saint Peter's,espn_display,0
+odds_api,Saint Peter's Peacocks,st peters peacocks,2612,Saint Peter's,exact_espn,6
+teamrankings,Saint Peter's,st peters,2612,Saint Peter's,exact_espn,3
+torvik,Saint Peter's,st peters,2612,Saint Peter's,exact_known_name,0
+dk_splits,Sam Houston,sam houston,2534,Sam Houston,exact_espn,8
+espn,SHSU,SHSU,2534,Sam Houston,espn_abbr,0
+espn,Sam Houston,sam houston,2534,Sam Houston,espn_location,0
+espn,Sam Houston Bearkats,sam houston bearkats,2534,Sam Houston,espn_display,0
+odds_api,Sam Houston St Bearkats,sam houston st bearkats,2534,Sam Houston,game_verified,7
+teamrankings,Sam Houston,sam houston,2534,Sam Houston,exact_espn,3
+torvik,Sam Houston,sam houston,2534,Sam Houston,exact_known_name,0
+torvik,Sam Houston St.,sam houston st,2534,Sam Houston,fuzzy+reviewed,0
+dk_splits,Samford,samford,2535,Samford,exact_espn,14
+espn,SAM,SAM,2535,Samford,espn_abbr,0
+espn,Samford,samford,2535,Samford,espn_location,0
+espn,Samford Bulldogs,samford bulldogs,2535,Samford,espn_display,0
+odds_api,Samford Bulldogs,samford bulldogs,2535,Samford,exact_espn,6
+teamrankings,Samford,samford,2535,Samford,exact_espn,2
+torvik,Samford,samford,2535,Samford,exact_known_name,0
+dk_splits,San Diego,san diego,301,San Diego,exact_espn,16
+espn,San Diego,san diego,301,San Diego,espn_location,0
+espn,San Diego Toreros,san diego toreros,301,San Diego,espn_display,0
+espn,USD,USD,301,San Diego,espn_abbr,0
+odds_api,San Diego Toreros,san diego toreros,301,San Diego,exact_espn,7
+teamrankings,San Diego,san diego,301,San Diego,exact_espn,4
+torvik,San Diego,san diego,301,San Diego,exact_known_name,0
+dk_splits,San Diego State,san diego st,21,San Diego State,exact_espn,18
+espn,SDSU,SDSU,21,San Diego State,espn_abbr,0
+espn,San Diego State,san diego st,21,San Diego State,espn_location,0
+espn,San Diego State Aztecs,san diego st aztecs,21,San Diego State,espn_display,0
+odds_api,San Diego St Aztecs,san diego st aztecs,21,San Diego State,exact_espn,10
+teamrankings,San Diego St,san diego st,21,San Diego State,exact_espn,4
+torvik,San Diego St.,san diego st,21,San Diego State,exact_known_name,0
+torvik,San Diego State,san diego st,21,San Diego State,exact_known_name,0
+dk_splits,San Francisco,san francisco,2539,San Francisco,exact_espn,13
+espn,SF,SF,2539,San Francisco,espn_abbr,0
+espn,San Francisco,san francisco,2539,San Francisco,espn_location,0
+espn,San Francisco Dons,san francisco dons,2539,San Francisco,espn_display,0
+odds_api,San Francisco Dons,san francisco dons,2539,San Francisco,exact_espn,5
+teamrankings,San Francisco,san francisco,2539,San Francisco,exact_espn,5
+torvik,San Francisco,san francisco,2539,San Francisco,exact_known_name,0
+dk_splits,San Jose State,san jose st,23,San José State,exact_espn,18
+espn,SJSU,SJSU,23,San José State,espn_abbr,0
+espn,San José State,san jose st,23,San José State,espn_location,0
+espn,San José State Spartans,san jose st spartans,23,San José State,espn_display,0
+odds_api,San José St Spartans,san jose st spartans,23,San José State,exact_espn,8
+teamrankings,San Jose St,san jose st,23,San José State,exact_espn,7
+torvik,San Jose St.,san jose st,23,San José State,exact_known_name,0
+torvik,San José State,san jose st,23,San José State,exact_known_name,0
+dk_splits,Santa Clara,santa clara,2541,Santa Clara,exact_espn,17
+espn,SCU,SCU,2541,Santa Clara,espn_abbr,0
+espn,Santa Clara,santa clara,2541,Santa Clara,espn_location,0
+espn,Santa Clara Broncos,santa clara broncos,2541,Santa Clara,espn_display,0
+odds_api,Santa Clara Broncos,santa clara broncos,2541,Santa Clara,exact_espn,6
+teamrankings,Santa Clara,santa clara,2541,Santa Clara,exact_espn,8
+torvik,Santa Clara,santa clara,2541,Santa Clara,exact_known_name,0
+dk_splits,Seattle,seattle,2547,Seattle U,game_verified+reviewed,11
+espn,SEA,SEA,2547,Seattle U,espn_abbr,0
+espn,Seattle U,seattle u,2547,Seattle U,espn_location,0
+espn,Seattle U Redhawks,seattle u redhawks,2547,Seattle U,espn_display,0
+odds_api,Seattle Redhawks,seattle redhawks,2547,Seattle U,game_verified,8
+teamrankings,Seattle,seattle,2547,Seattle U,game_verified+reviewed,4
+torvik,Seattle,seattle,2547,Seattle U,exact_known_name,0
+torvik,Seattle U,seattle u,2547,Seattle U,exact_known_name,0
+dk_splits,Seton Hall,seton hall,2550,Seton Hall,exact_espn,11
+espn,HALL,HALL,2550,Seton Hall,espn_abbr,0
+espn,Seton Hall,seton hall,2550,Seton Hall,espn_location,0
+espn,Seton Hall Pirates,seton hall pirates,2550,Seton Hall,espn_display,0
+odds_api,Seton Hall Pirates,seton hall pirates,2550,Seton Hall,exact_espn,5
+teamrankings,Seton Hall,seton hall,2550,Seton Hall,exact_espn,6
+torvik,Seton Hall,seton hall,2550,Seton Hall,exact_known_name,0
+dk_splits,Siena,siena,2561,Siena,exact_espn,12
+espn,SIE,SIE,2561,Siena,espn_abbr,0
+espn,Siena,siena,2561,Siena,espn_location,0
+espn,Siena Saints,siena saints,2561,Siena,espn_display,0
+odds_api,Siena Saints,siena saints,2561,Siena,exact_espn,4
+teamrankings,Siena,siena,2561,Siena,exact_espn,5
+torvik,Siena,siena,2561,Siena,exact_known_name,0
+dk_splits,South Alabama,south alabama,6,South Alabama,exact_espn,14
+espn,South Alabama,south alabama,6,South Alabama,espn_location,0
+espn,South Alabama Jaguars,south alabama jaguars,6,South Alabama,espn_display,0
+espn,USA,USA,6,South Alabama,espn_abbr,0
+odds_api,South Alabama Jaguars,south alabama jaguars,6,South Alabama,exact_espn,9
+teamrankings,S Alabama,s alabama,6,South Alabama,game_verified+reviewed,8
+torvik,South Alabama,south alabama,6,South Alabama,exact_known_name,0
+dk_splits,South Carolina,south carolina,2579,South Carolina,exact_espn,12
+espn,SC,SC,2579,South Carolina,espn_abbr,0
+espn,South Carolina,south carolina,2579,South Carolina,espn_location,0
+espn,South Carolina Gamecocks,south carolina gamecocks,2579,South Carolina,espn_display,0
+odds_api,South Carolina Gamecocks,south carolina gamecocks,2579,South Carolina,exact_espn,7
+teamrankings,South Carolina,south carolina,2579,South Carolina,exact_espn,4
+torvik,South Carolina,south carolina,2579,South Carolina,exact_known_name,0
+dk_splits,South Carolina State,south carolina st,2569,South Carolina State,exact_espn,9
+espn,SCST,SCST,2569,South Carolina State,espn_abbr,0
+espn,South Carolina State,south carolina st,2569,South Carolina State,espn_location,0
+espn,South Carolina State Bulldogs,south carolina st bulldogs,2569,South Carolina State,espn_display,0
+odds_api,South Carolina St Bulldogs,south carolina st bulldogs,2569,South Carolina State,exact_espn,4
+teamrankings,S Carolina St,s carolina st,2569,South Carolina State,game_verified+reviewed,3
+torvik,South Carolina St.,south carolina st,2569,South Carolina State,exact_known_name,0
+torvik,South Carolina State,south carolina st,2569,South Carolina State,exact_known_name,0
+dk_splits,USC Upstate,usc upstate,2908,South Carolina Upstate,game_verified+reviewed,8
+espn,South Carolina Upstate,south carolina upstate,2908,South Carolina Upstate,espn_location,0
+espn,South Carolina Upstate Spartans,south carolina upstate spartans,2908,South Carolina Upstate,espn_display,0
+espn,UPST,UPST,2908,South Carolina Upstate,espn_abbr,0
+odds_api,South Carolina Upstate Spartans,south carolina upstate spartans,2908,South Carolina Upstate,exact_espn,4
+teamrankings,SC Upstate,sc upstate,2908,South Carolina Upstate,game_verified+reviewed,3
+torvik,South Carolina Upstate,south carolina upstate,2908,South Carolina Upstate,exact_known_name,0
+torvik,USC Upstate,usc upstate,2908,South Carolina Upstate,exact_known_name,0
+dk_splits,South Dakota,south dakota,233,South Dakota,exact_espn,11
+espn,SDAK,SDAK,233,South Dakota,espn_abbr,0
+espn,South Dakota,south dakota,233,South Dakota,espn_location,0
+espn,South Dakota Coyotes,south dakota coyotes,233,South Dakota,espn_display,0
+odds_api,South Dakota Coyotes,south dakota coyotes,233,South Dakota,exact_espn,4
+teamrankings,South Dakota,south dakota,233,South Dakota,exact_espn,4
+torvik,South Dakota,south dakota,233,South Dakota,exact_known_name,0
+dk_splits,South Dakota State,south dakota st,2571,South Dakota State,exact_espn,9
+espn,SDST,SDST,2571,South Dakota State,espn_abbr,0
+espn,South Dakota State,south dakota st,2571,South Dakota State,espn_location,0
+espn,South Dakota State Jackrabbits,south dakota st jackrabbits,2571,South Dakota State,espn_display,0
+odds_api,South Dakota St Jackrabbits,south dakota st jackrabbits,2571,South Dakota State,exact_espn,5
+teamrankings,S Dakota St,s dakota st,2571,South Dakota State,game_verified+reviewed,3
+torvik,South Dakota St.,south dakota st,2571,South Dakota State,exact_known_name,0
+torvik,South Dakota State,south dakota st,2571,South Dakota State,exact_known_name,0
+dk_splits,South Florida,south florida,58,South Florida,exact_espn,5
+espn,South Florida,south florida,58,South Florida,espn_location,0
+espn,South Florida Bulls,south florida bulls,58,South Florida,espn_display,0
+espn,USF,USF,58,South Florida,espn_abbr,0
+odds_api,South Florida Bulls,south florida bulls,58,South Florida,exact_espn,6
+teamrankings,S Florida,s florida,58,South Florida,game_verified+reviewed,4
+torvik,South Florida,south florida,58,South Florida,exact_known_name,0
+dk_splits,SE Missouri State,se missouri st,2546,Southeast Missouri State,game_verified+reviewed,12
+espn,SEMO,SEMO,2546,Southeast Missouri State,espn_abbr,0
+espn,Southeast Missouri State,southeast missouri st,2546,Southeast Missouri State,espn_location,0
+espn,Southeast Missouri State Redhawks,southeast missouri st redhawks,2546,Southeast Missouri State,espn_display,0
+odds_api,SE Missouri St Redhawks,se missouri st redhawks,2546,Southeast Missouri State,game_verified+reviewed,3
+teamrankings,SE Missouri St,se missouri st,2546,Southeast Missouri State,game_verified+reviewed,3
+torvik,Southeast Missouri St.,southeast missouri st,2546,Southeast Missouri State,exact_known_name,0
+torvik,Southeast Missouri State,southeast missouri st,2546,Southeast Missouri State,exact_known_name,0
+dk_splits,Southern University,southern university,2582,Southern,game_verified,2
+espn,SOU,SOU,2582,Southern,espn_abbr,0
+espn,Southern,southern,2582,Southern,espn_location,0
+espn,Southern Jaguars,southern jaguars,2582,Southern,espn_display,0
+odds_api,Southern Jaguars,southern jaguars,2582,Southern,exact_espn,2
+teamrankings,Southern,southern,2582,Southern,exact_espn,5
+torvik,Southern,southern,2582,Southern,exact_known_name,0
+dk_splits,Southern Illinois,southern illinois,79,Southern Illinois,exact_espn,13
+espn,SIU,SIU,79,Southern Illinois,espn_abbr,0
+espn,Southern Illinois,southern illinois,79,Southern Illinois,espn_location,0
+espn,Southern Illinois Salukis,southern illinois salukis,79,Southern Illinois,espn_display,0
+odds_api,Southern Illinois Salukis,southern illinois salukis,79,Southern Illinois,exact_espn,6
+teamrankings,S Illinois,s illinois,79,Southern Illinois,game_verified+reviewed,7
+torvik,Southern Illinois,southern illinois,79,Southern Illinois,exact_known_name,0
+dk_splits,Southern Indiana,southern indiana,88,Southern Indiana,exact_espn,9
+espn,Southern Indiana,southern indiana,88,Southern Indiana,espn_location,0
+espn,Southern Indiana Screaming Eagles,southern indiana screaming eagles,88,Southern Indiana,espn_display,0
+espn,USI,USI,88,Southern Indiana,espn_abbr,0
+odds_api,Southern Indiana Screaming Eagles,southern indiana screaming eagles,88,Southern Indiana,exact_espn,7
+teamrankings,S Indiana,s indiana,88,Southern Indiana,game_verified+reviewed,3
+torvik,Southern Indiana,southern indiana,88,Southern Indiana,exact_known_name,0
+dk_splits,Southern Miss,southern miss,2572,Southern Miss,exact_espn,16
+espn,Southern Miss,southern miss,2572,Southern Miss,espn_location,0
+espn,Southern Miss Golden Eagles,southern miss golden eagles,2572,Southern Miss,espn_display,0
+espn,USM,USM,2572,Southern Miss,espn_abbr,0
+odds_api,Southern Miss Golden Eagles,southern miss golden eagles,2572,Southern Miss,exact_espn,6
+teamrankings,Southern Miss,southern miss,2572,Southern Miss,exact_espn,5
+torvik,Southern Miss,southern miss,2572,Southern Miss,exact_known_name,0
+dk_splits,Southern Utah,southern utah,253,Southern Utah,exact_espn,16
+espn,SUU,SUU,253,Southern Utah,espn_abbr,0
+espn,Southern Utah,southern utah,253,Southern Utah,espn_location,0
+espn,Southern Utah Thunderbirds,southern utah thunderbirds,253,Southern Utah,espn_display,0
+odds_api,Southern Utah Thunderbirds,southern utah thunderbirds,253,Southern Utah,exact_espn,9
+teamrankings,S Utah,s utah,253,Southern Utah,game_verified+reviewed,9
+torvik,Southern Utah,southern utah,253,Southern Utah,exact_known_name,0
+dk_splits,Saint Bonaventure,st bonaventure,179,St. Bonaventure,exact_espn,15
+espn,SBU,SBU,179,St. Bonaventure,espn_abbr,0
+espn,St. Bonaventure,st bonaventure,179,St. Bonaventure,espn_location,0
+espn,St. Bonaventure Bonnies,st bonaventure bonnies,179,St. Bonaventure,espn_display,0
+odds_api,St. Bonaventure Bonnies,st bonaventure bonnies,179,St. Bonaventure,exact_espn,7
+teamrankings,St Bonaventure,st bonaventure,179,St. Bonaventure,exact_espn,6
+torvik,St. Bonaventure,st bonaventure,179,St. Bonaventure,exact_known_name,0
+dk_splits,St. Johns,st johns,2599,St. John's,exact_espn,24
+espn,SJU,SJU,2599,St. John's,espn_abbr,0
+espn,St. John's,st johns,2599,St. John's,espn_location,0
+espn,St. John's Red Storm,st johns red storm,2599,St. John's,espn_display,0
+odds_api,St. John's Red Storm,st johns red storm,2599,St. John's,exact_espn,11
+teamrankings,St John's,st johns,2599,St. John's,exact_espn,4
+torvik,St. John's,st johns,2599,St. John's,exact_known_name,0
+dk_splits,Saint Thomas MN,st thomas mn,2900,St. Thomas,game_verified,15
+espn,STMN,STMN,2900,St. Thomas,espn_abbr,0
+espn,St. Thomas,st thomas,2900,St. Thomas,espn_location,0
+espn,St. Thomas Tommies,st thomas tommies,2900,St. Thomas,espn_display,0
+odds_api,St. Thomas (MN) Tommies,st thomas mn tommies,2900,St. Thomas,game_verified,7
+teamrankings,St Thomas,st thomas,2900,St. Thomas,exact_espn,6
+torvik,St. Thomas,st thomas,2900,St. Thomas,exact_known_name,0
+torvik,St. Thomas-Minnesota,st thomas minnesota,2900,St. Thomas,fuzzy+reviewed,0
+dk_splits,Stanford,stanford,24,Stanford,exact_espn,20
+espn,STAN,STAN,24,Stanford,espn_abbr,0
+espn,Stanford,stanford,24,Stanford,espn_location,0
+espn,Stanford Cardinal,stanford cardinal,24,Stanford,espn_display,0
+odds_api,Stanford Cardinal,stanford cardinal,24,Stanford,exact_espn,7
+teamrankings,Stanford,stanford,24,Stanford,exact_espn,5
+torvik,Stanford,stanford,24,Stanford,exact_known_name,0
+dk_splits,Stephen F. Austin,stephen f austin,2617,Stephen F. Austin,exact_espn,14
+espn,SFA,SFA,2617,Stephen F. Austin,espn_abbr,0
+espn,Stephen F. Austin,stephen f austin,2617,Stephen F. Austin,espn_location,0
+espn,Stephen F. Austin Lumberjacks,stephen f austin lumberjacks,2617,Stephen F. Austin,espn_display,0
+odds_api,Stephen F. Austin Lumberjacks,stephen f austin lumberjacks,2617,Stephen F. Austin,exact_espn,9
+teamrankings,SF Austin,sf austin,2617,Stephen F. Austin,game_verified+reviewed,4
+torvik,Stephen F. Austin,stephen f austin,2617,Stephen F. Austin,exact_known_name,0
+dk_splits,Stetson,stetson,56,Stetson,exact_espn,6
+espn,STET,STET,56,Stetson,espn_abbr,0
+espn,Stetson,stetson,56,Stetson,espn_location,0
+espn,Stetson Hatters,stetson hatters,56,Stetson,espn_display,0
+odds_api,Stetson Hatters,stetson hatters,56,Stetson,exact_espn,2
+teamrankings,Stetson,stetson,56,Stetson,exact_espn,6
+torvik,Stetson,stetson,56,Stetson,exact_known_name,0
+dk_splits,Stonehill,stonehill,284,Stonehill,exact_espn,4
+espn,STO,STO,284,Stonehill,espn_abbr,0
+espn,Stonehill,stonehill,284,Stonehill,espn_location,0
+espn,Stonehill Skyhawks,stonehill skyhawks,284,Stonehill,espn_display,0
+odds_api,Stonehill Skyhawks,stonehill skyhawks,284,Stonehill,exact_espn,2
+teamrankings,Stonehill,stonehill,284,Stonehill,exact_espn,3
+torvik,Stonehill,stonehill,284,Stonehill,exact_known_name,0
+dk_splits,Stony Brook,stony brook,2619,Stony Brook,exact_espn,7
+espn,STBK,STBK,2619,Stony Brook,espn_abbr,0
+espn,Stony Brook,stony brook,2619,Stony Brook,espn_location,0
+espn,Stony Brook Seawolves,stony brook seawolves,2619,Stony Brook,espn_display,0
+odds_api,Stony Brook Seawolves,stony brook seawolves,2619,Stony Brook,exact_espn,6
+teamrankings,Stony Brook,stony brook,2619,Stony Brook,exact_espn,2
+torvik,Stony Brook,stony brook,2619,Stony Brook,exact_known_name,0
+dk_splits,Syracuse,syracuse,183,Syracuse,exact_espn,13
+espn,SYR,SYR,183,Syracuse,espn_abbr,0
+espn,Syracuse,syracuse,183,Syracuse,espn_location,0
+espn,Syracuse Orange,syracuse orange,183,Syracuse,espn_display,0
+odds_api,Syracuse Orange,syracuse orange,183,Syracuse,exact_espn,4
+teamrankings,Syracuse,syracuse,183,Syracuse,exact_espn,4
+torvik,Syracuse,syracuse,183,Syracuse,exact_known_name,0
+dk_splits,TCU,tcu,2628,TCU,exact_espn,25
+espn,TCU,tcu,2628,TCU,espn_location,0
+espn,TCU,TCU,2628,TCU,espn_abbr,0
+espn,TCU Horned Frogs,tcu horned frogs,2628,TCU,espn_display,0
+odds_api,TCU Horned Frogs,tcu horned frogs,2628,TCU,exact_espn,9
+teamrankings,TCU,tcu,2628,TCU,exact_espn,7
+torvik,TCU,tcu,2628,TCU,exact_known_name,0
+dk_splits,Tarleton State,tarleton st,2627,Tarleton State,exact_espn,12
+espn,TAR,TAR,2627,Tarleton State,espn_abbr,0
+espn,Tarleton State,tarleton st,2627,Tarleton State,espn_location,0
+espn,Tarleton State Texans,tarleton st texans,2627,Tarleton State,espn_display,0
+odds_api,Tarleton State Texans,tarleton st texans,2627,Tarleton State,exact_espn,3
+teamrankings,Tarleton St,tarleton st,2627,Tarleton State,exact_espn,4
+torvik,Tarleton St.,tarleton st,2627,Tarleton State,exact_known_name,0
+torvik,Tarleton State,tarleton st,2627,Tarleton State,exact_known_name,0
+dk_splits,Temple,temple,218,Temple,exact_espn,9
+espn,TEM,TEM,218,Temple,espn_abbr,0
+espn,Temple,temple,218,Temple,espn_location,0
+espn,Temple Owls,temple owls,218,Temple,espn_display,0
+odds_api,Temple Owls,temple owls,218,Temple,exact_espn,7
+teamrankings,Temple,temple,218,Temple,exact_espn,4
+torvik,Temple,temple,218,Temple,exact_known_name,0
+dk_splits,Tennessee,tennessee,2633,Tennessee,exact_espn,25
+espn,TENN,TENN,2633,Tennessee,espn_abbr,0
+espn,Tennessee,tennessee,2633,Tennessee,espn_location,0
+espn,Tennessee Volunteers,tennessee volunteers,2633,Tennessee,espn_display,0
+odds_api,Tennessee Volunteers,tennessee volunteers,2633,Tennessee,exact_espn,11
+teamrankings,Tennessee,tennessee,2633,Tennessee,exact_espn,4
+torvik,Tennessee,tennessee,2633,Tennessee,exact_known_name,0
+espn,TNST,TNST,2634,Tennessee State,espn_abbr,0
+espn,Tennessee State,tennessee st,2634,Tennessee State,espn_location,0
+espn,Tennessee State Tigers,tennessee st tigers,2634,Tennessee State,espn_display,0
+teamrankings,Tennessee St,tennessee st,2634,Tennessee State,exact_espn,1
+torvik,Tennessee St.,tennessee st,2634,Tennessee State,exact_known_name,0
+torvik,Tennessee State,tennessee st,2634,Tennessee State,exact_known_name,0
+dk_splits,Tennessee Tech,tennessee tech,2635,Tennessee Tech,exact_espn,14
+espn,TNTC,TNTC,2635,Tennessee Tech,espn_abbr,0
+espn,Tennessee Tech,tennessee tech,2635,Tennessee Tech,espn_location,0
+espn,Tennessee Tech Golden Eagles,tennessee tech golden eagles,2635,Tennessee Tech,espn_display,0
+odds_api,Tennessee Tech Golden Eagles,tennessee tech golden eagles,2635,Tennessee Tech,exact_espn,5
+teamrankings,Tenn Tech,tenn tech,2635,Tennessee Tech,game_verified+reviewed,6
+torvik,Tennessee Tech,tennessee tech,2635,Tennessee Tech,exact_known_name,0
+dk_splits,Texas,texas,251,Texas,exact_espn,13
+espn,TEX,TEX,251,Texas,espn_abbr,0
+espn,Texas,texas,251,Texas,espn_location,0
+espn,Texas Longhorns,texas longhorns,251,Texas,espn_display,0
+odds_api,Texas Longhorns,texas longhorns,251,Texas,exact_espn,6
+teamrankings,Texas,texas,251,Texas,exact_espn,4
+torvik,Texas,texas,251,Texas,exact_known_name,0
+dk_splits,Texas A&M,texas a and m,245,Texas A&M,exact_espn,12
+espn,TA&M,TA&M,245,Texas A&M,espn_abbr,0
+espn,Texas A&M,texas a and m,245,Texas A&M,espn_location,0
+espn,Texas A&M Aggies,texas a and m aggies,245,Texas A&M,espn_display,0
+odds_api,Texas A&M Aggies,texas a and m aggies,245,Texas A&M,exact_espn,4
+teamrankings,Texas A&M,texas a and m,245,Texas A&M,exact_espn,10
+torvik,Texas A&M,texas a and m,245,Texas A&M,exact_known_name,0
+dk_splits,A&M-Corpus Christi,a and m corpus christi,357,Texas A&M-Corpus Christi,game_verified+reviewed,10
+espn,AMCC,AMCC,357,Texas A&M-Corpus Christi,espn_abbr,0
+espn,Texas A&M-Corpus Christi,texas a and m corpus christi,357,Texas A&M-Corpus Christi,espn_location,0
+espn,Texas A&M-Corpus Christi Islanders,texas a and m corpus christi islanders,357,Texas A&M-Corpus Christi,espn_display,0
+odds_api,Texas A&M-CC Islanders,texas a and m cc islanders,357,Texas A&M-Corpus Christi,game_verified+reviewed,5
+teamrankings,Texas A&M-CC,texas a and m cc,357,Texas A&M-Corpus Christi,game_verified+reviewed,3
+torvik,Texas A&M Corpus Chris,texas a and m corpus chris,357,Texas A&M-Corpus Christi,manual,0
+torvik,Texas A&M-Corpus Christi,texas a and m corpus christi,357,Texas A&M-Corpus Christi,exact_known_name,0
+dk_splits,Texas Southern,texas southern,2640,Texas Southern,exact_espn,7
+espn,TXSO,TXSO,2640,Texas Southern,espn_abbr,0
+espn,Texas Southern,texas southern,2640,Texas Southern,espn_location,0
+espn,Texas Southern Tigers,texas southern tigers,2640,Texas Southern,espn_display,0
+odds_api,Texas Southern Tigers,texas southern tigers,2640,Texas Southern,exact_espn,3
+teamrankings,Texas So,texas so,2640,Texas Southern,game_verified+reviewed,3
+torvik,Texas Southern,texas southern,2640,Texas Southern,exact_known_name,0
+dk_splits,Texas State,texas st,326,Texas State,exact_espn,11
+espn,TXST,TXST,326,Texas State,espn_abbr,0
+espn,Texas State,texas st,326,Texas State,espn_location,0
+espn,Texas State Bobcats,texas st bobcats,326,Texas State,espn_display,0
+odds_api,Texas State Bobcats,texas st bobcats,326,Texas State,exact_espn,4
+teamrankings,Texas St,texas st,326,Texas State,exact_espn,6
+torvik,Texas St.,texas st,326,Texas State,exact_known_name,0
+torvik,Texas State,texas st,326,Texas State,exact_known_name,0
+dk_splits,Texas Tech,texas tech,2641,Texas Tech,exact_espn,23
+espn,TTU,TTU,2641,Texas Tech,espn_abbr,0
+espn,Texas Tech,texas tech,2641,Texas Tech,espn_location,0
+espn,Texas Tech Red Raiders,texas tech red raiders,2641,Texas Tech,espn_display,0
+odds_api,Texas Tech Red Raiders,texas tech red raiders,2641,Texas Tech,exact_espn,11
+teamrankings,Texas Tech,texas tech,2641,Texas Tech,exact_espn,5
+torvik,Texas Tech,texas tech,2641,Texas Tech,exact_known_name,0
+dk_splits,The Citadel,the citadel,2643,The Citadel,exact_espn,4
+espn,CIT,CIT,2643,The Citadel,espn_abbr,0
+espn,The Citadel,the citadel,2643,The Citadel,espn_location,0
+espn,The Citadel Bulldogs,the citadel bulldogs,2643,The Citadel,espn_display,0
+odds_api,The Citadel Bulldogs,the citadel bulldogs,2643,The Citadel,exact_espn,4
+teamrankings,The Citadel,the citadel,2643,The Citadel,exact_espn,4
+torvik,The Citadel,the citadel,2643,The Citadel,exact_known_name,0
+dk_splits,Toledo,toledo,2649,Toledo,exact_espn,6
+espn,TOL,TOL,2649,Toledo,espn_abbr,0
+espn,Toledo,toledo,2649,Toledo,espn_location,0
+espn,Toledo Rockets,toledo rockets,2649,Toledo,espn_display,0
+teamrankings,Toledo,toledo,2649,Toledo,exact_espn,4
+torvik,Toledo,toledo,2649,Toledo,exact_known_name,0
+dk_splits,Towson,towson,119,Towson,exact_espn,8
+espn,TOW,TOW,119,Towson,espn_abbr,0
+espn,Towson,towson,119,Towson,espn_location,0
+espn,Towson Tigers,towson tigers,119,Towson,espn_display,0
+odds_api,Towson Tigers,towson tigers,119,Towson,exact_espn,2
+teamrankings,Towson,towson,119,Towson,exact_espn,6
+torvik,Towson,towson,119,Towson,exact_known_name,0
+dk_splits,Troy,troy,2653,Troy,exact_espn,13
+espn,TROY,TROY,2653,Troy,espn_abbr,0
+espn,Troy,troy,2653,Troy,espn_location,0
+espn,Troy Trojans,troy trojans,2653,Troy,espn_display,0
+odds_api,Troy Trojans,troy trojans,2653,Troy,exact_espn,7
+teamrankings,Troy,troy,2653,Troy,exact_espn,4
+torvik,Troy,troy,2653,Troy,exact_known_name,0
+dk_splits,Tulane,tulane,2655,Tulane,exact_espn,14
+espn,TULN,TULN,2655,Tulane,espn_abbr,0
+espn,Tulane,tulane,2655,Tulane,espn_location,0
+espn,Tulane Green Wave,tulane green wave,2655,Tulane,espn_display,0
+odds_api,Tulane Green Wave,tulane green wave,2655,Tulane,exact_espn,6
+teamrankings,Tulane,tulane,2655,Tulane,exact_espn,6
+torvik,Tulane,tulane,2655,Tulane,exact_known_name,0
+dk_splits,Tulsa,tulsa,202,Tulsa,exact_espn,14
+espn,TLSA,TLSA,202,Tulsa,espn_abbr,0
+espn,Tulsa,tulsa,202,Tulsa,espn_location,0
+espn,Tulsa Golden Hurricane,tulsa golden hurricane,202,Tulsa,espn_display,0
+odds_api,Tulsa Golden Hurricane,tulsa golden hurricane,202,Tulsa,exact_espn,7
+teamrankings,Tulsa,tulsa,202,Tulsa,exact_espn,4
+torvik,Tulsa,tulsa,202,Tulsa,exact_known_name,0
+dk_splits,UAB,uab,5,UAB,exact_espn,7
+espn,UAB,uab,5,UAB,espn_location,0
+espn,UAB,UAB,5,UAB,espn_abbr,0
+espn,UAB Blazers,uab blazers,5,UAB,espn_display,0
+odds_api,UAB Blazers,uab blazers,5,UAB,exact_espn,6
+teamrankings,UAB,uab,5,UAB,exact_espn,4
+torvik,UAB,uab,5,UAB,exact_known_name,0
+dk_splits,Albany NY,albany ny,399,UAlbany,game_verified+reviewed,15
+espn,UALB,UALB,399,UAlbany,espn_abbr,0
+espn,UAlbany,ualbany,399,UAlbany,espn_location,0
+espn,UAlbany Great Danes,ualbany great danes,399,UAlbany,espn_display,0
+odds_api,Albany Great Danes,albany great danes,399,UAlbany,game_verified+reviewed,8
+teamrankings,Albany,albany,399,UAlbany,game_verified,5
+torvik,Albany,albany,399,UAlbany,exact_known_name,0
+torvik,UAlbany,ualbany,399,UAlbany,exact_known_name,0
+dk_splits,UC Davis,uc davis,302,UC Davis,exact_espn,6
+espn,UC Davis,uc davis,302,UC Davis,espn_location,0
+espn,UC Davis Aggies,uc davis aggies,302,UC Davis,espn_display,0
+espn,UCD,UCD,302,UC Davis,espn_abbr,0
+odds_api,UC Davis Aggies,uc davis aggies,302,UC Davis,exact_espn,8
+teamrankings,UC Davis,uc davis,302,UC Davis,exact_espn,3
+torvik,UC Davis,uc davis,302,UC Davis,exact_known_name,0
+dk_splits,UC Irvine,uc irvine,300,UC Irvine,exact_espn,11
+espn,UC Irvine,uc irvine,300,UC Irvine,espn_location,0
+espn,UC Irvine Anteaters,uc irvine anteaters,300,UC Irvine,espn_display,0
+espn,UCI,UCI,300,UC Irvine,espn_abbr,0
+odds_api,UC Irvine Anteaters,uc irvine anteaters,300,UC Irvine,exact_espn,8
+teamrankings,UC Irvine,uc irvine,300,UC Irvine,exact_espn,3
+torvik,UC Irvine,uc irvine,300,UC Irvine,exact_known_name,0
+dk_splits,UC Riverside,uc riverside,27,UC Riverside,exact_espn,9
+espn,UC Riverside,uc riverside,27,UC Riverside,espn_location,0
+espn,UC Riverside Highlanders,uc riverside highlanders,27,UC Riverside,espn_display,0
+espn,UCR,UCR,27,UC Riverside,espn_abbr,0
+odds_api,UC Riverside Highlanders,uc riverside highlanders,27,UC Riverside,exact_espn,4
+teamrankings,UC Riverside,uc riverside,27,UC Riverside,exact_espn,6
+torvik,UC Riverside,uc riverside,27,UC Riverside,exact_known_name,0
+dk_splits,UC San Diego,uc san diego,28,UC San Diego,exact_espn,12
+espn,UC San Diego,uc san diego,28,UC San Diego,espn_location,0
+espn,UC San Diego Tritons,uc san diego tritons,28,UC San Diego,espn_display,0
+espn,UCSD,UCSD,28,UC San Diego,espn_abbr,0
+odds_api,UC San Diego Tritons,uc san diego tritons,28,UC San Diego,exact_espn,8
+teamrankings,UCSD,ucsd,28,UC San Diego,exact_espn,3
+torvik,UC San Diego,uc san diego,28,UC San Diego,exact_known_name,0
+dk_splits,UC Santa Barbara,uc santa barbara,2540,UC Santa Barbara,exact_espn,7
+espn,UC Santa Barbara,uc santa barbara,2540,UC Santa Barbara,espn_location,0
+espn,UC Santa Barbara Gauchos,uc santa barbara gauchos,2540,UC Santa Barbara,espn_display,0
+espn,UCSB,UCSB,2540,UC Santa Barbara,espn_abbr,0
+odds_api,UC Santa Barbara Gauchos,uc santa barbara gauchos,2540,UC Santa Barbara,exact_espn,4
+teamrankings,UCSB,ucsb,2540,UC Santa Barbara,exact_espn,3
+torvik,UC Santa Barbara,uc santa barbara,2540,UC Santa Barbara,exact_known_name,0
+dk_splits,UCF,ucf,2116,UCF,exact_espn,9
+espn,UCF,ucf,2116,UCF,espn_location,0
+espn,UCF,UCF,2116,UCF,espn_abbr,0
+espn,UCF Knights,ucf knights,2116,UCF,espn_display,0
+odds_api,UCF Knights,ucf knights,2116,UCF,exact_espn,6
+teamrankings,UCF,ucf,2116,UCF,exact_espn,3
+torvik,UCF,ucf,2116,UCF,exact_known_name,0
+dk_splits,UCLA,ucla,26,UCLA,exact_espn,16
+espn,UCLA,ucla,26,UCLA,espn_location,0
+espn,UCLA,UCLA,26,UCLA,espn_abbr,0
+espn,UCLA Bruins,ucla bruins,26,UCLA,espn_display,0
+odds_api,UCLA Bruins,ucla bruins,26,UCLA,exact_espn,7
+teamrankings,UCLA,ucla,26,UCLA,exact_espn,3
+torvik,UCLA,ucla,26,UCLA,exact_known_name,0
+dk_splits,UConn,uconn,41,UConn,exact_espn,11
+espn,CONN,CONN,41,UConn,espn_abbr,0
+espn,UConn,uconn,41,UConn,espn_location,0
+espn,UConn Huskies,uconn huskies,41,UConn,espn_display,0
+odds_api,UConn Huskies,uconn huskies,41,UConn,exact_espn,4
+teamrankings,UConn,uconn,41,UConn,exact_espn,3
+torvik,Connecticut,connecticut,41,UConn,manual,0
+torvik,UConn,uconn,41,UConn,exact_known_name,0
+dk_splits,Illinois Chicago,illinois chicago,82,UIC,game_verified+reviewed,12
+espn,UIC,uic,82,UIC,espn_location,0
+espn,UIC,UIC,82,UIC,espn_abbr,0
+espn,UIC Flames,uic flames,82,UIC,espn_display,0
+odds_api,UIC Flames,uic flames,82,UIC,exact_espn,6
+teamrankings,Illinois Chicago,illinois chicago,82,UIC,via_dk_spelling,0
+torvik,Illinois Chicago,illinois chicago,82,UIC,exact_known_name,0
+torvik,UIC,uic,82,UIC,exact_known_name,0
+dk_splits,ULM,ulm,2433,UL Monroe,exact_espn,4
+espn,UL Monroe,ul monroe,2433,UL Monroe,espn_location,0
+espn,UL Monroe Warhawks,ul monroe warhawks,2433,UL Monroe,espn_display,0
+espn,ULM,ULM,2433,UL Monroe,espn_abbr,0
+odds_api,UL Monroe Warhawks,ul monroe warhawks,2433,UL Monroe,exact_espn,2
+teamrankings,UL Monroe,ul monroe,2433,UL Monroe,exact_espn,4
+torvik,Louisiana Monroe,louisiana monroe,2433,UL Monroe,manual,0
+torvik,UL Monroe,ul monroe,2433,UL Monroe,exact_known_name,0
+dk_splits,UMBC,umbc,2378,UMBC,exact_espn,6
+espn,UMBC,umbc,2378,UMBC,espn_location,0
+espn,UMBC,UMBC,2378,UMBC,espn_abbr,0
+espn,UMBC Retrievers,umbc retrievers,2378,UMBC,espn_display,0
+odds_api,UMBC Retrievers,umbc retrievers,2378,UMBC,exact_espn,2
+teamrankings,UMBC,umbc,2378,UMBC,exact_espn,8
+torvik,UMBC,umbc,2378,UMBC,exact_known_name,0
+dk_splits,UMass Lowell,umass lowell,2349,UMass Lowell,exact_espn,3
+espn,UML,UML,2349,UMass Lowell,espn_abbr,0
+espn,UMass Lowell,umass lowell,2349,UMass Lowell,espn_location,0
+espn,UMass Lowell River Hawks,umass lowell river hawks,2349,UMass Lowell,espn_display,0
+odds_api,UMass Lowell River Hawks,umass lowell river hawks,2349,UMass Lowell,exact_espn,2
+teamrankings,UMass Lowell,umass lowell,2349,UMass Lowell,exact_espn,2
+torvik,UMass Lowell,umass lowell,2349,UMass Lowell,exact_known_name,0
+dk_splits,UNC Asheville,unc asheville,2427,UNC Asheville,exact_espn,10
+espn,UNC Asheville,unc asheville,2427,UNC Asheville,espn_location,0
+espn,UNC Asheville Bulldogs,unc asheville bulldogs,2427,UNC Asheville,espn_display,0
+espn,UNCA,UNCA,2427,UNC Asheville,espn_abbr,0
+odds_api,UNC Asheville Bulldogs,unc asheville bulldogs,2427,UNC Asheville,exact_espn,7
+teamrankings,NC Asheville,nc asheville,2427,UNC Asheville,game_verified,4
+torvik,UNC Asheville,unc asheville,2427,UNC Asheville,exact_known_name,0
+dk_splits,UNC Greensboro,unc greensboro,2430,UNC Greensboro,exact_espn,13
+espn,UNC Greensboro,unc greensboro,2430,UNC Greensboro,espn_location,0
+espn,UNC Greensboro Spartans,unc greensboro spartans,2430,UNC Greensboro,espn_display,0
+espn,UNCG,UNCG,2430,UNC Greensboro,espn_abbr,0
+odds_api,UNC Greensboro Spartans,unc greensboro spartans,2430,UNC Greensboro,exact_espn,10
+teamrankings,NC Greensboro,nc greensboro,2430,UNC Greensboro,game_verified,5
+torvik,UNC Greensboro,unc greensboro,2430,UNC Greensboro,exact_known_name,0
+dk_splits,UNC Wilmington,unc wilmington,350,UNC Wilmington,exact_espn,14
+espn,UNC Wilmington,unc wilmington,350,UNC Wilmington,espn_location,0
+espn,UNC Wilmington Seahawks,unc wilmington seahawks,350,UNC Wilmington,espn_display,0
+espn,UNCW,UNCW,350,UNC Wilmington,espn_abbr,0
+odds_api,UNC Wilmington Seahawks,unc wilmington seahawks,350,UNC Wilmington,exact_espn,6
+teamrankings,NC Wilmington,nc wilmington,350,UNC Wilmington,game_verified,4
+torvik,UNC Wilmington,unc wilmington,350,UNC Wilmington,exact_known_name,0
+dk_splits,UNLV,unlv,2439,UNLV,exact_espn,15
+espn,UNLV,unlv,2439,UNLV,espn_location,0
+espn,UNLV,UNLV,2439,UNLV,espn_abbr,0
+espn,UNLV Rebels,unlv rebels,2439,UNLV,espn_display,0
+odds_api,UNLV Rebels,unlv rebels,2439,UNLV,exact_espn,4
+teamrankings,UNLV,unlv,2439,UNLV,exact_espn,7
+torvik,UNLV,unlv,2439,UNLV,exact_known_name,0
+dk_splits,USC,usc,30,USC,exact_espn,22
+espn,USC,usc,30,USC,espn_location,0
+espn,USC,USC,30,USC,espn_abbr,0
+espn,USC Trojans,usc trojans,30,USC,espn_display,0
+odds_api,USC Trojans,usc trojans,30,USC,exact_espn,12
+teamrankings,USC,usc,30,USC,exact_espn,6
+torvik,USC,usc,30,USC,exact_known_name,0
+dk_splits,UT Arlington,ut arlington,250,UT Arlington,exact_espn,9
+espn,UT Arlington,ut arlington,250,UT Arlington,espn_location,0
+espn,UT Arlington Mavericks,ut arlington mavericks,250,UT Arlington,espn_display,0
+espn,UTA,UTA,250,UT Arlington,espn_abbr,0
+odds_api,UT-Arlington Mavericks,ut arlington mavericks,250,UT Arlington,exact_espn,6
+teamrankings,UT Arlington,ut arlington,250,UT Arlington,exact_espn,4
+torvik,UT Arlington,ut arlington,250,UT Arlington,exact_known_name,0
+dk_splits,UT Martin,ut martin,2630,UT Martin,exact_espn,15
+espn,UT Martin,ut martin,2630,UT Martin,espn_location,0
+espn,UT Martin Skyhawks,ut martin skyhawks,2630,UT Martin,espn_display,0
+espn,UTM,UTM,2630,UT Martin,espn_abbr,0
+odds_api,Tenn-Martin Skyhawks,tenn martin skyhawks,2630,UT Martin,game_verified+reviewed,9
+teamrankings,UT Martin,ut martin,2630,UT Martin,exact_espn,4
+torvik,Tennessee Martin,tennessee martin,2630,UT Martin,manual,0
+torvik,UT Martin,ut martin,2630,UT Martin,exact_known_name,0
+dk_splits,UT Rio Grande Valley,ut rio grande valley,292,UT Rio Grande Valley,exact_espn,3
+espn,RGV,RGV,292,UT Rio Grande Valley,espn_abbr,0
+espn,UT Rio Grande Valley,ut rio grande valley,292,UT Rio Grande Valley,espn_location,0
+espn,UT Rio Grande Valley Vaqueros,ut rio grande valley vaqueros,292,UT Rio Grande Valley,espn_display,0
+odds_api,UT Rio Grande Valley Vaqueros,ut rio grande valley vaqueros,292,UT Rio Grande Valley,exact_espn,1
+teamrankings,UT Rio Grande,ut rio grande,292,UT Rio Grande Valley,game_verified+reviewed,3
+torvik,UT Rio Grande Valley,ut rio grande valley,292,UT Rio Grande Valley,exact_known_name,0
+dk_splits,UTEP,utep,2638,UTEP,exact_espn,18
+espn,UTEP,utep,2638,UTEP,espn_location,0
+espn,UTEP,UTEP,2638,UTEP,espn_abbr,0
+espn,UTEP Miners,utep miners,2638,UTEP,espn_display,0
+odds_api,UTEP Miners,utep miners,2638,UTEP,exact_espn,8
+teamrankings,UTEP,utep,2638,UTEP,exact_espn,8
+torvik,UTEP,utep,2638,UTEP,exact_known_name,0
+dk_splits,UTSA,utsa,2636,UTSA,exact_espn,11
+espn,UTSA,utsa,2636,UTSA,espn_location,0
+espn,UTSA,UTSA,2636,UTSA,espn_abbr,0
+espn,UTSA Roadrunners,utsa roadrunners,2636,UTSA,espn_display,0
+odds_api,UTSA Roadrunners,utsa roadrunners,2636,UTSA,exact_espn,6
+teamrankings,UTSA,utsa,2636,UTSA,exact_espn,3
+torvik,UTSA,utsa,2636,UTSA,exact_known_name,0
+dk_splits,Utah,utah,254,Utah,exact_espn,13
+espn,UTAH,UTAH,254,Utah,espn_abbr,0
+espn,Utah,utah,254,Utah,espn_location,0
+espn,Utah Utes,utah utes,254,Utah,espn_display,0
+odds_api,Utah Utes,utah utes,254,Utah,exact_espn,6
+teamrankings,Utah,utah,254,Utah,exact_espn,4
+torvik,Utah,utah,254,Utah,exact_known_name,0
+dk_splits,Utah State,utah st,328,Utah State,exact_espn,12
+espn,USU,USU,328,Utah State,espn_abbr,0
+espn,Utah State,utah st,328,Utah State,espn_location,0
+espn,Utah State Aggies,utah st aggies,328,Utah State,espn_display,0
+odds_api,Utah State Aggies,utah st aggies,328,Utah State,exact_espn,8
+teamrankings,Utah St,utah st,328,Utah State,exact_espn,4
+torvik,Utah St.,utah st,328,Utah State,exact_known_name,0
+torvik,Utah State,utah st,328,Utah State,exact_known_name,0
+dk_splits,Utah Tech,utah tech,3101,Utah Tech,exact_espn,11
+espn,UTU,UTU,3101,Utah Tech,espn_abbr,0
+espn,Utah Tech,utah tech,3101,Utah Tech,espn_location,0
+espn,Utah Tech Trailblazers,utah tech trailblazers,3101,Utah Tech,espn_display,0
+odds_api,Utah Tech Trailblazers,utah tech trailblazers,3101,Utah Tech,exact_espn,3
+teamrankings,Utah Tech,utah tech,3101,Utah Tech,exact_espn,5
+torvik,Utah Tech,utah tech,3101,Utah Tech,exact_known_name,0
+dk_splits,Utah Valley,utah valley,3084,Utah Valley,exact_espn,19
+espn,UVU,UVU,3084,Utah Valley,espn_abbr,0
+espn,Utah Valley,utah valley,3084,Utah Valley,espn_location,0
+espn,Utah Valley Wolverines,utah valley wolverines,3084,Utah Valley,espn_display,0
+odds_api,Utah Valley Wolverines,utah valley wolverines,3084,Utah Valley,exact_espn,11
+teamrankings,Utah Valley,utah valley,3084,Utah Valley,exact_espn,4
+torvik,Utah Valley,utah valley,3084,Utah Valley,exact_known_name,0
+dk_splits,VCU,vcu,2670,VCU,exact_espn,26
+espn,VCU,vcu,2670,VCU,espn_location,0
+espn,VCU,VCU,2670,VCU,espn_abbr,0
+espn,VCU Rams,vcu rams,2670,VCU,espn_display,0
+odds_api,VCU Rams,vcu rams,2670,VCU,exact_espn,10
+teamrankings,VCU,vcu,2670,VCU,exact_espn,9
+torvik,VCU,vcu,2670,VCU,exact_known_name,0
+dk_splits,VMI,vmi,2678,VMI,exact_espn,16
+espn,VMI,vmi,2678,VMI,espn_location,0
+espn,VMI,VMI,2678,VMI,espn_abbr,0
+espn,VMI Keydets,vmi keydets,2678,VMI,espn_display,0
+odds_api,VMI Keydets,vmi keydets,2678,VMI,exact_espn,6
+teamrankings,VMI,vmi,2678,VMI,exact_espn,3
+torvik,VMI,vmi,2678,VMI,exact_known_name,0
+dk_splits,Valparaiso,valparaiso,2674,Valparaiso,exact_espn,15
+espn,VAL,VAL,2674,Valparaiso,espn_abbr,0
+espn,Valparaiso,valparaiso,2674,Valparaiso,espn_location,0
+espn,Valparaiso Beacons,valparaiso beacons,2674,Valparaiso,espn_display,0
+odds_api,Valparaiso Beacons,valparaiso beacons,2674,Valparaiso,exact_espn,9
+teamrankings,Valparaiso,valparaiso,2674,Valparaiso,exact_espn,2
+torvik,Valparaiso,valparaiso,2674,Valparaiso,exact_known_name,0
+dk_splits,Vanderbilt,vanderbilt,238,Vanderbilt,exact_espn,13
+espn,VAN,VAN,238,Vanderbilt,espn_abbr,0
+espn,Vanderbilt,vanderbilt,238,Vanderbilt,espn_location,0
+espn,Vanderbilt Commodores,vanderbilt commodores,238,Vanderbilt,espn_display,0
+odds_api,Vanderbilt Commodores,vanderbilt commodores,238,Vanderbilt,exact_espn,6
+teamrankings,Vanderbilt,vanderbilt,238,Vanderbilt,exact_espn,5
+torvik,Vanderbilt,vanderbilt,238,Vanderbilt,exact_known_name,0
+dk_splits,Vermont,vermont,261,Vermont,exact_espn,14
+espn,UVM,UVM,261,Vermont,espn_abbr,0
+espn,Vermont,vermont,261,Vermont,espn_location,0
+espn,Vermont Catamounts,vermont catamounts,261,Vermont,espn_display,0
+odds_api,Vermont Catamounts,vermont catamounts,261,Vermont,exact_espn,4
+teamrankings,Vermont,vermont,261,Vermont,exact_espn,3
+torvik,Vermont,vermont,261,Vermont,exact_known_name,0
+dk_splits,Villanova,villanova,222,Villanova,exact_espn,8
+espn,VILL,VILL,222,Villanova,espn_abbr,0
+espn,Villanova,villanova,222,Villanova,espn_location,0
+espn,Villanova Wildcats,villanova wildcats,222,Villanova,espn_display,0
+odds_api,Villanova Wildcats,villanova wildcats,222,Villanova,exact_espn,6
+teamrankings,Villanova,villanova,222,Villanova,exact_espn,6
+torvik,Villanova,villanova,222,Villanova,exact_known_name,0
+dk_splits,Virginia,virginia,258,Virginia,exact_espn,7
+espn,UVA,UVA,258,Virginia,espn_abbr,0
+espn,Virginia,virginia,258,Virginia,espn_location,0
+espn,Virginia Cavaliers,virginia cavaliers,258,Virginia,espn_display,0
+odds_api,Virginia Cavaliers,virginia cavaliers,258,Virginia,exact_espn,5
+teamrankings,Virginia,virginia,258,Virginia,exact_espn,5
+torvik,Virginia,virginia,258,Virginia,exact_known_name,0
+dk_splits,Virginia Tech,virginia tech,259,Virginia Tech,exact_espn,10
+espn,VT,VT,259,Virginia Tech,espn_abbr,0
+espn,Virginia Tech,virginia tech,259,Virginia Tech,espn_location,0
+espn,Virginia Tech Hokies,virginia tech hokies,259,Virginia Tech,espn_display,0
+odds_api,Virginia Tech Hokies,virginia tech hokies,259,Virginia Tech,exact_espn,5
+teamrankings,Virginia Tech,virginia tech,259,Virginia Tech,exact_espn,5
+torvik,Virginia Tech,virginia tech,259,Virginia Tech,exact_known_name,0
+dk_splits,Wagner,wagner,2681,Wagner,exact_espn,4
+espn,WAG,WAG,2681,Wagner,espn_abbr,0
+espn,Wagner,wagner,2681,Wagner,espn_location,0
+espn,Wagner Seahawks,wagner seahawks,2681,Wagner,espn_display,0
+odds_api,Wagner Seahawks,wagner seahawks,2681,Wagner,exact_espn,2
+teamrankings,Wagner,wagner,2681,Wagner,exact_espn,2
+torvik,Wagner,wagner,2681,Wagner,exact_known_name,0
+dk_splits,Wake Forest,wake forest,154,Wake Forest,exact_espn,12
+espn,WAKE,WAKE,154,Wake Forest,espn_abbr,0
+espn,Wake Forest,wake forest,154,Wake Forest,espn_location,0
+espn,Wake Forest Demon Deacons,wake forest demon deacons,154,Wake Forest,espn_display,0
+odds_api,Wake Forest Demon Deacons,wake forest demon deacons,154,Wake Forest,exact_espn,8
+teamrankings,Wake Forest,wake forest,154,Wake Forest,exact_espn,6
+torvik,Wake Forest,wake forest,154,Wake Forest,exact_known_name,0
+dk_splits,Washington,washington,264,Washington,exact_espn,23
+espn,WASH,WASH,264,Washington,espn_abbr,0
+espn,Washington,washington,264,Washington,espn_location,0
+espn,Washington Huskies,washington huskies,264,Washington,espn_display,0
+odds_api,Washington Huskies,washington huskies,264,Washington,exact_espn,10
+teamrankings,Washington,washington,264,Washington,exact_espn,8
+torvik,Washington,washington,264,Washington,exact_known_name,0
+dk_splits,Washington State,washington st,265,Washington State,exact_espn,15
+espn,WSU,WSU,265,Washington State,espn_abbr,0
+espn,Washington State,washington st,265,Washington State,espn_location,0
+espn,Washington State Cougars,washington st cougars,265,Washington State,espn_display,0
+odds_api,Washington St Cougars,washington st cougars,265,Washington State,exact_espn,9
+teamrankings,Washington St,washington st,265,Washington State,exact_espn,4
+torvik,Washington St.,washington st,265,Washington State,exact_known_name,0
+torvik,Washington State,washington st,265,Washington State,exact_known_name,0
+dk_splits,Weber State,weber st,2692,Weber State,exact_espn,11
+espn,WEB,WEB,2692,Weber State,espn_abbr,0
+espn,Weber State,weber st,2692,Weber State,espn_location,0
+espn,Weber State Wildcats,weber st wildcats,2692,Weber State,espn_display,0
+odds_api,Weber State Wildcats,weber st wildcats,2692,Weber State,exact_espn,7
+teamrankings,Weber St,weber st,2692,Weber State,exact_espn,4
+torvik,Weber St.,weber st,2692,Weber State,exact_known_name,0
+torvik,Weber State,weber st,2692,Weber State,exact_known_name,0
+dk_splits,West Florida,west florida,2697,West Florida,exact_espn,6
+espn,UWF,UWF,2697,West Florida,espn_abbr,0
+espn,West Florida,west florida,2697,West Florida,espn_location,0
+espn,West Florida Argonauts,west florida argonauts,2697,West Florida,espn_display,0
+odds_api,West Florida Argonauts,west florida argonauts,2697,West Florida,exact_espn,4
+teamrankings,W Florida,w florida,2697,West Florida,game_verified+reviewed,6
+torvik,West Florida,west florida,2697,West Florida,exact_known_name,0
+dk_splits,West Georgia,west georgia,2698,West Georgia,exact_espn,4
+espn,WGA,WGA,2698,West Georgia,espn_abbr,0
+espn,West Georgia,west georgia,2698,West Georgia,espn_location,0
+espn,West Georgia Wolves,west georgia wolves,2698,West Georgia,espn_display,0
+odds_api,West Georgia Wolves,west georgia wolves,2698,West Georgia,exact_espn,3
+teamrankings,W Georgia,w georgia,2698,West Georgia,game_verified+reviewed,2
+torvik,West Georgia,west georgia,2698,West Georgia,exact_known_name,0
+dk_splits,West Virginia,west virginia,277,West Virginia,exact_espn,6
+espn,WVU,WVU,277,West Virginia,espn_abbr,0
+espn,West Virginia,west virginia,277,West Virginia,espn_location,0
+espn,West Virginia Mountaineers,west virginia mountaineers,277,West Virginia,espn_display,0
+teamrankings,West Virginia,west virginia,277,West Virginia,exact_espn,9
+torvik,West Virginia,west virginia,277,West Virginia,exact_known_name,0
+dk_splits,Western Carolina,western carolina,2717,Western Carolina,exact_espn,6
+espn,WCU,WCU,2717,Western Carolina,espn_abbr,0
+espn,Western Carolina,western carolina,2717,Western Carolina,espn_location,0
+espn,Western Carolina Catamounts,western carolina catamounts,2717,Western Carolina,espn_display,0
+odds_api,Western Carolina Catamounts,western carolina catamounts,2717,Western Carolina,exact_espn,3
+teamrankings,W Carolina,w carolina,2717,Western Carolina,game_verified+reviewed,3
+torvik,Western Carolina,western carolina,2717,Western Carolina,exact_known_name,0
+dk_splits,Western Illinois,western illinois,2710,Western Illinois,exact_espn,11
+espn,WIU,WIU,2710,Western Illinois,espn_abbr,0
+espn,Western Illinois,western illinois,2710,Western Illinois,espn_location,0
+espn,Western Illinois Leathernecks,western illinois leathernecks,2710,Western Illinois,espn_display,0
+odds_api,Western Illinois Leathernecks,western illinois leathernecks,2710,Western Illinois,exact_espn,7
+teamrankings,W Illinois,w illinois,2710,Western Illinois,game_verified+reviewed,7
+torvik,Western Illinois,western illinois,2710,Western Illinois,exact_known_name,0
+dk_splits,Western Kentucky,western kentucky,98,Western Kentucky,exact_espn,11
+espn,WKU,WKU,98,Western Kentucky,espn_abbr,0
+espn,Western Kentucky,western kentucky,98,Western Kentucky,espn_location,0
+espn,Western Kentucky Hilltoppers,western kentucky hilltoppers,98,Western Kentucky,espn_display,0
+odds_api,Western Kentucky Hilltoppers,western kentucky hilltoppers,98,Western Kentucky,exact_espn,5
+teamrankings,W Kentucky,w kentucky,98,Western Kentucky,game_verified+reviewed,3
+torvik,Western Kentucky,western kentucky,98,Western Kentucky,exact_known_name,0
+dk_splits,Western Michigan,western michigan,2711,Western Michigan,exact_espn,4
+espn,WMU,WMU,2711,Western Michigan,espn_abbr,0
+espn,Western Michigan,western michigan,2711,Western Michigan,espn_location,0
+espn,Western Michigan Broncos,western michigan broncos,2711,Western Michigan,espn_display,0
+odds_api,Western Michigan Broncos,western michigan broncos,2711,Western Michigan,exact_espn,2
+teamrankings,W Michigan,w michigan,2711,Western Michigan,game_verified+reviewed,5
+torvik,Western Michigan,western michigan,2711,Western Michigan,exact_known_name,0
+dk_splits,Wichita State,wichita st,2724,Wichita State,exact_espn,15
+espn,WICH,WICH,2724,Wichita State,espn_abbr,0
+espn,Wichita State,wichita st,2724,Wichita State,espn_location,0
+espn,Wichita State Shockers,wichita st shockers,2724,Wichita State,espn_display,0
+odds_api,Wichita St Shockers,wichita st shockers,2724,Wichita State,exact_espn,5
+teamrankings,Wichita St,wichita st,2724,Wichita State,exact_espn,5
+torvik,Wichita St.,wichita st,2724,Wichita State,exact_known_name,0
+torvik,Wichita State,wichita st,2724,Wichita State,exact_known_name,0
+dk_splits,William & Mary,william and mary,2729,William & Mary,exact_espn,8
+espn,W&M,W&M,2729,William & Mary,espn_abbr,0
+espn,William & Mary,william and mary,2729,William & Mary,espn_location,0
+espn,William & Mary Tribe,william and mary tribe,2729,William & Mary,espn_display,0
+odds_api,William & Mary Tribe,william and mary tribe,2729,William & Mary,exact_espn,4
+teamrankings,William & Mary,william and mary,2729,William & Mary,exact_espn,3
+torvik,William & Mary,william and mary,2729,William & Mary,exact_known_name,0
+dk_splits,Winthrop,winthrop,2737,Winthrop,exact_espn,14
+espn,WIN,WIN,2737,Winthrop,espn_abbr,0
+espn,Winthrop,winthrop,2737,Winthrop,espn_location,0
+espn,Winthrop Eagles,winthrop eagles,2737,Winthrop,espn_display,0
+odds_api,Winthrop Eagles,winthrop eagles,2737,Winthrop,exact_espn,5
+teamrankings,Winthrop,winthrop,2737,Winthrop,exact_espn,5
+torvik,Winthrop,winthrop,2737,Winthrop,exact_known_name,0
+dk_splits,Wisconsin,wisconsin,275,Wisconsin,exact_espn,15
+espn,WIS,WIS,275,Wisconsin,espn_abbr,0
+espn,Wisconsin,wisconsin,275,Wisconsin,espn_location,0
+espn,Wisconsin Badgers,wisconsin badgers,275,Wisconsin,espn_display,0
+odds_api,Wisconsin Badgers,wisconsin badgers,275,Wisconsin,exact_espn,6
+teamrankings,Wisconsin,wisconsin,275,Wisconsin,exact_espn,8
+torvik,Wisconsin,wisconsin,275,Wisconsin,exact_known_name,0
+dk_splits,Wofford,wofford,2747,Wofford,exact_espn,12
+espn,WOF,WOF,2747,Wofford,espn_abbr,0
+espn,Wofford,wofford,2747,Wofford,espn_location,0
+espn,Wofford Terriers,wofford terriers,2747,Wofford,espn_display,0
+odds_api,Wofford Terriers,wofford terriers,2747,Wofford,exact_espn,4
+teamrankings,Wofford,wofford,2747,Wofford,exact_espn,4
+torvik,Wofford,wofford,2747,Wofford,exact_known_name,0
+dk_splits,Wright State,wright st,2750,Wright State,exact_espn,10
+espn,WRST,WRST,2750,Wright State,espn_abbr,0
+espn,Wright State,wright st,2750,Wright State,espn_location,0
+espn,Wright State Raiders,wright st raiders,2750,Wright State,espn_display,0
+odds_api,Wright St Raiders,wright st raiders,2750,Wright State,exact_espn,8
+teamrankings,Wright St,wright st,2750,Wright State,exact_espn,4
+torvik,Wright St.,wright st,2750,Wright State,exact_known_name,0
+torvik,Wright State,wright st,2750,Wright State,exact_known_name,0
+dk_splits,Wyoming,wyoming,2751,Wyoming,exact_espn,10
+espn,WYO,WYO,2751,Wyoming,espn_abbr,0
+espn,Wyoming,wyoming,2751,Wyoming,espn_location,0
+espn,Wyoming Cowboys,wyoming cowboys,2751,Wyoming,espn_display,0
+odds_api,Wyoming Cowboys,wyoming cowboys,2751,Wyoming,exact_espn,7
+teamrankings,Wyoming,wyoming,2751,Wyoming,exact_espn,5
+torvik,Wyoming,wyoming,2751,Wyoming,exact_known_name,0
+dk_splits,Xavier,xavier,2752,Xavier,exact_espn,11
+espn,XAV,XAV,2752,Xavier,espn_abbr,0
+espn,Xavier,xavier,2752,Xavier,espn_location,0
+espn,Xavier Musketeers,xavier musketeers,2752,Xavier,espn_display,0
+odds_api,Xavier Musketeers,xavier musketeers,2752,Xavier,exact_espn,6
+teamrankings,Xavier,xavier,2752,Xavier,exact_espn,5
+torvik,Xavier,xavier,2752,Xavier,exact_known_name,0
+dk_splits,Yale,yale,43,Yale,exact_espn,14
+espn,YALE,YALE,43,Yale,espn_abbr,0
+espn,Yale,yale,43,Yale,espn_location,0
+espn,Yale Bulldogs,yale bulldogs,43,Yale,espn_display,0
+odds_api,Yale Bulldogs,yale bulldogs,43,Yale,exact_espn,8
+teamrankings,Yale,yale,43,Yale,exact_espn,5
+torvik,Yale,yale,43,Yale,exact_known_name,0
+dk_splits,Youngstown State,youngstown st,2754,Youngstown State,exact_espn,13
+espn,YSU,YSU,2754,Youngstown State,espn_abbr,0
+espn,Youngstown State,youngstown st,2754,Youngstown State,espn_location,0
+espn,Youngstown State Penguins,youngstown st penguins,2754,Youngstown State,espn_display,0
+odds_api,Youngstown St Penguins,youngstown st penguins,2754,Youngstown State,exact_espn,5
+teamrankings,Youngstown St,youngstown st,2754,Youngstown State,exact_espn,5
+torvik,Youngstown St.,youngstown st,2754,Youngstown State,exact_known_name,0
+torvik,Youngstown State,youngstown st,2754,Youngstown State,exact_known_name,0

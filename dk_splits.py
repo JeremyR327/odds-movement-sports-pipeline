@@ -17,6 +17,7 @@ SHARP = handle minus bets >= +15 on a side; RLM = the DK spread moved (open -> n
 the side with under 50% of bets; STEAM = 1.5+ spread move; KEY = crossed a key number.
 Usage: python dk_splits.py [CFB NFL]   (default: CFB NFL)
 """
+import team_match
 import csv, difflib, glob, html, json, os, re, sys, time, urllib.request
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
@@ -124,6 +125,29 @@ def name_score(dk, espn):
     return difflib.SequenceMatcher(None, d, " ".join(e.split()[:len(d.split()) + 1])).ratio()
 
 
+def dk_when(w):
+    """DK Network 'Thu 11/26 7:00 PM' -> aware datetime (ET)."""
+    try:
+        return datetime.strptime(f"{NOW.year} {w[4:].strip()}", "%Y %m/%d %I:%M %p").replace(tzinfo=NOW.tzinfo)
+    except ValueError:
+        return NOW
+
+
+def cbb_events(lines):
+    """ESPN line rows -> team_match events (team ids from the row, else from ESPN's display names)."""
+    out = []
+    for i, l in enumerate(lines):
+        a = l.get("away_team_id") or team_match.team_id("espn", l.get("away", ""))
+        h = l.get("home_team_id") or team_match.team_id("espn", l.get("home", ""))
+        try:
+            tip = datetime.strptime(f"{NOW.year} {l['start_et'][4:]}", "%Y %m-%d %I:%M %p").replace(tzinfo=NOW.tzinfo)
+        except (KeyError, ValueError):
+            continue
+        if a and h:
+            out.append({"eid": l.get("espn_id", ""), "away_id": a, "home_id": h, "tip": tip, "i": i})
+    return out
+
+
 def latest_lines(sport):
     paths = sorted(glob.glob(f"data/{NOW:%Y-%m-%d}/[0-9][0-9][0-9][0-9]_lines_{sport}.csv"))
     if not paths:
@@ -145,9 +169,11 @@ def week_open(sport):
         at = f"{day[5:]} {os.path.basename(p)[:4]}"
         with open(p, encoding="utf-8") as fh:
             for r in csv.DictReader(fh):
-                e = out.setdefault(r.get("espn_id", ""), {"spread": "", "total": "", "at": ""})
+                e = out.setdefault(r.get("espn_id", ""), {"spread": "", "total": "", "at": "", "away_key": ""})
                 if not e["spread"] and r.get("spread_now") not in (None, ""):
+                    # remember who was "away" then: ESPN flips home/away on neutral sites between pulls
                     e["spread"], e["at"] = r["spread_now"], at
+                    e["away_key"] = r.get("away_team_id") or r.get("away_abbr", "")
                 if not e["total"] and r.get("total_now") not in (None, ""):
                     e["total"] = r["total_now"]
     out.pop("", None)
@@ -247,17 +273,30 @@ def build(sport, games, updated, lines, lines_path):
     rows, used, unmatched = [], set(), []
     WO = week_open(sport)
     TP, _ = tr_proj(sport)
+    evs = cbb_events(lines) if sport == "CBB" else None
     for g in games:
         best, bs = None, 0.0
-        for i, l in enumerate(lines):
-            s = name_score(g["away"], l["away"]) + name_score(g["home"], l["home"])
-            if s > bs:
-                best, bs = i, s
+        if evs is not None:
+            # Team ids + unordered pair + start time (team_match.py). Name order is not trusted:
+            # DK and ESPN list neutral-site games both ways round.
+            ev, swapped, how = team_match.match_game("dk_splits", g["away"], g["home"], dk_when(g["when"]), evs)
+            if ev:
+                best, bs = ev["i"], 2.0
+                if swapped:
+                    g["away"], g["home"] = g["home"], g["away"]     # orient() then reorders the split rows to match
+        else:
+            for i, l in enumerate(lines):
+                s = name_score(g["away"], l["away"]) + name_score(g["home"], l["home"])
+                if s > bs:
+                    best, bs = i, s
         line = lines[best] if best is not None and bs >= 1.6 else None
         if line:
             used.add(best)
             line = dict(line, spread_open_espn=line.get("spread_open", ""), total_open_espn=line.get("total_open", ""), open_at="ESPN open")
             wo = WO.get(line.get("espn_id", ""))
+            if wo and wo.get("away_key") and wo["away_key"] not in (line.get("away_team_id"), line.get("away_abbr")) \
+                    and wo["spread"] not in ("", None):
+                wo = dict(wo, spread=str(-float(wo["spread"])))       # stored from the other orientation
             if wo:
                 line.update(spread_open=wo["spread"] or line["spread_open"], total_open=wo["total"] or line["total_open"],
                             open_at=f"first pull {wo['at']}")
@@ -265,6 +304,10 @@ def build(sport, games, updated, lines, lines_path):
             unmatched.append(f'{g["away"]} @ {g["home"]}')
         orient(g)
         fl = flags(g, line, sport)
+        if line and line.get("open_check") == "suspect":
+            fl = [x for x in fl if not x.startswith(("RLM", "STEAM", "FLIP"))] + ["OPENER suspect (spread vs ML disagree)"]
+        elif line and line.get("open_check") == "fixed":
+            fl.append("OPENER sign fixed from ML")
         tp, ts, flip = None, 0.0, False
         aw, hm = ((line or {}).get("away") or g["away"]), ((line or {}).get("home") or g["home"])
         for t in TP:
@@ -281,6 +324,7 @@ def build(sport, games, updated, lines, lines_path):
         sp, tot, ml = g.get("spread") or [{}, {}], g.get("total") or [{}, {}], g.get("moneyline") or [{}, {}]
         rows.append({"pulled_et": NOW.isoformat(timespec="minutes"), "when": g["when"],
                      "away": g["away"], "home": g["home"], "espn_id": (line or {}).get("espn_id", ""),
+                     "away_team_id": (line or {}).get("away_team_id", "") or team_match.team_id("dk_splits", g["away"]) or "",
                      "spread_open": (line or {}).get("spread_open", ""), "spread_now": (line or {}).get("spread_now", ""),
                      "total_open": (line or {}).get("total_open", ""), "total_now": (line or {}).get("total_now", ""),
                      "open_at": (line or {}).get("open_at", ""), "spread_open_espn": (line or {}).get("spread_open_espn", ""),

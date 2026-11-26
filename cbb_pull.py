@@ -27,6 +27,7 @@ Usage: python cbb_pull.py [--date YYYY-MM-DD] [--season 2027] [--no-results]
 Exit codes: 0 ok (source problems are listed in status.json), 2 no slate possible
 (ESPN failed, or neither Torvik nor TR ratings are available).
 """
+import team_match
 import argparse, csv, difflib, glob, io, json, os, re, sys, urllib.error, urllib.parse, urllib.request
 from datetime import date, datetime, timedelta
 from zoneinfo import ZoneInfo
@@ -190,8 +191,19 @@ def espn_games(day):
             return first_num(str(v).lstrip("ouOU")) if v is not None else None   # totals read "o155.5"
         sp_open, sp_now = side("pointSpread", "home", "open", "line"), side("pointSpread", "home", "close", "line")
         to_open, to_now = side("total", "over", "open", "line"), side("total", "over", "close", "line")
+        # The opening spread can sit in DraftKings' orientation while the moneyline follows ESPN's
+        # (neutral sites): check its sign against the opening moneyline (team_match.check_opener).
+        open_check = ""
+        if sp_open is not None:
+            ml_a, ml_h = side("moneyline", "away", "open", "odds"), side("moneyline", "home", "open", "odds")
+            away_open, open_check = team_match.check_opener(-sp_open, ml_a, ml_h)
+            if open_check == "fixed":
+                sp_open = -away_open
+            elif open_check == "suspect":
+                sp_open = None             # don't build RLM/STEAM/FIRST-MOVE on a contradictory opener
         games.append({
             "espn_id": str(ev.get("id")), "tip_dt": tip, "tip": tip.strftime("%I:%M %p").lstrip("0"),
+            "open_check": open_check,
             "away": a, "home": h, "neutral": bool(comp.get("neutralSite")),
             "espn_book": (odds.get("provider") or {}).get("name", ""),
             "espn_line_home": -sp_now if sp_now is not None else line_home,
@@ -556,6 +568,19 @@ def dk_splits_cbb():
     return {r["espn_id"]: r for r in rows}, f"ok {len(rows)} games, pulled {rows[0]['pulled_et'][11:16]}"
 
 
+def splits_for(SPL, g):
+    """DK splits row for this game, in THIS pull's orientation. dk_CBB.csv carries the away team's
+    ESPN id; when ESPN has since flipped home/away, swap the away/home split columns."""
+    sp = SPL.get(g["espn_id"])
+    if not sp or not sp.get("away_team_id") or sp["away_team_id"] == g["away"]["id"]:
+        return sp
+    flip = lambda v: "" if v in (None, "", "None") else str(100 - float(v))
+    sp = dict(sp)
+    sp["spr_away_handle"], sp["spr_away_bets"] = flip(sp.get("spr_away_handle")), flip(sp.get("spr_away_bets"))
+    sp["ml_away_handle"], sp["ml_away_bets"] = flip(sp.get("ml_away_handle")), flip(sp.get("ml_away_bets"))
+    return sp
+
+
 def market_read(sp, open_h, cur_h, away, home):
     """MKT flags from the DraftKings line path (home margin) and DK splits (away side handle/bets).
     RLM = line moved toward the side with under 50% of bets; SHARP = handle minus bets >= 15;
@@ -648,7 +673,19 @@ def build_slate(day, games, R, TR, B, lines=None, ctx=None, preview=False):
     bkeys = list(BK)
     ctx = ctx or {}
 
+    bevs = []
+    for i, r in enumerate(BK.values()):
+        a, h = team_match.team_id("odds_api", r["away"]), team_match.team_id("odds_api", r["home"])
+        if a and h and r.get("commence_et"):
+            bevs.append({"eid": i, "away_id": a, "home_id": h, "tip": datetime.fromisoformat(r["commence_et"]), "row": r})
+
     def books_for(g):
+        # Team ids, either order, within 3 h of tip (team_match.py). -1 = books list the teams the other way.
+        if g["away"]["id"] and g["home"]["id"]:
+            for b in sorted(bevs, key=lambda b: abs((b["tip"] - g["tip_dt"]).total_seconds())):
+                if abs((b["tip"] - g["tip_dt"]).total_seconds()) <= 3 * 3600 and \
+                        {b["away_id"], b["home_id"]} == {g["away"]["id"], g["home"]["id"]}:
+                    return b["row"], (1 if b["away_id"] == g["away"]["id"] else -1)
         for ka in {norm(g["away"]["full"]), norm(g["away"]["school"])}:
             for kh in {norm(g["home"]["full"]), norm(g["home"]["school"])}:
                 if ka + " @ " + kh in BK:
@@ -750,7 +787,7 @@ def build_slate(day, games, R, TR, B, lines=None, ctx=None, preview=False):
         if p.pop("suspect"):
             name_checks.append(f'{g["away"]["school"]} @ {g["home"]["school"]}: TR {tr_m:+.1f} vs BPI {bpi_m:+.1f}')
         away_s, home_s = g["away"]["school"], g["home"]["school"]
-        mkt, spl = market_read(SPL.get(g["espn_id"]), open_h, cur_h, away_s, home_s)
+        mkt, spl = market_read(splits_for(SPL, g), open_h, cur_h, away_s, home_s)
         # Tier 1 is read through the market: a MKT flag needs RLM, or SHARP money with a move the same way.
         mkt_flag = ""
         rlm = next((x for x in mkt if x.startswith("RLM")), None)
@@ -762,7 +799,7 @@ def build_slate(day, games, R, TR, B, lines=None, ctx=None, preview=False):
             mkt_flag = f"{sharp} + {steam}"
         # Both MKT kinds back the side the line moved toward (home margin up = toward home).
         mkt_side = ("home" if cur_h > open_h else "away") if mkt_flag else ""
-        tot_flag, tot_side, _ = total_read(SPL.get(g["espn_id"]), open_t, cur_t)
+        tot_flag, tot_side, _ = total_read(splits_for(SPL, g), open_t, cur_t)
         # The stand-in model total is logged (torvik_total, total_model_gap) for calibration only.
         tot_gap = rnd(tv_t - float(cur_t)) if tv_t is not None and cur_t not in (None, "") else None
         fade = "FADE home fav" if (not g["neutral"] and cur_h is not None and cur_h >= FADE_FAV) else ""
