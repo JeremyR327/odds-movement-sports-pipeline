@@ -1,34 +1,17 @@
 pulled_et,espn_id,start_et,away,home,away_abbr,home_abbr,book,spread_open,spread_now,spread_odds_now,total_open,total_now,ml_away_open,ml_away_now,ml_home_open,ml_home_now,status,away_team_id,home_team_id,spread_open_raw,open_check
-2026-11-26T17:39-05:00,401909326,Fri 11-27 07:00 PM,Miami Heat,New York Knicks,MIA,NY,DraftKings,5.5,3.5,-105.0,232.5,223.5,164.0,142.0,-198.0,-169.0,,14,18,-5.5,fixed
-2026-11-26T17:39-05:00,401909327,Fri 11-27 07:30 PM,Milwaukee Bucks,Detroit Pistons,MIL,DET,DraftKings,11.5,8.5,-103.0,221.5,219.5,420.0,320.0,-561.0,-407.0,,15,8,11.5,ok
-2026-11-26T17:39-05:00,401909328,Fri 11-27 07:30 PM,Philadelphia 76ers,Indiana Pacers,PHI,IND,DraftKings,-4.5,-1.5,-114.0,234.5,232.5,-185.0,-148.0,155.0,124.0,,20,11,-4.5,ok
-2026-11-26T17:39-05:00,401909329,Fri 11-27 07:30 PM,Brooklyn Nets,Toronto Raptors,BKN,TOR,DraftKings,7.5,7.5,-105.0,221.5,219.5,268.0,268.0,-333.0,-333.0,,17,28,7.5,ok
-2026-11-26T17:39-05:00,401909330,Fri 11-27 08:00 PM,Atlanta Hawks,Boston Celtics,ATL,BOS,DraftKings,9.5,9.5,-110.0,222.5,222.5,288.0,322.0,-361.0,-410.0,,1,2,9.5,ok
-2026-11-26T17:39-05:00,401909331,Fri 11-27 08:30 PM,Memphis Grizzlies,Minnesota Timberwolves,MEM,MIN,DraftKings,2.5,3.5,-112.0,223.5,220.5,117.0,124.0,-139.0,-148.0,,29,16,2.5,ok
-2026-11-26T17:39-05:00,401909332,Fri 11-27 09:00 PM,Dallas Mavericks,Phoenix Suns,DAL,PHX,DraftKings,3.5,1.5,-103.0,227.5,227.5,120.0,120.0,-142.0,-142.0,,6,21,3.5,ok
-2026-11-26T17:39-05:00,401909333,Fri 11-27 09:30 PM,Los Angeles Lakers,San Antonio Spurs,LAL,SA,DraftKings,7.5,5.5,-116.0,232.5,225.5,230.0,171.0,-285.0,-205.0,,13,24,-7.5,fixed
-2026-11-26T17:39-05:00,401909334,Fri 11-27 09:30 PM,Denver Nuggets,Utah Jazz,DEN,UTAH,DraftKings,-9.5,-9.5,-113.0,228.5,229.5,-336.0,-416.0,270.0,326.0,,7,26,-9.5,ok
-2026-11-26T17:39-05:00,401909335,Fri 11-27 09:30 PM,New Orleans Pelicans,LA Clippers,NO,LAC,DraftKings,2.5,3.5,-113.0,228.5,231.5,124.0,136.0,-147.0,-162.0,,3,12,2.5,ok
-2026-11-26T17:39-05:00,401909336,Fri 11-27 09:30 PM,Golden State Warriors,Portland Trail Blazers,GS,POR,DraftKings,9.5,8.5,-113.0,221.5,220.5,262.0,276.0,-325.0,-344.0,,9,22,9.5,ok
-2026-11-26T19:44-05:00,401909326,Fri 11-27 07:00 PM,Miami Heat,New York Knicks,MIA,NY,DraftKings,5.5,3.5,-105.0,232.5,223.5,164.0,142.0,-198.0,-169.0,,14,18,-5.5,fixed
-2026-11-26T19:44-05:00,401909327,Fri 11-27 07:30 PM,Milwaukee Bucks,Detroit Pistons,MIL,DET,DraftKings,11.5,9.5,-112.0,221.5,218.5,420.0,320.0,-561.0,-407.0,,15,8,11.5,ok
-2026-11-26T19:44-05:00,401909328,Fri 11-27 07:30 PM,Philadelphia 76ers,Indiana Pacers,PHI,IND,DraftKings,-4.5,-1.5,-114.0,234.5,232.5,-185.0,-155.0,155.0,130.0,,20,11,-4.5,ok
-2026-11-26T19:44-05:00,401909329,Fri 11-27 07:30 PM,Brooklyn Nets,Toronto Raptors,BKN,TOR,DraftKings,7.5,7.5,-105.0,221.5,220.5,268.0,268.0,-333.0,-333.0,,17,28,7.5,ok
-2026-11-26T19:44-05:00,401909330,Fri 11-27 08:00 PM,Atlanta Hawks,Boston Celtics,ATL,BOS,DraftKings,9.5,9.5,-110.0,222.5,222.5,288.0,341.0,-361.0,-438.0,,1,2,9.5,ok
-2026-11-26T19:44-05:00,401909331,Fri 11-27 08:30 PM,Memphis Grizzlies,Minnesota Timberwolves,MEM,MIN,DraftKings,2.5,3.5,-112.0,223.5,220.5,117.0,136.0,-139.0,-162.0,,29,16,2.5,ok
-2026-11-26T19:44-05:00,401909332,Fri 11-27 09:00 PM,Dallas Mavericks,Phoenix Suns,DAL,PHX,DraftKings,3.5,1.5,-103.0,227.5,227.5,120.0,114.0,-142.0,-135.0,,6,21,3.5,ok
-2026-11-26T19:44-05:00,401909333,Fri 11-27 09:30 PM,Los Angeles Lakers,San Antonio Spurs,LAL,SA,DraftKings,7.5,5.5,-105.0,232.5,225.5,230.0,171.0,-285.0,-205.0,,13,24,-7.5,fixed
-2026-11-26T19:44-05:00,401909334,Fri 11-27 09:30 PM,Denver Nuggets,Utah Jazz,DEN,UTAH,DraftKings,-9.5,-9.5,-113.0,228.5,228.5,-336.0,-438.0,270.0,341.0,,7,26,-9.5,ok
-2026-11-26T19:44-05:00,401909335,Fri 11-27 09:30 PM,New Orleans Pelicans,LA Clippers,NO,LAC,DraftKings,2.5,3.5,-113.0,228.5,231.5,124.0,136.0,-147.0,-162.0,,3,12,2.5,ok
-2026-11-26T19:44-05:00,401909336,Fri 11-27 09:30 PM,Golden State Warriors,Portland Trail Blazers,GS,POR,DraftKings,9.5,8.5,-113.0,221.5,220.5,262.0,276.0,-325.0,-344.0,,9,22,9.5,ok
-2026-11-26T22:41-05:00,401909326,Fri 11-27 07:00 PM,Miami Heat,New York Knicks,MIA,NY,DraftKings,5.5,3.5,-105.0,232.5,222.5,164.0,140.0,-198.0,-166.0,,14,18,-5.5,fixed
-2026-11-26T22:41-05:00,401909327,Fri 11-27 07:30 PM,Milwaukee Bucks,Detroit Pistons,MIL,DET,DraftKings,11.5,9.5,-112.0,221.5,219.5,420.0,322.0,-561.0,-410.0,,15,8,11.5,ok
-2026-11-26T22:41-05:00,401909328,Fri 11-27 07:30 PM,Philadelphia 76ers,Indiana Pacers,PHI,IND,DraftKings,-4.5,-2.5,-114.0,234.5,232.5,-185.0,-148.0,155.0,124.0,,20,11,-4.5,ok
-2026-11-26T22:41-05:00,401909329,Fri 11-27 07:30 PM,Brooklyn Nets,Toronto Raptors,BKN,TOR,DraftKings,7.5,7.5,-105.0,221.5,219.5,268.0,268.0,-333.0,-333.0,,17,28,7.5,ok
-2026-11-26T22:41-05:00,401909330,Fri 11-27 08:00 PM,Atlanta Hawks,Boston Celtics,ATL,BOS,DraftKings,9.5,9.5,-110.0,222.5,221.5,288.0,331.0,-361.0,-423.0,,1,2,9.5,ok
-2026-11-26T22:41-05:00,401909331,Fri 11-27 08:30 PM,Memphis Grizzlies,Minnesota Timberwolves,MEM,MIN,DraftKings,2.5,3.5,-112.0,223.5,221.5,117.0,136.0,-139.0,-162.0,,29,16,2.5,ok
-2026-11-26T22:41-05:00,401909332,Fri 11-27 09:00 PM,Dallas Mavericks,Phoenix Suns,DAL,PHX,DraftKings,3.5,2.5,-110.0,227.5,227.5,120.0,115.0,-142.0,-136.0,,6,21,3.5,ok
-2026-11-26T22:41-05:00,401909333,Fri 11-27 09:30 PM,Los Angeles Lakers,San Antonio Spurs,LAL,SA,DraftKings,7.5,5.5,-105.0,232.5,225.5,230.0,180.0,-285.0,-217.0,,13,24,-7.5,fixed
-2026-11-26T22:41-05:00,401909334,Fri 11-27 09:30 PM,Denver Nuggets,Utah Jazz,DEN,UTAH,DraftKings,-9.5,-9.5,-113.0,228.5,228.5,-336.0,-468.0,270.0,361.0,,7,26,-9.5,ok
-2026-11-26T22:41-05:00,401909335,Fri 11-27 09:30 PM,New Orleans Pelicans,LA Clippers,NO,LAC,DraftKings,2.5,3.5,-114.0,228.5,231.5,124.0,133.0,-147.0,-158.0,,3,12,2.5,ok
-2026-11-26T22:41-05:00,401909336,Fri 11-27 09:30 PM,Golden State Warriors,Portland Trail Blazers,GS,POR,DraftKings,9.5,8.5,-106.0,221.5,220.5,262.0,300.0,-325.0,-378.0,,9,22,9.5,ok
+2026-11-27T09:09-05:00,401909326,Fri 11-27 07:00 PM,Miami Heat,New York Knicks,MIA,NY,Draft Kings,5.5,4.5,-112.0,232.5,222.5,164.0,151.0,-198.0,-180.0,,14,18,-5.5,fixed
+2026-11-27T09:09-05:00,401909327,Fri 11-27 07:30 PM,Milwaukee Bucks,Detroit Pistons,MIL,DET,Draft Kings,11.5,9.5,-105.0,221.5,218.5,420.0,331.0,-561.0,-424.0,,15,8,11.5,ok
+2026-11-27T09:09-05:00,401909328,Fri 11-27 07:30 PM,Philadelphia 76ers,Indiana Pacers,PHI,IND,Draft Kings,-4.5,-3.5,-108.0,234.5,230.5,-185.0,-170.0,155.0,142.0,,20,11,-4.5,ok
+2026-11-27T09:09-05:00,401909329,Fri 11-27 07:30 PM,Brooklyn Nets,Toronto Raptors,BKN,TOR,Draft Kings,7.5,9.5,-112.0,221.5,219.5,268.0,298.0,-333.0,-375.0,,17,28,7.5,ok
+2026-11-27T09:09-05:00,401909330,Fri 11-27 08:00 PM,Atlanta Hawks,Boston Celtics,ATL,BOS,Draft Kings,9.5,8.5,-107.0,222.5,221.5,288.0,286.0,-361.0,-359.0,,1,2,9.5,ok
+2026-11-27T09:09-05:00,401909331,Fri 11-27 08:30 PM,Memphis Grizzlies,Minnesota Timberwolves,MEM,MIN,Draft Kings,2.5,4.5,-112.0,223.5,222.5,117.0,160.0,-139.0,-192.0,,29,16,2.5,ok
+2026-11-27T09:09-05:00,401909332,Fri 11-27 09:00 PM,Dallas Mavericks,Phoenix Suns,DAL,PHX,Draft Kings,3.5,2.5,-111.0,227.5,226.5,120.0,114.0,-142.0,-135.0,,6,21,3.5,ok
+2026-11-27T09:09-05:00,401909333,Fri 11-27 09:30 PM,Los Angeles Lakers,San Antonio Spurs,LAL,SA,Draft Kings,7.5,6.5,-116.0,232.5,225.5,230.0,196.0,-285.0,-237.0,,13,24,-7.5,fixed
+2026-11-27T09:09-05:00,401909334,Fri 11-27 09:30 PM,Denver Nuggets,Utah Jazz,DEN,UTAH,Draft Kings,-9.5,-10.5,-105.0,228.5,229.5,-336.0,-468.0,270.0,361.0,,7,26,-9.5,ok
+2026-11-27T09:09-05:00,401909335,Fri 11-27 09:30 PM,New Orleans Pelicans,LA Clippers,NO,LAC,Draft Kings,2.5,3.5,-114.0,228.5,231.5,124.0,133.0,-147.0,-158.0,,3,12,2.5,ok
+2026-11-27T09:09-05:00,401909336,Fri 11-27 09:30 PM,Golden State Warriors,Portland Trail Blazers,GS,POR,Draft Kings,9.5,9.5,-112.0,221.5,221.5,262.0,312.0,-325.0,-395.0,,9,22,9.5,ok
+2026-11-27T09:09-05:00,401910046,Sat 11-28 05:00 PM,Orlando Magic,Washington Wizards,ORL,WSH,,,,,,,,,,,,19,27,,no_spread
+2026-11-27T09:09-05:00,401910047,Sat 11-28 06:00 PM,Brooklyn Nets,Charlotte Hornets,BKN,CHA,,,,,,,,,,,,17,30,,no_spread
+2026-11-27T09:09-05:00,401910048,Sat 11-28 08:00 PM,Indiana Pacers,Chicago Bulls,IND,CHI,,,,,,,,,,,,11,4,,no_spread
+2026-11-27T09:09-05:00,401910049,Sat 11-28 08:00 PM,Oklahoma City Thunder,Milwaukee Bucks,OKC,MIL,,,,,,,,,,,,25,15,,no_spread
+2026-11-27T09:09-05:00,401910050,Sat 11-28 08:30 PM,Philadelphia 76ers,Houston Rockets,PHI,HOU,,,,,,,,,,,,20,10,,no_spread
