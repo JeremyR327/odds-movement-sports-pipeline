@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-27",
+  "pulled_et": "2026-11-27T13:44-05:00",
+  "espn": "ok 55 games",
+  "torvik": "ok 365 teams (saved copy from today); pace from TeamRankings for 353 teams",
+  "tr": "ok 365 teams (2026-11-26 1529)",
+  "bpi": "ok 365 teams",
+  "espn_lines": "43/43 priced games have ESPN's DraftKings opener",
+  "cbbd_lines": "skipped: ESPN has DraftKings open + current (saves the CBBD monthly quota)",
+  "dk_splits": "ok 47 games, pulled 12:39",
+  "books": "ok 49 games, pulled 10:41",
+  "context": "ok 1145 box scores in view (0 fetched this run, 0 still to backfill), 531 teams",
+  "games_written": 46,
+  "with_line": 43,
+  "with_espn_open": 43,
+  "flags": 1,
+  "mkt_flags": 18,
+  "tier1_mkt_flags": 7,
+  "total_flags": 8,
+  "fade_flags": 13,
+  "lag_flags": 1,
+  "early_flags": 0,
+  "rot_flags": 13,
+  "fat_flags": 16,
+  "alt_flags": 0,
+  "unmatched": [
+    "Clarke Pride @ South Dakota Coyotes",
+    "Lane College Dragons @ Little Rock Trojans"
+  ],
+  "sources": "espn ok 55 games \u00b7 espn_lines 43/43 priced games have ESPN's DraftKings opener \u00b7 torvik ok 365 teams (saved copy from today); pace from TeamRankings for 353 teams \u00b7 tr ok 365 teams (2026-11-26 1529) \u00b7 bpi ok 365 teams",
+  "calibration": {
+    "games": 21,
+    "with_open": 21,
+    "avg_gap_cons_vs_open": 1.86,
+    "avg_gap_cons_vs_close": 1.92,
+    "avg_move_open_to_close": 1.43,
+    "pct_moved_toward_consensus": 64.3,
+    "flagged_games_graded": 0,
+    "flagged_covered": 0
+  },
+  "results": "2026-11-26: 21 finals",
+  "season_graded": 667
+}
