@@ -75,3 +75,8 @@ pulled_et,espn_id,start_et,away,home,away_abbr,home_abbr,book,spread_open,spread
 2026-11-27T19:44-05:00,401910048,Sat 11-28 08:00 PM,Indiana Pacers,Chicago Bulls,IND,CHI,,,,,,,,,,,,11,4,,no_spread
 2026-11-27T19:44-05:00,401910049,Sat 11-28 08:00 PM,Oklahoma City Thunder,Milwaukee Bucks,OKC,MIL,,,,,,,,,,,,25,15,,no_spread
 2026-11-27T19:44-05:00,401910050,Sat 11-28 08:30 PM,Philadelphia 76ers,Houston Rockets,PHI,HOU,,,,,,,,,,,,20,10,,no_spread
+2026-11-27T22:41-05:00,401910046,Sat 11-28 05:00 PM,Orlando Magic,Washington Wizards,ORL,WSH,DraftKings,-3.5,-3.5,-110.0,218.5,218.5,-163.0,-169.0,137.0,142.0,,19,27,-3.5,ok
+2026-11-27T22:41-05:00,401910047,Sat 11-28 06:00 PM,Brooklyn Nets,Charlotte Hornets,BKN,CHA,DraftKings,5.5,5.5,-114.0,213.5,213.5,186.0,186.0,-224.0,-224.0,,17,30,5.5,ok
+2026-11-27T22:41-05:00,401910048,Sat 11-28 08:00 PM,Indiana Pacers,Chicago Bulls,IND,CHI,DraftKings,2.5,2.5,-110.0,236.5,236.5,119.0,119.0,-141.0,-141.0,,11,4,2.5,ok
+2026-11-27T22:41-05:00,401910049,Sat 11-28 08:00 PM,Oklahoma City Thunder,Milwaukee Bucks,OKC,MIL,DraftKings,-11.5,-12.5,-106.0,228.5,228.5,-521.0,-561.0,395.0,420.0,,25,15,-11.5,ok
+2026-11-27T22:41-05:00,401910050,Sat 11-28 08:30 PM,Philadelphia 76ers,Houston Rockets,PHI,HOU,,,,,,,,,,,,20,10,,no_spread

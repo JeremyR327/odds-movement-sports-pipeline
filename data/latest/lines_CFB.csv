@@ -297,3 +297,56 @@ pulled_et,espn_id,start_et,away,home,away_abbr,home_abbr,book,spread_open,spread
 2026-11-27T19:44-05:00,401860928,Sat 11-28 09:30 PM,Texas State Bobcats,Utah State Aggies,TXST,USU,DraftKings,-7.5,-7.5,-105.0,53.5,52.5,-285.0,-305.0,230.0,245.0,,326,328,-7.5,ok
 2026-11-27T19:44-05:00,401860927,Sat 11-28 10:00 PM,Oregon State Beavers,Fresno State Bulldogs,ORST,FRES,DraftKings,1.5,3.0,-112.0,56.5,58.5,-108.0,124.0,-112.0,-148.0,,204,278,1.5,ok
 2026-11-27T19:44-05:00,401864547,Sat 11-28 11:00 PM,Sacramento State Hornets,Hawai'i Rainbow Warriors,SAC,HAW,DraftKings,14.5,13.5,-108.0,44.5,39.5,455.0,425.0,-625.0,-575.0,,16,62,14.5,ok
+2026-11-27T22:41-05:00,401858314,Sat 11-28 12:00 PM,Notre Dame Fighting Irish,Syracuse Orange,ND,SYR,DraftKings,-21.0,-25.5,-110.0,54.5,53.5,-1350.0,-2800.0,800.0,1300.0,,87,183,-21.0,ok
+2026-11-27T22:41-05:00,401858311,Sat 11-28 12:00 PM,Boston College Eagles,Miami Hurricanes,BC,MIA,DraftKings,26.5,24.5,-112.0,53.5,53.5,1500.0,1300.0,-3600.0,-2800.0,,103,2390,26.5,ok
+2026-11-27T22:41-05:00,401856761,Sat 11-28 12:00 PM,Louisville Cardinals,Kentucky Wildcats,LOU,UK,DraftKings,1.5,-3.0,-102.0,54.5,53.5,-102.0,-142.0,-118.0,120.0,,97,96,1.5,ok
+2026-11-27T22:41-05:00,401858540,Sat 11-28 12:00 PM,Michigan Wolverines,Ohio State Buckeyes,MICH,OSU,DraftKings,14.0,10.5,-110.0,46.5,37.5,400.0,330.0,-535.0,-425.0,,130,194,14.0,ok
+2026-11-27T22:41-05:00,401858313,Sat 11-28 12:00 PM,NC State Wolfpack,North Carolina Tar Heels,NCSU,UNC,DraftKings,-1.5,5.5,-110.0,55.5,53.5,-118.0,185.0,-102.0,-225.0,,152,153,-1.5,ok
+2026-11-27T22:41-05:00,401861969,Sat 11-28 12:00 PM,UConn Huskies,Wyoming Cowboys,CONN,WYO,DraftKings,-2.5,-3.5,-105.0,49.5,44.5,-130.0,-170.0,120.0,142.0,,41,2751,-2.5,ok
+2026-11-27T22:41-05:00,401862842,Sat 11-28 12:00 PM,Navy Midshipmen,Charlotte 49ers,NAVY,CLT,DraftKings,-16.5,-16.5,-112.0,53.5,54.5,-900.0,-800.0,600.0,550.0,,2426,2429,-16.5,ok
+2026-11-27T22:41-05:00,401866474,Sat 11-28 12:00 PM,Central Michigan Chippewas,Ball State Cardinals,CMU,BALL,DraftKings,-6.5,-3.5,-112.0,46.5,50.5,-205.0,-180.0,170.0,150.0,,2117,2050,-6.5,ok
+2026-11-27T22:41-05:00,401869954,Sat 11-28 12:00 PM,Louisiana Tech Bulldogs,Georgia Southern Eagles,LT,GASO,DraftKings,1.5,1.5,-105.0,50.5,53.5,-105.0,105.0,-115.0,-125.0,,2348,290,1.5,ok
+2026-11-27T22:41-05:00,401858537,Sat 11-28 12:30 PM,Illinois Fighting Illini,Northwestern Wildcats,ILL,NU,DraftKings,-3.5,3.5,-112.0,52.5,48.5,-170.0,140.0,142.0,-166.0,,356,77,-3.5,ok
+2026-11-27T22:41-05:00,401856758,Sat 11-28 12:45 PM,LSU Tigers,Arkansas Razorbacks,LSU,ARK,DraftKings,-13.5,-14.5,-105.0,47.5,49.5,-625.0,-625.0,455.0,455.0,,99,8,-13.5,ok
+2026-11-27T22:41-05:00,401862837,Sat 11-28 01:00 PM,Florida Atlantic Owls,East Carolina Pirates,FAU,ECU,DraftKings,2.5,1.5,-112.0,55.5,58.5,110.0,-102.0,-130.0,-118.0,,2226,151,2.5,ok
+2026-11-27T22:41-05:00,401870804,Sat 11-28 01:00 PM,Kennesaw State Owls,Western Kentucky Hilltoppers,KENN,WKU,DraftKings,-1.5,-3.5,-108.0,53.5,53.5,-118.0,-170.0,-102.0,142.0,,338,98,-1.5,ok
+2026-11-27T22:41-05:00,401871102,Sat 11-28 01:00 PM,Marshall Thundering Herd,UL Monroe Warhawks,MRSH,ULM,DraftKings,-4.0,-6.5,-112.0,49.5,51.5,-175.0,-230.0,145.0,190.0,,276,2433,-4.0,ok
+2026-11-27T22:41-05:00,401871103,Sat 11-28 01:00 PM,Southern Miss Golden Eagles,Old Dominion Monarchs,USM,ODU,DraftKings,4.5,5.5,-110.0,50.5,49.5,150.0,180.0,-180.0,-218.0,,2572,295,4.5,ok
+2026-11-27T22:41-05:00,401856875,Sat 11-28 02:00 PM,UCF Knights,Colorado Buffaloes,UCF,COLO,DraftKings,1.5,2.5,-112.0,50.5,47.5,-105.0,110.0,-115.0,-130.0,,2116,38,1.5,ok
+2026-11-27T22:41-05:00,401856878,Sat 11-28 02:00 PM,Kansas State Wildcats,Iowa State Cyclones,KSU,ISU,DraftKings,5.5,4.0,-102.0,54.5,52.5,154.0,160.0,-185.0,-192.0,,2306,66,5.5,ok
+2026-11-27T22:41-05:00,401862841,Sat 11-28 02:00 PM,Army Black Knights,Rice Owls,ARMY,RICE,DraftKings,-7.5,-4.5,-112.0,50.5,46.5,-298.0,-198.0,240.0,164.0,,349,242,-7.5,ok
+2026-11-27T22:41-05:00,401869947,Sat 11-28 02:00 PM,Coastal Carolina Chanticleers,James Madison Dukes,CCU,JMU,DraftKings,13.5,17.5,-112.0,55.5,54.5,500.0,625.0,-700.0,-950.0,,324,256,13.5,ok
+2026-11-27T22:41-05:00,401869959,Sat 11-28 02:00 PM,Louisiana Ragin' Cajuns,Georgia State Panthers,UL,GAST,DraftKings,-3.0,-4.5,-112.0,56.5,55.5,-142.0,-198.0,120.0,164.0,,309,2247,-3.0,ok
+2026-11-27T22:41-05:00,401871063,Sat 11-28 02:00 PM,Liberty Flames,Missouri State Bears,LIB,MOST,DraftKings,-14.5,-18.5,-105.0,51.5,52.5,-575.0,-1000.0,425.0,650.0,,2335,2623,-14.5,ok
+2026-11-27T22:41-05:00,401871082,Sat 11-28 02:00 PM,Sam Houston Bearkats,Florida International Panthers,SHSU,FIU,DraftKings,10.5,11.5,-110.0,39.5,41.5,310.0,360.0,-395.0,-470.0,,2534,2229,10.5,ok
+2026-11-27T22:41-05:00,401871083,Sat 11-28 02:00 PM,New Mexico State Aggies,Middle Tennessee Blue Raiders,NMSU,MTSU,DraftKings,3.5,3.0,100.0,52.5,51.5,145.0,140.0,-175.0,-166.0,,166,2393,3.5,ok
+2026-11-27T22:41-05:00,401856764,Sat 11-28 03:00 PM,South Carolina Gamecocks,Clemson Tigers,SC,CLEM,DraftKings,3.0,-6.5,-112.0,53.5,42.5,130.0,-250.0,-155.0,205.0,,2579,228,3.0,ok
+2026-11-27T22:41-05:00,401858317,Sat 11-28 03:00 PM,Virginia Cavaliers,Virginia Tech Hokies,UVA,VT,DraftKings,1.5,3.0,-112.0,53.5,50.5,105.0,130.0,-125.0,-155.0,,258,259,1.5,ok
+2026-11-27T22:41-05:00,401869939,Sat 11-28 03:00 PM,Troy Trojans,Arkansas State Red Wolves,TROY,ARST,DraftKings,3.5,3.5,-108.0,46.5,46.5,140.0,154.0,-166.0,-185.0,,2653,2032,3.5,ok
+2026-11-27T22:41-05:00,401856760,Sat 11-28 03:30 PM,Georgia Tech Yellow Jackets,Georgia Bulldogs,GT,UGA,DraftKings,35.5,35.5,-110.0,55.5,55.5,4000.0,2200.0,-50000.0,-8000.0,,59,61,35.5,ok
+2026-11-27T22:41-05:00,401858312,Sat 11-28 03:30 PM,Duke Blue Devils,Wake Forest Demon Deacons,DUKE,WAKE,DraftKings,10.5,14.5,-112.0,52.5,55.5,280.0,470.0,-355.0,-650.0,,150,154,10.5,ok
+2026-11-27T22:41-05:00,401858543,Sat 11-28 03:30 PM,USC Trojans,UCLA Bruins,USC,UCLA,DraftKings,-11.5,-4.5,-115.0,55.5,46.5,-425.0,-205.0,330.0,170.0,,30,26,-11.5,ok
+2026-11-27T22:41-05:00,401856876,Sat 11-28 03:30 PM,Cincinnati Bearcats,BYU Cougars,CIN,BYU,DraftKings,12.5,16.5,-108.0,56.5,55.5,380.0,550.0,-500.0,-800.0,,2132,252,12.5,ok
+2026-11-27T22:41-05:00,401858316,Sat 11-28 03:30 PM,SMU Mustangs,Stanford Cardinal,SMU,STAN,DraftKings,-10.0,-7.5,-105.0,60.5,60.5,-340.0,-285.0,270.0,230.0,,2567,24,-10.0,ok
+2026-11-27T22:41-05:00,401858539,Sat 11-28 03:30 PM,Penn State Nittany Lions,Maryland Terrapins,PSU,MD,DraftKings,-7.5,-7.5,-105.0,49.5,48.5,-290.0,-290.0,235.0,235.0,,213,120,-7.5,ok
+2026-11-27T22:41-05:00,401862839,Sat 11-28 03:30 PM,Tulane Green Wave,South Florida Bulls,TULN,USF,DraftKings,8.5,6.5,-112.0,45.5,44.5,245.0,195.0,-305.0,-238.0,,2655,58,8.5,ok
+2026-11-27T22:41-05:00,401864550,Sat 11-28 03:30 PM,UTEP Miners,Northern Illinois Huskies,UTEP,NIU,DraftKings,4.5,4.5,-112.0,49.5,50.5,154.0,160.0,-185.0,-192.0,,2638,2459,4.5,ok
+2026-11-27T22:41-05:00,401866475,Sat 11-28 03:30 PM,Massachusetts Minutemen,Bowling Green Falcons,MASS,BGSU,DraftKings,1.5,3.0,100.0,43.5,41.5,-102.0,136.0,-118.0,-162.0,,113,189,1.5,ok
+2026-11-27T22:41-05:00,401871062,Sat 11-28 03:30 PM,Jacksonville State Gamecocks,Delaware Blue Hens,JXST,DEL,DraftKings,1.5,2.5,-105.0,57.5,57.5,-105.0,120.0,-115.0,-142.0,,55,48,1.5,ok
+2026-11-27T22:41-05:00,401862843,Sat 11-28 04:00 PM,UAB Blazers,North Texas Mean Green,UAB,UNT,DraftKings,4.5,2.5,-105.0,48.5,45.5,150.0,120.0,-180.0,-142.0,,5,249,4.5,ok
+2026-11-27T22:41-05:00,401856763,Sat 11-28 04:15 PM,Oklahoma Sooners,Missouri Tigers,OU,MIZ,DraftKings,1.5,1.5,-105.0,42.5,41.5,-102.0,105.0,-118.0,-125.0,,201,142,1.5,ok
+2026-11-27T22:41-05:00,401858542,Sat 11-28 04:15 PM,Michigan State Spartans,Rutgers Scarlet Knights,MSU,RUTG,DraftKings,-3.5,-2.5,-115.0,48.5,45.5,-142.0,-135.0,120.0,114.0,,127,164,-3.5,ok
+2026-11-27T22:41-05:00,401860926,Sat 11-28 06:00 PM,Boise State Broncos,Colorado State Rams,BOIS,CSU,DraftKings,-21.0,-21.0,-118.0,75.5,76.5,-1800.0,-1800.0,1000.0,1000.0,,68,36,-21.0,ok
+2026-11-27T22:41-05:00,401856877,Sat 11-28 06:15 PM,Kansas Jayhawks,Oklahoma State Cowboys,KU,OKST,DraftKings,6.5,6.0,-110.0,67.5,65.5,185.0,185.0,-225.0,-225.0,,2305,197,6.5,ok
+2026-11-27T22:41-05:00,401860929,Sat 11-28 06:30 PM,San Diego State Aztecs,Washington State Cougars,SDSU,WSU,DraftKings,-3.0,3.0,-115.0,46.5,46.5,-148.0,124.0,124.0,-148.0,,21,265,-3.0,ok
+2026-11-27T22:41-05:00,401856765,Sat 11-28 07:00 PM,Tennessee Volunteers,Vanderbilt Commodores,TENN,VAN,DraftKings,-3.0,-13.5,-110.0,57.5,43.5,-155.0,-550.0,130.0,410.0,,2633,238,-3.0,ok
+2026-11-27T22:41-05:00,401858538,Sat 11-28 07:00 PM,Purdue Boilermakers,Indiana Hoosiers,PUR,IU,DraftKings,22.5,23.5,-112.0,52.5,52.5,750.0,1200.0,-1200.0,-2400.0,,2509,84,22.5,ok
+2026-11-27T22:41-05:00,401856757,Sat 11-28 07:30 PM,Auburn Tigers,Alabama Crimson Tide,AUB,ALA,DraftKings,10.0,14.5,-110.0,52.5,50.5,320.0,490.0,-410.0,-675.0,,2,333,10.0,ok
+2026-11-27T22:41-05:00,401858541,Sat 11-28 07:30 PM,Washington Huskies,Oregon Ducks,WASH,ORE,DraftKings,15.5,13.5,-108.0,54.5,51.5,455.0,455.0,-625.0,-625.0,,264,2483,15.5,ok
+2026-11-27T22:41-05:00,401858315,Sat 11-28 07:30 PM,Pittsburgh Panthers,California Golden Bears,PITT,CAL,DraftKings,7.5,-9.5,-110.0,47.5,47.5,235.0,-355.0,-290.0,280.0,,221,25,7.5,ok
+2026-11-27T22:41-05:00,401856873,Sat 11-28 09:00 PM,Arizona State Sun Devils,Arizona Wildcats,ASU,ARIZ,DraftKings,4.5,9.5,-112.0,52.5,53.5,180.0,260.0,-218.0,-325.0,,9,12,4.5,ok
+2026-11-27T22:41-05:00,401864548,Sat 11-28 09:00 PM,Nevada Wolf Pack,UNLV Rebels,NEV,UNLV,DraftKings,4.5,5.5,-110.0,45.5,44.5,154.0,185.0,-185.0,-225.0,,2440,2439,4.5,ok
+2026-11-27T22:41-05:00,401856874,Sat 11-28 09:30 PM,Baylor Bears,Houston Cougars,BAY,HOU,DraftKings,4.5,3.5,-115.0,54.5,55.5,154.0,145.0,-185.0,-175.0,,239,248,4.5,ok
+2026-11-27T22:41-05:00,401860928,Sat 11-28 09:30 PM,Texas State Bobcats,Utah State Aggies,TXST,USU,DraftKings,-7.5,-7.5,-105.0,53.5,52.5,-285.0,-305.0,230.0,245.0,,326,328,-7.5,ok
+2026-11-27T22:41-05:00,401860927,Sat 11-28 10:00 PM,Oregon State Beavers,Fresno State Bulldogs,ORST,FRES,DraftKings,1.5,3.0,-112.0,56.5,58.5,-108.0,124.0,-112.0,-148.0,,204,278,1.5,ok
+2026-11-27T22:41-05:00,401864547,Sat 11-28 11:00 PM,Sacramento State Hornets,Hawai'i Rainbow Warriors,SAC,HAW,DraftKings,14.5,13.5,-108.0,44.5,39.5,455.0,425.0,-625.0,-575.0,,16,62,14.5,ok
